@@ -21762,106 +21762,106 @@ msgstr "Nốt trắng"
 #: activities/piano_composition/OptionsRow.qml:23
 msgctxt "OptionsRow|"
 msgid "Quarter note"
-msgstr ""
+msgstr "Nốt đen"
 
 #: activities/piano_composition/OptionsRow.qml:23
 msgctxt "OptionsRow|"
 msgid "Eighth note"
-msgstr ""
+msgstr "Nốt móc đơn"
 
 #. Whole rest, Half rest, Quarter rest and Eighth rest are the different
 #. length rests (silences) in the musical notation.
 #: activities/piano_composition/OptionsRow.qml:26
 msgctxt "OptionsRow|"
 msgid "Whole rest added"
-msgstr ""
+msgstr "Đã thêm dấu lặng tròn"
 
 #: activities/piano_composition/OptionsRow.qml:26
 msgctxt "OptionsRow|"
 msgid "Half rest added"
-msgstr ""
+msgstr "Đã thêm dấu lặng trắng"
 
 #: activities/piano_composition/OptionsRow.qml:26
 msgctxt "OptionsRow|"
 msgid "Quarter rest added"
-msgstr ""
+msgstr "Đã thêm dấu lặng đen"
 
 #: activities/piano_composition/OptionsRow.qml:26
 msgctxt "OptionsRow|"
 msgid "Eighth rest added"
-msgstr ""
+msgstr "Đã thêm dấu lặng đơn"
 
 #: activities/piano_composition/OptionsRow.qml:27
 msgctxt "OptionsRow|"
 msgid "Whole rest"
-msgstr ""
+msgstr "Dấu lặng tròn"
 
 #: activities/piano_composition/OptionsRow.qml:27
 msgctxt "OptionsRow|"
 msgid "Half rest"
-msgstr ""
+msgstr "Dấu lặng trắng"
 
 #: activities/piano_composition/OptionsRow.qml:27
 msgctxt "OptionsRow|"
 msgid "Quarter rest"
-msgstr ""
+msgstr "Dấu lặng đen"
 
 #: activities/piano_composition/OptionsRow.qml:27
 msgctxt "OptionsRow|"
 msgid "Eighth rest"
-msgstr ""
+msgstr "Dấu lặng đơn"
 
 #: activities/piano_composition/OptionsRow.qml:28
 msgctxt "OptionsRow|"
 msgid "Piano"
-msgstr ""
+msgstr "Dương cầm"
 
 #: activities/piano_composition/OptionsRow.qml:28
 msgctxt "OptionsRow|"
 msgid "Lyrics"
-msgstr ""
+msgstr "Lời bài hát"
 
 #: activities/piano_composition/OptionsRow.qml:60
 msgctxt "OptionsRow|"
 msgid "Play melody"
-msgstr ""
+msgstr "Phát giai điệu"
 
 #: activities/piano_composition/OptionsRow.qml:98
 msgctxt "OptionsRow|"
 msgid "Undo"
-msgstr ""
+msgstr "Hoàn tác"
 
 #. Sharp notes and Flat notes represents the accidental style of the notes in
 #. the music.
 #: activities/piano_composition/OptionsRow.qml:165
 msgctxt "OptionsRow|"
 msgid "Sharp notes"
-msgstr ""
+msgstr "Nốt thăng"
 
 #: activities/piano_composition/OptionsRow.qml:165
 msgctxt "OptionsRow|"
 msgid "Flat notes"
-msgstr ""
+msgstr "Nốt giáng"
 
 #: activities/piano_composition/piano_composition.js:23
 msgctxt "piano_composition|"
 msgid "This is the treble clef staff for high pitched notes."
-msgstr ""
+msgstr "Đây là khuông nhạc khoá Sol, dành cho các nốt cao."
 
 #: activities/piano_composition/piano_composition.js:26
 msgctxt "piano_composition|"
 msgid "This is the bass clef staff for low pitched notes."
-msgstr ""
+msgstr "Đây là khuông nhạc khoá Fa, dành cho các nốt trầm."
 
 #: activities/piano_composition/piano_composition.js:29
 msgctxt "piano_composition|"
 msgid "The black keys are sharp and flat keys. Sharp notes have a ♯ sign."
-msgstr ""
+msgstr "Các phím đen là nốt thăng và nốt giáng. Nốt thăng có dấu ♯."
 
 #: activities/piano_composition/piano_composition.js:32
 msgctxt "piano_composition|"
 msgid "Each black key has two names: flat and sharp. Flat notes have ♭ sign."
-msgstr ""
+msgstr "Mỗi phím đen có hai tên: giáng và thăng. Nốt giáng có dấu ♭."
 
 #: activities/piano_composition/piano_composition.js:35
 msgctxt "piano_composition|"
@@ -21869,6 +21869,8 @@ msgid ""
 "Click on the note symbol to write different length notes such as whole "
 "notes, half notes, quarter notes and eighth notes."
 msgstr ""
+"Bấm vào ký hiệu nốt để viết các nốt có trường độ khác nhau: nốt tròn, nốt "
+"trắng, nốt đen và nốt móc đơn."
 
 #: activities/piano_composition/piano_composition.js:38
 msgctxt "piano_composition|"
@@ -21877,53 +21879,55 @@ msgid ""
 "the rest symbol to select the rest length and then click on the add button "
 "to enter it to the staff."
 msgstr ""
+"Dấu lặng là quãng im lặng, dài bằng nốt tương ứng. Bấm vào ký hiệu dấu lặng "
+"để chọn độ dài rồi bấm nút thêm để đặt nó lên khuông nhạc."
 
 #: activities/piano_composition/piano_composition.js:41
 msgctxt "piano_composition|"
 msgid "Now you can load music and also save your compositions."
-msgstr ""
+msgstr "Giờ con mở được bản nhạc và lưu được bản nhạc của mình."
 
 #: activities/piano_composition/piano_composition.js:62
 #, qt-format
 msgctxt "piano_composition|"
 msgid "Error saving melody to your file (%1)"
-msgstr ""
+msgstr "Lỗi khi lưu giai điệu vào tệp của bạn (%1)"
 
 #: activities/piano_composition/piano_composition.js:67
 #, qt-format
 msgctxt "piano_composition|"
 msgid "Melody saved to your file (%1)"
-msgstr ""
+msgstr "Đã lưu giai điệu vào tệp của bạn (%1)"
 
 #: activities/piano_composition/Piano_composition.qml:378
 msgctxt "Piano_composition|"
 msgid "You have not selected any note. Do you want to erase all the notes?"
-msgstr ""
+msgstr "Con chưa chọn nốt nào. Con có muốn xoá hết các nốt không?"
 
 #: activities/piano_composition/Piano_composition.qml:379
 msgctxt "Piano_composition|"
 msgid "Yes"
-msgstr ""
+msgstr "Có"
 
 #: activities/piano_composition/Piano_composition.qml:385
 msgctxt "Piano_composition|"
 msgid "No"
-msgstr ""
+msgstr "Không"
 
 #: activities/piano_composition/Piano_composition.qml:432
 msgctxt "Piano_composition|"
 msgid "Select the type of melody to load."
-msgstr ""
+msgstr "Chọn loại giai điệu muốn mở."
 
 #: activities/piano_composition/Piano_composition.qml:437
 msgctxt "Piano_composition|"
 msgid "Pre-defined melodies"
-msgstr ""
+msgstr "Giai điệu có sẵn"
 
 #: activities/piano_composition/Piano_composition.qml:455
 msgctxt "Piano_composition|"
 msgid "Your saved melodies"
-msgstr ""
+msgstr "Giai điệu con đã lưu"
 
 #: activities/piano_composition/Piano_composition.qml:559
 msgctxt "Piano_composition|"
@@ -21931,16 +21935,18 @@ msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
 "voices or effects are disabled in the main configuration."
 msgstr ""
+"Hoạt động này cần âm thanh, nên vẫn sẽ phát tiếng dù giọng đọc hay hiệu ứng "
+"đã bị tắt trong phần cài đặt chung."
 
 #: activities/piano_composition/Piano_composition.qml:560
 msgctxt "Piano_composition|"
 msgid "Quit"
-msgstr ""
+msgstr "Thoát"
 
 #: activities/piano_composition/Piano_composition.qml:561
 msgctxt "Piano_composition|"
 msgid "Continue"
-msgstr ""
+msgstr "Chơi tiếp"
 
 #. Translators, C, D, E, F, G, A and B are the note notations in English
 #. musical notation system. The numbers in the arguments represents the octave
@@ -21954,7 +21960,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "F%1"
-msgstr ""
+msgstr "Fa%1"
 
 #: activities/piano_composition/PianoOctaveKeyboard.qml:42
 #: activities/piano_composition/PianoOctaveKeyboard.qml:49
@@ -21964,7 +21970,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "G%1"
-msgstr ""
+msgstr "Sol%1"
 
 #: activities/piano_composition/PianoOctaveKeyboard.qml:43
 #: activities/piano_composition/PianoOctaveKeyboard.qml:50
@@ -21974,7 +21980,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "A%1"
-msgstr ""
+msgstr "La%1"
 
 #: activities/piano_composition/PianoOctaveKeyboard.qml:44
 #: activities/piano_composition/PianoOctaveKeyboard.qml:51
@@ -21984,7 +21990,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "B%1"
-msgstr ""
+msgstr "Si%1"
 
 #: activities/piano_composition/PianoOctaveKeyboard.qml:45
 #: activities/piano_composition/PianoOctaveKeyboard.qml:52
@@ -21994,7 +22000,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "C%1"
-msgstr ""
+msgstr "Đô%1"
 
 #: activities/piano_composition/PianoOctaveKeyboard.qml:46
 #: activities/piano_composition/PianoOctaveKeyboard.qml:53
@@ -22004,7 +22010,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "D%1"
-msgstr ""
+msgstr "Rê%1"
 
 #: activities/piano_composition/PianoOctaveKeyboard.qml:47
 #: activities/piano_composition/PianoOctaveKeyboard.qml:54
@@ -22014,7 +22020,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "E%1"
-msgstr ""
+msgstr "Mi%1"
 
 #. Translators, C♯, D♯, F♯, G♯, and A♯ are the note notations in English
 #. musical notation system. The numbers in the arguments represents the octave
@@ -22027,7 +22033,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "F♯%1"
-msgstr ""
+msgstr "Fa♯%1"
 
 #: activities/piano_composition/PianoOctaveKeyboard.qml:82
 #: activities/piano_composition/PianoOctaveKeyboard.qml:87
@@ -22037,7 +22043,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "G♯%1"
-msgstr ""
+msgstr "Sol♯%1"
 
 #: activities/piano_composition/PianoOctaveKeyboard.qml:83
 #: activities/piano_composition/PianoOctaveKeyboard.qml:88
@@ -22047,7 +22053,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "A♯%1"
-msgstr ""
+msgstr "La♯%1"
 
 #: activities/piano_composition/PianoOctaveKeyboard.qml:84
 #: activities/piano_composition/PianoOctaveKeyboard.qml:89
@@ -22057,7 +22063,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "C♯%1"
-msgstr ""
+msgstr "Đô♯%1"
 
 #: activities/piano_composition/PianoOctaveKeyboard.qml:85
 #: activities/piano_composition/PianoOctaveKeyboard.qml:90
@@ -22067,7 +22073,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "D♯%1"
-msgstr ""
+msgstr "Rê♯%1"
 
 #. Translators, D♭, E♭, G♭, A♭, B♭ are the note notations in English musical
 #. notation system. The numbers in the arguments represents the octave number
@@ -22080,7 +22086,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "G♭%1"
-msgstr ""
+msgstr "Sol♭%1"
 
 #: activities/piano_composition/PianoOctaveKeyboard.qml:111
 #: activities/piano_composition/PianoOctaveKeyboard.qml:116
@@ -22090,7 +22096,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "A♭%1"
-msgstr ""
+msgstr "La♭%1"
 
 #: activities/piano_composition/PianoOctaveKeyboard.qml:112
 #: activities/piano_composition/PianoOctaveKeyboard.qml:117
@@ -22100,7 +22106,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "B♭%1"
-msgstr ""
+msgstr "Si♭%1"
 
 #: activities/piano_composition/PianoOctaveKeyboard.qml:113
 #: activities/piano_composition/PianoOctaveKeyboard.qml:118
@@ -22110,7 +22116,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "D♭%1"
-msgstr ""
+msgstr "Rê♭%1"
 
 #: activities/piano_composition/PianoOctaveKeyboard.qml:114
 #: activities/piano_composition/PianoOctaveKeyboard.qml:119
@@ -22120,7 +22126,7 @@ msgstr ""
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "E♭%1"
-msgstr ""
+msgstr "Mi♭%1"
 
 #. Activity title
 #: activities/planegame/ActivityInfo.qml:15
@@ -22153,22 +22159,22 @@ msgstr ""
 #: activities/planegame/Sequence.qml:13
 msgctxt "Sequence|"
 msgid "Catch the numbers starting from 0."
-msgstr ""
+msgstr "Bắt các số bắt đầu từ 0."
 
 #: activities/planegame/Sequence.qml:14
 msgctxt "Sequence|"
 msgid "Catch the numbers starting from 10."
-msgstr ""
+msgstr "Bắt các số bắt đầu từ 10."
 
 #: activities/play_piano/ActivityConfig.qml:35
 msgctxt "ActivityConfig|"
 msgid "Display colored notes."
-msgstr ""
+msgstr "Hiện nốt có màu."
 
 #: activities/play_piano/ActivityConfig.qml:47
 msgctxt "ActivityConfig|"
 msgid "Display colorless notes."
-msgstr ""
+msgstr "Hiện nốt không màu."
 
 #. Activity title
 #: activities/play_piano/ActivityInfo.qml:19
@@ -22211,16 +22217,18 @@ msgid ""
 "On levels 1 to 5 you will practice treble clef notes and on levels 6 to 10 "
 "you will practice bass clef notes."
 msgstr ""
+"Từ cấp 1 tới cấp 5 con luyện nốt ở khoá Sol, từ cấp 6 tới cấp 10 con luyện "
+"nốt ở khoá Fa."
 
 #: activities/play_piano/ActivityInfo.qml:34
 msgctxt "ActivityInfo|"
 msgid "Backspace or Delete: undo"
-msgstr ""
+msgstr "Phím xoá lùi hoặc Delete: hoàn tác"
 
 #: activities/play_piano/PlayPiano.qml:196
 msgctxt "PlayPiano|"
 msgid "Click on the piano keys that match the given notes."
-msgstr ""
+msgstr "Bấm các phím đàn ứng với những nốt đã cho."
 
 #: activities/play_piano/PlayPiano.qml:329
 msgctxt "PlayPiano|"
@@ -22228,16 +22236,18 @@ msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
 "voices or effects are disabled in the main configuration."
 msgstr ""
+"Hoạt động này cần âm thanh, nên vẫn sẽ phát tiếng dù giọng đọc hay hiệu ứng "
+"đã bị tắt trong phần cài đặt chung."
 
 #: activities/play_piano/PlayPiano.qml:330
 msgctxt "PlayPiano|"
 msgid "Quit"
-msgstr ""
+msgstr "Thoát"
 
 #: activities/play_piano/PlayPiano.qml:331
 msgctxt "PlayPiano|"
 msgid "Continue"
-msgstr ""
+msgstr "Chơi tiếp"
 
 #. Activity title
 #: activities/play_rhythm/ActivityInfo.qml:19
@@ -22278,6 +22288,8 @@ msgid ""
 "Odd levels display a vertical line on the staff following the rhythm: click "
 "on the drum when the line is in the middle of the notes."
 msgstr ""
+"Ở các cấp lẻ, một vạch dọc chạy trên khuông nhạc theo nhịp: hãy gõ trống khi"
+" vạch nằm giữa các nốt."
 
 #: activities/play_rhythm/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
@@ -22286,31 +22298,34 @@ msgid ""
 " notes length and play the rhythm accordingly. You can also click on the "
 "metronome to hear the quarter notes as reference."
 msgstr ""
+"Các cấp chẵn khó hơn vì không có vạch dọc. Con phải tự đọc trường độ các nốt"
+" rồi gõ đúng nhịp. Con cũng có thể bấm vào máy đếm nhịp để nghe nốt đen làm "
+"mốc."
 
 #: activities/play_rhythm/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
 msgid "Click on the reload button if you want to replay the rhythm."
-msgstr ""
+msgstr "Bấm nút mũi tên vòng nếu con muốn nghe lại nhịp."
 
 #: activities/play_rhythm/ActivityInfo.qml:33
 msgctxt "ActivityInfo|"
 msgid "Space bar: click on the drum"
-msgstr ""
+msgstr "Phím cách: gõ trống"
 
 #: activities/play_rhythm/ActivityInfo.qml:34
 msgctxt "ActivityInfo|"
 msgid "Enter or Return: replay the rhythm"
-msgstr ""
+msgstr "Enter: nghe lại nhịp"
 
 #: activities/play_rhythm/ActivityInfo.qml:35
 msgctxt "ActivityInfo|"
 msgid "Up and Down: increase or decrease the tempo"
-msgstr ""
+msgstr "Phím lên và xuống: tăng hoặc giảm tốc độ"
 
 #: activities/play_rhythm/ActivityInfo.qml:36
 msgctxt "ActivityInfo|"
 msgid "Tab: Start or stop the metronome if it is visible"
-msgstr ""
+msgstr "Tab: bật hoặc tắt máy đếm nhịp nếu nó đang hiện"
 
 #: activities/play_rhythm/PlayRhythm.qml:131
 msgctxt "PlayRhythm|"
@@ -22318,13 +22333,14 @@ msgid ""
 "Use the metronome to estimate the time intervals and play the rhythm "
 "correctly."
 msgstr ""
+"Dùng máy đếm nhịp để ước lượng khoảng cách thời gian rồi gõ cho đúng nhịp."
 
 #: activities/play_rhythm/PlayRhythm.qml:132
 msgctxt "PlayRhythm|"
 msgid ""
 "Follow the vertical line and click on the drum or press space key to play "
 "the rhythm correctly."
-msgstr ""
+msgstr "Nhìn theo vạch dọc rồi gõ trống hoặc bấm phím cách để chơi đúng nhịp."
 
 #: activities/play_rhythm/PlayRhythm.qml:416
 msgctxt "PlayRhythm|"
@@ -22332,16 +22348,18 @@ msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
 "voices or effects are disabled in the main configuration."
 msgstr ""
+"Hoạt động này cần âm thanh, nên vẫn sẽ phát tiếng dù giọng đọc hay hiệu ứng "
+"đã bị tắt trong phần cài đặt chung."
 
 #: activities/play_rhythm/PlayRhythm.qml:417
 msgctxt "PlayRhythm|"
 msgid "Quit"
-msgstr ""
+msgstr "Thoát"
 
 #: activities/play_rhythm/PlayRhythm.qml:418
 msgctxt "PlayRhythm|"
 msgid "Continue"
-msgstr ""
+msgstr "Chơi tiếp"
 
 #. Activity title
 #: activities/positions/ActivityInfo.qml:15
@@ -22373,115 +22391,115 @@ msgstr ""
 #: activities/positions/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Space or Enter: validate selected answer"
-msgstr ""
+msgstr "Phím cách hoặc Enter: xác nhận câu trả lời đang chọn"
 
 #: activities/positions/resource/1/Data.qml:14
 msgctxt "Data|"
 msgid "Basic positions."
-msgstr ""
+msgstr "Các vị trí cơ bản."
 
 #. it refers to the next to position
 #: activities/positions/resource/1/Data.qml:20
 msgctxt "Data|"
 msgid "beside"
-msgstr ""
+msgstr "bên cạnh"
 
 #: activities/positions/resource/1/Data.qml:21
 msgctxt "Data|"
 msgid "Select the image where the child is beside the box."
-msgstr ""
+msgstr "Chọn bức hình có cậu bé đứng bên cạnh cái hộp."
 
 #. it refers to the behind position
 #: activities/positions/resource/1/Data.qml:26
 #: activities/positions/resource/2/Data.qml:32
 msgctxt "Data|"
 msgid "behind"
-msgstr ""
+msgstr "đằng sau"
 
 #: activities/positions/resource/1/Data.qml:27
 #: activities/positions/resource/2/Data.qml:33
 msgctxt "Data|"
 msgid "Select the image where the child is behind the box."
-msgstr ""
+msgstr "Chọn bức hình có cậu bé đứng đằng sau cái hộp."
 
 #. it refers to the in front of position
 #: activities/positions/resource/1/Data.qml:32
 #: activities/positions/resource/2/Data.qml:38
 msgctxt "Data|"
 msgid "in front of"
-msgstr ""
+msgstr "đằng trước"
 
 #: activities/positions/resource/1/Data.qml:33
 #: activities/positions/resource/2/Data.qml:39
 msgctxt "Data|"
 msgid "Select the image where the child is in front of the box."
-msgstr ""
+msgstr "Chọn bức hình có cậu bé đứng đằng trước cái hộp."
 
 #. it refers to the inside position
 #: activities/positions/resource/1/Data.qml:38
 #: activities/positions/resource/2/Data.qml:44
 msgctxt "Data|"
 msgid "inside"
-msgstr ""
+msgstr "bên trong"
 
 #: activities/positions/resource/1/Data.qml:39
 #: activities/positions/resource/2/Data.qml:45
 msgctxt "Data|"
 msgid "Select the image where the child is inside the box."
-msgstr ""
+msgstr "Chọn bức hình có cậu bé ở bên trong cái hộp."
 
 #. it refers to the above position
 #: activities/positions/resource/1/Data.qml:44
 #: activities/positions/resource/2/Data.qml:50
 msgctxt "Data|"
 msgid "above"
-msgstr ""
+msgstr "bên trên"
 
 #: activities/positions/resource/1/Data.qml:45
 #: activities/positions/resource/2/Data.qml:51
 msgctxt "Data|"
 msgid "Select the image where the child is above the box."
-msgstr ""
+msgstr "Chọn bức hình có cậu bé ở bên trên cái hộp."
 
 #. it refers to the beneath position
 #: activities/positions/resource/1/Data.qml:50
 #: activities/positions/resource/2/Data.qml:56
 msgctxt "Data|"
 msgid "under"
-msgstr ""
+msgstr "bên dưới"
 
 #: activities/positions/resource/1/Data.qml:51
 #: activities/positions/resource/2/Data.qml:57
 msgctxt "Data|"
 msgid "Select the image where the child is under the box."
-msgstr ""
+msgstr "Chọn bức hình có cậu bé ở bên dưới cái hộp."
 
 #: activities/positions/resource/2/Data.qml:14
 msgctxt "Data|"
 msgid "All positions (with left and right)."
-msgstr ""
+msgstr "Đủ mọi vị trí (có cả trái và phải)."
 
 #. it refers to the position on the right side
 #: activities/positions/resource/2/Data.qml:20
 msgctxt "Data|"
 msgid "right"
-msgstr ""
+msgstr "bên phải"
 
 #: activities/positions/resource/2/Data.qml:21
 msgctxt "Data|"
 msgid "Select the image where the child is at the right of the box."
-msgstr ""
+msgstr "Chọn bức hình có cậu bé ở bên phải cái hộp."
 
 #. it refers to the position on the left side
 #: activities/positions/resource/2/Data.qml:26
 msgctxt "Data|"
 msgid "left"
-msgstr ""
+msgstr "bên trái"
 
 #: activities/positions/resource/2/Data.qml:27
 msgctxt "Data|"
 msgid "Select the image where the child is at the left of the box."
-msgstr ""
+msgstr "Chọn bức hình có cậu bé ở bên trái cái hộp."
 
 #. Activity title
 #: activities/programmingMaze/ActivityInfo.qml:16
@@ -22518,7 +22536,7 @@ msgstr ""
 #: activities/programmingMaze/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Left and Right arrows: navigate inside selected area"
-msgstr ""
+msgstr "Mũi tên trái và phải: di chuyển trong vùng đang chọn"
 
 #: activities/programmingMaze/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
@@ -22526,6 +22544,7 @@ msgid ""
 "Up and Down arrows: increase or decrease the loop counter if the loop area "
 "is selected"
 msgstr ""
+"Mũi tên lên và xuống: tăng hoặc giảm số vòng lặp nếu đang ở vùng vòng lặp"
 
 #: activities/programmingMaze/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
@@ -22533,21 +22552,28 @@ msgid ""
 "Space: select an instruction or append selected instruction in "
 "main/procedure/loop area"
 msgstr ""
+"Phím cách: chọn một lệnh, hoặc thêm lệnh đang chọn vào vùng chính, vùng thủ "
+"tục hay vùng vòng lặp"
 
 #: activities/programmingMaze/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
 msgid "Tab: switch between instructions area and main/procedure/loop area"
 msgstr ""
+"Tab: chuyển qua lại giữa vùng lệnh và vùng chính, vùng thủ tục hay vùng vòng"
+" lặp"
 
 #: activities/programmingMaze/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
 msgid "Delete: remove selected instruction from main/procedure/loop area"
 msgstr ""
+"Delete: bỏ lệnh đang chọn khỏi vùng chính, vùng thủ tục hay vùng vòng lặp"
 
 #: activities/programmingMaze/ActivityInfo.qml:32
 msgctxt "ActivityInfo|"
 msgid "Enter: run the code or reset Tux when it fails to reach the fish"
 msgstr ""
+"Enter: chạy chương trình, hoặc đưa Tux về chỗ cũ khi không tới được chỗ con "
+"cá"
 
 #: activities/programmingMaze/ActivityInfo.qml:33
 msgctxt "ActivityInfo|"
@@ -22556,6 +22582,8 @@ msgid ""
 "instructions area, then switch to the main/procedure/loop area and press "
 "Space."
 msgstr ""
+"Muốn thêm một lệnh vào vùng chính, vùng thủ tục hay vùng vòng lặp thì chọn "
+"nó ở vùng lệnh, rồi chuyển sang vùng đó và bấm phím cách."
 
 #: activities/programmingMaze/ActivityInfo.qml:34
 msgctxt "ActivityInfo|"
@@ -22564,70 +22592,72 @@ msgid ""
 "main/procedure/loop area, then switch to instructions area, choose the new "
 "instruction and press Space."
 msgstr ""
+"Muốn sửa một lệnh trong vùng chính, vùng thủ tục hay vùng vòng lặp thì chọn "
+"nó ở vùng đó, rồi chuyển sang vùng lệnh, chọn lệnh mới và bấm phím cách."
 
 #: activities/programmingMaze/InstructionArea.qml:22
 msgctxt "InstructionArea|"
 msgid "Choose the instructions"
-msgstr ""
+msgstr "Chọn các lệnh"
 
 #: activities/programmingMaze/ProgrammingMaze.qml:231
 #, qt-format
 msgctxt "ProgrammingMaze|"
 msgid "Reach the fish in less than %1 instructions."
-msgstr ""
+msgstr "Tới được chỗ con cá trong vòng ít hơn %1 lệnh."
 
 #: activities/programmingMaze/ProgrammingMaze.qml:267
 msgctxt "ProgrammingMaze|"
 msgid "Main function"
-msgstr ""
+msgstr "Hàm chính"
 
 #: activities/programmingMaze/ProgrammingMaze.qml:301
 msgctxt "ProgrammingMaze|"
 msgid "Procedure"
-msgstr ""
+msgstr "Thủ tục"
 
 #: activities/programmingMaze/ProgrammingMaze.qml:301
 msgctxt "ProgrammingMaze|"
 msgid "Loop"
-msgstr ""
+msgstr "Vòng lặp"
 
 #: activities/programmingMaze/ProgrammingMaze.qml:549
 msgctxt "ProgrammingMaze|"
 msgid "Instruction Area:"
-msgstr ""
+msgstr "Vùng lệnh:"
 
 #: activities/programmingMaze/ProgrammingMaze.qml:550
 msgctxt "ProgrammingMaze|"
 msgid ""
 "There are 3 instructions which you can use to code and lead Tux to the fish:"
-msgstr ""
+msgstr "Có 3 lệnh con dùng để lập trình đưa Tux tới chỗ con cá:"
 
 #: activities/programmingMaze/ProgrammingMaze.qml:551
 msgctxt "ProgrammingMaze|"
 msgid ""
 "<b>1. Move forward:</b> Moves Tux one step forward in the direction it is "
 "facing."
-msgstr ""
+msgstr "<b>1. Đi tới:</b> Đưa Tux tiến một bước theo hướng nó đang quay về."
 
 #: activities/programmingMaze/ProgrammingMaze.qml:552
 msgctxt "ProgrammingMaze|"
 msgid "<b>2. Turn left:</b> Turns Tux to the left."
-msgstr ""
+msgstr "<b>2. Quay trái:</b> Cho Tux quay sang trái."
 
 #: activities/programmingMaze/ProgrammingMaze.qml:553
 msgctxt "ProgrammingMaze|"
 msgid "<b>3. Turn right:</b> Turns Tux to the right."
-msgstr ""
+msgstr "<b>3. Quay phải:</b> Cho Tux quay sang phải."
 
 #: activities/programmingMaze/ProgrammingMaze.qml:557
 msgctxt "ProgrammingMaze|"
 msgid "Main Function:"
-msgstr ""
+msgstr "Hàm chính:"
 
 #: activities/programmingMaze/ProgrammingMaze.qml:558
 msgctxt "ProgrammingMaze|"
 msgid "The execution of the code starts here."
-msgstr ""
+msgstr "Chương trình bắt đầu chạy từ đây."
 
 #: activities/programmingMaze/ProgrammingMaze.qml:559
 msgctxt "ProgrammingMaze|"
@@ -22635,6 +22665,8 @@ msgid ""
 "-Click on any instruction in the <b>instruction area</b> to add it to the "
 "<b>Main Function</b>."
 msgstr ""
+"-Bấm vào một lệnh bất kỳ trong <b>vùng lệnh</b> để thêm nó vào <b>Hàm "
+"chính</b>."
 
 #: activities/programmingMaze/ProgrammingMaze.qml:560
 msgctxt "ProgrammingMaze|"
@@ -22642,11 +22674,13 @@ msgid ""
 "-The instructions will execute in order until there's none left, or until a "
 "dead-end, or when Tux reaches the fish."
 msgstr ""
+"-Các lệnh chạy lần lượt cho tới khi hết lệnh, hoặc gặp đường cụt, hoặc Tux "
+"tới được chỗ con cá."
 
 #: activities/programmingMaze/ProgrammingMaze.qml:570
 msgctxt "ProgrammingMaze|"
 msgid "Procedure:"
-msgstr ""
+msgstr "Thủ tục:"
 
 #: activities/programmingMaze/ProgrammingMaze.qml:571
 msgctxt "ProgrammingMaze|"
@@ -22654,6 +22688,8 @@ msgid ""
 "<b>Procedure</b> is a reusable set of instructions which can be <b>used in "
 "the code by calling it where needed</b>."
 msgstr ""
+"<b>Thủ tục</b> là một nhóm lệnh dùng lại được, <b>gọi ra ở chỗ nào cần trong"
+" chương trình</b>."
 
 #: activities/programmingMaze/ProgrammingMaze.qml:572
 msgctxt "ProgrammingMaze|"
@@ -22662,11 +22698,14 @@ msgid ""
 " area</b> to add your code, click on the <b>Procedure</b> or <b>Main "
 "Function</b> label."
 msgstr ""
+"-Muốn <b>chuyển</b> qua lại giữa <b>vùng Thủ tục</b> và <b>vùng Hàm "
+"chính</b> để viết lệnh, hãy bấm vào nhãn <b>Thủ tục</b> hoặc <b>Hàm "
+"chính</b>."
 
 #: activities/programmingMaze/ProgrammingMaze.qml:582
 msgctxt "ProgrammingMaze|"
 msgid "Loop:"
-msgstr ""
+msgstr "Vòng lặp:"
 
 #: activities/programmingMaze/ProgrammingMaze.qml:583
 msgctxt "ProgrammingMaze|"
@@ -22674,6 +22713,8 @@ msgid ""
 "<b>Loop</b> is a sequence of instructions that is <b>continually repeated "
 "the number of times defined by the number inside it</b>."
 msgstr ""
+"<b>Vòng lặp</b> là một dãy lệnh được <b>lặp đi lặp lại đúng số lần ghi bên "
+"trong nó</b>."
 
 #: activities/programmingMaze/ProgrammingMaze.qml:584
 msgctxt "ProgrammingMaze|"
@@ -22682,21 +22723,24 @@ msgid ""
 "area</b> to add your code, click on the <b>Loop</b> or <b>Main Function</b> "
 "label."
 msgstr ""
+"-Muốn <b>chuyển</b> qua lại giữa <b>vùng Vòng lặp</b> và <b>vùng Hàm "
+"chính</b> để viết lệnh, hãy bấm vào nhãn <b>Vòng lặp</b> hoặc <b>Hàm "
+"chính</b>."
 
 #: activities/programmingMaze/resource/1/Data.qml:14
 msgctxt "Data|"
 msgid "Using the main area only."
-msgstr ""
+msgstr "Chỉ dùng vùng chính."
 
 #: activities/programmingMaze/resource/2/Data.qml:14
 msgctxt "Data|"
 msgid "Using both the main area and the procedure area."
-msgstr ""
+msgstr "Dùng cả vùng chính lẫn vùng thủ tục."
 
 #: activities/programmingMaze/resource/3/Data.qml:14
 msgctxt "Data|"
 msgid "Using both the main area and the loop area."
-msgstr ""
+msgstr "Dùng cả vùng chính lẫn vùng vòng lặp."
 
 #. Activity title
 #: activities/railroad/ActivityInfo.qml:17
@@ -22728,12 +22772,12 @@ msgstr ""
 #: activities/railroad/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "<b>Keyboard Controls:</b>"
-msgstr ""
+msgstr "<b>Phím điều khiển:</b>"
 
 #: activities/railroad/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Arrows: navigate in the sample area and in the answer area"
-msgstr ""
+msgstr "Phím mũi tên: di chuyển trong vùng mẫu và vùng trả lời"
 
 #: activities/railroad/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
@@ -22741,16 +22785,18 @@ msgid ""
 "Space: add an item from the samples to the answer area, or swap two items in"
 " the answer area"
 msgstr ""
+"Phím cách: thêm một toa từ vùng mẫu sang vùng trả lời, hoặc đổi chỗ hai toa "
+"trong vùng trả lời"
 
 #: activities/railroad/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
 msgid "Delete or Backspace: remove the selected item from the answer area"
-msgstr ""
+msgstr "Delete hoặc phím xoá lùi: bỏ toa đang chọn khỏi vùng trả lời"
 
 #: activities/railroad/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
 msgid "Enter or Return: submit your answer"
-msgstr ""
+msgstr "Enter: nộp câu trả lời"
 
 #: activities/railroad/Railroad.qml:133
 msgctxt "Railroad|"
@@ -22758,12 +22804,14 @@ msgid ""
 "Observe and remember the train before the timer ends and then drag the items"
 " to set up a similar train."
 msgstr ""
+"Quan sát và nhớ đoàn tàu trước khi hết giờ, rồi kéo các toa để xếp lại một "
+"đoàn tàu giống hệt."
 
 #: activities/railroad/Railroad.qml:136
 msgctxt "Railroad|"
 msgid ""
 "If you forgot the model, you can click on the Hint button to view it again."
-msgstr ""
+msgstr "Nếu con quên mất mẫu thì bấm nút Gợi ý để xem lại."
 
 #. Activity title
 #: activities/readingh/ActivityInfo.qml:15
@@ -22800,16 +22848,19 @@ msgid ""
 "color=\"#315AAA\">%1</font></b><br/><font color=\"#373737\">is "
 "displayed</font>"
 msgstr ""
+"<font color=\"#373737\">Xem thử từ<br/></font><b><font "
+"color=\"#315AAA\">%1</font></b><br/><font color=\"#373737\">có xuất hiện "
+"không</font>"
 
 #: activities/readingh/Readingh.qml:373
 msgctxt "Readingh|"
 msgid "Yes, I saw it!"
-msgstr ""
+msgstr "Có, con thấy rồi!"
 
 #: activities/readingh/Readingh.qml:394
 msgctxt "Readingh|"
 msgid "No, it was not there!"
-msgstr ""
+msgstr "Không, không có từ đó!"
 
 #. Activity title
 #: activities/readingv/ActivityInfo.qml:15
@@ -22864,35 +22915,35 @@ msgstr ""
 #: activities/redraw_symmetrical/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Digits: select a color"
-msgstr ""
+msgstr "Phím số: chọn một màu"
 
 #: activities/redraw/ActivityInfo.qml:27
 #: activities/redraw_symmetrical/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Arrows: navigate in the grid"
-msgstr ""
+msgstr "Phím mũi tên: di chuyển trên lưới"
 
 #: activities/redraw/ActivityInfo.qml:28
 #: activities/redraw_symmetrical/ActivityInfo.qml:28
 #: activities/simplepaint/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Space or Enter: paint"
-msgstr ""
+msgstr "Phím cách hoặc Enter: tô màu"
 
 #: activities/redraw/resource/1/Data.qml:14
 msgctxt "Data|"
 msgid "Small grids."
-msgstr ""
+msgstr "Lưới nhỏ."
 
 #: activities/redraw/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "Medium grids."
-msgstr ""
+msgstr "Lưới vừa."
 
 #: activities/redraw/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "Large grids."
-msgstr ""
+msgstr "Lưới lớn."
 
 #. Activity title
 #: activities/redraw_symmetrical/ActivityInfo.qml:15
@@ -22918,17 +22969,17 @@ msgstr ""
 #: activities/redraw_symmetrical/resource/1/Data.qml:16
 msgctxt "Data|"
 msgid "Small grids (3×3)."
-msgstr ""
+msgstr "Lưới nhỏ (3×3)."
 
 #: activities/redraw_symmetrical/resource/2/Data.qml:15
 msgctxt "Data|"
 msgid "Medium grids (5×5)."
-msgstr ""
+msgstr "Lưới vừa (5×5)."
 
 #: activities/redraw_symmetrical/resource/3/Data.qml:15
 msgctxt "Data|"
 msgid "Large grids (7×7)."
-msgstr ""
+msgstr "Lưới lớn (7×7)."
 
 #. Activity title
 #: activities/renewable_energy/ActivityInfo.qml:15
@@ -22968,6 +23019,8 @@ msgid ""
 "Tux has come back from fishing on his boat. Bring the electrical system back"
 " up so he can have light in his home."
 msgstr ""
+"Tux vừa đi câu về bằng thuyền. Hãy nối lại hệ thống điện để nhà bạn ấy có "
+"đèn sáng."
 
 #: activities/renewable_energy/RenewableEnergy.qml:278
 msgctxt "RenewableEnergy|"
@@ -22975,6 +23028,8 @@ msgid ""
 "Click on different active elements: sun, cloud, dam, solar array, wind farm "
 "and transformers, in order to reactivate the entire electrical system."
 msgstr ""
+"Bấm vào từng bộ phận: mặt trời, đám mây, đập nước, giàn pin mặt trời, cánh "
+"đồng gió và các trạm biến áp, để hệ thống điện hoạt động trở lại."
 
 #: activities/renewable_energy/RenewableEnergy.qml:281
 msgctxt "RenewableEnergy|"
@@ -22983,11 +23038,15 @@ msgid ""
 " him. To win you must switch on all the consumers while all the producers "
 "are up."
 msgstr ""
+"Khi hệ thống chạy lại và Tux đã về nhà, hãy bấm nút đèn cho bạn ấy. Muốn "
+"thắng thì con phải bật hết các thiết bị dùng điện trong lúc mọi nguồn phát "
+"đều đang chạy."
 
 #: activities/renewable_energy/RenewableEnergy.qml:284
 msgctxt "RenewableEnergy|"
 msgid "Learn about an electrical system based on renewable energy. Enjoy."
 msgstr ""
+"Tìm hiểu một hệ thống điện chạy bằng năng lượng tái tạo. Chúc con vui."
 
 #: activities/renewable_energy/RenewableEnergy.qml:310
 msgctxt "RenewableEnergy|"
@@ -23001,31 +23060,37 @@ msgid ""
 "equipment can shut down which, in the worst cases, can lead to a major "
 "regional blackout."
 msgstr ""
+"Không thể tiêu thụ nhiều điện hơn lượng điện làm ra. Đây là hạn chế cốt lõi "
+"của việc phân phối điện: trừ vài ngoại lệ nhỏ, điện năng không tích trữ được"
+" nên phải phát ra đúng lúc cần dùng. Vì vậy cần một hệ thống điều độ tinh vi"
+" để lượng điện phát ra bám thật sát nhu cầu. Nếu cung và cầu lệch nhau, nhà "
+"máy phát và thiết bị truyền tải có thể ngắt, và trong trường hợp xấu nhất là"
+" mất điện cả vùng."
 
 #: activities/reversecount/ActivityConfig.qml:24
 #: activities/smallnumbers2/ActivityConfig.qml:22
 msgctxt "ActivityConfig|"
 msgid "Arabic numbers"
-msgstr ""
+msgstr "Chữ số Ả Rập"
 
 #: activities/reversecount/ActivityConfig.qml:25
 #: activities/smallnumbers2/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
 msgid "Roman numbers"
-msgstr ""
+msgstr "Chữ số La Mã"
 
 #: activities/reversecount/ActivityConfig.qml:26
 #: activities/smallnumbers2/ActivityConfig.qml:24
 #: activities/traffic/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
 msgid "Images"
-msgstr ""
+msgstr "Hình ảnh"
 
 #: activities/reversecount/ActivityConfig.qml:35
 #: activities/smallnumbers2/ActivityConfig.qml:38
 msgctxt "ActivityConfig|"
 msgid "Select Domino Representation"
-msgstr ""
+msgstr "Chọn cách hiện quân đô-mi-nô"
 
 #. Activity title
 #: activities/reversecount/ActivityInfo.qml:15
@@ -23075,27 +23140,27 @@ msgstr ""
 #, qt-format
 msgctxt "Data|"
 msgid "Numbers between %1 and %2."
-msgstr ""
+msgstr "Các số từ %1 tới %2."
 
 #: activities/reversecount/Reversecount.qml:81
 msgctxt "Reversecount|"
 msgid "Dots"
-msgstr ""
+msgstr "Chấm tròn"
 
 #: activities/reversecount/Reversecount.qml:82
 msgctxt "Reversecount|"
 msgid "Arabic numbers"
-msgstr ""
+msgstr "Chữ số Ả Rập"
 
 #: activities/reversecount/Reversecount.qml:83
 msgctxt "Reversecount|"
 msgid "Roman numbers"
-msgstr ""
+msgstr "Chữ số La Mã"
 
 #: activities/reversecount/Reversecount.qml:84
 msgctxt "Reversecount|"
 msgid "Images"
-msgstr ""
+msgstr "Hình ảnh"
 
 #. Activity title
 #: activities/roman_numerals/ActivityInfo.qml:15
@@ -23132,16 +23197,18 @@ msgid ""
 "Learn the rules to read Roman numerals and practice converting numbers to "
 "and from Arabic numerals. Click on the OK button to validate your answer."
 msgstr ""
+"Học luật đọc chữ số La Mã rồi luyện đổi qua lại với chữ số Ả Rập. Bấm nút "
+"Đồng ý để kiểm tra câu trả lời."
 
 #: activities/roman_numerals/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Digits: type arabic numerals"
-msgstr ""
+msgstr "Phím số: gõ chữ số Ả Rập"
 
 #: activities/roman_numerals/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Letters: type roman numerals (with I, V, X, L, C, D and M)"
-msgstr ""
+msgstr "Phím chữ: gõ chữ số La Mã (bằng I, V, X, L, C, D và M)"
 
 #: activities/roman_numerals/RomanNumerals.qml:82
 #: activities/roman_numerals/RomanNumerals.qml:88
@@ -23154,6 +23221,12 @@ msgid ""
 " and M (1000).\n"
 " An interesting observation here is that the roman numeric system lacks the number 0."
 msgstr ""
+"Chữ số La Mã đều dựng từ 7 ký hiệu này:\n"
+"I và V (hàng đơn vị, 1 và 5)\n"
+"X và L (hàng chục, 10 và 50)\n"
+"C và D (hàng trăm, 100 và 500)\n"
+" và M (1000).\n"
+" Có một điều thú vị là hệ số La Mã không có số 0."
 
 #: activities/roman_numerals/RomanNumerals.qml:83
 #: activities/roman_numerals/RomanNumerals.qml:95
@@ -23163,7 +23236,7 @@ msgstr ""
 #, qt-format
 msgctxt "RomanNumerals|"
 msgid "Convert the roman number %1 to arabic."
-msgstr ""
+msgstr "Đổi số La Mã %1 sang số Ả Rập."
 
 #: activities/roman_numerals/RomanNumerals.qml:89
 #: activities/roman_numerals/RomanNumerals.qml:101
@@ -23177,7 +23250,7 @@ msgstr ""
 #, qt-format
 msgctxt "RomanNumerals|"
 msgid "Convert the arabic number %1 to roman."
-msgstr ""
+msgstr "Đổi số Ả Rập %1 sang số La Mã."
 
 #: activities/roman_numerals/RomanNumerals.qml:94
 #: activities/roman_numerals/RomanNumerals.qml:100
@@ -23188,6 +23261,10 @@ msgid ""
 " The 4 and the 9 units are built using differences:\n"
 "IV (5 – 1) and IX (10 – 1)."
 msgstr ""
+"Mọi số hàng đơn vị trừ 4 và 9 đều dựng bằng cách cộng I và V:\n"
+"I, II, III, V, VI, VII, VIII.\n"
+" Riêng 4 và 9 thì dựng bằng phép trừ:\n"
+"IV (5 – 1) và IX (10 – 1)."
 
 #: activities/roman_numerals/RomanNumerals.qml:106
 #: activities/roman_numerals/RomanNumerals.qml:112
@@ -23198,6 +23275,10 @@ msgid ""
 "The 40 and the 90 tens are built using differences:\n"
 "XL (10 taken from 50) and XC (10 taken from 100)."
 msgstr ""
+"Mọi số hàng chục trừ 40 và 90 đều dựng bằng cách cộng X và L:\n"
+"X, XX, XXX, L, LX, LXX, LXXX.\n"
+"Riêng 40 và 90 thì dựng bằng phép trừ:\n"
+"XL (bớt 10 khỏi 50) và XC (bớt 10 khỏi 100)."
 
 #: activities/roman_numerals/RomanNumerals.qml:118
 #: activities/roman_numerals/RomanNumerals.qml:124
@@ -23208,6 +23289,10 @@ msgid ""
 "The 400 and the 900 hundreds are built using differences:\n"
 "CD (100 taken from 500) and CM (100 taken from 1000)."
 msgstr ""
+"Mọi số hàng trăm trừ 400 và 900 đều dựng bằng cách cộng C và D:\n"
+"C, CC, CCC, D, DC, DCC, DCCC.\n"
+"Riêng 400 và 900 thì dựng bằng phép trừ:\n"
+"CD (bớt 100 khỏi 500) và CM (bớt 100 khỏi 1000)."
 
 #: activities/roman_numerals/RomanNumerals.qml:130
 #: activities/roman_numerals/RomanNumerals.qml:136
@@ -23216,24 +23301,26 @@ msgid ""
 "Sums of M are used for building thousands: M, MM, MMM.\n"
 "Notice that you cannot join more than three identical symbols. The first implication of this rule is that you cannot use just sums for building all possible units, tens or hundreds, you must use differences too. On the other hand, it limits the maximum roman number to 3999 (MMMCMXCIX)."
 msgstr ""
+"Hàng nghìn dựng bằng cách cộng M: M, MM, MMM.\n"
+"Lưu ý là không được ghép quá ba ký hiệu giống nhau. Hệ quả đầu tiên của luật này là không thể chỉ dùng phép cộng để dựng mọi số hàng đơn vị, hàng chục hay hàng trăm, mà phải dùng cả phép trừ. Mặt khác, nó khiến số La Mã lớn nhất chỉ tới 3999 (MMMCMXCIX)."
 
 #: activities/roman_numerals/RomanNumerals.qml:142
 msgctxt "RomanNumerals|"
 msgid ""
 "Now you know the rules, you can read and write numbers in roman numerals."
-msgstr ""
+msgstr "Giờ con đã biết luật rồi, con đọc và viết được số La Mã."
 
 #: activities/roman_numerals/RomanNumerals.qml:389
 #, qt-format
 msgctxt "RomanNumerals|"
 msgid "Roman value: %1"
-msgstr ""
+msgstr "Số La Mã: %1"
 
 #: activities/roman_numerals/RomanNumerals.qml:390
 #, qt-format
 msgctxt "RomanNumerals|"
 msgid "Arabic value: %1"
-msgstr ""
+msgstr "Số Ả Rập: %1"
 
 #. Activity title
 #: activities/scalesboard/ActivityInfo.qml:15
@@ -23269,7 +23356,7 @@ msgstr ""
 #, qt-format
 msgctxt "Data|"
 msgid "Balance up to %1."
-msgstr ""
+msgstr "Cân thăng bằng tới %1."
 
 #: activities/scalesboard/resource/1/Data.qml:20
 #: activities/scalesboard/resource/2/Data.qml:20
@@ -23309,7 +23396,7 @@ msgstr ""
 #: activities/scalesboard_weight_avoirdupois/resource/6/Data.qml:45
 msgctxt "Data|"
 msgid "Drop weights on the left side to balance the scales."
-msgstr ""
+msgstr "Đặt quả cân lên đĩa bên trái cho cân thăng bằng."
 
 #: activities/scalesboard/resource/1/Data.qml:26
 #: activities/scalesboard/resource/2/Data.qml:32
@@ -23348,7 +23435,7 @@ msgstr ""
 #: activities/scalesboard_weight_avoirdupois/resource/5/Data.qml:61
 msgctxt "Data|"
 msgid "Take care, you can drop weights on both sides of the scales."
-msgstr ""
+msgstr "Cẩn thận nhé, con đặt được quả cân lên cả hai đĩa cân."
 
 #: activities/scalesboard/resource/1/Data.qml:32
 #: activities/scalesboard/resource/2/Data.qml:44
@@ -23406,7 +23493,7 @@ msgstr ""
 #: activities/scalesboard_weight_avoirdupois/resource/6/Data.qml:85
 msgctxt "Data|"
 msgid "Now you have to guess the weight of the gift."
-msgstr ""
+msgstr "Giờ con phải đoán khối lượng của món quà."
 
 #: activities/scalesboard/resource/1/Data.qml:33
 #: activities/scalesboard/resource/2/Data.qml:45
@@ -23429,22 +23516,22 @@ msgstr ""
 #, qt-format
 msgctxt "Data|"
 msgid "Enter the weight of the gift: %1"
-msgstr ""
+msgstr "Nhập khối lượng của món quà: %1"
 
 #: activities/scalesboard/resource/6/Data.qml:13
 msgctxt "Data|"
 msgid "Balance up to 20."
-msgstr ""
+msgstr "Cân thăng bằng tới 20."
 
 #: activities/scalesboard/resource/7/Data.qml:13
 msgctxt "Data|"
 msgid "Balance up to 50."
-msgstr ""
+msgstr "Cân thăng bằng tới 50."
 
 #: activities/scalesboard/resource/8/Data.qml:13
 msgctxt "Data|"
 msgid "Balance up to 100."
-msgstr ""
+msgstr "Cân thăng bằng tới 100."
 
 #. Activity title
 #: activities/scalesboard_weight/ActivityInfo.qml:15
@@ -23479,7 +23566,7 @@ msgstr ""
 #: activities/scalesboard_weight/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "Balance up to 5 grams."
-msgstr ""
+msgstr "Cân thăng bằng tới 5 gam."
 
 #: activities/scalesboard_weight/resource/1/Data.qml:18
 #: activities/scalesboard_weight/resource/2/Data.qml:18
@@ -23489,28 +23576,28 @@ msgstr ""
 #, qt-format
 msgctxt "Data|"
 msgid "%1 g"
-msgstr ""
+msgstr "%1 g"
 
 #: activities/scalesboard_weight/resource/1/Data.qml:26
 msgctxt "Data|"
 msgid "The \"g\" symbol at the end of a number means gram."
-msgstr ""
+msgstr "Ký hiệu \"g\" ở cuối một số nghĩa là gam."
 
 #: activities/scalesboard_weight/resource/1/Data.qml:32
 msgctxt "Data|"
 msgid "Take care, you can drop weights on both sides of the scale."
-msgstr ""
+msgstr "Cẩn thận nhé, con đặt được quả cân lên cả hai đĩa cân."
 
 #: activities/scalesboard_weight/resource/1/Data.qml:39
 #, qt-format
 msgctxt "Data|"
 msgid "Enter the weight of the gift in grams: %1"
-msgstr ""
+msgstr "Nhập khối lượng của món quà theo gam: %1"
 
 #: activities/scalesboard_weight/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "Balance up to 10 grams."
-msgstr ""
+msgstr "Cân thăng bằng tới 10 gam."
 
 #: activities/scalesboard_weight/resource/2/Data.qml:26
 #: activities/scalesboard_weight/resource/3/Data.qml:26
@@ -23520,6 +23607,8 @@ msgid ""
 "The \"g\" symbol at the end of a number means gram. \n"
 " Drop weights on the left side to balance the scales."
 msgstr ""
+"Ký hiệu \"g\" ở cuối một số nghĩa là gam. \n"
+" Đặt quả cân lên đĩa bên trái cho cân thăng bằng."
 
 #: activities/scalesboard_weight/resource/2/Data.qml:45
 #: activities/scalesboard_weight/resource/2/Data.qml:52
@@ -23535,17 +23624,17 @@ msgstr ""
 #, qt-format
 msgctxt "Data|"
 msgid "Enter the weight of the gift in gram: %1"
-msgstr ""
+msgstr "Nhập khối lượng của món quà theo gam: %1"
 
 #: activities/scalesboard_weight/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "Balance up to 20 grams."
-msgstr ""
+msgstr "Cân thăng bằng tới 20 gam."
 
 #: activities/scalesboard_weight/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "Balance up to 10 kilograms."
-msgstr ""
+msgstr "Cân thăng bằng tới 10 ki-lô-gam."
 
 #: activities/scalesboard_weight/resource/4/Data.qml:16
 #: activities/scalesboard_weight/resource/4/Data.qml:17
@@ -23556,7 +23645,7 @@ msgstr ""
 #, qt-format
 msgctxt "Data|"
 msgid "%1 kg"
-msgstr ""
+msgstr "%1 kg"
 
 #: activities/scalesboard_weight/resource/4/Data.qml:30
 msgctxt "Data|"
