@@ -1,0 +1,7 @@
+; Mẫu cấu hình cho NEO One chạy tiếng Việt.
+; Chép vào ~/.config/gcompris/gcompris-qt.conf (hoặc trộn vào tệp đã có).
+; Lưu ý: QSettings ghi nhóm "General" thành "%General" trong tệp ini.
+[%General]
+locale=vi_VN.UTF-8
+enableAudioVoices=true
+enableAutomaticDownloads=false

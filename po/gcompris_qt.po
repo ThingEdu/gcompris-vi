@@ -7994,7 +7994,7 @@ msgstr ""
 #: activities/explore_monuments/resource/board/board3.qml:109
 msgctxt "board3|"
 msgid "Château de Chenonceau"
-msgstr ""
+msgstr "Lâu đài Chenonceau"
 
 #: activities/explore_monuments/resource/board/board3.qml:107
 msgctxt "board3|"
@@ -8006,12 +8006,17 @@ msgid ""
 "influenced the construction and development of this French Château over the "
 "centuries."
 msgstr ""
+"Lâu đài Chenonceau là một trong nhiều lâu đài ở thung lũng Loire nổi bật về "
+"kiến trúc và ý nghĩa lịch sử, kéo hàng nghìn du khách từ khắp thế giới tới. "
+"Một số nhà sử học gọi Chenonceau là Lâu đài của các Quý bà, vì suốt nhiều "
+"thế kỷ, chính những người phụ nữ đã ảnh hưởng lớn tới việc xây dựng và phát "
+"triển toà lâu đài Pháp này."
 
 #: activities/explore_monuments/resource/board/board3.qml:117
 #: activities/explore_monuments/resource/board/board3.qml:120
 msgctxt "board3|"
 msgid "Eiffel Tower"
-msgstr ""
+msgstr "Tháp Eiffel"
 
 #: activities/explore_monuments/resource/board/board3.qml:118
 msgctxt "board3|"
@@ -8020,22 +8025,25 @@ msgid ""
 "Exhibition in 1889 for the centenary of the French Revolution. At the time "
 "of its inauguration, it was the world’s tallest monument."
 msgstr ""
+"Ngọn tháp sắt nổi tiếng khắp thế giới được dựng cho Triển lãm Quốc tế Paris "
+"năm 1889, nhân 100 năm Cách mạng Pháp. Vào ngày khánh thành, đây là công "
+"trình cao nhất thế giới."
 
 #: activities/explore_monuments/resource/board/board3.qml:130
 msgctxt "board3|"
 msgid "Monuments of France"
-msgstr ""
+msgstr "Công trình nổi tiếng của Pháp"
 
 #: activities/explore_monuments/resource/board/board3.qml:133
 msgctxt "board3|"
 msgid "Click on the location of the given monument."
-msgstr ""
+msgstr "Bấm vào vị trí của công trình được nêu."
 
 #: activities/explore_monuments/resource/board/board4.qml:18
 #: activities/explore_monuments/resource/board/board4.qml:21
 msgctxt "board4|"
 msgid "Neuschwanstein Castle"
-msgstr ""
+msgstr "Lâu đài Neuschwanstein"
 
 #: activities/explore_monuments/resource/board/board4.qml:19
 msgctxt "board4|"
@@ -8048,12 +8056,19 @@ msgid ""
 "most photographed building in the country and one of the most popular "
 "tourist attractions in Germany."
 msgstr ""
+"Là lâu đài cổ tích tiêu biểu nhất, Neuschwanstein nằm trên một quả đồi hiểm "
+"trở gần Füssen, tây nam vùng Bavaria. Nó là nguồn cảm hứng cho các lâu đài "
+"Người đẹp ngủ trong rừng ở công viên Disneyland. Lâu đài do vua Ludwig II xứ"
+" Bavaria cho xây; ông bị tuyên bố mất trí khi lâu đài gần xong vào năm 1886 "
+"và được tìm thấy đã chết vài ngày sau đó. Neuschwanstein là công trình được "
+"chụp ảnh nhiều nhất nước Đức và là một trong những điểm du lịch nổi tiếng "
+"nhất."
 
 #: activities/explore_monuments/resource/board/board4.qml:29
 #: activities/explore_monuments/resource/board/board4.qml:32
 msgctxt "board4|"
 msgid "Trier Imperial Baths"
-msgstr ""
+msgstr "Nhà tắm hoàng gia Trier"
 
 #: activities/explore_monuments/resource/board/board4.qml:30
 msgctxt "board4|"
@@ -8062,12 +8077,15 @@ msgid ""
 "It is designated as part of the Roman Monuments, Cathedral of St. Peter and "
 "Church of Our Lady in Trier UNESCO World Heritage Site."
 msgstr ""
+"Nhà tắm hoàng gia Trier là một quần thể nhà tắm La Mã lớn ở Trier, Đức. Nó "
+"thuộc Di sản Thế giới UNESCO gồm các công trình La Mã, Nhà thờ chính toà "
+"Thánh Peter và Nhà thờ Đức Bà ở Trier."
 
 #: activities/explore_monuments/resource/board/board4.qml:40
 #: activities/explore_monuments/resource/board/board4.qml:43
 msgctxt "board4|"
 msgid "Brandenburg Gate"
-msgstr ""
+msgstr "Cổng Brandenburg"
 
 #: activities/explore_monuments/resource/board/board4.qml:41
 msgctxt "board4|"
@@ -8079,12 +8097,17 @@ msgid ""
 " the Prussian monarchs. It is regarded as one of the most famous landmarks "
 "in Europe."
 msgstr ""
+"Cổng Brandenburg là cổng thành duy nhất còn lại của Berlin và tượng trưng "
+"cho việc Đông và Tây Berlin thống nhất. Xây vào thế kỷ 18, cổng Brandenburg "
+"mở vào đại lộ Unter den Linden rợp bóng cây đoan, con đường từng dẫn thẳng "
+"tới cung điện các vua nước Phổ. Đây được xem là một trong những địa danh nổi"
+" tiếng nhất châu Âu."
 
 #: activities/explore_monuments/resource/board/board4.qml:51
 #: activities/explore_monuments/resource/board/board4.qml:54
 msgctxt "board4|"
 msgid "Berlin Cathedral"
-msgstr ""
+msgstr "Nhà thờ lớn Berlin"
 
 #: activities/explore_monuments/resource/board/board4.qml:52
 msgctxt "board4|"
@@ -8094,12 +8117,16 @@ msgid ""
 "beyond the borders of the parish and of Berlin, the cathedral attracts "
 "thousands of visitors, year after year, from Germany and abroad."
 msgstr ""
+"Nhà thờ lớn Berlin là ngôi nhà thờ lớn nhất thành phố và là trung tâm quan "
+"trọng của Giáo hội Tin Lành Đức. Vượt xa khỏi phạm vi giáo xứ và thành phố "
+"Berlin, nhà thờ đón hàng nghìn khách mỗi năm, từ khắp nước Đức và nước "
+"ngoài."
 
 #: activities/explore_monuments/resource/board/board4.qml:62
 #: activities/explore_monuments/resource/board/board4.qml:65
 msgctxt "board4|"
 msgid "Schwerin Palace"
-msgstr ""
+msgstr "Cung điện Schwerin"
 
 #: activities/explore_monuments/resource/board/board4.qml:63
 msgctxt "board4|"
@@ -8108,12 +8135,15 @@ msgid ""
 " is reflected in the waters of Lake Schwerin. It was completed in 1857 and "
 "symbolized the powerful dynasty of its founder, Friedrich Franz II."
 msgstr ""
+"Toà thành cổ tích đầy chất lãng mạn này, với vô số tháp, vòm và cánh nhà, "
+"soi bóng xuống mặt hồ Schwerin. Cung được hoàn thành năm 1857, tượng trưng "
+"cho thế lực của dòng họ người sáng lập là Friedrich Franz II."
 
 #: activities/explore_monuments/resource/board/board4.qml:73
 #: activities/explore_monuments/resource/board/board4.qml:76
 msgctxt "board4|"
 msgid "Aula Palatina"
-msgstr ""
+msgstr "Aula Palatina"
 
 #: activities/explore_monuments/resource/board/board4.qml:74
 msgctxt "board4|"
@@ -8123,12 +8153,16 @@ msgid ""
 "built a settlement inside the roofless ruin. In the 12th century, the apse "
 "was converted into a tower to accommodate the Archbishop of Trier."
 msgstr ""
+"Toà nhà gạch dài với trần rất cao này từng là điện ngai vàng của hoàng đế La"
+" Mã, cho tới khi thành phố bị các bộ tộc German phá huỷ. Quân xâm lược dựng "
+"khu định cư ngay trong đống đổ nát không mái. Tới thế kỷ 12, phần hậu cung "
+"được cải tạo thành tháp làm nơi ở cho Tổng giám mục Trier."
 
 #: activities/explore_monuments/resource/board/board4.qml:84
 #: activities/explore_monuments/resource/board/board4.qml:87
 msgctxt "board4|"
 msgid "Worms Cathedral"
-msgstr ""
+msgstr "Nhà thờ lớn Worms"
 
 #: activities/explore_monuments/resource/board/board4.qml:85
 msgctxt "board4|"
@@ -8138,22 +8172,26 @@ msgid ""
 " distinctive conical towers, Worms Cathedral was constructed in phases "
 "throughout the twelfth century and mostly completed by 1181."
 msgstr ""
+"Nhà thờ lớn Worms (Wormser Dom), còn gọi là Nhà thờ Thánh Peter, là một nhà "
+"thờ theo lối Romanesque ở thành phố Worms, Đức. Xây bằng sa thạch với những "
+"ngọn tháp hình nón đặc trưng, nhà thờ được dựng thành nhiều đợt suốt thế kỷ "
+"12 và gần như hoàn thành vào năm 1181."
 
 #: activities/explore_monuments/resource/board/board4.qml:97
 msgctxt "board4|"
 msgid "Monuments of Germany"
-msgstr ""
+msgstr "Công trình nổi tiếng của Đức"
 
 #: activities/explore_monuments/resource/board/board4.qml:100
 msgctxt "board4|"
 msgid "Click on the location of the given monument."
-msgstr ""
+msgstr "Bấm vào vị trí của công trình được nêu."
 
 #: activities/explore_monuments/resource/board/board5.qml:18
 #: activities/explore_monuments/resource/board/board5.qml:21
 msgctxt "board5|"
 msgid "Cabrillo"
-msgstr ""
+msgstr "Cabrillo"
 
 #: activities/explore_monuments/resource/board/board5.qml:19
 msgctxt "board5|"
@@ -8165,12 +8203,17 @@ msgid ""
 "in September 1542, three months after departing from Barra de Navidad on the"
 " west coast of Mexico."
 msgstr ""
+"Nằm trên mũi Point Loma ở San Diego, California, Đài tưởng niệm Quốc gia "
+"Cabrillo ghi công người châu Âu đầu tiên đặt chân lên bờ Tây nước Mỹ, ông "
+"Juan Rodriguez Cabrillo. Sinh ra ở Bồ Đào Nha, Cabrillo mang cờ Tây Ban Nha "
+"đi chinh phục Tân Thế giới. Ông tới vịnh San Diego vào tháng 9 năm 1542, ba "
+"tháng sau khi rời Barra de Navidad ở bờ tây Mexico."
 
 #: activities/explore_monuments/resource/board/board5.qml:29
 #: activities/explore_monuments/resource/board/board5.qml:32
 msgctxt "board5|"
 msgid "Canyon de Chelly"
-msgstr ""
+msgstr "Hẻm núi de Chelly"
 
 #: activities/explore_monuments/resource/board/board5.qml:30
 msgctxt "board5|"
@@ -8183,6 +8226,12 @@ msgid ""
 "formations, including Spider Rock, an 800-foot-tall sandstone spire that "
 "rises eerily from the bottom of the canyon floor."
 msgstr ""
+"Những phế tích đá đỏ trầm mặc ở hẻm núi de Chelly, đông bắc bang Arizona, "
+"vừa thuộc Cục Công viên Quốc gia vừa thuộc lãnh thổ dân tộc Navajo, được "
+"công nhận là đài tưởng niệm quốc gia từ năm 1931. Gần 34.000 hecta công viên"
+" gìn giữ nhiều di chỉ quan trọng của người bản địa châu Mỹ thời đầu. Hẻm núi"
+" de Chelly còn có nhiều dạng địa chất đặc trưng của vùng Tây Nam, trong đó "
+"có Spider Rock, cột sa thạch cao 240 mét vươn lên đầy kỳ bí từ đáy hẻm núi."
 
 #: activities/explore_monuments/resource/board/board5.qml:40
 #: activities/explore_monuments/resource/board/board5.qml:43
@@ -8198,12 +8247,16 @@ msgid ""
 "still a Spanish territory. Constructed out of the rare coquina limestone, "
 "the star-shaped Castillo also is the oldest masonry fort in the country."
 msgstr ""
+"Rộng hơn 8 hecta ở St. Augustine, Florida, pháo đài Castillo de San Marcos "
+"hoàn thành năm 1695 để phòng thủ thành phố, khi Florida còn là lãnh thổ Tây "
+"Ban Nha. Xây bằng đá vôi coquina hiếm gặp, pháo đài hình ngôi sao này cũng "
+"là pháo đài xây bằng đá lâu đời nhất nước Mỹ."
 
 #: activities/explore_monuments/resource/board/board5.qml:51
 #: activities/explore_monuments/resource/board/board5.qml:54
 msgctxt "board5|"
 msgid "Castle Clinton"
-msgstr ""
+msgstr "Pháo đài Clinton"
 
 #: activities/explore_monuments/resource/board/board5.qml:52
 msgctxt "board5|"
@@ -8214,12 +8267,17 @@ msgid ""
 "protect New York from a British invasion during the War of 1812, and was "
 "dedicated as a national monument in 1946."
 msgstr ""
+"Pháo đài sa thạch hình tròn nằm ở mũi đảo Manhattan này là trạm kiểm soát "
+"nhập cư đầu tiên của Mỹ, có trước đảo Ellis khoảng 50 năm. Castle Clinton "
+"(nps.gov/cacl) ban đầu được xây làm pháo đài bảo vệ New York khỏi quân Anh "
+"trong cuộc chiến năm 1812, và được công nhận là đài tưởng niệm quốc gia năm "
+"1946."
 
 #: activities/explore_monuments/resource/board/board5.qml:62
 #: activities/explore_monuments/resource/board/board5.qml:65
 msgctxt "board5|"
 msgid "George Washington Birthplace"
-msgstr ""
+msgstr "Nơi sinh của George Washington"
 
 #: activities/explore_monuments/resource/board/board5.qml:63
 msgctxt "board5|"
@@ -8230,12 +8288,16 @@ msgid ""
 "February 22, 1732. He lived here until age three, returning later as a "
 "teenager."
 msgstr ""
+"Đài tưởng niệm Quốc gia Nơi sinh George Washington nằm ở hạt Westmoreland, "
+"bang Virginia, Hoa Kỳ. Vùng đất này do John Washington, cụ nội của George "
+"Washington, khai phá. George Washington sinh ra tại đây ngày 22 tháng 2 năm "
+"1732. Ông sống ở đây tới năm ba tuổi, rồi quay lại khi đã là thiếu niên."
 
 #: activities/explore_monuments/resource/board/board5.qml:73
 #: activities/explore_monuments/resource/board/board5.qml:76
 msgctxt "board5|"
 msgid "Lincoln Memorial"
-msgstr ""
+msgstr "Đài tưởng niệm Lincoln"
 
 #: activities/explore_monuments/resource/board/board5.qml:74
 msgctxt "board5|"
@@ -8248,12 +8310,18 @@ msgid ""
 "chambers with inscriptions of Lincoln’s Second Inaugural Address and "
 "arguably his most famous speech, the Gettysburg Address."
 msgstr ""
+"Xây bằng đá trắng với 36 cột lớn đặc trưng, Đài tưởng niệm Lincoln là một "
+"trong những công trình dễ nhận ra nhất nước Mỹ. Đài nằm ở đầu tây khu "
+"National Mall, trong công viên West Potomac, theo lối kiến trúc Tân cổ điển."
+" Bên trong là bức tượng Abraham Lincoln cao gần 6 mét ngồi trầm ngâm một "
+"mình, hai bên là hai gian khắc bài diễn văn nhậm chức lần hai và bài nói nổi"
+" tiếng nhất của ông, Diễn văn Gettysburg."
 
 #: activities/explore_monuments/resource/board/board5.qml:84
 #: activities/explore_monuments/resource/board/board5.qml:87
 msgctxt "board5|"
 msgid "Mount Rushmore"
-msgstr ""
+msgstr "Núi Rushmore"
 
 #: activities/explore_monuments/resource/board/board5.qml:85
 msgctxt "board5|"
@@ -8265,12 +8333,18 @@ msgid ""
 "exalted American presidents that symbolize this nation's rich history, "
 "rugged determination and lasting achievements."
 msgstr ""
+"Núi Rushmore là thánh địa của nền dân chủ, một đài tưởng niệm George "
+"Washington cùng sự ra đời, lớn mạnh và lý tưởng của nước Mỹ. Núi Rushmore "
+"tượng trưng cho sự vĩ đại của đất nước này qua sự vĩ đại của các nhà lãnh "
+"đạo. Tác phẩm điêu khắc hoành tráng ấy tạc chân dung bốn vị tổng thống Mỹ "
+"được tôn vinh, biểu trưng cho lịch sử phong phú, ý chí bền bỉ và những thành"
+" tựu lâu bền của đất nước."
 
 #: activities/explore_monuments/resource/board/board5.qml:95
 #: activities/explore_monuments/resource/board/board5.qml:98
 msgctxt "board5|"
 msgid "Navajo"
-msgstr ""
+msgstr "Navajo"
 
 #: activities/explore_monuments/resource/board/board5.qml:96
 msgctxt "board5|"
@@ -8286,12 +8360,21 @@ msgid ""
 "free tours of the Keet Seel and Betatakin cliff dwellings. The Inscription "
 "House site, further west, is currently closed to public access."
 msgstr ""
+"Đài tưởng niệm Quốc gia Navajo nằm ở phần tây bắc lãnh thổ dân tộc Navajo, "
+"bắc bang Arizona, được lập ra để gìn giữ ba khu nhà trong vách đá còn nguyên"
+" vẹn của người Pueblo cổ: Keet Seel (Kitsʼiil), Betatakin (Bitátʼahkin) và "
+"Inscription House (Tsʼah Biiʼ Kin). Đài nằm trên cao nguyên Shonto, nhìn "
+"xuống hệ hẻm núi Tsegi, phía tây Kayenta, Arizona. Nơi đây có trung tâm đón "
+"khách kèm bảo tàng, hai lối đi bộ ngắn tự khám phá trên đỉnh mesa, hai khu "
+"cắm trại nhỏ và một khu dã ngoại. Kiểm lâm dẫn khách đi thăm miễn phí hai "
+"khu nhà đá Keet Seel và Betatakin. Khu Inscription House xa hơn về phía tây "
+"hiện đóng cửa với khách tham quan."
 
 #: activities/explore_monuments/resource/board/board5.qml:106
 #: activities/explore_monuments/resource/board/board5.qml:109
 msgctxt "board5|"
 msgid "Statue of Liberty"
-msgstr ""
+msgstr "Tượng Nữ thần Tự do"
 
 #: activities/explore_monuments/resource/board/board5.qml:107
 msgctxt "board5|"
@@ -8301,12 +8384,15 @@ msgid ""
 "statue was a gift from the people of France and was dedicated in October "
 "1886."
 msgstr ""
+"Có lẽ công trình và biểu tượng nổi tiếng nhất của nước Mỹ là Tượng Nữ thần "
+"Tự do, đứng trên một hòn đảo nhỏ riêng ở thành phố New York. Bức tượng là "
+"quà tặng của nhân dân Pháp và được khánh thành tháng 10 năm 1886."
 
 #: activities/explore_monuments/resource/board/board5.qml:117
 #: activities/explore_monuments/resource/board/board5.qml:120
 msgctxt "board5|"
 msgid "Fort Sumter"
-msgstr ""
+msgstr "Pháo đài Sumter"
 
 #: activities/explore_monuments/resource/board/board5.qml:118
 msgctxt "board5|"
@@ -8317,22 +8403,27 @@ msgid ""
 " exhibits offer perspectives on U.S. history, particularly the divisions "
 "between North and South that eventually resulted in the war."
 msgstr ""
+"Vốn được xây để phòng thủ sau cuộc chiến năm 1812, chính tại pháo đài ven "
+"biển này trong vịnh Charleston, bang South Carolina, những phát súng đầu "
+"tiên của Nội chiến Mỹ đã nổ. Bên trong pháo đài Sumter có nhiều gian trưng "
+"bày về lịch sử Hoa Kỳ, đặc biệt là những chia rẽ giữa miền Bắc và miền Nam "
+"cuối cùng dẫn tới chiến tranh."
 
 #: activities/explore_monuments/resource/board/board5.qml:130
 msgctxt "board5|"
 msgid "Monuments of US"
-msgstr ""
+msgstr "Công trình nổi tiếng của Mỹ"
 
 #: activities/explore_monuments/resource/board/board5.qml:133
 msgctxt "board5|"
 msgid "Click on the location of the given monument."
-msgstr ""
+msgstr "Bấm vào vị trí của công trình được nêu."
 
 #: activities/explore_monuments/resource/board/board6.qml:17
 #: activities/explore_monuments/resource/board/board6.qml:20
 msgctxt "board6|"
 msgid "Great Pyramid of Giza"
-msgstr ""
+msgstr "Đại Kim tự tháp Giza"
 
 #: activities/explore_monuments/resource/board/board6.qml:18
 msgctxt "board6|"
@@ -8347,12 +8438,19 @@ msgid ""
 "stone have been used in the construction. The height of the pyramid is "
 "approximately 139 meters making it the highest pyramid of Egypt."
 msgstr ""
+"Đại Kim tự tháp Giza còn gọi là Kim tự tháp Khufu hay Kim tự tháp Cheops. "
+"Đây được coi là kỳ quan lâu đời nhất trong Bảy kỳ quan thế giới cổ đại, đồng"
+" thời là kim tự tháp lớn nhất trong ba kim tự tháp ở Giza. Nó nằm trong khu "
+"mộ Giza, Ai Cập. Pharaoh Khufu khởi công, con trai ông là Khafre xây tiếp và"
+" cuối cùng Menkaure hoàn thành. Xây kim tự tháp mất gần 20 năm, dùng khoảng "
+"2 triệu khối đá. Kim tự tháp cao khoảng 139 mét, là kim tự tháp cao nhất Ai "
+"Cập."
 
 #: activities/explore_monuments/resource/board/board6.qml:28
 #: activities/explore_monuments/resource/board/board6.qml:31
 msgctxt "board6|"
 msgid "Bent Pyramid"
-msgstr ""
+msgstr "Kim tự tháp Cong"
 
 #: activities/explore_monuments/resource/board/board6.qml:29
 msgctxt "board6|"
@@ -8366,12 +8464,19 @@ msgid ""
 "Pyramid is the only pyramid in Egypt of which the outer casing of polished "
 "limestone is still largely intact."
 msgstr ""
+"Kim tự tháp Cong ở Dahshur là kim tự tháp thứ hai do pharaoh Sneferu xây. Kỳ"
+" lạ là kim tự tháp này vươn lên khỏi sa mạc với góc nghiêng 55 độ rồi đột "
+"ngột chuyển sang góc thoải hơn, 43 độ. Một giả thuyết cho rằng vì góc ban "
+"đầu quá dốc nên khối lượng đè lên các gian buồng và hành lang bên trong trở "
+"nên quá lớn, buộc thợ xây phải đổi sang góc thoải hơn. Ngày nay, Kim tự tháp"
+" Cong là kim tự tháp duy nhất ở Ai Cập còn giữ gần như nguyên vẹn lớp vỏ đá "
+"vôi mài nhẵn bên ngoài."
 
 #: activities/explore_monuments/resource/board/board6.qml:39
 #: activities/explore_monuments/resource/board/board6.qml:42
 msgctxt "board6|"
 msgid "Pyramid of Meidum"
-msgstr ""
+msgstr "Kim tự tháp Meidum"
 
 #: activities/explore_monuments/resource/board/board6.qml:40
 msgctxt "board6|"
@@ -8385,12 +8490,19 @@ msgid ""
 "marking the first attempt by the ancient Egyptians at the construction of a "
 "true pyramid."
 msgstr ""
+"Cách Saqqara ở Ai Cập tám kilômét về phía nam là kim tự tháp Meidum bí ẩn "
+"trông giống một ngọn tháp, ngày nay gần như không còn giống kim tự tháp "
+"thường thấy nữa. Kim tự tháp này có lẽ được xây dưới thời pharaoh Sneferu "
+"thuộc vương triều thứ 4, dù một số người tin rằng vua Huni, người tiền nhiệm"
+" của Sneferu, mới là người khởi công. Trong quá trình xây, các bậc của kim "
+"tự tháp được lấp bằng lớp vỏ đá vôi, đánh dấu lần đầu người Ai Cập cổ thử "
+"xây một kim tự tháp mặt phẳng thật sự."
 
 #: activities/explore_monuments/resource/board/board6.qml:50
 #: activities/explore_monuments/resource/board/board6.qml:53
 msgctxt "board6|"
 msgid "Red Pyramid"
-msgstr ""
+msgstr "Kim tự tháp Đỏ"
 
 #: activities/explore_monuments/resource/board/board6.qml:51
 msgctxt "board6|"
@@ -8402,22 +8514,27 @@ msgid ""
 "red limestone stones, hence the name. The local people of Egypt called it as"
 " el-heram el-watwaat meaning the Bat Pyramid."
 msgstr ""
+"Kim tự tháp Đỏ là một trong những nỗ lực đẹp đẽ và thành công nhất của "
+"pharaoh Sneferu khi xây kim tự tháp mặt phẳng đầu tiên của thế giới thời Ai "
+"Cập cổ đại. Kim tự tháp cao 104 mét, đứng thứ tư về độ lớn ở Ai Cập. Nó được"
+" xây bằng đá vôi đỏ nên mới có tên như vậy. Người Ai Cập địa phương gọi nó "
+"là el-heram el-watwaat, nghĩa là Kim tự tháp Dơi."
 
 #: activities/explore_monuments/resource/board/board6.qml:63
 msgctxt "board6|"
 msgid "Egyptian pyramids"
-msgstr ""
+msgstr "Kim tự tháp Ai Cập"
 
 #: activities/explore_monuments/resource/board/board6.qml:66
 msgctxt "board6|"
 msgid "Click on the location of the given pyramid."
-msgstr ""
+msgstr "Bấm vào vị trí của kim tự tháp được nêu."
 
 #: activities/explore_monuments/resource/board/board7.qml:17
 #: activities/explore_monuments/resource/board/board7.qml:20
 msgctxt "board7|"
 msgid "Forbidden City"
-msgstr ""
+msgstr "Tử Cấm Thành"
 
 #: activities/explore_monuments/resource/board/board7.qml:18
 msgctxt "board7|"
@@ -8432,12 +8549,20 @@ msgid ""
 "wall, the Forbidden City was once inaccessible to the general public, "
 "symbolizing imperial power and exclusivity."
 msgstr ""
+"Tử Cấm Thành, nằm giữa lòng Bắc Kinh, Trung Quốc, là một quần thể cung điện "
+"hoàng gia nguy nga, từng là nơi ở của các hoàng đế Trung Hoa và là trung tâm"
+" chính trị của đất nước suốt gần 500 năm, từ triều Minh (1368–1644) tới cuối"
+" triều Thanh (1644–1912). Xây từ năm 1406 tới 1420, kiệt tác kiến trúc rộng "
+"lớn này trải trên 73 hecta, gồm hơn 980 công trình còn được giữ gìn với "
+"8.700 gian phòng, thể hiện lối thiết kế cung đình Trung Hoa truyền thống. "
+"Được hào nước và tường thành đồ sộ bao quanh, Tử Cấm Thành từng cấm dân "
+"thường lui tới, tượng trưng cho quyền uy và sự tách biệt của hoàng gia."
 
 #: activities/explore_monuments/resource/board/board7.qml:28
 #: activities/explore_monuments/resource/board/board7.qml:31
 msgctxt "board7|"
 msgid "Leshan Giant Buddha"
-msgstr ""
+msgstr "Đại Phật Lạc Sơn"
 
 #: activities/explore_monuments/resource/board/board7.qml:29
 msgctxt "board7|"
@@ -8452,12 +8577,20 @@ msgid ""
 "to prevent erosion. Its serene expression and intricate craftsmanship make "
 "it a symbol of spiritual and artistic achievement."
 msgstr ""
+"Đại Phật Lạc Sơn ở tỉnh Tứ Xuyên, Trung Quốc, là bức tượng khổng lồ tạc vào "
+"vách đá nơi ba con sông Mân, Đại Độ và Thanh Y gặp nhau. Cao 71 mét, đây là "
+"bức tượng thời tiền hiện đại cao nhất thế giới và là Di sản Thế giới của "
+"UNESCO. Được tạc dưới triều Đường (713–803), tượng thể hiện Phật Di Lặc, vị "
+"Phật tương lai, và được làm ra để làm dịu dòng nước hung dữ đe doạ thuyền bè"
+" qua lại. Thiết kế rất khéo, tượng có hệ thống thoát nước giấu bên trong để "
+"chống xói mòn. Gương mặt an nhiên và tay nghề tinh xảo khiến nó trở thành "
+"biểu tượng của thành tựu tâm linh và nghệ thuật."
 
 #: activities/explore_monuments/resource/board/board7.qml:39
 #: activities/explore_monuments/resource/board/board7.qml:42
 msgctxt "board7|"
 msgid "Potala Palace"
-msgstr ""
+msgstr "Cung điện Potala"
 
 #: activities/explore_monuments/resource/board/board7.qml:40
 msgctxt "board7|"
@@ -8472,12 +8605,20 @@ msgid ""
 " religious studies and prayer. The Potala Palace stands as a testament to "
 "Tibet's spiritual and historical legacy."
 msgstr ""
+"Cung điện Potala, toạ trên Hồng Sơn ở Lhasa, Tây Tạng, là biểu tượng của văn"
+" hoá Tây Tạng và là Di sản Thế giới của UNESCO. Được xây từ thế kỷ 7 và mở "
+"rộng vào thế kỷ 17, đây từng là nơi ở mùa đông của các vị Đạt Lai Lạt Ma và "
+"là trung tâm cai quản Tây Tạng. Cao 13 tầng với hơn 1.000 gian phòng, cung "
+"điện kết hợp kiến trúc Tây Tạng tinh xảo, những bức bích hoạ rực rỡ và nhiều"
+" thánh tích. Cung chia thành Bạch Cung, nơi làm việc hành chính, và Hồng "
+"Cung, dành cho việc tu học và cầu nguyện. Cung điện Potala là minh chứng cho"
+" di sản tâm linh và lịch sử của Tây Tạng."
 
 #: activities/explore_monuments/resource/board/board7.qml:50
 #: activities/explore_monuments/resource/board/board7.qml:53
 msgctxt "board7|"
 msgid "Terracotta Army"
-msgstr ""
+msgstr "Đội quân đất nung"
 
 #: activities/explore_monuments/resource/board/board7.qml:51
 msgctxt "board7|"
@@ -8489,12 +8630,18 @@ msgid ""
 "incredible detail, with each warrior uniquely crafted to represent the "
 "diverse ranks and roles of an ancient Chinese army."
 msgstr ""
+"Đội quân đất nung gồm hàng nghìn tượng lính, ngựa và xe ngựa bằng đất sét cỡ"
+" người thật, chôn cùng hoàng đế đầu tiên của Trung Quốc là Tần Thuỷ Hoàng để"
+" theo hầu ông ở thế giới bên kia. Được phát hiện năm 1974 gần Tây An, các "
+"bức tượng có niên đại khoảng năm 210 trước Công nguyên và nổi tiếng vì độ "
+"chi tiết đáng kinh ngạc: mỗi người lính được tạc riêng, thể hiện đủ mọi cấp "
+"bậc và vai trò trong quân đội Trung Hoa cổ."
 
 #: activities/explore_monuments/resource/board/board7.qml:61
 #: activities/explore_monuments/resource/board/board7.qml:64
 msgctxt "board7|"
 msgid "Sun and Moon Pagodas"
-msgstr ""
+msgstr "Tháp Nhật và Nguyệt"
 
 #: activities/explore_monuments/resource/board/board7.qml:62
 msgctxt "board7|"
@@ -8509,12 +8656,20 @@ msgid ""
 "Illuminated at night, they are popular attractions showcasing traditional "
 "Chinese architecture and modern ingenuity."
 msgstr ""
+"Tháp Nhật và Nguyệt ở Quế Lâm, Trung Quốc, là cặp tháp đôi biểu trưng cho di"
+" sản văn hoá và tâm linh của thành phố. Vốn được xây từ thời Đường, hai tháp"
+" được dựng lại vào thế kỷ 20 thành hai điểm nhấn trên hồ Sam. Tháp Nhật cao "
+"41 mét, làm bằng đồng và là tháp đồng cao nhất thế giới; Tháp Nguyệt cao 35 "
+"mét, xây bằng ngói men. Hai tháp tượng trưng cho sự hoà hợp âm dương và được"
+" nối với nhau bằng đường hầm kính dưới nước. Khi lên đèn về đêm, chúng là "
+"điểm tham quan nổi tiếng, cho thấy kiến trúc Trung Hoa truyền thống hoà cùng"
+" kỹ thuật hiện đại."
 
 #: activities/explore_monuments/resource/board/board7.qml:72
 #: activities/explore_monuments/resource/board/board7.qml:75
 msgctxt "board7|"
 msgid "Diaolou Towers"
-msgstr ""
+msgstr "Tháp Điêu Lâu"
 
 #: activities/explore_monuments/resource/board/board7.qml:73
 msgctxt "board7|"
@@ -8529,22 +8684,30 @@ msgid ""
 "UNESCO World Heritage Site in 2007, around 1,800 of the original 3,000 "
 "towers remain, offering insight into this unique architectural heritage."
 msgstr ""
+"Tháp Điêu Lâu ở Khai Bình, tỉnh Quảng Đông, Trung Quốc, là những toà nhà "
+"nhiều tầng có công sự, xây từ cuối thế kỷ 19 tới đầu thế kỷ 20 để chống cướp"
+" và chống lụt. Pha trộn kiến trúc phương Tây như Romanesque và Baroque với "
+"nét Trung Hoa truyền thống, chúng phản ánh sự giàu có và ảnh hưởng của Hoa "
+"kiều. Được xây bằng bê tông cốt thép, những toà tháp này tượng trưng cho một"
+" giai đoạn chuyển mình về văn hoá và kinh tế ở nông thôn Trung Quốc. Được "
+"UNESCO công nhận Di sản Thế giới năm 2007, khoảng 1.800 trong số 3.000 toà "
+"tháp ban đầu vẫn còn, cho thấy một di sản kiến trúc rất riêng."
 
 #: activities/explore_monuments/resource/board/board7.qml:85
 msgctxt "board7|"
 msgid "Monuments of China"
-msgstr ""
+msgstr "Công trình nổi tiếng của Trung Quốc"
 
 #: activities/explore_monuments/resource/board/board7.qml:88
 msgctxt "board7|"
 msgid "Click on the location of the given monument."
-msgstr ""
+msgstr "Bấm vào vị trí của công trình được nêu."
 
 #: activities/explore_monuments/resource/board/board8.qml:17
 #: activities/explore_monuments/resource/board/board8.qml:20
 msgctxt "board8|"
 msgid "The Pantheon"
-msgstr ""
+msgstr "Đền Pantheon"
 
 #: activities/explore_monuments/resource/board/board8.qml:18
 msgctxt "board8|"
@@ -8562,12 +8725,22 @@ msgid ""
 "historical significance make it a timeless masterpiece of classical "
 "architecture."
 msgstr ""
+"Đền Pantheon ở Rome, Ý, là ngôi đền cổ tiêu biểu được xây khoảng năm 126 "
+"dưới thời hoàng đế Hadrian, trên nền các công trình cũ do Marcus Agrippa "
+"dựng. Nổi tiếng vì tài kiến trúc, đền có mái vòm khổng lồ với một lỗ tròn ở "
+"giữa tượng trưng cho bầu trời, cho ánh sáng tự nhiên rọi vào bên trong. Vốn "
+"thờ toàn bộ các vị thần La Mã, đền sau đó được chuyển thành nhà thờ Kitô "
+"giáo, gọi là Vương cung thánh đường Đức Mẹ và các Thánh Tử đạo (Santa Maria "
+"ad Martyres), vào năm 609. Mái vòm của đền là mái vòm bê tông không cốt thép"
+" lớn nhất thế giới, cho thấy kỹ thuật và sự cân đối tuyệt vời, truyền cảm "
+"hứng cho kiến trúc sư suốt nhiều thế kỷ. Tỷ lệ hài hoà và ý nghĩa lịch sử "
+"khiến Pantheon trở thành kiệt tác vượt thời gian của kiến trúc cổ điển."
 
 #: activities/explore_monuments/resource/board/board8.qml:28
 #: activities/explore_monuments/resource/board/board8.qml:31
 msgctxt "board8|"
 msgid "Duomo Di Milano"
-msgstr ""
+msgstr "Nhà thờ lớn Milano"
 
 #: activities/explore_monuments/resource/board/board8.qml:29
 msgctxt "board8|"
@@ -8582,12 +8755,20 @@ msgid ""
 "the rooftop for breathtaking views of the city and the Alps. The Duomo "
 "stands as a testament to Italy's rich history and architectural brilliance."
 msgstr ""
+"Duomo di Milano, hay Nhà thờ lớn Milano, là kiệt tác Gothic tiêu biểu nằm "
+"giữa lòng thành phố Milano, Ý. Được xây trong gần sáu thế kỷ, đây là một "
+"trong những nhà thờ lớn nhất thế giới và là biểu tượng của di sản nghệ "
+"thuật, văn hoá Milano. Mặt tiền chạm trổ tinh xảo gắn vô số tượng, chóp nhọn"
+" và hình thú, thể hiện vẻ tráng lệ của kiến trúc Gothic. Khách tham quan có "
+"thể vào bên trong ngắm những ô kính màu đẹp mắt và chi tiết cẩm thạch tinh "
+"tế, hoặc lên mái để ngắm toàn cảnh thành phố và dãy Alps. Duomo là minh "
+"chứng cho bề dày lịch sử và tài kiến trúc của nước Ý."
 
 #: activities/explore_monuments/resource/board/board8.qml:39
 #: activities/explore_monuments/resource/board/board8.qml:42
 msgctxt "board8|"
 msgid "Florence Cathedral"
-msgstr ""
+msgstr "Nhà thờ lớn Firenze"
 
 #: activities/explore_monuments/resource/board/board8.qml:40
 msgctxt "board8|"
@@ -8603,12 +8784,21 @@ msgid ""
 "drawing millions of visitors annually for its historical, cultural, and "
 "architectural significance."
 msgstr ""
+"Nhà thờ lớn Firenze, tên chính thức là Cattedrale di Santa Maria del Fiore, "
+"là kiệt tác kiến trúc Gothic và Phục Hưng nổi tiếng ở Firenze, Ý. Hoàn thành"
+" năm 1436, nhà thờ nổi tiếng với mái vòm ngói đỏ đồ sộ do Filippo "
+"Brunelleschi thiết kế, tới nay vẫn là kỳ tích kỹ thuật và là biểu tượng của "
+"thành phố. Mặt tiền cẩm thạch tinh xảo, thêm vào thế kỷ 19, làm nổi bật thêm"
+" phần nội thất trang trí công phu và các báu vật nghệ thuật bên trong. Cùng "
+"với tháp chuông Giotto và Nhà rửa tội Thánh Gioan, nhà thờ thuộc một Di sản "
+"Thế giới của UNESCO, mỗi năm đón hàng triệu khách nhờ giá trị lịch sử, văn "
+"hoá và kiến trúc."
 
 #: activities/explore_monuments/resource/board/board8.qml:50
 #: activities/explore_monuments/resource/board/board8.qml:53
 msgctxt "board8|"
 msgid "Leaning Tower of Pisa"
-msgstr ""
+msgstr "Tháp nghiêng Pisa"
 
 #: activities/explore_monuments/resource/board/board8.qml:51
 msgctxt "board8|"
@@ -8623,12 +8813,20 @@ msgid ""
 "with intricately carved columns and arches. Recognized as a UNESCO World "
 "Heritage Site, it remains a symbol of resilience and ingenuity."
 msgstr ""
+"Tháp nghiêng Pisa ở thành phố Pisa, Ý, là kỳ quan kiến trúc nổi tiếng khắp "
+"thế giới. Được xây làm tháp chuông đứng riêng cho nhà thờ lớn của thành phố,"
+" tháp nổi tiếng vì bị nghiêng ngoài ý muốn, do nền đất không vững. Khởi công"
+" năm 1173, tháp được xây trong gần 200 năm, trong thời gian đó người ta đã "
+"nhiều lần tìm cách giữ cho nó khỏi nghiêng thêm. Cao khoảng 56 mét, tháp "
+"theo lối Romanesque gồm tám tầng, trong đó có gian chuông, trang trí bằng "
+"những hàng cột và vòm chạm khắc tinh xảo. Được UNESCO công nhận là Di sản "
+"Thế giới, tháp vẫn là biểu tượng của sự bền bỉ và tài khéo."
 
 #: activities/explore_monuments/resource/board/board8.qml:61
 #: activities/explore_monuments/resource/board/board8.qml:64
 msgctxt "board8|"
 msgid "St Mark's Basilica"
-msgstr ""
+msgstr "Vương cung thánh đường Thánh Marco"
 
 #: activities/explore_monuments/resource/board/board8.qml:62
 msgctxt "board8|"
@@ -8644,12 +8842,21 @@ msgid ""
 " Adjacent to St. Mark's Square, it remains a symbol of Venice's historical, "
 "cultural, and religious heritage."
 msgstr ""
+"Vương cung thánh đường Thánh Marco ở Venice, Ý, là kiệt tác kiến trúc "
+"Byzantine và là một trong những địa danh nổi tiếng nhất thành phố. Vốn được "
+"xây năm 828 để lưu giữ thánh tích của Thánh sử Marco, nhà thờ được dựng lại "
+"theo hình dáng hiện nay vào thế kỷ 11. Nổi tiếng vì thiết kế xa hoa, nhà thờ"
+" pha trộn ảnh hưởng Đông và Tây, thấy rõ ở năm mái vòm, những bức khảm tinh "
+"xảo và mặt tiền lộng lẫy đầy tượng và hình chạm. Bên trong trang trí dày đặc"
+" bằng khảm vàng và sàn cẩm thạch, cho thấy sự giàu có và quyền lực của Cộng "
+"hoà Venice. Nằm ngay cạnh quảng trường Thánh Marco, nhà thờ vẫn là biểu "
+"tượng của di sản lịch sử, văn hoá và tôn giáo Venice."
 
 #: activities/explore_monuments/resource/board/board8.qml:72
 #: activities/explore_monuments/resource/board/board8.qml:75
 msgctxt "board8|"
 msgid "Pompeii"
-msgstr ""
+msgstr "Pompeii"
 
 #: activities/explore_monuments/resource/board/board8.qml:73
 msgctxt "board8|"
@@ -8665,22 +8872,30 @@ msgid ""
 "Site and remains one of the most important archaeological discoveries in "
 "history."
 msgstr ""
+"Pompeii là một thành phố La Mã cổ gần Napoli, Ý ngày nay, nổi tiếng vì được "
+"giữ nguyên sau khi bị núi lửa Vesuvius chôn vùi năm 79. Vụ phun trào tung ra"
+" tro, đá bọt và dòng nham tầng chết người, nhấn chìm cả thành phố cùng cư "
+"dân, giữ lại nhà cửa, đồ vật và cả hài cốt người với độ chi tiết đáng kinh "
+"ngạc. Việc khai quật Pompeii cho hiểu biết quý giá về đời sống, kiến trúc và"
+" xã hội La Mã thường ngày, để lộ một thành phố có đường phố quy hoạch tốt, "
+"nhà ở, nhà tắm công cộng và đền đài. Ngày nay đây là Di sản Thế giới của "
+"UNESCO và vẫn là một trong những phát hiện khảo cổ quan trọng nhất lịch sử."
 
 #: activities/explore_monuments/resource/board/board8.qml:85
 msgctxt "board8|"
 msgid "Monuments of Italy"
-msgstr ""
+msgstr "Công trình nổi tiếng của Ý"
 
 #: activities/explore_monuments/resource/board/board8.qml:88
 msgctxt "board8|"
 msgid "Click on the location of the given monument."
-msgstr ""
+msgstr "Bấm vào vị trí của công trình được nêu."
 
 #: activities/explore_monuments/resource/board/board9.qml:17
 #: activities/explore_monuments/resource/board/board9.qml:20
 msgctxt "board9|"
 msgid "Himeji Castle"
-msgstr ""
+msgstr "Thành Himeji"
 
 #: activities/explore_monuments/resource/board/board9.qml:18
 msgctxt "board9|"
@@ -8693,12 +8908,18 @@ msgid ""
 "the white plastered earthen walls and in the subtlety of the relationships "
 "between the building masses and the multiple roof layers."
 msgstr ""
+"Himeji-jo là mẫu mực đẹp nhất còn lại của kiến trúc thành quách Nhật Bản đầu"
+" thế kỷ 17, gồm 83 công trình với hệ thống phòng thủ rất phát triển và nhiều"
+" cơ quan bảo vệ khéo léo có từ đầu thời Mạc phủ. Đây là kiệt tác xây dựng "
+"bằng gỗ, kết hợp công năng với vẻ đẹp, vừa ở dáng vẻ thanh nhã do những bức "
+"tường đất trát vữa trắng tạo nên, vừa ở sự tinh tế trong quan hệ giữa các "
+"khối nhà và nhiều lớp mái."
 
 #: activities/explore_monuments/resource/board/board9.qml:28
 #: activities/explore_monuments/resource/board/board9.qml:31
 msgctxt "board9|"
 msgid "Hiroshima Peace Memorial Park"
-msgstr ""
+msgstr "Công viên Tưởng niệm Hoà bình Hiroshima"
 
 #: activities/explore_monuments/resource/board/board9.qml:29
 msgctxt "board9|"
@@ -8714,12 +8935,22 @@ msgid ""
 "a solemn space for reflection, honoring the lives lost and advocating for "
 "global peace."
 msgstr ""
+"Công viên Tưởng niệm Hoà bình Hiroshima là biểu tượng của hoà bình và là lời"
+" nhắc về hậu quả tàn khốc của chiến tranh. Nằm ở Hiroshima, Nhật Bản, công "
+"viên tưởng nhớ các nạn nhân của vụ ném bom nguyên tử ngày 6 tháng 8 năm "
+"1945. Trong công viên có nhiều đài tưởng niệm, trong đó có Vòm Bom Nguyên tử"
+" nổi tiếng, vốn là một toà nhà chính phủ và nay là Di sản Thế giới của "
+"UNESCO. Công viên còn có Bảo tàng Tưởng niệm Hoà bình Hiroshima, nơi kể lại "
+"những sự kiện quanh vụ ném bom và truyền đi thông điệp hoà bình, bất bạo "
+"động cùng tầm quan trọng của giải trừ vũ khí hạt nhân. Đây là không gian "
+"trang nghiêm để tưởng nhớ những người đã mất và kêu gọi hoà bình cho toàn "
+"thế giới."
 
 #: activities/explore_monuments/resource/board/board9.qml:39
 #: activities/explore_monuments/resource/board/board9.qml:42
 msgctxt "board9|"
 msgid "Arakura Fuji Sengen Shrine"
-msgstr ""
+msgstr "Đền Arakura Fuji Sengen"
 
 #: activities/explore_monuments/resource/board/board9.qml:40
 msgctxt "board9|"
@@ -8735,12 +8966,21 @@ msgid ""
 "the cherry blossom trees bloom and crowds gather to enjoy the stunning view "
 "of Mt. Fuji."
 msgstr ""
+"Đền được lập năm 705 để thờ vị thần của vùng đất này. Sau vụ phun trào lớn "
+"của núi Phú Sĩ năm 807, nhà vua phái sứ giả tới đền làm lễ cầu cho núi lửa "
+"ngừng phun. Người ta kể rằng trong thời Chiến Quốc, khi Takeda Nobutora, cha"
+" của lãnh chúa nổi tiếng Takeda Shingen, giao chiến với nhà Hojo, ông đã "
+"đóng quân ở đây, cầu chiến thắng và đã thắng trận. Sau đó ông dâng thanh "
+"kiếm của mình cho đền. Ngày nay, người dân địa phương và khách phương xa tới"
+" đền để xua điều dữ, cầu cho gia đình hạnh phúc và mẹ tròn con vuông. Mùa "
+"xuân, hoa anh đào nở rộ và người người kéo tới ngắm cảnh núi Phú Sĩ tuyệt "
+"đẹp."
 
 #: activities/explore_monuments/resource/board/board9.qml:50
 #: activities/explore_monuments/resource/board/board9.qml:53
 msgctxt "board9|"
 msgid "Okinawa Shuri Castle"
-msgstr ""
+msgstr "Thành Shuri, Okinawa"
 
 #: activities/explore_monuments/resource/board/board9.qml:51
 msgctxt "board9|"
@@ -8756,16 +8996,26 @@ msgid ""
 "much of the castle was lost in a fire in 2019, but efforts to restore it are"
 " ongoing, reflecting its enduring importance to Okinawa's heritage."
 msgstr ""
+"Thành Shuri ở Naha, Okinawa, Nhật Bản, là Di sản Thế giới của UNESCO và là "
+"biểu tượng của bề dày văn hoá Vương quốc Lưu Cầu. Vốn được xây từ thế kỷ 14,"
+" toà thành là trung tâm chính trị, kinh tế và văn hoá của vương quốc suốt "
+"nhiều thế kỷ. Nổi tiếng vì lối kiến trúc pha trộn rất riêng giữa Trung Hoa "
+"và Nhật Bản, thành Shuri có những công trình sơn son đỏ thắm, trang trí công"
+" phu và vị trí trên đỉnh đồi bao quát cả vùng. Tuy bị phá huỷ trong Thế "
+"chiến thứ hai, thành đã được dựng lại tỉ mỉ và trở thành điểm tham quan quan"
+" trọng. Đáng tiếc là phần lớn toà thành lại mất trong vụ cháy năm 2019, "
+"nhưng việc phục dựng vẫn đang tiếp tục, cho thấy ý nghĩa bền lâu của nó với "
+"di sản Okinawa."
 
 #: activities/explore_monuments/resource/board/board9.qml:63
 msgctxt "board9|"
 msgid "Monuments of Japan"
-msgstr ""
+msgstr "Công trình nổi tiếng của Nhật Bản"
 
 #: activities/explore_monuments/resource/board/board9.qml:66
 msgctxt "board9|"
 msgid "Click on the location of the given monument."
-msgstr ""
+msgstr "Bấm vào vị trí của công trình được nêu."
 
 #. Activity title
 #: activities/explore_world_animals/ActivityInfo.qml:19
@@ -8803,6 +9053,8 @@ msgid ""
 " looks like. Study well this information, because you will be tested in "
 "level 2."
 msgstr ""
+"Ở cấp một, con tha hồ khám phá từng con vật trên màn hình. Bấm vào dấu hỏi "
+"để biết tên và hình dáng của con vật. Hãy nhớ kỹ, vì cấp 2 sẽ hỏi lại đấy."
 
 #: activities/explore_world_animals/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
@@ -8810,12 +9062,14 @@ msgid ""
 "In level two, a random text prompt is displayed and you must click on the "
 "animal that matches the text."
 msgstr ""
+"Ở cấp hai, một câu mô tả bất kỳ hiện ra và con phải bấm vào con vật đúng với"
+" câu đó."
 
 #: activities/explore_world_animals/resource/board/board1.qml:19
 #: activities/explore_world_animals/resource/board/board1.qml:22
 msgctxt "board1|"
 msgid "Jaguar"
-msgstr ""
+msgstr "Báo đốm"
 
 #: activities/explore_world_animals/resource/board/board1.qml:20
 msgctxt "board1|"
@@ -8823,12 +9077,14 @@ msgid ""
 "The jaguar's jaw is well developed. Because of this, it has the strongest "
 "bite of all the felines, being able to break even a tortoise shell!"
 msgstr ""
+"Hàm báo đốm rất khoẻ. Nhờ vậy nó có cú cắn mạnh nhất trong họ nhà mèo, cắn "
+"vỡ được cả mai rùa!"
 
 #: activities/explore_world_animals/resource/board/board1.qml:30
 #: activities/explore_world_animals/resource/board/board1.qml:33
 msgctxt "board1|"
 msgid "Hedgehog"
-msgstr ""
+msgstr "Nhím"
 
 #: activities/explore_world_animals/resource/board/board1.qml:31
 msgctxt "board1|"
@@ -8837,12 +9093,15 @@ msgid ""
 "them as useful pets. When in danger, they will curl up into a ball and stick"
 " up their coat of sharp spines."
 msgstr ""
+"Nhím ăn các con vật nhỏ như ếch và côn trùng, nên nhiều người nuôi chúng làm"
+" thú cưng có ích. Khi gặp nguy, nhím cuộn tròn lại và dựng đứng bộ lông gai "
+"nhọn."
 
 #: activities/explore_world_animals/resource/board/board1.qml:41
 #: activities/explore_world_animals/resource/board/board1.qml:44
 msgctxt "board1|"
 msgid "Giraffe"
-msgstr ""
+msgstr "Hươu cao cổ"
 
 #: activities/explore_world_animals/resource/board/board1.qml:42
 msgctxt "board1|"
@@ -8850,12 +9109,14 @@ msgid ""
 "The giraffe lives in Africa and is the tallest mammal in the world. Just "
 "their legs, which are usually 1.8 meters long, are taller than most humans!"
 msgstr ""
+"Hươu cao cổ sống ở châu Phi và là loài thú cao nhất thế giới. Chỉ riêng cái "
+"chân của chúng, thường dài 1,8 mét, đã cao hơn phần lớn con người!"
 
 #: activities/explore_world_animals/resource/board/board1.qml:52
 #: activities/explore_world_animals/resource/board/board1.qml:55
 msgctxt "board1|"
 msgid "Bison"
-msgstr ""
+msgstr "Bò bison"
 
 #: activities/explore_world_animals/resource/board/board1.qml:53
 msgctxt "board1|"
@@ -8865,12 +9126,15 @@ msgid ""
 "the colonizers massacred them for sport and to clear land, rather than to "
 "hunting by indigenous peoples."
 msgstr ""
+"Bò bison sống ở các đồng cỏ Bắc Mỹ và từng bị người bản địa châu Mỹ săn để "
+"lấy thịt. Tuy nhiên, việc chúng gần như tuyệt chủng là do người thực dân tàn"
+" sát để mua vui và để lấy đất, chứ không phải do người bản địa săn bắt."
 
 #: activities/explore_world_animals/resource/board/board1.qml:63
 #: activities/explore_world_animals/resource/board/board1.qml:66
 msgctxt "board1|"
 msgid "Narwhal"
-msgstr ""
+msgstr "Kỳ lân biển"
 
 #: activities/explore_world_animals/resource/board/board1.qml:64
 msgctxt "board1|"
@@ -8878,22 +9142,25 @@ msgid ""
 "Narwhals are whales that live in the Arctic Ocean and have long tusks. These"
 " tusks remind many people of the mythical unicorn's horn."
 msgstr ""
+"Kỳ lân biển là loài cá voi sống ở Bắc Băng Dương và có chiếc ngà rất dài. "
+"Chiếc ngà đó khiến nhiều người liên tưởng tới sừng của con kỳ lân trong "
+"truyền thuyết."
 
 #: activities/explore_world_animals/resource/board/board1.qml:76
 msgctxt "board1|"
 msgid "Explore wild animals from around the world."
-msgstr ""
+msgstr "Khám phá thú hoang khắp thế giới."
 
 #: activities/explore_world_animals/resource/board/board1.qml:79
 msgctxt "board1|"
 msgid "Click on the location where the given animal lives."
-msgstr ""
+msgstr "Bấm vào nơi sinh sống của con vật được nêu."
 
 #: activities/explore_world_animals/resource/board/board2.qml:19
 #: activities/explore_world_animals/resource/board/board2.qml:22
 msgctxt "board2|"
 msgid "Chameleon"
-msgstr ""
+msgstr "Tắc kè hoa"
 
 #: activities/explore_world_animals/resource/board/board2.qml:20
 msgctxt "board2|"
@@ -8901,12 +9168,14 @@ msgid ""
 "The chameleon lives in Africa and Madagascar and is well-known for its "
 "ability to change its skin color in a couple of seconds."
 msgstr ""
+"Tắc kè hoa sống ở châu Phi và đảo Madagascar, nổi tiếng vì đổi được màu da "
+"chỉ trong vài giây."
 
 #: activities/explore_world_animals/resource/board/board2.qml:30
 #: activities/explore_world_animals/resource/board/board2.qml:33
 msgctxt "board2|"
 msgid "Polar bear"
-msgstr ""
+msgstr "Gấu Bắc Cực"
 
 #: activities/explore_world_animals/resource/board/board2.qml:31
 msgctxt "board2|"

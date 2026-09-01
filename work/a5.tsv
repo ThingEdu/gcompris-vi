@@ -1,0 +1,130 @@
+207	Battery	I = %1A
+210	Bulb	I = %1A
+215	Resistor	I = %1A
+218	Rheostat	I = %1A
+625	board1_0	1
+626	board1_0	2
+627	board1_0	3
+628	board1_0	4
+635	board3_0	1
+636	board3_0	2
+637	board3_0	3
+638	board3_0	4
+640	board4_0	1
+641	board4_0	2
+642	board4_0	3
+643	board4_0	4
+918	AndGate	A AND B
+924	NandGate	NOT (A AND B)
+926	NorGate	NOT (A OR B)
+931	OrGate	A OR B
+937	XorGate	A XOR B
+1166	board3	Château de Chenonceau
+1167	board3	The Château de Chenonceau is among many of Loire Valley Châteaux that boast amazing architecture and historical significance drawing thousands of tourists from all over the world. Château de Chenonceau is sometimes called the Ladies Castle by some historians due to feminine figures having greatly influenced the construction and development of this French Château over the centuries.
+1168	board3	Eiffel Tower
+1169	board3	The world-famous metallic tower was built for the Paris International Exhibition in 1889 for the centenary of the French Revolution. At the time of its inauguration, it was the world’s tallest monument.
+1170	board3	Monuments of France
+1171	board3	Click on the location of the given monument.
+1172	board4	Neuschwanstein Castle
+1173	board4	The ultimate fairytale castle, Neuschwanstein is situated on a rugged hill near Füssen in southwest Bavaria. It was the inspiration for the Sleeping Beauty castles in the Disneyland parks. The castle was commissioned by King Ludwig II of Bavaria who was declared insane when the castle was almost completed in 1886 and found dead a few days later. Neuschwanstein is the most photographed building in the country and one of the most popular tourist attractions in Germany.
+1174	board4	Trier Imperial Baths
+1175	board4	The Trier Imperial Baths are a large Roman bath complex in Trier, Germany. It is designated as part of the Roman Monuments, Cathedral of St. Peter and Church of Our Lady in Trier UNESCO World Heritage Site.
+1176	board4	Brandenburg Gate
+1177	board4	The Brandenburg Gate is the only surviving city gate of Berlin and symbolizes the reunification of East and West Berlin. Built in the 18th century, the Brandenburg Gate is the entry to Unter den Linden, the prominent boulevard of linden trees which once led directly to the palace of the Prussian monarchs. It is regarded as one of the most famous landmarks in Europe.
+1178	board4	Berlin Cathedral
+1179	board4	The Cathedral of Berlin is the largest church in the city, and it serves as a vital center for the Protestant church of Germany. Reaching out well beyond the borders of the parish and of Berlin, the cathedral attracts thousands of visitors, year after year, from Germany and abroad.
+1180	board4	Schwerin Palace
+1181	board4	This romantic fairytale fortress, with all its many towers, domes and wings, is reflected in the waters of Lake Schwerin. It was completed in 1857 and symbolized the powerful dynasty of its founder, Friedrich Franz II.
+1182	board4	Aula Palatina
+1183	board4	The long, high-ceilinged brick structure was the throne hall of the Roman emperor until the destruction of the city by Germanic tribes. The invaders built a settlement inside the roofless ruin. In the 12th century, the apse was converted into a tower to accommodate the Archbishop of Trier.
+1184	board4	Worms Cathedral
+1185	board4	Worms Cathedral (Wormser Dom) also known as the Cathedral of St Peter is a Romanesque cathedral in the German city of Worms. A sandstone structure with distinctive conical towers, Worms Cathedral was constructed in phases throughout the twelfth century and mostly completed by 1181.
+1186	board4	Monuments of Germany
+1187	board4	Click on the location of the given monument.
+1188	board5	Cabrillo
+1189	board5	Situated on Point Loma in San Diego, California, Cabrillo National Monument commemorates the first European to land on the West Coast of the United States, Juan Rodriguez Cabrillo. Portuguese by birth, Cabrillo carried the Spanish flag in his conquests of the New World. He arrived at San Diego Bay in September 1542, three months after departing from Barra de Navidad on the west coast of Mexico.
+1190	board5	Canyon de Chelly
+1191	board5	The stoic red ruins of Canyon de Chelly in northeastern Arizona are at once part of the National Park Service and the Navajo Nation, having been established as a national monument in 1931. A number of important early Native American sites are preserved in the nearly 84000 acres of parkland, and Canyon de Chelly also offers an array of Southwestern geological formations, including Spider Rock, an 800-foot-tall sandstone spire that rises eerily from the bottom of the canyon floor.
+1192	board5	Castillo de San Marcos
+1193	board5	Set on more than 20 acres in St. Augustine, Florida, the Castillo de San Marcos was completed as the city's defensive fort in 1695, when Florida was still a Spanish territory. Constructed out of the rare coquina limestone, the star-shaped Castillo also is the oldest masonry fort in the country.
+1194	board5	Castle Clinton
+1195	board5	This round, sandstone fort sitting at the bottom of Manhattan Island predates Ellis Island by about 50 years as the first U.S. immigration checkpoint. Castle Clinton (nps.gov/cacl) was originally built as a fort to protect New York from a British invasion during the War of 1812, and was dedicated as a national monument in 1946.
+1196	board5	George Washington Birthplace
+1197	board5	The George Washington Birthplace National Monument is in Westmoreland County, Virginia, United States. Originally settled by John Washington, George Washington's great-grandfather, George Washington was born here on February 22, 1732. He lived here until age three, returning later as a teenager.
+1198	board5	Lincoln Memorial
+1199	board5	Built in white stone with 36 iconic columns, The Lincoln Memorial is one of the most recognized structures in the United States. The memorial is at the west end of the National Mall, in West Potomac Park, and is an example in Neoclassical architecture. It features a solitary, 19-foot-tall statue of Abraham Lincoln sitting in contemplation, which is flanked on both side chambers with inscriptions of Lincoln’s Second Inaugural Address and arguably his most famous speech, the Gettysburg Address.
+1200	board5	Mount Rushmore
+1201	board5	Mt. Rushmore stands as a shrine of democracy, a monument and memorial to George Washington, this country's birth, growth and ideals. Mount Rushmore symbolizes the greatness of this nation through the greatness of its leaders. The epic sculpture of Mount Rushmore depicts the faces of four exalted American presidents that symbolize this nation's rich history, rugged determination and lasting achievements.
+1202	board5	Navajo
+1203	board5	Navajo National Monument is a National Monument located within the northwest portion of the Navajo Nation territory in northern Arizona, which was established to preserve three-well preserved cliff dwellings of the Ancestral Puebloan People: Keet Seel (Kitsʼiil), Betatakin (Bitátʼahkin), and Inscription House (Tsʼah Biiʼ Kin). The monument is high on the Shonto plateau, overlooking the Tsegi Canyon system, west of Kayenta, Arizona. It features a visitor center with a museum, two short self-guided mesa top trails, two small campgrounds, and a picnic area. Rangers guide visitors on free tours of the Keet Seel and Betatakin cliff dwellings. The Inscription House site, further west, is currently closed to public access.
+1204	board5	Statue of Liberty
+1205	board5	Perhaps the best-known monument and symbol of the United States is the Statue of Liberty, which sits on its own tiny island in New York City. The statue was a gift from the people of France and was dedicated in October 1886.
+1206	board5	Fort Sumter
+1207	board5	Originally built as a defensive structure following the War of 1812, it was at this oceanfront fortification in Charleston Harbor, South Carolina, that the first shots of the Civil War were fired. Inside Fort Sumter, a number of exhibits offer perspectives on U.S. history, particularly the divisions between North and South that eventually resulted in the war.
+1208	board5	Monuments of US
+1209	board5	Click on the location of the given monument.
+1210	board6	Great Pyramid of Giza
+1211	board6	The Great Pyramid of Giza is also known as the Pyramid of Khufu or the Pyramid of Cheops. It is considered to be the oldest of all the Seven Wonders of the Ancient World. It is also the largest of all the three pyramids in Giza. It is situated in the Giza Necropolis, in Egypt. The initial construction has been started by Egyptian Pharaoh Khufu, then it was continued by his son Khafre and finally completed by Menkaure. It took almost 20 years to build the pyramid and approximately 2 million blocks of stone have been used in the construction. The height of the pyramid is approximately 139 meters making it the highest pyramid of Egypt.
+1212	board6	Bent Pyramid
+1213	board6	The Bent Pyramid located at Dahshur was the second pyramid built by pharaoh Sneferu. Mysteriously, this true pyramid rises from the desert at an angle of 55 degrees and then suddenly changes to a more gradual angle of 43 degrees. One theory holds that due to the steepness of the original angle the weight to be added above the inner chambers and passageways became too large, forcing the builders to adopt a shallower angle. Today, the Bent Pyramid is the only pyramid in Egypt of which the outer casing of polished limestone is still largely intact.
+1214	board6	Pyramid of Meidum
+1215	board6	Five miles south of Saqqara in Egypt stands the mysterious tower-like pyramid of Meidum, which today scarcely resembles a typical pyramid at all. This pyramid was probably built during the reign of the 4th Dynasty pharaoh Sneferu, although it is believed by some that the pyramid may have been started by Sneferu’s predecessor, Huni. At some point during its construction the steps of the pyramid were filled with limestone encasing marking the first attempt by the ancient Egyptians at the construction of a true pyramid.
+1216	board6	Red Pyramid
+1217	board6	The Red Pyramid was one of the finest and most successful attempts by Pharaoh Sneferu in building world’s first ever smooth sided pyramid during the Ancient Egypt period. The height of the pyramid is 104 meters making it the world’s 4th largest pyramid in Egypt. The pyramid has been built with red limestone stones, hence the name. The local people of Egypt called it as el-heram el-watwaat meaning the Bat Pyramid.
+1218	board6	Egyptian pyramids
+1219	board6	Click on the location of the given pyramid.
+1220	board7	Forbidden City
+1221	board7	The Forbidden City, located in the heart of Beijing, China, is a magnificent imperial palace complex that served as the home of Chinese emperors and the political center of the nation for nearly 500 years, from the Ming dynasty (1368–1644) to the end of the Qing dynasty (1644–1912). Built between 1406 and 1420, this sprawling architectural masterpiece spans 180 acres and features over 980 preserved buildings with 8,700 rooms, showcasing traditional Chinese palatial design. Surrounded by a moat and a massive wall, the Forbidden City was once inaccessible to the general public, symbolizing imperial power and exclusivity.
+1222	board7	Leshan Giant Buddha
+1223	board7	The Leshan Giant Buddha, located in Sichuan Province, China, is a colossal statue carved into a cliff at the confluence of the Min, Dadu, and Qingyi rivers. Standing at 71 meters (233 feet), it is the tallest pre-modern statue in the world and a UNESCO World Heritage Site. Built during the Tang Dynasty (713–803 AD), the statue represents Maitreya, the Buddha of the future, and was created to calm the turbulent waters threatening local boat traffic. Ingeniously designed, the statue includes a hidden drainage system to prevent erosion. Its serene expression and intricate craftsmanship make it a symbol of spiritual and artistic achievement.
+1224	board7	Potala Palace
+1225	board7	The Potala Palace, perched on Red Hill in Lhasa, Tibet, is an iconic symbol of Tibetan culture and a UNESCO World Heritage Site. Originally built in the 7th century and expanded in the 17th century, it served as the winter residence of the Dalai Lamas and the center of Tibetan governance. Rising 13 stories high with over 1,000 rooms, the palace combines intricate Tibetan architecture, vibrant murals, and sacred relics. It is divided into the White Palace, housing administrative areas, and the Red Palace, dedicated to religious studies and prayer. The Potala Palace stands as a testament to Tibet's spiritual and historical legacy.
+1226	board7	Terracotta Army
+1227	board7	The Terracotta Army is a collection of thousands of life-sized clay soldiers, horses, and chariots buried with China's first emperor, Qin Shi Huang, to accompany him in the afterlife. Discovered in 1974 near Xi'an, the figures date back to approximately 210 BCE and are celebrated for their incredible detail, with each warrior uniquely crafted to represent the diverse ranks and roles of an ancient Chinese army.
+1228	board7	Sun and Moon Pagodas
+1229	board7	The Sun and Moon Pagodas, located in Guilin, China, are iconic twin towers that symbolize the city's cultural and spiritual heritage. Originally built during the Tang Dynasty, they were reconstructed in the 20th century as striking landmarks on Shanhu Lake. The Sun Pagoda, standing 41 meters tall, is a bronze structure—the tallest of its kind in the world—while the Moon Pagoda, at 35 meters, is built of glazed tiles. These pagodas represent the harmony of yin and yang and are connected by an underwater glass tunnel. Illuminated at night, they are popular attractions showcasing traditional Chinese architecture and modern ingenuity.
+1230	board7	Diaolou Towers
+1231	board7	The Diaolou Towers, found in Kaiping, Guangdong Province, China, are fortified multi-story structures built from the late 19th to early 20th centuries to protect against bandits and floods. Blending Western architectural styles like Romanesque and Baroque with traditional Chinese elements, they reflect the wealth and influence of overseas Chinese emigrants. Constructed with reinforced concrete, these towers symbolize a period of cultural and economic transition in rural China. Designated a UNESCO World Heritage Site in 2007, around 1,800 of the original 3,000 towers remain, offering insight into this unique architectural heritage.
+1232	board7	Monuments of China
+1233	board7	Click on the location of the given monument.
+1234	board8	The Pantheon
+1235	board8	The Pantheon in Rome, Italy, is an iconic ancient temple built around 126 AD during Emperor Hadrian's reign, on the site of earlier structures commissioned by Marcus Agrippa. Renowned for its architectural brilliance, it features a massive domed roof with a central oculus, symbolizing the heavens, allowing natural light to illuminate the interior. Originally dedicated to all Roman gods, it was later converted into a Christian church, known as the Basilica of St. Mary and the Martyrs (Santa Maria ad Martyres), in 609 AD. Its dome, the largest unreinforced concrete dome in the world, showcases remarkable engineering and symmetry, inspiring architects for centuries. The Pantheon’s harmonious proportions and historical significance make it a timeless masterpiece of classical architecture.
+1236	board8	Duomo Di Milano
+1237	board8	The Duomo di Milano, also known as the Milan Cathedral, is an iconic Gothic masterpiece located in the heart of Milan, Italy. Constructed over nearly six centuries, it is one of the largest cathedrals in the world and a symbol of Milan's artistic and cultural heritage. Its intricate façade is adorned with countless statues, spires, and gargoyles, reflecting the grandeur of Gothic architecture. Visitors can explore its stunning interiors, featuring beautiful stained glass windows and intricate marble details, or ascend to the rooftop for breathtaking views of the city and the Alps. The Duomo stands as a testament to Italy's rich history and architectural brilliance.
+1238	board8	Florence Cathedral
+1239	board8	The Florence Cathedral, officially known as the Cattedrale di Santa Maria del Fiore, is a renowned masterpiece of Gothic and Renaissance architecture located in Florence, Italy. Completed in 1436, it is famous for its massive red-tiled dome designed by Filippo Brunelleschi, which remains an engineering marvel and a symbol of the city. The cathedral's intricate marble facade, added in the 19th century, complements its richly decorated interior and artistic treasures. Together with Giotto’s Campanile and the Baptistery of St. John, it forms part of a UNESCO World Heritage Site, drawing millions of visitors annually for its historical, cultural, and architectural significance.
+1240	board8	Leaning Tower of Pisa
+1241	board8	The Leaning Tower of Pisa, located in the Italian city of Pisa, is a globally renowned architectural marvel. Constructed as the freestanding bell tower for the city's cathedral, it is famous for its unintended tilt, caused by unstable foundation soil. Begun in 1173, the tower's construction spanned nearly 200 years, during which efforts were made to stabilize its inclination. Standing at approximately 56 meters (183 feet), the tower's Romanesque design features eight stories, including a bell chamber, adorned with intricately carved columns and arches. Recognized as a UNESCO World Heritage Site, it remains a symbol of resilience and ingenuity.
+1242	board8	St Mark's Basilica
+1243	board8	St. Mark's Basilica, located in Venice, Italy, is an iconic masterpiece of Byzantine architecture and one of the city's most famous landmarks. Originally built in 828 to house the relics of St. Mark the Evangelist, it was rebuilt in its current form in the 11th century. Known for its opulent design, the basilica features a blend of Eastern and Western influences, evident in its five domes, intricate mosaics, and ornate facade adorned with statues and carvings. The interior is richly decorated with gold mosaics and marble floors, showcasing the wealth and power of the Venetian Republic. Adjacent to St. Mark's Square, it remains a symbol of Venice's historical, cultural, and religious heritage.
+1244	board8	Pompeii
+1245	board8	Pompeii was an ancient Roman city located near modern-day Naples, Italy, famously preserved after being buried by the eruption of Mount Vesuvius in 79 AD. The eruption unleashed a deadly combination of ash, pumice, and pyroclastic flows, which engulfed the city and its inhabitants, preserving buildings, artifacts, and even human remains in incredible detail. Excavations of Pompeii have provided valuable insights into daily Roman life, architecture, and society, revealing a city with well-planned streets, homes, public baths, and temples. The site is now a UNESCO World Heritage Site and remains one of the most important archaeological discoveries in history.
+1246	board8	Monuments of Italy
+1247	board8	Click on the location of the given monument.
+1248	board9	Himeji Castle
+1249	board9	Himeji-jo is the finest surviving example of early 17th-century Japanese castle architecture, comprising 83 buildings with highly developed systems of defence and ingenious protection devices dating from the beginning of the Shogun period. It is a masterpiece of construction in wood, combining function with aesthetic appeal, both in its elegant appearance unified by the white plastered earthen walls and in the subtlety of the relationships between the building masses and the multiple roof layers.
+1250	board9	Hiroshima Peace Memorial Park
+1251	board9	Hiroshima Peace Memorial Park is a symbol of peace and a reminder of the devastating consequences of war. Located in Hiroshima, Japan, the park commemorates the victims of the atomic bombing on August 6, 1945. The park features several monuments, including the iconic Atomic Bomb Dome, which was once a government building and now stands as a UNESCO World Heritage Site. The park also houses the Hiroshima Peace Memorial Museum, which educates visitors about the events surrounding the bombing and promotes a message of peace, nonviolence, and the importance of nuclear disarmament. It serves as a solemn space for reflection, honoring the lives lost and advocating for global peace.
+1252	board9	Arakura Fuji Sengen Shrine
+1253	board9	The shrine was founded in 705 to enshrine the deity of the site. Following the great eruption of Mt. Fuji in 807, the emperor dispatched an imperial envoy to this shrine to perform a ritual to halt the eruption. It is said that during the Warring States Period, when Takeda Nobutora, the father of a famous warlord Takeda Shingen, battled with the Hojo Family, he set up camp here, prayed for victory, and won the battle. He then dedicated his sword to this shrine. Today, locals and those from afar visit the shrine to ward off evil, to pray for family happiness, and safe childbirth. In the spring, the cherry blossom trees bloom and crowds gather to enjoy the stunning view of Mt. Fuji.
+1254	board9	Okinawa Shuri Castle
+1255	board9	Shuri Castle, located in Naha, Okinawa, Japan, is a UNESCO World Heritage Site and a symbol of the Ryukyu Kingdom's rich cultural history. Originally constructed in the 14th century, the castle served as the political, economic, and cultural hub of the kingdom for centuries. Renowned for its distinctive fusion of Chinese and Japanese architectural styles, Shuri Castle features vermilion lacquered structures, ornate decorations, and a commanding hilltop position. Though destroyed during World War II, it was meticulously reconstructed and became a key tourist attraction. Tragically, much of the castle was lost in a fire in 2019, but efforts to restore it are ongoing, reflecting its enduring importance to Okinawa's heritage.
+1256	board9	Monuments of Japan
+1257	board9	Click on the location of the given monument.
+1262	ActivityInfo	In level one, players enjoy exploring each animal on the screen. Click on the question mark, and learn about the animal, what its name is, and what it looks like. Study well this information, because you will be tested in level 2.
+1263	ActivityInfo	In level two, a random text prompt is displayed and you must click on the animal that matches the text.
+1264	board1	Jaguar
+1265	board1	The jaguar's jaw is well developed. Because of this, it has the strongest bite of all the felines, being able to break even a tortoise shell!
+1266	board1	Hedgehog
+1267	board1	Hedgehogs eat small animals, like frogs and insects, so many people keep them as useful pets. When in danger, they will curl up into a ball and stick up their coat of sharp spines.
+1268	board1	Giraffe
+1269	board1	The giraffe lives in Africa and is the tallest mammal in the world. Just their legs, which are usually 1.8 meters long, are taller than most humans!
+1270	board1	Bison
+1271	board1	Bisons live on the plains of North America and were hunted by the Native Americans for food. However, their near-extinction is due to the fact that the colonizers massacred them for sport and to clear land, rather than to hunting by indigenous peoples.
+1272	board1	Narwhal
+1273	board1	Narwhals are whales that live in the Arctic Ocean and have long tusks. These tusks remind many people of the mythical unicorn's horn.
+1274	board1	Explore wild animals from around the world.
+1275	board1	Click on the location where the given animal lives.
+1276	board2	Chameleon
+1277	board2	The chameleon lives in Africa and Madagascar and is well-known for its ability to change its skin color in a couple of seconds.
+1278	board2	Polar bear

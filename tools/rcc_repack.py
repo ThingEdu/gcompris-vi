@@ -21,11 +21,12 @@ def main():
     p.add_argument("--version", default="2", help="phiên bản định dạng rcc (2 cho Qt5, 3 cho Qt6)")
     a = p.parse_args()
 
+    src_dir = os.path.abspath(a.src_dir)
     files = []
-    for dp, _, fn in os.walk(a.src_dir):
+    for dp, _, fn in os.walk(src_dir):
         for f in fn:
             full = os.path.join(dp, f)
-            alias = os.path.relpath(full, a.src_dir)
+            alias = os.path.relpath(full, src_dir)
             files.append((full, alias))
     files.sort(key=lambda x: x[1])
 
