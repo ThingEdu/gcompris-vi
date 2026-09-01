@@ -5494,7 +5494,7 @@ msgstr "Chế độ theo mẫu"
 #: activities/compass/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Compass"
-msgstr "La bàn"
+msgstr "Vẽ bằng compa"
 
 #. Help title
 #: activities/compass/ActivityInfo.qml:16
@@ -22484,7 +22484,7 @@ msgstr "Mi♭%1"
 #: activities/planegame/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Numerical order"
-msgstr "Sắp theo thứ tự số"
+msgstr "Bắt số theo thứ tự"
 
 #. Help title
 #: activities/planegame/ActivityInfo.qml:17
@@ -27056,7 +27056,7 @@ msgstr ""
 #: activities/traffic/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "A sliding-block puzzle game"
-msgstr "Trò trượt ô xếp hình"
+msgstr "Trò trượt xe trong bãi đỗ"
 
 #. Help title
 #: activities/traffic/ActivityInfo.qml:17
@@ -27370,7 +27370,7 @@ msgstr "Kết quả không được là số âm."
 #: activities/vertical_subtraction_compensation/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Vertical subtraction (compensation)"
-msgstr "Phép trừ đặt tính dọc (có nhớ)"
+msgstr "Phép trừ đặt tính dọc (kiểu bù trừ)"
 
 #. Help goal
 #: activities/vertical_subtraction_compensation/ActivityInfo.qml:20
