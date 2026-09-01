@@ -1,0 +1,220 @@
+207	Battery	I = %1A
+210	Bulb	I = %1A
+215	Resistor	I = %1A
+218	Rheostat	I = %1A
+625	board1_0	1
+626	board1_0	2
+627	board1_0	3
+628	board1_0	4
+635	board3_0	1
+636	board3_0	2
+637	board3_0	3
+638	board3_0	4
+640	board4_0	1
+641	board4_0	2
+642	board4_0	3
+643	board4_0	4
+918	AndGate	A AND B
+924	NandGate	NOT (A AND B)
+926	NorGate	NOT (A OR B)
+931	OrGate	A OR B
+937	XorGate	A XOR B
+1192	board5	Castillo de San Marcos
+3550	Data	The "kg" symbol at the end of a number means kilogram.
+3551	Data	The kilogram is a unit of mass, a property which corresponds to the common perception of how "heavy" an object is. \n Drop weights on the left side to balance the scales.
+3552	Data	Enter the weight of the gift in kilogram: %1
+3553	Data	Balance up to 100 grams.
+3554	Data	Balance up to 10 kilograms including grams.
+3555	Data	The "kg" symbol at the end of a number means kilogram. The kilogram is a unit of mass, a property which corresponds to the common perception of how "heavy" an object is. \n Drop weights on the left side to balance the scales.
+3556	Data	Remember, one kilogram ("kg") equals 1000 grams ("g"). \n Drop weights on the left side to balance the scales.
+3559	Data	Balance up to 5 ounces.
+3560	Data	%1 oz
+3561	Data	The "oz" symbol at the end of a number means ounce. One pound equals sixteen ounces. \n Drop weights on the left side to balance the scales.
+3562	Data	Enter the weight of the gift in ounce: %1
+3563	Data	Balance up to 10 ounces.
+3564	Data	Balance up to 20 ounces.
+3565	Data	Balance up to 10 pounds.
+3566	Data	%1 lb
+3567	Data	The "lb" symbol at the end of a number means pound. The pound is a unit of mass, a property which corresponds to the common perception of how "heavy" an object is. This unit is used in the USA.
+3568	Data	Enter the weight of the gift in pound: %1
+3569	Data	Balance up to 100 ounces.
+3570	Data	The "oz" symbol at the end of a number means ounce. \n Drop weights on the left side to balance the scales.
+3571	Data	Balance up to 10 pounds including ounces.
+3572	Data	Remember, one pound ("lb") equals sixteen ounces ("oz"). \n Drop the weights on the left side of the scales to balance it.
+3573	ActivityConfig	Display counters
+3579	ActivityInfo	If there is a rest, it needs to be placed inside the candy jar.
+3580	Data	Maximum 25 pieces of candy and 5 kids, no rest.
+3581	Data	Paul wants to share 2 pieces of candy equally between 2 of his girl friends. Can you help him? First, place the children in the center, then drag the pieces of candy to each of them.
+3582	Data	Now he wants to share 4 pieces of candy equally among his friends.
+3583	Data	Can you now share 6 of Paul's pieces of candy equally among his friends?
+3584	Data	Some of his friends already have pieces of candy. He wants to give them 7 more pieces so that they all have the same amount.
+3585	Data	Paul has only 12 pieces of candy left. He eats 2 pieces of candy and he gives the rest to his friends. Can you help him split equally the 10 remaining pieces of candy?
+3586	Data	George wants to share 3 pieces of candy equally between 3 of his girl friends. Can he split the pieces of candy equally?
+3587	Data	Maria wants to share 6 pieces of candy equally between 3 of her friends: 1 girl and 2 boys. Can she split the pieces of candy equally?
+3588	Data	John wants to share 8 pieces of candy equally between 3 of his friends: 1 boy and 2 girls. The boy already has one. Can he make sure that they all have the same amount?
+3589	Data	Paul wants to share 12 pieces of candy equally between 3 of his friends: 2 boys and 1 girl. Can he split the pieces of candy equally?
+3590	Data	Maria wants to share 11 pieces of candy between 3 of her friends: 1 boy and 2 girls. The girls already have some pieces of candy. Can she split the pieces of candy so that they all have the same amount?
+3591	Data	Alice wants to share 4 pieces of candy equally between 4 of her girl friends. Can you help her?
+3592	Data	Now, Alice wants to give 8 pieces of candy to her friends.
+3593	Data	Alice wants to give 10 pieces of candy to her friends, 1 girl and 3 boys, so that they all have the same amount. The girls already have some pieces of candy.
+3594	Data	Alice wants to give 16 pieces of candy to her friends.
+3595	Data	Alice wants to give pieces of candy to 4 friends. Some of them already have some pieces of candy. Can you help her split 14 pieces of candy so that all her friends have the same amount?
+3596	Data	Michael wants to share 5 pieces of candy equally between 5 of his girl friends. Can you help him?
+3597	Data	Helen has 5 friends: 2 boys and 3 girls. She wants to give them 10 pieces of candy. Help her split the pieces of candy equally between her friends.
+3598	Data	Michelle wants to share 12 pieces of candy equally between her 4 brothers and 1 sister, so that they all have the same amount. Her sister already has some pieces of candy.
+3599	Data	Thomas wants to share his 20 pieces of candy with his friends: 1 boy and 4 girls. Can you help him?
+3600	Data	Paul wants to share 20 pieces of candy equally between 5 of his friends. They already have one piece of candy each. Can you help him?
+3601	Data	Charles wants to share his 6 pieces of candy equally with 2 of his girl friends. Can he split the pieces of candy equally?
+3602	Data	For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her friends: 2 girls and 1 boy. The girls already have some pieces of candy. How should she split the pieces of candy so that they all have the same amount?
+3603	Data	Jason's father gave him 16 pieces of candy to share equally with his friends: 2 boys and 2 girls. Help him give the pieces of candy to his friends.
+3604	Data	George wants to share 14 pieces of candy between 4 of his friends: 2 girls and 2 boys. The boys already have one piece of candy each. He wants all of them to have the same amount.
+3605	Data	Maria wants to share 25 pieces of candy equally between 5 of her friends: 3 girls and 2 boys. Can she split the pieces of candy equally?
+3606	Data	Maximum 25 pieces of candy and 5 kids, possible rest.
+3607	Data	Now he wants to share 5 pieces of candy among his friends.
+3608	Data	Can you now share 7 of Paul's pieces of candy among his friends?
+3609	Data	Can you now share 8 of Paul's pieces of candy among his friends?
+3610	Data	Paul has only 11 pieces of candy left. He eats 2 pieces of candy and he gives the rest to his friends. Can you help him split equally the 9 remaining pieces of candy?
+3611	Data	Bob wants to share 3 pieces of candy equally between 3 of his girl friends. Can he split the pieces of candy equally?
+3612	Data	Harry wants to share 8 pieces of candy between 3 of his friends: 1 boy and 2 girls. The boy already has one piece of candy. Can he split the pieces of candy so that they all have the same amount?
+3613	Data	Maria wants to share 8 pieces of candy between 3 of her friends: 1 boy and 2 girls. The girls already have some pieces of candy. Can she split the pieces of candy so that they all have the same amount?
+3614	Data	Harry wants to share 12 pieces of candy between 3 of his friends: 1 boy and 2 girls. The boy already has some pieces of candy. Can he split the pieces of candy so that they all have the same amount?
+3615	Data	Now, Alice wants to share 8 pieces of candy equally among her friends.
+3616	Data	Can you help Alice share 10 pieces of candy equally among her friends: 1 girl and 3 boys? The girl already has some pieces of candy.
+3617	Data	Alice wants to share 16 pieces of candy equally among her friends.
+3618	Data	Alice has 14 pieces of candy left. She wants to share them equally among her friends. The boys already have some pieces of candy. Can you help her split the pieces of candy equally?
+3619	Data	Help Jon share 11 pieces of candies equally between five girls. The rest will remain to Jon.
+3620	Data	Jon wants to share the rest of his pieces of candies with his brothers and his sisters. Can you split them equally, knowing that his brothers already have 2 pieces of candy?
+3621	Data	Help Tux split 19 pieces of candies between his friends: 4 boys and 1 girl.
+3622	Data	Help Maria share 18 pieces of candy equally between 3 boys and 2 girls.
+3623	Data	Charles wants to share his 6 pieces of candy equally between 2 of his girl friends. Can he split the pieces of candy equally?
+3624	Data	For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her friends equally: 2 girls and 1 boy. How should she split the pieces of candy between her friends?
+3625	Data	Jason's father gave him 17 pieces of candy to share equally between his friends: 2 boys and 2 girls. Help him give the pieces of candy to his friends.
+3626	Data	George wants to share 14 pieces of candy equally between 4 of his friends: 2 girls and 2 boys. Can he equally split the pieces of candy between his friends?
+3627	Data	Maria wants to share 23 pieces of candy equally between 5 of her friends: 3 girls and 2 boys. Can she share the pieces of candy equally between her friends?
+3628	Data	Maximum 30 pieces of candy and 6 kids, possible rest.
+3629	share|First part of Place %n boy(s) and %n girl(s) in the center. Then split %n pieces of candy equally between them.	Place %n boy(s) 
+3630	share|Second part of Place %n boy(s) and %n girl(s) in the center. Then split %n pieces of candy equally between them.	and %n girl(s) in the center. 
+3631	share|Third part of Place %n boy(s) and %n girl(s) in the center. Then split %n pieces of candy equally between them.	Then split %n pieces of candy equally between them.
+3632	Share	You can't put more than %1 pieces of candy in the same rectangle
+3637	ActivityInfo	Tab: switch between the color selector and the painting area
+3642	ActivityInfo	Ctrl + N, Delete or Backspace: create a new image
+3643	ActivityInfo	Brush smoothing concept from:
+3644	ActivityInfo	Sketch brush concept from:
+3645	BackgroundColorSelector	Background color
+3646	BackgroundSelector	Background image
+3647	BrushToolPanel	Eraser Tools
+3648	BrushToolPanel	Drawing Tools
+3649	FilesPanel	Save your image
+3650	FilesPanel	Open an image
+3651	FilesPanel	New image settings
+3652	FilesPanel	Background color
+3653	FilesPanel	Background image
+3654	FilesPanel	Create a new image
+3655	GeometryTool	Rounded Corners
+3656	GeometryToolPanel	Geometry Tools
+3657	GradientTool	Inner Circle Size
+3658	GradientToolPanel	Gradient Tools
+3659	PaletteSelector	Palettes
+3660	Sketch	You did not save this image. Do you want to close this activity?
+3661	Sketch	Do you want to erase this image?
+3662	Sketch	Yes
+3663	Sketch	No
+3664	StampToolPanel	Stamp Tool
+3665	TextToolPanel	Text Tool
+3666	TextToolPanel	Type your text here
+3667	ToolsPanel	Tools
+3668	ToolsPanel	Reset tool settings
+3669	ToolsPanel	Opacity
+3670	ToolsPanel	Size
+3671	ToolsPanel	Speed
+3672	ToolsPanel	Density
+3673	ToolsPanel	Dots Size
+3674	ToolsPanel	Smoothing
+3675	ToolsPanel	Rotation
+3676	ToolsPanel	Mirror image
+3682	Data	Numbers up to 3.
+3683	Data	Type the number on the dice, 1 or 2.
+3684	Data	Type the number on the dice, from 1 to 3.
+3685	Data	Numbers up to 4.
+3686	Data	Type the number on the dice, from 1 to 4.
+3687	Data	Numbers up to 5.
+3688	Data	Type the number on the dice, from 1 to 5.
+3689	Data	Numbers up to 6.
+3690	Data	Type the number on the dice, from 1 to 6.
+3691	Data	Numbers up to 7.
+3692	Data	Type the number on the dice, from 1 to 7.
+3693	Data	Numbers up to 8.
+3694	Data	Type the number on the dice, from 1 to 8.
+3695	Data	Numbers up to 9.
+3696	Data	Type the number on the dice, from 1 to 9.
+3697	Data	Numbers from 0 to 9.
+3698	Data	Type the number on the dice, from 0 to 9.
+3702	Data	Type the number on the domino, 1 or 2.
+3703	Data	Type the number on the domino, from 1 to 3.
+3704	Data	Type the number on the domino, from 1 to 4.
+3705	Data	Type the number on the domino, from 1 to 5.
+3706	Data	Type the number on the domino, from 1 to 6.
+3707	Data	Type the number on the domino, from 1 to 7.
+3708	Data	Type the number on the domino, from 1 to 8.
+3709	Data	Type the number on the domino, from 1 to 9.
+3710	Data	Type the number on the domino, from 0 to 9.
+3711	Smallnumbers2	Dots
+3712	Smallnumbers2	Arabic numbers
+3713	Smallnumbers2	Roman numbers
+3714	Smallnumbers2	Images
+3715	ActivityConfig	Learning Mode
+3716	ActivityConfig	Assessment Mode
+3721	ActivityInfo	Space or Enter: select
+3722	ActivityInfo	Escape: return to previous screen
+3723	ActivityInfo	Tab: view the hint (only when the hint icon is visible)
+3724	Dataset	Sun
+3725	Dataset	How large is the Sun compared to the planets in our Solar System?
+3726	Dataset	Sixth largest
+3727	Dataset	Third largest
+3728	Dataset	Largest
+3729	Dataset	Seventh largest
+3730	Dataset	The temperature of the Sun is around:
+3731	Dataset	1000 °C
+3732	Dataset	4500 °C
+3733	Dataset	5505 °C
+3734	Dataset	3638 °C
+3735	Dataset	How old is the Sun?
+3736	Dataset	1.2 billion years
+3737	Dataset	3 billion years
+3738	Dataset	7 billion years
+3739	Dataset	4.5 billion years
+3740	Dataset	How long does it take for the Sun’s light to reach the Earth?
+3741	Dataset	8 minutes
+3742	Dataset	30 minutes
+3743	Dataset	60 minutes
+3744	Dataset	15 minutes
+3745	Dataset	The Sun is as big as:
+3746	Dataset	1 million Earths
+3747	Dataset	2.6 million Earths
+3748	Dataset	1.3 million Earths
+3749	Dataset	5 million Earths
+3750	Dataset	Mercury
+3751	Dataset	The maximum temperature on Earth is 58 °C.
+3752	Dataset	The length of a year on Venus is 225 Earth days.
+3753	Dataset	At which position is Mercury in the Solar System?
+3754	Dataset	Seventh
+3755	Dataset	Sixth
+3756	Dataset	First
+3757	Dataset	Fourth
+3758	Dataset	How small is Mercury compared to other planets in our Solar System?
+3759	Dataset	Smallest
+3760	Dataset	Second smallest
+3761	Dataset	Third smallest
+3762	Dataset	Fifth smallest
+3763	Dataset	How many moons has Mercury?
+3764	Dataset	The maximum temperature on Mercury is:
+3765	Dataset	50 °C
+3766	Dataset	35 °C
+3767	Dataset	427 °C
+3768	Dataset	273 °C
+3769	Dataset	How long is a year on Mercury?
+3770	Dataset	365 Earth days
+3771	Dataset	433 Earth days
+3772	Dataset	88 Earth days
+3773	Dataset	107 Earth days
+3774	Dataset	How long is one rotation on Mercury?

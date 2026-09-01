@@ -23650,7 +23650,7 @@ msgstr "%1 kg"
 #: activities/scalesboard_weight/resource/4/Data.qml:30
 msgctxt "Data|"
 msgid "The \"kg\" symbol at the end of a number means kilogram."
-msgstr ""
+msgstr "Ký hiệu \"kg\" ở cuối một số nghĩa là ki-lô-gam."
 
 #: activities/scalesboard_weight/resource/4/Data.qml:31
 msgctxt "Data|"
@@ -23658,6 +23658,8 @@ msgid ""
 "The kilogram is a unit of mass, a property which corresponds to the common perception of how \"heavy\" an object is. \n"
 " Drop weights on the left side to balance the scales."
 msgstr ""
+"Ki-lô-gam là đơn vị đo khối lượng, ứng với cảm nhận thường ngày về việc một vật \"nặng\" tới đâu. \n"
+" Đặt quả cân lên đĩa bên trái cho cân thăng bằng."
 
 #: activities/scalesboard_weight/resource/4/Data.qml:84
 #: activities/scalesboard_weight/resource/4/Data.qml:91
@@ -23668,17 +23670,17 @@ msgstr ""
 #, qt-format
 msgctxt "Data|"
 msgid "Enter the weight of the gift in kilogram: %1"
-msgstr ""
+msgstr "Nhập khối lượng của món quà theo ki-lô-gam: %1"
 
 #: activities/scalesboard_weight/resource/5/Data.qml:13
 msgctxt "Data|"
 msgid "Balance up to 100 grams."
-msgstr ""
+msgstr "Cân thăng bằng tới 100 gam."
 
 #: activities/scalesboard_weight/resource/6/Data.qml:13
 msgctxt "Data|"
 msgid "Balance up to 10 kilograms including grams."
-msgstr ""
+msgstr "Cân thăng bằng tới 10 ki-lô-gam, có cả gam."
 
 #: activities/scalesboard_weight/resource/6/Data.qml:32
 msgctxt "Data|"
@@ -23686,6 +23688,8 @@ msgid ""
 "The \"kg\" symbol at the end of a number means kilogram. The kilogram is a unit of mass, a property which corresponds to the common perception of how \"heavy\" an object is. \n"
 " Drop weights on the left side to balance the scales."
 msgstr ""
+"Ký hiệu \"kg\" ở cuối một số nghĩa là ki-lô-gam. Ki-lô-gam là đơn vị đo khối lượng, ứng với cảm nhận thường ngày về việc một vật \"nặng\" tới đâu. \n"
+" Đặt quả cân lên đĩa bên trái cho cân thăng bằng."
 
 #: activities/scalesboard_weight/resource/6/Data.qml:44
 #: activities/scalesboard_weight/resource/6/Data.qml:50
@@ -23694,6 +23698,8 @@ msgid ""
 "Remember, one kilogram (\"kg\") equals 1000 grams (\"g\"). \n"
 " Drop weights on the left side to balance the scales."
 msgstr ""
+"Nhớ nhé, một ki-lô-gam (\"kg\") bằng 1000 gam (\"g\"). \n"
+" Đặt quả cân lên đĩa bên trái cho cân thăng bằng."
 
 #. Activity title
 #: activities/scalesboard_weight_avoirdupois/ActivityInfo.qml:15
@@ -23713,7 +23719,7 @@ msgstr ""
 #: activities/scalesboard_weight_avoirdupois/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "Balance up to 5 ounces."
-msgstr ""
+msgstr "Cân thăng bằng tới 5 ao-xơ."
 
 #: activities/scalesboard_weight_avoirdupois/resource/1/Data.qml:18
 #: activities/scalesboard_weight_avoirdupois/resource/2/Data.qml:18
@@ -23723,7 +23729,7 @@ msgstr ""
 #, qt-format
 msgctxt "Data|"
 msgid "%1 oz"
-msgstr ""
+msgstr "%1 oz"
 
 #: activities/scalesboard_weight_avoirdupois/resource/1/Data.qml:26
 #: activities/scalesboard_weight_avoirdupois/resource/2/Data.qml:26
@@ -23733,6 +23739,8 @@ msgid ""
 "The \"oz\" symbol at the end of a number means ounce. One pound equals sixteen ounces. \n"
 " Drop weights on the left side to balance the scales."
 msgstr ""
+"Ký hiệu \"oz\" ở cuối một số nghĩa là ao-xơ. Một pao bằng mười sáu ao-xơ. \n"
+" Đặt quả cân lên đĩa bên trái cho cân thăng bằng."
 
 #: activities/scalesboard_weight_avoirdupois/resource/1/Data.qml:39
 #: activities/scalesboard_weight_avoirdupois/resource/2/Data.qml:45
@@ -23749,22 +23757,22 @@ msgstr ""
 #, qt-format
 msgctxt "Data|"
 msgid "Enter the weight of the gift in ounce: %1"
-msgstr ""
+msgstr "Nhập khối lượng của món quà theo ao-xơ: %1"
 
 #: activities/scalesboard_weight_avoirdupois/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "Balance up to 10 ounces."
-msgstr ""
+msgstr "Cân thăng bằng tới 10 ao-xơ."
 
 #: activities/scalesboard_weight_avoirdupois/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "Balance up to 20 ounces."
-msgstr ""
+msgstr "Cân thăng bằng tới 20 ao-xơ."
 
 #: activities/scalesboard_weight_avoirdupois/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "Balance up to 10 pounds."
-msgstr ""
+msgstr "Cân thăng bằng tới 10 pao."
 
 #: activities/scalesboard_weight_avoirdupois/resource/4/Data.qml:16
 #: activities/scalesboard_weight_avoirdupois/resource/4/Data.qml:17
@@ -23780,7 +23788,7 @@ msgstr ""
 #, qt-format
 msgctxt "Data|"
 msgid "%1 lb"
-msgstr ""
+msgstr "%1 lb"
 
 #: activities/scalesboard_weight_avoirdupois/resource/4/Data.qml:30
 #: activities/scalesboard_weight_avoirdupois/resource/6/Data.qml:35
@@ -23790,6 +23798,9 @@ msgid ""
 " mass, a property which corresponds to the common perception of how "
 "\"heavy\" an object is. This unit is used in the USA."
 msgstr ""
+"Ký hiệu \"lb\" ở cuối một số nghĩa là pao. Pao là đơn vị đo khối lượng, ứng "
+"với cảm nhận thường ngày về việc một vật \"nặng\" tới đâu. Đơn vị này dùng ở"
+" Mỹ."
 
 #: activities/scalesboard_weight_avoirdupois/resource/4/Data.qml:84
 #: activities/scalesboard_weight_avoirdupois/resource/4/Data.qml:91
@@ -23800,12 +23811,12 @@ msgstr ""
 #, qt-format
 msgctxt "Data|"
 msgid "Enter the weight of the gift in pound: %1"
-msgstr ""
+msgstr "Nhập khối lượng của món quà theo pao: %1"
 
 #: activities/scalesboard_weight_avoirdupois/resource/5/Data.qml:13
 msgctxt "Data|"
 msgid "Balance up to 100 ounces."
-msgstr ""
+msgstr "Cân thăng bằng tới 100 ao-xơ."
 
 #: activities/scalesboard_weight_avoirdupois/resource/5/Data.qml:26
 msgctxt "Data|"
@@ -23813,11 +23824,13 @@ msgid ""
 "The \"oz\" symbol at the end of a number means ounce. \n"
 " Drop weights on the left side to balance the scales."
 msgstr ""
+"Ký hiệu \"oz\" ở cuối một số nghĩa là ao-xơ. \n"
+" Đặt quả cân lên đĩa bên trái cho cân thăng bằng."
 
 #: activities/scalesboard_weight_avoirdupois/resource/6/Data.qml:13
 msgctxt "Data|"
 msgid "Balance up to 10 pounds including ounces."
-msgstr ""
+msgstr "Cân thăng bằng tới 10 pao, có cả ao-xơ."
 
 #: activities/scalesboard_weight_avoirdupois/resource/6/Data.qml:52
 #: activities/scalesboard_weight_avoirdupois/resource/6/Data.qml:58
@@ -23826,11 +23839,13 @@ msgid ""
 "Remember, one pound (\"lb\") equals sixteen ounces (\"oz\"). \n"
 " Drop the weights on the left side of the scales to balance it."
 msgstr ""
+"Nhớ nhé, một pao (\"lb\") bằng mười sáu ao-xơ (\"oz\"). \n"
+" Đặt quả cân lên đĩa bên trái cho cân thăng bằng."
 
 #: activities/share/ActivityConfig.qml:27
 msgctxt "ActivityConfig|"
 msgid "Display counters"
-msgstr ""
+msgstr "Hiện bộ đếm"
 
 #. Activity title
 #: activities/share/ActivityInfo.qml:15
@@ -23868,12 +23883,12 @@ msgstr ""
 #: activities/share/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "If there is a rest, it needs to be placed inside the candy jar."
-msgstr ""
+msgstr "Nếu chia còn dư thì phần dư phải bỏ vào lọ kẹo."
 
 #: activities/share/resource/1/Data.qml:15
 msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, no rest."
-msgstr ""
+msgstr "Nhiều nhất 25 cái kẹo và 5 bạn nhỏ, chia hết."
 
 #: activities/share/resource/1/Data.qml:22
 #: activities/share/resource/2/Data.qml:22
@@ -23883,17 +23898,19 @@ msgid ""
 " Can you help him? First, place the children in the center, then drag the "
 "pieces of candy to each of them."
 msgstr ""
+"Nam muốn chia đều 2 cái kẹo cho 2 bạn nữ. Con giúp bạn ấy nhé? Trước hết đặt"
+" các bạn nhỏ vào giữa, rồi kéo kẹo tới cho từng bạn."
 
 #: activities/share/resource/1/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 4 pieces of candy equally among his friends."
-msgstr ""
+msgstr "Giờ bạn ấy muốn chia đều 4 cái kẹo cho các bạn."
 
 #: activities/share/resource/1/Data.qml:42
 msgctxt "Data|"
 msgid ""
 "Can you now share 6 of Paul's pieces of candy equally among his friends?"
-msgstr ""
+msgstr "Con chia đều 6 cái kẹo của Nam cho các bạn được không?"
 
 #: activities/share/resource/1/Data.qml:52
 msgctxt "Data|"
@@ -23901,6 +23918,8 @@ msgid ""
 "Some of his friends already have pieces of candy. He wants to give them 7 "
 "more pieces so that they all have the same amount."
 msgstr ""
+"Vài bạn đã có kẹo rồi. Nam muốn cho thêm 7 cái nữa sao cho ai cũng có số kẹo"
+" bằng nhau."
 
 #: activities/share/resource/1/Data.qml:62
 msgctxt "Data|"
@@ -23909,13 +23928,15 @@ msgid ""
 "gives the rest to his friends. Can you help him split equally the 10 "
 "remaining pieces of candy?"
 msgstr ""
+"Nam chỉ còn 12 cái kẹo. Bạn ấy ăn 2 cái rồi cho các bạn hết chỗ còn lại. Con"
+" giúp bạn ấy chia đều 10 cái kẹo còn lại nhé?"
 
 #: activities/share/resource/1/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "George wants to share 3 pieces of candy equally between 3 of his girl "
 "friends. Can he split the pieces of candy equally?"
-msgstr ""
+msgstr "Sơn muốn chia đều 3 cái kẹo cho 3 bạn nữ. Bạn ấy chia đều được không?"
 
 #: activities/share/resource/1/Data.qml:87
 msgctxt "Data|"
@@ -23923,6 +23944,8 @@ msgid ""
 "Maria wants to share 6 pieces of candy equally between 3 of her friends: 1 "
 "girl and 2 boys. Can she split the pieces of candy equally?"
 msgstr ""
+"Mai muốn chia đều 6 cái kẹo cho 3 bạn: 1 bạn nữ và 2 bạn nam. Bạn ấy chia "
+"đều được không?"
 
 #: activities/share/resource/1/Data.qml:97
 msgctxt "Data|"
@@ -23931,6 +23954,8 @@ msgid ""
 "boy and 2 girls. The boy already has one. Can he make sure that they all "
 "have the same amount?"
 msgstr ""
+"Hùng muốn chia đều 8 cái kẹo cho 3 bạn: 1 bạn nam và 2 bạn nữ. Bạn nam đã có"
+" sẵn một cái. Bạn ấy làm sao cho ai cũng có số kẹo bằng nhau?"
 
 #: activities/share/resource/1/Data.qml:107
 msgctxt "Data|"
@@ -23938,6 +23963,8 @@ msgid ""
 "Paul wants to share 12 pieces of candy equally between 3 of his friends: 2 "
 "boys and 1 girl. Can he split the pieces of candy equally?"
 msgstr ""
+"Nam muốn chia đều 12 cái kẹo cho 3 bạn: 2 bạn nam và 1 bạn nữ. Bạn ấy chia "
+"đều được không?"
 
 #: activities/share/resource/1/Data.qml:117
 msgctxt "Data|"
@@ -23946,6 +23973,8 @@ msgid ""
 "2 girls. The girls already have some pieces of candy. Can she split the "
 "pieces of candy so that they all have the same amount?"
 msgstr ""
+"Mai muốn chia 11 cái kẹo cho 3 bạn: 1 bạn nam và 2 bạn nữ. Hai bạn nữ đã có "
+"sẵn ít kẹo. Bạn ấy chia sao cho ai cũng có số kẹo bằng nhau?"
 
 #: activities/share/resource/1/Data.qml:132
 #: activities/share/resource/2/Data.qml:122
@@ -23953,12 +23982,12 @@ msgctxt "Data|"
 msgid ""
 "Alice wants to share 4 pieces of candy equally between 4 of her girl "
 "friends. Can you help her?"
-msgstr ""
+msgstr "Lan muốn chia đều 4 cái kẹo cho 4 bạn nữ. Con giúp bạn ấy nhé?"
 
 #: activities/share/resource/1/Data.qml:142
 msgctxt "Data|"
 msgid "Now, Alice wants to give 8 pieces of candy to her friends."
-msgstr ""
+msgstr "Giờ Lan muốn cho các bạn 8 cái kẹo."
 
 #: activities/share/resource/1/Data.qml:152
 msgctxt "Data|"
@@ -23967,11 +23996,13 @@ msgid ""
 " that they all have the same amount. The girls already have some pieces of "
 "candy."
 msgstr ""
+"Lan muốn cho các bạn 10 cái kẹo, gồm 1 bạn nữ và 3 bạn nam, sao cho ai cũng "
+"có số kẹo bằng nhau. Bạn nữ đã có sẵn ít kẹo."
 
 #: activities/share/resource/1/Data.qml:162
 msgctxt "Data|"
 msgid "Alice wants to give 16 pieces of candy to her friends."
-msgstr ""
+msgstr "Lan muốn cho các bạn 16 cái kẹo."
 
 #: activities/share/resource/1/Data.qml:172
 msgctxt "Data|"
@@ -23980,13 +24011,15 @@ msgid ""
 "some pieces of candy. Can you help her split 14 pieces of candy so that all "
 "her friends have the same amount?"
 msgstr ""
+"Lan muốn cho 4 người bạn một ít kẹo. Vài bạn đã có sẵn kẹo rồi. Con giúp bạn"
+" ấy chia 14 cái kẹo sao cho ai cũng có số kẹo bằng nhau nhé?"
 
 #: activities/share/resource/1/Data.qml:187
 msgctxt "Data|"
 msgid ""
 "Michael wants to share 5 pieces of candy equally between 5 of his girl "
 "friends. Can you help him?"
-msgstr ""
+msgstr "Minh muốn chia đều 5 cái kẹo cho 5 bạn nữ. Con giúp bạn ấy nhé?"
 
 #: activities/share/resource/1/Data.qml:197
 msgctxt "Data|"
@@ -23994,6 +24027,8 @@ msgid ""
 "Helen has 5 friends: 2 boys and 3 girls. She wants to give them 10 pieces of"
 " candy. Help her split the pieces of candy equally between her friends."
 msgstr ""
+"Hoa có 5 người bạn: 2 bạn nam và 3 bạn nữ. Bạn ấy muốn cho các bạn 10 cái "
+"kẹo. Giúp bạn ấy chia đều số kẹo cho các bạn nhé."
 
 #: activities/share/resource/1/Data.qml:207
 msgctxt "Data|"
@@ -24002,6 +24037,8 @@ msgid ""
 "and 1 sister, so that they all have the same amount. Her sister already has "
 "some pieces of candy."
 msgstr ""
+"Hằng muốn chia đều 12 cái kẹo cho 4 người anh em trai và 1 người chị em gái,"
+" sao cho ai cũng có số kẹo bằng nhau. Người chị em gái đã có sẵn ít kẹo."
 
 #: activities/share/resource/1/Data.qml:217
 msgctxt "Data|"
@@ -24009,6 +24046,8 @@ msgid ""
 "Thomas wants to share his 20 pieces of candy with his friends: 1 boy and 4 "
 "girls. Can you help him?"
 msgstr ""
+"Tuấn muốn chia 20 cái kẹo cho các bạn: 1 bạn nam và 4 bạn nữ. Con giúp bạn "
+"ấy nhé?"
 
 #: activities/share/resource/1/Data.qml:227
 msgctxt "Data|"
@@ -24016,6 +24055,8 @@ msgid ""
 "Paul wants to share 20 pieces of candy equally between 5 of his friends. "
 "They already have one piece of candy each. Can you help him?"
 msgstr ""
+"Nam muốn chia đều 20 cái kẹo cho 5 người bạn. Mỗi bạn đã có sẵn một cái kẹo."
+" Con giúp bạn ấy nhé?"
 
 #: activities/share/resource/1/Data.qml:242
 msgctxt "Data|"
@@ -24023,6 +24064,7 @@ msgid ""
 "Charles wants to share his 6 pieces of candy equally with 2 of his girl "
 "friends. Can he split the pieces of candy equally?"
 msgstr ""
+"Cường muốn chia đều 6 cái kẹo cho 2 bạn nữ. Bạn ấy chia đều được không?"
 
 #: activities/share/resource/1/Data.qml:252
 msgctxt "Data|"
@@ -24031,6 +24073,9 @@ msgid ""
 "friends: 2 girls and 1 boy. The girls already have some pieces of candy. How"
 " should she split the pieces of candy so that they all have the same amount?"
 msgstr ""
+"Nhân sinh nhật, Linh có 8 cái kẹo để chia cho 3 người bạn: 2 bạn nữ và 1 bạn"
+" nam. Hai bạn nữ đã có sẵn ít kẹo. Bạn ấy phải chia thế nào cho ai cũng có "
+"số kẹo bằng nhau?"
 
 #: activities/share/resource/1/Data.qml:262
 msgctxt "Data|"
@@ -24039,6 +24084,8 @@ msgid ""
 "friends: 2 boys and 2 girls. Help him give the pieces of candy to his "
 "friends."
 msgstr ""
+"Bố cho Khoa 16 cái kẹo để chia đều cho các bạn: 2 bạn nam và 2 bạn nữ. Giúp "
+"bạn ấy chia kẹo cho các bạn nhé."
 
 #: activities/share/resource/1/Data.qml:272
 msgctxt "Data|"
@@ -24047,6 +24094,8 @@ msgid ""
 "and 2 boys. The boys already have one piece of candy each. He wants all of "
 "them to have the same amount."
 msgstr ""
+"Sơn muốn chia 14 cái kẹo cho 4 người bạn: 2 bạn nữ và 2 bạn nam. Mỗi bạn nam"
+" đã có sẵn một cái kẹo. Bạn ấy muốn ai cũng có số kẹo bằng nhau."
 
 #: activities/share/resource/1/Data.qml:282
 msgctxt "Data|"
@@ -24054,26 +24103,28 @@ msgid ""
 "Maria wants to share 25 pieces of candy equally between 5 of her friends: 3 "
 "girls and 2 boys. Can she split the pieces of candy equally?"
 msgstr ""
+"Mai muốn chia đều 25 cái kẹo cho 5 người bạn: 3 bạn nữ và 2 bạn nam. Bạn ấy "
+"chia đều được không?"
 
 #: activities/share/resource/2/Data.qml:15
 msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, possible rest."
-msgstr ""
+msgstr "Nhiều nhất 25 cái kẹo và 5 bạn nhỏ, có thể còn dư."
 
 #: activities/share/resource/2/Data.qml:32
 msgctxt "Data|"
 msgid "Now he wants to share 5 pieces of candy among his friends."
-msgstr ""
+msgstr "Giờ bạn ấy muốn chia 5 cái kẹo cho các bạn."
 
 #: activities/share/resource/2/Data.qml:42
 msgctxt "Data|"
 msgid "Can you now share 7 of Paul's pieces of candy among his friends?"
-msgstr ""
+msgstr "Con chia 7 cái kẹo của Nam cho các bạn được không?"
 
 #: activities/share/resource/2/Data.qml:52
 msgctxt "Data|"
 msgid "Can you now share 8 of Paul's pieces of candy among his friends?"
-msgstr ""
+msgstr "Con chia 8 cái kẹo của Nam cho các bạn được không?"
 
 #: activities/share/resource/2/Data.qml:62
 msgctxt "Data|"
@@ -24082,13 +24133,15 @@ msgid ""
 "gives the rest to his friends. Can you help him split equally the 9 "
 "remaining pieces of candy?"
 msgstr ""
+"Nam chỉ còn 11 cái kẹo. Bạn ấy ăn 2 cái rồi cho các bạn hết chỗ còn lại. Con"
+" giúp bạn ấy chia đều 9 cái kẹo còn lại nhé?"
 
 #: activities/share/resource/2/Data.qml:77
 msgctxt "Data|"
 msgid ""
 "Bob wants to share 3 pieces of candy equally between 3 of his girl friends. "
 "Can he split the pieces of candy equally?"
-msgstr ""
+msgstr "Bảo muốn chia đều 3 cái kẹo cho 3 bạn nữ. Bạn ấy chia đều được không?"
 
 #: activities/share/resource/2/Data.qml:87
 msgctxt "Data|"
@@ -24097,6 +24150,8 @@ msgid ""
 " girls. The boy already has one piece of candy. Can he split the pieces of "
 "candy so that they all have the same amount?"
 msgstr ""
+"Huy muốn chia 8 cái kẹo cho 3 người bạn: 1 bạn nam và 2 bạn nữ. Bạn nam đã "
+"có sẵn một cái kẹo. Bạn ấy chia sao cho ai cũng có số kẹo bằng nhau?"
 
 #: activities/share/resource/2/Data.qml:97
 msgctxt "Data|"
@@ -24105,6 +24160,8 @@ msgid ""
 " girls. The girls already have some pieces of candy. Can she split the "
 "pieces of candy so that they all have the same amount?"
 msgstr ""
+"Mai muốn chia 8 cái kẹo cho 3 người bạn: 1 bạn nam và 2 bạn nữ. Hai bạn nữ "
+"đã có sẵn ít kẹo. Bạn ấy chia sao cho ai cũng có số kẹo bằng nhau?"
 
 #: activities/share/resource/2/Data.qml:107
 msgctxt "Data|"
@@ -24113,11 +24170,13 @@ msgid ""
 "2 girls. The boy already has some pieces of candy. Can he split the pieces "
 "of candy so that they all have the same amount?"
 msgstr ""
+"Huy muốn chia 12 cái kẹo cho 3 người bạn: 1 bạn nam và 2 bạn nữ. Bạn nam đã "
+"có sẵn ít kẹo. Bạn ấy chia sao cho ai cũng có số kẹo bằng nhau?"
 
 #: activities/share/resource/2/Data.qml:132
 msgctxt "Data|"
 msgid "Now, Alice wants to share 8 pieces of candy equally among her friends."
-msgstr ""
+msgstr "Giờ Lan muốn chia đều 8 cái kẹo cho các bạn."
 
 #: activities/share/resource/2/Data.qml:142
 msgctxt "Data|"
@@ -24125,11 +24184,13 @@ msgid ""
 "Can you help Alice share 10 pieces of candy equally among her friends: 1 "
 "girl and 3 boys? The girl already has some pieces of candy."
 msgstr ""
+"Con giúp Lan chia đều 10 cái kẹo cho các bạn nhé: 1 bạn nữ và 3 bạn nam. Bạn"
+" nữ đã có sẵn ít kẹo."
 
 #: activities/share/resource/2/Data.qml:152
 msgctxt "Data|"
 msgid "Alice wants to share 16 pieces of candy equally among her friends."
-msgstr ""
+msgstr "Lan muốn chia đều 16 cái kẹo cho các bạn."
 
 #: activities/share/resource/2/Data.qml:162
 msgctxt "Data|"
@@ -24138,6 +24199,8 @@ msgid ""
 " friends. The boys already have some pieces of candy. Can you help her split"
 " the pieces of candy equally?"
 msgstr ""
+"Lan còn 14 cái kẹo. Bạn ấy muốn chia đều cho các bạn. Các bạn nam đã có sẵn "
+"ít kẹo. Con giúp bạn ấy chia đều số kẹo nhé?"
 
 #: activities/share/resource/2/Data.qml:177
 msgctxt "Data|"
@@ -24145,6 +24208,7 @@ msgid ""
 "Help Jon share 11 pieces of candies equally between five girls. The rest "
 "will remain to Jon."
 msgstr ""
+"Giúp Long chia đều 11 cái kẹo cho năm bạn nữ. Phần dư thì Long giữ lại."
 
 #: activities/share/resource/2/Data.qml:187
 msgctxt "Data|"
@@ -24153,18 +24217,20 @@ msgid ""
 "his sisters. Can you split them equally, knowing that his brothers already "
 "have 2 pieces of candy?"
 msgstr ""
+"Long muốn chia chỗ kẹo còn lại cho các anh chị em của mình. Con chia đều "
+"được không, biết rằng các anh em trai đã có sẵn 2 cái kẹo?"
 
 #: activities/share/resource/2/Data.qml:197
 msgctxt "Data|"
 msgid ""
 "Help Tux split 19 pieces of candies between his friends: 4 boys and 1 girl."
-msgstr ""
+msgstr "Giúp Tux chia 19 cái kẹo cho các bạn: 4 bạn nam và 1 bạn nữ."
 
 #: activities/share/resource/2/Data.qml:207
 msgctxt "Data|"
 msgid ""
 "Help Maria share 18 pieces of candy equally between 3 boys and 2 girls."
-msgstr ""
+msgstr "Giúp Mai chia đều 18 cái kẹo cho 3 bạn nam và 2 bạn nữ."
 
 #: activities/share/resource/2/Data.qml:222
 msgctxt "Data|"
@@ -24172,6 +24238,7 @@ msgid ""
 "Charles wants to share his 6 pieces of candy equally between 2 of his girl "
 "friends. Can he split the pieces of candy equally?"
 msgstr ""
+"Cường muốn chia đều 6 cái kẹo cho 2 bạn nữ. Bạn ấy chia đều được không?"
 
 #: activities/share/resource/2/Data.qml:232
 msgctxt "Data|"
@@ -24180,6 +24247,8 @@ msgid ""
 "friends equally: 2 girls and 1 boy. How should she split the pieces of candy"
 " between her friends?"
 msgstr ""
+"Nhân sinh nhật, Linh có 8 cái kẹo để chia đều cho 3 người bạn: 2 bạn nữ và 1"
+" bạn nam. Bạn ấy phải chia thế nào cho các bạn?"
 
 #: activities/share/resource/2/Data.qml:242
 msgctxt "Data|"
@@ -24188,6 +24257,8 @@ msgid ""
 "friends: 2 boys and 2 girls. Help him give the pieces of candy to his "
 "friends."
 msgstr ""
+"Bố cho Khoa 17 cái kẹo để chia đều cho các bạn: 2 bạn nam và 2 bạn nữ. Giúp "
+"bạn ấy chia kẹo cho các bạn nhé."
 
 #: activities/share/resource/2/Data.qml:252
 msgctxt "Data|"
@@ -24196,6 +24267,8 @@ msgid ""
 " girls and 2 boys. Can he equally split the pieces of candy between his "
 "friends?"
 msgstr ""
+"Sơn muốn chia đều 14 cái kẹo cho 4 người bạn: 2 bạn nữ và 2 bạn nam. Bạn ấy "
+"chia đều cho các bạn được không?"
 
 #: activities/share/resource/2/Data.qml:262
 msgctxt "Data|"
@@ -24204,11 +24277,13 @@ msgid ""
 "girls and 2 boys. Can she share the pieces of candy equally between her "
 "friends?"
 msgstr ""
+"Mai muốn chia đều 23 cái kẹo cho 5 người bạn: 3 bạn nữ và 2 bạn nam. Bạn ấy "
+"chia đều cho các bạn được không?"
 
 #: activities/share/resource/3/Data.qml:15
 msgctxt "Data|"
 msgid "Maximum 30 pieces of candy and 6 kids, possible rest."
-msgstr ""
+msgstr "Nhiều nhất 30 cái kẹo và 6 bạn nhỏ, có thể còn dư."
 
 #: activities/share/share.js:150
 #, qt-format
@@ -24217,7 +24292,7 @@ msgctxt ""
 " %n pieces of candy equally between them."
 msgid "Place %n boy(s) "
 msgid_plural "Place %n boy(s) "
-msgstr[0] ""
+msgstr[0] "Đặt %n bạn nam "
 
 #: activities/share/share.js:154
 #, qt-format
@@ -24226,7 +24301,7 @@ msgctxt ""
 "split %n pieces of candy equally between them."
 msgid "and %n girl(s) in the center. "
 msgid_plural "and %n girl(s) in the center. "
-msgstr[0] ""
+msgstr[0] "và %n bạn nữ vào giữa. "
 
 #: activities/share/share.js:158
 #, qt-format
@@ -24235,13 +24310,13 @@ msgctxt ""
 " %n pieces of candy equally between them."
 msgid "Then split %n pieces of candy equally between them."
 msgid_plural "Then split %n pieces of candy equally between them."
-msgstr[0] ""
+msgstr[0] "Rồi chia đều %n cái kẹo cho các bạn."
 
 #: activities/share/Share.qml:422
 #, qt-format
 msgctxt "Share|"
 msgid "You can't put more than %1 pieces of candy in the same rectangle"
-msgstr ""
+msgstr "Con không được bỏ quá %1 cái kẹo vào cùng một ô"
 
 #. Activity title
 #: activities/simplepaint/ActivityInfo.qml:15
@@ -24271,7 +24346,7 @@ msgstr ""
 #: activities/simplepaint/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Tab: switch between the color selector and the painting area"
-msgstr ""
+msgstr "Tab: chuyển qua lại giữa bảng chọn màu và vùng vẽ"
 
 #. Activity title
 #: activities/sketch/ActivityInfo.qml:18
@@ -24301,178 +24376,178 @@ msgstr ""
 #: activities/sketch/ActivityInfo.qml:32
 msgctxt "ActivityInfo|"
 msgid "Ctrl + N, Delete or Backspace: create a new image"
-msgstr ""
+msgstr "Ctrl + N, Delete hoặc phím xoá lùi: tạo bức tranh mới"
 
 #: activities/sketch/ActivityInfo.qml:33
 msgctxt "ActivityInfo|"
 msgid "Brush smoothing concept from:"
-msgstr ""
+msgstr "Ý tưởng làm mượt nét cọ lấy từ:"
 
 #: activities/sketch/ActivityInfo.qml:34
 msgctxt "ActivityInfo|"
 msgid "Sketch brush concept from:"
-msgstr ""
+msgstr "Ý tưởng cọ phác thảo lấy từ:"
 
 #: activities/sketch/BackgroundColorSelector.qml:40
 msgctxt "BackgroundColorSelector|"
 msgid "Background color"
-msgstr ""
+msgstr "Màu nền"
 
 #: activities/sketch/BackgroundSelector.qml:42
 msgctxt "BackgroundSelector|"
 msgid "Background image"
-msgstr ""
+msgstr "Ảnh nền"
 
 #: activities/sketch/BrushToolPanel.qml:17
 msgctxt "BrushToolPanel|"
 msgid "Eraser Tools"
-msgstr ""
+msgstr "Bộ tẩy"
 
 #: activities/sketch/BrushToolPanel.qml:17
 msgctxt "BrushToolPanel|"
 msgid "Drawing Tools"
-msgstr ""
+msgstr "Bộ công cụ vẽ"
 
 #: activities/sketch/FilesPanel.qml:35
 msgctxt "FilesPanel|"
 msgid "Save your image"
-msgstr ""
+msgstr "Lưu bức tranh của con"
 
 #: activities/sketch/FilesPanel.qml:46
 msgctxt "FilesPanel|"
 msgid "Open an image"
-msgstr ""
+msgstr "Mở một bức tranh"
 
 #: activities/sketch/FilesPanel.qml:65
 msgctxt "FilesPanel|"
 msgid "New image settings"
-msgstr ""
+msgstr "Cài đặt cho bức tranh mới"
 
 #: activities/sketch/FilesPanel.qml:90
 msgctxt "FilesPanel|"
 msgid "Background color"
-msgstr ""
+msgstr "Màu nền"
 
 #: activities/sketch/FilesPanel.qml:115
 msgctxt "FilesPanel|"
 msgid "Background image"
-msgstr ""
+msgstr "Ảnh nền"
 
 #: activities/sketch/FilesPanel.qml:148
 msgctxt "FilesPanel|"
 msgid "Create a new image"
-msgstr ""
+msgstr "Tạo bức tranh mới"
 
 #. Rectangle or Square radius size
 #: activities/sketch/GeometryTool.qml:23
 msgctxt "GeometryTool|"
 msgid "Rounded Corners"
-msgstr ""
+msgstr "Bo tròn góc"
 
 #: activities/sketch/GeometryToolPanel.qml:17
 msgctxt "GeometryToolPanel|"
 msgid "Geometry Tools"
-msgstr ""
+msgstr "Bộ công cụ hình học"
 
 #: activities/sketch/GradientTool.qml:22
 msgctxt "GradientTool|"
 msgid "Inner Circle Size"
-msgstr ""
+msgstr "Cỡ vòng tròn trong"
 
 #: activities/sketch/GradientToolPanel.qml:17
 msgctxt "GradientToolPanel|"
 msgid "Gradient Tools"
-msgstr ""
+msgstr "Bộ công cụ chuyển sắc"
 
 #: activities/sketch/PaletteSelector.qml:148
 msgctxt "PaletteSelector|"
 msgid "Palettes"
-msgstr ""
+msgstr "Bảng màu"
 
 #: activities/sketch/Sketch.qml:684
 msgctxt "Sketch|"
 msgid "You did not save this image. Do you want to close this activity?"
-msgstr ""
+msgstr "Con chưa lưu bức tranh này. Con có muốn đóng hoạt động không?"
 
 #: activities/sketch/Sketch.qml:685
 msgctxt "Sketch|"
 msgid "Do you want to erase this image?"
-msgstr ""
+msgstr "Con có muốn xoá bức tranh này không?"
 
 #: activities/sketch/Sketch.qml:686
 msgctxt "Sketch|"
 msgid "Yes"
-msgstr ""
+msgstr "Có"
 
 #: activities/sketch/Sketch.qml:687
 msgctxt "Sketch|"
 msgid "No"
-msgstr ""
+msgstr "Không"
 
 #: activities/sketch/StampToolPanel.qml:18
 msgctxt "StampToolPanel|"
 msgid "Stamp Tool"
-msgstr ""
+msgstr "Công cụ đóng dấu"
 
 #: activities/sketch/TextToolPanel.qml:17
 msgctxt "TextToolPanel|"
 msgid "Text Tool"
-msgstr ""
+msgstr "Công cụ chữ"
 
 #: activities/sketch/TextToolPanel.qml:33
 msgctxt "TextToolPanel|"
 msgid "Type your text here"
-msgstr ""
+msgstr "Gõ chữ của con vào đây"
 
 #: activities/sketch/ToolsPanel.qml:255
 msgctxt "ToolsPanel|"
 msgid "Tools"
-msgstr ""
+msgstr "Công cụ"
 
 #: activities/sketch/ToolsPanel.qml:429
 msgctxt "ToolsPanel|"
 msgid "Reset tool settings"
-msgstr ""
+msgstr "Đặt lại cài đặt công cụ"
 
 #: activities/sketch/ToolsPanel.qml:484
 msgctxt "ToolsPanel|"
 msgid "Opacity"
-msgstr ""
+msgstr "Độ mờ"
 
 #: activities/sketch/ToolsPanel.qml:507
 msgctxt "ToolsPanel|"
 msgid "Size"
-msgstr ""
+msgstr "Cỡ"
 
 #: activities/sketch/ToolsPanel.qml:527
 msgctxt "ToolsPanel|"
 msgid "Speed"
-msgstr ""
+msgstr "Tốc độ"
 
 #: activities/sketch/ToolsPanel.qml:547
 msgctxt "ToolsPanel|"
 msgid "Density"
-msgstr ""
+msgstr "Độ dày"
 
 #: activities/sketch/ToolsPanel.qml:567
 msgctxt "ToolsPanel|"
 msgid "Dots Size"
-msgstr ""
+msgstr "Cỡ chấm"
 
 #: activities/sketch/ToolsPanel.qml:586
 msgctxt "ToolsPanel|"
 msgid "Smoothing"
-msgstr ""
+msgstr "Độ mượt"
 
 #: activities/sketch/ToolsPanel.qml:647
 msgctxt "ToolsPanel|"
 msgid "Rotation"
-msgstr ""
+msgstr "Xoay"
 
 #: activities/sketch/ToolsPanel.qml:663
 msgctxt "ToolsPanel|"
 msgid "Mirror image"
-msgstr ""
+msgstr "Ảnh lật gương"
 
 #. Activity title
 #: activities/smallnumbers/ActivityInfo.qml:15
@@ -24510,94 +24585,94 @@ msgstr ""
 #: activities/smallnumbers2/resource/1/Data.qml:14
 msgctxt "Data|"
 msgid "Numbers up to 3."
-msgstr ""
+msgstr "Số tới 3."
 
 #: activities/smallnumbers/resource/1/Data.qml:18
 msgctxt "Data|"
 msgid "Type the number on the dice, 1 or 2."
-msgstr ""
+msgstr "Gõ số chấm trên con xúc xắc, 1 hoặc 2."
 
 #: activities/smallnumbers/resource/1/Data.qml:26
 msgctxt "Data|"
 msgid "Type the number on the dice, from 1 to 3."
-msgstr ""
+msgstr "Gõ số chấm trên con xúc xắc, từ 1 tới 3."
 
 #: activities/smallnumbers/resource/2/Data.qml:14
 #: activities/smallnumbers2/resource/2/Data.qml:14
 msgctxt "Data|"
 msgid "Numbers up to 4."
-msgstr ""
+msgstr "Số tới 4."
 
 #: activities/smallnumbers/resource/2/Data.qml:18
 msgctxt "Data|"
 msgid "Type the number on the dice, from 1 to 4."
-msgstr ""
+msgstr "Gõ số chấm trên con xúc xắc, từ 1 tới 4."
 
 #: activities/smallnumbers/resource/3/Data.qml:14
 #: activities/smallnumbers2/resource/3/Data.qml:14
 msgctxt "Data|"
 msgid "Numbers up to 5."
-msgstr ""
+msgstr "Số tới 5."
 
 #: activities/smallnumbers/resource/3/Data.qml:18
 msgctxt "Data|"
 msgid "Type the number on the dice, from 1 to 5."
-msgstr ""
+msgstr "Gõ số chấm trên con xúc xắc, từ 1 tới 5."
 
 #: activities/smallnumbers/resource/4/Data.qml:14
 #: activities/smallnumbers2/resource/4/Data.qml:14
 msgctxt "Data|"
 msgid "Numbers up to 6."
-msgstr ""
+msgstr "Số tới 6."
 
 #: activities/smallnumbers/resource/4/Data.qml:18
 msgctxt "Data|"
 msgid "Type the number on the dice, from 1 to 6."
-msgstr ""
+msgstr "Gõ số chấm trên con xúc xắc, từ 1 tới 6."
 
 #: activities/smallnumbers/resource/5/Data.qml:14
 #: activities/smallnumbers2/resource/5/Data.qml:14
 msgctxt "Data|"
 msgid "Numbers up to 7."
-msgstr ""
+msgstr "Số tới 7."
 
 #: activities/smallnumbers/resource/5/Data.qml:18
 msgctxt "Data|"
 msgid "Type the number on the dice, from 1 to 7."
-msgstr ""
+msgstr "Gõ số chấm trên con xúc xắc, từ 1 tới 7."
 
 #: activities/smallnumbers/resource/6/Data.qml:14
 #: activities/smallnumbers2/resource/6/Data.qml:14
 msgctxt "Data|"
 msgid "Numbers up to 8."
-msgstr ""
+msgstr "Số tới 8."
 
 #: activities/smallnumbers/resource/6/Data.qml:18
 msgctxt "Data|"
 msgid "Type the number on the dice, from 1 to 8."
-msgstr ""
+msgstr "Gõ số chấm trên con xúc xắc, từ 1 tới 8."
 
 #: activities/smallnumbers/resource/7/Data.qml:14
 #: activities/smallnumbers2/resource/7/Data.qml:14
 msgctxt "Data|"
 msgid "Numbers up to 9."
-msgstr ""
+msgstr "Số tới 9."
 
 #: activities/smallnumbers/resource/7/Data.qml:18
 msgctxt "Data|"
 msgid "Type the number on the dice, from 1 to 9."
-msgstr ""
+msgstr "Gõ số chấm trên con xúc xắc, từ 1 tới 9."
 
 #: activities/smallnumbers/resource/8/Data.qml:13
 #: activities/smallnumbers2/resource/8/Data.qml:13
 msgctxt "Data|"
 msgid "Numbers from 0 to 9."
-msgstr ""
+msgstr "Số từ 0 tới 9."
 
 #: activities/smallnumbers/resource/8/Data.qml:17
 msgctxt "Data|"
 msgid "Type the number on the dice, from 0 to 9."
-msgstr ""
+msgstr "Gõ số chấm trên con xúc xắc, từ 0 tới 9."
 
 #. Activity title
 #: activities/smallnumbers2/ActivityInfo.qml:15
@@ -24620,77 +24695,77 @@ msgstr ""
 #: activities/smallnumbers2/resource/1/Data.qml:18
 msgctxt "Data|"
 msgid "Type the number on the domino, 1 or 2."
-msgstr ""
+msgstr "Gõ số chấm trên quân đô-mi-nô, 1 hoặc 2."
 
 #: activities/smallnumbers2/resource/1/Data.qml:26
 msgctxt "Data|"
 msgid "Type the number on the domino, from 1 to 3."
-msgstr ""
+msgstr "Gõ số chấm trên quân đô-mi-nô, từ 1 tới 3."
 
 #: activities/smallnumbers2/resource/2/Data.qml:18
 msgctxt "Data|"
 msgid "Type the number on the domino, from 1 to 4."
-msgstr ""
+msgstr "Gõ số chấm trên quân đô-mi-nô, từ 1 tới 4."
 
 #: activities/smallnumbers2/resource/3/Data.qml:18
 msgctxt "Data|"
 msgid "Type the number on the domino, from 1 to 5."
-msgstr ""
+msgstr "Gõ số chấm trên quân đô-mi-nô, từ 1 tới 5."
 
 #: activities/smallnumbers2/resource/4/Data.qml:18
 msgctxt "Data|"
 msgid "Type the number on the domino, from 1 to 6."
-msgstr ""
+msgstr "Gõ số chấm trên quân đô-mi-nô, từ 1 tới 6."
 
 #: activities/smallnumbers2/resource/5/Data.qml:18
 msgctxt "Data|"
 msgid "Type the number on the domino, from 1 to 7."
-msgstr ""
+msgstr "Gõ số chấm trên quân đô-mi-nô, từ 1 tới 7."
 
 #: activities/smallnumbers2/resource/6/Data.qml:18
 msgctxt "Data|"
 msgid "Type the number on the domino, from 1 to 8."
-msgstr ""
+msgstr "Gõ số chấm trên quân đô-mi-nô, từ 1 tới 8."
 
 #: activities/smallnumbers2/resource/7/Data.qml:18
 msgctxt "Data|"
 msgid "Type the number on the domino, from 1 to 9."
-msgstr ""
+msgstr "Gõ số chấm trên quân đô-mi-nô, từ 1 tới 9."
 
 #: activities/smallnumbers2/resource/8/Data.qml:17
 msgctxt "Data|"
 msgid "Type the number on the domino, from 0 to 9."
-msgstr ""
+msgstr "Gõ số chấm trên quân đô-mi-nô, từ 0 tới 9."
 
 #: activities/smallnumbers2/Smallnumbers2.qml:23
 msgctxt "Smallnumbers2|"
 msgid "Dots"
-msgstr ""
+msgstr "Chấm tròn"
 
 #: activities/smallnumbers2/Smallnumbers2.qml:24
 msgctxt "Smallnumbers2|"
 msgid "Arabic numbers"
-msgstr ""
+msgstr "Chữ số Ả Rập"
 
 #: activities/smallnumbers2/Smallnumbers2.qml:25
 msgctxt "Smallnumbers2|"
 msgid "Roman numbers"
-msgstr ""
+msgstr "Chữ số La Mã"
 
 #: activities/smallnumbers2/Smallnumbers2.qml:26
 msgctxt "Smallnumbers2|"
 msgid "Images"
-msgstr ""
+msgstr "Hình ảnh"
 
 #: activities/solar_system/ActivityConfig.qml:22
 msgctxt "ActivityConfig|"
 msgid "Learning Mode"
-msgstr ""
+msgstr "Chế độ học"
 
 #: activities/solar_system/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
 msgid "Assessment Mode"
-msgstr ""
+msgstr "Chế độ kiểm tra"
 
 #. Activity title
 #: activities/solar_system/ActivityInfo.qml:18
@@ -24728,34 +24803,34 @@ msgstr ""
 #: activities/solar_system/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
 msgid "Space or Enter: select"
-msgstr ""
+msgstr "Phím cách hoặc Enter: chọn"
 
 #: activities/solar_system/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
 msgid "Escape: return to previous screen"
-msgstr ""
+msgstr "Esc: quay về màn trước"
 
 #: activities/solar_system/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
 msgid "Tab: view the hint (only when the hint icon is visible)"
-msgstr ""
+msgstr "Tab: xem gợi ý (chỉ khi biểu tượng gợi ý đang hiện)"
 
 #: activities/solar_system/Dataset.js:14
 msgctxt "Dataset|"
 msgid "Sun"
-msgstr ""
+msgstr "Mặt Trời"
 
 #: activities/solar_system/Dataset.js:18
 msgctxt "Dataset|"
 msgid "How large is the Sun compared to the planets in our Solar System?"
-msgstr ""
+msgstr "Mặt Trời lớn cỡ nào so với các hành tinh trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:19
 #: activities/solar_system/Dataset.js:115
 #: activities/solar_system/Dataset.js:190
 msgctxt "Dataset|"
 msgid "Sixth largest"
-msgstr ""
+msgstr "Lớn thứ sáu"
 
 #: activities/solar_system/Dataset.js:19
 #: activities/solar_system/Dataset.js:262
@@ -24764,7 +24839,7 @@ msgstr ""
 #: activities/solar_system/Dataset.js:421
 msgctxt "Dataset|"
 msgid "Third largest"
-msgstr ""
+msgstr "Lớn thứ ba"
 
 #: activities/solar_system/Dataset.js:19
 #: activities/solar_system/Dataset.js:262
@@ -24773,7 +24848,7 @@ msgstr ""
 #: activities/solar_system/Dataset.js:421
 msgctxt "Dataset|"
 msgid "Largest"
-msgstr ""
+msgstr "Lớn nhất"
 
 #: activities/solar_system/Dataset.js:19
 #: activities/solar_system/Dataset.js:115
@@ -24781,129 +24856,129 @@ msgstr ""
 #: activities/solar_system/Dataset.js:370
 msgctxt "Dataset|"
 msgid "Seventh largest"
-msgstr ""
+msgstr "Lớn thứ bảy"
 
 #: activities/solar_system/Dataset.js:24
 msgctxt "Dataset|"
 msgid "The temperature of the Sun is around:"
-msgstr ""
+msgstr "Nhiệt độ của Mặt Trời vào khoảng:"
 
 #: activities/solar_system/Dataset.js:25
 msgctxt "Dataset|"
 msgid "1000 °C"
-msgstr ""
+msgstr "1000 °C"
 
 #: activities/solar_system/Dataset.js:25
 msgctxt "Dataset|"
 msgid "4500 °C"
-msgstr ""
+msgstr "4500 °C"
 
 #: activities/solar_system/Dataset.js:25
 msgctxt "Dataset|"
 msgid "5505 °C"
-msgstr ""
+msgstr "5505 °C"
 
 #: activities/solar_system/Dataset.js:25
 msgctxt "Dataset|"
 msgid "3638 °C"
-msgstr ""
+msgstr "3638 °C"
 
 #: activities/solar_system/Dataset.js:30
 msgctxt "Dataset|"
 msgid "How old is the Sun?"
-msgstr ""
+msgstr "Mặt Trời bao nhiêu tuổi?"
 
 #: activities/solar_system/Dataset.js:31
 msgctxt "Dataset|"
 msgid "1.2 billion years"
-msgstr ""
+msgstr "1,2 tỉ năm"
 
 #: activities/solar_system/Dataset.js:31
 msgctxt "Dataset|"
 msgid "3 billion years"
-msgstr ""
+msgstr "3 tỉ năm"
 
 #: activities/solar_system/Dataset.js:31
 msgctxt "Dataset|"
 msgid "7 billion years"
-msgstr ""
+msgstr "7 tỉ năm"
 
 #: activities/solar_system/Dataset.js:31
 msgctxt "Dataset|"
 msgid "4.5 billion years"
-msgstr ""
+msgstr "4,5 tỉ năm"
 
 #: activities/solar_system/Dataset.js:36
 msgctxt "Dataset|"
 msgid "How long does it take for the Sun’s light to reach the Earth?"
-msgstr ""
+msgstr "Ánh sáng Mặt Trời đi tới Trái Đất mất bao lâu?"
 
 #: activities/solar_system/Dataset.js:37
 msgctxt "Dataset|"
 msgid "8 minutes"
-msgstr ""
+msgstr "8 phút"
 
 #: activities/solar_system/Dataset.js:37
 msgctxt "Dataset|"
 msgid "30 minutes"
-msgstr ""
+msgstr "30 phút"
 
 #: activities/solar_system/Dataset.js:37
 msgctxt "Dataset|"
 msgid "60 minutes"
-msgstr ""
+msgstr "60 phút"
 
 #: activities/solar_system/Dataset.js:37
 msgctxt "Dataset|"
 msgid "15 minutes"
-msgstr ""
+msgstr "15 phút"
 
 #: activities/solar_system/Dataset.js:42
 msgctxt "Dataset|"
 msgid "The Sun is as big as:"
-msgstr ""
+msgstr "Mặt Trời to bằng:"
 
 #: activities/solar_system/Dataset.js:43
 msgctxt "Dataset|"
 msgid "1 million Earths"
-msgstr ""
+msgstr "1 triệu Trái Đất"
 
 #: activities/solar_system/Dataset.js:43
 msgctxt "Dataset|"
 msgid "2.6 million Earths"
-msgstr ""
+msgstr "2,6 triệu Trái Đất"
 
 #: activities/solar_system/Dataset.js:43
 msgctxt "Dataset|"
 msgid "1.3 million Earths"
-msgstr ""
+msgstr "1,3 triệu Trái Đất"
 
 #: activities/solar_system/Dataset.js:43
 msgctxt "Dataset|"
 msgid "5 million Earths"
-msgstr ""
+msgstr "5 triệu Trái Đất"
 
 #: activities/solar_system/Dataset.js:51
 msgctxt "Dataset|"
 msgid "Mercury"
-msgstr ""
+msgstr "Sao Thuỷ"
 
 #: activities/solar_system/Dataset.js:53 activities/solar_system/Dataset.js:98
 #: activities/solar_system/Dataset.js:200
 msgctxt "Dataset|"
 msgid "The maximum temperature on Earth is 58 °C."
-msgstr ""
+msgstr "Nhiệt độ cao nhất trên Trái Đất là 58 °C."
 
 #: activities/solar_system/Dataset.js:54
 #: activities/solar_system/Dataset.js:150
 msgctxt "Dataset|"
 msgid "The length of a year on Venus is 225 Earth days."
-msgstr ""
+msgstr "Một năm trên Sao Kim dài bằng 225 ngày Trái Đất."
 
 #: activities/solar_system/Dataset.js:57
 msgctxt "Dataset|"
 msgid "At which position is Mercury in the Solar System?"
-msgstr ""
+msgstr "Sao Thuỷ đứng thứ mấy trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:58
 #: activities/solar_system/Dataset.js:103
@@ -24911,7 +24986,7 @@ msgstr ""
 #: activities/solar_system/Dataset.js:391
 msgctxt "Dataset|"
 msgid "Seventh"
-msgstr ""
+msgstr "Thứ bảy"
 
 #: activities/solar_system/Dataset.js:58
 #: activities/solar_system/Dataset.js:103
@@ -24921,7 +24996,7 @@ msgstr ""
 #: activities/solar_system/Dataset.js:301
 msgctxt "Dataset|"
 msgid "Sixth"
-msgstr ""
+msgstr "Thứ sáu"
 
 #: activities/solar_system/Dataset.js:58
 #: activities/solar_system/Dataset.js:154
@@ -24930,7 +25005,7 @@ msgstr ""
 #: activities/solar_system/Dataset.js:301
 msgctxt "Dataset|"
 msgid "First"
-msgstr ""
+msgstr "Thứ nhất"
 
 #: activities/solar_system/Dataset.js:58
 #: activities/solar_system/Dataset.js:103
@@ -24941,73 +25016,73 @@ msgstr ""
 #: activities/solar_system/Dataset.js:391
 msgctxt "Dataset|"
 msgid "Fourth"
-msgstr ""
+msgstr "Thứ tư"
 
 #: activities/solar_system/Dataset.js:63
 msgctxt "Dataset|"
 msgid "How small is Mercury compared to other planets in our Solar System?"
-msgstr ""
+msgstr "Sao Thuỷ nhỏ cỡ nào so với các hành tinh khác trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:64
 #: activities/solar_system/Dataset.js:241
 msgctxt "Dataset|"
 msgid "Smallest"
-msgstr ""
+msgstr "Nhỏ nhất"
 
 #: activities/solar_system/Dataset.js:64
 #: activities/solar_system/Dataset.js:241
 msgctxt "Dataset|"
 msgid "Second smallest"
-msgstr ""
+msgstr "Nhỏ thứ hai"
 
 #: activities/solar_system/Dataset.js:64
 #: activities/solar_system/Dataset.js:241
 msgctxt "Dataset|"
 msgid "Third smallest"
-msgstr ""
+msgstr "Nhỏ thứ ba"
 
 #: activities/solar_system/Dataset.js:64
 #: activities/solar_system/Dataset.js:241
 msgctxt "Dataset|"
 msgid "Fifth smallest"
-msgstr ""
+msgstr "Nhỏ thứ năm"
 
 #: activities/solar_system/Dataset.js:69
 msgctxt "Dataset|"
 msgid "How many moons has Mercury?"
-msgstr ""
+msgstr "Sao Thuỷ có bao nhiêu mặt trăng?"
 
 #: activities/solar_system/Dataset.js:75
 msgctxt "Dataset|"
 msgid "The maximum temperature on Mercury is:"
-msgstr ""
+msgstr "Nhiệt độ cao nhất trên Sao Thuỷ là:"
 
 #: activities/solar_system/Dataset.js:76
 #: activities/solar_system/Dataset.js:268
 msgctxt "Dataset|"
 msgid "50 °C"
-msgstr ""
+msgstr "50 °C"
 
 #: activities/solar_system/Dataset.js:76
 #: activities/solar_system/Dataset.js:211
 msgctxt "Dataset|"
 msgid "35 °C"
-msgstr ""
+msgstr "35 °C"
 
 #: activities/solar_system/Dataset.js:76
 msgctxt "Dataset|"
 msgid "427 °C"
-msgstr ""
+msgstr "427 °C"
 
 #: activities/solar_system/Dataset.js:76
 msgctxt "Dataset|"
 msgid "273 °C"
-msgstr ""
+msgstr "273 °C"
 
 #: activities/solar_system/Dataset.js:81
 msgctxt "Dataset|"
 msgid "How long is a year on Mercury?"
-msgstr ""
+msgstr "Một năm trên Sao Thuỷ dài bao lâu?"
 
 #: activities/solar_system/Dataset.js:82 activities/solar_system/Dataset.js:88
 #: activities/solar_system/Dataset.js:121
@@ -25015,29 +25090,29 @@ msgstr ""
 #: activities/solar_system/Dataset.js:235
 msgctxt "Dataset|"
 msgid "365 Earth days"
-msgstr ""
+msgstr "365 ngày Trái Đất"
 
 #: activities/solar_system/Dataset.js:82
 msgctxt "Dataset|"
 msgid "433 Earth days"
-msgstr ""
+msgstr "433 ngày Trái Đất"
 
 #: activities/solar_system/Dataset.js:82
 #: activities/solar_system/Dataset.js:127
 msgctxt "Dataset|"
 msgid "88 Earth days"
-msgstr ""
+msgstr "88 ngày Trái Đất"
 
 #: activities/solar_system/Dataset.js:82 activities/solar_system/Dataset.js:88
 #: activities/solar_system/Dataset.js:127
 msgctxt "Dataset|"
 msgid "107 Earth days"
-msgstr ""
+msgstr "107 ngày Trái Đất"
 
 #: activities/solar_system/Dataset.js:87
 msgctxt "Dataset|"
 msgid "How long is one rotation on Mercury?"
-msgstr ""
+msgstr "Sao Thuỷ tự quay một vòng mất bao lâu?"
 
 #: activities/solar_system/Dataset.js:88
 msgctxt "Dataset|"
