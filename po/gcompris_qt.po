@@ -64,13 +64,13 @@ msgstr "Tìm số liền trước, liền sau"
 #: activities/adjacent_numbers/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Find the missing adjacent numbers."
-msgstr ""
+msgstr "Tìm số liền trước, liền sau còn thiếu."
 
 #. Help goal
 #: activities/adjacent_numbers/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Learn to order numbers."
-msgstr ""
+msgstr "Học cách sắp số theo thứ tự."
 
 #. Help manual
 #: activities/adjacent_numbers/ActivityInfo.qml:22
@@ -153,20 +153,20 @@ msgstr "Màu nâng cao"
 #: activities/advanced_colors/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Select the butterfly of the correct color."
-msgstr ""
+msgstr "Chọn con bướm có màu đúng."
 
 #. Help goal
 #: activities/advanced_colors/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to recognize unusual colors."
-msgstr ""
+msgstr "Học cách nhận ra những màu ít gặp."
 
 #. Help prerequisite
 #: activities/advanced_colors/ActivityInfo.qml:22
 #: activities/positions/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Can read."
-msgstr ""
+msgstr "Biết đọc."
 
 #. Help manual
 #: activities/advanced_colors/ActivityInfo.qml:24
@@ -874,19 +874,19 @@ msgstr "Phép nhân"
 #: activities/algebra_by/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Practice the multiplication operation."
-msgstr ""
+msgstr "Luyện phép nhân."
 
 #. Help goal
 #: activities/algebra_by/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to multiply numbers within a limited period of time."
-msgstr ""
+msgstr "Học nhân số trong thời gian có hạn."
 
 #. Help prerequisite
 #: activities/algebra_by/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Multiplication tables from 1 to 10."
-msgstr ""
+msgstr "Bảng nhân từ 1 tới 10."
 
 #. Help manual
 #: activities/algebra_by/ActivityInfo.qml:24
@@ -1001,19 +1001,19 @@ msgstr "Phép chia"
 #: activities/algebra_div/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Practice the division operation."
-msgstr ""
+msgstr "Luyện phép chia."
 
 #. Help goal
 #: activities/algebra_div/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Find the result of the division within a limited period of time."
-msgstr ""
+msgstr "Tìm kết quả phép chia trong thời gian có hạn."
 
 #. Help prerequisite
 #: activities/algebra_div/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Division of small numbers."
-msgstr ""
+msgstr "Chia các số nhỏ."
 
 #. Help manual
 #: activities/algebra_div/ActivityInfo.qml:24
@@ -1089,7 +1089,7 @@ msgstr "Phép trừ"
 #: activities/algebra_minus/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Practice the subtraction operation."
-msgstr ""
+msgstr "Luyện phép trừ."
 
 #. Help goal
 #: activities/algebra_minus/ActivityInfo.qml:20
@@ -1097,13 +1097,13 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn to find the difference between two numbers within a limited period of "
 "time."
-msgstr ""
+msgstr "Học tìm hiệu của hai số trong thời gian có hạn."
 
 #. Help prerequisite
 #: activities/algebra_minus/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Subtraction of small numbers."
-msgstr ""
+msgstr "Trừ các số nhỏ."
 
 #. Help manual
 #: activities/algebra_minus/ActivityInfo.qml:24
@@ -1189,19 +1189,19 @@ msgstr "Phép cộng"
 #: activities/algebra_plus/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Practice the addition of numbers."
-msgstr ""
+msgstr "Luyện phép cộng."
 
 #. Help goal
 #: activities/algebra_plus/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to find the sum of two numbers within a limited period of time."
-msgstr ""
+msgstr "Học tìm tổng của hai số trong thời gian có hạn."
 
 #. Help prerequisite
 #: activities/algebra_plus/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Simple addition. Can recognize written numbers."
-msgstr ""
+msgstr "Phép cộng đơn giản. Nhận được mặt chữ số."
 
 #. Help manual
 #: activities/algebra_plus/ActivityInfo.qml:24
@@ -1287,13 +1287,13 @@ msgstr "Liên hệ logic"
 #: activities/algorithm/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Complete the arrangement of fruits."
-msgstr ""
+msgstr "Xếp nốt dãy hoa quả."
 
 #. Help goal
 #: activities/algorithm/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Logical association practice."
-msgstr ""
+msgstr "Luyện tìm liên hệ logic."
 
 #. Help manual
 #: activities/algorithm/ActivityInfo.qml:22
@@ -1315,14 +1315,14 @@ msgstr "Xếp bốn quân (đấu với Tux)"
 #: activities/align4_2players/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Line up four tokens."
-msgstr ""
+msgstr "Xếp bốn quân thành một hàng."
 
 #. Help goal
 #: activities/align4/ActivityInfo.qml:20
 #: activities/align4_2players/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop anticipation and strategy skills."
-msgstr ""
+msgstr "Rèn khả năng tính trước và tư duy chiến thuật."
 
 #. Help manual
 #: activities/align4/ActivityInfo.qml:22
@@ -1393,20 +1393,20 @@ msgstr "Thứ tự bảng chữ cái"
 msgctxt "ActivityInfo|"
 msgid ""
 "Move the helicopter to catch the clouds following the order of the alphabet."
-msgstr ""
+msgstr "Lái trực thăng bắt các đám mây theo đúng thứ tự bảng chữ cái."
 
 #. Help goal
 #: activities/alphabet-sequence/ActivityInfo.qml:20
 #: activities/ordering_alphabets/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Learn the alphabetical order."
-msgstr ""
+msgstr "Học thứ tự bảng chữ cái."
 
 #. Help prerequisite
 #: activities/alphabet-sequence/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Can decode letters."
-msgstr ""
+msgstr "Đọc được chữ cái."
 
 #. Help manual
 #: activities/alphabet-sequence/ActivityInfo.qml:24
@@ -1466,19 +1466,19 @@ msgstr "Mạch điện tương tự"
 #: activities/analog_electricity/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Create and simulate an analog electric schema."
-msgstr ""
+msgstr "Vẽ và mô phỏng một sơ đồ mạch điện tương tự."
 
 #. Help goal
 #: activities/analog_electricity/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Create an analog electric schema with a real time simulation."
-msgstr ""
+msgstr "Vẽ sơ đồ mạch điện tương tự và mô phỏng ngay tức thì."
 
 #. Help prerequisite
 #: activities/analog_electricity/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Requires some basic understanding of the concept of electricity."
-msgstr ""
+msgstr "Cần hiểu cơ bản về điện."
 
 #. Help manual
 #: activities/analog_electricity/ActivityInfo.qml:24
@@ -1973,13 +1973,13 @@ msgstr "Bàn phím đầu tiên của bé"
 #: activities/baby_keyboard/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "A simple activity to discover the keyboard."
-msgstr ""
+msgstr "Hoạt động đơn giản để làm quen với bàn phím."
 
 #. Help goal
 #: activities/baby_keyboard/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Discover the keyboard."
-msgstr ""
+msgstr "Làm quen với bàn phím."
 
 #. Help manual
 #: activities/baby_keyboard/ActivityInfo.qml:23
@@ -2002,7 +2002,7 @@ msgstr "Chuột máy tính đầu tiên của bé"
 #: activities/baby_mouse/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Move the mouse or touch the screen and observe the result."
-msgstr ""
+msgstr "Di chuột hoặc chạm màn hình rồi xem điều gì xảy ra."
 
 #. Help goal
 #: activities/baby_mouse/ActivityInfo.qml:19
@@ -2011,6 +2011,8 @@ msgid ""
 "Provide audio-visual feedback when using the mouse to help discovering its "
 "usage for young children."
 msgstr ""
+"Cho trẻ nhỏ thấy hình ảnh và âm thanh phản hồi khi dùng chuột, để bé hiểu "
+"chuột dùng thế nào."
 
 #. Help prerequisite
 #: activities/baby_mouse/ActivityInfo.qml:21
@@ -2025,7 +2027,7 @@ msgstr ""
 #: activities/tangram/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Mouse-manipulation."
-msgstr ""
+msgstr "Biết dùng chuột."
 
 #. Help manual
 #: activities/baby_mouse/ActivityInfo.qml:23
@@ -2071,13 +2073,13 @@ msgstr "Xếp hình đơn giản"
 #: activities/baby_tangram/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Match the objects with their shapes."
-msgstr ""
+msgstr "Ghép đồ vật với hình dạng của chúng."
 
 #. Help goal
 #: activities/baby_tangram/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to match an object with its shape."
-msgstr ""
+msgstr "Học cách ghép một đồ vật với hình dạng của nó."
 
 #. Help manual
 #: activities/baby_tangram/ActivityInfo.qml:24
@@ -2102,13 +2104,13 @@ msgstr "Trang soạn thảo đầu tiên của bé"
 #: activities/baby_wordprocessor/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Write your first texts."
-msgstr ""
+msgstr "Viết những dòng chữ đầu tiên của con."
 
 #. Help goal
 #: activities/baby_wordprocessor/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to write a text using a word processor."
-msgstr ""
+msgstr "Học cách viết một đoạn văn bằng chương trình soạn thảo."
 
 #. Help manual
 #: activities/baby_wordprocessor/ActivityInfo.qml:23
@@ -2198,19 +2200,19 @@ msgstr "Ghép đồ vật"
 #: activities/babymatch/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Drag and drop the items to match them."
-msgstr ""
+msgstr "Kéo thả các món đồ để ghép chúng với nhau."
 
 #. Help goal
 #: activities/babymatch/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "Motor coordination. Conceptual matching."
-msgstr ""
+msgstr "Phối hợp vận động. Ghép nối theo khái niệm."
 
 #. Help prerequisite
 #: activities/babymatch/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Cultural references."
-msgstr ""
+msgstr "Vốn hiểu biết đời sống."
 
 #. Help manual
 #: activities/babymatch/ActivityInfo.qml:27
@@ -2237,13 +2239,13 @@ msgstr "Hoàn thành bức tranh"
 #: activities/babyshapes/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Drag and drop the shapes on their respective targets."
-msgstr ""
+msgstr "Kéo thả các hình vào đúng chỗ của chúng."
 
 #. Help goal
 #: activities/babyshapes/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Learn to match geometric shapes."
-msgstr ""
+msgstr "Học cách ghép các hình học."
 
 #. Help manual
 #: activities/babyshapes/ActivityInfo.qml:27
@@ -2342,13 +2344,13 @@ msgstr "Hộp thăng bằng"
 #: activities/balancebox/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Navigate the ball to the door by tilting the box."
-msgstr ""
+msgstr "Nghiêng hộp để đưa quả bóng tới cửa."
 
 #. Help goal
 #: activities/balancebox/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "Practice fine motor skills and basic counting."
-msgstr ""
+msgstr "Luyện vận động tinh và đếm cơ bản."
 
 #. Help manual
 #: activities/balancebox/ActivityInfo.qml:26
@@ -2530,13 +2532,13 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Press the left and right arrow keys at the same time, to make the ball go in"
 " a straight line."
-msgstr ""
+msgstr "Bấm cùng lúc phím mũi tên trái và phải để quả bóng đi thẳng."
 
 #. Help goal
 #: activities/ballcatch/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Synchronize left and right hands movements."
-msgstr ""
+msgstr "Phối hợp nhịp nhàng động tác tay trái và tay phải."
 
 #. Help manual
 #: activities/ballcatch/ActivityInfo.qml:23
@@ -2596,21 +2598,21 @@ msgstr "Trò thả bi (đấu với Tux)"
 msgctxt "ActivityInfo|"
 msgid ""
 "Anticipate and force the other player to place a ball in the last hole."
-msgstr ""
+msgstr "Tính trước để buộc người kia phải thả bi vào lỗ cuối cùng."
 
 #. Help goal
 #: activities/bargame/ActivityInfo.qml:20
 #: activities/bargame_2players/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop skills in strategic thinking, counting and subtracting."
-msgstr ""
+msgstr "Rèn tư duy chiến thuật, kỹ năng đếm và trừ."
 
 #. Help prerequisite
 #: activities/bargame/ActivityInfo.qml:22
 #: activities/bargame_2players/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Ability to count."
-msgstr ""
+msgstr "Biết đếm."
 
 #. Help manual
 #: activities/bargame/ActivityInfo.qml:24
@@ -2649,18 +2651,19 @@ msgid ""
 "This activity helps you to learn the concept of conversion from decimal "
 "number system to binary number system."
 msgstr ""
+"Hoạt động này giúp con hiểu cách đổi số từ hệ thập phân sang hệ nhị phân."
 
 #. Help goal
 #: activities/binary_bulb/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "To get familiar with the binary number system."
-msgstr ""
+msgstr "Làm quen với hệ đếm nhị phân."
 
 #. Help prerequisite
 #: activities/binary_bulb/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Decimal number system."
-msgstr ""
+msgstr "Hệ đếm thập phân."
 
 #. Help manual
 #: activities/binary_bulb/ActivityInfo.qml:24
@@ -2788,13 +2791,13 @@ msgstr "Khám phá hệ chữ nổi Braille"
 #: activities/braille_alphabets/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Learn and memorize the braille system."
-msgstr ""
+msgstr "Học và ghi nhớ hệ chữ nổi Braille."
 
 #. Help goal
 #: activities/braille_alphabets/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Let children discover the braille system."
-msgstr ""
+msgstr "Để trẻ khám phá hệ chữ nổi Braille."
 
 #. Help manual
 #: activities/braille_alphabets/ActivityInfo.qml:23
@@ -2947,19 +2950,19 @@ msgstr "Vui cùng chữ nổi"
 #: activities/braille_fun/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Practice braille letters."
-msgstr ""
+msgstr "Luyện các chữ cái chữ nổi."
 
 #. Help goal
 #: activities/braille_fun/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice writing in braille."
-msgstr ""
+msgstr "Luyện viết chữ nổi."
 
 #. Help prerequisite
 #: activities/braille_fun/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Braille alphabet."
-msgstr ""
+msgstr "Bảng chữ cái chữ nổi."
 
 #. Help manual
 #: activities/braille_fun/ActivityInfo.qml:24
@@ -2980,7 +2983,7 @@ msgstr "Calcudoku"
 #: activities/calcudoku/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Solve the Calcudoku."
-msgstr ""
+msgstr "Giải câu đố Calcudoku."
 
 #. Help goal
 #: activities/calcudoku/ActivityInfo.qml:19
@@ -2989,12 +2992,14 @@ msgid ""
 "Develop some logical skills (data linking, deduction) and spatial "
 "visualization while using calculation."
 msgstr ""
+"Rèn một số kỹ năng logic (nối dữ kiện, suy luận) và tưởng tượng không gian, "
+"kết hợp tính toán."
 
 #. Help prerequisite
 #: activities/calcudoku/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Completing the puzzle requires patience and arithmetic abilities."
-msgstr ""
+msgstr "Giải được câu đố này cần kiên nhẫn và khả năng tính toán."
 
 #. Help manual
 #: activities/calcudoku/ActivityInfo.qml:23
@@ -3052,19 +3057,19 @@ msgstr "Lịch"
 #: activities/calendar/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Read the instructions and select the correct date on the calendar."
-msgstr ""
+msgstr "Đọc yêu cầu rồi chọn đúng ngày trên lịch."
 
 #. Help goal
 #: activities/calendar/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn how to use a calendar."
-msgstr ""
+msgstr "Học cách dùng lịch."
 
 #. Help prerequisite
 #: activities/calendar/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Concept of week, month and year."
-msgstr ""
+msgstr "Khái niệm tuần, tháng và năm."
 
 #. Help manual
 #: activities/calendar/ActivityInfo.qml:24
@@ -3372,12 +3377,14 @@ msgid ""
 "Tux is in trouble, and needs to take his boat through a lock. Help Tux and "
 "find out how a canal lock works."
 msgstr ""
+"Tux đang gặp khó, thuyền của bạn ấy phải qua âu thuyền. Giúp Tux và tìm hiểu"
+" âu thuyền hoạt động thế nào."
 
 #. Help goal
 #: activities/canal_lock/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Understand how a canal lock works."
-msgstr ""
+msgstr "Hiểu âu thuyền hoạt động thế nào."
 
 #. Help manual
 #: activities/canal_lock/ActivityInfo.qml:23
@@ -3434,19 +3441,19 @@ msgstr "Phân loại"
 #: activities/categorization/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Categorize the items into correct and incorrect groups."
-msgstr ""
+msgstr "Xếp các món đồ vào nhóm đúng và nhóm sai."
 
 #. Help goal
 #: activities/categorization/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Build conceptual thinking and enrich knowledge."
-msgstr ""
+msgstr "Xây dựng tư duy khái niệm và mở rộng hiểu biết."
 
 #. Help prerequisite
 #: activities/categorization/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Can drag items using a mouse or touchscreen."
-msgstr ""
+msgstr "Kéo được đồ vật bằng chuột hoặc màn hình cảm ứng."
 
 #. Help manual
 #: activities/categorization/ActivityInfo.qml:24
@@ -3985,14 +3992,14 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Capture all your opponent's pieces before your opponent captures all of "
 "yours."
-msgstr ""
+msgstr "Bắt hết quân của đối thủ trước khi đối thủ bắt hết quân của con."
 
 #. Help goal
 #: activities/checkers/ActivityInfo.qml:20
 #: activities/checkers_2players/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice playing checkers."
-msgstr ""
+msgstr "Luyện chơi cờ đam."
 
 #. Help manual
 #: activities/checkers/ActivityInfo.qml:23
@@ -4064,14 +4071,14 @@ msgstr "Chơi cờ vua (đấu với Tux)"
 #: activities/chess_2players/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Discover and practice chess."
-msgstr ""
+msgstr "Làm quen và luyện chơi cờ vua."
 
 #. Help goal
 #: activities/chess/ActivityInfo.qml:20
 #: activities/chess_2players/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to play chess."
-msgstr ""
+msgstr "Học chơi cờ vua."
 
 #. Help manual Much of this string is shared across the three activities
 #. "chess", "chess_partyend", and "chess_2players".
@@ -4194,13 +4201,13 @@ msgstr "Tàn cuộc cờ vua"
 #: activities/chess_partyend/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Play the end of a chess game against Tux."
-msgstr ""
+msgstr "Chơi phần tàn cuộc của một ván cờ vua với Tux."
 
 #. Help goal
 #: activities/chess_partyend/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Finish a chess game."
-msgstr ""
+msgstr "Kết thúc một ván cờ vua."
 
 #. Help manual Much of this string is shared across the three activities
 #. "chess", "chess_partyend", and "chess_2players".
@@ -4228,20 +4235,20 @@ msgstr "Dòng thời gian"
 #: activities/chronos/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Drag and Drop the items to organize the story."
-msgstr ""
+msgstr "Kéo thả các bức tranh để sắp thành câu chuyện."
 
 #. Help goal
 #: activities/chronos/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Learn to recognize the chronology of a story."
-msgstr ""
+msgstr "Học cách nhận ra trình tự thời gian của một câu chuyện."
 
 #. Help prerequisite
 #: activities/chronos/ActivityInfo.qml:26
 #: activities/ordering_chronology/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Tell a short story."
-msgstr ""
+msgstr "Kể được một câu chuyện ngắn."
 
 #. Help manual
 #: activities/chronos/ActivityInfo.qml:28
@@ -4567,20 +4574,20 @@ msgstr "Bấm vào chữ thường"
 #: activities/click_on_letter_up/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Listen to a letter and click on it."
-msgstr ""
+msgstr "Nghe một chữ cái rồi bấm vào nó."
 
 #. Help goal
 #: activities/click_on_letter/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Recognize the name of lowercase letters."
-msgstr ""
+msgstr "Nhận ra tên của các chữ cái viết thường."
 
 #. Help prerequisite
 #: activities/click_on_letter/ActivityInfo.qml:22
 #: activities/click_on_letter_up/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Visual letter-recognition."
-msgstr ""
+msgstr "Nhận mặt chữ cái."
 
 #. Help manual
 #: activities/click_on_letter/ActivityInfo.qml:24
@@ -4616,7 +4623,7 @@ msgstr "Bấm vào chữ hoa"
 #: activities/click_on_letter_up/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Recognize the name of uppercase letters."
-msgstr ""
+msgstr "Nhận ra tên của các chữ cái viết hoa."
 
 #: activities/clickanddraw/ActivityConfig.qml:23
 #: activities/drawletters/ActivityConfig.qml:23
@@ -4650,19 +4657,19 @@ msgstr "Bấm và vẽ"
 #: activities/clickanddraw/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Draw the picture by clicking on the selected points."
-msgstr ""
+msgstr "Vẽ bức tranh bằng cách bấm vào các điểm được đánh dấu."
 
 #. Help goal
 #: activities/clickanddraw/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice using a mouse or touchscreen to touch specific points."
-msgstr ""
+msgstr "Luyện dùng chuột hoặc màn hình cảm ứng để chạm đúng điểm."
 
 #. Help prerequisite
 #: activities/clickanddraw/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Can move the mouse and click accurately on points."
-msgstr ""
+msgstr "Di được chuột và bấm đúng vào điểm."
 
 #. Help manual
 #: activities/clickanddraw/ActivityInfo.qml:24
@@ -4683,19 +4690,19 @@ msgstr "Bấm vào tôi"
 #: activities/clickgame/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Catch all the swimming fish before they leave the fish tank."
-msgstr ""
+msgstr "Bắt hết cá đang bơi trước khi chúng ra khỏi bể."
 
 #. Help goal
 #: activities/clickgame/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice motor coordination, moving the hand precisely."
-msgstr ""
+msgstr "Luyện phối hợp vận động, di chuyển bàn tay thật chính xác."
 
 #. Help prerequisite
 #: activities/clickgame/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Can move a mouse or use a touchscreen and click on the correct place."
-msgstr ""
+msgstr "Di được chuột hoặc dùng màn hình cảm ứng và bấm đúng chỗ."
 
 #. Help manual
 #: activities/clickgame/ActivityInfo.qml:24
@@ -4729,7 +4736,7 @@ msgstr "Học xem đồng hồ"
 #: activities/clockgame/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Learn how to tell the time on an analog clock."
-msgstr ""
+msgstr "Học cách xem giờ trên đồng hồ kim."
 
 #. Help goal
 #: activities/clockgame/ActivityInfo.qml:20
@@ -4738,12 +4745,13 @@ msgid ""
 "Learn units of time (hours, minutes and seconds). Set the time on an analog "
 "clock."
 msgstr ""
+"Học các đơn vị thời gian (giờ, phút và giây). Chỉnh giờ trên đồng hồ kim."
 
 #. Help prerequisite
 #: activities/clockgame/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "The concept of time."
-msgstr ""
+msgstr "Khái niệm thời gian."
 
 #. Help manual
 #: activities/clockgame/ActivityInfo.qml:24
@@ -4826,13 +4834,13 @@ msgstr "Pha màu sơn"
 #: activities/color_mix/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Discover paint color mixing."
-msgstr ""
+msgstr "Khám phá cách pha màu sơn."
 
 #. Help goal
 #: activities/color_mix/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to mix primary paint colors to match a given color."
-msgstr ""
+msgstr "Học cách pha các màu sơn cơ bản để ra đúng màu yêu cầu."
 
 #. Help manual
 #: activities/color_mix/ActivityInfo.qml:23
@@ -4935,13 +4943,13 @@ msgstr "Pha màu ánh sáng"
 #: activities/color_mix_light/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Discover light color mixing."
-msgstr ""
+msgstr "Khám phá cách pha màu ánh sáng."
 
 #. Help goal
 #: activities/color_mix_light/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to mix primary light colors to match a given color."
-msgstr ""
+msgstr "Học cách pha các màu ánh sáng cơ bản để ra đúng màu yêu cầu."
 
 #. Help manual
 #: activities/color_mix_light/ActivityInfo.qml:23
@@ -4976,19 +4984,19 @@ msgstr "Màu sắc"
 #: activities/colors/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Click on the right color."
-msgstr ""
+msgstr "Bấm vào đúng màu."
 
 #. Help goal
 #: activities/colors/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice recognizing different colors."
-msgstr ""
+msgstr "Luyện nhận biết các màu khác nhau."
 
 #. Help prerequisite
 #: activities/colors/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Identifying colors."
-msgstr ""
+msgstr "Nhận biết màu sắc."
 
 #. Help manual
 #: activities/colors/ActivityInfo.qml:24
@@ -5085,13 +5093,13 @@ msgstr "So sánh số"
 #: activities/comparator/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Compare the numbers and choose the corresponding sign."
-msgstr ""
+msgstr "So sánh hai số rồi chọn dấu thích hợp."
 
 #. Help goal
 #: activities/comparator/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Learn how to compare number values."
-msgstr ""
+msgstr "Học cách so sánh giá trị của các số."
 
 #. Help manual
 #: activities/comparator/ActivityInfo.qml:25
@@ -5200,13 +5208,13 @@ msgstr "La bàn"
 #: activities/compass/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Use the compass to draw."
-msgstr ""
+msgstr "Dùng compa để vẽ."
 
 #. Help goal
 #: activities/compass/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Learn how to draw circles and arcs with a compass."
-msgstr ""
+msgstr "Học cách vẽ đường tròn và cung tròn bằng compa."
 
 #. Help manual
 #: activities/compass/ActivityInfo.qml:23
@@ -5594,19 +5602,19 @@ msgstr "Xếp giống mẫu"
 #: activities/crane/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Drive the crane and copy the model."
-msgstr ""
+msgstr "Điều khiển cần cẩu và xếp giống mẫu."
 
 #. Help goal
 #: activities/crane/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Practice motor-coordination."
-msgstr ""
+msgstr "Luyện phối hợp vận động."
 
 #. Help prerequisite
 #: activities/crane/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Mouse/keyboard manipulation."
-msgstr ""
+msgstr "Biết dùng chuột và bàn phím."
 
 #. Help manual
 #: activities/crane/ActivityInfo.qml:29
@@ -5685,14 +5693,14 @@ msgstr "Tìm chi tiết"
 #: activities/details/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Drag and Drop the shapes on their respective targets."
-msgstr ""
+msgstr "Kéo thả các hình vào đúng chỗ của chúng."
 
 #. Help goal
 #: activities/details/ActivityInfo.qml:23
 #: activities/paintings/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Develop observation and spatial visualization skills."
-msgstr ""
+msgstr "Rèn khả năng quan sát và tưởng tượng không gian."
 
 #. Help manual
 #: activities/details/ActivityInfo.qml:26
@@ -5839,20 +5847,20 @@ msgstr "Mạch điện số"
 #: activities/digital_electricity/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Create and simulate a digital logic circuit."
-msgstr ""
+msgstr "Vẽ và mô phỏng một mạch logic số."
 
 #. Help goal
 #: activities/digital_electricity/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Create a digital logic circuit and simulate it in real time."
-msgstr ""
+msgstr "Vẽ một mạch logic số và mô phỏng ngay tức thì."
 
 #. Help prerequisite
 #: activities/digital_electricity/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid ""
 "Requires some basic understanding of the concept of digital electronics."
-msgstr ""
+msgstr "Cần hiểu cơ bản về điện tử số."
 
 #. Help manual
 #: activities/digital_electricity/ActivityInfo.qml:24
@@ -6472,13 +6480,14 @@ msgstr "Vẽ bằng bánh răng"
 #: activities/drawing_wheels/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Roll the gear in the cogwheel to draw."
-msgstr ""
+msgstr "Lăn bánh răng trong vòng răng để vẽ."
 
 #. Help goal
 #: activities/drawing_wheels/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Discover hypotrochoids and use them as digital painting tools."
 msgstr ""
+"Khám phá đường hypotrochoid và dùng chúng làm công cụ vẽ trên máy tính."
 
 #. Help manual
 #: activities/drawing_wheels/ActivityInfo.qml:27
@@ -6647,13 +6656,13 @@ msgstr "Tập viết chữ cái"
 #: activities/drawletters/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Connect the dots to draw the letters."
-msgstr ""
+msgstr "Nối các chấm để viết chữ cái."
 
 #. Help goal
 #: activities/drawletters/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn how to draw letters in a fun way."
-msgstr ""
+msgstr "Học cách viết chữ cái một cách vui vẻ."
 
 #. Help manual
 #: activities/drawletters/ActivityInfo.qml:23
@@ -6674,13 +6683,13 @@ msgstr "Tập viết chữ số"
 #: activities/drawnumbers/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Connect the dots to draw numbers from 0 to 9."
-msgstr ""
+msgstr "Nối các chấm để viết chữ số từ 0 tới 9."
 
 #. Help goal
 #: activities/drawnumbers/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn how to draw numbers in a fun way."
-msgstr ""
+msgstr "Học cách viết chữ số một cách vui vẻ."
 
 #. Help manual
 #: activities/drawnumbers/ActivityInfo.qml:23
@@ -6701,19 +6710,19 @@ msgstr "Đếm đồ vật"
 #: activities/enumerate/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Place the items in the best way to count them."
-msgstr ""
+msgstr "Sắp các món đồ sao cho dễ đếm nhất."
 
 #. Help goal
 #: activities/enumerate/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice counting small quantities."
-msgstr ""
+msgstr "Luyện đếm số lượng nhỏ."
 
 #. Help prerequisite
 #: activities/enumerate/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Basic enumeration."
-msgstr ""
+msgstr "Biết đếm cơ bản."
 
 #. Help manual
 #: activities/enumerate/ActivityInfo.qml:24
@@ -6785,6 +6794,7 @@ msgid ""
 "Move the mouse or touch the screen to erase the blocks and discover the "
 "hidden picture."
 msgstr ""
+"Di chuột hoặc chạm màn hình để xoá các ô và tìm ra bức tranh giấu bên dưới."
 
 #. Help goal
 #: activities/erase/ActivityInfo.qml:20
@@ -6793,7 +6803,7 @@ msgstr ""
 #: activities/penalty/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop motor coordination skills."
-msgstr ""
+msgstr "Rèn kỹ năng phối hợp vận động."
 
 #. Help manual
 #: activities/erase/ActivityInfo.qml:24
@@ -6814,7 +6824,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Double tap or double click to erase the blocks and discover the hidden "
 "picture."
-msgstr ""
+msgstr "Chạm đúp hoặc bấm đúp để xoá các ô và tìm ra bức tranh giấu bên dưới."
 
 #. Help manual
 #: activities/erase_2clic/ActivityInfo.qml:24
@@ -6832,7 +6842,7 @@ msgstr "Bấm hoặc chạm"
 #: activities/erase_clic/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Click or tap to erase the blocks and discover the hidden picture."
-msgstr ""
+msgstr "Bấm hoặc chạm để xoá các ô và tìm ra bức tranh giấu bên dưới."
 
 #. Help manual
 #: activities/erase_clic/ActivityInfo.qml:24
@@ -6852,6 +6862,8 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn about farm animals, what sounds they make, and interesting facts."
 msgstr ""
+"Tìm hiểu vật nuôi trong trang trại, tiếng kêu của chúng và những điều thú "
+"vị."
 
 #. Help goal
 #: activities/explore_farm_animals/ActivityInfo.qml:20
@@ -6859,7 +6871,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn to associate animal sounds with the animal name and what the animal "
 "looks like."
-msgstr ""
+msgstr "Học cách gắn tiếng kêu của con vật với tên gọi và hình dáng của nó."
 
 #. Help manual
 #: activities/explore_farm_animals/ActivityInfo.qml:23
@@ -7089,7 +7101,7 @@ msgstr "Khám phá công trình nổi tiếng"
 #: activities/explore_monuments/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Explore monuments around the world."
-msgstr ""
+msgstr "Khám phá các công trình nổi tiếng khắp thế giới."
 
 #. Help goal
 #: activities/explore_monuments/ActivityInfo.qml:20
@@ -7098,12 +7110,13 @@ msgid ""
 "Learn about various monuments from around the world and remember their "
 "location."
 msgstr ""
+"Tìm hiểu nhiều công trình nổi tiếng trên thế giới và nhớ vị trí của chúng."
 
 #. Help prerequisite
 #: activities/explore_monuments/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Knowledge of different monuments."
-msgstr ""
+msgstr "Biết một số công trình nổi tiếng."
 
 #. Help manual
 #: activities/explore_monuments/ActivityInfo.qml:24
@@ -8343,6 +8356,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn about world animals, interesting facts and their location on a map."
 msgstr ""
+"Tìm hiểu động vật thế giới, những điều thú vị và nơi chúng sống trên bản đồ."
 
 #. Help goal
 #: activities/explore_world_animals/ActivityInfo.qml:24
@@ -8350,7 +8364,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn about various wild animals from around the world and remember where "
 "they live."
-msgstr ""
+msgstr "Tìm hiểu nhiều loài thú hoang trên thế giới và nhớ nơi chúng sống."
 
 #. Help manual
 #: activities/explore_world_animals/ActivityInfo.qml:27
@@ -8613,14 +8627,14 @@ msgstr "Khám phá âm nhạc thế giới"
 #: activities/explore_world_music/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Learn about the music of the world."
-msgstr ""
+msgstr "Tìm hiểu âm nhạc của các nơi trên thế giới."
 
 #. Help goal
 #: activities/explore_world_music/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid ""
 "Develop a better understanding of the variety of music present in the world."
-msgstr ""
+msgstr "Hiểu rõ hơn sự phong phú của âm nhạc trên thế giới."
 
 #. Help manual
 #: activities/explore_world_music/ActivityInfo.qml:23
@@ -8804,7 +8818,7 @@ msgstr "Gia đình"
 #: activities/family/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Select the name you should call this family member."
-msgstr ""
+msgstr "Chọn cách gọi đúng cho người thân này trong gia đình."
 
 #. Help goal
 #: activities/family/ActivityInfo.qml:20
@@ -8814,12 +8828,14 @@ msgid ""
 "Learn the relationships in a family, according to the lineal system used in "
 "most Western societies."
 msgstr ""
+"Học các mối quan hệ trong gia đình, theo hệ tuyến tính dùng ở phần lớn xã "
+"hội phương Tây."
 
 #. Help prerequisite
 #: activities/family/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Reading skills."
-msgstr ""
+msgstr "Kỹ năng đọc."
 
 #. Help manual
 #: activities/family/ActivityInfo.qml:24
@@ -9022,13 +9038,13 @@ msgstr "Chỉ đúng người thân"
 #: activities/family_find_relative/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Select two people which have the given relationship."
-msgstr ""
+msgstr "Chọn hai người có quan hệ họ hàng được nêu."
 
 #. Help prerequisite
 #: activities/family_find_relative/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Reading, moving and clicking with the mouse."
-msgstr ""
+msgstr "Biết đọc, di chuột và bấm chuột."
 
 #. Help manual
 #: activities/family_find_relative/ActivityInfo.qml:24
@@ -9049,7 +9065,7 @@ msgstr "Trò mười lăm ô"
 #: activities/fifteen/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Move each item to recreate the image."
-msgstr ""
+msgstr "Di chuyển từng ô để ghép lại bức tranh."
 
 #. Help goal
 #: activities/fifteen/ActivityInfo.qml:20
@@ -9057,7 +9073,7 @@ msgstr ""
 #: activities/traffic/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop anticipation and spatial visualization skills."
-msgstr ""
+msgstr "Rèn khả năng tính trước và tưởng tượng không gian."
 
 #. Help manual
 #: activities/fifteen/ActivityInfo.qml:23
@@ -9082,19 +9098,19 @@ msgstr "Tìm ngày"
 #: activities/find_the_day/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Find the correct date and select it on the calendar."
-msgstr ""
+msgstr "Tìm đúng ngày rồi chọn trên lịch."
 
 #. Help goal
 #: activities/find_the_day/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn how to count days and find a date on a calendar."
-msgstr ""
+msgstr "Học cách đếm ngày và tìm một ngày trên lịch."
 
 #. Help prerequisite
 #: activities/find_the_day/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Basics of calendar."
-msgstr ""
+msgstr "Hiểu biết cơ bản về lịch."
 
 #. Help manual
 #: activities/find_the_day/ActivityInfo.qml:24
@@ -9245,13 +9261,13 @@ msgstr "Điều khiển vòi nước"
 #: activities/followline/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "The fireman needs to stop the fire, but the hose is blocked."
-msgstr ""
+msgstr "Chú lính cứu hoả cần dập lửa, nhưng vòi nước đang bị tắc."
 
 #. Help goal
 #: activities/followline/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Fine motor coordination."
-msgstr ""
+msgstr "Phối hợp vận động tinh."
 
 #. Help manual
 #: activities/followline/ActivityInfo.qml:23
@@ -9272,13 +9288,13 @@ msgstr "Trò đá bóng"
 #: activities/football/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Kick the ball into the goal."
-msgstr ""
+msgstr "Sút bóng vào khung thành."
 
 #. Help goal
 #: activities/football/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Understand direction and speed."
-msgstr ""
+msgstr "Hiểu về hướng và tốc độ."
 
 #. Help manual
 #: activities/football/ActivityInfo.qml:23
@@ -9301,13 +9317,13 @@ msgstr "Tạo phân số"
 msgctxt "ActivityInfo|"
 msgid ""
 "Select the appropriate number of parts to represent the given fraction."
-msgstr ""
+msgstr "Chọn đúng số phần để biểu diễn phân số đã cho."
 
 #. Help goal
 #: activities/fractions_create/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Learn to represent a given fraction of a shape."
-msgstr ""
+msgstr "Học cách biểu diễn một phân số của hình cho trước."
 
 #. Help manual
 #: activities/fractions_create/ActivityInfo.qml:22
@@ -9643,7 +9659,7 @@ msgstr "Tìm phân số"
 msgctxt "ActivityInfo|"
 msgid ""
 "Find the correct numerator and denominator of the represented fraction."
-msgstr ""
+msgstr "Tìm đúng tử số và mẫu số của phân số được vẽ."
 
 #. Help goal
 #: activities/fractions_find/ActivityInfo.qml:19
@@ -9651,7 +9667,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn to write a fraction corresponding to a given fractional "
 "representation."
-msgstr ""
+msgstr "Học cách viết phân số ứng với hình biểu diễn cho trước."
 
 #. Help manual
 #: activities/fractions_find/ActivityInfo.qml:22
@@ -9703,13 +9719,13 @@ msgstr "Dải hoa văn"
 #: activities/frieze/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Reproduce and complete the frieze."
-msgstr ""
+msgstr "Vẽ tiếp và hoàn thành dải hoa văn."
 
 #. Help goal
 #: activities/frieze/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Learn algorithms."
-msgstr ""
+msgstr "Học về thuật toán."
 
 #. Help manual
 #: activities/frieze/ActivityInfo.qml:22
@@ -9875,13 +9891,13 @@ msgstr "Tìm vùng trên bản đồ"
 #: activities/geo-country/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Place the regions on the country maps."
-msgstr ""
+msgstr "Đặt các vùng vào đúng chỗ trên bản đồ quốc gia."
 
 #. Help goal
 #: activities/geo-country/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Learn to locate and place the regions of countries."
-msgstr ""
+msgstr "Học cách xác định và đặt đúng các vùng của một quốc gia."
 
 #. Help manual
 #: activities/geo-country/ActivityInfo.qml:27
@@ -12672,7 +12688,7 @@ msgstr "Tìm quốc gia trên bản đồ"
 #: activities/geography/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Place the continents and countries on the world map."
-msgstr ""
+msgstr "Đặt các châu lục và quốc gia vào đúng chỗ trên bản đồ thế giới."
 
 #. Help goal
 #: activities/geography/ActivityInfo.qml:24
@@ -12681,6 +12697,8 @@ msgid ""
 "Learn to locate and place the continents and many countries on the world "
 "map."
 msgstr ""
+"Học cách xác định và đặt đúng các châu lục cùng nhiều quốc gia trên bản đồ "
+"thế giới."
 
 #. Help manual
 #: activities/geography/ActivityInfo.qml:27
@@ -13801,13 +13819,13 @@ msgstr "Chữ cái rơi"
 #: activities/gletters/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Type the falling letters before they reach the ground."
-msgstr ""
+msgstr "Gõ các chữ cái đang rơi trước khi chúng chạm đất."
 
 #. Help goal
 #: activities/gletters/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Match letters on the keyboard with letters on the screen."
-msgstr ""
+msgstr "Ghép chữ cái trên bàn phím với chữ cái trên màn hình."
 
 #. Help manual
 #: activities/gletters/ActivityInfo.qml:23
@@ -13831,12 +13849,13 @@ msgid ""
 "Guide the Number Muncher to the expressions that equal the number at the "
 "bottom of the screen."
 msgstr ""
+"Dẫn Quái Ăn Số tới những phép tính có kết quả bằng số ghi ở cuối màn hình."
 
 #. Help goal
 #: activities/gnumch-equality/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice addition, multiplication, division and subtraction."
-msgstr ""
+msgstr "Luyện cộng, nhân, chia và trừ."
 
 #. Help manual
 #: activities/gnumch-equality/ActivityInfo.qml:25
@@ -13984,14 +14003,14 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Guide the Number Muncher to all the factors of the number at the bottom of "
 "the screen."
-msgstr ""
+msgstr "Dẫn Quái Ăn Số tới tất cả các ước của số ghi ở cuối màn hình."
 
 #. Help goal
 #: activities/gnumch-factors/ActivityInfo.qml:20
 #: activities/gnumch-multiples/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn about multiples and factors."
-msgstr ""
+msgstr "Học về bội số và ước số."
 
 #. Help manual
 #: activities/gnumch-factors/ActivityInfo.qml:23
@@ -14019,12 +14038,14 @@ msgid ""
 "Guide the Number Muncher to all the expressions that do not equal the number"
 " at the bottom of the screen."
 msgstr ""
+"Dẫn Quái Ăn Số tới tất cả những phép tính có kết quả khác số ghi ở cuối màn "
+"hình."
 
 #. Help goal
 #: activities/gnumch-inequality/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Practice addition, subtraction, multiplication and division."
-msgstr ""
+msgstr "Luyện cộng, trừ, nhân và chia."
 
 #: activities/gnumch-inequality/resource/1/Data.qml:13
 msgctxt "Data|"
@@ -14058,7 +14079,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Guide the Number Muncher to all the multiples of the number at the bottom of"
 " the screen."
-msgstr ""
+msgstr "Dẫn Quái Ăn Số tới tất cả các bội của số ghi ở cuối màn hình."
 
 #. Help manual
 #: activities/gnumch-multiples/ActivityInfo.qml:23
@@ -14088,13 +14109,13 @@ msgstr "Quái ăn số: số nguyên tố"
 #: activities/gnumch-primes/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Guide the Number Muncher to all the prime numbers."
-msgstr ""
+msgstr "Dẫn Quái Ăn Số tới tất cả các số nguyên tố."
 
 #. Help goal
 #: activities/gnumch-primes/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn about prime numbers."
-msgstr ""
+msgstr "Học về số nguyên tố."
 
 #. Help manual
 #: activities/gnumch-primes/ActivityInfo.qml:23
@@ -14119,20 +14140,20 @@ msgstr "Đọc trục số có vạch chia"
 #: activities/graduated_line_read/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Read values on a graduated line."
-msgstr ""
+msgstr "Đọc giá trị trên trục số có vạch chia."
 
 #. Help goal
 #: activities/graduated_line_read/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Learn to read a graduated line."
-msgstr ""
+msgstr "Học cách đọc trục số có vạch chia."
 
 #. Help prerequisite
 #: activities/graduated_line_read/ActivityInfo.qml:21
 #: activities/graduated_line_use/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Reading and ordering numbers."
-msgstr ""
+msgstr "Đọc và sắp thứ tự các số."
 
 #. Help manual
 #: activities/graduated_line_read/ActivityInfo.qml:23
@@ -14234,13 +14255,13 @@ msgstr "Dùng trục số có vạch chia"
 #: activities/graduated_line_use/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Place values on a graduated line."
-msgstr ""
+msgstr "Đặt giá trị lên trục số có vạch chia."
 
 #. Help goal
 #: activities/graduated_line_use/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Learn to use a graduated line."
-msgstr ""
+msgstr "Học cách dùng trục số có vạch chia."
 
 #. Help manual
 #: activities/graduated_line_use/ActivityInfo.qml:23
@@ -14316,14 +14337,14 @@ msgstr "Phân tích ngữ pháp"
 #: activities/grammar_classes/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Identify grammatical classes in the given sentences."
-msgstr ""
+msgstr "Nhận ra các từ loại trong câu đã cho."
 
 #. Help goal
 #: activities/grammar_analysis/ActivityInfo.qml:23
 #: activities/grammar_classes/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "Learn to identify grammatical classes."
-msgstr ""
+msgstr "Học cách nhận ra các từ loại."
 
 #. Help manual
 #: activities/grammar_analysis/ActivityInfo.qml:26
@@ -14475,7 +14496,7 @@ msgstr "Tô màu đồ thị"
 #: activities/graph-coloring/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Color the graph so that no two adjacent nodes have the same color."
-msgstr ""
+msgstr "Tô màu đồ thị sao cho hai đỉnh kề nhau không cùng màu."
 
 #. Help goal
 #: activities/graph-coloring/ActivityInfo.qml:20
@@ -14484,12 +14505,13 @@ msgid ""
 "Develop your sense of strategy, learn to distinguish colors and memorize "
 "relative positions."
 msgstr ""
+"Rèn tư duy chiến thuật, học phân biệt màu sắc và ghi nhớ vị trí tương đối."
 
 #. Help prerequisite
 #: activities/graph-coloring/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Ability to distinguish different colors/shapes, sense of positions."
-msgstr ""
+msgstr "Phân biệt được màu sắc và hình dạng, có cảm nhận về vị trí."
 
 #. Help manual
 #: activities/graph-coloring/ActivityInfo.qml:24
@@ -14515,7 +14537,7 @@ msgstr "Trọng lực"
 #: activities/gravity/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Introduction to the concept of gravity."
-msgstr ""
+msgstr "Làm quen với khái niệm trọng lực."
 
 #. Help goal
 #: activities/gravity/ActivityInfo.qml:24
@@ -14523,6 +14545,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Move the spaceship to avoid hitting the planets and reach the space station."
 msgstr ""
+"Lái tàu vũ trụ tránh va vào các hành tinh và tới được trạm không gian."
 
 #. Help manual
 #: activities/gravity/ActivityInfo.qml:27
@@ -14589,13 +14612,13 @@ msgstr "Đoán 24"
 #: activities/guess24/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Calculate to find 24."
-msgstr ""
+msgstr "Tính sao cho ra 24."
 
 #. Help goal
 #: activities/guess24/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Learn to calculate using the four operators."
-msgstr ""
+msgstr "Học tính toán bằng bốn phép tính."
 
 #. Help prerequisite
 #: activities/guess24/ActivityInfo.qml:21
@@ -14603,7 +14626,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Being able to calculate using addition, subtraction, multiplication and "
 "division."
-msgstr ""
+msgstr "Biết tính cộng, trừ, nhân và chia."
 
 #. Help manual
 #: activities/guess24/ActivityInfo.qml:23
@@ -14701,19 +14724,19 @@ msgstr "Đoán phép tính"
 #: activities/guesscount/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Find the operations to get the required result."
-msgstr ""
+msgstr "Tìm các phép tính để ra kết quả yêu cầu."
 
 #. Help goal
 #: activities/guesscount/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Practice decomposed calculation."
-msgstr ""
+msgstr "Luyện tính nhẩm theo cách tách số."
 
 #. Help prerequisite
 #: activities/guesscount/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Knowledge of arithmetic operations."
-msgstr ""
+msgstr "Biết các phép tính số học."
 
 #. Help manual
 #: activities/guesscount/ActivityInfo.qml:28
@@ -14785,13 +14808,13 @@ msgstr "Đoán số"
 #: activities/guessnumber/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Help Tux escape the cave by finding the hidden number."
-msgstr ""
+msgstr "Giúp Tux thoát khỏi hang bằng cách tìm ra con số bí mật."
 
 #. Help goal
 #: activities/guessnumber/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice comparing numbers."
-msgstr ""
+msgstr "Luyện so sánh các số."
 
 #. Help manual
 #: activities/guessnumber/ActivityInfo.qml:23
@@ -14869,13 +14892,13 @@ msgstr "Trò đoán chữ cổ điển"
 #: activities/hangman/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Guess the letters of the given word."
-msgstr ""
+msgstr "Đoán các chữ cái của từ đã cho."
 
 #. Help goal
 #: activities/hangman/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Improve your spelling and vocabulary."
-msgstr ""
+msgstr "Cải thiện chính tả và vốn từ."
 
 #. Help manual
 #: activities/hangman/ActivityInfo.qml:23
@@ -14936,14 +14959,14 @@ msgstr "Tháp Hà Nội (đơn giản)"
 #: activities/hanoi/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Copy the tower on the right-hand side onto the empty peg."
-msgstr ""
+msgstr "Xếp lại tháp bên phải sang cọc còn trống."
 
 #. Help goal
 #: activities/hanoi/ActivityInfo.qml:20
 #: activities/hanoi_real/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop strategic thinking."
-msgstr ""
+msgstr "Rèn tư duy chiến thuật."
 
 #. Help manual
 #: activities/hanoi/ActivityInfo.qml:24
@@ -14968,7 +14991,7 @@ msgstr "Tháp Hà Nội"
 #: activities/hanoi_real/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Move the tower from the left-hand side onto the right-side peg."
-msgstr ""
+msgstr "Chuyển cả tháp từ cọc bên trái sang cọc bên phải."
 
 #. Help manual
 #: activities/hanoi_real/ActivityInfo.qml:23
@@ -15016,13 +15039,13 @@ msgstr "Ô lục giác"
 #: activities/hexagon/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Find the strawberry by clicking on the blue fields."
-msgstr ""
+msgstr "Tìm quả dâu bằng cách bấm vào các ô màu xanh."
 
 #. Help goal
 #: activities/hexagon/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Logic-training activity."
-msgstr ""
+msgstr "Hoạt động rèn tư duy logic."
 
 #. Help manual
 #: activities/hexagon/ActivityInfo.qml:23
@@ -15042,13 +15065,13 @@ msgstr "Gọi tên hình"
 #: activities/imagename/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Drag and Drop each item above its name."
-msgstr ""
+msgstr "Kéo thả từng món đồ lên trên tên của nó."
 
 #. Help goal
 #: activities/imagename/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "Enrich your vocabulary and practice reading."
-msgstr ""
+msgstr "Mở rộng vốn từ và luyện đọc."
 
 #. Help prerequisite
 #: activities/imagename/ActivityInfo.qml:25
@@ -15060,7 +15083,7 @@ msgstr ""
 #: activities/readingv/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Reading."
-msgstr ""
+msgstr "Biết đọc."
 
 #. Help manual
 #: activities/imagename/ActivityInfo.qml:27
@@ -15295,13 +15318,13 @@ msgstr "Nhạc cụ"
 #: activities/instruments/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Click on the correct musical instruments."
-msgstr ""
+msgstr "Bấm vào đúng nhạc cụ."
 
 #. Help goal
 #: activities/instruments/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to recognize musical instruments."
-msgstr ""
+msgstr "Học cách nhận ra các loại nhạc cụ."
 
 #. Help manual
 #: activities/instruments/ActivityInfo.qml:23
@@ -15491,13 +15514,13 @@ msgstr "Luyện gõ bàn phím"
 #: activities/keyboard_training/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Find the requested character and type it on the keyboard."
-msgstr ""
+msgstr "Tìm ký tự được yêu cầu rồi gõ nó trên bàn phím."
 
 #. Help goal
 #: activities/keyboard_training/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Learn to type on a keyboard."
-msgstr ""
+msgstr "Học cách gõ bàn phím."
 
 #. Help manual
 #: activities/keyboard_training/ActivityInfo.qml:23
@@ -15515,13 +15538,13 @@ msgstr "Hạ cánh an toàn"
 #: activities/land_safe/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Pilot the spaceship towards the green landing area."
-msgstr ""
+msgstr "Lái tàu vũ trụ về bãi đáp màu xanh."
 
 #. Help goal
 #: activities/land_safe/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Understand the acceleration caused by the gravity."
-msgstr ""
+msgstr "Hiểu về gia tốc do trọng lực gây ra."
 
 #. Help manual
 #: activities/land_safe/ActivityInfo.qml:23
@@ -15687,13 +15710,13 @@ msgstr "Mở rộng vốn từ"
 #: activities/lang/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "Complete language learning activities."
-msgstr ""
+msgstr "Hoàn thành các hoạt động học ngôn ngữ."
 
 #. Help goal
 #: activities/lang/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Enrich your vocabulary in your native language or in a foreign one."
-msgstr ""
+msgstr "Mở rộng vốn từ của con, bằng tiếng mẹ đẻ hoặc tiếng nước ngoài."
 
 #. Help manual
 #: activities/lang/ActivityInfo.qml:30
@@ -15871,13 +15894,13 @@ msgstr "Học phép cộng"
 #: activities/learn_additions/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Learn addition with small numbers."
-msgstr ""
+msgstr "Học phép cộng với các số nhỏ."
 
 #. Help goal
 #: activities/learn_additions/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn addition by adding quantities."
-msgstr ""
+msgstr "Học phép cộng bằng cách cộng số lượng."
 
 #. Help manual
 #: activities/learn_additions/ActivityInfo.qml:23
@@ -15919,14 +15942,14 @@ msgstr "Học số thập phân"
 #: activities/learn_decimals/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Represent the given decimal numbers."
-msgstr ""
+msgstr "Biểu diễn các số thập phân đã cho."
 
 #. Help goal
 #: activities/learn_decimals/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid ""
 "Associate the decimal form of a number with its graphic representation."
-msgstr ""
+msgstr "Gắn dạng thập phân của một số với hình biểu diễn của nó."
 
 #. Help manual
 #: activities/learn_decimals/ActivityInfo.qml:22
@@ -16005,7 +16028,7 @@ msgstr "Cộng số thập phân"
 #: activities/learn_decimals_additions/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Learn addition with decimal numbers."
-msgstr ""
+msgstr "Học phép cộng với số thập phân."
 
 #. Help goal
 #: activities/learn_decimals_additions/ActivityInfo.qml:19
@@ -16013,7 +16036,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn addition with decimal numbers by manipulating their visual "
 "representation."
-msgstr ""
+msgstr "Học phép cộng số thập phân bằng cách thao tác trên hình biểu diễn."
 
 #. Help manual
 #: activities/learn_decimals_additions/ActivityInfo.qml:22
@@ -16088,7 +16111,7 @@ msgstr "Trừ số thập phân"
 #: activities/learn_decimals_subtractions/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Learn subtraction with decimal numbers."
-msgstr ""
+msgstr "Học phép trừ với số thập phân."
 
 #. Help goal
 #: activities/learn_decimals_subtractions/ActivityInfo.qml:19
@@ -16096,7 +16119,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn subtraction with decimal numbers by manipulating their visual "
 "representation."
-msgstr ""
+msgstr "Học phép trừ số thập phân bằng cách thao tác trên hình biểu diễn."
 
 #. Help manual
 #: activities/learn_decimals_subtractions/ActivityInfo.qml:22
@@ -16183,7 +16206,7 @@ msgstr "Học chữ số"
 #: activities/learn_digits/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Represent the number corresponding to the given digit."
-msgstr ""
+msgstr "Biểu diễn số ứng với chữ số đã cho."
 
 #. Help goal
 #: activities/learn_digits/ActivityInfo.qml:20
@@ -16191,7 +16214,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn the numbers represented by a single digit and the corresponding "
 "quantities."
-msgstr ""
+msgstr "Học các số viết bằng một chữ số và số lượng tương ứng."
 
 #. Help manual
 #: activities/learn_digits/ActivityInfo.qml:23
@@ -16261,7 +16284,7 @@ msgstr "Học số lượng"
 #: activities/learn_quantities/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Learn to represent a quantity of objects."
-msgstr ""
+msgstr "Học cách biểu diễn số lượng đồ vật."
 
 #. Help goal
 #: activities/learn_quantities/ActivityInfo.qml:19
@@ -16270,6 +16293,7 @@ msgid ""
 "Learn quantities by counting how many oranges are needed to represent the "
 "requested quantity."
 msgstr ""
+"Học về số lượng bằng cách đếm xem cần bao nhiêu quả cam cho đủ số yêu cầu."
 
 #. Help manual
 #: activities/learn_quantities/ActivityInfo.qml:22
@@ -16335,13 +16359,13 @@ msgstr "Học phép trừ"
 #: activities/learn_subtractions/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Learn subtraction with small numbers."
-msgstr ""
+msgstr "Học phép trừ với các số nhỏ."
 
 #. Help goal
 #: activities/learn_subtractions/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn subtraction by counting their result."
-msgstr ""
+msgstr "Học phép trừ bằng cách đếm kết quả."
 
 #. Help manual
 #: activities/learn_subtractions/ActivityInfo.qml:23
@@ -16387,13 +16411,13 @@ msgstr "Luyện bấm chuột"
 msgctxt "ActivityInfo|"
 msgid ""
 "Move animals to their homes using a left click or right click on your mouse."
-msgstr ""
+msgstr "Đưa các con vật về nhà bằng cách bấm chuột trái hoặc chuột phải."
 
 #. Help goal
 #: activities/left_right_click/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Using the mouse. Left and right click training."
-msgstr ""
+msgstr "Dùng chuột. Luyện bấm chuột trái và chuột phải."
 
 #. Help manual
 #: activities/left_right_click/ActivityInfo.qml:23
@@ -16413,7 +16437,7 @@ msgstr "Phân biệt tay trái, tay phải"
 #: activities/leftright/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Determine if a hand is a right or a left hand."
-msgstr ""
+msgstr "Xác định xem đó là bàn tay phải hay bàn tay trái."
 
 #. Help goal
 #: activities/leftright/ActivityInfo.qml:20
@@ -16422,6 +16446,7 @@ msgid ""
 "Distinguish right and left hands from different points of view. Spatial "
 "representation."
 msgstr ""
+"Phân biệt tay phải và tay trái từ nhiều góc nhìn. Biểu diễn không gian."
 
 #. Help manual
 #: activities/leftright/ActivityInfo.qml:23
@@ -16491,19 +16516,19 @@ msgstr "Chữ cái nằm trong từ nào"
 #: activities/letter-in-word/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Find the words with the given letter."
-msgstr ""
+msgstr "Tìm những từ có chứa chữ cái đã cho."
 
 #. Help goal
 #: activities/letter-in-word/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Train to find a given letter in words."
-msgstr ""
+msgstr "Luyện tìm một chữ cái cho trước trong các từ."
 
 #. Help prerequisite
 #: activities/letter-in-word/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Spelling, letter recognition."
-msgstr ""
+msgstr "Chính tả, nhận mặt chữ cái."
 
 #. Help manual
 #: activities/letter-in-word/ActivityInfo.qml:24
@@ -16543,13 +16568,14 @@ msgstr "Tắt hết đèn"
 #: activities/lightsoff/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Turn off all the lights."
-msgstr ""
+msgstr "Tắt hết tất cả các đèn."
 
 #. Help goal
 #: activities/lightsoff/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop anticipation, strategy and spatial visualization skills."
 msgstr ""
+"Rèn khả năng tính trước, tư duy chiến thuật và tưởng tượng không gian."
 
 #. Help manual
 #: activities/lightsoff/ActivityInfo.qml:23
@@ -16625,6 +16651,8 @@ msgid ""
 "Read about some key events in the life of the braille system inventor, and "
 "remember their chronological order."
 msgstr ""
+"Đọc vài sự kiện quan trọng trong đời người phát minh ra hệ chữ nổi, rồi nhớ "
+"thứ tự thời gian của chúng."
 
 #. Help goal
 #: activities/louis-braille/ActivityInfo.qml:20
@@ -16632,7 +16660,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Remember the order of an event sequence. Learn about the life of Louis "
 "Braille."
-msgstr ""
+msgstr "Nhớ thứ tự một chuỗi sự kiện. Tìm hiểu cuộc đời Louis Braille."
 
 #. Help manual
 #: activities/louis-braille/ActivityInfo.qml:23
@@ -16744,13 +16772,13 @@ msgstr "Mũ ảo thuật (phép trừ)"
 #: activities/magic-hat-minus/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Calculate how many stars are under the magic hat."
-msgstr ""
+msgstr "Tính xem có bao nhiêu ngôi sao dưới chiếc mũ ảo thuật."
 
 #. Help goal
 #: activities/magic-hat-minus/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn subtraction."
-msgstr ""
+msgstr "Học phép trừ."
 
 #. Help prerequisite
 #: activities/magic-hat-minus/ActivityInfo.qml:22
@@ -16758,7 +16786,7 @@ msgstr ""
 #: activities/memory-math-minus/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Subtraction."
-msgstr ""
+msgstr "Phép trừ."
 
 #. Help manual
 #: activities/magic-hat-minus/ActivityInfo.qml:24
@@ -16843,13 +16871,13 @@ msgstr "Mũ ảo thuật (phép cộng)"
 #: activities/magic-hat-plus/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Count how many stars are under the magic hat."
-msgstr ""
+msgstr "Đếm xem có bao nhiêu ngôi sao dưới chiếc mũ ảo thuật."
 
 #. Help goal
 #: activities/magic-hat-plus/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn addition."
-msgstr ""
+msgstr "Học phép cộng."
 
 #. Help prerequisite
 #: activities/magic-hat-plus/ActivityInfo.qml:22
@@ -16857,7 +16885,7 @@ msgstr ""
 #: activities/memory-math-add/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Addition."
-msgstr ""
+msgstr "Phép cộng."
 
 #. Help manual
 #: activities/magic-hat-plus/ActivityInfo.qml:24
@@ -16929,14 +16957,14 @@ msgstr "Mê cung"
 #: activities/maze/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Help Tux get out of this maze."
-msgstr ""
+msgstr "Giúp Tux ra khỏi mê cung này."
 
 #. Help goal
 #: activities/maze/ActivityInfo.qml:20
 #: activities/mazerelative/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop spatial visualization and pathfinding skills."
-msgstr ""
+msgstr "Rèn khả năng tưởng tượng không gian và tìm đường."
 
 #. Help manual
 #: activities/maze/ActivityInfo.qml:23
@@ -16998,13 +17026,13 @@ msgstr "Mê cung vô hình"
 #: activities/mazeinvisible/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Guide Tux out of the invisible maze."
-msgstr ""
+msgstr "Dẫn Tux ra khỏi mê cung vô hình."
 
 #. Help goal
 #: activities/mazeinvisible/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop spatial visualization, pathfinding and visual memory skills."
-msgstr ""
+msgstr "Rèn khả năng tưởng tượng không gian, tìm đường và ghi nhớ bằng mắt."
 
 #. Help manual
 #: activities/mazeinvisible/ActivityInfo.qml:23
@@ -17048,7 +17076,7 @@ msgstr "Mê cung tương đối"
 #: activities/mazerelative/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Help Tux get out of this maze (moves are relative)."
-msgstr ""
+msgstr "Giúp Tux ra khỏi mê cung này (hướng đi tính theo Tux)."
 
 #: activities/mazerelative/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
@@ -17082,19 +17110,19 @@ msgstr "Giai điệu"
 #: activities/melody/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Reproduce a sound sequence."
-msgstr ""
+msgstr "Lặp lại một chuỗi âm thanh."
 
 #. Help goal
 #: activities/melody/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Ear-training activity."
-msgstr ""
+msgstr "Hoạt động rèn tai nghe."
 
 #. Help prerequisite
 #: activities/melody/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Move and click the mouse."
-msgstr ""
+msgstr "Di chuột và bấm chuột."
 
 #. Help manual
 #: activities/melody/ActivityInfo.qml:24
@@ -17135,20 +17163,21 @@ msgid ""
 "Flip the cards to find the uppercase and lowercase of the same letter, "
 "playing against Tux."
 msgstr ""
+"Lật các thẻ để tìm chữ hoa và chữ thường của cùng một chữ cái, đấu với Tux."
 
 #. Help goal
 #: activities/memory-case-association-tux/ActivityInfo.qml:20
 #: activities/memory-case-association/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn lowercase and uppercase letters."
-msgstr ""
+msgstr "Học chữ viết thường và chữ viết hoa."
 
 #. Help prerequisite
 #: activities/memory-case-association-tux/ActivityInfo.qml:22
 #: activities/memory-case-association/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Knowing alphabets."
-msgstr ""
+msgstr "Biết bảng chữ cái."
 
 #. Help manual
 #: activities/memory-case-association-tux/ActivityInfo.qml:24
@@ -17243,7 +17272,7 @@ msgstr "Trò nhớ: ghép chữ hoa với chữ thường"
 #: activities/memory-case-association/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Flip the cards to find the uppercase and lowercase of the same letter."
-msgstr ""
+msgstr "Lật các thẻ để tìm chữ hoa và chữ thường của cùng một chữ cái."
 
 #. Activity title
 #: activities/memory-enumerate/ActivityInfo.qml:15
@@ -17255,13 +17284,13 @@ msgstr "Trò nhớ: đếm số lượng"
 #: activities/memory-enumerate/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Flip the cards to match a number with a picture."
-msgstr ""
+msgstr "Lật các thẻ để ghép một số với một bức hình."
 
 #. Help goal
 #: activities/memory-enumerate/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice numeration."
-msgstr ""
+msgstr "Luyện về số."
 
 #. Help manual
 #: activities/memory-enumerate/ActivityInfo.qml:23
@@ -17322,21 +17351,21 @@ msgstr "Trò nhớ: mọi phép tính (đấu với Tux)"
 msgctxt "ActivityInfo|"
 msgid ""
 "Flip the cards to match an operation with its result, playing against Tux."
-msgstr ""
+msgstr "Lật các thẻ để ghép phép tính với kết quả của nó, đấu với Tux."
 
 #. Help goal
 #: activities/memory-math-add-minus-mult-div-tux/ActivityInfo.qml:20
 #: activities/memory-math-add-minus-mult-div/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice addition, subtraction, multiplication, division."
-msgstr ""
+msgstr "Luyện cộng, trừ, nhân, chia."
 
 #. Help prerequisite
 #: activities/memory-math-add-minus-mult-div-tux/ActivityInfo.qml:22
 #: activities/memory-math-add-minus-mult-div/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Addition, subtraction, multiplication, division."
-msgstr ""
+msgstr "Cộng, trừ, nhân, chia."
 
 #. Help manual
 #: activities/memory-math-add-minus-mult-div-tux/ActivityInfo.qml:24
@@ -17455,7 +17484,7 @@ msgstr "Trò nhớ: mọi phép tính"
 #: activities/memory-math-add-minus-mult-div/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Flip the cards to match an operation with its result."
-msgstr ""
+msgstr "Lật các thẻ để ghép phép tính với kết quả của nó."
 
 #. Activity title
 #: activities/memory-math-add-minus-tux/ActivityInfo.qml:15
@@ -17470,20 +17499,21 @@ msgid ""
 "Flip the cards to match an addition or a subtraction with its result, "
 "playing against Tux."
 msgstr ""
+"Lật các thẻ để ghép phép cộng hoặc phép trừ với kết quả của nó, đấu với Tux."
 
 #. Help goal
 #: activities/memory-math-add-minus-tux/ActivityInfo.qml:20
 #: activities/memory-math-add-minus/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice addition and subtraction."
-msgstr ""
+msgstr "Luyện cộng và trừ."
 
 #. Help prerequisite
 #: activities/memory-math-add-minus-tux/ActivityInfo.qml:22
 #: activities/memory-math-add-minus/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Addition and subtraction."
-msgstr ""
+msgstr "Phép cộng và phép trừ."
 
 #. Help manual
 #: activities/memory-math-add-minus-tux/ActivityInfo.qml:24
@@ -17504,7 +17534,7 @@ msgstr "Trò nhớ: cộng và trừ"
 #: activities/memory-math-add-minus/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Flip the cards to match an addition or a subtraction with its result."
-msgstr ""
+msgstr "Lật các thẻ để ghép phép cộng hoặc phép trừ với kết quả của nó."
 
 #. Activity title
 #: activities/memory-math-add-tux/ActivityInfo.qml:15
@@ -17517,14 +17547,14 @@ msgstr "Trò nhớ: phép cộng (đấu với Tux)"
 msgctxt "ActivityInfo|"
 msgid ""
 "Flip the cards to match an addition with its result, playing against Tux."
-msgstr ""
+msgstr "Lật các thẻ để ghép phép cộng với kết quả của nó, đấu với Tux."
 
 #. Help goal
 #: activities/memory-math-add-tux/ActivityInfo.qml:20
 #: activities/memory-math-add/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice addition."
-msgstr ""
+msgstr "Luyện phép cộng."
 
 #. Help manual
 #: activities/memory-math-add-tux/ActivityInfo.qml:24
@@ -17605,7 +17635,7 @@ msgstr "Trò nhớ: phép cộng"
 #: activities/memory-math-add/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Flip the cards to match an addition with its result."
-msgstr ""
+msgstr "Lật các thẻ để ghép phép cộng với kết quả của nó."
 
 #. Activity title
 #: activities/memory-math-div-tux/ActivityInfo.qml:15
@@ -17618,20 +17648,20 @@ msgstr "Trò nhớ: phép chia (đấu với Tux)"
 msgctxt "ActivityInfo|"
 msgid ""
 "Flip the cards to match a division with its result, playing against Tux."
-msgstr ""
+msgstr "Lật các thẻ để ghép phép chia với kết quả của nó, đấu với Tux."
 
 #. Help goal
 #: activities/memory-math-div-tux/ActivityInfo.qml:20
 #: activities/memory-math-div/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice division."
-msgstr ""
+msgstr "Luyện phép chia."
 
 #. Help prerequisite
 #: activities/memory-math-div-tux/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Division."
-msgstr ""
+msgstr "Phép chia."
 
 #. Help manual
 #: activities/memory-math-div-tux/ActivityInfo.qml:24
@@ -17712,13 +17742,13 @@ msgstr "Trò nhớ: phép chia"
 #: activities/memory-math-div/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Flip the cards to match a division with its result."
-msgstr ""
+msgstr "Lật các thẻ để ghép phép chia với kết quả của nó."
 
 #. Help prerequisite
 #: activities/memory-math-div/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Division"
-msgstr ""
+msgstr "Phép chia"
 
 #. Activity title
 #: activities/memory-math-minus-tux/ActivityInfo.qml:15
@@ -17731,14 +17761,14 @@ msgstr "Trò nhớ: phép trừ (đấu với Tux)"
 msgctxt "ActivityInfo|"
 msgid ""
 "Flip the cards to match a subtraction with its result, playing against Tux."
-msgstr ""
+msgstr "Lật các thẻ để ghép phép trừ với kết quả của nó, đấu với Tux."
 
 #. Help goal
 #: activities/memory-math-minus-tux/ActivityInfo.qml:20
 #: activities/memory-math-minus/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice subtraction."
-msgstr ""
+msgstr "Luyện phép trừ."
 
 #. Help manual
 #: activities/memory-math-minus-tux/ActivityInfo.qml:24
@@ -17819,7 +17849,7 @@ msgstr "Trò nhớ: phép trừ"
 #: activities/memory-math-minus/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Flip the cards to match a subtraction with its result."
-msgstr ""
+msgstr "Lật các thẻ để ghép phép trừ với kết quả của nó."
 
 #. Activity title
 #: activities/memory-math-mult-div-tux/ActivityInfo.qml:15
@@ -17834,20 +17864,22 @@ msgid ""
 "Flip the cards to match a multiplication or a division with its result, "
 "playing against Tux."
 msgstr ""
+"Lật các thẻ để ghép phép nhân hoặc phép chia với kết quả của nó, đấu với "
+"Tux."
 
 #. Help goal
 #: activities/memory-math-mult-div-tux/ActivityInfo.qml:20
 #: activities/memory-math-mult-div/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice multiplication and division."
-msgstr ""
+msgstr "Luyện phép nhân và phép chia."
 
 #. Help prerequisite
 #: activities/memory-math-mult-div-tux/ActivityInfo.qml:22
 #: activities/memory-math-mult-div/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Multiplication, division."
-msgstr ""
+msgstr "Phép nhân, phép chia."
 
 #. Help manual
 #: activities/memory-math-mult-div-tux/ActivityInfo.qml:24
@@ -17869,7 +17901,7 @@ msgstr "Trò nhớ: nhân và chia"
 msgctxt "ActivityInfo|"
 msgid ""
 "Flip the cards to match a multiplication or a division with its result."
-msgstr ""
+msgstr "Lật các thẻ để ghép phép nhân hoặc phép chia với kết quả của nó."
 
 #. Activity title
 #: activities/memory-math-mult-tux/ActivityInfo.qml:15
@@ -17883,21 +17915,21 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Flip the cards to match a multiplication with its result, playing against "
 "Tux."
-msgstr ""
+msgstr "Lật các thẻ để ghép phép nhân với kết quả của nó, đấu với Tux."
 
 #. Help goal
 #: activities/memory-math-mult-tux/ActivityInfo.qml:20
 #: activities/memory-math-mult/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice multiplication."
-msgstr ""
+msgstr "Luyện phép nhân."
 
 #. Help prerequisite
 #: activities/memory-math-mult-tux/ActivityInfo.qml:22
 #: activities/memory-math-mult/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Multiplication."
-msgstr ""
+msgstr "Phép nhân."
 
 #. Help manual
 #: activities/memory-math-mult-tux/ActivityInfo.qml:24
@@ -17978,7 +18010,7 @@ msgstr "Trò nhớ: phép nhân"
 #: activities/memory-math-mult/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Flip the cards to match a multiplication with its result."
-msgstr ""
+msgstr "Lật các thẻ để ghép phép nhân với kết quả của nó."
 
 #. Activity title
 #: activities/memory-sound-tux/ActivityInfo.qml:15
@@ -17990,14 +18022,14 @@ msgstr "Trò nhớ: âm thanh (đấu với Tux)"
 #: activities/memory-sound-tux/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Flip the cards to match the sound pairs, playing against Tux."
-msgstr ""
+msgstr "Lật các thẻ để ghép các cặp âm thanh giống nhau, đấu với Tux."
 
 #. Help goal
 #: activities/memory-sound-tux/ActivityInfo.qml:20
 #: activities/memory-sound/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Train your audio memory."
-msgstr ""
+msgstr "Rèn trí nhớ âm thanh."
 
 #. Help manual
 #: activities/memory-sound-tux/ActivityInfo.qml:23
@@ -18021,7 +18053,7 @@ msgstr "Trò nhớ: âm thanh"
 #: activities/memory-sound/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Flip the cards to match the sound pairs."
-msgstr ""
+msgstr "Lật các thẻ để ghép các cặp âm thanh giống nhau."
 
 #. Activity title
 #: activities/memory-tux/ActivityInfo.qml:15
@@ -18033,14 +18065,14 @@ msgstr "Trò nhớ: hình ảnh (đấu với Tux)"
 #: activities/memory-tux/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Flip the cards to find the matching pairs, playing against Tux."
-msgstr ""
+msgstr "Lật các thẻ để tìm các cặp giống nhau, đấu với Tux."
 
 #. Help goal
 #: activities/memory-tux/ActivityInfo.qml:20
 #: activities/memory/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Train your visual memory."
-msgstr ""
+msgstr "Rèn trí nhớ hình ảnh."
 
 #. Help manual
 #: activities/memory-tux/ActivityInfo.qml:24
@@ -18064,13 +18096,13 @@ msgstr "Trò nhớ: số và chữ số"
 #: activities/memory-wordnumber/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Flip the cards to match a numeral with its number name."
-msgstr ""
+msgstr "Lật các thẻ để ghép chữ số với tên gọi của nó."
 
 #. Help goal
 #: activities/memory-wordnumber/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice reading numbers."
-msgstr ""
+msgstr "Luyện đọc số."
 
 #. Help manual
 #: activities/memory-wordnumber/ActivityInfo.qml:24
@@ -18196,7 +18228,7 @@ msgstr "Trò nhớ: hình ảnh"
 #: activities/memory/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Flip the cards to find the matching pairs."
-msgstr ""
+msgstr "Lật các thẻ để tìm các cặp giống nhau."
 
 #: activities/memory/math_util.js:20 activities/memory/math_util.js:23
 msgctxt "math_util|"
@@ -18245,7 +18277,7 @@ msgstr "Menu chính GCompris"
 #: activities/menu/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Select an activity to run it."
-msgstr ""
+msgstr "Chọn một hoạt động để bắt đầu chơi."
 
 #. Help goal
 #: activities/menu/ActivityInfo.qml:17
@@ -18254,12 +18286,14 @@ msgid ""
 "GCompris is a high quality educational software suite, including a large "
 "number of activities for children aged 2 to 10."
 msgstr ""
+"GCompris là bộ phần mềm giáo dục chất lượng cao, gồm rất nhiều hoạt động "
+"dành cho trẻ từ 2 tới 10 tuổi."
 
 #. Help prerequisite
 #: activities/menu/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Some of the activities are game orientated, but still educational."
-msgstr ""
+msgstr "Một số hoạt động thiên về trò chơi, nhưng vẫn mang tính giáo dục."
 
 #. Help manual
 #: activities/menu/ActivityInfo.qml:21
@@ -18730,7 +18764,7 @@ msgstr "Đi đào vàng"
 #: activities/mining/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Use the mousewheel to approach the rockwall and look for gold nuggets."
-msgstr ""
+msgstr "Dùng bánh xe chuột để tiến lại vách đá và tìm các cục vàng."
 
 #. Help goal
 #: activities/mining/ActivityInfo.qml:20
@@ -18738,12 +18772,13 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn to use the mousewheel or the zoom / pinch gesture to zoom in and out."
 msgstr ""
+"Học cách dùng bánh xe chuột hoặc cử chỉ chụm ngón tay để phóng to, thu nhỏ."
 
 #. Help prerequisite
 #: activities/mining/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "You should be familiar with moving the mouse and clicking."
-msgstr ""
+msgstr "Con nên quen với việc di chuột và bấm chuột."
 
 #. Help manual
 #: activities/mining/ActivityInfo.qml:24
@@ -18845,19 +18880,19 @@ msgstr "Chữ cái còn thiếu"
 #: activities/missing-letter/ActivityInfo.qml:18
 msgctxt "ActivityInfo|"
 msgid "Find the missing letter to complete the word."
-msgstr ""
+msgstr "Tìm chữ cái còn thiếu để hoàn thành từ."
 
 #. Help goal
 #: activities/missing-letter/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Learn to spell words."
-msgstr ""
+msgstr "Học cách viết đúng chính tả."
 
 #. Help prerequisite
 #: activities/missing-letter/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "Word reading."
-msgstr ""
+msgstr "Đọc được từ."
 
 #. Help manual
 #: activities/missing-letter/ActivityInfo.qml:25
@@ -18898,14 +18933,14 @@ msgstr "Tiền"
 #: activities/money/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Practice money usage."
-msgstr ""
+msgstr "Luyện dùng tiền."
 
 #. Help goal
 #: activities/money/ActivityInfo.qml:20
 #: activities/money_back/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice counting and money usage."
-msgstr ""
+msgstr "Luyện đếm và dùng tiền."
 
 #. Help prerequisite
 #: activities/money/ActivityInfo.qml:22
@@ -18914,7 +18949,7 @@ msgstr ""
 #: activities/money_cents/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Can count."
-msgstr ""
+msgstr "Biết đếm."
 
 #. Help manual
 #: activities/money/ActivityInfo.qml:24
@@ -18991,7 +19026,7 @@ msgstr "Thối tiền cho Tux"
 #: activities/money_back_cents/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Practice money usage by giving Tux his change."
-msgstr ""
+msgstr "Luyện dùng tiền bằng cách thối tiền cho Tux."
 
 #. Help manual
 #: activities/money_back/ActivityInfo.qml:24
@@ -19014,7 +19049,7 @@ msgstr "Thối tiền cho Tux, có tiền xu"
 #: activities/money_cents/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice counting and money usage, including cents."
-msgstr ""
+msgstr "Luyện đếm và dùng tiền, có cả tiền xu."
 
 #. Activity title
 #: activities/money_cents/ActivityInfo.qml:15
@@ -19026,7 +19061,7 @@ msgstr "Tiền có xu"
 #: activities/money_cents/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Practice money usage including cents."
-msgstr ""
+msgstr "Luyện dùng tiền, có cả tiền xu."
 
 #. Help manual
 #: activities/money_cents/ActivityInfo.qml:24
@@ -19046,20 +19081,20 @@ msgstr "Khám phá mã Morse quốc tế"
 #: activities/morse_code/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Communicate with the International Morse code."
-msgstr ""
+msgstr "Trao đổi bằng mã Morse quốc tế."
 
 #. Help goal
 #: activities/morse_code/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid ""
 "Learn how to send and receive messages using the International Morse code."
-msgstr ""
+msgstr "Học cách gửi và nhận tin bằng mã Morse quốc tế."
 
 #. Help prerequisite
 #: activities/morse_code/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Knowledge of alphabets and digits."
-msgstr ""
+msgstr "Biết bảng chữ cái và chữ số."
 
 #. Help manual
 #: activities/morse_code/ActivityInfo.qml:27
@@ -19184,13 +19219,13 @@ msgstr "Ghép lại tranh khảm"
 #: activities/mosaic/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Put each item at the same place as in the given example."
-msgstr ""
+msgstr "Đặt từng món đồ vào đúng chỗ như trong hình mẫu."
 
 #. Help goal
 #: activities/mosaic/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Train your observation and matching skills."
-msgstr ""
+msgstr "Rèn khả năng quan sát và ghép nối."
 
 #. Help manual
 #: activities/mosaic/ActivityInfo.qml:23
@@ -19245,13 +19280,13 @@ msgstr "Câu hỏi trắc nghiệm"
 #: activities/multiple_choice_questions/ActivityInfo.qml:18
 msgctxt "ActivityInfo|"
 msgid "A generic activity for multiple-choice questions."
-msgstr ""
+msgstr "Hoạt động chung dành cho các câu hỏi trắc nghiệm."
 
 #. Help goal
 #: activities/multiple_choice_questions/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Answer questions sent by the teacher."
-msgstr ""
+msgstr "Trả lời các câu hỏi do thầy cô gửi tới."
 
 #. Help manual
 #: activities/multiple_choice_questions/ActivityInfo.qml:24
@@ -19288,14 +19323,14 @@ msgstr "Cờ chín quân (đấu với Tux)"
 #: activities/nine_men_morris/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Play the game Nine men's morris against Tux."
-msgstr ""
+msgstr "Chơi cờ chín quân với Tux."
 
 #. Help goal
 #: activities/nine_men_morris/ActivityInfo.qml:20
 #: activities/nine_men_morris_2players/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop strategic and spatial visualization skills."
-msgstr ""
+msgstr "Rèn tư duy chiến thuật và tưởng tượng không gian."
 
 #. Help manual
 #: activities/nine_men_morris/ActivityInfo.qml:23
@@ -19391,7 +19426,7 @@ msgstr "Cờ chín quân (chơi với bạn)"
 #: activities/nine_men_morris_2players/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Play the game Nine men's morris with a friend."
-msgstr ""
+msgstr "Chơi cờ chín quân với một người bạn."
 
 #. Help manual
 #: activities/nine_men_morris_2players/ActivityInfo.qml:23
@@ -19413,7 +19448,7 @@ msgstr "Gọi tên nốt nhạc"
 #: activities/note_names/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn the names of the notes, in bass and treble clef."
-msgstr ""
+msgstr "Học tên các nốt nhạc ở khoá Fa và khoá Sol."
 
 #. Help goal
 #: activities/note_names/ActivityInfo.qml:23
@@ -19422,6 +19457,8 @@ msgid ""
 "Develop a good understanding of note position and naming convention. Prepare"
 " for the 'Play Piano' and 'Piano Composition' activities."
 msgstr ""
+"Nắm vững vị trí và cách gọi tên nốt nhạc. Chuẩn bị cho hoạt động 'Chơi dương"
+" cầm' và 'Sáng tác dương cầm'."
 
 #. Help manual
 #: activities/note_names/ActivityInfo.qml:26
@@ -19486,13 +19523,13 @@ msgstr "Nối số theo thứ tự"
 msgctxt "ActivityInfo|"
 msgid ""
 "Select the numbers one after the other according to the numerical sequence."
-msgstr ""
+msgstr "Chọn lần lượt các số theo đúng dãy số."
 
 #. Help goal
 #: activities/number_sequence/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn the numerical sequence."
-msgstr ""
+msgstr "Học dãy số theo thứ tự."
 
 #. Help manual
 #: activities/number_sequence/ActivityInfo.qml:23
@@ -19513,13 +19550,13 @@ msgstr "Số chẵn và số lẻ"
 #: activities/numbers-odd-even/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Move the helicopter to catch the clouds having even or odd numbers."
-msgstr ""
+msgstr "Lái trực thăng bắt những đám mây mang số chẵn hoặc số lẻ."
 
 #. Help goal
 #: activities/numbers-odd-even/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to recognize even and odd numbers and their numerical order."
-msgstr ""
+msgstr "Học cách nhận ra số chẵn, số lẻ và thứ tự của chúng."
 
 #. Help manual
 #: activities/numbers-odd-even/ActivityInfo.qml:23
@@ -19644,6 +19681,8 @@ msgid ""
 "Arrange the given letters in alphabetical order or in reverse alphabetical "
 "order as requested."
 msgstr ""
+"Sắp các chữ cái đã cho theo thứ tự bảng chữ cái, xuôi hoặc ngược theo yêu "
+"cầu."
 
 #. Help manual
 #: activities/ordering_alphabets/ActivityInfo.qml:30
@@ -19740,13 +19779,13 @@ msgstr "Sắp sự kiện theo thời gian"
 #: activities/ordering_chronology/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "Arrange the given events in their chronological order."
-msgstr ""
+msgstr "Sắp các sự kiện đã cho theo thứ tự thời gian."
 
 #. Help goal
 #: activities/ordering_chronology/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Learn to order an event sequence in chronological order."
-msgstr ""
+msgstr "Học cách sắp một chuỗi sự kiện theo thứ tự thời gian."
 
 #. Help manual
 #: activities/ordering_chronology/ActivityInfo.qml:30
@@ -19782,19 +19821,19 @@ msgstr "Sắp số theo thứ tự"
 msgctxt "ActivityInfo|"
 msgid ""
 "Arrange the given numbers in ascending or descending order as requested."
-msgstr ""
+msgstr "Sắp các số đã cho theo thứ tự tăng dần hoặc giảm dần theo yêu cầu."
 
 #. Help goal
 #: activities/ordering_numbers/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Practice ordering numbers."
-msgstr ""
+msgstr "Luyện sắp số theo thứ tự."
 
 #. Help prerequisite
 #: activities/ordering_numbers/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Counting."
-msgstr ""
+msgstr "Biết đếm."
 
 #. Help manual
 #: activities/ordering_numbers/ActivityInfo.qml:29
@@ -19885,13 +19924,13 @@ msgstr "Sắp câu cho đúng"
 #: activities/ordering_sentences/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Arrange the given words to form a meaningful sentence."
-msgstr ""
+msgstr "Sắp các từ đã cho thành một câu có nghĩa."
 
 #. Help goal
 #: activities/ordering_sentences/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Practice ordering words to form a meaningful sentence."
-msgstr ""
+msgstr "Luyện sắp từ thành một câu có nghĩa."
 
 #. Help manual
 #: activities/ordering_sentences/ActivityInfo.qml:29
@@ -19961,14 +20000,14 @@ msgstr "Chơi cờ Oware (đấu với Tux)"
 #: activities/oware/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Play the Oware strategy game against Tux."
-msgstr ""
+msgstr "Chơi cờ Oware với Tux."
 
 #. Help goal
 #: activities/oware/ActivityInfo.qml:19
 #: activities/oware_2players/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Develop strategic thinking skills."
-msgstr ""
+msgstr "Rèn kỹ năng tư duy chiến thuật."
 
 #. Help manual
 #: activities/oware/ActivityInfo.qml:22
@@ -20035,7 +20074,7 @@ msgstr "Chơi cờ Oware (chơi với bạn)"
 #: activities/oware_2players/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Play the Oware strategy game with a friend."
-msgstr ""
+msgstr "Chơi cờ Oware với một người bạn."
 
 #. Activity title
 #: activities/paintings/ActivityInfo.qml:20
@@ -20047,13 +20086,13 @@ msgstr "Ghép tranh"
 #: activities/paintings/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Drag and Drop the pieces to rebuild the original paintings."
-msgstr ""
+msgstr "Kéo thả các mảnh để ghép lại bức tranh gốc."
 
 #. Help prerequisite
 #: activities/paintings/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Mouse-manipulation: movement, drag and drop."
-msgstr ""
+msgstr "Dùng chuột: di chuyển, kéo và thả."
 
 #. Help manual
 #: activities/paintings/ActivityInfo.qml:29
@@ -20185,7 +20224,7 @@ msgstr "Giải mã đường đi"
 #: activities/path_decoding_relative/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Follow the given directions to help Tux reach the target."
-msgstr ""
+msgstr "Làm theo chỉ dẫn để giúp Tux tới đích."
 
 #. Help goal
 #: activities/path_decoding/ActivityInfo.qml:19
@@ -20196,7 +20235,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Develop skills in visualization and map reading, and learn to follow "
 "directions."
-msgstr ""
+msgstr "Rèn khả năng tưởng tượng và đọc bản đồ, học cách đi theo chỉ dẫn."
 
 #. Help manual
 #: activities/path_decoding/ActivityInfo.qml:22
@@ -20267,7 +20306,7 @@ msgstr "Mã hoá đường đi"
 #: activities/path_encoding_relative/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Move Tux along the path to reach the target."
-msgstr ""
+msgstr "Di chuyển Tux theo đường đi để tới đích."
 
 #. Help manual
 #: activities/path_encoding/ActivityInfo.qml:22
@@ -20317,7 +20356,7 @@ msgstr "Cờ chốt"
 #: activities/peg_solitaire/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Remove all the pieces in the correct order until only one remains."
-msgstr ""
+msgstr "Ăn hết các quân theo đúng thứ tự cho tới khi chỉ còn một quân."
 
 #. Help manual
 #: activities/peg_solitaire/ActivityInfo.qml:23
@@ -20367,7 +20406,7 @@ msgstr "Đá phạt đền"
 #: activities/penalty/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Double click or double tap on any side of the goal in order to score."
-msgstr ""
+msgstr "Bấm đúp hoặc chạm đúp vào một bên khung thành để ghi bàn."
 
 #. Help manual
 #: activities/penalty/ActivityInfo.qml:23
@@ -20401,13 +20440,13 @@ msgstr "Săn điểm khác nhau"
 #: activities/photo_hunter/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Find the differences between the two pictures."
-msgstr ""
+msgstr "Tìm những điểm khác nhau giữa hai bức tranh."
 
 #. Help goal
 #: activities/photo_hunter/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop skills in perceiving details."
-msgstr ""
+msgstr "Rèn khả năng để ý chi tiết."
 
 #. Help manual
 #: activities/photo_hunter/ActivityInfo.qml:23
@@ -20440,6 +20479,8 @@ msgid ""
 "Learn how the piano keyboard works, and how notes are written on a musical "
 "staff."
 msgstr ""
+"Tìm hiểu bàn phím dương cầm hoạt động ra sao, và cách ghi nốt trên khuông "
+"nhạc."
 
 #. Help goal
 #: activities/piano_composition/ActivityInfo.qml:21
@@ -20453,12 +20494,18 @@ msgid ""
 "education or MuseScore (https://musescore.org), an open source music "
 "notation tool."
 msgstr ""
+"Hiểu về cách sáng tác nhạc và thêm hứng thú chơi nhạc bằng bàn phím dương "
+"cầm. Hoạt động này chạm tới nhiều điều căn bản của âm nhạc, nhưng sáng tác "
+"nhạc còn nhiều thứ để khám phá hơn nữa. Nếu con thích hoạt động này và muốn "
+"công cụ chuyên sâu hơn, hãy thử tải Minuet (https://minuet.kde.org/), một "
+"phần mềm mở dạy nhạc, hoặc MuseScore (https://musescore.org), một phần mềm "
+"mở để chép nhạc."
 
 #. Help prerequisite
 #: activities/piano_composition/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "Familiarity with note naming conventions."
-msgstr ""
+msgstr "Quen với cách gọi tên nốt nhạc."
 
 #. Help manual
 #: activities/piano_composition/ActivityInfo.qml:25
@@ -21101,13 +21148,13 @@ msgstr "Sắp theo thứ tự số"
 #: activities/planegame/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Move the helicopter to catch the clouds in the correct order."
-msgstr ""
+msgstr "Lái trực thăng bắt các đám mây theo đúng thứ tự."
 
 #. Help goal
 #: activities/planegame/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn the numerical order."
-msgstr ""
+msgstr "Học thứ tự các số."
 
 #. Help manual
 #: activities/planegame/ActivityInfo.qml:23
@@ -21149,7 +21196,7 @@ msgstr "Chơi dương cầm"
 #: activities/play_piano/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Read the score, and then play it on the keyboard."
-msgstr ""
+msgstr "Đọc bản nhạc rồi chơi lại trên bàn phím."
 
 #. Help goal
 #: activities/play_piano/ActivityInfo.qml:24
@@ -21158,12 +21205,13 @@ msgid ""
 "Understand how the piano keyboard can play music as written on the musical "
 "staff."
 msgstr ""
+"Hiểu bàn phím dương cầm chơi được bản nhạc ghi trên khuông nhạc như thế nào."
 
 #. Help prerequisite
 #: activities/play_piano/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Knowledge of musical notation and musical staff."
-msgstr ""
+msgstr "Biết cách ghi nhạc và khuông nhạc."
 
 #. Help manual
 #: activities/play_piano/ActivityInfo.qml:28
@@ -21217,19 +21265,19 @@ msgstr "Gõ nhịp"
 #: activities/play_rhythm/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Follow the rhythm accurately."
-msgstr ""
+msgstr "Gõ theo đúng nhịp."
 
 #. Help goal
 #: activities/play_rhythm/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Learn to follow a rhythm accurately."
-msgstr ""
+msgstr "Học cách giữ đúng nhịp."
 
 #. Help prerequisite
 #: activities/play_rhythm/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Simple understanding of musical rhythm."
-msgstr ""
+msgstr "Hiểu đơn giản về nhịp điệu trong âm nhạc."
 
 #. Help manual
 #: activities/play_rhythm/ActivityInfo.qml:28
@@ -21321,13 +21369,13 @@ msgstr "Vị trí"
 #: activities/positions/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Find the boy's position in relation to the box."
-msgstr ""
+msgstr "Tìm vị trí của cậu bé so với chiếc hộp."
 
 #. Help goal
 #: activities/positions/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Describe the relative position of an object."
-msgstr ""
+msgstr "Mô tả vị trí tương đối của một đồ vật."
 
 #. Help manual
 #: activities/positions/ActivityInfo.qml:24
@@ -21461,19 +21509,19 @@ msgstr "Lập trình đường đi"
 #: activities/programmingMaze/ActivityInfo.qml:18
 msgctxt "ActivityInfo|"
 msgid "Program the path to help Tux catch the fish."
-msgstr ""
+msgstr "Lập trình đường đi để giúp Tux bắt được cá."
 
 #. Help goal
 #: activities/programmingMaze/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Learn how to program instructions for moving along a path."
-msgstr ""
+msgstr "Học cách viết lệnh để di chuyển theo một đường đi."
 
 #. Help prerequisite
 #: activities/programmingMaze/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "Can read instructions, and think logically to find a path."
-msgstr ""
+msgstr "Đọc được chỉ dẫn và suy luận logic để tìm đường."
 
 #. Help manual
 #: activities/programmingMaze/ActivityInfo.qml:25
@@ -21676,13 +21724,13 @@ msgstr "Đoàn tàu"
 #: activities/railroad/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Rebuild the train model at the top of the screen."
-msgstr ""
+msgstr "Xếp lại đoàn tàu như mẫu ở phía trên màn hình."
 
 #. Help goal
 #: activities/railroad/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Memory training."
-msgstr ""
+msgstr "Rèn trí nhớ."
 
 #. Help manual
 #: activities/railroad/ActivityInfo.qml:25
@@ -21743,14 +21791,14 @@ msgstr "Luyện đọc theo hàng ngang"
 #: activities/readingh/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Read a list of words and say if a given word is in it."
-msgstr ""
+msgstr "Đọc một danh sách từ rồi cho biết một từ có nằm trong đó không."
 
 #. Help goal
 #: activities/readingh/ActivityInfo.qml:20
 #: activities/readingv/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Reading training in a limited time."
-msgstr ""
+msgstr "Luyện đọc trong thời gian có hạn."
 
 #. Help manual
 #: activities/readingh/ActivityInfo.qml:24
@@ -21790,6 +21838,8 @@ msgstr "Luyện đọc theo hàng dọc"
 msgctxt "ActivityInfo|"
 msgid "Read a vertical list of words and say if a given word is in it."
 msgstr ""
+"Đọc một danh sách từ theo hàng dọc rồi cho biết một từ có nằm trong đó "
+"không."
 
 #. Help manual
 #: activities/readingv/ActivityInfo.qml:24
@@ -21809,13 +21859,13 @@ msgstr "Vẽ lại hình mẫu"
 #: activities/redraw/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Draw perfectly the given image on the empty grid."
-msgstr ""
+msgstr "Vẽ thật chính xác hình mẫu lên lưới ô trống."
 
 #. Help goal
 #: activities/redraw/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to identify a location in a grid and to reproduce a model."
-msgstr ""
+msgstr "Học cách xác định vị trí trong lưới ô và vẽ lại hình mẫu."
 
 #. Help manual
 #: activities/redraw/ActivityInfo.qml:23
@@ -21870,7 +21920,7 @@ msgstr "Vẽ hình đối xứng"
 #: activities/redraw_symmetrical/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Reproduce the image symmetrically on the empty grid."
-msgstr ""
+msgstr "Vẽ lại bức hình đối xứng lên lưới ô trống."
 
 #. Help goal
 #: activities/redraw_symmetrical/ActivityInfo.qml:20
@@ -21879,6 +21929,7 @@ msgid ""
 "Learn to identify a location in a grid and to reproduce a model "
 "symmetrically."
 msgstr ""
+"Học cách xác định vị trí trong lưới ô và vẽ lại hình mẫu theo phép đối xứng."
 
 #: activities/redraw_symmetrical/resource/1/Data.qml:16
 msgctxt "Data|"
@@ -21908,12 +21959,14 @@ msgid ""
 "Tux has come back from fishing on his boat. Bring the electrical system back"
 " up so he can have light in his home."
 msgstr ""
+"Tux vừa đi câu về bằng thuyền. Hãy nối lại hệ thống điện để nhà bạn ấy có "
+"đèn sáng."
 
 #. Help goal
 #: activities/renewable_energy/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn about an electrical system based on renewable energy."
-msgstr ""
+msgstr "Tìm hiểu một hệ thống điện chạy bằng năng lượng tái tạo."
 
 #. Help manual
 #: activities/renewable_energy/ActivityInfo.qml:22
@@ -22000,19 +22053,19 @@ msgstr "Đếm số khoảng"
 #: activities/reversecount/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Tux is hungry. Help him find fish by counting to the correct ice spot."
-msgstr ""
+msgstr "Tux đang đói. Giúp bạn ấy tìm cá bằng cách đếm tới đúng tảng băng."
 
 #. Help goal
 #: activities/reversecount/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to count intervals."
-msgstr ""
+msgstr "Học cách đếm khoảng."
 
 #. Help prerequisite
 #: activities/reversecount/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Can read numbers on a domino."
-msgstr ""
+msgstr "Đọc được số chấm trên quân đô-mi-nô."
 
 #. Help manual
 #: activities/reversecount/ActivityInfo.qml:24
@@ -22070,14 +22123,14 @@ msgstr "Chữ số La Mã"
 #: activities/roman_numerals/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Learn to read and write Roman numerals."
-msgstr ""
+msgstr "Học cách đọc và viết chữ số La Mã."
 
 #. Help goal
 #: activities/roman_numerals/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid ""
 "Learn to read and write Roman numerals and convert them to Arabic numerals."
-msgstr ""
+msgstr "Học cách đọc, viết chữ số La Mã và đổi sang chữ số Ả Rập."
 
 #. Help manual
 #: activities/roman_numerals/ActivityInfo.qml:23
@@ -22208,13 +22261,13 @@ msgstr "Cân cho thăng bằng"
 #: activities/scalesboard/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Drag and Drop some weights to balance the scales."
-msgstr ""
+msgstr "Kéo thả các quả cân để cân thăng bằng."
 
 #. Help goal
 #: activities/scalesboard/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Mental calculation, arithmetic equality."
-msgstr ""
+msgstr "Tính nhẩm, đẳng thức số học."
 
 #. Help manual
 #: activities/scalesboard/ActivityInfo.qml:23
@@ -22421,14 +22474,14 @@ msgstr "Cân theo hệ đo lường quốc tế"
 msgctxt "ActivityInfo|"
 msgid ""
 "Drag and Drop some masses to balance the scales and calculate the weight."
-msgstr ""
+msgstr "Kéo thả các quả cân để cân thăng bằng rồi tính khối lượng."
 
 #. Help goal
 #: activities/scalesboard_weight/ActivityInfo.qml:20
 #: activities/scalesboard_weight_avoirdupois/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Mental calculation, arithmetic equality, unit conversion."
-msgstr ""
+msgstr "Tính nhẩm, đẳng thức số học, đổi đơn vị."
 
 #. Help manual
 #: activities/scalesboard_weight/ActivityInfo.qml:23
@@ -22716,19 +22769,19 @@ msgstr "Chia kẹo"
 #: activities/share/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Try to split the pieces of candy between a given number of children."
-msgstr ""
+msgstr "Thử chia số kẹo cho một số bạn nhỏ cho trước."
 
 #. Help goal
 #: activities/share/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to share, practice division."
-msgstr ""
+msgstr "Học cách chia đều, luyện phép chia."
 
 #. Help prerequisite
 #: activities/share/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Know how to count."
-msgstr ""
+msgstr "Biết đếm."
 
 #. Help manual
 #: activities/share/ActivityInfo.qml:24
@@ -23127,13 +23180,13 @@ msgstr "Vẽ trên lưới ô"
 #: activities/simplepaint/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Create your own drawing."
-msgstr ""
+msgstr "Vẽ bức tranh của riêng con."
 
 #. Help goal
 #: activities/simplepaint/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Express your creativity through drawing."
-msgstr ""
+msgstr "Thể hiện óc sáng tạo của con qua nét vẽ."
 
 #. Help manual
 #: activities/simplepaint/ActivityInfo.qml:23
@@ -23157,13 +23210,13 @@ msgstr "Vẽ tự do"
 #: activities/sketch/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Use the various digital painting tools to draw images."
-msgstr ""
+msgstr "Dùng các công cụ vẽ trên máy tính để tạo ra bức tranh."
 
 #. Help goal
 #: activities/sketch/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "Learn about some digital painting tools."
-msgstr ""
+msgstr "Làm quen với một số công cụ vẽ trên máy tính."
 
 #. Help manual
 #: activities/sketch/ActivityInfo.qml:26
@@ -23358,21 +23411,21 @@ msgstr "Số với xúc xắc"
 #: activities/smallnumbers/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Count the number of dots on the dice before it reaches the ground."
-msgstr ""
+msgstr "Đếm số chấm trên con xúc xắc trước khi nó chạm đất."
 
 #. Help goal
 #: activities/smallnumbers/ActivityInfo.qml:20
 #: activities/smallnumbers2/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice counting with a time limit."
-msgstr ""
+msgstr "Luyện đếm trong thời gian có hạn."
 
 #. Help prerequisite
 #: activities/smallnumbers/ActivityInfo.qml:22
 #: activities/smallnumbers2/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Counting skills."
-msgstr ""
+msgstr "Kỹ năng đếm."
 
 #. Help manual
 #: activities/smallnumbers/ActivityInfo.qml:24
@@ -23483,7 +23536,7 @@ msgstr "Số với quân đô-mi-nô"
 #: activities/smallnumbers2/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Count the number of dots on the domino before it reaches the ground."
-msgstr ""
+msgstr "Đếm số chấm trên quân đô-mi-nô trước khi nó chạm đất."
 
 #. Help manual
 #: activities/smallnumbers2/ActivityInfo.qml:24
@@ -23576,7 +23629,7 @@ msgstr "Hệ Mặt Trời"
 #: activities/solar_system/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn about the solar system."
-msgstr ""
+msgstr "Tìm hiểu về Hệ Mặt Trời."
 
 #. Help goal
 #: activities/solar_system/ActivityInfo.qml:23
@@ -23586,6 +23639,9 @@ msgid ""
 "astronomy, try downloading KStars (https://edu.kde.org/kstars/) or "
 "Stellarium (https://stellarium.org/) which are astronomy Free Software."
 msgstr ""
+"Tìm hiểu thông tin về Hệ Mặt Trời. Nếu con muốn học thêm về thiên văn, hãy "
+"thử tải KStars (https://edu.kde.org/kstars/) hoặc Stellarium "
+"(https://stellarium.org/), đều là phần mềm tự do về thiên văn."
 
 #. Help manual
 #: activities/solar_system/ActivityInfo.qml:26
@@ -24724,19 +24780,19 @@ msgstr "Lái tàu ngầm"
 #: activities/submarine/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Drive the submarine to the end point."
-msgstr ""
+msgstr "Lái tàu ngầm tới điểm đích."
 
 #. Help goal
 #: activities/submarine/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn how to control a submarine."
-msgstr ""
+msgstr "Học cách điều khiển tàu ngầm."
 
 #. Help prerequisite
 #: activities/submarine/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Move and click using the mouse, physics basics."
-msgstr ""
+msgstr "Di chuột và bấm chuột, hiểu biết vật lý cơ bản."
 
 #. Help manual
 #: activities/submarine/ActivityInfo.qml:24
@@ -24930,7 +24986,7 @@ msgstr "Sudoku"
 #: activities/sudoku/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Solve the Sudoku."
-msgstr ""
+msgstr "Giải câu đố Sudoku."
 
 #. Help goal
 #: activities/sudoku/ActivityInfo.qml:20
@@ -24939,12 +24995,14 @@ msgid ""
 "Develop some skills in logical thinking (data linking, deduction) and "
 "spatial visualization."
 msgstr ""
+"Rèn một số kỹ năng tư duy logic (nối dữ kiện, suy luận) và tưởng tượng không"
+" gian."
 
 #. Help prerequisite
 #: activities/sudoku/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Completing the puzzle requires patience and logical ability."
-msgstr ""
+msgstr "Giải được câu đố này cần kiên nhẫn và khả năng suy luận."
 
 #. Help manual
 #: activities/sudoku/ActivityInfo.qml:24
@@ -24987,7 +25045,7 @@ msgstr "Siêu trí tuệ"
 #: activities/superbrain/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Tux has hidden several items. Find them in the correct order."
-msgstr ""
+msgstr "Tux đã giấu vài món đồ. Hãy tìm ra chúng theo đúng thứ tự."
 
 #. Help goal
 #: activities/superbrain/ActivityInfo.qml:20
@@ -24995,7 +25053,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Develop skills in logical thinking, distinguishing colors, and memorizing "
 "positions."
-msgstr ""
+msgstr "Rèn tư duy logic, phân biệt màu sắc và ghi nhớ vị trí."
 
 #. Help manual
 #: activities/superbrain/ActivityInfo.qml:23
@@ -25036,7 +25094,7 @@ msgstr "Trò xếp hình Tangram"
 #: activities/tangram/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Move the objects to reproduce the given shape."
-msgstr ""
+msgstr "Di chuyển các mảnh để ghép thành hình đã cho."
 
 #. Help goal
 #: activities/tangram/ActivityInfo.qml:20
@@ -25045,6 +25103,7 @@ msgid ""
 "Develop skills in spatial visualization, memorizing positions, and "
 "reproducing models."
 msgstr ""
+"Rèn khả năng tưởng tượng không gian, ghi nhớ vị trí và dựng lại hình mẫu."
 
 #. Help manual
 #: activities/tangram/ActivityInfo.qml:24
@@ -25065,20 +25124,20 @@ msgstr "Luyện cộng bằng trò bắn bia"
 #: activities/target/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Throw darts at a target and count your score."
-msgstr ""
+msgstr "Ném phi tiêu vào bia rồi tính điểm của con."
 
 #. Help goal
 #: activities/target/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice addition of several numbers."
-msgstr ""
+msgstr "Luyện cộng nhiều số."
 
 #. Help prerequisite
 #: activities/target/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid ""
 "Can move the mouse, can read numbers and count up to 15 for the first level."
-msgstr ""
+msgstr "Di được chuột, đọc được số và đếm tới 15 ở cấp độ đầu."
 
 #. Help manual
 #: activities/target/ActivityInfo.qml:24
@@ -25127,6 +25186,8 @@ msgid ""
 "Swap the numbers to create pairs equal to ten and input the answer of the "
 "final sum."
 msgstr ""
+"Đổi chỗ các số để tạo thành những cặp bằng mười, rồi nhập kết quả của tổng "
+"cuối cùng."
 
 #. Help goal
 #: activities/tens_complement_calculate/ActivityInfo.qml:19
@@ -25135,12 +25196,14 @@ msgid ""
 "Learn to use ten's complement to optimize the order of numbers in an "
 "operation and calculate the result."
 msgstr ""
+"Học cách dùng phần bù của 10 để sắp lại thứ tự các số trong phép tính rồi "
+"tính ra kết quả."
 
 #. Help prerequisite
 #: activities/tens_complement_calculate/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Numbers from 1 to 30 and additions."
-msgstr ""
+msgstr "Các số từ 1 tới 30 và phép cộng."
 
 #. Help manual
 #: activities/tens_complement_calculate/ActivityInfo.qml:23
@@ -25175,19 +25238,19 @@ msgstr "Tìm phần bù của 10"
 #: activities/tens_complement_find/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Find the ten's complement of each number."
-msgstr ""
+msgstr "Tìm phần bù của 10 cho mỗi số."
 
 #. Help goal
 #: activities/tens_complement_find/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Learn to find ten's complement."
-msgstr ""
+msgstr "Học cách tìm phần bù của 10."
 
 #. Help prerequisite
 #: activities/tens_complement_find/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Numbers from 1 to 10 and addition."
-msgstr ""
+msgstr "Các số từ 1 tới 10 và phép cộng."
 
 #: activities/tens_complement_find/ActivityInfo.qml:23
 #: activities/tens_complement_use/ActivityInfo.qml:24
@@ -25232,7 +25295,7 @@ msgstr "Đổi chỗ phần bù của 10"
 #: activities/tens_complement_swap/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Swap the numbers to create pairs equal to ten."
-msgstr ""
+msgstr "Đổi chỗ các số để tạo thành những cặp bằng mười."
 
 #. Help goal
 #: activities/tens_complement_swap/ActivityInfo.qml:19
@@ -25241,12 +25304,13 @@ msgid ""
 "Learn to use ten's complement to optimize the order of numbers in an "
 "operation."
 msgstr ""
+"Học cách dùng phần bù của 10 để sắp lại thứ tự các số trong phép tính."
 
 #. Help prerequisite
 #: activities/tens_complement_swap/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Numbers from 1 to 30 and addition."
-msgstr ""
+msgstr "Các số từ 1 tới 30 và phép cộng."
 
 #. Help manual
 #: activities/tens_complement_swap/ActivityInfo.qml:23
@@ -25279,19 +25343,19 @@ msgstr "Dùng phần bù của 10"
 #: activities/tens_complement_use/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Use a ten's complement to simplify the operation."
-msgstr ""
+msgstr "Dùng phần bù của 10 để tính cho gọn."
 
 #. Help goal
 #: activities/tens_complement_use/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Learn a practical use of ten's complement."
-msgstr ""
+msgstr "Học một cách dùng phần bù của 10 trong thực tế."
 
 #. Help prerequisite
 #: activities/tens_complement_use/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Numbers from 1 to 50 and addition."
-msgstr ""
+msgstr "Các số từ 1 tới 50 và phép cộng."
 
 #. Help manual
 #: activities/tens_complement_use/ActivityInfo.qml:23
@@ -25328,14 +25392,14 @@ msgstr "Cờ ca-rô (đấu với Tux)"
 #: activities/tic_tac_toe_2players/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Place three marks in a row."
-msgstr ""
+msgstr "Đặt được ba dấu trên một hàng."
 
 #. Help goal
 #: activities/tic_tac_toe/ActivityInfo.qml:23
 #: activities/tic_tac_toe_2players/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "Develop your strategy skills."
-msgstr ""
+msgstr "Rèn kỹ năng chiến thuật của con."
 
 #. Help manual
 #: activities/tic_tac_toe/ActivityInfo.qml:26
@@ -25374,7 +25438,7 @@ msgstr "Trò trượt ô xếp hình"
 #: activities/traffic/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Remove the red car from the parking lot through the gate on the right."
-msgstr ""
+msgstr "Đưa chiếc xe đỏ ra khỏi bãi đỗ qua cổng bên phải."
 
 #. Help manual
 #: activities/traffic/ActivityInfo.qml:23
@@ -25394,19 +25458,19 @@ msgstr "Phép cộng đặt tính dọc"
 #: activities/vertical_addition/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Solve the given addition."
-msgstr ""
+msgstr "Giải phép cộng đã cho."
 
 #. Help goal
 #: activities/vertical_addition/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to solve vertical additions."
-msgstr ""
+msgstr "Học cách giải phép cộng đặt tính dọc."
 
 #. Help prerequisite
 #: activities/vertical_addition/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Addition tables."
-msgstr ""
+msgstr "Bảng cộng."
 
 #. Help manual
 #: activities/vertical_addition/ActivityInfo.qml:24
@@ -25498,7 +25562,7 @@ msgstr "Phép trừ đặt tính dọc"
 #: activities/vertical_subtraction_compensation/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Solve the given subtraction."
-msgstr ""
+msgstr "Giải phép trừ đã cho."
 
 #. Help goal
 #: activities/vertical_subtraction/ActivityInfo.qml:20
@@ -25506,14 +25570,14 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn to solve vertical subtractions, with the borrowing by regrouping "
 "method."
-msgstr ""
+msgstr "Học cách giải phép trừ đặt tính dọc, theo cách mượn bằng gộp nhóm."
 
 #. Help prerequisite
 #: activities/vertical_subtraction/ActivityInfo.qml:22
 #: activities/vertical_subtraction_compensation/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Subtraction tables."
-msgstr ""
+msgstr "Bảng trừ."
 
 #. Help manual
 #: activities/vertical_subtraction/ActivityInfo.qml:24
@@ -25663,7 +25727,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn to solve vertical subtractions, with the borrowing by compensation "
 "method."
-msgstr ""
+msgstr "Học cách giải phép trừ đặt tính dọc, theo cách mượn bằng bù trừ."
 
 #. Help manual
 #: activities/vertical_subtraction_compensation/ActivityInfo.qml:24
@@ -25705,12 +25769,13 @@ msgid ""
 "Tux has come back from fishing on his boat. Bring the water system back up "
 "so he can take a shower."
 msgstr ""
+"Tux vừa đi câu về bằng thuyền. Hãy nối lại hệ thống nước để bạn ấy được tắm."
 
 #. Help goal
 #: activities/watercycle/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn about the water cycle."
-msgstr ""
+msgstr "Tìm hiểu vòng tuần hoàn của nước."
 
 #. Help manual
 #: activities/watercycle/ActivityInfo.qml:23
@@ -25811,19 +25876,19 @@ msgstr "Từ rơi"
 #: activities/wordsgame/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Type the falling words before they reach the ground."
-msgstr ""
+msgstr "Gõ các từ đang rơi trước khi chúng chạm đất."
 
 #. Help goal
 #: activities/wordsgame/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice using a keyboard."
-msgstr ""
+msgstr "Luyện dùng bàn phím."
 
 #. Help prerequisite
 #: activities/wordsgame/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Keyboard manipulation."
-msgstr ""
+msgstr "Biết dùng bàn phím."
 
 #. Help manual
 #: activities/wordsgame/ActivityInfo.qml:24
