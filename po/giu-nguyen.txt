@@ -576,3 +576,15 @@ Papua New Guinea
 ×
 ÷
 Castillo de San Marcos
+# Ký hiệu vật lý và logic, tiếng Việt viết y hệt
+I = %1A
+A AND B
+NOT (A AND B)
+NOT (A OR B)
+A OR B
+A XOR B
+# Số thứ tự trong bộ tranh Chronos
+1
+2
+3
+4
