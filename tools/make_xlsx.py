@@ -629,11 +629,27 @@ def build_rest(wb, acts, cnt):
          "Trẻ luyện đếm tiền bằng đơn vị không tồn tại ở Việt Nam.",
          "Vẽ lại bộ ảnh mệnh giá tiền Việt và sửa dữ liệu. LƯU Ý PHÁP LÝ: mô phỏng hình ảnh tiền đồng "
          "có quy định riêng của Ngân hàng Nhà nước — kiểm tra trước khi phát hành công khai."),
-        ("Bản đồ Việt Nam", "Tìm quốc gia trên bản đồ · Tìm vùng trên bản đồ",
-         "Bộ bản đồ hiện có gồm châu Âu, Mỹ, Ấn Độ, Trung Quốc, Úc, Scotland, Romania, Litva… "
-         "KHÔNG có bản đồ Việt Nam.",
+        ("CHỦ QUYỀN — bản đồ Việt Nam thiếu Hoàng Sa và Trường Sa",
+         "Tìm quốc gia trên bản đồ (cấp 12 Đông Nam Á)",
+         "Tệp vietnam.svgz chỉ vẽ phần đất liền và vài đảo ven bờ. KHÔNG có quần đảo Hoàng Sa, "
+         "KHÔNG có quần đảo Trường Sa. Nền bản đồ Đông Nam Á cũng để Biển Đông hoàn toàn trống. "
+         "Điểm tích cực: bản đồ Trung Quốc không có đường lưỡi bò.",
+         "VI PHẠM Nghị định 18/2020/NĐ-CP Điều 11 khoản 2: lưu hành sản phẩm bản đồ liên quan chủ "
+         "quyền mà không thể hiện đúng chủ quyền bị phạt 30-40 triệu đồng, tịch thu tang vật và "
+         "buộc cải chính. Tuyệt đối không đưa vào lớp học ở dạng hiện tại.",
+         "1) Khoá ngay hai hoạt động bản đồ khỏi bản dùng trong trường. 2) Vẽ lại vietnam.svgz và "
+         "nền southeast_asia.svgz có đủ hai quần đảo, kèm nhãn. 3) Gửi bản vá lên KDE. "
+         "Xem DOCS/LUU_Y_BAN_DO_CHU_QUYEN.md."),
+        ("Bản đồ hành chính Việt Nam", "Tìm vùng trên bản đồ",
+         "18 bộ bản đồ hành chính: Ý, Ấn Độ, Trung Quốc, Úc, Mỹ, Pháp, Đức, Scotland, Romania, "
+         "Litva… KHÔNG có Việt Nam.",
          "Không dùng được cho phần Địa lí Việt Nam của môn Lịch sử và Địa lí.",
          "Bổ sung bộ bản đồ 34 tỉnh thành. GCompris cho thêm bộ bản đồ mới mà không phải sửa mã nguồn."),
+        ("Đài Loan liệt ngang hàng quốc gia", "Tìm quốc gia trên bản đồ (cấp 13 Đông Á)",
+         "Cấp Đông Á xếp Đài Loan thành một mảnh riêng, ngang với Trung Quốc, Nhật Bản, Hàn Quốc.",
+         "Việt Nam theo chính sách Một Trung Quốc; sách giáo khoa Việt Nam không liệt Đài Loan "
+         "là quốc gia.",
+         "Nhà trường cân nhắc: bỏ cấp Đông Á, hoặc giữ và giải thích. Cần chủ dự án chốt."),
         ("Bộ từ theo cấp độ âm tiết", "Chữ cái rơi · Từ rơi · Trò đoán chữ · Bấm vào chữ cái",
          "Các hoạt động này xây trên giả định 'chữ cái rời ghép thành từ'. Tiếng Việt có 29 chữ cái, "
          "thêm ă â đ ê ô ơ ư, 5 dấu thanh nằm trên nguyên âm, và đơn vị đọc là âm tiết.",

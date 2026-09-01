@@ -13622,172 +13622,172 @@ msgstr "Kéo thả các mảnh bản đồ về đúng chỗ để hoàn thành 
 #: activities/geography/resource/board/board10_0.qml:15
 msgctxt "board10_0|"
 msgid "Central Asia"
-msgstr ""
+msgstr "Trung Á"
 
 #: activities/geography/resource/board/board10_0.qml:24
 msgctxt "board10_0|"
 msgid "Kazakhstan"
-msgstr ""
+msgstr "Kazakhstan"
 
 #: activities/geography/resource/board/board10_0.qml:31
 msgctxt "board10_0|"
 msgid "Kyrgyzstan"
-msgstr ""
+msgstr "Kyrgyzstan"
 
 #: activities/geography/resource/board/board10_0.qml:38
 msgctxt "board10_0|"
 msgid "Tajikistan"
-msgstr ""
+msgstr "Tajikistan"
 
 #: activities/geography/resource/board/board10_0.qml:45
 msgctxt "board10_0|"
 msgid "Turkmenistan"
-msgstr ""
+msgstr "Turkmenistan"
 
 #: activities/geography/resource/board/board10_0.qml:52
 msgctxt "board10_0|"
 msgid "Uzbekistan"
-msgstr ""
+msgstr "Uzbekistan"
 
 #: activities/geography/resource/board/board11_0.qml:15
 msgctxt "board11_0|"
 msgid "South Asia"
-msgstr ""
+msgstr "Nam Á"
 
 #: activities/geography/resource/board/board11_0.qml:24
 msgctxt "board11_0|"
 msgid "India"
-msgstr ""
+msgstr "Ấn Độ"
 
 #: activities/geography/resource/board/board11_0.qml:31
 msgctxt "board11_0|"
 msgid "Sri Lanka"
-msgstr ""
+msgstr "Sri Lanka"
 
 #: activities/geography/resource/board/board11_0.qml:38
 msgctxt "board11_0|"
 msgid "Pakistan"
-msgstr ""
+msgstr "Pakistan"
 
 #: activities/geography/resource/board/board11_0.qml:45
 msgctxt "board11_0|"
 msgid "Afghanistan"
-msgstr ""
+msgstr "Afghanistan"
 
 #: activities/geography/resource/board/board11_0.qml:52
 msgctxt "board11_0|"
 msgid "Nepal"
-msgstr ""
+msgstr "Nepal"
 
 #: activities/geography/resource/board/board11_0.qml:59
 msgctxt "board11_0|"
 msgid "Bangladesh"
-msgstr ""
+msgstr "Bangladesh"
 
 #: activities/geography/resource/board/board11_0.qml:66
 msgctxt "board11_0|"
 msgid "Bhutan"
-msgstr ""
+msgstr "Bhutan"
 
 #: activities/geography/resource/board/board11_0.qml:73
 msgctxt "board11_0|"
 msgid "Maldives"
-msgstr ""
+msgstr "Maldives"
 
 #: activities/geography/resource/board/board12_0.qml:15
 msgctxt "board12_0|"
 msgid "Southeast Asia"
-msgstr ""
+msgstr "Đông Nam Á"
 
 #: activities/geography/resource/board/board12_0.qml:24
 msgctxt "board12_0|"
 msgid "Singapore"
-msgstr ""
+msgstr "Singapore"
 
 #: activities/geography/resource/board/board12_0.qml:32
 msgctxt "board12_0|"
 msgid "Indonesia"
-msgstr ""
+msgstr "Indonesia"
 
 #: activities/geography/resource/board/board12_0.qml:39
 msgctxt "board12_0|"
 msgid "Myanmar"
-msgstr ""
+msgstr "Myanmar"
 
 #: activities/geography/resource/board/board12_0.qml:46
 msgctxt "board12_0|"
 msgid "Thailand"
-msgstr ""
+msgstr "Thái Lan"
 
 #: activities/geography/resource/board/board12_0.qml:53
 msgctxt "board12_0|"
 msgid "Laos"
-msgstr ""
+msgstr "Lào"
 
 #: activities/geography/resource/board/board12_0.qml:60
 msgctxt "board12_0|"
 msgid "Vietnam"
-msgstr ""
+msgstr "Việt Nam"
 
 #: activities/geography/resource/board/board12_0.qml:67
 msgctxt "board12_0|"
 msgid "Cambodia"
-msgstr ""
+msgstr "Campuchia"
 
 #: activities/geography/resource/board/board12_0.qml:74
 msgctxt "board12_0|"
 msgid "Malaysia"
-msgstr ""
+msgstr "Malaysia"
 
 #: activities/geography/resource/board/board12_0.qml:81
 msgctxt "board12_0|"
 msgid "Brunei"
-msgstr ""
+msgstr "Brunei"
 
 #: activities/geography/resource/board/board12_0.qml:88
 msgctxt "board12_0|"
 msgid "East Timor"
-msgstr ""
+msgstr "Đông Timor"
 
 #: activities/geography/resource/board/board12_0.qml:95
 msgctxt "board12_0|"
 msgid "Philippines"
-msgstr ""
+msgstr "Philippines"
 
 #: activities/geography/resource/board/board13_0.qml:15
 msgctxt "board13_0|"
 msgid "East Asia"
-msgstr ""
+msgstr "Đông Á"
 
 #: activities/geography/resource/board/board13_0.qml:24
 msgctxt "board13_0|"
 msgid "Japan"
-msgstr ""
+msgstr "Nhật Bản"
 
 #: activities/geography/resource/board/board13_0.qml:31
 msgctxt "board13_0|"
 msgid "China"
-msgstr ""
+msgstr "Trung Quốc"
 
 #: activities/geography/resource/board/board13_0.qml:38
 msgctxt "board13_0|"
 msgid "Mongolia"
-msgstr ""
+msgstr "Mông Cổ"
 
 #: activities/geography/resource/board/board13_0.qml:45
 msgctxt "board13_0|"
 msgid "North Korea"
-msgstr ""
+msgstr "Triều Tiên"
 
 #: activities/geography/resource/board/board13_0.qml:52
 msgctxt "board13_0|"
 msgid "South Korea"
-msgstr ""
+msgstr "Hàn Quốc"
 
 #: activities/geography/resource/board/board13_0.qml:59
 msgctxt "board13_0|"
 msgid "Taiwan"
-msgstr ""
+msgstr "Đài Loan"
 
 #: activities/geography/resource/board/board14_0.qml:15
 msgctxt "board14_0|"
@@ -13907,7 +13907,7 @@ msgstr "Wallis và Futuna"
 #: activities/geography/resource/board/board1_0.qml:15
 msgctxt "board1_0|"
 msgid "Continents"
-msgstr ""
+msgstr "Các châu lục"
 
 #: activities/geography/resource/board/board1_0.qml:24
 msgctxt "board1_0|"
@@ -13917,32 +13917,32 @@ msgstr "Châu Đại Dương"
 #: activities/geography/resource/board/board1_0.qml:31
 msgctxt "board1_0|"
 msgid "Europe"
-msgstr ""
+msgstr "Châu Âu"
 
 #: activities/geography/resource/board/board1_0.qml:38
 msgctxt "board1_0|"
 msgid "Asia"
-msgstr ""
+msgstr "Châu Á"
 
 #: activities/geography/resource/board/board1_0.qml:45
 msgctxt "board1_0|"
 msgid "Antarctica"
-msgstr ""
+msgstr "Châu Nam Cực"
 
 #: activities/geography/resource/board/board1_0.qml:52
 msgctxt "board1_0|"
 msgid "America"
-msgstr ""
+msgstr "Châu Mỹ"
 
 #: activities/geography/resource/board/board1_0.qml:59
 msgctxt "board1_0|"
 msgid "Africa"
-msgstr ""
+msgstr "Châu Phi"
 
 #: activities/geography/resource/board/board2_0.qml:15
 msgctxt "board2_0|"
 msgid "North America"
-msgstr ""
+msgstr "Bắc Mỹ"
 
 #: activities/geography/resource/board/board2_0.qml:24
 msgctxt "board2_0|"
@@ -13952,768 +13952,768 @@ msgstr "Hoa Kỳ"
 #: activities/geography/resource/board/board2_0.qml:31
 msgctxt "board2_0|"
 msgid "Mexico"
-msgstr ""
+msgstr "Mexico"
 
 #: activities/geography/resource/board/board2_0.qml:38
 msgctxt "board2_0|"
 msgid "Greenland"
-msgstr ""
+msgstr "Greenland"
 
 #: activities/geography/resource/board/board2_0.qml:45
 msgctxt "board2_0|"
 msgid "Canada"
-msgstr ""
+msgstr "Canada"
 
 #: activities/geography/resource/board/board3_0.qml:15
 msgctxt "board3_0|"
 msgid "Central America"
-msgstr ""
+msgstr "Trung Mỹ"
 
 #: activities/geography/resource/board/board3_0.qml:24
 msgctxt "board3_0|"
 msgid "Puerto Rico"
-msgstr ""
+msgstr "Puerto Rico"
 
 #: activities/geography/resource/board/board3_0.qml:31
 msgctxt "board3_0|"
 msgid "Panama"
-msgstr ""
+msgstr "Panama"
 
 #: activities/geography/resource/board/board3_0.qml:38
 msgctxt "board3_0|"
 msgid "Nicaragua"
-msgstr ""
+msgstr "Nicaragua"
 
 #: activities/geography/resource/board/board3_0.qml:45
 msgctxt "board3_0|"
 msgid "Mexico"
-msgstr ""
+msgstr "Mexico"
 
 #: activities/geography/resource/board/board3_0.qml:52
 msgctxt "board3_0|"
 msgid "Jamaica"
-msgstr ""
+msgstr "Jamaica"
 
 #: activities/geography/resource/board/board3_0.qml:59
 msgctxt "board3_0|"
 msgid "Honduras"
-msgstr ""
+msgstr "Honduras"
 
 #: activities/geography/resource/board/board3_0.qml:66
 msgctxt "board3_0|"
 msgid "Haiti"
-msgstr ""
+msgstr "Haiti"
 
 #: activities/geography/resource/board/board3_0.qml:73
 msgctxt "board3_0|"
 msgid "Guatemala"
-msgstr ""
+msgstr "Guatemala"
 
 #: activities/geography/resource/board/board3_0.qml:80
 msgctxt "board3_0|"
 msgid "El Salvador"
-msgstr ""
+msgstr "El Salvador"
 
 #: activities/geography/resource/board/board3_0.qml:87
 msgctxt "board3_0|"
 msgid "Dominican Republic"
-msgstr ""
+msgstr "Cộng hoà Dominica"
 
 #: activities/geography/resource/board/board3_0.qml:94
 msgctxt "board3_0|"
 msgid "Cuba"
-msgstr ""
+msgstr "Cuba"
 
 #: activities/geography/resource/board/board3_0.qml:101
 msgctxt "board3_0|"
 msgid "Costa Rica"
-msgstr ""
+msgstr "Costa Rica"
 
 #: activities/geography/resource/board/board3_0.qml:108
 msgctxt "board3_0|"
 msgid "Belize"
-msgstr ""
+msgstr "Belize"
 
 #: activities/geography/resource/board/board3_0.qml:115
 msgctxt "board3_0|"
 msgid "Bahamas"
-msgstr ""
+msgstr "Bahamas"
 
 #: activities/geography/resource/board/board4_0.qml:15
 msgctxt "board4_0|"
 msgid "South America"
-msgstr ""
+msgstr "Nam Mỹ"
 
 #: activities/geography/resource/board/board4_0.qml:24
 msgctxt "board4_0|"
 msgid "Venezuela"
-msgstr ""
+msgstr "Venezuela"
 
 #: activities/geography/resource/board/board4_0.qml:31
 msgctxt "board4_0|"
 msgid "Uruguay"
-msgstr ""
+msgstr "Uruguay"
 
 #: activities/geography/resource/board/board4_0.qml:38
 msgctxt "board4_0|"
 msgid "Suriname"
-msgstr ""
+msgstr "Suriname"
 
 #: activities/geography/resource/board/board4_0.qml:45
 msgctxt "board4_0|"
 msgid "Peru"
-msgstr ""
+msgstr "Peru"
 
 #: activities/geography/resource/board/board4_0.qml:52
 msgctxt "board4_0|"
 msgid "Paraguay"
-msgstr ""
+msgstr "Paraguay"
 
 #: activities/geography/resource/board/board4_0.qml:59
 msgctxt "board4_0|"
 msgid "Panama"
-msgstr ""
+msgstr "Panama"
 
 #: activities/geography/resource/board/board4_0.qml:66
 msgctxt "board4_0|"
 msgid "Guyana"
-msgstr ""
+msgstr "Guyana"
 
 #: activities/geography/resource/board/board4_0.qml:73
 msgctxt "board4_0|"
 msgid "French Guiana"
-msgstr ""
+msgstr "Guyane thuộc Pháp"
 
 #: activities/geography/resource/board/board4_0.qml:80
 msgctxt "board4_0|"
 msgid "Ecuador"
-msgstr ""
+msgstr "Ecuador"
 
 #: activities/geography/resource/board/board4_0.qml:87
 msgctxt "board4_0|"
 msgid "Colombia"
-msgstr ""
+msgstr "Colombia"
 
 #: activities/geography/resource/board/board4_0.qml:94
 msgctxt "board4_0|"
 msgid "Chile"
-msgstr ""
+msgstr "Chile"
 
 #: activities/geography/resource/board/board4_0.qml:101
 msgctxt "board4_0|"
 msgid "Brazil"
-msgstr ""
+msgstr "Brazil"
 
 #: activities/geography/resource/board/board4_0.qml:108
 msgctxt "board4_0|"
 msgid "Bolivia"
-msgstr ""
+msgstr "Bolivia"
 
 #: activities/geography/resource/board/board4_0.qml:115
 msgctxt "board4_0|"
 msgid "Argentina"
-msgstr ""
+msgstr "Argentina"
 
 #: activities/geography/resource/board/board5_0.qml:15
 msgctxt "board5_0|"
 msgid "Western Europe"
-msgstr ""
+msgstr "Tây Âu"
 
 #: activities/geography/resource/board/board5_0.qml:24
 msgctxt "board5_0|"
 msgid "United Kingdom"
-msgstr ""
+msgstr "Vương quốc Anh"
 
 #: activities/geography/resource/board/board5_0.qml:31
 msgctxt "board5_0|"
 msgid "Switzerland"
-msgstr ""
+msgstr "Thuỵ Sĩ"
 
 #: activities/geography/resource/board/board5_0.qml:38
 msgctxt "board5_0|"
 msgid "Sweden"
-msgstr ""
+msgstr "Thuỵ Điển"
 
 #: activities/geography/resource/board/board5_0.qml:45
 msgctxt "board5_0|"
 msgid "Spain"
-msgstr ""
+msgstr "Tây Ban Nha"
 
 #: activities/geography/resource/board/board5_0.qml:52
 msgctxt "board5_0|"
 msgid "Portugal"
-msgstr ""
+msgstr "Bồ Đào Nha"
 
 #: activities/geography/resource/board/board5_0.qml:59
 msgctxt "board5_0|"
 msgid "Norway"
-msgstr ""
+msgstr "Na Uy"
 
 #: activities/geography/resource/board/board5_0.qml:66
 msgctxt "board5_0|"
 msgid "The Netherlands"
-msgstr ""
+msgstr "Hà Lan"
 
 #: activities/geography/resource/board/board5_0.qml:73
 msgctxt "board5_0|"
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luxembourg"
 
 #: activities/geography/resource/board/board5_0.qml:81
 msgctxt "board5_0|"
 msgid "Italy"
-msgstr ""
+msgstr "Ý"
 
 #: activities/geography/resource/board/board5_0.qml:88
 msgctxt "board5_0|"
 msgid "Ireland"
-msgstr ""
+msgstr "Ireland"
 
 #: activities/geography/resource/board/board5_0.qml:95
 msgctxt "board5_0|"
 msgid "Iceland"
-msgstr ""
+msgstr "Iceland"
 
 #: activities/geography/resource/board/board5_0.qml:102
 msgctxt "board5_0|"
 msgid "Germany"
-msgstr ""
+msgstr "Đức"
 
 #: activities/geography/resource/board/board5_0.qml:109
 msgctxt "board5_0|"
 msgid "France"
-msgstr ""
+msgstr "Pháp"
 
 #: activities/geography/resource/board/board5_0.qml:116
 msgctxt "board5_0|"
 msgid "Finland"
-msgstr ""
+msgstr "Phần Lan"
 
 #: activities/geography/resource/board/board5_0.qml:123
 msgctxt "board5_0|"
 msgid "Denmark"
-msgstr ""
+msgstr "Đan Mạch"
 
 #: activities/geography/resource/board/board5_0.qml:130
 msgctxt "board5_0|"
 msgid "Belgium"
-msgstr ""
+msgstr "Bỉ"
 
 #: activities/geography/resource/board/board5_0.qml:137
 msgctxt "board5_0|"
 msgid "Austria"
-msgstr ""
+msgstr "Áo"
 
 #: activities/geography/resource/board/board6_0.qml:15
 msgctxt "board6_0|"
 msgid "Eastern Europe"
-msgstr ""
+msgstr "Đông Âu"
 
 #: activities/geography/resource/board/board6_0.qml:24
 msgctxt "board6_0|"
 msgid "Cyprus"
-msgstr ""
+msgstr "Síp"
 
 #: activities/geography/resource/board/board6_0.qml:32
 msgctxt "board6_0|"
 msgid "Greece"
-msgstr ""
+msgstr "Hy Lạp"
 
 #: activities/geography/resource/board/board6_0.qml:39
 msgctxt "board6_0|"
 msgid "Ukraine"
-msgstr ""
+msgstr "Ukraina"
 
 #: activities/geography/resource/board/board6_0.qml:46
 msgctxt "board6_0|"
 msgid "Turkey"
-msgstr ""
+msgstr "Thổ Nhĩ Kỳ"
 
 #: activities/geography/resource/board/board6_0.qml:54
 msgctxt "board6_0|"
 msgid "Slovenia"
-msgstr ""
+msgstr "Slovenia"
 
 #: activities/geography/resource/board/board6_0.qml:61
 msgctxt "board6_0|"
 msgid "Slovak Republic"
-msgstr ""
+msgstr "Cộng hoà Slovakia"
 
 #: activities/geography/resource/board/board6_0.qml:68
 msgctxt "board6_0|"
 msgid "Montenegro"
-msgstr ""
+msgstr "Montenegro"
 
 #: activities/geography/resource/board/board6_0.qml:76
 msgctxt "board6_0|"
 msgid "Serbia"
-msgstr ""
+msgstr "Serbia"
 
 #: activities/geography/resource/board/board6_0.qml:83
 msgctxt "board6_0|"
 msgid "Russia"
-msgstr ""
+msgstr "Nga"
 
 #: activities/geography/resource/board/board6_0.qml:90
 msgctxt "board6_0|"
 msgid "Romania"
-msgstr ""
+msgstr "Romania"
 
 #: activities/geography/resource/board/board6_0.qml:97
 msgctxt "board6_0|"
 msgid "Poland"
-msgstr ""
+msgstr "Ba Lan"
 
 #: activities/geography/resource/board/board6_0.qml:104
 msgctxt "board6_0|"
 msgid "Moldova"
-msgstr ""
+msgstr "Moldova"
 
 #: activities/geography/resource/board/board6_0.qml:111
 msgctxt "board6_0|"
 msgid "North Macedonia"
-msgstr ""
+msgstr "Bắc Macedonia"
 
 #: activities/geography/resource/board/board6_0.qml:119
 msgctxt "board6_0|"
 msgid "Lithuania"
-msgstr ""
+msgstr "Litva"
 
 #: activities/geography/resource/board/board6_0.qml:126
 msgctxt "board6_0|"
 msgid "Latvia"
-msgstr ""
+msgstr "Latvia"
 
 #: activities/geography/resource/board/board6_0.qml:133
 msgctxt "board6_0|"
 msgid "Hungary"
-msgstr ""
+msgstr "Hungary"
 
 #: activities/geography/resource/board/board6_0.qml:140
 msgctxt "board6_0|"
 msgid "Estonia"
-msgstr ""
+msgstr "Estonia"
 
 #: activities/geography/resource/board/board6_0.qml:147
 msgctxt "board6_0|"
 msgid "Czechia"
-msgstr ""
+msgstr "Séc"
 
 #: activities/geography/resource/board/board6_0.qml:154
 msgctxt "board6_0|"
 msgid "Croatia"
-msgstr ""
+msgstr "Croatia"
 
 #: activities/geography/resource/board/board6_0.qml:161
 msgctxt "board6_0|"
 msgid "Bulgaria"
-msgstr ""
+msgstr "Bulgaria"
 
 #: activities/geography/resource/board/board6_0.qml:168
 msgctxt "board6_0|"
 msgid "Bosnia Herzegovina"
-msgstr ""
+msgstr "Bosnia và Herzegovina"
 
 #: activities/geography/resource/board/board6_0.qml:175
 msgctxt "board6_0|"
 msgid "Belarus"
-msgstr ""
+msgstr "Belarus"
 
 #: activities/geography/resource/board/board6_0.qml:182
 msgctxt "board6_0|"
 msgid "Albania"
-msgstr ""
+msgstr "Albania"
 
 #: activities/geography/resource/board/board7_0.qml:15
 msgctxt "board7_0|"
 msgid "Northern Africa"
-msgstr ""
+msgstr "Bắc Phi"
 
 #: activities/geography/resource/board/board7_0.qml:24
 msgctxt "board7_0|"
 msgid "Western Sahara"
-msgstr ""
+msgstr "Tây Sahara"
 
 #: activities/geography/resource/board/board7_0.qml:31
 msgctxt "board7_0|"
 msgid "Uganda"
-msgstr ""
+msgstr "Uganda"
 
 #: activities/geography/resource/board/board7_0.qml:38
 msgctxt "board7_0|"
 msgid "Tunisia"
-msgstr ""
+msgstr "Tunisia"
 
 #: activities/geography/resource/board/board7_0.qml:45
 msgctxt "board7_0|"
 msgid "Togo"
-msgstr ""
+msgstr "Togo"
 
 #: activities/geography/resource/board/board7_0.qml:52
 msgctxt "board7_0|"
 msgid "Sudan"
-msgstr ""
+msgstr "Sudan"
 
 #: activities/geography/resource/board/board7_0.qml:59
 msgctxt "board7_0|"
 msgid "South Sudan"
-msgstr ""
+msgstr "Nam Sudan"
 
 #: activities/geography/resource/board/board7_0.qml:66
 msgctxt "board7_0|"
 msgid "Somalia"
-msgstr ""
+msgstr "Somalia"
 
 #: activities/geography/resource/board/board7_0.qml:73
 msgctxt "board7_0|"
 msgid "Sierra Leone"
-msgstr ""
+msgstr "Sierra Leone"
 
 #: activities/geography/resource/board/board7_0.qml:80
 msgctxt "board7_0|"
 msgid "Senegal"
-msgstr ""
+msgstr "Senegal"
 
 #: activities/geography/resource/board/board7_0.qml:87
 msgctxt "board7_0|"
 msgid "Rwanda"
-msgstr ""
+msgstr "Rwanda"
 
 #: activities/geography/resource/board/board7_0.qml:94
 msgctxt "board7_0|"
 msgid "Niger"
-msgstr ""
+msgstr "Niger"
 
 #: activities/geography/resource/board/board7_0.qml:101
 msgctxt "board7_0|"
 msgid "Nigeria"
-msgstr ""
+msgstr "Nigeria"
 
 #: activities/geography/resource/board/board7_0.qml:108
 msgctxt "board7_0|"
 msgid "Morocco"
-msgstr ""
+msgstr "Maroc"
 
 #: activities/geography/resource/board/board7_0.qml:115
 msgctxt "board7_0|"
 msgid "Mauritania"
-msgstr ""
+msgstr "Mauritania"
 
 #: activities/geography/resource/board/board7_0.qml:122
 msgctxt "board7_0|"
 msgid "Mali"
-msgstr ""
+msgstr "Mali"
 
 #: activities/geography/resource/board/board7_0.qml:129
 msgctxt "board7_0|"
 msgid "Libya"
-msgstr ""
+msgstr "Libya"
 
 #: activities/geography/resource/board/board7_0.qml:136
 msgctxt "board7_0|"
 msgid "Liberia"
-msgstr ""
+msgstr "Liberia"
 
 #: activities/geography/resource/board/board7_0.qml:143
 msgctxt "board7_0|"
 msgid "Kenya"
-msgstr ""
+msgstr "Kenya"
 
 #: activities/geography/resource/board/board7_0.qml:150
 msgctxt "board7_0|"
 msgid "Ivory Coast"
-msgstr ""
+msgstr "Bờ Biển Ngà"
 
 #: activities/geography/resource/board/board7_0.qml:157
 msgctxt "board7_0|"
 msgid "Guinea"
-msgstr ""
+msgstr "Guinea"
 
 #: activities/geography/resource/board/board7_0.qml:164
 msgctxt "board7_0|"
 msgid "Guinea Bissau"
-msgstr ""
+msgstr "Guinea-Bissau"
 
 #: activities/geography/resource/board/board7_0.qml:171
 msgctxt "board7_0|"
 msgid "Ghana"
-msgstr ""
+msgstr "Ghana"
 
 #: activities/geography/resource/board/board7_0.qml:178
 msgctxt "board7_0|"
 msgid "Gambia"
-msgstr ""
+msgstr "Gambia"
 
 #: activities/geography/resource/board/board7_0.qml:185
 msgctxt "board7_0|"
 msgid "Gabon"
-msgstr ""
+msgstr "Gabon"
 
 #: activities/geography/resource/board/board7_0.qml:192
 msgctxt "board7_0|"
 msgid "Eritrea"
-msgstr ""
+msgstr "Eritrea"
 
 #: activities/geography/resource/board/board7_0.qml:199
 msgctxt "board7_0|"
 msgid "Ethiopia"
-msgstr ""
+msgstr "Ethiopia"
 
 #: activities/geography/resource/board/board7_0.qml:206
 msgctxt "board7_0|"
 msgid "Equatorial Guinea"
-msgstr ""
+msgstr "Guinea Xích Đạo"
 
 #: activities/geography/resource/board/board7_0.qml:213
 msgctxt "board7_0|"
 msgid "Egypt"
-msgstr ""
+msgstr "Ai Cập"
 
 #: activities/geography/resource/board/board7_0.qml:220
 msgctxt "board7_0|"
 msgid "Djibouti"
-msgstr ""
+msgstr "Djibouti"
 
 #: activities/geography/resource/board/board7_0.qml:227
 msgctxt "board7_0|"
 msgid "Chad"
-msgstr ""
+msgstr "Tchad"
 
 #: activities/geography/resource/board/board7_0.qml:234
 msgctxt "board7_0|"
 msgid "Central African Republic"
-msgstr ""
+msgstr "Cộng hoà Trung Phi"
 
 #: activities/geography/resource/board/board7_0.qml:241
 msgctxt "board7_0|"
 msgid "Cameroon"
-msgstr ""
+msgstr "Cameroon"
 
 #: activities/geography/resource/board/board7_0.qml:248
 msgctxt "board7_0|"
 msgid "Burkina Faso"
-msgstr ""
+msgstr "Burkina Faso"
 
 #: activities/geography/resource/board/board7_0.qml:255
 msgctxt "board7_0|"
 msgid "Benin"
-msgstr ""
+msgstr "Benin"
 
 #: activities/geography/resource/board/board7_0.qml:262
 msgctxt "board7_0|"
 msgid "Algeria"
-msgstr ""
+msgstr "Algeria"
 
 #: activities/geography/resource/board/board8_0.qml:15
 msgctxt "board8_0|"
 msgid "Southern Africa"
-msgstr ""
+msgstr "Miền Nam châu Phi"
 
 #: activities/geography/resource/board/board8_0.qml:24
 msgctxt "board8_0|"
 msgid "Zimbabwe"
-msgstr ""
+msgstr "Zimbabwe"
 
 #: activities/geography/resource/board/board8_0.qml:31
 msgctxt "board8_0|"
 msgid "Zambia"
-msgstr ""
+msgstr "Zambia"
 
 #: activities/geography/resource/board/board8_0.qml:38
 msgctxt "board8_0|"
 msgid "Uganda"
-msgstr ""
+msgstr "Uganda"
 
 #: activities/geography/resource/board/board8_0.qml:45
 msgctxt "board8_0|"
 msgid "Tanzania"
-msgstr ""
+msgstr "Tanzania"
 
 #: activities/geography/resource/board/board8_0.qml:52
 msgctxt "board8_0|"
 msgid "Eswatini"
-msgstr ""
+msgstr "Eswatini"
 
 #: activities/geography/resource/board/board8_0.qml:59
 msgctxt "board8_0|"
 msgid "South Africa"
-msgstr ""
+msgstr "Nam Phi"
 
 #: activities/geography/resource/board/board8_0.qml:66
 msgctxt "board8_0|"
 msgid "Rwanda"
-msgstr ""
+msgstr "Rwanda"
 
 #: activities/geography/resource/board/board8_0.qml:73
 msgctxt "board8_0|"
 msgid "Republic of the Congo"
-msgstr ""
+msgstr "Cộng hoà Congo"
 
 #: activities/geography/resource/board/board8_0.qml:80
 msgctxt "board8_0|"
 msgid "Namibia"
-msgstr ""
+msgstr "Namibia"
 
 #: activities/geography/resource/board/board8_0.qml:87
 msgctxt "board8_0|"
 msgid "Mozambique"
-msgstr ""
+msgstr "Mozambique"
 
 #: activities/geography/resource/board/board8_0.qml:94
 msgctxt "board8_0|"
 msgid "Malawi"
-msgstr ""
+msgstr "Malawi"
 
 #: activities/geography/resource/board/board8_0.qml:101
 msgctxt "board8_0|"
 msgid "Madagascar"
-msgstr ""
+msgstr "Madagascar"
 
 #: activities/geography/resource/board/board8_0.qml:108
 msgctxt "board8_0|"
 msgid "Lesotho"
-msgstr ""
+msgstr "Lesotho"
 
 #: activities/geography/resource/board/board8_0.qml:115
 msgctxt "board8_0|"
 msgid "Kenya"
-msgstr ""
+msgstr "Kenya"
 
 #: activities/geography/resource/board/board8_0.qml:122
 msgctxt "board8_0|"
 msgid "Gabon"
-msgstr ""
+msgstr "Gabon"
 
 #: activities/geography/resource/board/board8_0.qml:129
 msgctxt "board8_0|"
 msgid "Equatorial Guinea"
-msgstr ""
+msgstr "Guinea Xích Đạo"
 
 #: activities/geography/resource/board/board8_0.qml:136
 msgctxt "board8_0|"
 msgid "Democratic Republic of the Congo"
-msgstr ""
+msgstr "Cộng hoà Dân chủ Congo"
 
 #: activities/geography/resource/board/board8_0.qml:143
 msgctxt "board8_0|"
 msgid "Burundi"
-msgstr ""
+msgstr "Burundi"
 
 #: activities/geography/resource/board/board8_0.qml:150
 msgctxt "board8_0|"
 msgid "Botswana"
-msgstr ""
+msgstr "Botswana"
 
 #: activities/geography/resource/board/board8_0.qml:157
 msgctxt "board8_0|"
 msgid "Angola"
-msgstr ""
+msgstr "Angola"
 
 #: activities/geography/resource/board/board9_0.qml:15
 msgctxt "board9_0|"
 msgid "Western Asia"
-msgstr ""
+msgstr "Tây Á"
 
 #: activities/geography/resource/board/board9_0.qml:24
 msgctxt "board9_0|"
 msgid "Turkey"
-msgstr ""
+msgstr "Thổ Nhĩ Kỳ"
 
 #: activities/geography/resource/board/board9_0.qml:31
 msgctxt "board9_0|"
 msgid "Cyprus"
-msgstr ""
+msgstr "Síp"
 
 #. Translators: Strip Asia| and translate only Georgia
 #: activities/geography/resource/board/board9_0.qml:39
 msgctxt "board9_0|"
 msgid "Asia|Georgia"
-msgstr ""
+msgstr "Gruzia"
 
 #: activities/geography/resource/board/board9_0.qml:46
 msgctxt "board9_0|"
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Azerbaijan"
 
 #: activities/geography/resource/board/board9_0.qml:53
 msgctxt "board9_0|"
 msgid "Armenia"
-msgstr ""
+msgstr "Armenia"
 
 #: activities/geography/resource/board/board9_0.qml:60
 msgctxt "board9_0|"
 msgid "Iran"
-msgstr ""
+msgstr "Iran"
 
 #: activities/geography/resource/board/board9_0.qml:67
 msgctxt "board9_0|"
 msgid "Iraq"
-msgstr ""
+msgstr "Iraq"
 
 #: activities/geography/resource/board/board9_0.qml:74
 msgctxt "board9_0|"
 msgid "Syria"
-msgstr ""
+msgstr "Syria"
 
 #: activities/geography/resource/board/board9_0.qml:81
 msgctxt "board9_0|"
 msgid "Jordan"
-msgstr ""
+msgstr "Jordan"
 
 #: activities/geography/resource/board/board9_0.qml:88
 msgctxt "board9_0|"
 msgid "Israel"
-msgstr ""
+msgstr "Israel"
 
 #: activities/geography/resource/board/board9_0.qml:95
 msgctxt "board9_0|"
 msgid "Palestine"
-msgstr ""
+msgstr "Palestine"
 
 #: activities/geography/resource/board/board9_0.qml:103
 msgctxt "board9_0|"
 msgid "Lebanon"
-msgstr ""
+msgstr "Liban"
 
 #: activities/geography/resource/board/board9_0.qml:110
 msgctxt "board9_0|"
 msgid "Saudi Arabia"
-msgstr ""
+msgstr "Ả Rập Xê Út"
 
 #: activities/geography/resource/board/board9_0.qml:117
 msgctxt "board9_0|"
 msgid "Kuwait"
-msgstr ""
+msgstr "Kuwait"
 
 #: activities/geography/resource/board/board9_0.qml:124
 msgctxt "board9_0|"
 msgid "Qatar"
-msgstr ""
+msgstr "Qatar"
 
 #: activities/geography/resource/board/board9_0.qml:131
 msgctxt "board9_0|"
 msgid "United Arab Emirates"
-msgstr ""
+msgstr "Các Tiểu vương quốc Ả Rập Thống nhất"
 
 #: activities/geography/resource/board/board9_0.qml:138
 msgctxt "board9_0|"
 msgid "Oman"
-msgstr ""
+msgstr "Oman"
 
 #: activities/geography/resource/board/board9_0.qml:145
 msgctxt "board9_0|"
 msgid "Yemen"
-msgstr ""
+msgstr "Yemen"
 
 #: activities/geography/resource/board/board9_0.qml:152
 msgctxt "board9_0|"
 msgid "Egypt"
-msgstr ""
+msgstr "Ai Cập"
 
 #: activities/geography/resource/board/board9_0.qml:159
 msgctxt "board9_0|"
 msgid "Bahrain"
-msgstr ""
+msgstr "Bahrain"
 
 #: activities/gletters/ActivityConfig.qml:44
 #: activities/wordsgame/ActivityConfig.qml:44
@@ -22002,17 +22002,17 @@ msgstr "Mỹ: Đồng dao"
 #: activities/piano_composition/melodies.js:228
 msgctxt "melodies|"
 msgid "Mexico"
-msgstr ""
+msgstr "Mexico"
 
 #: activities/piano_composition/melodies.js:53
 msgctxt "melodies|"
 msgid "Italy"
-msgstr ""
+msgstr "Ý"
 
 #: activities/piano_composition/melodies.js:60
 msgctxt "melodies|"
 msgid "Spain"
-msgstr ""
+msgstr "Tây Ban Nha"
 
 #: activities/piano_composition/melodies.js:67
 msgctxt "melodies|"
@@ -22028,7 +22028,7 @@ msgstr "Bài hát thiếu nhi Brazil"
 #: activities/piano_composition/melodies.js:95
 msgctxt "melodies|"
 msgid "Germany"
-msgstr ""
+msgstr "Đức"
 
 #: activities/piano_composition/melodies.js:88
 #: activities/piano_composition/melodies.js:102
@@ -22036,13 +22036,13 @@ msgstr ""
 #: activities/piano_composition/melodies.js:130
 msgctxt "melodies|"
 msgid "France"
-msgstr ""
+msgstr "Pháp"
 
 #: activities/piano_composition/melodies.js:109
 #: activities/piano_composition/melodies.js:116
 msgctxt "melodies|"
 msgid "Brazil"
-msgstr ""
+msgstr "Brazil"
 
 #: activities/piano_composition/melodies.js:137
 #: activities/piano_composition/melodies.js:144
@@ -22059,7 +22059,7 @@ msgstr "Hungary, bài hát thiếu nhi"
 #: activities/piano_composition/melodies.js:165
 msgctxt "melodies|"
 msgid "Serbia"
-msgstr ""
+msgstr "Serbia"
 
 #: activities/piano_composition/melodies.js:172
 #: activities/piano_composition/melodies.js:207
@@ -22071,18 +22071,18 @@ msgstr "Anh"
 #: activities/piano_composition/melodies.js:179
 msgctxt "melodies|"
 msgid "Poland"
-msgstr ""
+msgstr "Ba Lan"
 
 #: activities/piano_composition/melodies.js:186
 #: activities/piano_composition/melodies.js:193
 msgctxt "melodies|"
 msgid "Greece"
-msgstr ""
+msgstr "Hy Lạp"
 
 #: activities/piano_composition/melodies.js:200
 msgctxt "melodies|"
 msgid "Ukraine"
-msgstr ""
+msgstr "Ukraina"
 
 #: activities/piano_composition/melodies.js:235
 msgctxt "melodies|"
@@ -22092,7 +22092,7 @@ msgstr "Bài hát Mexico khi đập piñata"
 #: activities/piano_composition/melodies.js:242
 msgctxt "melodies|"
 msgid "Finland"
-msgstr ""
+msgstr "Phần Lan"
 
 #: activities/piano_composition/MelodyList.qml:70
 msgctxt "MelodyList|"
