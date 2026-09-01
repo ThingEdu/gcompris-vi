@@ -175,6 +175,8 @@ msgid ""
 "You will see dancing butterflies of different colors and a question. You "
 "have to find the correct butterfly and touch it."
 msgstr ""
+"Con sẽ thấy những chú bướm nhiều màu đang bay múa cùng một câu hỏi. Con phải"
+" tìm đúng con bướm rồi chạm vào nó."
 
 #: activities/advanced_colors/ActivityInfo.qml:25
 #: activities/algebra_by/ActivityInfo.qml:25
@@ -897,6 +899,9 @@ msgid ""
 " numbers. You have to be fast and submit the answer before the penguins in "
 "their balloon land!"
 msgstr ""
+"Màn hình hiện một phép nhân. Hãy tính nhanh kết quả rồi dùng bàn phím máy "
+"tính hoặc bàn phím trên màn hình để gõ tích của hai số. Con phải nhanh tay, "
+"nộp đáp án trước khi khinh khí cầu chở đàn chim cánh cụt hạ xuống!"
 
 #: activities/algebra_by/ActivityInfo.qml:26
 #: activities/algebra_div/ActivityInfo.qml:26
@@ -1023,6 +1028,9 @@ msgid ""
 "computer's keyboard or the on-screen keypad to type it. You have to be fast "
 "and submit the answer before the penguins in their balloon land!"
 msgstr ""
+"Màn hình hiện một phép chia. Hãy tính nhanh kết quả rồi dùng bàn phím máy "
+"tính hoặc bàn phím trên màn hình để gõ vào. Con phải nhanh tay, nộp đáp án "
+"trước khi khinh khí cầu chở đàn chim cánh cụt hạ xuống!"
 
 #: activities/algebra_div/resource/1/Data.qml:13
 msgctxt "Data|"
@@ -1113,6 +1121,9 @@ msgid ""
 "your computer's keyboard or the on-screen keypad to type it. You have to be "
 "fast and submit the answer before the penguins in their balloon land!"
 msgstr ""
+"Màn hình hiện một phép trừ. Hãy tính nhanh kết quả rồi dùng bàn phím máy "
+"tính hoặc bàn phím trên màn hình để gõ vào. Con phải nhanh tay, nộp đáp án "
+"trước khi khinh khí cầu chở đàn chim cánh cụt hạ xuống!"
 
 #: activities/algebra_minus/resource/1/Data.qml:13
 msgctxt "Data|"
@@ -1211,6 +1222,9 @@ msgid ""
 " computer's keyboard or the on-screen keypad to type it. You have to be fast"
 " and submit the answer before the penguins land in their balloon!"
 msgstr ""
+"Màn hình hiện một phép cộng. Hãy tính nhanh kết quả rồi dùng bàn phím máy "
+"tính hoặc bàn phím trên màn hình để gõ vào. Con phải nhanh tay, nộp đáp án "
+"trước khi khinh khí cầu chở đàn chim cánh cụt hạ xuống!"
 
 #: activities/algebra_plus/resource/1/Data.qml:13
 msgctxt "Data|"
@@ -1303,6 +1317,9 @@ msgid ""
 "replaced by another fruit in the second sequence. Complete the second "
 "sequence by using the correct fruit, after studying this pattern."
 msgstr ""
+"Nhìn hai dãy hoa quả. Mỗi quả ở dãy thứ nhất đã được thay bằng một quả khác "
+"ở dãy thứ hai. Hãy tìm ra quy luật rồi điền nốt dãy thứ hai bằng đúng loại "
+"quả."
 
 #. Activity title
 #: activities/align4/ActivityInfo.qml:15
@@ -1331,6 +1348,8 @@ msgid ""
 "Play with Tux. Take turns to click the line in which you want to drop a "
 "token. The first player to create a line of 4 tokens wins."
 msgstr ""
+"Chơi với Tux. Hai bên lần lượt bấm vào cột muốn thả quân xuống. Ai xếp được "
+"bốn quân thành hàng trước là thắng."
 
 #: activities/align4/ActivityInfo.qml:23
 #: activities/align4_2players/ActivityInfo.qml:23
@@ -1383,6 +1402,8 @@ msgid ""
 "Play with a friend. Take turns to click the line in which you want to drop a"
 " token. The first player to create a line of 4 tokens wins."
 msgstr ""
+"Chơi với một người bạn. Hai bên lần lượt bấm vào cột muốn thả quân xuống. Ai"
+" xếp được bốn quân thành hàng trước là thắng."
 
 #. Activity title
 #: activities/alphabet-sequence/ActivityInfo.qml:15
@@ -1419,6 +1440,10 @@ msgid ""
 "location. To know which letter you have to catch you can either remember it "
 "or check the bottom right corner."
 msgstr ""
+"Bắt các chữ cái. Nếu có bàn phím thì dùng phím mũi tên để lái trực thăng. "
+"Nếu dùng chuột hay màn hình cảm ứng thì chỉ cần bấm hoặc chạm vào chỗ cần "
+"tới. Muốn biết phải bắt chữ nào thì con nhớ trong đầu, hoặc nhìn góc dưới "
+"bên phải."
 
 #: activities/alphabet-sequence/ActivityInfo.qml:26
 #: activities/numbers-odd-even/ActivityInfo.qml:25
@@ -1489,6 +1514,8 @@ msgid ""
 "Drag electrical components from the selector and drop them in the working "
 "area. In the working area, you can move the components by dragging them."
 msgstr ""
+"Kéo linh kiện điện từ bảng chọn thả vào vùng làm việc. Trong vùng làm việc, "
+"con di chuyển được linh kiện bằng cách kéo chúng."
 
 #: activities/analog_electricity/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
@@ -2070,6 +2097,11 @@ msgid ""
 "    Other keys will just play a click sound.\n"
 "    "
 msgstr ""
+"Gõ phím bất kỳ trên bàn phím.\n"
+"    Chữ cái, chữ số và các phím ký tự khác sẽ hiện ký tự tương ứng lên màn hình.\n"
+"    Nếu có giọng đọc tương ứng thì sẽ phát ra, nếu không thì phát tiếng bíp.\n"
+"    Các phím còn lại chỉ phát tiếng bấm.\n"
+"    "
 
 #. Activity title
 #: activities/baby_mouse/ActivityInfo.qml:14
@@ -2112,7 +2144,7 @@ msgstr "Biết dùng chuột."
 #: activities/baby_mouse/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "The screen has 3 sections:"
-msgstr ""
+msgstr "Màn hình chia làm 3 phần:"
 
 #: activities/baby_mouse/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
@@ -2172,6 +2204,8 @@ msgid ""
 "Move a piece by dragging it. Use the rotation button if necessary. More "
 "complicated levels can be found in tangram activity."
 msgstr ""
+"Kéo để di chuyển một mảnh ghép. Dùng nút xoay nếu cần. Muốn khó hơn thì vào "
+"hoạt động Tangram."
 
 #: activities/baby_wordprocessor/ActivityConfig.qml:28
 msgctxt "ActivityConfig|"
@@ -2203,6 +2237,8 @@ msgid ""
 "Just type on the real or virtual keyboard like in a word processor.\n"
 "    Clicking on the 'Title' button will make the text bigger. Similarly, the 'subtitle' button will make the text slightly less bigger. Clicking on 'paragraph' will remove the formatting."
 msgstr ""
+"Cứ gõ trên bàn phím thật hoặc bàn phím ảo như khi soạn thảo văn bản.\n"
+"    Bấm nút 'Tiêu đề' thì chữ to lên. Tương tự, nút 'tiêu đề phụ' cho chữ to vừa. Bấm 'đoạn văn' thì bỏ hết định dạng."
 
 #: activities/baby_wordprocessor/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
@@ -2307,6 +2343,9 @@ msgid ""
 "logically to one object in the main board area. Drag each object from the "
 "side panel to the correct spot in the main area."
 msgstr ""
+"Ở vùng chính có một nhóm đồ vật. Ở khung bên cạnh có một nhóm đồ vật khác. "
+"Mỗi món ở khung bên cạnh ứng với một món ở vùng chính theo một liên hệ nào "
+"đó. Hãy kéo từng món từ khung bên cạnh về đúng chỗ ở vùng chính."
 
 #: activities/babymatch/resource/board/board1_0.qml:14
 msgctxt "board1_0|"
@@ -2337,6 +2376,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Complete the puzzle by dragging each piece on the side to the matching spot."
 msgstr ""
+"Hoàn thành bức tranh bằng cách kéo từng mảnh bên cạnh về đúng chỗ của nó."
 
 #: activities/babyshapes/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
@@ -2445,6 +2485,10 @@ msgid ""
 " order to unlock the door. You can move the ball by tilting your mobile "
 "device. On desktop platforms use the arrow keys to simulate tilting."
 msgstr ""
+"Đưa quả bóng tới cửa. Cẩn thận đừng để bóng rơi xuống hố. Các nút chạm có "
+"đánh số trong hộp phải được chạm đúng thứ tự thì cửa mới mở. Con nghiêng máy"
+" để làm bóng lăn. Trên máy tính thì dùng phím mũi tên thay cho việc nghiêng "
+"máy."
 
 #: activities/balancebox/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
@@ -2653,6 +2697,8 @@ msgid ""
 " a straight line. On a touch screen you have to touch the two hands at the "
 "same time."
 msgstr ""
+"Bấm cùng lúc phím mũi tên trái và phải để quả bóng đi thẳng. Trên màn hình "
+"cảm ứng thì phải chạm hai bàn tay cùng lúc."
 
 #: activities/ballcatch/Ballcatch.qml:234
 msgctxt "Ballcatch|"
@@ -2727,6 +2773,9 @@ msgid ""
 "button to place the balls in the holes. You win if Tux has to place the last"
 " ball. If you want Tux to begin, just click on him."
 msgstr ""
+"Bấm vào biểu tượng quả bi để chọn số bi, rồi bấm nút Đồng ý để thả bi vào "
+"lỗ. Con thắng nếu Tux là người phải đặt quả bi cuối cùng. Muốn Tux đi trước "
+"thì cứ bấm vào bạn ấy."
 
 #. Activity title
 #: activities/bargame_2players/ActivityInfo.qml:15
@@ -2742,6 +2791,8 @@ msgid ""
 "button to place the balls in the holes. You win if your friend has to place "
 "the last ball."
 msgstr ""
+"Bấm vào biểu tượng quả bi để chọn số bi, rồi bấm nút Đồng ý để thả bi vào "
+"lỗ. Con thắng nếu bạn của con là người phải đặt quả bi cuối cùng."
 
 #. Activity title
 #: activities/binary_bulb/ActivityInfo.qml:15
@@ -2777,6 +2828,8 @@ msgid ""
 "Turn on the right bulbs to represent the binary of the given decimal number."
 " When you have achieved it, press OK."
 msgstr ""
+"Bật đúng những bóng đèn thể hiện số nhị phân của số thập phân đã cho. Làm "
+"xong thì bấm Đồng ý."
 
 #: activities/binary_bulb/BinaryBulb.qml:102
 msgctxt "BinaryBulb|"
@@ -2922,6 +2975,9 @@ msgid ""
 "telling you the character to reproduce, and at the top the braille "
 "characters to use as a reference. Each level teaches a set of 10 characters."
 msgstr ""
+"Màn hình chia làm 3 phần: một ô chữ nổi bấm được, một dòng chỉ dẫn cho biết "
+"phải tạo ký tự nào, và ở phía trên là bảng ký tự chữ nổi để tra cứu. Mỗi cấp"
+" dạy một bộ 10 ký tự."
 
 #: activities/braille_alphabets/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
@@ -3095,6 +3151,8 @@ msgid ""
 "Create the braille cells for the letters on the banner. Check the braille "
 "chart by clicking on the blue braille cell icon if you need some help."
 msgstr ""
+"Tạo các ô chữ nổi cho những chữ cái trên tấm biển. Cần giúp thì bấm vào biểu"
+" tượng ô chữ nổi màu xanh để xem bảng tra."
 
 #. Activity title - the game is the KenKen but we cannot use KenKen as it is a
 #. trademark name
@@ -3136,6 +3194,12 @@ msgid ""
 "cage, when combined using the operator, must produce the result. Cages made "
 "of only one cell directly provide the number to enter."
 msgstr ""
+"Chọn một số trong danh sách rồi bấm vào ô cần điền trên lưới. Mỗi số chỉ "
+"được xuất hiện một lần trên mỗi hàng và mỗi cột. Lồng là nhóm các ô kèm "
+"thông tin về cách điền chúng. Lồng có nhiều hơn một ô thì cho sẵn một kết "
+"quả và một dấu phép tính: đem tất cả các số trong lồng ghép lại bằng dấu "
+"phép tính đó thì phải ra đúng kết quả. Lồng chỉ có một ô thì cho luôn số cần"
+" điền."
 
 #. + is the unicode character for addition mathematical operator (+)
 #: activities/calcudoku/resource/1/Data.qml:66
@@ -3202,6 +3266,8 @@ msgid ""
 "Read the instructions and select the correct date on the calendar, and then "
 "validate your answer by clicking on the OK button."
 msgstr ""
+"Đọc yêu cầu rồi chọn đúng ngày trên lịch, sau đó bấm nút Đồng ý để kiểm tra "
+"câu trả lời."
 
 #: activities/calendar/ActivityInfo.qml:24
 #: activities/find_the_day/ActivityInfo.qml:24
@@ -3529,6 +3595,8 @@ msgid ""
 "You are in charge of the canal lock. Open the gates and the locks in the "
 "right order, so that Tux can travel through the gates in both directions."
 msgstr ""
+"Con phụ trách âu thuyền. Hãy mở cổng và cửa nước theo đúng thứ tự để Tux đi "
+"qua được cả hai chiều."
 
 #: activities/canal_lock/CanalLock.qml:74
 msgctxt "CanalLock|"
@@ -3601,7 +3669,7 @@ msgstr "Kéo được đồ vật bằng chuột hoặc màn hình cảm ứng."
 #: activities/categorization/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Review the instructions and then drag and drop the items as specified."
-msgstr ""
+msgstr "Đọc kỹ chỉ dẫn rồi kéo thả các món theo đúng yêu cầu."
 
 #: activities/categorization/Categorization.qml:156
 msgctxt "Categorization|"
@@ -4168,6 +4236,9 @@ msgid ""
 "Only the dark squares of the checkered board are used. A piece may move only diagonally into an unoccupied square. Capturing is mandatory. The player without pieces remaining, or who cannot move due to being blocked, loses the game.\n"
 "When a man reaches the crownhead or kings row (the farthest row forward), it becomes a king, and is marked by placing an additional piece on top of the first man, and acquires additional powers including the ability to move backwards. If there is a piece in a diagonal that a king can capture, he can move any distance along the diagonal, and may capture an opposing man any distance away by jumping to any of the unoccupied squares immediately beyond it."
 msgstr ""
+"Cờ đam chơi giữa hai người ngồi hai bên bàn cờ. Một bên quân sẫm, bên kia quân sáng. Hai bên đi lần lượt. Không ai được đi quân của đối phương. Một nước đi là chuyển một quân theo đường chéo sang ô trống liền kề. Nếu ô liền kề đó có quân đối phương mà ô ngay sau nó còn trống thì được nhảy qua để ăn quân đó (quân bị ăn bỏ khỏi bàn cờ).\n"
+"Chỉ dùng các ô sẫm màu trên bàn cờ. Quân chỉ đi chéo vào ô trống. Ăn quân là bắt buộc. Ai hết quân, hoặc bị chặn không đi được nữa, là thua.\n"
+"Khi một quân thường tới được hàng cuối cùng bên phía đối phương thì thành quân vua, được đánh dấu bằng cách chồng thêm một quân lên trên, và có thêm quyền đi lùi. Nếu trên một đường chéo có quân ăn được, quân vua đi bao xa cũng được dọc đường chéo đó, và ăn được quân đối phương ở xa bằng cách nhảy tới bất kỳ ô trống nào ngay sau quân ấy."
 
 #: activities/checkers/ActivityInfo.qml:27
 #: activities/checkers_2players/ActivityInfo.qml:26
@@ -4221,6 +4292,9 @@ msgid ""
 "Only the dark squares of the checkered board are used. A piece may move only diagonally into an unoccupied square. Capturing is mandatory. The player without pieces remaining, or who cannot move due to being blocked, loses the game.\n"
 "When a man reaches the crownhead or kings row (the farthest row forward), it becomes a king, and is marked by placing an additional piece on top of the first man, and acquires additional powers including the ability to move backwards. If there is a piece in a diagonal that a king can capture, he can move any distance along the diagonal, and may capture an opposing man any distance away by jumping to any of the unoccupied squares immediately beyond it.\n"
 msgstr ""
+"Cờ đam chơi giữa hai người ngồi hai bên bàn cờ. Một bên quân sẫm, bên kia quân sáng. Hai bên đi lần lượt. Không ai được đi quân của đối phương. Một nước đi là chuyển một quân theo đường chéo sang ô trống liền kề. Nếu ô liền kề đó có quân đối phương mà ô ngay sau nó còn trống thì được nhảy qua để ăn quân đó (quân bị ăn bỏ khỏi bàn cờ).\n"
+"Chỉ dùng các ô sẫm màu trên bàn cờ. Quân chỉ đi chéo vào ô trống. Ăn quân là bắt buộc. Ai hết quân, hoặc bị chặn không đi được nữa, là thua.\n"
+"Khi một quân thường tới được hàng cuối cùng bên phía đối phương thì thành quân vua, được đánh dấu bằng cách chồng thêm một quân lên trên, và có thêm quyền đi lùi. Nếu trên một đường chéo có quân ăn được, quân vua đi bao xa cũng được dọc đường chéo đó, và ăn được quân đối phương ở xa bằng cách nhảy tới bất kỳ ô trống nào ngay sau quân ấy.\n"
 
 #. Activity title
 #: activities/chess/ActivityInfo.qml:15
@@ -4257,6 +4331,15 @@ msgid ""
 "    Be patient enough.\n"
 "<b>Explanation</b>: don't rush too quick, be patient. Let yourself think a little bit and try to predict your opponent's future moves, so that you can catch him or secure your pieces from his attacks."
 msgstr ""
+"Trong hoạt động này con làm quen với cờ vua bằng cách đấu với máy. Chọn một quân thì máy hiện ra những ô quân đó đi được, nhờ vậy trẻ hiểu cách đi của từng quân. Ở cấp đầu, máy đi hoàn toàn ngẫu nhiên để trẻ dễ thắng hơn. Cấp càng cao thì máy chơi càng giỏi. Con dùng các nút mũi tên để tự chọn cấp độ.\n"
+"\n"
+"Con chiếu hết nhanh hơn nếu theo mấy nguyên tắc đơn giản sau:\n"
+"    Cố dồn vua đối phương vào góc.\n"
+"<b>Giải thích</b>: như vậy vua đối phương chỉ còn 3 hướng đi thay vì 8 hướng như khi ở vị trí đẹp.\n"
+"    'Giăng bẫy'. Dùng quân tốt làm mồi.\n"
+"<b>Giải thích</b>: như vậy con dụ được đối phương ra khỏi thế trận an toàn của họ.\n"
+"    Đủ kiên nhẫn.\n"
+"<b>Giải thích</b>: đừng vội, hãy kiên nhẫn. Cho mình chút thời gian suy nghĩ và đoán trước nước đi của đối phương, để bắt được quân của họ hoặc giữ quân mình khỏi bị tấn công."
 
 #: activities/chess/ActivityInfo.qml:31
 #: activities/chess_2players/ActivityInfo.qml:31
@@ -4354,6 +4437,15 @@ msgid ""
 "    Be patient enough.\n"
 "<b>Explanation</b>: don't rush too quick, be patient. Let yourself think a little bit and try to predict your opponent's future moves, so that you can catch him or secure your pieces from his attacks."
 msgstr ""
+"Trong hoạt động này con làm quen với cờ vua bằng cách đấu với một người bạn. Chọn một quân thì máy hiện ra những ô quân đó đi được, nhờ vậy trẻ hiểu cách đi của từng quân.\n"
+"\n"
+"Con chiếu hết nhanh hơn nếu theo mấy nguyên tắc đơn giản sau:\n"
+"    Cố dồn vua đối phương vào góc.\n"
+"<b>Giải thích</b>: như vậy vua đối phương chỉ còn 3 hướng đi thay vì 8 hướng như khi ở vị trí đẹp.\n"
+"    'Giăng bẫy'. Dùng quân tốt làm mồi.\n"
+"<b>Giải thích</b>: như vậy con dụ được đối phương ra khỏi thế trận an toàn của họ.\n"
+"    Đủ kiên nhẫn.\n"
+"<b>Giải thích</b>: đừng vội, hãy kiên nhẫn. Cho mình chút thời gian suy nghĩ và đoán trước nước đi của đối phương, để bắt được quân của họ hoặc giữ quân mình khỏi bị tấn công."
 
 #. Activity title
 #: activities/chess_partyend/ActivityInfo.qml:15
@@ -4388,6 +4480,15 @@ msgid ""
 "    Be patient enough.\n"
 "<b>Explanation</b>: don't rush too quick, be patient. Let yourself think a little bit and try to predict your opponent's future moves, so that you can catch him or secure your pieces from his attacks."
 msgstr ""
+"Trong hoạt động này con làm quen với cờ vua bằng cách chỉ chơi phần tàn cuộc. Chọn một quân thì máy hiện ra những ô quân đó đi được, nhờ vậy trẻ hiểu cách đi của từng quân.\n"
+"\n"
+"Con chiếu hết nhanh hơn nếu theo mấy nguyên tắc đơn giản sau:\n"
+"    Cố dồn vua đối phương vào góc.\n"
+"<b>Giải thích</b>: như vậy vua đối phương chỉ còn 3 hướng đi thay vì 8 hướng như khi ở vị trí đẹp.\n"
+"    'Giăng bẫy'. Dùng quân tốt làm mồi.\n"
+"<b>Giải thích</b>: như vậy con dụ được đối phương ra khỏi thế trận an toàn của họ.\n"
+"    Đủ kiên nhẫn.\n"
+"<b>Giải thích</b>: đừng vội, hãy kiên nhẫn. Cho mình chút thời gian suy nghĩ và đoán trước nước đi của đối phương, để bắt được quân của họ hoặc giữ quân mình khỏi bị tấn công."
 
 #. Activity title
 #: activities/chronos/ActivityInfo.qml:19
@@ -4422,6 +4523,8 @@ msgid ""
 "sidebar to the corresponding dots, then click the OK button to validate your"
 " answer."
 msgstr ""
+"Sắp các bức tranh thành một câu chuyện có đầu có đuôi. Kéo tranh từ khung "
+"bên cạnh về các chấm tương ứng, rồi bấm nút Đồng ý để kiểm tra câu trả lời."
 
 #: activities/chronos/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
@@ -4763,6 +4866,8 @@ msgid ""
 "A letter is spoken. Click on the matching letter in the main area. You can "
 "listen to the letter again by clicking on the mouth icon."
 msgstr ""
+"Một chữ cái được đọc lên. Bấm vào đúng chữ đó ở vùng chính. Muốn nghe lại "
+"thì bấm vào biểu tượng cái miệng."
 
 #: activities/click_on_letter/ActivityInfo.qml:27
 #: activities/click_on_letter_up/ActivityInfo.qml:27
@@ -4845,6 +4950,9 @@ msgid ""
 " selected the next blue one appears. You can click and drag from one point "
 "to the next ones, or click on each point one after the other."
 msgstr ""
+"Vẽ bức tranh bằng cách bấm lần lượt vào từng điểm. Mỗi lần chọn một điểm thì"
+" điểm xanh tiếp theo hiện ra. Con có thể bấm rồi kéo từ điểm này sang điểm "
+"kia, hoặc bấm từng điểm một."
 
 #. Activity title
 #: activities/clickgame/ActivityInfo.qml:15
@@ -4875,7 +4983,7 @@ msgstr "Di được chuột hoặc dùng màn hình cảm ứng và bấm đúng
 msgctxt "ActivityInfo|"
 msgid ""
 "Catch all the moving fish by clicking or touching them with your finger."
-msgstr ""
+msgstr "Bắt hết đàn cá đang bơi bằng cách bấm hoặc chạm ngón tay vào chúng."
 
 #: activities/clockgame/ActivityConfig.qml:24
 msgctxt "ActivityConfig|"
@@ -4926,6 +5034,7 @@ msgid ""
 "Set the clock to the given time. Drag the different hands to control their "
 "respective unit."
 msgstr ""
+"Chỉnh đồng hồ về đúng giờ đã cho. Kéo từng kim để chỉnh đơn vị tương ứng."
 
 #: activities/clockgame/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
@@ -5014,7 +5123,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "This activity teaches how mixing primary paint colors works (subtractive "
 "mixing)."
-msgstr ""
+msgstr "Hoạt động này dạy cách pha các màu sơn cơ bản (pha trừ)."
 
 #: activities/color_mix/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
@@ -5130,7 +5239,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "This activity teaches how mixing primary light colors works (additive "
 "mixing)."
-msgstr ""
+msgstr "Hoạt động này dạy cách pha các màu ánh sáng cơ bản (pha cộng)."
 
 #: activities/color_mix_light/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
@@ -5179,7 +5288,7 @@ msgstr "Nhận biết màu sắc."
 #: activities/colors/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Listen to the color and click on the matching duck."
-msgstr ""
+msgstr "Nghe tên màu rồi bấm vào chú vịt đúng màu đó."
 
 #: activities/colors/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
@@ -5288,6 +5397,8 @@ msgid ""
 "symbol for this pair. When each line contains a symbol, select the OK button"
 " to validate the answers."
 msgstr ""
+"Chọn một cặp số trong danh sách. Rồi chọn dấu so sánh đúng cho cặp đó. Khi "
+"mọi dòng đều đã có dấu, bấm nút Đồng ý để kiểm tra câu trả lời."
 
 #: activities/comparator/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
@@ -5405,6 +5516,9 @@ msgid ""
 "inspiration from. In free mode, you can draw freely and adjust the canvas "
 "size and grid spacing as you want from the compass settings menu."
 msgstr ""
+"Ở chế độ theo mẫu, mỗi cấp có một hình mẫu để vẽ lại hoặc lấy ý tưởng. Ở chế"
+" độ tự do, con vẽ thoải mái và tự chỉnh cỡ khung vẽ cùng khoảng cách lưới "
+"trong menu cài đặt compa."
 
 #: activities/compass/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
@@ -5809,6 +5923,10 @@ msgid ""
 "arrows that let you move the selected item. You can also swipe "
 "up/down/left/right to move the selected item."
 msgstr ""
+"Di chuyển các món trong khung xanh cho khớp vị trí ở khung mẫu. Muốn chọn "
+"một món thì cứ bấm vào nó. Cạnh cần cẩu có bốn mũi tên để dịch chuyển món "
+"đang chọn. Con cũng vuốt lên, xuống, trái, phải để dịch chuyển món đang "
+"chọn."
 
 #: activities/crane/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
@@ -5896,6 +6014,8 @@ msgid ""
 "Find a picture detail in the sidebar, and drag it to the right spot on the "
 "picture."
 msgstr ""
+"Tìm một chi tiết của bức tranh ở khung bên cạnh rồi kéo nó về đúng chỗ trên "
+"tranh."
 
 #: activities/details/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
@@ -26737,7 +26857,7 @@ msgstr "Giải phép cộng, 3 chữ số, 3 hàng."
 #: activities/vertical_addition/resource/9/Data.qml:12
 msgctxt "Data|"
 msgid "Solve addition, 4 digits, 2 lines."
-msgstr ""
+msgstr "Giải phép cộng, 4 chữ số, 2 hàng."
 
 #. Activity title
 #: activities/vertical_subtraction/ActivityInfo.qml:15
@@ -26798,110 +26918,110 @@ msgstr ""
 #: activities/vertical_subtraction_compensation/resource/1/Data.qml:12
 msgctxt "Data|"
 msgid "Solve subtraction, 2 digits, 2 lines, without carry."
-msgstr ""
+msgstr "Giải phép trừ, 2 chữ số, 2 hàng, không nhớ."
 
 #: activities/vertical_subtraction/resource/10/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/10/Data.qml:12
 msgctxt "Data|"
 msgid "Solve subtraction, 4 or 5 digits, 3 lines."
-msgstr ""
+msgstr "Giải phép trừ, 4 hoặc 5 chữ số, 3 hàng."
 
 #: activities/vertical_subtraction/resource/11/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/11/Data.qml:12
 msgctxt "Data|"
 msgid "Solve subtraction, 4 or 5 digits, 4 lines."
-msgstr ""
+msgstr "Giải phép trừ, 4 hoặc 5 chữ số, 4 hàng."
 
 #: activities/vertical_subtraction/resource/12/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/12/Data.qml:12
 msgctxt "Data|"
 msgid "Write your own subtraction and solve it."
-msgstr ""
+msgstr "Tự viết phép trừ của con rồi giải."
 
 #: activities/vertical_subtraction/resource/2/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/2/Data.qml:12
 msgctxt "Data|"
 msgid "Write and solve subtraction, 2 digits, 2 lines, without carry."
-msgstr ""
+msgstr "Viết rồi giải phép trừ, 2 chữ số, 2 hàng, không nhớ."
 
 #: activities/vertical_subtraction/resource/3/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/3/Data.qml:12
 msgctxt "Data|"
 msgid "Solve subtraction, 2 or 3 digits, 2 lines."
-msgstr ""
+msgstr "Giải phép trừ, 2 hoặc 3 chữ số, 2 hàng."
 
 #: activities/vertical_subtraction/resource/4/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/4/Data.qml:12
 msgctxt "Data|"
 msgid "Write and solve subtraction, 2 or 3 digits, 2 lines."
-msgstr ""
+msgstr "Viết rồi giải phép trừ, 2 hoặc 3 chữ số, 2 hàng."
 
 #: activities/vertical_subtraction/resource/5/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/5/Data.qml:12
 msgctxt "Data|"
 msgid "Write and solve subtraction, 2 or 3 digits, 3 lines."
-msgstr ""
+msgstr "Viết rồi giải phép trừ, 2 hoặc 3 chữ số, 3 hàng."
 
 #: activities/vertical_subtraction/resource/6/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/6/Data.qml:12
 msgctxt "Data|"
 msgid "Solve subtraction, 3 or 4 digits, 2 lines."
-msgstr ""
+msgstr "Giải phép trừ, 3 hoặc 4 chữ số, 2 hàng."
 
 #: activities/vertical_subtraction/resource/7/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/7/Data.qml:12
 msgctxt "Data|"
 msgid "Write and solve subtraction, 3 or 4 digits, 2 lines."
-msgstr ""
+msgstr "Viết rồi giải phép trừ, 3 hoặc 4 chữ số, 2 hàng."
 
 #: activities/vertical_subtraction/resource/8/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/8/Data.qml:12
 msgctxt "Data|"
 msgid "Solve subtraction, 3 or 4 digits, 3 lines."
-msgstr ""
+msgstr "Giải phép trừ, 3 hoặc 4 chữ số, 3 hàng."
 
 #: activities/vertical_subtraction/resource/9/Data.qml:12
 #: activities/vertical_subtraction_compensation/resource/9/Data.qml:12
 msgctxt "Data|"
 msgid "Solve subtraction, 4 or 5 digits, 2 lines."
-msgstr ""
+msgstr "Giải phép trừ, 4 hoặc 5 chữ số, 2 hàng."
 
 #: activities/vertical_subtraction/subtraction.js:78
 msgctxt "subtraction|"
 msgid "Write:"
-msgstr ""
+msgstr "Viết:"
 
 #: activities/vertical_subtraction/subtraction.js:78
 msgctxt "subtraction|"
 msgid "Solve:"
-msgstr ""
+msgstr "Giải:"
 
 #. Solve (= Find the result of): %1 (= the operation to solve)
 #: activities/vertical_subtraction/subtraction.js:189
 #, qt-format
 msgctxt "subtraction|"
 msgid "Solve: %1"
-msgstr ""
+msgstr "Giải: %1"
 
 #: activities/vertical_subtraction/VerticalSubtraction.qml:106
 msgctxt "VerticalSubtraction|"
 msgid "Write your own addition and solve it."
-msgstr ""
+msgstr "Tự viết phép cộng của con rồi giải."
 
 #: activities/vertical_subtraction/VerticalSubtraction.qml:107
 msgctxt "VerticalSubtraction|"
 msgid "Write your own subtraction and solve it."
-msgstr ""
+msgstr "Tự viết phép trừ của con rồi giải."
 
 #: activities/vertical_subtraction/VerticalSubtraction.qml:433
 msgctxt "VerticalSubtraction|"
 msgid "Ready"
-msgstr ""
+msgstr "Sẵn sàng"
 
 #: activities/vertical_subtraction/VerticalSubtraction.qml:471
 msgctxt "VerticalSubtraction|"
 msgid "The result should not be a negative number."
-msgstr ""
+msgstr "Kết quả không được là số âm."
 
 #. Activity title
 #: activities/vertical_subtraction_compensation/ActivityInfo.qml:15
@@ -26981,11 +27101,13 @@ msgid ""
 "The sun is the main component of the water cycle. Click on the sun to start "
 "the water cycle."
 msgstr ""
+"Mặt Trời là thứ quan trọng nhất trong vòng tuần hoàn nước. Bấm vào Mặt Trời "
+"để bắt đầu vòng tuần hoàn."
 
 #: activities/watercycle/Watercycle.qml:115
 msgctxt "Watercycle|"
 msgid "As the sun rises, the water of the sea starts heating and evaporates."
-msgstr ""
+msgstr "Mặt Trời lên, nước biển nóng dần rồi bốc hơi."
 
 #: activities/watercycle/Watercycle.qml:116
 msgctxt "Watercycle|"
@@ -26993,6 +27115,7 @@ msgid ""
 "Water vapor condenses to form clouds and when clouds become heavy, it rains."
 " Click on the cloud."
 msgstr ""
+"Hơi nước ngưng tụ thành mây, mây nặng hạt thì đổ mưa. Bấm vào đám mây."
 
 #: activities/watercycle/Watercycle.qml:117
 msgctxt "Watercycle|"
@@ -27001,24 +27124,27 @@ msgid ""
 "motor pumps through water-towers. Click on the motor pump to supply water to"
 " residents."
 msgstr ""
+"Mưa làm sông đầy nước, rồi máy bơm đưa nước qua tháp nước tới cho chúng ta. "
+"Bấm vào máy bơm để cấp nước cho khu dân cư."
 
 #: activities/watercycle/Watercycle.qml:119
 msgctxt "Watercycle|"
 msgid ""
 "See the tower filled with water. Activate the sewage treatment station by "
 "clicking on it."
-msgstr ""
+msgstr "Tháp nước đầy rồi kìa. Bấm vào trạm xử lý nước thải để cho nó chạy."
 
 #: activities/watercycle/Watercycle.qml:120
 msgctxt "Watercycle|"
 msgid "Great, click on the shower, as Tux arrives home."
-msgstr ""
+msgstr "Giỏi lắm, Tux vừa về tới nhà, bấm vào vòi sen đi."
 
 #: activities/watercycle/Watercycle.qml:121
 msgctxt "Watercycle|"
 msgid ""
 "Fantastic, you have completed the water cycle. You can continue playing."
 msgstr ""
+"Quá hay, con đã hoàn thành vòng tuần hoàn nước. Con chơi tiếp được nhé."
 
 #: activities/watercycle/Watercycle.qml:140
 msgctxt "Watercycle|"
@@ -27027,6 +27153,9 @@ msgid ""
 "takes as it circulates from the land to the sky and back again. The sun's "
 "heat provides energy to evaporate water from water bodies like oceans."
 msgstr ""
+"Vòng tuần hoàn nước là hành trình của nước từ mặt đất bay lên trời rồi quay "
+"lại. Sức nóng Mặt Trời cấp năng lượng làm nước ở biển và các vùng nước khác "
+"bốc hơi."
 
 #: activities/watercycle/Watercycle.qml:143
 msgctxt "Watercycle|"
@@ -27035,6 +27164,9 @@ msgid ""
 "cools down forming tiny droplets in clouds. When the clouds meet cool air "
 "over the land, precipitation is triggered and falls down as rain."
 msgstr ""
+"Cây cối cũng thoát hơi nước vào không khí. Hơi nước nguội đi, tụ thành những"
+" hạt li ti trong mây. Khi mây gặp luồng khí lạnh trên đất liền thì trút "
+"xuống thành mưa."
 
 #: activities/watercycle/Watercycle.qml:146
 msgctxt "Watercycle|"
@@ -27043,6 +27175,8 @@ msgid ""
 "groundwater. But most of the water flows as runoff, eventually returning to "
 "the seas via rivers."
 msgstr ""
+"Một phần nước bị giữ lại giữa các lớp đá hay đất sét, gọi là nước ngầm. "
+"Nhưng phần lớn nước chảy tràn trên mặt đất rồi theo sông ra biển."
 
 #: activities/watercycle/Watercycle.qml:149
 msgctxt "Watercycle|"
@@ -27053,6 +27187,10 @@ msgid ""
 " treatment, and at last regulate the switch to provide water to Tux's "
 "shower."
 msgstr ""
+"Việc của con là hoàn thành vòng tuần hoàn nước trước khi Tux về tới nhà. Bấm"
+" lần lượt vào các bộ phận làm nên vòng tuần hoàn: Mặt Trời trước, rồi đám "
+"mây, trạm bơm nước bên sông, trạm xử lý nước thải, cuối cùng là gạt công tắc"
+" để cấp nước cho vòi sen của Tux."
 
 #. Activity title
 #: activities/wordsgame/ActivityInfo.qml:15

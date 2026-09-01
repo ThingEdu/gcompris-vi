@@ -112,8 +112,10 @@ def cmd_import(args):
     applied = skipped = 0
     errors = []
     for it in items:
-        vi = (it.get("vi") or "").strip("\n")
-        if not vi:
+        # KHÔNG cắt xuống dòng ở hai đầu: nhiều chuỗi của GCompris cố ý kết thúc
+        # bằng \n hoặc khoảng trắng, cắt đi là sai lệch so với bản gốc.
+        vi = it.get("vi") or ""
+        if not vi.strip():
             skipped += 1
             continue
         e = po[it["k"]]
