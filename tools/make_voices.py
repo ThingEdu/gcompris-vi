@@ -19,7 +19,12 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANIFEST_DIR = os.path.join(ROOT, "voices", "manifest")
 WAV_DIR = os.path.join(ROOT, "build", "voices-wav")
-DEFAULT_REF = os.path.expanduser("~/Ai-Code/NeoTeach/voices/giong_tuan/ref.wav")
+# Giọng chuẩn nam miền Bắc "Bình" đi kèm gói vieneu.
+# Đổi giọng: truyền --ref tới một tệp wav khác rồi chạy lại với --force.
+_VIENEU_SAMPLES = os.path.expanduser(
+    "~/Ai-Code/NeoTeach/voice-studio/.venv/lib/python3.14/site-packages/vieneu/assets/samples"
+)
+DEFAULT_REF = os.path.join(_VIENEU_SAMPLES, "Bình (nam miền Bắc).wav")
 SAMPLE_RATE = 24000
 EXT = {"ogg": "ogg", "aac": "aac", "mp3": "mp3"}
 
@@ -73,14 +78,21 @@ def duration_band(text):
     return 0.15 * syl + 0.10, 0.55 * syl + 1.2
 
 
-def synthesize(tts, ref, text, tries=6):
+# Nhiệt độ lấy mẫu cho từng lần thử. Bộ sinh của VieNeu gieo số ngẫu nhiên cố
+# định nên gọi lại y hệt sẽ ra y hệt — muốn thử lại có ích thì phải đổi nhiệt độ.
+TEMPERATURES = [0.4, 0.30, 0.55, 0.22, 0.70, 0.45, 0.35, 0.60]
+
+
+def synthesize(tts, ref, text, tries=len(TEMPERATURES)):
     """Sinh giọng, thử lại tới khi thời lượng nằm trong dải hợp lý."""
     import numpy as np
 
     lo, hi = duration_band(text)
     best = None
-    for _ in range(tries):
-        audio = np.squeeze(np.asarray(tts.infer(text=text, voice=ref)))
+    for attempt in range(tries):
+        temp = TEMPERATURES[attempt % len(TEMPERATURES)]
+        audio = np.squeeze(np.asarray(
+            tts.infer(text=text, voice=ref, temperature=temp, show_progress=False)))
         if audio.dtype == np.int16:
             audio = audio.astype(np.float32) / 32768.0
         audio = trim_silence(audio)

@@ -1,7 +1,7 @@
 # Kho giọng đọc tiếng Việt
 
 Sinh bằng [VieNeu-TTS](https://huggingface.co/pnnbao-ump) (zero-shot, chạy trên máy),
-giọng mẫu lấy từ `~/Ai-Code/NeoTeach/voices/giong_tuan/ref.wav`.
+giọng **Bình (nam miền Bắc)** — giọng mẫu chuẩn đi kèm gói `vieneu`.
 
 ## Cách làm
 
@@ -19,10 +19,14 @@ cd ~/Ai-Code/gcompris-vi && .venv/bin/python tools/check_voices.py --fmt ogg
 
 ## Vì sao phải soát
 
-VieNeu-TTS không tất định. Với câu ngắn (một, hai âm tiết) nó thỉnh thoảng
-cho ra tệp cụt 0,1 giây hoặc chạy loạn hơn 10 giây — đủ để hỏng cả bộ chữ cái.
-`make_voices.py` cắt lặng hai đầu rồi kiểm tra thời lượng theo số âm tiết, sai
-thì sinh lại tới 6 lần. Dải thời lượng hiệu chuẩn từ 116 câu dài đã sinh:
+Với câu ngắn (một, hai âm tiết) VieNeu-TTS thỉnh thoảng cho ra tệp cụt 0,1 giây
+hoặc chạy loạn hơn 10 giây — đủ để hỏng cả bộ chữ cái. `make_voices.py` cắt lặng
+hai đầu rồi kiểm tra thời lượng theo số âm tiết, sai thì sinh lại.
+
+**Quan trọng:** bộ sinh gieo số ngẫu nhiên cố định, nên gọi lại y hệt sẽ ra y hệt.
+Ba tệp hỏng lặp lại đúng từng phần trăm giây qua hai lần đổi giọng mới lộ ra điều
+này. Mỗi lần thử lại nay dùng một **nhiệt độ lấy mẫu** khác (0,22 tới 0,70) — có
+vậy thử lại mới có tác dụng. Dải thời lượng hiệu chuẩn từ 116 câu dài đã sinh:
 0,19–0,32 giây mỗi âm tiết.
 
 ## Đã có
@@ -43,9 +47,9 @@ thì sinh lại tới 6 lần. Dải thời lượng hiệu chuẩn từ 116 câ
 
 ## Hai điểm cần chốt
 
-1. **Giọng mẫu.** Đang dùng giọng của anh Tuấn (lấy từ NeoTeach). Với trẻ mẫu
-   giáo, giọng cô giáo thường hợp hơn. Đổi giọng chỉ cần thay `--ref` rồi chạy
-   lại — mất khoảng 10 phút cho cả 202 tệp.
+1. **Giọng mẫu.** Đã chốt **Bình (nam miền Bắc)** sau khi nghe thử sáu giọng.
+   Đổi giọng chỉ cần thay `--ref` rồi chạy lại với `--force` — mất khoảng 10
+   phút cho cả 202 tệp.
 2. **Cách đọc bảng chữ cái.** Đang đọc theo **âm** (bờ, cờ, dờ) như sách Tiếng
    Việt 1, chứ không theo **tên chữ** (bê, xê, dê). Nếu muốn đổi thì sửa
    `voices/manifest/alphabet.tsv` rồi sinh lại.
