@@ -85,17 +85,25 @@ PYEOF
 "$PY" "$HERE/tools/rcc_repack.py" "$WORK/x" "$CORE" --version "$VER"
 
 # --- 3. kho giọng ---
+# Mỗi đời GCompris tìm kho giọng ở một chỗ khác nhau, nên cài vào cả ba:
+#   - bản 26.x  : <data>/rcc/data3/voices-ogg/voices-vi-<ngày>.rcc, đọc tên từ tệp Contents
+#   - bản 4.x   : ~/.cache/gcompris-qt/data3/voices-ogg/ (tên có ngày)
+#   - bản 3.x   : ~/.cache/KDE/gcompris-qt/data2/voices-ogg/voices-vi.rcc (tên KHÔNG có ngày)
+# Đã kiểm chứng trên NEO One chạy gcompris-qt 3.1-2 của Debian bookworm.
 SRC="$HERE/build/data3/voices-$FMT"
 if [ -d "$SRC" ]; then
-    if [ -w "$ROOT/rcc" ]; then
-        DST="$ROOT/rcc/data3/voices-$FMT"
-    else
-        DST="${XDG_CACHE_HOME:-$HOME/.cache}/gcompris-qt/data3/voices-$FMT"
-        echo "  (không ghi được vào $ROOT/rcc, dùng thư mục cache của người dùng)"
-    fi
-    mkdir -p "$DST"; rm -f "$DST"/voices-vi-*.rcc
-    cp "$SRC"/Contents "$SRC"/voices-vi-*.rcc "$DST/"
-    echo "→ kho giọng ($FMT): $DST"
+    CACHE="${XDG_CACHE_HOME:-$HOME/.cache}"
+    RCCFILE=$(ls "$SRC"/voices-vi-*.rcc | head -1)
+    for DST in "$ROOT/rcc/data3/voices-$FMT" "$CACHE/gcompris-qt/data3/voices-$FMT"; do
+        if mkdir -p "$DST" 2>/dev/null && [ -w "$DST" ]; then
+            rm -f "$DST"/voices-vi-*.rcc
+            cp "$SRC/Contents" "$RCCFILE" "$DST/"
+            echo "→ kho giọng ($FMT): $DST"
+        fi
+    done
+    OLD="$CACHE/KDE/gcompris-qt/data2/voices-$FMT"
+    mkdir -p "$OLD" && cp "$RCCFILE" "$OLD/voices-vi.rcc"
+    echo "→ kho giọng cho bản 3.x: $OLD/voices-vi.rcc"
     echo "  Nhớ đặt enableAutomaticDownloads=false trong gcompris-qt.conf,"
     echo "  nếu không GCompris sẽ tải đè tệp Contents từ cdn.kde.org."
 else
