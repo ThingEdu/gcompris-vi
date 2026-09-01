@@ -1,0 +1,184 @@
+2721	Ở những cấp đầu, Tux đi thong thả trong mê cung, mỗi lần bấm là một bước.
+2722	Nhìn chân Tux là biết kiểu này đang bật hay tắt: chân trần là "chạy nhanh" đang tắt, còn đi giày thể thao đỏ là đang bật.
+2723	Phím cách: chuyển qua lại giữa chế độ vô hình và chế độ nhìn thấy
+2726	Trong mê cung này, hướng đi tính theo Tux. Phím trái phải để quay, phím lên để đi tới.
+2727	Mũi tên trái và phải: quay trái, quay phải
+2728	Mũi tên xuống: quay lại đằng sau
+2729	Mũi tên lên: đi tới
+2735	Hoạt động này cần âm thanh, nên vẫn sẽ phát tiếng dù giọng đọc hay hiệu ứng đã bị tắt trong phần cài đặt chung.
+2736	Thoát
+2737	Chơi tiếp
+2743	Phím cách hoặc Enter: lật tấm thẻ đang chọn
+2744	1 người chơi
+2745	2 người chơi
+2746	Chọn số người chơi
+2753	Ghép các số tới 2.
+2754	Ghép các số tới 3.
+2755	Ghép các số tới 4.
+2756	Ghép các số tới 5.
+2757	Ghép các số tới 6.
+2758	Ghép các số tới 7.
+2759	Ghép các số tới 8.
+2760	Ghép các số tới 9.
+2766	Bảng 1.
+2767	Bảng 10.
+2768	Bảng 2.
+2769	Bảng 3.
+2770	Bảng 4.
+2771	Bảng 5.
+2772	Bảng 6.
+2773	Bảng 7.
+2774	Bảng 8.
+2775	Bảng 9.
+2789	Bảng cộng 1.
+2790	Bảng cộng 10.
+2791	Bảng cộng 2.
+2792	Bảng cộng 3.
+2793	Bảng cộng 4.
+2794	Bảng cộng 5.
+2795	Bảng cộng 6.
+2796	Bảng cộng 7.
+2797	Bảng cộng 8.
+2798	Bảng cộng 9.
+2806	Bảng chia 1.
+2807	Bảng chia 10.
+2808	Bảng chia 2.
+2809	Bảng chia 3.
+2810	Bảng chia 4.
+2811	Bảng chia 5.
+2812	Bảng chia 6.
+2813	Bảng chia 7.
+2814	Bảng chia 8.
+2815	Bảng chia 9.
+2823	Bảng trừ 1.
+2824	Bảng trừ 10.
+2825	Bảng trừ 2.
+2826	Bảng trừ 3.
+2827	Bảng trừ 4.
+2828	Bảng trừ 5.
+2829	Bảng trừ 6.
+2830	Bảng trừ 7.
+2831	Bảng trừ 8.
+2832	Bảng trừ 9.
+2847	Bảng nhân 1.
+2848	Bảng nhân 10.
+2849	Bảng nhân 2.
+2850	Bảng nhân 3.
+2851	Bảng nhân 4.
+2852	Bảng nhân 5.
+2853	Bảng nhân 6.
+2854	Bảng nhân 7.
+2855	Bảng nhân 8.
+2856	Bảng nhân 9.
+2873	không
+2874	một
+2875	hai
+2876	ba
+2877	bốn
+2878	năm
+2879	sáu
+2880	bảy
+2881	tám
+2882	chín
+2883	mười
+2884	mười một
+2885	mười hai
+2886	mười ba
+2887	mười bốn
+2888	mười lăm
+2889	mười sáu
+2890	mười bảy
+2891	mười tám
+2892	mười chín
+2893	hai mươi
+2900	Hoạt động này cần âm thanh, nên vẫn sẽ phát tiếng dù giọng đọc hay hiệu ứng đã bị tắt trong phần cài đặt chung.
+2901	Thoát
+2902	Chơi tiếp
+2908	Các biểu tượng sau sẽ hiện ra:\n(mỗi biểu tượng chỉ hiện nếu hoạt động đang mở có dùng tới nó)
+2909	Ngôi nhà - Thoát hoạt động, quay về menu (Ctrl+W hoặc phím Esc)
+2910	Mũi tên - Hiện cấp độ hiện tại. Bấm vào để chọn cấp khác
+2911	Cái miệng - Nghe lại câu hỏi
+2912	Dấu chấm hỏi - Trợ giúp
+2913	Mũi tên vòng - Chơi lại hoạt động từ đầu
+2914	Cờ lê - Menu cài đặt
+2915	Ba vạch ngang - Menu thiết lập hoạt động
+2916	Chữ G - Giới thiệu GCompris
+2917	Thoát - Thoát GCompris (Ctrl+Q)
+2918	Các ngôi sao cho biết hoạt động hợp với lứa tuổi nào:
+2919	1, 2 hay 3 sao vàng - từ 2 tới 6 tuổi
+2920	1, 2 hay 3 sao đỏ - từ 7 tuổi trở lên
+2921	Nếu một hoạt động có hai biểu tượng sao khác nhau thì cái đầu là độ khó thấp nhất, cái sau là độ khó cao nhất.
+2922	<b>Phím tắt:</b>
+2923	Ctrl+B: Hiện hoặc ẩn thanh công cụ
+2924	Ctrl+F: Bật tắt toàn màn hình
+2925	Ctrl+S: Bật tắt thanh nhóm hoạt động
+2926	Nhạc nền
+2927	Tắt nhạc nền đi nếu bạn không muốn nghe.
+2928	Đang phát:
+2929	Tên bài: %1
+2930	Nghệ sĩ: %1
+2931	Năm: %1
+2932	Bản quyền: %1
+2933	Lọc theo độ khó
+2934	Chọn ngôn ngữ
+2935	Tự động tải và cập nhật các gói dữ liệu ngoài
+2936	Giọng đọc theo ngôn ngữ
+2937	Kiểm tra bản cập nhật
+2938	Tải về
+2939	Bật giọng đọc
+2940	Bật hiệu ứng âm thanh
+2941	Âm lượng hiệu ứng
+2942	Tải nhạc nền về
+2943	Bật nhạc nền
+2944	Nhạc nền
+2945	Không phát
+2946	Tên bài: %1  Nghệ sĩ: %2
+2947	Nhạc mở đầu
+2948	Âm lượng nhạc nền
+2949	Đã cài bộ ảnh từ vựng đầy đủ
+2950	Chưa cài bộ ảnh từ vựng đầy đủ
+2951	Tải bộ ảnh từ vựng đầy đủ
+2952	Toàn màn hình
+2953	Bàn phím ảo
+2954	Hiện thanh nhóm hoạt động
+2955	Hỏi lại trước khi thoát
+2956	Chọn phông chữ
+2957	Cỡ chữ
+2958	Mặc định
+2959	Kiểu chữ hoa thường
+2960	Giãn cách chữ cái
+2961	Cài đặt máy chủ của thầy cô
+2962	Lẫn hoa lẫn thường (mặc định)
+2963	Tất cả chữ hoa
+2964	Tất cả chữ thường
+2965	Bạn vừa chọn ngôn ngữ mới, có tải các tệp âm thanh tương ứng về luôn không?
+2966	Có
+2967	Không
+2968	Tư duy logic
+2969	Mỹ thuật
+2970	Âm nhạc
+2971	Thí nghiệm
+2972	Lịch sử
+2973	Địa lý
+2974	Số đếm
+2975	Số học
+2976	Đo lường
+2977	Chữ cái
+2978	Từ ngữ
+2979	Từ vựng
+2980	GCompris chưa kết nối tới máy chủ của thầy cô.
+2981	GCompris đã kết nối tới máy chủ của thầy cô, nhưng mật khẩu của người dùng được chọn bị sai.
+2982	GCompris đã kết nối tới máy chủ của thầy cô, người dùng đăng nhập là %1.
+2983	GCompris bị mất kết nối tới máy chủ của thầy cô.
+2984	GCompris đã ngắt kết nối khỏi máy chủ của thầy cô.
+2985	GCompris đã kết nối tới máy chủ của thầy cô, nhưng người dùng chưa đăng nhập.
+2986	Đặt hoạt động con thích vào đây bằng cách bấm vào mặt trời ở góc trên bên phải của hoạt động đó.
+2987	Tìm hoạt động
+2988	Thiết lập hoạt động
+2989	Cài đặt máy chủ của thầy cô
+2990	Mã định danh của thầy cô
+2991	Cổng máy chủ
+2992	Cổng máy chủ phải là số từ 0 tới 65535.
+2998	Nhặt được cục vàng rồi, hãy lăn bánh xe chuột hoặc chụm ngón tay để thu nhỏ lại. Khi thu về mức nhỏ nhất, một chỗ lấp lánh khác sẽ hiện ra, chỉ cục vàng tiếp theo. Nhặt đủ số cục vàng là qua màn.
+2999	Toa xe ở góc dưới bên phải màn hình cho biết con đã nhặt được bao nhiêu cục vàng và cần nhặt tất cả bao nhiêu cục ở màn này.
+3000	Xin cảm ơn nhóm Tuxpaint đã cho dùng những âm thanh sau theo giấy phép GPL:

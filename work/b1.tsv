@@ -1,0 +1,210 @@
+207	Battery	I = %1A
+210	Bulb	I = %1A
+215	Resistor	I = %1A
+218	Rheostat	I = %1A
+625	board1_0	1
+626	board1_0	2
+627	board1_0	3
+628	board1_0	4
+635	board3_0	1
+636	board3_0	2
+637	board3_0	3
+638	board3_0	4
+640	board4_0	1
+641	board4_0	2
+642	board4_0	3
+643	board4_0	4
+918	AndGate	A AND B
+924	NandGate	NOT (A AND B)
+926	NorGate	NOT (A OR B)
+931	OrGate	A OR B
+937	XorGate	A XOR B
+1192	board5	Castillo de San Marcos
+2454	instruments	Find the drum kit
+2455	instruments	Find the accordion
+2456	instruments	Find the banjo
+2457	instruments	Find the bongos
+2458	instruments	Find the electric guitar
+2459	instruments	Find the castanets
+2460	instruments	Find the cymbal
+2461	instruments	Find the cello
+2462	instruments	Find the harmonica
+2463	instruments	Find the horn
+2464	instruments	Find the maracas
+2465	instruments	Find the organ
+2466	instruments	Find the snare drum
+2467	instruments	Find the timpani
+2468	instruments	Find the triangle
+2469	instruments	Find the tambourine
+2470	instruments	Find the tuba
+2471	ActivityConfig	Uppercase letters
+2472	ActivityConfig	Lowercase letters
+2481	ActivityInfo	In first levels, use the up/down keys to control the thrust and the right/left keys to control the direction. On touch screens you can control the rocket through the corresponding on-screen buttons.
+2482	ActivityInfo	In higher levels, you can use the right/left keys to rotate the spaceship. By rotating the spaceship you can trigger an acceleration in non-vertical direction using the up/down keys.
+2483	ActivityInfo	The landing platform is green if your speed is fine for a safe landing.
+2484	ActivityInfo	The accelerometer on the right border shows your rocket's overall vertical acceleration including gravitational force. In the upper green area of the accelerometer your acceleration is higher than the gravitational force, in the lower red area it's lower, and on the blue baseline in the yellow middle area the two forces cancel each other out.
+2485	ActivityInfo	Up and Down arrows: control the thrust of the rear engine
+2486	ActivityInfo	Left and Right arrows: at first levels, move to the sides; at higher levels, rotate the spaceship
+2487	LandSafe	Fuel: %1
+2488	LandSafe	Altitude: %1
+2489	LandSafe	Velocity: %1
+2490	LandSafe	Acceleration: %1
+2491	LandSafe	Gravity: %1
+2492	Data	The spaceship translates when you use the direction keys.
+2493	Data	Ceres
+2494	Data	Use the up and down keys to control the thrust.<br/>Use the right and left keys to control the direction.<br/>You must drive Tux's ship towards the landing platform.<br/>The landing platform turns green when the velocity is safe to land.
+2495	Data	Pluto
+2496	Data	Titan
+2497	Data	Moon
+2498	Data	Mars
+2499	Data	Venus
+2500	Data	Earth
+2501	Data	The spaceship rotates when you use the direction keys.
+2502	Data	The up and down keys control the thrust of the rear engine.<br/>The right and left keys now control the rotation of the ship.<br/>To move the ship in horizontal direction you must first rotate and then accelerate.
+2507	ActivityInfo	In the configuration, you can select the language you want to learn.
+2508	ActivityInfo	Space or Enter: select an item from the list
+2509	ActivityInfo	Enter: validate your answer when the OK button is visible
+2510	ActivityInfo	Tab: repeat the word
+2511	Lang	We are sorry, we don't have yet a translation for your language.
+2512	Lang	GCompris is developed by the KDE community, you can translate GCompris by joining a translation team on <a href="%2">%2</a>
+2513	Lang	We switched to English for this activity but you can select another language in the configuration dialog.
+2514	Lang	other
+2515	Lang	action
+2516	Lang	adjective
+2517	Lang	color
+2518	Lang	number
+2519	Lang	people
+2520	Lang	bodyparts
+2521	Lang	clothes
+2522	Lang	emotion
+2523	Lang	job
+2524	Lang	sport
+2525	Lang	nature
+2526	Lang	animal
+2527	Lang	fruit
+2528	Lang	plant
+2529	Lang	vegetables
+2530	Lang	object
+2531	Lang	construction
+2532	Lang	furniture
+2533	Lang	houseware
+2534	Lang	tool
+2535	Lang	food
+2536	Lang	transport
+2541	ActivityInfo	Space: select or deselect a circle
+2542	Data	Additions with 1 and 2.
+2543	Data	Additions with 1, 2 and 3.
+2544	Data	Additions with 1, 2, 3 and 4.
+2549	Learn_decimals	A decimal number is displayed. The bar with the arrow represents a full unit, and each square in it represents one tenth of this unit.
+2550	Learn_decimals	Drag the arrow to select a part of the bar, and drag the selected part of the bar to the empty area. Repeat these steps until the number of dropped bars corresponds to the displayed decimal number. Then click on the OK button to validate your answer.
+2551	Learn_decimals	Display the number: %1
+2552	Learn_decimals	Display the result of: %1 + %2
+2553	Learn_decimals	Display the result of: %1 - %2
+2554	Learn_decimals	Represent the quantity: %1
+2555	Learn_decimals	Enter the result: %1
+2556	Data	Between 0.1 and 1.
+2557	Data	Between 1 and 5.
+2562	ActivityInfo	If the answer is correct, type the corresponding result, and click on the OK button to validate your answer.
+2563	ActivityInfo	Numbers: type the result
+2564	Learn_decimals_additions	An addition with two decimal numbers is displayed. The bar with the arrow represents a full unit, and each square in it represents one tenth of this unit.
+2565	Learn_decimals_additions	Drag the arrow to select a part of the bar, and drag the selected part of the bar to the empty area. Repeat these steps until the number of dropped bars corresponds to the result of the addition, and click on the OK button to validate your answer.
+2566	Learn_decimals_additions	If the answer is correct, type the corresponding result, and click on the OK button to validate your answer.
+2567	Data	Add decimal numbers up to 1.
+2568	Data	Add decimal numbers up to 3.
+2569	Data	Add decimal numbers up to 5.
+2574	Learn_decimals_subtractions	A subtraction with two decimal numbers is displayed. Below it, the first number from the subtraction is represented with bars. One bar represents a full unit, and each square in it represents one tenth of this unit.
+2575	Learn_decimals_subtractions	Click on the squares to subtract them and display the result of the operation, and click on the OK button to validate your answer.
+2576	Learn_decimals_subtractions	If the answer is correct, type the corresponding result, and click on the OK button to validate your answer.
+2577	Data	Subtract decimal numbers up to 1.
+2578	Data	Subtract decimal numbers up to 3.
+2579	Data	Subtract decimal numbers up to 5.
+2580	ActivityConfig	Arabic numerals
+2581	ActivityConfig	Dots
+2582	ActivityConfig	Fingers
+2583	ActivityConfig	Digits representation
+2584	ActivityConfig	Enable voices
+2589	ActivityInfo	Tab: say the digit again
+2590	Data	Digits from 1 to 2.
+2591	Data	Digits from 1 to 3.
+2592	Data	Digits from 1 to 4.
+2593	Data	Digits from 1 to 5.
+2594	Data	Digits from 1 to 6.
+2595	Data	Digits from 1 to 7.
+2596	Data	Digits from 1 to 8.
+2597	Data	Digits from 1 to 9.
+2598	Data	Digits from 0 to 9.
+2603	Learn_quantities	A quantity is requested. The arrow allows to select up to 10 oranges.
+2604	Learn_quantities	Drag the arrow to select a number of oranges, and drag the selected oranges to the empty area. Repeat these steps until the number of oranges corresponds to the requested quantity. Then click on the OK button to validate your answer.
+2605	Data	Between 1 and 3.
+2606	Data	Between 1 and 4.
+2607	Data	Between 1 and 6.
+2608	Data	Between 1 and 10.
+2609	Data	Between 10 and 20.
+2610	Data	Between 20 and 50.
+2615	Data	Subtractions with 1, 2 and 3.
+2616	Data	Subtractions with 1, 2, 3 and 4.
+2617	Data	Subtractions with 1, 2, 3, 4 and 5.
+2618	Data	Subtractions with 1, 2, 3, 4, 5, 6 and 7.
+2619	Data	Subtractions with 1, 2, 3, 4, 5, 6, 7, 8 and 9.
+2628	ActivityInfo	Left arrow: left hand answer
+2629	ActivityInfo	Right arrow: right hand answer
+2630	Leftright	Left hand
+2631	Leftright	Right hand
+2632	ActivityConfig	All the words
+2633	ActivityConfig	Only 5 words
+2634	ActivityConfig	Select the case for the letters to search
+2635	ActivityConfig	Mixed Case
+2636	ActivityConfig	Upper Case
+2637	ActivityConfig	Lower Case
+2643	LetterInWord	We are sorry, we don't have yet a translation for your language.
+2644	LetterInWord	GCompris is developed by the KDE community, you can translate GCompris by joining a translation team on <a href="%2">%2</a>
+2645	LetterInWord	We switched to English for this activity but you can select another language in the configuration dialog.
+2650	ActivityInfo	The solver algorithm is described on Wikipedia. To know more about the Lights Off game: &lt;https://en.wikipedia.org/wiki/Lights_Out_(game)&gt;
+2651	Data	5×5 grids, Very easy.
+2652	Data	5×5 grids, Easy.
+2653	Data	5×5 grids, Medium.
+2654	Data	5×5 grids, Difficult.
+2655	Data	5×5 grids, Very Difficult.
+2656	Data	6×6 grids, Very Difficult.
+2657	Data	7×7 grids, Very Difficult.
+2658	Data	8×8 grids, Very Difficult.
+2659	Data	9×9 grids, Very Difficult.
+2664	ActivityInfo	Space or Enter: select an item and change its position
+2665	ActivityInfo	Louis Braille Video: &lt;https://www.youtube.com/watch?v=9bdfC2j_4x4&gt;
+2666	louis_braille_data	Born on January 4th 1809 in Coupvray near Paris in France.
+2667	louis_braille_data	Louis Braille injured his right eye with a stitching awl from his father's workshop.
+2668	louis_braille_data	At the age of three, Louis became blind due to a severe infection that spread to his left eye.
+2669	louis_braille_data	At the age of 10, he was sent to Paris to study at the Royal Institute for Blind Youth.
+2670	louis_braille_data	He impressed his classmates and began to play the piano and the organ.
+2671	louis_braille_data	Charles Barbier, a French soldier, visited his school and shared his invention of night writing, a code of 12 raised dots to share information on battlefields.
+2672	louis_braille_data	Louis trimmed Barbier's 12 dots into 6 and invented the braille system.
+2673	louis_braille_data	He became a teacher after graduating and promoted his method while secretly teaching it at the Institute.
+2674	louis_braille_data	He revised and extended braille to include mathematics, symbols, punctuation and music notations.
+2675	louis_braille_data	He died of tuberculosis. He is buried in the Pantheon in Paris. A monument is erected to honor him.
+2676	louis_braille_data	Braille got accepted as a world wide standard. Louis Braille proved that if you have motivation you can do incredible things.
+2677	ReorderList	Arrange the events in the order in which they happened. Select the line to move, then select its target position.
+2683	MagicHat	Click on the hat to begin the game
+2684	Data	Calculate remaining stars up to 3.
+2685	Data	Calculate remaining stars up to 4.
+2686	Data	Calculate remaining stars up to 5.
+2687	Data	Calculate remaining stars up to 10.
+2688	Data	Calculate remaining stars up to 30.
+2689	Data	Calculate remaining stars up to 100 with coefficients.
+2690	Data	Calculate remaining stars up to 1000 with coefficients.
+2691	Data	Calculate remaining stars up to 10000 with coefficients.
+2692	Data	Calculate remaining stars up to 10, with 2 or 3 different star sets.
+2693	StarsBar	%1x
+2699	Data	Add stars up to 3.
+2700	Data	Add stars up to 4.
+2701	Data	Add stars up to 5.
+2702	Data	Add stars up to 10.
+2703	Data	Add stars up to 30.
+2704	Data	Add stars up to 100 with coefficients.
+2705	Data	Add stars up to 1000 with coefficients.
+2706	Data	Add stars up to 10000 with coefficients.
+2707	Data	Add stars up to 10, with 2 or 3 different star sets.
+2712	ActivityInfo	In first levels, Tux walks comfortably, one step on each move request, through the maze.
+2713	ActivityInfo	For larger mazes, there is a special walking mode, called "run-fast-mode". If this run-fast-mode is enabled, Tux will run all the way automatically until he reaches a fork and you have to decide which way to go further.
+2714	ActivityInfo	You can see whether this mode is enabled or not, by looking at Tux's feet: If Tux is barefoot, "run-fast-mode" is disabled. And if he wears red sport shoes, "run-fast-mode" is enabled.
+2715	ActivityInfo	At higher levels, run-fast-mode will be enabled automatically. If you want to use this feature in earlier levels or want to disable it in advanced levels, click on the "barefoot / sportshoe" icon in the upper left corner of the screen to toggle the run-fast-mode.\t
+2716	Maze	Look at your position, then switch back to invisible mode to continue your moves

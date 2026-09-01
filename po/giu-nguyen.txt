@@ -571,3 +571,7 @@ Oman
 Yemen
 Bahrain
 Papua New Guinea
++
+−
+×
+÷

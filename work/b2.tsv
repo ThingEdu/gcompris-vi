@@ -1,0 +1,210 @@
+207	Battery	I = %1A
+210	Bulb	I = %1A
+215	Resistor	I = %1A
+218	Rheostat	I = %1A
+625	board1_0	1
+626	board1_0	2
+627	board1_0	3
+628	board1_0	4
+635	board3_0	1
+636	board3_0	2
+637	board3_0	3
+638	board3_0	4
+640	board4_0	1
+641	board4_0	2
+642	board4_0	3
+643	board4_0	4
+918	AndGate	A AND B
+924	NandGate	NOT (A AND B)
+926	NorGate	NOT (A OR B)
+931	OrGate	A OR B
+937	XorGate	A XOR B
+1192	board5	Castillo de San Marcos
+2721	ActivityInfo	At the first levels, Tux walks comfortably, one step on each move request, through the maze.
+2722	ActivityInfo	You can see whether this mode is enabled or not, by looking at Tux's feet: If Tux is barefooted, "run-fast-mode" is disabled. And if he wears red sport shoes, "run-fast-mode" is enabled.
+2723	ActivityInfo	Space: switch between invisible and visible modes
+2726	ActivityInfo	In this maze, the moves are relative (first person). Left and right are used to turn and up to move forward.
+2727	ActivityInfo	Left and Right arrows: turn left and right
+2728	ActivityInfo	Down arrow: turn backward
+2729	ActivityInfo	Up arrow: move forward
+2735	Melody	This activity requires sound, so it will play some sounds even if the audio voices or effects are disabled in the main configuration.
+2736	Melody	Quit
+2737	Melody	Continue
+2743	ActivityInfo	Space or Enter: flip the selected card
+2744	ActivityConfig	1 player
+2745	ActivityConfig	2 players
+2746	ActivityConfig	Choose number of players
+2753	Data	Match the numbers up to 2.
+2754	Data	Match the numbers up to 3.
+2755	Data	Match the numbers up to 4.
+2756	Data	Match the numbers up to 5.
+2757	Data	Match the numbers up to 6.
+2758	Data	Match the numbers up to 7.
+2759	Data	Match the numbers up to 8.
+2760	Data	Match the numbers up to 9.
+2766	Data	Table of 1.
+2767	Data	Table of 10.
+2768	Data	Table of 2.
+2769	Data	Table of 3.
+2770	Data	Table of 4.
+2771	Data	Table of 5.
+2772	Data	Table of 6.
+2773	Data	Table of 7.
+2774	Data	Table of 8.
+2775	Data	Table of 9.
+2789	Data	Addition table of 1.
+2790	Data	Addition table of 10.
+2791	Data	Addition table of 2.
+2792	Data	Addition table of 3.
+2793	Data	Addition table of 4.
+2794	Data	Addition table of 5.
+2795	Data	Addition table of 6.
+2796	Data	Addition table of 7.
+2797	Data	Addition table of 8.
+2798	Data	Addition table of 9.
+2806	Data	Division table of 1.
+2807	Data	Division table of 10.
+2808	Data	Division table of 2.
+2809	Data	Division table of 3.
+2810	Data	Division table of 4.
+2811	Data	Division table of 5.
+2812	Data	Division table of 6.
+2813	Data	Division table of 7.
+2814	Data	Division table of 8.
+2815	Data	Division table of 9.
+2823	Data	Subtraction table of 1.
+2824	Data	Subtraction table of 10.
+2825	Data	Subtraction table of 2.
+2826	Data	Subtraction table of 3.
+2827	Data	Subtraction table of 4.
+2828	Data	Subtraction table of 5.
+2829	Data	Subtraction table of 6.
+2830	Data	Subtraction table of 7.
+2831	Data	Subtraction table of 8.
+2832	Data	Subtraction table of 9.
+2847	Data	Multiplication table of 1.
+2848	Data	Multiplication table of 10.
+2849	Data	Multiplication table of 2.
+2850	Data	Multiplication table of 3.
+2851	Data	Multiplication table of 4.
+2852	Data	Multiplication table of 5.
+2853	Data	Multiplication table of 6.
+2854	Data	Multiplication table of 7.
+2855	Data	Multiplication table of 8.
+2856	Data	Multiplication table of 9.
+2873	dataset	zero
+2874	dataset	one
+2875	dataset	two
+2876	dataset	three
+2877	dataset	four
+2878	dataset	five
+2879	dataset	six
+2880	dataset	seven
+2881	dataset	eight
+2882	dataset	nine
+2883	dataset	ten
+2884	dataset	eleven
+2885	dataset	twelve
+2886	dataset	thirteen
+2887	dataset	fourteen
+2888	dataset	fifteen
+2889	dataset	sixteen
+2890	dataset	seventeen
+2891	dataset	eighteen
+2892	dataset	nineteen
+2893	dataset	twenty
+2896	math_util	+
+2897	math_util	−
+2898	math_util	×
+2899	math_util	÷
+2900	MemoryCommon	This activity requires sound, so it will play some sounds even if the audio voices or effects are disabled in the main configuration.
+2901	MemoryCommon	Quit
+2902	MemoryCommon	Continue
+2908	ActivityInfo	The following icons are displayed:\n(note that each icon is displayed only if available in the current activity)
+2909	ActivityInfo	Home - Exit an activity, go back to menu (Ctrl+W or Escape key)
+2910	ActivityInfo	Arrows - Display the current level. Click to select another level
+2911	ActivityInfo	Lips - Repeat the question
+2912	ActivityInfo	Question Mark - Help
+2913	ActivityInfo	Reload - Start the activity from the beginning again
+2914	ActivityInfo	Tool - The configuration menu
+2915	ActivityInfo	Three lines - The activity settings menu
+2916	ActivityInfo	G - About GCompris
+2917	ActivityInfo	Quit - Quit GCompris (Ctrl+Q)
+2918	ActivityInfo	The stars show suitable age groups for each activity:
+2919	ActivityInfo	1, 2 or 3 yellow stars - from 2 to 6 years old
+2920	ActivityInfo	1, 2 or 3 red stars - 7 years and up
+2921	ActivityInfo	If there are two different star icons on an activity, the first one shows the minimum difficulty, and the second one the maximum difficulty.
+2922	ActivityInfo	<b>Keyboard shortcuts:</b>
+2923	ActivityInfo	Ctrl+B: Show or Hide the control bar
+2924	ActivityInfo	Ctrl+F: Toggle full screen
+2925	ActivityInfo	Ctrl+S: Toggle the activity section bar
+2926	BackgroundMusicList	Background music
+2927	BackgroundMusicList	Disable the background music if you don't want to play them.
+2928	BackgroundMusicList	Now Playing:
+2929	BackgroundMusicList	Title: %1
+2930	BackgroundMusicList	Artist: %1
+2931	BackgroundMusicList	Year: %1
+2932	BackgroundMusicList	Copyright: %1
+2933	ConfigurationItem	Difficulty filter
+2934	ConfigurationItem	Language selector
+2935	ConfigurationItem	Enable automatic downloads/updates of external assets
+2936	ConfigurationItem	Localized voices
+2937	ConfigurationItem	Check for updates
+2938	ConfigurationItem	Download
+2939	ConfigurationItem	Enable audio voices
+2940	ConfigurationItem	Enable audio effects
+2941	ConfigurationItem	Audio effects volume
+2942	ConfigurationItem	Download background music
+2943	ConfigurationItem	Enable background music
+2944	ConfigurationItem	Background Music
+2945	ConfigurationItem	Not playing
+2946	ConfigurationItem	Title: %1  Artist: %2
+2947	ConfigurationItem	Introduction music
+2948	ConfigurationItem	Background music volume
+2949	ConfigurationItem	Full word image set is installed
+2950	ConfigurationItem	Full word image set is not installed
+2951	ConfigurationItem	Download full word image set
+2952	ConfigurationItem	Fullscreen
+2953	ConfigurationItem	Virtual Keyboard
+2954	ConfigurationItem	The activity section menu is visible
+2955	ConfigurationItem	Ask for confirmation to exit
+2956	ConfigurationItem	Font selector
+2957	ConfigurationItem	Font size
+2958	ConfigurationItem	Default
+2959	ConfigurationItem	Font Capitalization
+2960	ConfigurationItem	Font letter spacing
+2961	ConfigurationItem	Teacher's server config
+2962	ConfigurationItem	Mixed case (default)
+2963	ConfigurationItem	All uppercase
+2964	ConfigurationItem	All lowercase
+2965	Menu	You selected a new locale, do you want to download the corresponding sound files now?
+2966	Menu	Yes
+2967	Menu	No
+2968	Menu	Logic
+2969	Menu	Fine Arts
+2970	Menu	Music
+2971	Menu	Experiment
+2972	Menu	History
+2973	Menu	Geography
+2974	Menu	Numeration
+2975	Menu	Arithmetic
+2976	Menu	Measures
+2977	Menu	Letters
+2978	Menu	Words
+2979	Menu	Vocabulary
+2980	Menu	GCompris is not connected to teacher's server.
+2981	Menu	GCompris is connected to teacher's server, but the password entered for selected user is wrong.
+2982	Menu	GCompris is connected to teacher's server, and the user is authenticated as %1.
+2983	Menu	GCompris has lost the connection to teacher's server.
+2984	Menu	GCompris has been disconnected from teacher's server.
+2985	Menu	GCompris is connected to teacher's server, but the user is not yet authenticated.
+2986	Menu	Put your favorite activities here by clicking on the sun at the top right of that activity.
+2987	Menu	Search specific activities
+2988	Menu	Activity Settings
+2989	ServerConfigPage	Teacher's server settings
+2990	ServerConfigPage	Teacher's identifier
+2991	ServerConfigPage	Server port
+2992	ServerConfigPage	Server port must be a number between 0 and 65535.
+2998	ActivityInfo	After collecting the nugget, use the mousewheel or the pinch gesture to zoom out again. When you reach the minimum zoom level, another sparkle will appear, showing the next gold nugget to collect. Collect enough nuggets to complete the level.
+2999	ActivityInfo	The wagon in the lower right corner of the screen will tell you the number of already collected nuggets and the total number of nuggets to collect in this level.
+3000	ActivityInfo	Thanks to the Tuxpaint team for providing the following sounds under GPL:

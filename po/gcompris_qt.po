@@ -16194,107 +16194,107 @@ msgstr "Tìm cây đàn vĩ cầm"
 #: activities/instruments/instruments.js:178
 msgctxt "instruments|"
 msgid "Find the drum kit"
-msgstr ""
+msgstr "Tìm bộ trống"
 
 #: activities/instruments/instruments.js:151
 #: activities/instruments/instruments.js:183
 msgctxt "instruments|"
 msgid "Find the accordion"
-msgstr ""
+msgstr "Tìm cây phong cầm"
 
 #: activities/instruments/instruments.js:156
 #: activities/instruments/instruments.js:188
 msgctxt "instruments|"
 msgid "Find the banjo"
-msgstr ""
+msgstr "Tìm cây đàn banjo"
 
 #: activities/instruments/instruments.js:161
 #: activities/instruments/instruments.js:206
 msgctxt "instruments|"
 msgid "Find the bongos"
-msgstr ""
+msgstr "Tìm cặp trống bongo"
 
 #: activities/instruments/instruments.js:166
 #: activities/instruments/instruments.js:211
 msgctxt "instruments|"
 msgid "Find the electric guitar"
-msgstr ""
+msgstr "Tìm cây ghi-ta điện"
 
 #: activities/instruments/instruments.js:171
 msgctxt "instruments|"
 msgid "Find the castanets"
-msgstr ""
+msgstr "Tìm cặp sênh castanets"
 
 #: activities/instruments/instruments.js:193
 msgctxt "instruments|"
 msgid "Find the cymbal"
-msgstr ""
+msgstr "Tìm cái chũm choẹ"
 
 #: activities/instruments/instruments.js:198
 msgctxt "instruments|"
 msgid "Find the cello"
-msgstr ""
+msgstr "Tìm cây đàn cello"
 
 #: activities/instruments/instruments.js:216
 msgctxt "instruments|"
 msgid "Find the harmonica"
-msgstr ""
+msgstr "Tìm cây kèn harmonica"
 
 #: activities/instruments/instruments.js:221
 #: activities/instruments/instruments.js:254
 msgctxt "instruments|"
 msgid "Find the horn"
-msgstr ""
+msgstr "Tìm cây kèn co"
 
 #: activities/instruments/instruments.js:226
 #: activities/instruments/instruments.js:259
 msgctxt "instruments|"
 msgid "Find the maracas"
-msgstr ""
+msgstr "Tìm cặp lắc maracas"
 
 #: activities/instruments/instruments.js:231
 #: activities/instruments/instruments.js:264
 msgctxt "instruments|"
 msgid "Find the organ"
-msgstr ""
+msgstr "Tìm cây đàn oóc"
 
 #: activities/instruments/instruments.js:239
 #: activities/instruments/instruments.js:272
 msgctxt "instruments|"
 msgid "Find the snare drum"
-msgstr ""
+msgstr "Tìm cái trống lẫy"
 
 #: activities/instruments/instruments.js:244
 #: activities/instruments/instruments.js:277
 msgctxt "instruments|"
 msgid "Find the timpani"
-msgstr ""
+msgstr "Tìm bộ trống định âm"
 
 #: activities/instruments/instruments.js:249
 #: activities/instruments/instruments.js:282
 msgctxt "instruments|"
 msgid "Find the triangle"
-msgstr ""
+msgstr "Tìm cái thanh la tam giác"
 
 #: activities/instruments/instruments.js:287
 msgctxt "instruments|"
 msgid "Find the tambourine"
-msgstr ""
+msgstr "Tìm cái trống lục lạc"
 
 #: activities/instruments/instruments.js:292
 msgctxt "instruments|"
 msgid "Find the tuba"
-msgstr ""
+msgstr "Tìm cây kèn tuba"
 
 #: activities/keyboard_training/ActivityConfig.qml:28
 msgctxt "ActivityConfig|"
 msgid "Uppercase letters"
-msgstr ""
+msgstr "Chữ hoa"
 
 #: activities/keyboard_training/ActivityConfig.qml:29
 msgctxt "ActivityConfig|"
 msgid "Lowercase letters"
-msgstr ""
+msgstr "Chữ thường"
 
 #. Activity title
 #: activities/keyboard_training/ActivityInfo.qml:14
@@ -16356,6 +16356,9 @@ msgid ""
 "right/left keys to control the direction. On touch screens you can control "
 "the rocket through the corresponding on-screen buttons."
 msgstr ""
+"Ở những cấp đầu, dùng phím lên xuống để chỉnh lực đẩy và phím trái phải để "
+"chỉnh hướng. Trên màn hình cảm ứng thì điều khiển tên lửa bằng các nút hiện "
+"trên màn hình."
 
 #: activities/land_safe/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
@@ -16364,12 +16367,14 @@ msgid ""
 "By rotating the spaceship you can trigger an acceleration in non-vertical "
 "direction using the up/down keys."
 msgstr ""
+"Ở cấp cao hơn, phím trái phải dùng để xoay tàu. Xoay tàu rồi mới dùng phím "
+"lên xuống để tăng tốc theo hướng không thẳng đứng."
 
 #: activities/land_safe/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid ""
 "The landing platform is green if your speed is fine for a safe landing."
-msgstr ""
+msgstr "Bãi đáp chuyển sang màu xanh khi tốc độ đủ an toàn để hạ cánh."
 
 #: activities/land_safe/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
@@ -16380,59 +16385,63 @@ msgid ""
 "the lower red area it's lower, and on the blue baseline in the yellow middle"
 " area the two forces cancel each other out."
 msgstr ""
+"Đồng hồ gia tốc ở mép phải hiện gia tốc thẳng đứng tổng cộng của tên lửa, "
+"tính cả trọng lực. Ở vùng xanh phía trên, gia tốc của con lớn hơn trọng lực;"
+" ở vùng đỏ phía dưới thì nhỏ hơn; còn ở vạch xanh trong vùng vàng giữa thì "
+"hai lực triệt tiêu nhau."
 
 #: activities/land_safe/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
 msgid "Up and Down arrows: control the thrust of the rear engine"
-msgstr ""
+msgstr "Mũi tên lên và xuống: chỉnh lực đẩy của động cơ đuôi"
 
 #: activities/land_safe/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
 msgid ""
 "Left and Right arrows: at first levels, move to the sides; at higher levels,"
 " rotate the spaceship"
-msgstr ""
+msgstr "Mũi tên trái và phải: ở cấp đầu là dịch ngang, ở cấp cao là xoay tàu"
 
 #: activities/land_safe/LandSafe.qml:591
 #, qt-format
 msgctxt "LandSafe|"
 msgid "Fuel: %1"
-msgstr ""
+msgstr "Nhiên liệu: %1"
 
 #: activities/land_safe/LandSafe.qml:601
 #, qt-format
 msgctxt "LandSafe|"
 msgid "Altitude: %1"
-msgstr ""
+msgstr "Độ cao: %1"
 
 #: activities/land_safe/LandSafe.qml:611
 #, qt-format
 msgctxt "LandSafe|"
 msgid "Velocity: %1"
-msgstr ""
+msgstr "Vận tốc: %1"
 
 #: activities/land_safe/LandSafe.qml:622
 #, qt-format
 msgctxt "LandSafe|"
 msgid "Acceleration: %1"
-msgstr ""
+msgstr "Gia tốc: %1"
 
 #: activities/land_safe/LandSafe.qml:656
 #, qt-format
 msgctxt "LandSafe|"
 msgid "Gravity: %1"
-msgstr ""
+msgstr "Trọng lực: %1"
 
 #: activities/land_safe/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "The spaceship translates when you use the direction keys."
-msgstr ""
+msgstr "Tàu vũ trụ dịch ngang khi con bấm phím hướng."
 
 #: activities/land_safe/resource/1/Data.qml:17
 #: activities/land_safe/resource/2/Data.qml:17
 msgctxt "Data|"
 msgid "Ceres"
-msgstr ""
+msgstr "Ceres"
 
 #: activities/land_safe/resource/1/Data.qml:24
 msgctxt "Data|"
@@ -16442,47 +16451,50 @@ msgid ""
 "landing platform.<br/>The landing platform turns green when the velocity is "
 "safe to land."
 msgstr ""
+"Dùng phím lên xuống để chỉnh lực đẩy.<br/>Dùng phím trái phải để chỉnh "
+"hướng.<br/>Con phải lái tàu của Tux về phía bãi đáp.<br/>Bãi đáp chuyển xanh"
+" khi tốc độ đủ an toàn để hạ cánh."
 
 #: activities/land_safe/resource/1/Data.qml:30
 #: activities/land_safe/resource/2/Data.qml:29
 msgctxt "Data|"
 msgid "Pluto"
-msgstr ""
+msgstr "Sao Diêm Vương"
 
 #: activities/land_safe/resource/1/Data.qml:39
 #: activities/land_safe/resource/2/Data.qml:38
 msgctxt "Data|"
 msgid "Titan"
-msgstr ""
+msgstr "Titan"
 
 #: activities/land_safe/resource/1/Data.qml:48
 #: activities/land_safe/resource/2/Data.qml:47
 msgctxt "Data|"
 msgid "Moon"
-msgstr ""
+msgstr "Mặt Trăng"
 
 #: activities/land_safe/resource/1/Data.qml:57
 #: activities/land_safe/resource/2/Data.qml:56
 msgctxt "Data|"
 msgid "Mars"
-msgstr ""
+msgstr "Sao Hoả"
 
 #: activities/land_safe/resource/1/Data.qml:66
 #: activities/land_safe/resource/2/Data.qml:65
 msgctxt "Data|"
 msgid "Venus"
-msgstr ""
+msgstr "Sao Kim"
 
 #: activities/land_safe/resource/1/Data.qml:75
 #: activities/land_safe/resource/2/Data.qml:74
 msgctxt "Data|"
 msgid "Earth"
-msgstr ""
+msgstr "Trái Đất"
 
 #: activities/land_safe/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "The spaceship rotates when you use the direction keys."
-msgstr ""
+msgstr "Tàu vũ trụ xoay khi con bấm phím hướng."
 
 #: activities/land_safe/resource/2/Data.qml:24
 msgctxt "Data|"
@@ -16491,6 +16503,8 @@ msgid ""
 "and left keys now control the rotation of the ship.<br/>To move the ship in "
 "horizontal direction you must first rotate and then accelerate."
 msgstr ""
+"Phím lên xuống chỉnh lực đẩy của động cơ đuôi.<br/>Phím trái phải giờ dùng "
+"để xoay tàu.<br/>Muốn tàu đi ngang thì phải xoay trước rồi mới tăng tốc."
 
 #. Activity title
 #: activities/lang/ActivityInfo.qml:21
@@ -16523,28 +16537,28 @@ msgstr ""
 #: activities/lang/ActivityInfo.qml:32
 msgctxt "ActivityInfo|"
 msgid "In the configuration, you can select the language you want to learn."
-msgstr ""
+msgstr "Trong phần cài đặt, con chọn được ngôn ngữ muốn học."
 
 #: activities/lang/ActivityInfo.qml:35
 msgctxt "ActivityInfo|"
 msgid "Space or Enter: select an item from the list"
-msgstr ""
+msgstr "Phím cách hoặc Enter: chọn một mục trong danh sách"
 
 #: activities/lang/ActivityInfo.qml:36
 msgctxt "ActivityInfo|"
 msgid "Enter: validate your answer when the OK button is visible"
-msgstr ""
+msgstr "Enter: xác nhận câu trả lời khi nút Đồng ý hiện ra"
 
 #: activities/lang/ActivityInfo.qml:37
 #: activities/missing-letter/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Tab: repeat the word"
-msgstr ""
+msgstr "Tab: nghe lại từ"
 
 #: activities/lang/Lang.qml:144
 msgctxt "Lang|"
 msgid "We are sorry, we don't have yet a translation for your language."
-msgstr ""
+msgstr "Rất tiếc, hoạt động này chưa có bản dịch cho ngôn ngữ của bạn."
 
 #: activities/lang/Lang.qml:145
 #, qt-format
@@ -16553,6 +16567,8 @@ msgid ""
 "GCompris is developed by the KDE community, you can translate GCompris by "
 "joining a translation team on <a href=\"%2\">%2</a>"
 msgstr ""
+"GCompris do cộng đồng KDE phát triển, bạn có thể góp sức dịch GCompris bằng "
+"cách tham gia một nhóm dịch tại <a href=\"%2\">%2</a>"
 
 #: activities/lang/Lang.qml:147
 msgctxt "Lang|"
@@ -16560,121 +16576,123 @@ msgid ""
 "We switched to English for this activity but you can select another language"
 " in the configuration dialog."
 msgstr ""
+"Chúng tôi tạm chuyển hoạt động này sang tiếng Anh, nhưng bạn chọn được ngôn "
+"ngữ khác trong hộp thoại cài đặt."
 
 #: activities/lang/Lang.qml:194 activities/lang/Lang.qml:195
 msgctxt "Lang|"
 msgid "other"
-msgstr ""
+msgstr "khác"
 
 #: activities/lang/Lang.qml:196
 msgctxt "Lang|"
 msgid "action"
-msgstr ""
+msgstr "hành động"
 
 #: activities/lang/Lang.qml:196
 msgctxt "Lang|"
 msgid "adjective"
-msgstr ""
+msgstr "tính từ"
 
 #: activities/lang/Lang.qml:197
 msgctxt "Lang|"
 msgid "color"
-msgstr ""
+msgstr "màu sắc"
 
 #: activities/lang/Lang.qml:197
 msgctxt "Lang|"
 msgid "number"
-msgstr ""
+msgstr "con số"
 
 #: activities/lang/Lang.qml:198
 msgctxt "Lang|"
 msgid "people"
-msgstr ""
+msgstr "con người"
 
 #: activities/lang/Lang.qml:198
 msgctxt "Lang|"
 msgid "bodyparts"
-msgstr ""
+msgstr "bộ phận cơ thể"
 
 #: activities/lang/Lang.qml:199
 msgctxt "Lang|"
 msgid "clothes"
-msgstr ""
+msgstr "quần áo"
 
 #: activities/lang/Lang.qml:199
 msgctxt "Lang|"
 msgid "emotion"
-msgstr ""
+msgstr "cảm xúc"
 
 #: activities/lang/Lang.qml:200
 msgctxt "Lang|"
 msgid "job"
-msgstr ""
+msgstr "nghề nghiệp"
 
 #: activities/lang/Lang.qml:200
 msgctxt "Lang|"
 msgid "sport"
-msgstr ""
+msgstr "thể thao"
 
 #: activities/lang/Lang.qml:201
 msgctxt "Lang|"
 msgid "nature"
-msgstr ""
+msgstr "thiên nhiên"
 
 #: activities/lang/Lang.qml:201
 msgctxt "Lang|"
 msgid "animal"
-msgstr ""
+msgstr "động vật"
 
 #: activities/lang/Lang.qml:202
 msgctxt "Lang|"
 msgid "fruit"
-msgstr ""
+msgstr "trái cây"
 
 #: activities/lang/Lang.qml:202
 msgctxt "Lang|"
 msgid "plant"
-msgstr ""
+msgstr "cây cối"
 
 #: activities/lang/Lang.qml:203
 msgctxt "Lang|"
 msgid "vegetables"
-msgstr ""
+msgstr "rau củ"
 
 #: activities/lang/Lang.qml:203
 msgctxt "Lang|"
 msgid "object"
-msgstr ""
+msgstr "đồ vật"
 
 #: activities/lang/Lang.qml:204
 msgctxt "Lang|"
 msgid "construction"
-msgstr ""
+msgstr "xây dựng"
 
 #: activities/lang/Lang.qml:205
 msgctxt "Lang|"
 msgid "furniture"
-msgstr ""
+msgstr "đồ nội thất"
 
 #: activities/lang/Lang.qml:205
 msgctxt "Lang|"
 msgid "houseware"
-msgstr ""
+msgstr "đồ gia dụng"
 
 #: activities/lang/Lang.qml:206
 msgctxt "Lang|"
 msgid "tool"
-msgstr ""
+msgstr "dụng cụ"
 
 #: activities/lang/Lang.qml:206
 msgctxt "Lang|"
 msgid "food"
-msgstr ""
+msgstr "thức ăn"
 
 #: activities/lang/Lang.qml:207
 msgctxt "Lang|"
 msgid "transport"
-msgstr ""
+msgstr "đi lại"
 
 #. Activity title
 #: activities/learn_additions/ActivityInfo.qml:15
@@ -16707,22 +16725,22 @@ msgstr ""
 #: activities/learn_subtractions/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Space: select or deselect a circle"
-msgstr ""
+msgstr "Phím cách: chọn hoặc bỏ chọn một vòng tròn"
 
 #: activities/learn_additions/resource/1/Data.qml:14
 msgctxt "Data|"
 msgid "Additions with 1 and 2."
-msgstr ""
+msgstr "Phép cộng với 1 và 2."
 
 #: activities/learn_additions/resource/2/Data.qml:14
 msgctxt "Data|"
 msgid "Additions with 1, 2 and 3."
-msgstr ""
+msgstr "Phép cộng với 1, 2 và 3."
 
 #: activities/learn_additions/resource/3/Data.qml:14
 msgctxt "Data|"
 msgid "Additions with 1, 2, 3 and 4."
-msgstr ""
+msgstr "Phép cộng với 1, 2, 3 và 4."
 
 #. Activity title
 #: activities/learn_decimals/ActivityInfo.qml:14
@@ -16759,6 +16777,8 @@ msgid ""
 "A decimal number is displayed. The bar with the arrow represents a full "
 "unit, and each square in it represents one tenth of this unit."
 msgstr ""
+"Màn hình hiện một số thập phân. Thanh có mũi tên là một đơn vị trọn vẹn, mỗi"
+" ô vuông trong đó là một phần mười của đơn vị đó."
 
 #: activities/learn_decimals/Learn_decimals.qml:34
 msgctxt "Learn_decimals|"
@@ -16768,47 +16788,50 @@ msgid ""
 "bars corresponds to the displayed decimal number. Then click on the OK "
 "button to validate your answer."
 msgstr ""
+"Kéo mũi tên để chọn một phần của thanh, rồi kéo phần đã chọn sang vùng "
+"trống. Làm đi làm lại tới khi số thanh đã thả đúng bằng số thập phân đang "
+"hiện. Sau đó bấm nút Đồng ý để kiểm tra."
 
 #: activities/learn_decimals/Learn_decimals.qml:172
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Display the number: %1"
-msgstr ""
+msgstr "Hiện số: %1"
 
 #: activities/learn_decimals/Learn_decimals.qml:173
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Display the result of: %1 + %2"
-msgstr ""
+msgstr "Hiện kết quả của: %1 + %2"
 
 #: activities/learn_decimals/Learn_decimals.qml:174
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Display the result of: %1 - %2"
-msgstr ""
+msgstr "Hiện kết quả của: %1 - %2"
 
 #: activities/learn_decimals/Learn_decimals.qml:175
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Represent the quantity: %1"
-msgstr ""
+msgstr "Biểu diễn số lượng: %1"
 
 #: activities/learn_decimals/Learn_decimals.qml:192
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Enter the result: %1"
-msgstr ""
+msgstr "Nhập kết quả: %1"
 
 #: activities/learn_decimals/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "Between 0.1 and 1."
-msgstr ""
+msgstr "Từ 0,1 tới 1."
 
 #: activities/learn_decimals/resource/2/Data.qml:27
 #: activities/learn_quantities/resource/3/Data.qml:14
 msgctxt "Data|"
 msgid "Between 1 and 5."
-msgstr ""
+msgstr "Từ 1 tới 5."
 
 #. Activity title
 #: activities/learn_decimals_additions/ActivityInfo.qml:14
@@ -16847,12 +16870,14 @@ msgid ""
 "If the answer is correct, type the corresponding result, and click on the OK"
 " button to validate your answer."
 msgstr ""
+"Nếu câu trả lời đúng, hãy gõ kết quả tương ứng rồi bấm nút Đồng ý để kiểm "
+"tra."
 
 #: activities/learn_decimals_additions/ActivityInfo.qml:26
 #: activities/learn_decimals_subtractions/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Numbers: type the result"
-msgstr ""
+msgstr "Phím số: gõ kết quả"
 
 #: activities/learn_decimals_additions/Learn_decimals_additions.qml:16
 msgctxt "Learn_decimals_additions|"
@@ -16861,6 +16886,8 @@ msgid ""
 "represents a full unit, and each square in it represents one tenth of this "
 "unit."
 msgstr ""
+"Màn hình hiện một phép cộng hai số thập phân. Thanh có mũi tên là một đơn vị"
+" trọn vẹn, mỗi ô vuông trong đó là một phần mười của đơn vị đó."
 
 #: activities/learn_decimals_additions/Learn_decimals_additions.qml:20
 msgctxt "Learn_decimals_additions|"
@@ -16870,6 +16897,9 @@ msgid ""
 "bars corresponds to the result of the addition, and click on the OK button "
 "to validate your answer."
 msgstr ""
+"Kéo mũi tên để chọn một phần của thanh, rồi kéo phần đã chọn sang vùng "
+"trống. Làm đi làm lại tới khi số thanh đã thả đúng bằng kết quả phép cộng, "
+"rồi bấm nút Đồng ý để kiểm tra."
 
 #: activities/learn_decimals_additions/Learn_decimals_additions.qml:24
 msgctxt "Learn_decimals_additions|"
@@ -16877,21 +16907,23 @@ msgid ""
 "If the answer is correct, type the corresponding result, and click on the OK"
 " button to validate your answer."
 msgstr ""
+"Nếu câu trả lời đúng, hãy gõ kết quả tương ứng rồi bấm nút Đồng ý để kiểm "
+"tra."
 
 #: activities/learn_decimals_additions/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "Add decimal numbers up to 1."
-msgstr ""
+msgstr "Cộng số thập phân tới 1."
 
 #: activities/learn_decimals_additions/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "Add decimal numbers up to 3."
-msgstr ""
+msgstr "Cộng số thập phân tới 3."
 
 #: activities/learn_decimals_additions/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "Add decimal numbers up to 5."
-msgstr ""
+msgstr "Cộng số thập phân tới 5."
 
 #. Activity title
 #: activities/learn_decimals_subtractions/ActivityInfo.qml:14
@@ -16931,6 +16963,9 @@ msgid ""
 "number from the subtraction is represented with bars. One bar represents a "
 "full unit, and each square in it represents one tenth of this unit."
 msgstr ""
+"Màn hình hiện một phép trừ hai số thập phân. Bên dưới, số bị trừ được vẽ "
+"bằng các thanh. Một thanh là một đơn vị trọn vẹn, mỗi ô vuông trong đó là "
+"một phần mười của đơn vị đó."
 
 #: activities/learn_decimals_subtractions/Learn_decimals_subtractions.qml:20
 msgctxt "Learn_decimals_subtractions|"
@@ -16938,6 +16973,8 @@ msgid ""
 "Click on the squares to subtract them and display the result of the "
 "operation, and click on the OK button to validate your answer."
 msgstr ""
+"Bấm vào các ô vuông để trừ đi và hiện ra kết quả phép tính, rồi bấm nút Đồng"
+" ý để kiểm tra."
 
 #: activities/learn_decimals_subtractions/Learn_decimals_subtractions.qml:24
 msgctxt "Learn_decimals_subtractions|"
@@ -16945,48 +16982,50 @@ msgid ""
 "If the answer is correct, type the corresponding result, and click on the OK"
 " button to validate your answer."
 msgstr ""
+"Nếu câu trả lời đúng, hãy gõ kết quả tương ứng rồi bấm nút Đồng ý để kiểm "
+"tra."
 
 #: activities/learn_decimals_subtractions/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "Subtract decimal numbers up to 1."
-msgstr ""
+msgstr "Trừ số thập phân tới 1."
 
 #: activities/learn_decimals_subtractions/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "Subtract decimal numbers up to 3."
-msgstr ""
+msgstr "Trừ số thập phân tới 3."
 
 #: activities/learn_decimals_subtractions/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "Subtract decimal numbers up to 5."
-msgstr ""
+msgstr "Trừ số thập phân tới 5."
 
 #: activities/learn_digits/ActivityConfig.qml:24
 msgctxt "ActivityConfig|"
 msgid "Arabic numerals"
-msgstr ""
+msgstr "Chữ số Ả Rập"
 
 #: activities/learn_digits/ActivityConfig.qml:25
 #: activities/reversecount/ActivityConfig.qml:23
 #: activities/smallnumbers2/ActivityConfig.qml:21
 msgctxt "ActivityConfig|"
 msgid "Dots"
-msgstr ""
+msgstr "Chấm tròn"
 
 #: activities/learn_digits/ActivityConfig.qml:26
 msgctxt "ActivityConfig|"
 msgid "Fingers"
-msgstr ""
+msgstr "Ngón tay"
 
 #: activities/learn_digits/ActivityConfig.qml:35
 msgctxt "ActivityConfig|"
 msgid "Digits representation"
-msgstr ""
+msgstr "Cách hiện chữ số"
 
 #: activities/learn_digits/ActivityConfig.qml:39
 msgctxt "ActivityConfig|"
 msgid "Enable voices"
-msgstr ""
+msgstr "Bật giọng đọc"
 
 #. Activity title
 #: activities/learn_digits/ActivityInfo.qml:15
@@ -17019,52 +17058,52 @@ msgstr ""
 #: activities/learn_digits/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Tab: say the digit again"
-msgstr ""
+msgstr "Tab: đọc lại chữ số"
 
 #: activities/learn_digits/resource/1/Data.qml:14
 msgctxt "Data|"
 msgid "Digits from 1 to 2."
-msgstr ""
+msgstr "Chữ số từ 1 tới 2."
 
 #: activities/learn_digits/resource/2/Data.qml:14
 msgctxt "Data|"
 msgid "Digits from 1 to 3."
-msgstr ""
+msgstr "Chữ số từ 1 tới 3."
 
 #: activities/learn_digits/resource/3/Data.qml:14
 msgctxt "Data|"
 msgid "Digits from 1 to 4."
-msgstr ""
+msgstr "Chữ số từ 1 tới 4."
 
 #: activities/learn_digits/resource/4/Data.qml:14
 msgctxt "Data|"
 msgid "Digits from 1 to 5."
-msgstr ""
+msgstr "Chữ số từ 1 tới 5."
 
 #: activities/learn_digits/resource/5/Data.qml:14
 msgctxt "Data|"
 msgid "Digits from 1 to 6."
-msgstr ""
+msgstr "Chữ số từ 1 tới 6."
 
 #: activities/learn_digits/resource/6/Data.qml:14
 msgctxt "Data|"
 msgid "Digits from 1 to 7."
-msgstr ""
+msgstr "Chữ số từ 1 tới 7."
 
 #: activities/learn_digits/resource/7/Data.qml:14
 msgctxt "Data|"
 msgid "Digits from 1 to 8."
-msgstr ""
+msgstr "Chữ số từ 1 tới 8."
 
 #: activities/learn_digits/resource/8/Data.qml:14
 msgctxt "Data|"
 msgid "Digits from 1 to 9."
-msgstr ""
+msgstr "Chữ số từ 1 tới 9."
 
 #: activities/learn_digits/resource/9/Data.qml:14
 msgctxt "Data|"
 msgid "Digits from 0 to 9."
-msgstr ""
+msgstr "Chữ số từ 0 tới 9."
 
 #. Activity title
 #: activities/learn_quantities/ActivityInfo.qml:14
@@ -17100,7 +17139,7 @@ msgstr ""
 #: activities/learn_quantities/Learn_quantities.qml:16
 msgctxt "Learn_quantities|"
 msgid "A quantity is requested. The arrow allows to select up to 10 oranges."
-msgstr ""
+msgstr "Đề bài yêu cầu một số lượng. Mũi tên cho chọn tới 10 quả cam."
 
 #: activities/learn_quantities/Learn_quantities.qml:20
 msgctxt "Learn_quantities|"
@@ -17110,36 +17149,39 @@ msgid ""
 "corresponds to the requested quantity. Then click on the OK button to "
 "validate your answer."
 msgstr ""
+"Kéo mũi tên để chọn số quả cam, rồi kéo chỗ cam đã chọn sang vùng trống. Làm"
+" đi làm lại tới khi số cam đúng bằng số lượng được yêu cầu. Sau đó bấm nút "
+"Đồng ý để kiểm tra."
 
 #: activities/learn_quantities/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "Between 1 and 3."
-msgstr ""
+msgstr "Từ 1 tới 3."
 
 #: activities/learn_quantities/resource/2/Data.qml:25
 msgctxt "Data|"
 msgid "Between 1 and 4."
-msgstr ""
+msgstr "Từ 1 tới 4."
 
 #: activities/learn_quantities/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "Between 1 and 6."
-msgstr ""
+msgstr "Từ 1 tới 6."
 
 #: activities/learn_quantities/resource/5/Data.qml:13
 msgctxt "Data|"
 msgid "Between 1 and 10."
-msgstr ""
+msgstr "Từ 1 tới 10."
 
 #: activities/learn_quantities/resource/6/Data.qml:15
 msgctxt "Data|"
 msgid "Between 10 and 20."
-msgstr ""
+msgstr "Từ 10 tới 20."
 
 #: activities/learn_quantities/resource/7/Data.qml:14
 msgctxt "Data|"
 msgid "Between 20 and 50."
-msgstr ""
+msgstr "Từ 20 tới 50."
 
 #. Activity title
 #: activities/learn_subtractions/ActivityInfo.qml:15
@@ -17170,27 +17212,27 @@ msgstr ""
 #: activities/learn_subtractions/resource/1/Data.qml:14
 msgctxt "Data|"
 msgid "Subtractions with 1, 2 and 3."
-msgstr ""
+msgstr "Phép trừ với 1, 2 và 3."
 
 #: activities/learn_subtractions/resource/2/Data.qml:14
 msgctxt "Data|"
 msgid "Subtractions with 1, 2, 3 and 4."
-msgstr ""
+msgstr "Phép trừ với 1, 2, 3 và 4."
 
 #: activities/learn_subtractions/resource/3/Data.qml:14
 msgctxt "Data|"
 msgid "Subtractions with 1, 2, 3, 4 and 5."
-msgstr ""
+msgstr "Phép trừ với 1, 2, 3, 4 và 5."
 
 #: activities/learn_subtractions/resource/4/Data.qml:14
 msgctxt "Data|"
 msgid "Subtractions with 1, 2, 3, 4, 5, 6 and 7."
-msgstr ""
+msgstr "Phép trừ với 1, 2, 3, 4, 5, 6 và 7."
 
 #: activities/learn_subtractions/resource/5/Data.qml:14
 msgctxt "Data|"
 msgid "Subtractions with 1, 2, 3, 4, 5, 6, 7, 8 and 9."
-msgstr ""
+msgstr "Phép trừ với 1, 2, 3, 4, 5, 6, 7, 8 và 9."
 
 #. Activity title
 #: activities/left_right_click/ActivityInfo.qml:14
@@ -17251,52 +17293,52 @@ msgstr ""
 #: activities/leftright/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Left arrow: left hand answer"
-msgstr ""
+msgstr "Mũi tên trái: trả lời tay trái"
 
 #: activities/leftright/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Right arrow: right hand answer"
-msgstr ""
+msgstr "Mũi tên phải: trả lời tay phải"
 
 #: activities/leftright/Leftright.qml:163
 msgctxt "Leftright|"
 msgid "Left hand"
-msgstr ""
+msgstr "Tay trái"
 
 #: activities/leftright/Leftright.qml:185
 msgctxt "Leftright|"
 msgid "Right hand"
-msgstr ""
+msgstr "Tay phải"
 
 #: activities/letter-in-word/ActivityConfig.qml:40
 msgctxt "ActivityConfig|"
 msgid "All the words"
-msgstr ""
+msgstr "Tất cả các từ"
 
 #: activities/letter-in-word/ActivityConfig.qml:47
 msgctxt "ActivityConfig|"
 msgid "Only 5 words"
-msgstr ""
+msgstr "Chỉ 5 từ"
 
 #: activities/letter-in-word/ActivityConfig.qml:54
 msgctxt "ActivityConfig|"
 msgid "Select the case for the letters to search"
-msgstr ""
+msgstr "Chọn kiểu chữ cho các chữ cái cần tìm"
 
 #: activities/letter-in-word/ActivityConfig.qml:57
 msgctxt "ActivityConfig|"
 msgid "Mixed Case"
-msgstr ""
+msgstr "Lẫn hoa lẫn thường"
 
 #: activities/letter-in-word/ActivityConfig.qml:58
 msgctxt "ActivityConfig|"
 msgid "Upper Case"
-msgstr ""
+msgstr "Chữ hoa"
 
 #: activities/letter-in-word/ActivityConfig.qml:59
 msgctxt "ActivityConfig|"
 msgid "Lower Case"
-msgstr ""
+msgstr "Chữ thường"
 
 #. Activity title
 #: activities/letter-in-word/ActivityInfo.qml:15
@@ -17333,7 +17375,7 @@ msgstr ""
 #: activities/letter-in-word/LetterInWord.qml:342
 msgctxt "LetterInWord|"
 msgid "We are sorry, we don't have yet a translation for your language."
-msgstr ""
+msgstr "Rất tiếc, hoạt động này chưa có bản dịch cho ngôn ngữ của bạn."
 
 #: activities/letter-in-word/LetterInWord.qml:343
 #, qt-format
@@ -17342,6 +17384,8 @@ msgid ""
 "GCompris is developed by the KDE community, you can translate GCompris by "
 "joining a translation team on <a href=\"%2\">%2</a>"
 msgstr ""
+"GCompris do cộng đồng KDE phát triển, bạn có thể góp sức dịch GCompris bằng "
+"cách tham gia một nhóm dịch tại <a href=\"%2\">%2</a>"
 
 #: activities/letter-in-word/LetterInWord.qml:345
 msgctxt "LetterInWord|"
@@ -17349,6 +17393,8 @@ msgid ""
 "We switched to English for this activity but you can select another language"
 " in the configuration dialog."
 msgstr ""
+"Chúng tôi tạm chuyển hoạt động này sang tiếng Anh, nhưng bạn chọn được ngôn "
+"ngữ khác trong hộp thoại cài đặt."
 
 #. Activity title
 #: activities/lightsoff/ActivityInfo.qml:15
@@ -17384,51 +17430,53 @@ msgid ""
 "The solver algorithm is described on Wikipedia. To know more about the "
 "Lights Off game: &lt;https://en.wikipedia.org/wiki/Lights_Out_(game)&gt;"
 msgstr ""
+"Thuật toán giải được mô tả trên Wikipedia. Muốn biết thêm về trò Tắt hết "
+"đèn: &lt;https://en.wikipedia.org/wiki/Lights_Out_(game)&gt;"
 
 #: activities/lightsoff/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "5×5 grids, Very easy."
-msgstr ""
+msgstr "Lưới 5×5, rất dễ."
 
 #: activities/lightsoff/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "5×5 grids, Easy."
-msgstr ""
+msgstr "Lưới 5×5, dễ."
 
 #: activities/lightsoff/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "5×5 grids, Medium."
-msgstr ""
+msgstr "Lưới 5×5, vừa."
 
 #: activities/lightsoff/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "5×5 grids, Difficult."
-msgstr ""
+msgstr "Lưới 5×5, khó."
 
 #: activities/lightsoff/resource/5/Data.qml:13
 msgctxt "Data|"
 msgid "5×5 grids, Very Difficult."
-msgstr ""
+msgstr "Lưới 5×5, rất khó."
 
 #: activities/lightsoff/resource/6/Data.qml:13
 msgctxt "Data|"
 msgid "6×6 grids, Very Difficult."
-msgstr ""
+msgstr "Lưới 6×6, rất khó."
 
 #: activities/lightsoff/resource/7/Data.qml:13
 msgctxt "Data|"
 msgid "7×7 grids, Very Difficult."
-msgstr ""
+msgstr "Lưới 7×7, rất khó."
 
 #: activities/lightsoff/resource/8/Data.qml:13
 msgctxt "Data|"
 msgid "8×8 grids, Very Difficult."
-msgstr ""
+msgstr "Lưới 8×8, rất khó."
 
 #: activities/lightsoff/resource/9/Data.qml:13
 msgctxt "Data|"
 msgid "9×9 grids, Very Difficult."
-msgstr ""
+msgstr "Lưới 9×9, rất khó."
 
 #. Activity title
 #: activities/louis-braille/ActivityInfo.qml:15
@@ -17466,25 +17514,26 @@ msgstr ""
 #: activities/louis-braille/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Space or Enter: select an item and change its position"
-msgstr ""
+msgstr "Phím cách hoặc Enter: chọn một mục và đổi chỗ nó"
 
 #: activities/louis-braille/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid ""
 "Louis Braille Video: &lt;https://www.youtube.com/watch?v=9bdfC2j_4x4&gt;"
 msgstr ""
+"Phim về Louis Braille: &lt;https://www.youtube.com/watch?v=9bdfC2j_4x4&gt;"
 
 #: activities/louis-braille/louis_braille_data.js:12
 msgctxt "louis_braille_data|"
 msgid "Born on January 4th 1809 in Coupvray near Paris in France."
-msgstr ""
+msgstr "Sinh ngày 4 tháng 1 năm 1809 ở Coupvray gần Paris, nước Pháp."
 
 #: activities/louis-braille/louis_braille_data.js:17
 msgctxt "louis_braille_data|"
 msgid ""
 "Louis Braille injured his right eye with a stitching awl from his father's "
 "workshop."
-msgstr ""
+msgstr "Louis Braille bị chiếc dùi khâu trong xưởng của bố đâm vào mắt phải."
 
 #: activities/louis-braille/louis_braille_data.js:22
 msgctxt "louis_braille_data|"
@@ -17492,6 +17541,8 @@ msgid ""
 "At the age of three, Louis became blind due to a severe infection that "
 "spread to his left eye."
 msgstr ""
+"Năm ba tuổi, Louis mù hẳn vì vết thương nhiễm trùng nặng rồi lan sang mắt "
+"trái."
 
 #: activities/louis-braille/louis_braille_data.js:27
 msgctxt "louis_braille_data|"
@@ -17499,11 +17550,13 @@ msgid ""
 "At the age of 10, he was sent to Paris to study at the Royal Institute for "
 "Blind Youth."
 msgstr ""
+"Năm 10 tuổi, cậu được gửi lên Paris học ở Học viện Hoàng gia dành cho Thanh "
+"thiếu niên Khiếm thị."
 
 #: activities/louis-braille/louis_braille_data.js:32
 msgctxt "louis_braille_data|"
 msgid "He impressed his classmates and began to play the piano and the organ."
-msgstr ""
+msgstr "Cậu khiến bạn bè nể phục và bắt đầu chơi dương cầm cùng đàn oóc."
 
 #: activities/louis-braille/louis_braille_data.js:37
 msgctxt "louis_braille_data|"
@@ -17512,12 +17565,17 @@ msgid ""
 "invention of night writing, a code of 12 raised dots to share information on"
 " battlefields."
 msgstr ""
+"Charles Barbier, một quân nhân Pháp, tới thăm trường và giới thiệu phát minh"
+" của ông: lối viết ban đêm, một hệ mã 12 chấm nổi để truyền tin ngoài chiến "
+"trường."
 
 #: activities/louis-braille/louis_braille_data.js:42
 msgctxt "louis_braille_data|"
 msgid ""
 "Louis trimmed Barbier's 12 dots into 6 and invented the braille system."
 msgstr ""
+"Louis rút gọn 12 chấm của Barbier xuống còn 6 và sáng tạo ra hệ chữ nổi "
+"Braille."
 
 #: activities/louis-braille/louis_braille_data.js:47
 msgctxt "louis_braille_data|"
@@ -17525,6 +17583,8 @@ msgid ""
 "He became a teacher after graduating and promoted his method while secretly "
 "teaching it at the Institute."
 msgstr ""
+"Tốt nghiệp xong cậu trở thành thầy giáo, vừa quảng bá phương pháp của mình "
+"vừa lén dạy nó trong Học viện."
 
 #: activities/louis-braille/louis_braille_data.js:52
 msgctxt "louis_braille_data|"
@@ -17532,6 +17592,8 @@ msgid ""
 "He revised and extended braille to include mathematics, symbols, punctuation"
 " and music notations."
 msgstr ""
+"Ông chỉnh sửa và mở rộng chữ nổi cho cả toán học, ký hiệu, dấu câu và ký âm "
+"nhạc."
 
 #: activities/louis-braille/louis_braille_data.js:57
 msgctxt "louis_braille_data|"
@@ -17539,6 +17601,8 @@ msgid ""
 "He died of tuberculosis. He is buried in the Pantheon in Paris. A monument "
 "is erected to honor him."
 msgstr ""
+"Ông mất vì bệnh lao. Ông được an táng tại điện Pantheon ở Paris. Người ta "
+"dựng đài tưởng niệm để tôn vinh ông."
 
 #: activities/louis-braille/louis_braille_data.js:62
 msgctxt "louis_braille_data|"
@@ -17546,6 +17610,8 @@ msgid ""
 "Braille got accepted as a world wide standard. Louis Braille proved that if "
 "you have motivation you can do incredible things."
 msgstr ""
+"Chữ nổi Braille được công nhận là chuẩn của cả thế giới. Louis Braille đã "
+"chứng minh rằng có ý chí thì làm được những điều phi thường."
 
 #: activities/louis-braille/ReorderList.qml:163
 msgctxt "ReorderList|"
@@ -17553,6 +17619,8 @@ msgid ""
 "Arrange the events in the order in which they happened. Select the line to "
 "move, then select its target position."
 msgstr ""
+"Sắp các sự kiện theo đúng thứ tự đã xảy ra. Chọn dòng cần chuyển, rồi chọn "
+"chỗ muốn đặt nó vào."
 
 #. Activity title
 #: activities/magic-hat-minus/ActivityInfo.qml:15
@@ -17592,58 +17660,58 @@ msgstr ""
 #: activities/magic-hat-minus/MagicHat.qml:279
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
-msgstr ""
+msgstr "Bấm vào chiếc mũ để bắt đầu chơi"
 
 #: activities/magic-hat-minus/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "Calculate remaining stars up to 3."
-msgstr ""
+msgstr "Tính số sao còn lại, tới 3."
 
 #: activities/magic-hat-minus/resource/2/Data.qml:15
 msgctxt "Data|"
 msgid "Calculate remaining stars up to 4."
-msgstr ""
+msgstr "Tính số sao còn lại, tới 4."
 
 #: activities/magic-hat-minus/resource/3/Data.qml:15
 msgctxt "Data|"
 msgid "Calculate remaining stars up to 5."
-msgstr ""
+msgstr "Tính số sao còn lại, tới 5."
 
 #: activities/magic-hat-minus/resource/4/Data.qml:15
 msgctxt "Data|"
 msgid "Calculate remaining stars up to 10."
-msgstr ""
+msgstr "Tính số sao còn lại, tới 10."
 
 #: activities/magic-hat-minus/resource/5/Data.qml:15
 msgctxt "Data|"
 msgid "Calculate remaining stars up to 30."
-msgstr ""
+msgstr "Tính số sao còn lại, tới 30."
 
 #. Coefficients are the numbers by which the numbers of stars are multiplied
 #. to get the total
 #: activities/magic-hat-minus/resource/6/Data.qml:16
 msgctxt "Data|"
 msgid "Calculate remaining stars up to 100 with coefficients."
-msgstr ""
+msgstr "Tính số sao còn lại, tới 100, có hệ số."
 
 #. Coefficients are the numbers by which the numbers of stars are multiplied
 #. to get the total
 #: activities/magic-hat-minus/resource/7/Data.qml:16
 msgctxt "Data|"
 msgid "Calculate remaining stars up to 1000 with coefficients."
-msgstr ""
+msgstr "Tính số sao còn lại, tới 1000, có hệ số."
 
 #. Coefficients are the numbers by which the numbers of stars are multiplied
 #. to get the total
 #: activities/magic-hat-minus/resource/8/Data.qml:16
 msgctxt "Data|"
 msgid "Calculate remaining stars up to 10000 with coefficients."
-msgstr ""
+msgstr "Tính số sao còn lại, tới 10000, có hệ số."
 
 #: activities/magic-hat-minus/resource/9/Data.qml:13
 msgctxt "Data|"
 msgid "Calculate remaining stars up to 10, with 2 or 3 different star sets."
-msgstr ""
+msgstr "Tính số sao còn lại, tới 10, với 2 hoặc 3 bộ sao khác nhau."
 
 #. text displaying coefficient with which the set of stars is to be multiplied
 #. along with multiplication symbol.
@@ -17651,7 +17719,7 @@ msgstr ""
 #, qt-format
 msgctxt "StarsBar|"
 msgid "%1x"
-msgstr ""
+msgstr "%1x"
 
 #. Activity title
 #: activities/magic-hat-plus/ActivityInfo.qml:15
@@ -17691,53 +17759,53 @@ msgstr ""
 #: activities/magic-hat-plus/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "Add stars up to 3."
-msgstr ""
+msgstr "Cộng số sao, tới 3."
 
 #: activities/magic-hat-plus/resource/2/Data.qml:15
 msgctxt "Data|"
 msgid "Add stars up to 4."
-msgstr ""
+msgstr "Cộng số sao, tới 4."
 
 #: activities/magic-hat-plus/resource/3/Data.qml:15
 msgctxt "Data|"
 msgid "Add stars up to 5."
-msgstr ""
+msgstr "Cộng số sao, tới 5."
 
 #: activities/magic-hat-plus/resource/4/Data.qml:15
 msgctxt "Data|"
 msgid "Add stars up to 10."
-msgstr ""
+msgstr "Cộng số sao, tới 10."
 
 #: activities/magic-hat-plus/resource/5/Data.qml:15
 msgctxt "Data|"
 msgid "Add stars up to 30."
-msgstr ""
+msgstr "Cộng số sao, tới 30."
 
 #. Coefficients are the numbers by which the numbers of stars are multiplied
 #. to get the total
 #: activities/magic-hat-plus/resource/6/Data.qml:16
 msgctxt "Data|"
 msgid "Add stars up to 100 with coefficients."
-msgstr ""
+msgstr "Cộng số sao, tới 100, có hệ số."
 
 #. Coefficients are the numbers by which the numbers of stars are multiplied
 #. to get the total
 #: activities/magic-hat-plus/resource/7/Data.qml:16
 msgctxt "Data|"
 msgid "Add stars up to 1000 with coefficients."
-msgstr ""
+msgstr "Cộng số sao, tới 1000, có hệ số."
 
 #. Coefficients are the numbers by which the numbers of stars are multiplied
 #. to get the total
 #: activities/magic-hat-plus/resource/8/Data.qml:16
 msgctxt "Data|"
 msgid "Add stars up to 10000 with coefficients."
-msgstr ""
+msgstr "Cộng số sao, tới 10000, có hệ số."
 
 #: activities/magic-hat-plus/resource/9/Data.qml:13
 msgctxt "Data|"
 msgid "Add stars up to 10, with 2 or 3 different star sets."
-msgstr ""
+msgstr "Cộng số sao, tới 10, với 2 hoặc 3 bộ sao khác nhau."
 
 #. Activity title
 #: activities/maze/ActivityInfo.qml:15
@@ -17771,6 +17839,7 @@ msgid ""
 "In first levels, Tux walks comfortably, one step on each move request, "
 "through the maze."
 msgstr ""
+"Ở những cấp đầu, Tux đi thong thả trong mê cung, mỗi lần bấm là một bước."
 
 #: activities/maze/ActivityInfo.qml:25
 #: activities/mazeinvisible/ActivityInfo.qml:25
@@ -17781,6 +17850,9 @@ msgid ""
 " If this run-fast-mode is enabled, Tux will run all the way automatically "
 "until he reaches a fork and you have to decide which way to go further."
 msgstr ""
+"Với mê cung lớn hơn có một kiểu đi riêng, gọi là \"chạy nhanh\". Bật kiểu "
+"này thì Tux tự chạy một mạch tới ngã rẽ, khi đó con mới phải chọn đi đường "
+"nào."
 
 #: activities/maze/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
@@ -17789,6 +17861,8 @@ msgid ""
 "If Tux is barefoot, \"run-fast-mode\" is disabled. And if he wears red sport"
 " shoes, \"run-fast-mode\" is enabled."
 msgstr ""
+"Nhìn chân Tux là biết kiểu này đang bật hay tắt: chân trần là \"chạy nhanh\""
+" đang tắt, còn đi giày thể thao đỏ là đang bật."
 
 #: activities/maze/ActivityInfo.qml:27
 #: activities/mazeinvisible/ActivityInfo.qml:27
@@ -17800,13 +17874,16 @@ msgid ""
 "levels, click on the \"barefoot / sportshoe\" icon in the upper left corner "
 "of the screen to toggle the run-fast-mode.\t"
 msgstr ""
+"Ở cấp cao, kiểu chạy nhanh sẽ tự bật. Muốn dùng nó ở cấp thấp hoặc muốn tắt "
+"nó ở cấp cao, hãy bấm vào biểu tượng \"chân trần / giày thể thao\" ở góc "
+"trên bên trái màn hình.\t"
 
 #: activities/maze/Maze.qml:353
 msgctxt "Maze|"
 msgid ""
 "Look at your position, then switch back to invisible mode to continue your "
 "moves"
-msgstr ""
+msgstr "Nhìn xem mình đang ở đâu, rồi chuyển lại chế độ vô hình để đi tiếp"
 
 #. Activity title
 #: activities/mazeinvisible/ActivityInfo.qml:15
@@ -17843,6 +17920,7 @@ msgid ""
 "At the first levels, Tux walks comfortably, one step on each move request, "
 "through the maze."
 msgstr ""
+"Ở những cấp đầu, Tux đi thong thả trong mê cung, mỗi lần bấm là một bước."
 
 #: activities/mazeinvisible/ActivityInfo.qml:26
 #: activities/mazerelative/ActivityInfo.qml:27
@@ -17852,11 +17930,13 @@ msgid ""
 "If Tux is barefooted, \"run-fast-mode\" is disabled. And if he wears red "
 "sport shoes, \"run-fast-mode\" is enabled."
 msgstr ""
+"Nhìn chân Tux là biết kiểu này đang bật hay tắt: chân trần là \"chạy nhanh\""
+" đang tắt, còn đi giày thể thao đỏ là đang bật."
 
 #: activities/mazeinvisible/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
 msgid "Space: switch between invisible and visible modes"
-msgstr ""
+msgstr "Phím cách: chuyển qua lại giữa chế độ vô hình và chế độ nhìn thấy"
 
 #. Activity title
 #: activities/mazerelative/ActivityInfo.qml:15
@@ -17876,21 +17956,23 @@ msgid ""
 "In this maze, the moves are relative (first person). Left and right are used"
 " to turn and up to move forward."
 msgstr ""
+"Trong mê cung này, hướng đi tính theo Tux. Phím trái phải để quay, phím lên "
+"để đi tới."
 
 #: activities/mazerelative/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
 msgid "Left and Right arrows: turn left and right"
-msgstr ""
+msgstr "Mũi tên trái và phải: quay trái, quay phải"
 
 #: activities/mazerelative/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
 msgid "Down arrow: turn backward"
-msgstr ""
+msgstr "Mũi tên xuống: quay lại đằng sau"
 
 #: activities/mazerelative/ActivityInfo.qml:32
 msgctxt "ActivityInfo|"
 msgid "Up arrow: move forward"
-msgstr ""
+msgstr "Mũi tên lên: đi tới"
 
 #. Activity title
 #: activities/melody/ActivityInfo.qml:15
@@ -17931,16 +18013,18 @@ msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
 "voices or effects are disabled in the main configuration."
 msgstr ""
+"Hoạt động này cần âm thanh, nên vẫn sẽ phát tiếng dù giọng đọc hay hiệu ứng "
+"đã bị tắt trong phần cài đặt chung."
 
 #: activities/melody/Melody.qml:345
 msgctxt "Melody|"
 msgid "Quit"
-msgstr ""
+msgstr "Thoát"
 
 #: activities/melody/Melody.qml:346
 msgctxt "Melody|"
 msgid "Continue"
-msgstr ""
+msgstr "Chơi tiếp"
 
 #. Activity title
 #: activities/memory-case-association-tux/ActivityInfo.qml:15
@@ -18004,7 +18088,7 @@ msgstr ""
 #: activities/memory/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Space or Enter: flip the selected card"
-msgstr ""
+msgstr "Phím cách hoặc Enter: lật tấm thẻ đang chọn"
 
 #: activities/memory-case-association/ActivityConfig.qml:24
 #: activities/memory-enumerate/ActivityConfig.qml:24
@@ -18020,7 +18104,7 @@ msgstr ""
 #: activities/memory/ActivityConfig.qml:24
 msgctxt "ActivityConfig|"
 msgid "1 player"
-msgstr ""
+msgstr "1 người chơi"
 
 #: activities/memory-case-association/ActivityConfig.qml:25
 #: activities/memory-enumerate/ActivityConfig.qml:25
@@ -18036,7 +18120,7 @@ msgstr ""
 #: activities/memory/ActivityConfig.qml:25
 msgctxt "ActivityConfig|"
 msgid "2 players"
-msgstr ""
+msgstr "2 người chơi"
 
 #: activities/memory-case-association/ActivityConfig.qml:34
 #: activities/memory-enumerate/ActivityConfig.qml:34
@@ -18052,7 +18136,7 @@ msgstr ""
 #: activities/memory/ActivityConfig.qml:34
 msgctxt "ActivityConfig|"
 msgid "Choose number of players"
-msgstr ""
+msgstr "Chọn số người chơi"
 
 #. Activity title
 #: activities/memory-case-association/ActivityInfo.qml:15
@@ -18095,42 +18179,42 @@ msgstr ""
 #: activities/memory-enumerate/resource/1/Data.qml:17
 msgctxt "Data|"
 msgid "Match the numbers up to 2."
-msgstr ""
+msgstr "Ghép các số tới 2."
 
 #: activities/memory-enumerate/resource/2/Data.qml:17
 msgctxt "Data|"
 msgid "Match the numbers up to 3."
-msgstr ""
+msgstr "Ghép các số tới 3."
 
 #: activities/memory-enumerate/resource/3/Data.qml:17
 msgctxt "Data|"
 msgid "Match the numbers up to 4."
-msgstr ""
+msgstr "Ghép các số tới 4."
 
 #: activities/memory-enumerate/resource/4/Data.qml:17
 msgctxt "Data|"
 msgid "Match the numbers up to 5."
-msgstr ""
+msgstr "Ghép các số tới 5."
 
 #: activities/memory-enumerate/resource/5/Data.qml:17
 msgctxt "Data|"
 msgid "Match the numbers up to 6."
-msgstr ""
+msgstr "Ghép các số tới 6."
 
 #: activities/memory-enumerate/resource/6/Data.qml:17
 msgctxt "Data|"
 msgid "Match the numbers up to 7."
-msgstr ""
+msgstr "Ghép các số tới 7."
 
 #: activities/memory-enumerate/resource/7/Data.qml:17
 msgctxt "Data|"
 msgid "Match the numbers up to 8."
-msgstr ""
+msgstr "Ghép các số tới 8."
 
 #: activities/memory-enumerate/resource/8/Data.qml:17
 msgctxt "Data|"
 msgid "Match the numbers up to 9."
-msgstr ""
+msgstr "Ghép các số tới 9."
 
 #. Activity title
 #: activities/memory-math-add-minus-mult-div-tux/ActivityInfo.qml:15
@@ -18174,7 +18258,7 @@ msgstr ""
 #: activities/memory-math-add-minus/resource/1/Data.qml:15
 msgctxt "Data|"
 msgid "Table of 1."
-msgstr ""
+msgstr "Bảng 1."
 
 #: activities/memory-math-add-minus-mult-div-tux/resource/10/Data.qml:15
 #: activities/memory-math-add-minus-mult-div/resource/10/Data.qml:15
@@ -18184,7 +18268,7 @@ msgstr ""
 #: activities/memory-math-mult-div/resource/9/Data.qml:15
 msgctxt "Data|"
 msgid "Table of 10."
-msgstr ""
+msgstr "Bảng 10."
 
 #: activities/memory-math-add-minus-mult-div-tux/resource/2/Data.qml:15
 #: activities/memory-math-add-minus-mult-div/resource/2/Data.qml:15
@@ -18194,7 +18278,7 @@ msgstr ""
 #: activities/memory-math-mult-div/resource/1/Data.qml:15
 msgctxt "Data|"
 msgid "Table of 2."
-msgstr ""
+msgstr "Bảng 2."
 
 #: activities/memory-math-add-minus-mult-div-tux/resource/3/Data.qml:15
 #: activities/memory-math-add-minus-mult-div/resource/3/Data.qml:15
@@ -18204,7 +18288,7 @@ msgstr ""
 #: activities/memory-math-mult-div/resource/2/Data.qml:15
 msgctxt "Data|"
 msgid "Table of 3."
-msgstr ""
+msgstr "Bảng 3."
 
 #: activities/memory-math-add-minus-mult-div-tux/resource/4/Data.qml:15
 #: activities/memory-math-add-minus-mult-div/resource/4/Data.qml:15
@@ -18214,7 +18298,7 @@ msgstr ""
 #: activities/memory-math-mult-div/resource/3/Data.qml:15
 msgctxt "Data|"
 msgid "Table of 4."
-msgstr ""
+msgstr "Bảng 4."
 
 #: activities/memory-math-add-minus-mult-div-tux/resource/5/Data.qml:15
 #: activities/memory-math-add-minus-mult-div/resource/5/Data.qml:15
@@ -18224,7 +18308,7 @@ msgstr ""
 #: activities/memory-math-mult-div/resource/4/Data.qml:15
 msgctxt "Data|"
 msgid "Table of 5."
-msgstr ""
+msgstr "Bảng 5."
 
 #: activities/memory-math-add-minus-mult-div-tux/resource/6/Data.qml:15
 #: activities/memory-math-add-minus-mult-div/resource/6/Data.qml:15
@@ -18234,7 +18318,7 @@ msgstr ""
 #: activities/memory-math-mult-div/resource/5/Data.qml:15
 msgctxt "Data|"
 msgid "Table of 6."
-msgstr ""
+msgstr "Bảng 6."
 
 #: activities/memory-math-add-minus-mult-div-tux/resource/7/Data.qml:15
 #: activities/memory-math-add-minus-mult-div/resource/7/Data.qml:15
@@ -18244,7 +18328,7 @@ msgstr ""
 #: activities/memory-math-mult-div/resource/6/Data.qml:15
 msgctxt "Data|"
 msgid "Table of 7."
-msgstr ""
+msgstr "Bảng 7."
 
 #: activities/memory-math-add-minus-mult-div-tux/resource/8/Data.qml:15
 #: activities/memory-math-add-minus-mult-div/resource/8/Data.qml:15
@@ -18254,7 +18338,7 @@ msgstr ""
 #: activities/memory-math-mult-div/resource/7/Data.qml:15
 msgctxt "Data|"
 msgid "Table of 8."
-msgstr ""
+msgstr "Bảng 8."
 
 #: activities/memory-math-add-minus-mult-div-tux/resource/9/Data.qml:15
 #: activities/memory-math-add-minus-mult-div/resource/9/Data.qml:15
@@ -18264,7 +18348,7 @@ msgstr ""
 #: activities/memory-math-mult-div/resource/8/Data.qml:15
 msgctxt "Data|"
 msgid "Table of 9."
-msgstr ""
+msgstr "Bảng 9."
 
 #. Activity title
 #: activities/memory-math-add-minus-mult-div/ActivityInfo.qml:15
@@ -18361,61 +18445,61 @@ msgstr ""
 #: activities/memory-math-add/resource/1/Data.qml:15
 msgctxt "Data|"
 msgid "Addition table of 1."
-msgstr ""
+msgstr "Bảng cộng 1."
 
 #: activities/memory-math-add-tux/resource/10/Data.qml:15
 #: activities/memory-math-add/resource/10/Data.qml:15
 msgctxt "Data|"
 msgid "Addition table of 10."
-msgstr ""
+msgstr "Bảng cộng 10."
 
 #: activities/memory-math-add-tux/resource/2/Data.qml:15
 #: activities/memory-math-add/resource/2/Data.qml:15
 msgctxt "Data|"
 msgid "Addition table of 2."
-msgstr ""
+msgstr "Bảng cộng 2."
 
 #: activities/memory-math-add-tux/resource/3/Data.qml:15
 #: activities/memory-math-add/resource/3/Data.qml:15
 msgctxt "Data|"
 msgid "Addition table of 3."
-msgstr ""
+msgstr "Bảng cộng 3."
 
 #: activities/memory-math-add-tux/resource/4/Data.qml:15
 #: activities/memory-math-add/resource/4/Data.qml:15
 msgctxt "Data|"
 msgid "Addition table of 4."
-msgstr ""
+msgstr "Bảng cộng 4."
 
 #: activities/memory-math-add-tux/resource/5/Data.qml:15
 #: activities/memory-math-add/resource/5/Data.qml:15
 msgctxt "Data|"
 msgid "Addition table of 5."
-msgstr ""
+msgstr "Bảng cộng 5."
 
 #: activities/memory-math-add-tux/resource/6/Data.qml:15
 #: activities/memory-math-add/resource/6/Data.qml:15
 msgctxt "Data|"
 msgid "Addition table of 6."
-msgstr ""
+msgstr "Bảng cộng 6."
 
 #: activities/memory-math-add-tux/resource/7/Data.qml:15
 #: activities/memory-math-add/resource/7/Data.qml:15
 msgctxt "Data|"
 msgid "Addition table of 7."
-msgstr ""
+msgstr "Bảng cộng 7."
 
 #: activities/memory-math-add-tux/resource/8/Data.qml:15
 #: activities/memory-math-add/resource/8/Data.qml:15
 msgctxt "Data|"
 msgid "Addition table of 8."
-msgstr ""
+msgstr "Bảng cộng 8."
 
 #: activities/memory-math-add-tux/resource/9/Data.qml:15
 #: activities/memory-math-add/resource/9/Data.qml:15
 msgctxt "Data|"
 msgid "Addition table of 9."
-msgstr ""
+msgstr "Bảng cộng 9."
 
 #. Activity title
 #: activities/memory-math-add/ActivityInfo.qml:15
@@ -18468,61 +18552,61 @@ msgstr ""
 #: activities/memory-math-div/resource/1/Data.qml:15
 msgctxt "Data|"
 msgid "Division table of 1."
-msgstr ""
+msgstr "Bảng chia 1."
 
 #: activities/memory-math-div-tux/resource/10/Data.qml:15
 #: activities/memory-math-div/resource/10/Data.qml:15
 msgctxt "Data|"
 msgid "Division table of 10."
-msgstr ""
+msgstr "Bảng chia 10."
 
 #: activities/memory-math-div-tux/resource/2/Data.qml:15
 #: activities/memory-math-div/resource/2/Data.qml:15
 msgctxt "Data|"
 msgid "Division table of 2."
-msgstr ""
+msgstr "Bảng chia 2."
 
 #: activities/memory-math-div-tux/resource/3/Data.qml:15
 #: activities/memory-math-div/resource/3/Data.qml:15
 msgctxt "Data|"
 msgid "Division table of 3."
-msgstr ""
+msgstr "Bảng chia 3."
 
 #: activities/memory-math-div-tux/resource/4/Data.qml:15
 #: activities/memory-math-div/resource/4/Data.qml:15
 msgctxt "Data|"
 msgid "Division table of 4."
-msgstr ""
+msgstr "Bảng chia 4."
 
 #: activities/memory-math-div-tux/resource/5/Data.qml:15
 #: activities/memory-math-div/resource/5/Data.qml:15
 msgctxt "Data|"
 msgid "Division table of 5."
-msgstr ""
+msgstr "Bảng chia 5."
 
 #: activities/memory-math-div-tux/resource/6/Data.qml:15
 #: activities/memory-math-div/resource/6/Data.qml:15
 msgctxt "Data|"
 msgid "Division table of 6."
-msgstr ""
+msgstr "Bảng chia 6."
 
 #: activities/memory-math-div-tux/resource/7/Data.qml:15
 #: activities/memory-math-div/resource/7/Data.qml:15
 msgctxt "Data|"
 msgid "Division table of 7."
-msgstr ""
+msgstr "Bảng chia 7."
 
 #: activities/memory-math-div-tux/resource/8/Data.qml:15
 #: activities/memory-math-div/resource/8/Data.qml:15
 msgctxt "Data|"
 msgid "Division table of 8."
-msgstr ""
+msgstr "Bảng chia 8."
 
 #: activities/memory-math-div-tux/resource/9/Data.qml:15
 #: activities/memory-math-div/resource/9/Data.qml:15
 msgctxt "Data|"
 msgid "Division table of 9."
-msgstr ""
+msgstr "Bảng chia 9."
 
 #. Activity title
 #: activities/memory-math-div/ActivityInfo.qml:15
@@ -18575,61 +18659,61 @@ msgstr ""
 #: activities/memory-math-minus/resource/1/Data.qml:15
 msgctxt "Data|"
 msgid "Subtraction table of 1."
-msgstr ""
+msgstr "Bảng trừ 1."
 
 #: activities/memory-math-minus-tux/resource/10/Data.qml:15
 #: activities/memory-math-minus/resource/10/Data.qml:15
 msgctxt "Data|"
 msgid "Subtraction table of 10."
-msgstr ""
+msgstr "Bảng trừ 10."
 
 #: activities/memory-math-minus-tux/resource/2/Data.qml:15
 #: activities/memory-math-minus/resource/2/Data.qml:15
 msgctxt "Data|"
 msgid "Subtraction table of 2."
-msgstr ""
+msgstr "Bảng trừ 2."
 
 #: activities/memory-math-minus-tux/resource/3/Data.qml:15
 #: activities/memory-math-minus/resource/3/Data.qml:15
 msgctxt "Data|"
 msgid "Subtraction table of 3."
-msgstr ""
+msgstr "Bảng trừ 3."
 
 #: activities/memory-math-minus-tux/resource/4/Data.qml:15
 #: activities/memory-math-minus/resource/4/Data.qml:15
 msgctxt "Data|"
 msgid "Subtraction table of 4."
-msgstr ""
+msgstr "Bảng trừ 4."
 
 #: activities/memory-math-minus-tux/resource/5/Data.qml:15
 #: activities/memory-math-minus/resource/5/Data.qml:15
 msgctxt "Data|"
 msgid "Subtraction table of 5."
-msgstr ""
+msgstr "Bảng trừ 5."
 
 #: activities/memory-math-minus-tux/resource/6/Data.qml:15
 #: activities/memory-math-minus/resource/6/Data.qml:15
 msgctxt "Data|"
 msgid "Subtraction table of 6."
-msgstr ""
+msgstr "Bảng trừ 6."
 
 #: activities/memory-math-minus-tux/resource/7/Data.qml:15
 #: activities/memory-math-minus/resource/7/Data.qml:15
 msgctxt "Data|"
 msgid "Subtraction table of 7."
-msgstr ""
+msgstr "Bảng trừ 7."
 
 #: activities/memory-math-minus-tux/resource/8/Data.qml:15
 #: activities/memory-math-minus/resource/8/Data.qml:15
 msgctxt "Data|"
 msgid "Subtraction table of 8."
-msgstr ""
+msgstr "Bảng trừ 8."
 
 #: activities/memory-math-minus-tux/resource/9/Data.qml:15
 #: activities/memory-math-minus/resource/9/Data.qml:15
 msgctxt "Data|"
 msgid "Subtraction table of 9."
-msgstr ""
+msgstr "Bảng trừ 9."
 
 #. Activity title
 #: activities/memory-math-minus/ActivityInfo.qml:15
@@ -18736,61 +18820,61 @@ msgstr ""
 #: activities/memory-math-mult/resource/1/Data.qml:15
 msgctxt "Data|"
 msgid "Multiplication table of 1."
-msgstr ""
+msgstr "Bảng nhân 1."
 
 #: activities/memory-math-mult-tux/resource/10/Data.qml:15
 #: activities/memory-math-mult/resource/10/Data.qml:15
 msgctxt "Data|"
 msgid "Multiplication table of 10."
-msgstr ""
+msgstr "Bảng nhân 10."
 
 #: activities/memory-math-mult-tux/resource/2/Data.qml:15
 #: activities/memory-math-mult/resource/2/Data.qml:15
 msgctxt "Data|"
 msgid "Multiplication table of 2."
-msgstr ""
+msgstr "Bảng nhân 2."
 
 #: activities/memory-math-mult-tux/resource/3/Data.qml:15
 #: activities/memory-math-mult/resource/3/Data.qml:15
 msgctxt "Data|"
 msgid "Multiplication table of 3."
-msgstr ""
+msgstr "Bảng nhân 3."
 
 #: activities/memory-math-mult-tux/resource/4/Data.qml:15
 #: activities/memory-math-mult/resource/4/Data.qml:15
 msgctxt "Data|"
 msgid "Multiplication table of 4."
-msgstr ""
+msgstr "Bảng nhân 4."
 
 #: activities/memory-math-mult-tux/resource/5/Data.qml:15
 #: activities/memory-math-mult/resource/5/Data.qml:15
 msgctxt "Data|"
 msgid "Multiplication table of 5."
-msgstr ""
+msgstr "Bảng nhân 5."
 
 #: activities/memory-math-mult-tux/resource/6/Data.qml:15
 #: activities/memory-math-mult/resource/6/Data.qml:15
 msgctxt "Data|"
 msgid "Multiplication table of 6."
-msgstr ""
+msgstr "Bảng nhân 6."
 
 #: activities/memory-math-mult-tux/resource/7/Data.qml:15
 #: activities/memory-math-mult/resource/7/Data.qml:15
 msgctxt "Data|"
 msgid "Multiplication table of 7."
-msgstr ""
+msgstr "Bảng nhân 7."
 
 #: activities/memory-math-mult-tux/resource/8/Data.qml:15
 #: activities/memory-math-mult/resource/8/Data.qml:15
 msgctxt "Data|"
 msgid "Multiplication table of 8."
-msgstr ""
+msgstr "Bảng nhân 8."
 
 #: activities/memory-math-mult-tux/resource/9/Data.qml:15
 #: activities/memory-math-mult/resource/9/Data.qml:15
 msgctxt "Data|"
 msgid "Multiplication table of 9."
-msgstr ""
+msgstr "Bảng nhân 9."
 
 #. Activity title
 #: activities/memory-math-mult/ActivityInfo.qml:15
@@ -18908,107 +18992,107 @@ msgstr ""
 #: activities/memory-wordnumber/dataset.js:11
 msgctxt "dataset|"
 msgid "zero"
-msgstr ""
+msgstr "không"
 
 #: activities/memory-wordnumber/dataset.js:12
 msgctxt "dataset|"
 msgid "one"
-msgstr ""
+msgstr "một"
 
 #: activities/memory-wordnumber/dataset.js:13
 msgctxt "dataset|"
 msgid "two"
-msgstr ""
+msgstr "hai"
 
 #: activities/memory-wordnumber/dataset.js:14
 msgctxt "dataset|"
 msgid "three"
-msgstr ""
+msgstr "ba"
 
 #: activities/memory-wordnumber/dataset.js:15
 msgctxt "dataset|"
 msgid "four"
-msgstr ""
+msgstr "bốn"
 
 #: activities/memory-wordnumber/dataset.js:16
 msgctxt "dataset|"
 msgid "five"
-msgstr ""
+msgstr "năm"
 
 #: activities/memory-wordnumber/dataset.js:17
 msgctxt "dataset|"
 msgid "six"
-msgstr ""
+msgstr "sáu"
 
 #: activities/memory-wordnumber/dataset.js:18
 msgctxt "dataset|"
 msgid "seven"
-msgstr ""
+msgstr "bảy"
 
 #: activities/memory-wordnumber/dataset.js:19
 msgctxt "dataset|"
 msgid "eight"
-msgstr ""
+msgstr "tám"
 
 #: activities/memory-wordnumber/dataset.js:20
 msgctxt "dataset|"
 msgid "nine"
-msgstr ""
+msgstr "chín"
 
 #: activities/memory-wordnumber/dataset.js:21
 msgctxt "dataset|"
 msgid "ten"
-msgstr ""
+msgstr "mười"
 
 #: activities/memory-wordnumber/dataset.js:22
 msgctxt "dataset|"
 msgid "eleven"
-msgstr ""
+msgstr "mười một"
 
 #: activities/memory-wordnumber/dataset.js:23
 msgctxt "dataset|"
 msgid "twelve"
-msgstr ""
+msgstr "mười hai"
 
 #: activities/memory-wordnumber/dataset.js:24
 msgctxt "dataset|"
 msgid "thirteen"
-msgstr ""
+msgstr "mười ba"
 
 #: activities/memory-wordnumber/dataset.js:25
 msgctxt "dataset|"
 msgid "fourteen"
-msgstr ""
+msgstr "mười bốn"
 
 #: activities/memory-wordnumber/dataset.js:26
 msgctxt "dataset|"
 msgid "fifteen"
-msgstr ""
+msgstr "mười lăm"
 
 #: activities/memory-wordnumber/dataset.js:27
 msgctxt "dataset|"
 msgid "sixteen"
-msgstr ""
+msgstr "mười sáu"
 
 #: activities/memory-wordnumber/dataset.js:28
 msgctxt "dataset|"
 msgid "seventeen"
-msgstr ""
+msgstr "mười bảy"
 
 #: activities/memory-wordnumber/dataset.js:29
 msgctxt "dataset|"
 msgid "eighteen"
-msgstr ""
+msgstr "mười tám"
 
 #: activities/memory-wordnumber/dataset.js:30
 msgctxt "dataset|"
 msgid "nineteen"
-msgstr ""
+msgstr "mười chín"
 
 #: activities/memory-wordnumber/dataset.js:31
 msgctxt "dataset|"
 msgid "twenty"
-msgstr ""
+msgstr "hai mươi"
 
 #. Activity title
 #: activities/memory/ActivityInfo.qml:15
@@ -19048,16 +19132,18 @@ msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
 "voices or effects are disabled in the main configuration."
 msgstr ""
+"Hoạt động này cần âm thanh, nên vẫn sẽ phát tiếng dù giọng đọc hay hiệu ứng "
+"đã bị tắt trong phần cài đặt chung."
 
 #: activities/memory/MemoryCommon.qml:370
 msgctxt "MemoryCommon|"
 msgid "Quit"
-msgstr ""
+msgstr "Thoát"
 
 #: activities/memory/MemoryCommon.qml:371
 msgctxt "MemoryCommon|"
 msgid "Continue"
-msgstr ""
+msgstr "Chơi tiếp"
 
 #. Activity title
 #: activities/menu/ActivityInfo.qml:13
@@ -19101,66 +19187,68 @@ msgid ""
 "The following icons are displayed:\n"
 "(note that each icon is displayed only if available in the current activity)"
 msgstr ""
+"Các biểu tượng sau sẽ hiện ra:\n"
+"(mỗi biểu tượng chỉ hiện nếu hoạt động đang mở có dùng tới nó)"
 
 #: activities/menu/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Home - Exit an activity, go back to menu (Ctrl+W or Escape key)"
-msgstr ""
+msgstr "Ngôi nhà - Thoát hoạt động, quay về menu (Ctrl+W hoặc phím Esc)"
 
 #: activities/menu/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Arrows - Display the current level. Click to select another level"
-msgstr ""
+msgstr "Mũi tên - Hiện cấp độ hiện tại. Bấm vào để chọn cấp khác"
 
 #: activities/menu/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Lips - Repeat the question"
-msgstr ""
+msgstr "Cái miệng - Nghe lại câu hỏi"
 
 #: activities/menu/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Question Mark - Help"
-msgstr ""
+msgstr "Dấu chấm hỏi - Trợ giúp"
 
 #: activities/menu/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
 msgid "Reload - Start the activity from the beginning again"
-msgstr ""
+msgstr "Mũi tên vòng - Chơi lại hoạt động từ đầu"
 
 #: activities/menu/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
 msgid "Tool - The configuration menu"
-msgstr ""
+msgstr "Cờ lê - Menu cài đặt"
 
 #: activities/menu/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
 msgid "Three lines - The activity settings menu"
-msgstr ""
+msgstr "Ba vạch ngang - Menu thiết lập hoạt động"
 
 #: activities/menu/ActivityInfo.qml:32
 msgctxt "ActivityInfo|"
 msgid "G - About GCompris"
-msgstr ""
+msgstr "Chữ G - Giới thiệu GCompris"
 
 #: activities/menu/ActivityInfo.qml:33
 msgctxt "ActivityInfo|"
 msgid "Quit - Quit GCompris (Ctrl+Q)"
-msgstr ""
+msgstr "Thoát - Thoát GCompris (Ctrl+Q)"
 
 #: activities/menu/ActivityInfo.qml:34
 msgctxt "ActivityInfo|"
 msgid "The stars show suitable age groups for each activity:"
-msgstr ""
+msgstr "Các ngôi sao cho biết hoạt động hợp với lứa tuổi nào:"
 
 #: activities/menu/ActivityInfo.qml:35
 msgctxt "ActivityInfo|"
 msgid "1, 2 or 3 yellow stars - from 2 to 6 years old"
-msgstr ""
+msgstr "1, 2 hay 3 sao vàng - từ 2 tới 6 tuổi"
 
 #: activities/menu/ActivityInfo.qml:36
 msgctxt "ActivityInfo|"
 msgid "1, 2 or 3 red stars - 7 years and up"
-msgstr ""
+msgstr "1, 2 hay 3 sao đỏ - từ 7 tuổi trở lên"
 
 #: activities/menu/ActivityInfo.qml:37
 msgctxt "ActivityInfo|"
@@ -19168,232 +19256,234 @@ msgid ""
 "If there are two different star icons on an activity, the first one shows "
 "the minimum difficulty, and the second one the maximum difficulty."
 msgstr ""
+"Nếu một hoạt động có hai biểu tượng sao khác nhau thì cái đầu là độ khó thấp"
+" nhất, cái sau là độ khó cao nhất."
 
 #: activities/menu/ActivityInfo.qml:38
 msgctxt "ActivityInfo|"
 msgid "<b>Keyboard shortcuts:</b>"
-msgstr ""
+msgstr "<b>Phím tắt:</b>"
 
 #: activities/menu/ActivityInfo.qml:39
 msgctxt "ActivityInfo|"
 msgid "Ctrl+B: Show or Hide the control bar"
-msgstr ""
+msgstr "Ctrl+B: Hiện hoặc ẩn thanh công cụ"
 
 #: activities/menu/ActivityInfo.qml:40
 msgctxt "ActivityInfo|"
 msgid "Ctrl+F: Toggle full screen"
-msgstr ""
+msgstr "Ctrl+F: Bật tắt toàn màn hình"
 
 #: activities/menu/ActivityInfo.qml:41
 msgctxt "ActivityInfo|"
 msgid "Ctrl+S: Toggle the activity section bar"
-msgstr ""
+msgstr "Ctrl+S: Bật tắt thanh nhóm hoạt động"
 
 #: activities/menu/BackgroundMusicList.qml:57
 msgctxt "BackgroundMusicList|"
 msgid "Background music"
-msgstr ""
+msgstr "Nhạc nền"
 
 #: activities/menu/BackgroundMusicList.qml:140
 msgctxt "BackgroundMusicList|"
 msgid "Disable the background music if you don't want to play them."
-msgstr ""
+msgstr "Tắt nhạc nền đi nếu bạn không muốn nghe."
 
 #. Current background music playing
 #: activities/menu/BackgroundMusicList.qml:177
 msgctxt "BackgroundMusicList|"
 msgid "Now Playing:"
-msgstr ""
+msgstr "Đang phát:"
 
 #. Title of the current background music playing
 #: activities/menu/BackgroundMusicList.qml:185
 #, qt-format
 msgctxt "BackgroundMusicList|"
 msgid "Title: %1"
-msgstr ""
+msgstr "Tên bài: %1"
 
 #. Artist of the current background music playing
 #: activities/menu/BackgroundMusicList.qml:193
 #, qt-format
 msgctxt "BackgroundMusicList|"
 msgid "Artist: %1"
-msgstr ""
+msgstr "Nghệ sĩ: %1"
 
 #. Year of the current background music playing
 #: activities/menu/BackgroundMusicList.qml:201
 #, qt-format
 msgctxt "BackgroundMusicList|"
 msgid "Year: %1"
-msgstr ""
+msgstr "Năm: %1"
 
 #. Copyright of the current background music playing
 #: activities/menu/BackgroundMusicList.qml:209
 #, qt-format
 msgctxt "BackgroundMusicList|"
 msgid "Copyright: %1"
-msgstr ""
+msgstr "Bản quyền: %1"
 
 #: activities/menu/ConfigurationItem.qml:48
 msgctxt "ConfigurationItem|"
 msgid "Difficulty filter"
-msgstr ""
+msgstr "Lọc theo độ khó"
 
 #: activities/menu/ConfigurationItem.qml:109
 msgctxt "ConfigurationItem|"
 msgid "Language selector"
-msgstr ""
+msgstr "Chọn ngôn ngữ"
 
 #: activities/menu/ConfigurationItem.qml:116
 msgctxt "ConfigurationItem|"
 msgid "Enable automatic downloads/updates of external assets"
-msgstr ""
+msgstr "Tự động tải và cập nhật các gói dữ liệu ngoài"
 
 #: activities/menu/ConfigurationItem.qml:146
 msgctxt "ConfigurationItem|"
 msgid "Localized voices"
-msgstr ""
+msgstr "Giọng đọc theo ngôn ngữ"
 
 #: activities/menu/ConfigurationItem.qml:155
 msgctxt "ConfigurationItem|"
 msgid "Check for updates"
-msgstr ""
+msgstr "Kiểm tra bản cập nhật"
 
 #: activities/menu/ConfigurationItem.qml:156
 msgctxt "ConfigurationItem|"
 msgid "Download"
-msgstr ""
+msgstr "Tải về"
 
 #: activities/menu/ConfigurationItem.qml:172
 msgctxt "ConfigurationItem|"
 msgid "Enable audio voices"
-msgstr ""
+msgstr "Bật giọng đọc"
 
 #: activities/menu/ConfigurationItem.qml:182
 msgctxt "ConfigurationItem|"
 msgid "Enable audio effects"
-msgstr ""
+msgstr "Bật hiệu ứng âm thanh"
 
 #: activities/menu/ConfigurationItem.qml:191
 msgctxt "ConfigurationItem|"
 msgid "Audio effects volume"
-msgstr ""
+msgstr "Âm lượng hiệu ứng"
 
 #: activities/menu/ConfigurationItem.qml:211
 msgctxt "ConfigurationItem|"
 msgid "Download background music"
-msgstr ""
+msgstr "Tải nhạc nền về"
 
 #: activities/menu/ConfigurationItem.qml:222
 msgctxt "ConfigurationItem|"
 msgid "Enable background music"
-msgstr ""
+msgstr "Bật nhạc nền"
 
 #: activities/menu/ConfigurationItem.qml:231
 msgctxt "ConfigurationItem|"
 msgid "Background Music"
-msgstr ""
+msgstr "Nhạc nền"
 
 #: activities/menu/ConfigurationItem.qml:247
 msgctxt "ConfigurationItem|"
 msgid "Not playing"
-msgstr ""
+msgstr "Không phát"
 
 #: activities/menu/ConfigurationItem.qml:249
 #, qt-format
 msgctxt "ConfigurationItem|"
 msgid "Title: %1  Artist: %2"
-msgstr ""
+msgstr "Tên bài: %1  Nghệ sĩ: %2"
 
 #: activities/menu/ConfigurationItem.qml:251
 msgctxt "ConfigurationItem|"
 msgid "Introduction music"
-msgstr ""
+msgstr "Nhạc mở đầu"
 
 #: activities/menu/ConfigurationItem.qml:275
 msgctxt "ConfigurationItem|"
 msgid "Background music volume"
-msgstr ""
+msgstr "Âm lượng nhạc nền"
 
 #: activities/menu/ConfigurationItem.qml:305
 msgctxt "ConfigurationItem|"
 msgid "Full word image set is installed"
-msgstr ""
+msgstr "Đã cài bộ ảnh từ vựng đầy đủ"
 
 #: activities/menu/ConfigurationItem.qml:305
 msgctxt "ConfigurationItem|"
 msgid "Full word image set is not installed"
-msgstr ""
+msgstr "Chưa cài bộ ảnh từ vựng đầy đủ"
 
 #: activities/menu/ConfigurationItem.qml:319
 msgctxt "ConfigurationItem|"
 msgid "Download full word image set"
-msgstr ""
+msgstr "Tải bộ ảnh từ vựng đầy đủ"
 
 #: activities/menu/ConfigurationItem.qml:330
 msgctxt "ConfigurationItem|"
 msgid "Fullscreen"
-msgstr ""
+msgstr "Toàn màn hình"
 
 #: activities/menu/ConfigurationItem.qml:341
 msgctxt "ConfigurationItem|"
 msgid "Virtual Keyboard"
-msgstr ""
+msgstr "Bàn phím ảo"
 
 #: activities/menu/ConfigurationItem.qml:352
 msgctxt "ConfigurationItem|"
 msgid "The activity section menu is visible"
-msgstr ""
+msgstr "Hiện thanh nhóm hoạt động"
 
 #: activities/menu/ConfigurationItem.qml:362
 msgctxt "ConfigurationItem|"
 msgid "Ask for confirmation to exit"
-msgstr ""
+msgstr "Hỏi lại trước khi thoát"
 
 #: activities/menu/ConfigurationItem.qml:373
 msgctxt "ConfigurationItem|"
 msgid "Font selector"
-msgstr ""
+msgstr "Chọn phông chữ"
 
 #: activities/menu/ConfigurationItem.qml:378
 msgctxt "ConfigurationItem|"
 msgid "Font size"
-msgstr ""
+msgstr "Cỡ chữ"
 
 #: activities/menu/ConfigurationItem.qml:397
 #: activities/menu/ConfigurationItem.qml:430
 msgctxt "ConfigurationItem|"
 msgid "Default"
-msgstr ""
+msgstr "Mặc định"
 
 #: activities/menu/ConfigurationItem.qml:406
 msgctxt "ConfigurationItem|"
 msgid "Font Capitalization"
-msgstr ""
+msgstr "Kiểu chữ hoa thường"
 
 #: activities/menu/ConfigurationItem.qml:411
 msgctxt "ConfigurationItem|"
 msgid "Font letter spacing"
-msgstr ""
+msgstr "Giãn cách chữ cái"
 
 #: activities/menu/ConfigurationItem.qml:445
 msgctxt "ConfigurationItem|"
 msgid "Teacher's server config"
-msgstr ""
+msgstr "Cài đặt máy chủ của thầy cô"
 
 #: activities/menu/ConfigurationItem.qml:653
 msgctxt "ConfigurationItem|"
 msgid "Mixed case (default)"
-msgstr ""
+msgstr "Lẫn hoa lẫn thường (mặc định)"
 
 #: activities/menu/ConfigurationItem.qml:657
 msgctxt "ConfigurationItem|"
 msgid "All uppercase"
-msgstr ""
+msgstr "Tất cả chữ hoa"
 
 #: activities/menu/ConfigurationItem.qml:661
 msgctxt "ConfigurationItem|"
 msgid "All lowercase"
-msgstr ""
+msgstr "Tất cả chữ thường"
 
 #: activities/menu/Menu.qml:89
 msgctxt "Menu|"
@@ -19401,81 +19491,82 @@ msgid ""
 "You selected a new locale, do you want to download the corresponding sound "
 "files now?"
 msgstr ""
+"Bạn vừa chọn ngôn ngữ mới, có tải các tệp âm thanh tương ứng về luôn không?"
 
 #: activities/menu/Menu.qml:90
 msgctxt "Menu|"
 msgid "Yes"
-msgstr ""
+msgstr "Có"
 
 #: activities/menu/Menu.qml:97
 msgctxt "Menu|"
 msgid "No"
-msgstr ""
+msgstr "Không"
 
 #: activities/menu/Menu.qml:116
 msgctxt "Menu|"
 msgid "Logic"
-msgstr ""
+msgstr "Tư duy logic"
 
 #: activities/menu/Menu.qml:117
 msgctxt "Menu|"
 msgid "Fine Arts"
-msgstr ""
+msgstr "Mỹ thuật"
 
 #: activities/menu/Menu.qml:118
 msgctxt "Menu|"
 msgid "Music"
-msgstr ""
+msgstr "Âm nhạc"
 
 #: activities/menu/Menu.qml:124
 msgctxt "Menu|"
 msgid "Experiment"
-msgstr ""
+msgstr "Thí nghiệm"
 
 #: activities/menu/Menu.qml:125
 msgctxt "Menu|"
 msgid "History"
-msgstr ""
+msgstr "Lịch sử"
 
 #: activities/menu/Menu.qml:126
 msgctxt "Menu|"
 msgid "Geography"
-msgstr ""
+msgstr "Địa lý"
 
 #: activities/menu/Menu.qml:136
 msgctxt "Menu|"
 msgid "Numeration"
-msgstr ""
+msgstr "Số đếm"
 
 #: activities/menu/Menu.qml:137
 msgctxt "Menu|"
 msgid "Arithmetic"
-msgstr ""
+msgstr "Số học"
 
 #: activities/menu/Menu.qml:138
 msgctxt "Menu|"
 msgid "Measures"
-msgstr ""
+msgstr "Đo lường"
 
 #: activities/menu/Menu.qml:148
 msgctxt "Menu|"
 msgid "Letters"
-msgstr ""
+msgstr "Chữ cái"
 
 #: activities/menu/Menu.qml:149
 msgctxt "Menu|"
 msgid "Words"
-msgstr ""
+msgstr "Từ ngữ"
 
 #: activities/menu/Menu.qml:150
 msgctxt "Menu|"
 msgid "Vocabulary"
-msgstr ""
+msgstr "Từ vựng"
 
 #: activities/menu/Menu.qml:213
 msgctxt "Menu|"
 msgid "GCompris is not connected to teacher's server."
-msgstr ""
+msgstr "GCompris chưa kết nối tới máy chủ của thầy cô."
 
 #: activities/menu/Menu.qml:214
 msgctxt "Menu|"
@@ -19483,6 +19574,8 @@ msgid ""
 "GCompris is connected to teacher's server, but the password entered for "
 "selected user is wrong."
 msgstr ""
+"GCompris đã kết nối tới máy chủ của thầy cô, nhưng mật khẩu của người dùng "
+"được chọn bị sai."
 
 #: activities/menu/Menu.qml:215
 #, qt-format
@@ -19491,16 +19584,17 @@ msgid ""
 "GCompris is connected to teacher's server, and the user is authenticated as "
 "%1."
 msgstr ""
+"GCompris đã kết nối tới máy chủ của thầy cô, người dùng đăng nhập là %1."
 
 #: activities/menu/Menu.qml:216
 msgctxt "Menu|"
 msgid "GCompris has lost the connection to teacher's server."
-msgstr ""
+msgstr "GCompris bị mất kết nối tới máy chủ của thầy cô."
 
 #: activities/menu/Menu.qml:217
 msgctxt "Menu|"
 msgid "GCompris has been disconnected from teacher's server."
-msgstr ""
+msgstr "GCompris đã ngắt kết nối khỏi máy chủ của thầy cô."
 
 #: activities/menu/Menu.qml:218
 msgctxt "Menu|"
@@ -19508,6 +19602,8 @@ msgid ""
 "GCompris is connected to teacher's server, but the user is not yet "
 "authenticated."
 msgstr ""
+"GCompris đã kết nối tới máy chủ của thầy cô, nhưng người dùng chưa đăng "
+"nhập."
 
 #: activities/menu/Menu.qml:680
 msgctxt "Menu|"
@@ -19515,36 +19611,38 @@ msgid ""
 "Put your favorite activities here by clicking on the sun at the top right of"
 " that activity."
 msgstr ""
+"Đặt hoạt động con thích vào đây bằng cách bấm vào mặt trời ở góc trên bên "
+"phải của hoạt động đó."
 
 #: activities/menu/Menu.qml:855
 msgctxt "Menu|"
 msgid "Search specific activities"
-msgstr ""
+msgstr "Tìm hoạt động"
 
 #: activities/menu/Menu.qml:884
 msgctxt "Menu|"
 msgid "Activity Settings"
-msgstr ""
+msgstr "Thiết lập hoạt động"
 
 #: activities/menu/ServerConfigPage.qml:61
 msgctxt "ServerConfigPage|"
 msgid "Teacher's server settings"
-msgstr ""
+msgstr "Cài đặt máy chủ của thầy cô"
 
 #: activities/menu/ServerConfigPage.qml:111
 msgctxt "ServerConfigPage|"
 msgid "Teacher's identifier"
-msgstr ""
+msgstr "Mã định danh của thầy cô"
 
 #: activities/menu/ServerConfigPage.qml:142
 msgctxt "ServerConfigPage|"
 msgid "Server port"
-msgstr ""
+msgstr "Cổng máy chủ"
 
 #: activities/menu/ServerConfigPage.qml:177
 msgctxt "ServerConfigPage|"
 msgid "Server port must be a number between 0 and 65535."
-msgstr ""
+msgstr "Cổng máy chủ phải là số từ 0 tới 65535."
 
 #. Activity title
 #: activities/mining/ActivityInfo.qml:15
@@ -19590,6 +19688,9 @@ msgid ""
 "appear, showing the next gold nugget to collect. Collect enough nuggets to "
 "complete the level."
 msgstr ""
+"Nhặt được cục vàng rồi, hãy lăn bánh xe chuột hoặc chụm ngón tay để thu nhỏ "
+"lại. Khi thu về mức nhỏ nhất, một chỗ lấp lánh khác sẽ hiện ra, chỉ cục vàng"
+" tiếp theo. Nhặt đủ số cục vàng là qua màn."
 
 #: activities/mining/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
@@ -19598,12 +19699,15 @@ msgid ""
 "of already collected nuggets and the total number of nuggets to collect in "
 "this level."
 msgstr ""
+"Toa xe ở góc dưới bên phải màn hình cho biết con đã nhặt được bao nhiêu cục "
+"vàng và cần nhặt tất cả bao nhiêu cục ở màn này."
 
 #: activities/mining/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid ""
 "Thanks to the Tuxpaint team for providing the following sounds under GPL:"
 msgstr ""
+"Xin cảm ơn nhóm Tuxpaint đã cho dùng những âm thanh sau theo giấy phép GPL:"
 
 #: activities/mining/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
