@@ -1,0 +1,230 @@
+207	Battery	I = %1A
+210	Bulb	I = %1A
+215	Resistor	I = %1A
+218	Rheostat	I = %1A
+625	board1_0	1
+626	board1_0	2
+627	board1_0	3
+628	board1_0	4
+635	board3_0	1
+636	board3_0	2
+637	board3_0	3
+638	board3_0	4
+640	board4_0	1
+641	board4_0	2
+642	board4_0	3
+643	board4_0	4
+918	AndGate	A AND B
+924	NandGate	NOT (A AND B)
+926	NorGate	NOT (A OR B)
+931	OrGate	A OR B
+937	XorGate	A XOR B
+1192	board5	Castillo de San Marcos
+3775	Dataset	50 Earth days
+3776	Dataset	59 Earth days
+3777	Dataset	Venus
+3778	Dataset	The length of a year on Earth is 365 days.
+3779	Dataset	At which position is Venus in the Solar System?
+3780	Dataset	Second
+3781	Dataset	Venus is as heavy as:
+3782	Dataset	0.7 Earths
+3783	Dataset	0.8 Earths
+3784	Dataset	1.3 Earths
+3785	Dataset	2.5 Earths
+3786	Dataset	How large is Venus compared to other planets in our Solar System?
+3787	Dataset	Fifth largest
+3788	Dataset	Fourth largest
+3789	Dataset	How long is a year on Venus?
+3790	Dataset	225 Earth days
+3791	Dataset	116 Earth days
+3792	Dataset	100 Earth days
+3793	Dataset	How long is one rotation on Venus?
+3794	Dataset	243 Earth days
+3795	Dataset	The maximum temperature on Venus is:
+3796	Dataset	100 °C
+3797	Dataset	20 °C
+3798	Dataset	467 °C
+3799	Dataset	45 °C
+3800	Dataset	How many moons has Venus?
+3801	Dataset	Earth
+3802	Dataset	The maximum temperature on Mars is 20 °C.
+3803	Dataset	At which position is Earth in the Solar System?
+3804	Dataset	Third
+3805	Dataset	Fifth
+3806	Dataset	How long does it take for Earth to make one revolution around the Sun?
+3807	Dataset	200 days
+3808	Dataset	30 days
+3809	Dataset	7 days
+3810	Dataset	365 days
+3811	Dataset	How many moons has Earth?
+3812	Dataset	How long is one rotation on Earth?
+3813	Dataset	12 hours
+3814	Dataset	24 hours
+3815	Dataset	365 hours
+3816	Dataset	48 hours
+3817	Dataset	How many seasons has Earth?
+3818	Dataset	The maximum temperature on Earth is:
+3819	Dataset	58 °C
+3820	Dataset	30 °C
+3821	Dataset	How large is Earth compared to other planets in our Solar System?
+3822	Dataset	Mars
+3823	Dataset	At which position is Mars in the Solar System?
+3824	Dataset	The maximum temperature on Mars is:
+3825	Dataset	60 °C
+3826	Dataset	How big is the size of Mars compared to Earth?
+3827	Dataset	The same
+3828	Dataset	Half
+3829	Dataset	Two times
+3830	Dataset	Three times
+3831	Dataset	How many moons has Mars?
+3832	Dataset	How long is one rotation on Mars?
+3833	Dataset	24.5 hours
+3834	Dataset	How long does it take for Mars to make one revolution around the Sun?
+3835	Dataset	687 Earth days
+3836	Dataset	30 Earth days
+3837	Dataset	7 Earth days
+3838	Dataset	How small is Mars compared to other planets in our Solar System?
+3839	Dataset	Jupiter
+3840	Dataset	The length of a year on Saturn is 29.5 Earth years.
+3841	Dataset	At which position is Jupiter in the Solar System?
+3842	Dataset	How large is Jupiter compared to other planets in the Solar System?
+3843	Dataset	Second largest
+3844	Dataset	The minimum temperature on Jupiter is:
+3845	Dataset	-145 °C
+3846	Dataset	-180 °C
+3847	Dataset	How many moons has Jupiter?
+3848	Dataset	How long is one rotation on Jupiter?
+3849	Dataset	10 hours
+3850	Dataset	How long does it take for Jupiter to make one revolution around the Sun?
+3851	Dataset	5 Earth years
+3852	Dataset	12 Earth years
+3853	Dataset	30 Earth years
+3854	Dataset	1 Earth year
+3855	Dataset	Saturn
+3856	Dataset	The minimum temperature on Jupiter is -145 °C.
+3857	Dataset	The length of a year on Jupiter is 12 Earth years.
+3858	Dataset	At which position is Saturn in the Solar System?
+3859	Dataset	How large is Saturn compared to other planets in the Solar System?
+3860	Dataset	How many moons has Saturn?
+3861	Dataset	How long is one rotation on Saturn?
+3862	Dataset	10.5 hours
+3863	Dataset	The minimum temperature on Saturn is:
+3864	Dataset	0 °C
+3865	Dataset	-178 °C
+3866	Dataset	-100 °C
+3867	Dataset	How long does it take for Saturn to make one revolution around the Sun?
+3868	Dataset	29.5 Earth years
+3869	Dataset	20 Earth years
+3870	Dataset	10 Earth years
+3871	Dataset	Uranus
+3872	Dataset	The temperature on Saturn is -178 °C.
+3873	Dataset	At which position is Uranus in the Solar System?
+3874	Dataset	Eighth
+3875	Dataset	How many years does it take for Uranus to go once around the Sun?
+3876	Dataset	24 Earth years
+3877	Dataset	68 Earth years
+3878	Dataset	84 Earth years
+3879	Dataset	How many moons has Uranus?
+3880	Dataset	How long is one rotation on Uranus?
+3881	Dataset	27 hours
+3882	Dataset	17 hours
+3883	Dataset	How large is Uranus compared to other planets in the Solar System?
+3884	Dataset	The maximum temperature on Uranus is:
+3885	Dataset	-216 °C
+3886	Dataset	Neptune
+3887	Dataset	The maximum temperature on Saturn is -178 °C.
+3888	Dataset	The length of a year on Uranus is 84 Earth years.
+3889	Dataset	At which position is Neptune in the Solar System?
+3890	Dataset	How long does it take for Neptune to make one revolution around the Sun?
+3891	Dataset	165 Earth years
+3892	Dataset	3 Earth years
+3893	Dataset	100 Earth years
+3894	Dataset	How many moons has Neptune?
+3895	Dataset	How long is one rotation on Neptune?
+3896	Dataset	16 hours
+3897	Dataset	The average temperature on Neptune is:
+3898	Dataset	-210 °C
+3899	Dataset	How large is Neptune compared to other planets in the Solar System?
+3900	QuizScreen	Accuracy: %1%
+3901	QuizScreen	%1%
+3902	QuizScreen	Your final score is: <font color="#3bb0de">%1%</font>.<br><br>%2
+3903	QuizScreen	You should score above 90% to become a Solar System expert!<br>Retry to test your skills again or train in normal mode to learn more about the Solar System.
+3904	QuizScreen	Great! You can replay the assessment to test your knowledge on more questions.
+3905	SolarSystem	Mode: <font color="#3bb0de">%1</font><br><br>There are two modes in the activity which you can switch from the configuration window:<br><b>1. Learning mode</b> - In this mode you can play and learn about the Solar System.<br><b>2. Assessment mode</b> - In this mode you can test your knowledge about the Solar System.
+3906	SolarSystem	Assessment
+3907	SolarSystem	Learning
+3908	SolarSystem	Click on the Sun or any planet to reveal questions. Each question has 4 options, out of which one is correct.
+3909	SolarSystem	After a planet is clicked, the Closeness meter at the bottom-right corner of the screen represents the degree of correctness of your selected answer. The least correct answer is represented by 1%. Try again until you reach a 100% closeness by following the closeness meter. If the hint button is visible, you can click on it to get a hint to find the answer.
+3910	SolarSystem	There are 20 questions initially with 4 options each. The progress bar at the bottom right of the screen shows your percentage score.
+3911	SolarSystem	If your answer is correct, your score increases.<br>If your answer is wrong, your score decreases and one more question will be asked in the end along with the incorrectly answered question.<br>A maximum of 25 questions will be asked after which no more question will be added.
+3912	SolarSystem	You should score above 90% to pass the assessment and become a Solar System expert!
+3913	SolarSystem	1. The <b>farther</b> a planet from the Sun, the <b>lower</b> is its temperature.<br><font color="#3bb0de">%1</font>
+3914	SolarSystem	2. The duration of a year on a planet <b>increases as we go away from the Sun</b>.<br><font color="#3bb0de">%1</font>
+3915	SolarSystem	3. Always remember this rhyme to learn the position of planets, examine the first letter in each word - <b>M</b>y <b>V</b>ery <b>E</b>xcellent <b>M</b>other <b>J</b>ust <b>S</b>erved <b>U</b>s <b>N</b>oodles.<br>
+3916	SolarSystem	Hint
+3917	SolarSystem	View the solar system
+3923	ActivityInfo	<b>Engine</b>
+3924	ActivityInfo	D or Right arrow: increase the velocity
+3925	ActivityInfo	A or Left arrow: decrease the velocity
+3926	ActivityInfo	<b>Ballast tanks</b>
+3927	ActivityInfo	W or Up arrow: switch filling of the central ballast tank
+3928	ActivityInfo	S or Down arrow: switch flushing of the central ballast tank
+3929	ActivityInfo	R: switch filling of the left ballast tank
+3930	ActivityInfo	F: switch flushing of the left ballast tank
+3931	ActivityInfo	T: switch filling of the right ballast tank
+3932	ActivityInfo	G: switch flushing of the right ballast tank
+3933	ActivityInfo	<b>Diving planes</b>
+3934	ActivityInfo	+: increase diving planes angle
+3935	ActivityInfo	-: decrease diving planes angle
+3936	Controls	Left Ballast Tank
+3937	Controls	Central Ballast Tank
+3938	Controls	Right Ballast Tank
+3939	Submarine	Move the submarine to the other side of the screen.
+3940	Submarine	The leftmost item in the control panel is the engine of the submarine, indicating the current speed of the submarine.
+3941	Submarine	Increase or decrease the velocity of the submarine using the engine.
+3942	Submarine	Press the + button to increase the velocity, or the - button to decrease the velocity.
+3943	Submarine	The item next to the engine is the ballast tank.
+3944	Submarine	The ballast tanks are used to float or dive under water.
+3945	Submarine	If the ballast tanks are empty, the submarine will float. If the ballast tanks are full of water, the submarine will dive underwater.
+3946	Submarine	Turning the upper valve on or off will alternatively allow or stop the water from filling in the ballast tank, thus allowing it to dive underwater.
+3947	Submarine	Turning the lower valve on or off will alternatively allow or stop the water from flushing out the ballast tank, thus allowing it to float on the surface of the water.
+3948	Submarine	The rightmost item in the control panel controls the diving planes of the submarine.
+3949	Submarine	The diving planes in a submarine are used to control the depth of the submarine accurately once it is underwater.
+3950	Submarine	Once the submarine is moving underwater, increasing or decreasing the angle of the planes will increase and decrease the depth of the submarine.
+3951	Submarine	The + button will increase the depth of the submarine, while the - button will decrease the depth of the submarine.
+3952	Submarine	Grab the crown to open the gate.
+3953	Submarine	Check out the help menu for the keyboard controls.
+3959	Data	Small grids using symbols.
+3960	Data	Medium grids using symbols.
+3961	Data	Medium grids using numbers and symbols.
+3962	Data	Large grids using numbers.
+3967	Superbrain	This item is well placed.
+3968	Superbrain	This item is misplaced.
+3978	Data	Maximum value: 10.
+3979	Data	Maximum value: 50.
+3980	Data	Maximum value: 500.
+3981	Data	Maximum value: 5000.
+3982	Data	Maximum value: 50000.
+3988	Data	1 pair to make from 3 numbers.
+3989	Data	2 pairs to make from 5 numbers.
+3994	ActivityInfo	When all the lines are completed, press the OK button to validate the answers. If some answers are incorrect, a cross icon will appear on the corresponding lines. To correct the errors, click on the wrong numbers to remove them and repeat the previous steps.
+3996	Data	First number from 1 to 4.
+3997	Data	First number from 5 to 9.
+3998	Data	Find both numbers.
+4004	Data	2 pairs to make from 4 numbers.
+4005	Data	3 pairs to make from 6 numbers.
+4011	Data	Result between 11 and 19.
+4012	Data	Result between 20 and 29.
+4013	Data	Result between 30 and 50.
+4018	ActivityInfo	Tux will play better when you increase the level.
+4029	Data	Solve addition, 2 digits, 2 lines, without carry.
+4030	Data	Solve addition, 4 digits, 3 lines.
+4031	Data	Solve addition, 4 digits, 4 lines.
+4032	Data	Write your own addition and solve it.
+4033	Data	Write and solve addition, 2 digits, 2 lines, without carry.
+4034	Data	Solve addition, 2 digits, 2 lines.
+4035	Data	Write and solve addition, 2 digits, 2 lines.
+4036	Data	Write and solve addition, 2 digits, 3 lines.
+4037	Data	Solve addition, 3 digits, 2 lines.
+4038	Data	Write and solve addition, 3 digits, 2 lines.
+4039	Data	Solve addition, 3 digits, 3 lines.

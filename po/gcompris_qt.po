@@ -25117,63 +25117,63 @@ msgstr "Sao Thuỷ tự quay một vòng mất bao lâu?"
 #: activities/solar_system/Dataset.js:88
 msgctxt "Dataset|"
 msgid "50 Earth days"
-msgstr ""
+msgstr "50 ngày Trái Đất"
 
 #: activities/solar_system/Dataset.js:88
 msgctxt "Dataset|"
 msgid "59 Earth days"
-msgstr ""
+msgstr "59 ngày Trái Đất"
 
 #: activities/solar_system/Dataset.js:96
 msgctxt "Dataset|"
 msgid "Venus"
-msgstr ""
+msgstr "Sao Kim"
 
 #: activities/solar_system/Dataset.js:99
 #: activities/solar_system/Dataset.js:201
 msgctxt "Dataset|"
 msgid "The length of a year on Earth is 365 days."
-msgstr ""
+msgstr "Một năm trên Trái Đất dài 365 ngày."
 
 #: activities/solar_system/Dataset.js:102
 msgctxt "Dataset|"
 msgid "At which position is Venus in the Solar System?"
-msgstr ""
+msgstr "Sao Kim đứng thứ mấy trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:103
 msgctxt "Dataset|"
 msgid "Second"
-msgstr ""
+msgstr "Thứ hai"
 
 #: activities/solar_system/Dataset.js:108
 msgctxt "Dataset|"
 msgid "Venus is as heavy as:"
-msgstr ""
+msgstr "Sao Kim nặng bằng:"
 
 #: activities/solar_system/Dataset.js:109
 msgctxt "Dataset|"
 msgid "0.7 Earths"
-msgstr ""
+msgstr "0,7 Trái Đất"
 
 #: activities/solar_system/Dataset.js:109
 msgctxt "Dataset|"
 msgid "0.8 Earths"
-msgstr ""
+msgstr "0,8 Trái Đất"
 
 #: activities/solar_system/Dataset.js:109
 msgctxt "Dataset|"
 msgid "1.3 Earths"
-msgstr ""
+msgstr "1,3 Trái Đất"
 
 #: activities/solar_system/Dataset.js:109
 msgctxt "Dataset|"
 msgid "2.5 Earths"
-msgstr ""
+msgstr "2,5 Trái Đất"
 
 #: activities/solar_system/Dataset.js:114
 msgctxt "Dataset|"
 msgid "How large is Venus compared to other planets in our Solar System?"
-msgstr ""
+msgstr "Sao Kim lớn cỡ nào so với các hành tinh khác trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:115
 #: activities/solar_system/Dataset.js:190
@@ -25181,49 +25181,49 @@ msgstr ""
 #: activities/solar_system/Dataset.js:307
 msgctxt "Dataset|"
 msgid "Fifth largest"
-msgstr ""
+msgstr "Lớn thứ năm"
 
 #: activities/solar_system/Dataset.js:115
 #: activities/solar_system/Dataset.js:190
 #: activities/solar_system/Dataset.js:421
 msgctxt "Dataset|"
 msgid "Fourth largest"
-msgstr ""
+msgstr "Lớn thứ tư"
 
 #: activities/solar_system/Dataset.js:120
 msgctxt "Dataset|"
 msgid "How long is a year on Venus?"
-msgstr ""
+msgstr "Một năm trên Sao Kim dài bao lâu?"
 
 #: activities/solar_system/Dataset.js:121
 msgctxt "Dataset|"
 msgid "225 Earth days"
-msgstr ""
+msgstr "225 ngày Trái Đất"
 
 #: activities/solar_system/Dataset.js:121
 msgctxt "Dataset|"
 msgid "116 Earth days"
-msgstr ""
+msgstr "116 ngày Trái Đất"
 
 #: activities/solar_system/Dataset.js:121
 msgctxt "Dataset|"
 msgid "100 Earth days"
-msgstr ""
+msgstr "100 ngày Trái Đất"
 
 #: activities/solar_system/Dataset.js:126
 msgctxt "Dataset|"
 msgid "How long is one rotation on Venus?"
-msgstr ""
+msgstr "Sao Kim tự quay một vòng mất bao lâu?"
 
 #: activities/solar_system/Dataset.js:127
 msgctxt "Dataset|"
 msgid "243 Earth days"
-msgstr ""
+msgstr "243 ngày Trái Đất"
 
 #: activities/solar_system/Dataset.js:132
 msgctxt "Dataset|"
 msgid "The maximum temperature on Venus is:"
-msgstr ""
+msgstr "Nhiệt độ cao nhất trên Sao Kim là:"
 
 #: activities/solar_system/Dataset.js:133
 #: activities/solar_system/Dataset.js:184
@@ -25234,50 +25234,50 @@ msgstr ""
 #: activities/solar_system/Dataset.js:415
 msgctxt "Dataset|"
 msgid "100 °C"
-msgstr ""
+msgstr "100 °C"
 
 #: activities/solar_system/Dataset.js:133
 #: activities/solar_system/Dataset.js:211
 msgctxt "Dataset|"
 msgid "20 °C"
-msgstr ""
+msgstr "20 °C"
 
 #: activities/solar_system/Dataset.js:133
 msgctxt "Dataset|"
 msgid "467 °C"
-msgstr ""
+msgstr "467 °C"
 
 #: activities/solar_system/Dataset.js:133
 #: activities/solar_system/Dataset.js:184
 msgctxt "Dataset|"
 msgid "45 °C"
-msgstr ""
+msgstr "45 °C"
 
 #: activities/solar_system/Dataset.js:138
 msgctxt "Dataset|"
 msgid "How many moons has Venus?"
-msgstr ""
+msgstr "Sao Kim có bao nhiêu mặt trăng?"
 
 #: activities/solar_system/Dataset.js:147
 msgctxt "Dataset|"
 msgid "Earth"
-msgstr ""
+msgstr "Trái Đất"
 
 #: activities/solar_system/Dataset.js:149
 #: activities/solar_system/Dataset.js:251
 msgctxt "Dataset|"
 msgid "The maximum temperature on Mars is 20 °C."
-msgstr ""
+msgstr "Nhiệt độ cao nhất trên Sao Hoả là 20 °C."
 
 #: activities/solar_system/Dataset.js:153
 msgctxt "Dataset|"
 msgid "At which position is Earth in the Solar System?"
-msgstr ""
+msgstr "Trái Đất đứng thứ mấy trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:154
 msgctxt "Dataset|"
 msgid "Third"
-msgstr ""
+msgstr "Thứ ba"
 
 #: activities/solar_system/Dataset.js:154
 #: activities/solar_system/Dataset.js:205
@@ -25287,42 +25287,42 @@ msgstr ""
 #: activities/solar_system/Dataset.js:391
 msgctxt "Dataset|"
 msgid "Fifth"
-msgstr ""
+msgstr "Thứ năm"
 
 #: activities/solar_system/Dataset.js:159
 msgctxt "Dataset|"
 msgid "How long does it take for Earth to make one revolution around the Sun?"
-msgstr ""
+msgstr "Trái Đất quay một vòng quanh Mặt Trời mất bao lâu?"
 
 #: activities/solar_system/Dataset.js:160
 msgctxt "Dataset|"
 msgid "200 days"
-msgstr ""
+msgstr "200 ngày"
 
 #: activities/solar_system/Dataset.js:160
 msgctxt "Dataset|"
 msgid "30 days"
-msgstr ""
+msgstr "30 ngày"
 
 #: activities/solar_system/Dataset.js:160
 msgctxt "Dataset|"
 msgid "7 days"
-msgstr ""
+msgstr "7 ngày"
 
 #: activities/solar_system/Dataset.js:160
 msgctxt "Dataset|"
 msgid "365 days"
-msgstr ""
+msgstr "365 ngày"
 
 #: activities/solar_system/Dataset.js:165
 msgctxt "Dataset|"
 msgid "How many moons has Earth?"
-msgstr ""
+msgstr "Trái Đất có bao nhiêu mặt trăng?"
 
 #: activities/solar_system/Dataset.js:171
 msgctxt "Dataset|"
 msgid "How long is one rotation on Earth?"
-msgstr ""
+msgstr "Trái Đất tự quay một vòng mất bao lâu?"
 
 #: activities/solar_system/Dataset.js:172
 #: activities/solar_system/Dataset.js:229
@@ -25330,7 +25330,7 @@ msgstr ""
 #: activities/solar_system/Dataset.js:319
 msgctxt "Dataset|"
 msgid "12 hours"
-msgstr ""
+msgstr "12 giờ"
 
 #: activities/solar_system/Dataset.js:172
 #: activities/solar_system/Dataset.js:229
@@ -25338,12 +25338,12 @@ msgstr ""
 #: activities/solar_system/Dataset.js:319
 msgctxt "Dataset|"
 msgid "24 hours"
-msgstr ""
+msgstr "24 giờ"
 
 #: activities/solar_system/Dataset.js:172
 msgctxt "Dataset|"
 msgid "365 hours"
-msgstr ""
+msgstr "365 giờ"
 
 #: activities/solar_system/Dataset.js:172
 #: activities/solar_system/Dataset.js:229
@@ -25353,139 +25353,139 @@ msgstr ""
 #: activities/solar_system/Dataset.js:409
 msgctxt "Dataset|"
 msgid "48 hours"
-msgstr ""
+msgstr "48 giờ"
 
 #: activities/solar_system/Dataset.js:177
 msgctxt "Dataset|"
 msgid "How many seasons has Earth?"
-msgstr ""
+msgstr "Trái Đất có mấy mùa?"
 
 #: activities/solar_system/Dataset.js:183
 msgctxt "Dataset|"
 msgid "The maximum temperature on Earth is:"
-msgstr ""
+msgstr "Nhiệt độ cao nhất trên Trái Đất là:"
 
 #: activities/solar_system/Dataset.js:184
 msgctxt "Dataset|"
 msgid "58 °C"
-msgstr ""
+msgstr "58 °C"
 
 #: activities/solar_system/Dataset.js:184
 #: activities/solar_system/Dataset.js:415
 msgctxt "Dataset|"
 msgid "30 °C"
-msgstr ""
+msgstr "30 °C"
 
 #: activities/solar_system/Dataset.js:189
 msgctxt "Dataset|"
 msgid "How large is Earth compared to other planets in our Solar System?"
-msgstr ""
+msgstr "Trái Đất lớn cỡ nào so với các hành tinh khác trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:198
 msgctxt "Dataset|"
 msgid "Mars"
-msgstr ""
+msgstr "Sao Hoả"
 
 #: activities/solar_system/Dataset.js:204
 msgctxt "Dataset|"
 msgid "At which position is Mars in the Solar System?"
-msgstr ""
+msgstr "Sao Hoả đứng thứ mấy trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:210
 msgctxt "Dataset|"
 msgid "The maximum temperature on Mars is:"
-msgstr ""
+msgstr "Nhiệt độ cao nhất trên Sao Hoả là:"
 
 #: activities/solar_system/Dataset.js:211
 msgctxt "Dataset|"
 msgid "60 °C"
-msgstr ""
+msgstr "60 °C"
 
 #: activities/solar_system/Dataset.js:216
 msgctxt "Dataset|"
 msgid "How big is the size of Mars compared to Earth?"
-msgstr ""
+msgstr "Sao Hoả to bằng bao nhiêu so với Trái Đất?"
 
 #: activities/solar_system/Dataset.js:217
 msgctxt "Dataset|"
 msgid "The same"
-msgstr ""
+msgstr "Bằng nhau"
 
 #: activities/solar_system/Dataset.js:217
 msgctxt "Dataset|"
 msgid "Half"
-msgstr ""
+msgstr "Một nửa"
 
 #: activities/solar_system/Dataset.js:217
 msgctxt "Dataset|"
 msgid "Two times"
-msgstr ""
+msgstr "Gấp hai lần"
 
 #: activities/solar_system/Dataset.js:217
 msgctxt "Dataset|"
 msgid "Three times"
-msgstr ""
+msgstr "Gấp ba lần"
 
 #: activities/solar_system/Dataset.js:222
 msgctxt "Dataset|"
 msgid "How many moons has Mars?"
-msgstr ""
+msgstr "Sao Hoả có bao nhiêu mặt trăng?"
 
 #: activities/solar_system/Dataset.js:228
 msgctxt "Dataset|"
 msgid "How long is one rotation on Mars?"
-msgstr ""
+msgstr "Sao Hoả tự quay một vòng mất bao lâu?"
 
 #: activities/solar_system/Dataset.js:229
 msgctxt "Dataset|"
 msgid "24.5 hours"
-msgstr ""
+msgstr "24,5 giờ"
 
 #: activities/solar_system/Dataset.js:234
 msgctxt "Dataset|"
 msgid "How long does it take for Mars to make one revolution around the Sun?"
-msgstr ""
+msgstr "Sao Hoả quay một vòng quanh Mặt Trời mất bao lâu?"
 
 #: activities/solar_system/Dataset.js:235
 msgctxt "Dataset|"
 msgid "687 Earth days"
-msgstr ""
+msgstr "687 ngày Trái Đất"
 
 #: activities/solar_system/Dataset.js:235
 msgctxt "Dataset|"
 msgid "30 Earth days"
-msgstr ""
+msgstr "30 ngày Trái Đất"
 
 #: activities/solar_system/Dataset.js:235
 msgctxt "Dataset|"
 msgid "7 Earth days"
-msgstr ""
+msgstr "7 ngày Trái Đất"
 
 #: activities/solar_system/Dataset.js:240
 msgctxt "Dataset|"
 msgid "How small is Mars compared to other planets in our Solar System?"
-msgstr ""
+msgstr "Sao Hoả nhỏ cỡ nào so với các hành tinh khác trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:249
 msgctxt "Dataset|"
 msgid "Jupiter"
-msgstr ""
+msgstr "Sao Mộc"
 
 #: activities/solar_system/Dataset.js:252
 #: activities/solar_system/Dataset.js:342
 msgctxt "Dataset|"
 msgid "The length of a year on Saturn is 29.5 Earth years."
-msgstr ""
+msgstr "Một năm trên Sao Thổ dài 29,5 năm Trái Đất."
 
 #: activities/solar_system/Dataset.js:255
 msgctxt "Dataset|"
 msgid "At which position is Jupiter in the Solar System?"
-msgstr ""
+msgstr "Sao Mộc đứng thứ mấy trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:261
 msgctxt "Dataset|"
 msgid "How large is Jupiter compared to other planets in the Solar System?"
-msgstr ""
+msgstr "Sao Mộc lớn cỡ nào so với các hành tinh khác trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:262
 #: activities/solar_system/Dataset.js:307
@@ -25493,59 +25493,59 @@ msgstr ""
 #: activities/solar_system/Dataset.js:421
 msgctxt "Dataset|"
 msgid "Second largest"
-msgstr ""
+msgstr "Lớn thứ hai"
 
 #: activities/solar_system/Dataset.js:267
 msgctxt "Dataset|"
 msgid "The minimum temperature on Jupiter is:"
-msgstr ""
+msgstr "Nhiệt độ thấp nhất trên Sao Mộc là:"
 
 #: activities/solar_system/Dataset.js:268
 msgctxt "Dataset|"
 msgid "-145 °C"
-msgstr ""
+msgstr "-145 °C"
 
 #: activities/solar_system/Dataset.js:268
 msgctxt "Dataset|"
 msgid "-180 °C"
-msgstr ""
+msgstr "-180 °C"
 
 #: activities/solar_system/Dataset.js:273
 msgctxt "Dataset|"
 msgid "How many moons has Jupiter?"
-msgstr ""
+msgstr "Sao Mộc có bao nhiêu mặt trăng?"
 
 #: activities/solar_system/Dataset.js:279
 msgctxt "Dataset|"
 msgid "How long is one rotation on Jupiter?"
-msgstr ""
+msgstr "Sao Mộc tự quay một vòng mất bao lâu?"
 
 #: activities/solar_system/Dataset.js:280
 #: activities/solar_system/Dataset.js:364
 msgctxt "Dataset|"
 msgid "10 hours"
-msgstr ""
+msgstr "10 giờ"
 
 #: activities/solar_system/Dataset.js:285
 msgctxt "Dataset|"
 msgid ""
 "How long does it take for Jupiter to make one revolution around the Sun?"
-msgstr ""
+msgstr "Sao Mộc quay một vòng quanh Mặt Trời mất bao lâu?"
 
 #: activities/solar_system/Dataset.js:286
 msgctxt "Dataset|"
 msgid "5 Earth years"
-msgstr ""
+msgstr "5 năm Trái Đất"
 
 #: activities/solar_system/Dataset.js:286
 msgctxt "Dataset|"
 msgid "12 Earth years"
-msgstr ""
+msgstr "12 năm Trái Đất"
 
 #: activities/solar_system/Dataset.js:286
 msgctxt "Dataset|"
 msgid "30 Earth years"
-msgstr ""
+msgstr "30 năm Trái Đất"
 
 #: activities/solar_system/Dataset.js:286
 #: activities/solar_system/Dataset.js:331
@@ -25553,258 +25553,259 @@ msgstr ""
 #: activities/solar_system/Dataset.js:397
 msgctxt "Dataset|"
 msgid "1 Earth year"
-msgstr ""
+msgstr "1 năm Trái Đất"
 
 #: activities/solar_system/Dataset.js:294
 msgctxt "Dataset|"
 msgid "Saturn"
-msgstr ""
+msgstr "Sao Thổ"
 
 #: activities/solar_system/Dataset.js:296
 msgctxt "Dataset|"
 msgid "The minimum temperature on Jupiter is -145 °C."
-msgstr ""
+msgstr "Nhiệt độ thấp nhất trên Sao Mộc là -145 °C."
 
 #: activities/solar_system/Dataset.js:297
 msgctxt "Dataset|"
 msgid "The length of a year on Jupiter is 12 Earth years."
-msgstr ""
+msgstr "Một năm trên Sao Mộc dài 12 năm Trái Đất."
 
 #: activities/solar_system/Dataset.js:300
 msgctxt "Dataset|"
 msgid "At which position is Saturn in the Solar System?"
-msgstr ""
+msgstr "Sao Thổ đứng thứ mấy trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:306
 msgctxt "Dataset|"
 msgid "How large is Saturn compared to other planets in the Solar System?"
-msgstr ""
+msgstr "Sao Thổ lớn cỡ nào so với các hành tinh khác trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:312
 msgctxt "Dataset|"
 msgid "How many moons has Saturn?"
-msgstr ""
+msgstr "Sao Thổ có bao nhiêu mặt trăng?"
 
 #: activities/solar_system/Dataset.js:318
 msgctxt "Dataset|"
 msgid "How long is one rotation on Saturn?"
-msgstr ""
+msgstr "Sao Thổ tự quay một vòng mất bao lâu?"
 
 #: activities/solar_system/Dataset.js:319
 msgctxt "Dataset|"
 msgid "10.5 hours"
-msgstr ""
+msgstr "10,5 giờ"
 
 #: activities/solar_system/Dataset.js:324
 msgctxt "Dataset|"
 msgid "The minimum temperature on Saturn is:"
-msgstr ""
+msgstr "Nhiệt độ thấp nhất trên Sao Thổ là:"
 
 #: activities/solar_system/Dataset.js:325
 #: activities/solar_system/Dataset.js:376
 msgctxt "Dataset|"
 msgid "0 °C"
-msgstr ""
+msgstr "0 °C"
 
 #: activities/solar_system/Dataset.js:325
 msgctxt "Dataset|"
 msgid "-178 °C"
-msgstr ""
+msgstr "-178 °C"
 
 #: activities/solar_system/Dataset.js:325
 #: activities/solar_system/Dataset.js:376
 #: activities/solar_system/Dataset.js:415
 msgctxt "Dataset|"
 msgid "-100 °C"
-msgstr ""
+msgstr "-100 °C"
 
 #: activities/solar_system/Dataset.js:330
 msgctxt "Dataset|"
 msgid ""
 "How long does it take for Saturn to make one revolution around the Sun?"
-msgstr ""
+msgstr "Sao Thổ quay một vòng quanh Mặt Trời mất bao lâu?"
 
 #: activities/solar_system/Dataset.js:331
 msgctxt "Dataset|"
 msgid "29.5 Earth years"
-msgstr ""
+msgstr "29,5 năm Trái Đất"
 
 #: activities/solar_system/Dataset.js:331
 msgctxt "Dataset|"
 msgid "20 Earth years"
-msgstr ""
+msgstr "20 năm Trái Đất"
 
 #: activities/solar_system/Dataset.js:331
 msgctxt "Dataset|"
 msgid "10 Earth years"
-msgstr ""
+msgstr "10 năm Trái Đất"
 
 #: activities/solar_system/Dataset.js:339
 msgctxt "Dataset|"
 msgid "Uranus"
-msgstr ""
+msgstr "Sao Thiên Vương"
 
 #: activities/solar_system/Dataset.js:341
 msgctxt "Dataset|"
 msgid "The temperature on Saturn is -178 °C."
-msgstr ""
+msgstr "Nhiệt độ trên Sao Thổ là -178 °C."
 
 #: activities/solar_system/Dataset.js:345
 msgctxt "Dataset|"
 msgid "At which position is Uranus in the Solar System?"
-msgstr ""
+msgstr "Sao Thiên Vương đứng thứ mấy trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:346
 #: activities/solar_system/Dataset.js:391
 msgctxt "Dataset|"
 msgid "Eighth"
-msgstr ""
+msgstr "Thứ tám"
 
 #: activities/solar_system/Dataset.js:351
 msgctxt "Dataset|"
 msgid "How many years does it take for Uranus to go once around the Sun?"
-msgstr ""
+msgstr "Sao Thiên Vương quay một vòng quanh Mặt Trời mất bao nhiêu năm?"
 
 #: activities/solar_system/Dataset.js:352
 msgctxt "Dataset|"
 msgid "24 Earth years"
-msgstr ""
+msgstr "24 năm Trái Đất"
 
 #: activities/solar_system/Dataset.js:352
 msgctxt "Dataset|"
 msgid "68 Earth years"
-msgstr ""
+msgstr "68 năm Trái Đất"
 
 #: activities/solar_system/Dataset.js:352
 msgctxt "Dataset|"
 msgid "84 Earth years"
-msgstr ""
+msgstr "84 năm Trái Đất"
 
 #: activities/solar_system/Dataset.js:357
 msgctxt "Dataset|"
 msgid "How many moons has Uranus?"
-msgstr ""
+msgstr "Sao Thiên Vương có bao nhiêu mặt trăng?"
 
 #: activities/solar_system/Dataset.js:363
 msgctxt "Dataset|"
 msgid "How long is one rotation on Uranus?"
-msgstr ""
+msgstr "Sao Thiên Vương tự quay một vòng mất bao lâu?"
 
 #: activities/solar_system/Dataset.js:364
 #: activities/solar_system/Dataset.js:409
 msgctxt "Dataset|"
 msgid "27 hours"
-msgstr ""
+msgstr "27 giờ"
 
 #: activities/solar_system/Dataset.js:364
 #: activities/solar_system/Dataset.js:409
 msgctxt "Dataset|"
 msgid "17 hours"
-msgstr ""
+msgstr "17 giờ"
 
 #: activities/solar_system/Dataset.js:369
 msgctxt "Dataset|"
 msgid "How large is Uranus compared to other planets in the Solar System?"
 msgstr ""
+"Sao Thiên Vương lớn cỡ nào so với các hành tinh khác trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:375
 msgctxt "Dataset|"
 msgid "The maximum temperature on Uranus is:"
-msgstr ""
+msgstr "Nhiệt độ cao nhất trên Sao Thiên Vương là:"
 
 #: activities/solar_system/Dataset.js:376
 msgctxt "Dataset|"
 msgid "-216 °C"
-msgstr ""
+msgstr "-216 °C"
 
 #: activities/solar_system/Dataset.js:384
 msgctxt "Dataset|"
 msgid "Neptune"
-msgstr ""
+msgstr "Sao Hải Vương"
 
 #: activities/solar_system/Dataset.js:386
 msgctxt "Dataset|"
 msgid "The maximum temperature on Saturn is -178 °C."
-msgstr ""
+msgstr "Nhiệt độ cao nhất trên Sao Thổ là -178 °C."
 
 #: activities/solar_system/Dataset.js:387
 msgctxt "Dataset|"
 msgid "The length of a year on Uranus is 84 Earth years."
-msgstr ""
+msgstr "Một năm trên Sao Thiên Vương dài 84 năm Trái Đất."
 
 #: activities/solar_system/Dataset.js:390
 msgctxt "Dataset|"
 msgid "At which position is Neptune in the Solar System?"
-msgstr ""
+msgstr "Sao Hải Vương đứng thứ mấy trong Hệ Mặt Trời?"
 
 #: activities/solar_system/Dataset.js:396
 msgctxt "Dataset|"
 msgid ""
 "How long does it take for Neptune to make one revolution around the Sun?"
-msgstr ""
+msgstr "Sao Hải Vương quay một vòng quanh Mặt Trời mất bao lâu?"
 
 #: activities/solar_system/Dataset.js:397
 msgctxt "Dataset|"
 msgid "165 Earth years"
-msgstr ""
+msgstr "165 năm Trái Đất"
 
 #: activities/solar_system/Dataset.js:397
 msgctxt "Dataset|"
 msgid "3 Earth years"
-msgstr ""
+msgstr "3 năm Trái Đất"
 
 #: activities/solar_system/Dataset.js:397
 msgctxt "Dataset|"
 msgid "100 Earth years"
-msgstr ""
+msgstr "100 năm Trái Đất"
 
 #: activities/solar_system/Dataset.js:402
 msgctxt "Dataset|"
 msgid "How many moons has Neptune?"
-msgstr ""
+msgstr "Sao Hải Vương có bao nhiêu mặt trăng?"
 
 #: activities/solar_system/Dataset.js:408
 msgctxt "Dataset|"
 msgid "How long is one rotation on Neptune?"
-msgstr ""
+msgstr "Sao Hải Vương tự quay một vòng mất bao lâu?"
 
 #: activities/solar_system/Dataset.js:409
 msgctxt "Dataset|"
 msgid "16 hours"
-msgstr ""
+msgstr "16 giờ"
 
 #: activities/solar_system/Dataset.js:414
 msgctxt "Dataset|"
 msgid "The average temperature on Neptune is:"
-msgstr ""
+msgstr "Nhiệt độ trung bình trên Sao Hải Vương là:"
 
 #: activities/solar_system/Dataset.js:415
 msgctxt "Dataset|"
 msgid "-210 °C"
-msgstr ""
+msgstr "-210 °C"
 
 #: activities/solar_system/Dataset.js:420
 msgctxt "Dataset|"
 msgid "How large is Neptune compared to other planets in the Solar System?"
-msgstr ""
+msgstr "Sao Hải Vương lớn cỡ nào so với các hành tinh khác trong Hệ Mặt Trời?"
 
 #: activities/solar_system/QuizScreen.qml:196
 #, qt-format
 msgctxt "QuizScreen|"
 msgid "Accuracy: %1%"
-msgstr ""
+msgstr "Độ chính xác: %1%"
 
 #: activities/solar_system/QuizScreen.qml:239
 #, qt-format
 msgctxt "QuizScreen|"
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 #: activities/solar_system/QuizScreen.qml:274
 #, qt-format
 msgctxt "QuizScreen|"
 msgid "Your final score is: <font color=\"#3bb0de\">%1%</font>.<br><br>%2"
-msgstr ""
+msgstr "Điểm cuối cùng của con là: <font color=\"#3bb0de\">%1%</font>.<br><br>%2"
 
 #: activities/solar_system/QuizScreen.qml:274
 msgctxt "QuizScreen|"
@@ -25813,6 +25814,8 @@ msgid ""
 " your skills again or train in normal mode to learn more about the Solar "
 "System."
 msgstr ""
+"Con phải đạt trên 90% mới thành chuyên gia Hệ Mặt Trời!<br>Hãy làm lại để "
+"thử sức, hoặc luyện ở chế độ học để biết thêm về Hệ Mặt Trời."
 
 #: activities/solar_system/QuizScreen.qml:274
 msgctxt "QuizScreen|"
@@ -25820,6 +25823,7 @@ msgid ""
 "Great! You can replay the assessment to test your knowledge on more "
 "questions."
 msgstr ""
+"Giỏi lắm! Con làm lại bài kiểm tra được để thử sức với nhiều câu hỏi hơn."
 
 #: activities/solar_system/SolarSystem.qml:159
 #, qt-format
@@ -25831,16 +25835,20 @@ msgid ""
 "System.<br><b>2. Assessment mode</b> - In this mode you can test your "
 "knowledge about the Solar System."
 msgstr ""
+"Chế độ: <font color=\"#3bb0de\">%1</font><br><br>Hoạt động có hai chế độ, "
+"đổi được trong cửa sổ cài đặt:<br><b>1. Chế độ học</b> - Ở đây con vừa chơi "
+"vừa tìm hiểu về Hệ Mặt Trời.<br><b>2. Chế độ kiểm tra</b> - Ở đây con thử "
+"xem mình biết được bao nhiêu về Hệ Mặt Trời."
 
 #: activities/solar_system/SolarSystem.qml:159
 msgctxt "SolarSystem|"
 msgid "Assessment"
-msgstr ""
+msgstr "Kiểm tra"
 
 #: activities/solar_system/SolarSystem.qml:159
 msgctxt "SolarSystem|"
 msgid "Learning"
-msgstr ""
+msgstr "Học"
 
 #: activities/solar_system/SolarSystem.qml:164
 msgctxt "SolarSystem|"
@@ -25848,6 +25856,8 @@ msgid ""
 "Click on the Sun or any planet to reveal questions. Each question has 4 "
 "options, out of which one is correct."
 msgstr ""
+"Bấm vào Mặt Trời hoặc một hành tinh bất kỳ để hiện câu hỏi. Mỗi câu có 4 lựa"
+" chọn, trong đó một đáp án đúng."
 
 #: activities/solar_system/SolarSystem.qml:167
 msgctxt "SolarSystem|"
@@ -25858,6 +25868,10 @@ msgid ""
 "100% closeness by following the closeness meter. If the hint button is "
 "visible, you can click on it to get a hint to find the answer."
 msgstr ""
+"Sau khi bấm vào một hành tinh, đồng hồ Độ gần ở góc dưới bên phải màn hình "
+"cho biết câu trả lời của con gần đúng tới đâu. Đáp án sai nhất ứng với 1%. "
+"Cứ thử lại theo đồng hồ đó tới khi đạt 100%. Nếu nút gợi ý đang hiện, con "
+"bấm vào để được gợi ý tìm đáp án."
 
 #: activities/solar_system/SolarSystem.qml:177
 msgctxt "SolarSystem|"
@@ -25865,6 +25879,8 @@ msgid ""
 "There are 20 questions initially with 4 options each. The progress bar at "
 "the bottom right of the screen shows your percentage score."
 msgstr ""
+"Lúc đầu có 20 câu hỏi, mỗi câu 4 lựa chọn. Thanh tiến trình ở góc dưới bên "
+"phải màn hình cho biết điểm của con theo phần trăm."
 
 #: activities/solar_system/SolarSystem.qml:180
 msgctxt "SolarSystem|"
@@ -25874,6 +25890,9 @@ msgid ""
 "with the incorrectly answered question.<br>A maximum of 25 questions will be"
 " asked after which no more question will be added."
 msgstr ""
+"Trả lời đúng thì điểm tăng.<br>Trả lời sai thì điểm giảm, và cuối bài sẽ có "
+"thêm một câu hỏi nữa cùng với câu con đã trả lời sai.<br>Nhiều nhất là 25 "
+"câu, sau đó không thêm câu nào nữa."
 
 #: activities/solar_system/SolarSystem.qml:183
 msgctxt "SolarSystem|"
@@ -25881,6 +25900,7 @@ msgid ""
 "You should score above 90% to pass the assessment and become a Solar System "
 "expert!"
 msgstr ""
+"Con phải đạt trên 90% mới qua bài kiểm tra và thành chuyên gia Hệ Mặt Trời!"
 
 #: activities/solar_system/SolarSystem.qml:362
 #, qt-format
@@ -25889,6 +25909,8 @@ msgid ""
 "1. The <b>farther</b> a planet from the Sun, the <b>lower</b> is its "
 "temperature.<br><font color=\"#3bb0de\">%1</font>"
 msgstr ""
+"1. Hành tinh càng <b>xa</b> Mặt Trời thì nhiệt độ càng <b>thấp</b>.<br><font"
+" color=\"#3bb0de\">%1</font>"
 
 #: activities/solar_system/SolarSystem.qml:363
 #, qt-format
@@ -25897,6 +25919,8 @@ msgid ""
 "2. The duration of a year on a planet <b>increases as we go away from the "
 "Sun</b>.<br><font color=\"#3bb0de\">%1</font>"
 msgstr ""
+"2. Một năm trên hành tinh <b>càng dài khi càng đi xa Mặt Trời</b>.<br><font "
+"color=\"#3bb0de\">%1</font>"
 
 #. find an equivalent rhyme in your language where the first letter of each
 #. word corresponds to the first letter of the planet in proper sequence
@@ -25907,16 +25931,19 @@ msgid ""
 "first letter in each word - <b>M</b>y <b>V</b>ery <b>E</b>xcellent "
 "<b>M</b>other <b>J</b>ust <b>S</b>erved <b>U</b>s <b>N</b>oodles.<br>"
 msgstr ""
+"3. Cứ nhớ câu này là thuộc thứ tự các hành tinh, để ý chữ đầu mỗi từ - "
+"<b>Thuỷ</b> <b>Kim</b> <b>Địa</b> <b>Hoả</b> <b>Mộc</b> <b>Thổ</b> "
+"<b>Thiên</b> <b>Hải</b>.<br>"
 
 #: activities/solar_system/SolarSystem.qml:368
 msgctxt "SolarSystem|"
 msgid "Hint"
-msgstr ""
+msgstr "Gợi ý"
 
 #: activities/solar_system/SolarSystem.qml:376
 msgctxt "SolarSystem|"
 msgid "View the solar system"
-msgstr ""
+msgstr "Xem Hệ Mặt Trời"
 
 #. Activity title
 #: activities/submarine/ActivityInfo.qml:15
@@ -25953,87 +25980,87 @@ msgstr ""
 #: activities/submarine/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "<b>Engine</b>"
-msgstr ""
+msgstr "<b>Động cơ</b>"
 
 #: activities/submarine/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "D or Right arrow: increase the velocity"
-msgstr ""
+msgstr "Phím D hoặc mũi tên phải: tăng tốc độ"
 
 #: activities/submarine/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "A or Left arrow: decrease the velocity"
-msgstr ""
+msgstr "Phím A hoặc mũi tên trái: giảm tốc độ"
 
 #: activities/submarine/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
 msgid "<b>Ballast tanks</b>"
-msgstr ""
+msgstr "<b>Khoang dằn</b>"
 
 #: activities/submarine/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
 msgid "W or Up arrow: switch filling of the central ballast tank"
-msgstr ""
+msgstr "Phím W hoặc mũi tên lên: bật tắt việc bơm nước vào khoang dằn giữa"
 
 #: activities/submarine/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
 msgid "S or Down arrow: switch flushing of the central ballast tank"
-msgstr ""
+msgstr "Phím S hoặc mũi tên xuống: bật tắt việc xả nước khỏi khoang dằn giữa"
 
 #: activities/submarine/ActivityInfo.qml:32
 msgctxt "ActivityInfo|"
 msgid "R: switch filling of the left ballast tank"
-msgstr ""
+msgstr "Phím R: bật tắt việc bơm nước vào khoang dằn trái"
 
 #: activities/submarine/ActivityInfo.qml:33
 msgctxt "ActivityInfo|"
 msgid "F: switch flushing of the left ballast tank"
-msgstr ""
+msgstr "Phím F: bật tắt việc xả nước khỏi khoang dằn trái"
 
 #: activities/submarine/ActivityInfo.qml:34
 msgctxt "ActivityInfo|"
 msgid "T: switch filling of the right ballast tank"
-msgstr ""
+msgstr "Phím T: bật tắt việc bơm nước vào khoang dằn phải"
 
 #: activities/submarine/ActivityInfo.qml:35
 msgctxt "ActivityInfo|"
 msgid "G: switch flushing of the right ballast tank"
-msgstr ""
+msgstr "Phím G: bật tắt việc xả nước khỏi khoang dằn phải"
 
 #: activities/submarine/ActivityInfo.qml:36
 msgctxt "ActivityInfo|"
 msgid "<b>Diving planes</b>"
-msgstr ""
+msgstr "<b>Cánh lặn</b>"
 
 #: activities/submarine/ActivityInfo.qml:37
 msgctxt "ActivityInfo|"
 msgid "+: increase diving planes angle"
-msgstr ""
+msgstr "Phím +: tăng góc cánh lặn"
 
 #: activities/submarine/ActivityInfo.qml:38
 msgctxt "ActivityInfo|"
 msgid "-: decrease diving planes angle"
-msgstr ""
+msgstr "Phím -: giảm góc cánh lặn"
 
 #: activities/submarine/Controls.qml:162
 msgctxt "Controls|"
 msgid "Left Ballast Tank"
-msgstr ""
+msgstr "Khoang dằn trái"
 
 #: activities/submarine/Controls.qml:272
 msgctxt "Controls|"
 msgid "Central Ballast Tank"
-msgstr ""
+msgstr "Khoang dằn giữa"
 
 #: activities/submarine/Controls.qml:381
 msgctxt "Controls|"
 msgid "Right Ballast Tank"
-msgstr ""
+msgstr "Khoang dằn phải"
 
 #: activities/submarine/Submarine.qml:140
 msgctxt "Submarine|"
 msgid "Move the submarine to the other side of the screen."
-msgstr ""
+msgstr "Đưa tàu ngầm sang phía bên kia màn hình."
 
 #: activities/submarine/Submarine.qml:143
 msgctxt "Submarine|"
@@ -26041,35 +26068,37 @@ msgid ""
 "The leftmost item in the control panel is the engine of the submarine, "
 "indicating the current speed of the submarine."
 msgstr ""
+"Món ngoài cùng bên trái trên bảng điều khiển là động cơ tàu ngầm, cho biết "
+"tốc độ hiện tại của tàu."
 
 #: activities/submarine/Submarine.qml:146
 msgctxt "Submarine|"
 msgid "Increase or decrease the velocity of the submarine using the engine."
-msgstr ""
+msgstr "Dùng động cơ để tăng hoặc giảm tốc độ tàu ngầm."
 
 #: activities/submarine/Submarine.qml:149
 msgctxt "Submarine|"
 msgid ""
 "Press the + button to increase the velocity, or the - button to decrease the"
 " velocity."
-msgstr ""
+msgstr "Bấm nút + để tăng tốc, bấm nút - để giảm tốc."
 
 #: activities/submarine/Submarine.qml:156
 msgctxt "Submarine|"
 msgid "The item next to the engine is the ballast tank."
-msgstr ""
+msgstr "Món bên cạnh động cơ là khoang dằn."
 
 #: activities/submarine/Submarine.qml:159
 msgctxt "Submarine|"
 msgid "The ballast tanks are used to float or dive under water."
-msgstr ""
+msgstr "Khoang dằn dùng để cho tàu nổi lên hay lặn xuống."
 
 #: activities/submarine/Submarine.qml:162
 msgctxt "Submarine|"
 msgid ""
 "If the ballast tanks are empty, the submarine will float. If the ballast "
 "tanks are full of water, the submarine will dive underwater."
-msgstr ""
+msgstr "Khoang dằn rỗng thì tàu nổi. Khoang dằn đầy nước thì tàu lặn xuống."
 
 #: activities/submarine/Submarine.qml:165
 msgctxt "Submarine|"
@@ -26077,6 +26106,8 @@ msgid ""
 "Turning the upper valve on or off will alternatively allow or stop the water"
 " from filling in the ballast tank, thus allowing it to dive underwater."
 msgstr ""
+"Mở hoặc đóng van phía trên sẽ cho nước chảy vào hay ngừng chảy vào khoang "
+"dằn, nhờ đó tàu lặn xuống được."
 
 #: activities/submarine/Submarine.qml:168
 msgctxt "Submarine|"
@@ -26085,6 +26116,8 @@ msgid ""
 " from flushing out the ballast tank, thus allowing it to float on the "
 "surface of the water."
 msgstr ""
+"Mở hoặc đóng van phía dưới sẽ cho nước xả ra hay ngừng xả khỏi khoang dằn, "
+"nhờ đó tàu nổi lên mặt nước được."
 
 #: activities/submarine/Submarine.qml:175
 msgctxt "Submarine|"
@@ -26092,6 +26125,7 @@ msgid ""
 "The rightmost item in the control panel controls the diving planes of the "
 "submarine."
 msgstr ""
+"Món ngoài cùng bên phải trên bảng điều khiển là cánh lặn của tàu ngầm."
 
 #: activities/submarine/Submarine.qml:178
 msgctxt "Submarine|"
@@ -26099,6 +26133,7 @@ msgid ""
 "The diving planes in a submarine are used to control the depth of the "
 "submarine accurately once it is underwater."
 msgstr ""
+"Cánh lặn dùng để chỉnh độ sâu của tàu thật chính xác khi tàu đã ở dưới nước."
 
 #: activities/submarine/Submarine.qml:181
 msgctxt "Submarine|"
@@ -26106,23 +26141,25 @@ msgid ""
 "Once the submarine is moving underwater, increasing or decreasing the angle "
 "of the planes will increase and decrease the depth of the submarine."
 msgstr ""
+"Khi tàu đang chạy dưới nước, tăng hay giảm góc cánh lặn sẽ làm tàu sâu thêm "
+"hoặc nông đi."
 
 #: activities/submarine/Submarine.qml:184
 msgctxt "Submarine|"
 msgid ""
 "The + button will increase the depth of the submarine, while the - button "
 "will decrease the depth of the submarine."
-msgstr ""
+msgstr "Nút + làm tàu lặn sâu hơn, còn nút - làm tàu nổi lên nông hơn."
 
 #: activities/submarine/Submarine.qml:187
 msgctxt "Submarine|"
 msgid "Grab the crown to open the gate."
-msgstr ""
+msgstr "Lấy chiếc vương miện để mở cổng."
 
 #: activities/submarine/Submarine.qml:190
 msgctxt "Submarine|"
 msgid "Check out the help menu for the keyboard controls."
-msgstr ""
+msgstr "Xem menu trợ giúp để biết các phím điều khiển."
 
 #. Activity title
 #: activities/sudoku/ActivityInfo.qml:15
@@ -26166,22 +26203,22 @@ msgstr ""
 #: activities/sudoku/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "Small grids using symbols."
-msgstr ""
+msgstr "Lưới nhỏ dùng ký hiệu."
 
 #: activities/sudoku/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "Medium grids using symbols."
-msgstr ""
+msgstr "Lưới vừa dùng ký hiệu."
 
 #: activities/sudoku/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "Medium grids using numbers and symbols."
-msgstr ""
+msgstr "Lưới vừa dùng cả số lẫn ký hiệu."
 
 #: activities/sudoku/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "Large grids using numbers."
-msgstr ""
+msgstr "Lưới lớn dùng số."
 
 #. Activity title
 #: activities/superbrain/ActivityInfo.qml:15
@@ -26225,12 +26262,12 @@ msgstr ""
 #: activities/superbrain/Superbrain.qml:174
 msgctxt "Superbrain|"
 msgid "This item is well placed."
-msgstr ""
+msgstr "Món này đặt đúng chỗ rồi."
 
 #: activities/superbrain/Superbrain.qml:176
 msgctxt "Superbrain|"
 msgid "This item is misplaced."
-msgstr ""
+msgstr "Món này đặt sai chỗ."
 
 #. Activity title
 #: activities/tangram/ActivityInfo.qml:15
@@ -26299,27 +26336,27 @@ msgstr ""
 #: activities/target/resource/1/Data.qml:14
 msgctxt "Data|"
 msgid "Maximum value: 10."
-msgstr ""
+msgstr "Giá trị lớn nhất: 10."
 
 #: activities/target/resource/2/Data.qml:14
 msgctxt "Data|"
 msgid "Maximum value: 50."
-msgstr ""
+msgstr "Giá trị lớn nhất: 50."
 
 #: activities/target/resource/3/Data.qml:14
 msgctxt "Data|"
 msgid "Maximum value: 500."
-msgstr ""
+msgstr "Giá trị lớn nhất: 500."
 
 #: activities/target/resource/4/Data.qml:14
 msgctxt "Data|"
 msgid "Maximum value: 5000."
-msgstr ""
+msgstr "Giá trị lớn nhất: 5000."
 
 #: activities/target/resource/5/Data.qml:14
 msgctxt "Data|"
 msgid "Maximum value: 50000."
-msgstr ""
+msgstr "Giá trị lớn nhất: 50000."
 
 #. Activity title
 #: activities/tens_complement_calculate/ActivityInfo.qml:14
@@ -26368,13 +26405,13 @@ msgstr ""
 #: activities/tens_complement_calculate/resource/1/Data.qml:52
 msgctxt "Data|"
 msgid "1 pair to make from 3 numbers."
-msgstr ""
+msgstr "Ghép 1 cặp từ 3 con số."
 
 #: activities/tens_complement_calculate/resource/2/Data.qml:9
 #: activities/tens_complement_swap/resource/2/Data.qml:9
 msgctxt "Data|"
 msgid "2 pairs to make from 5 numbers."
-msgstr ""
+msgstr "Ghép 2 cặp từ 5 con số."
 
 #. Activity title
 #: activities/tens_complement_find/ActivityInfo.qml:14
@@ -26409,6 +26446,9 @@ msgid ""
 "corresponding lines. To correct the errors, click on the wrong numbers to "
 "remove them and repeat the previous steps."
 msgstr ""
+"Điền xong hết các dòng thì bấm nút Đồng ý để kiểm tra. Nếu có câu sai, dấu "
+"chéo sẽ hiện ở dòng tương ứng. Muốn sửa thì bấm vào những số sai để xoá đi "
+"rồi làm lại các bước trên."
 
 #. Help manual
 #: activities/tens_complement_find/ActivityInfo.qml:23
@@ -26421,17 +26461,17 @@ msgstr ""
 #: activities/tens_complement_find/resource/1/Data.qml:56
 msgctxt "Data|"
 msgid "First number from 1 to 4."
-msgstr ""
+msgstr "Số thứ nhất từ 1 tới 4."
 
 #: activities/tens_complement_find/resource/2/Data.qml:9
 msgctxt "Data|"
 msgid "First number from 5 to 9."
-msgstr ""
+msgstr "Số thứ nhất từ 5 tới 9."
 
 #: activities/tens_complement_find/resource/4/Data.qml:9
 msgctxt "Data|"
 msgid "Find both numbers."
-msgstr ""
+msgstr "Tìm cả hai số."
 
 #. Activity title
 #: activities/tens_complement_swap/ActivityInfo.qml:14
@@ -26474,12 +26514,12 @@ msgstr ""
 #: activities/tens_complement_swap/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "2 pairs to make from 4 numbers."
-msgstr ""
+msgstr "Ghép 2 cặp từ 4 con số."
 
 #: activities/tens_complement_swap/resource/3/Data.qml:9
 msgctxt "Data|"
 msgid "3 pairs to make from 6 numbers."
-msgstr ""
+msgstr "Ghép 3 cặp từ 6 con số."
 
 #. Activity title
 #: activities/tens_complement_use/ActivityInfo.qml:14
@@ -26517,17 +26557,17 @@ msgstr ""
 #: activities/tens_complement_use/resource/1/Data.qml:59
 msgctxt "Data|"
 msgid "Result between 11 and 19."
-msgstr ""
+msgstr "Kết quả từ 11 tới 19."
 
 #: activities/tens_complement_use/resource/2/Data.qml:9
 msgctxt "Data|"
 msgid "Result between 20 and 29."
-msgstr ""
+msgstr "Kết quả từ 20 tới 29."
 
 #: activities/tens_complement_use/resource/3/Data.qml:9
 msgctxt "Data|"
 msgid "Result between 30 and 50."
-msgstr ""
+msgstr "Kết quả từ 30 tới 50."
 
 #. Activity title
 #: activities/tic_tac_toe/ActivityInfo.qml:18
@@ -26560,7 +26600,7 @@ msgstr ""
 #: activities/tic_tac_toe/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Tux will play better when you increase the level."
-msgstr ""
+msgstr "Cấp càng cao thì Tux chơi càng giỏi."
 
 #. Activity title
 #: activities/tic_tac_toe_2players/ActivityInfo.qml:18
@@ -26642,57 +26682,57 @@ msgstr ""
 #: activities/vertical_addition/resource/1/Data.qml:12
 msgctxt "Data|"
 msgid "Solve addition, 2 digits, 2 lines, without carry."
-msgstr ""
+msgstr "Giải phép cộng, 2 chữ số, 2 hàng, không nhớ."
 
 #: activities/vertical_addition/resource/10/Data.qml:12
 msgctxt "Data|"
 msgid "Solve addition, 4 digits, 3 lines."
-msgstr ""
+msgstr "Giải phép cộng, 4 chữ số, 3 hàng."
 
 #: activities/vertical_addition/resource/11/Data.qml:12
 msgctxt "Data|"
 msgid "Solve addition, 4 digits, 4 lines."
-msgstr ""
+msgstr "Giải phép cộng, 4 chữ số, 4 hàng."
 
 #: activities/vertical_addition/resource/12/Data.qml:12
 msgctxt "Data|"
 msgid "Write your own addition and solve it."
-msgstr ""
+msgstr "Tự viết phép cộng của con rồi giải."
 
 #: activities/vertical_addition/resource/2/Data.qml:12
 msgctxt "Data|"
 msgid "Write and solve addition, 2 digits, 2 lines, without carry."
-msgstr ""
+msgstr "Viết rồi giải phép cộng, 2 chữ số, 2 hàng, không nhớ."
 
 #: activities/vertical_addition/resource/3/Data.qml:12
 msgctxt "Data|"
 msgid "Solve addition, 2 digits, 2 lines."
-msgstr ""
+msgstr "Giải phép cộng, 2 chữ số, 2 hàng."
 
 #: activities/vertical_addition/resource/4/Data.qml:12
 msgctxt "Data|"
 msgid "Write and solve addition, 2 digits, 2 lines."
-msgstr ""
+msgstr "Viết rồi giải phép cộng, 2 chữ số, 2 hàng."
 
 #: activities/vertical_addition/resource/5/Data.qml:12
 msgctxt "Data|"
 msgid "Write and solve addition, 2 digits, 3 lines."
-msgstr ""
+msgstr "Viết rồi giải phép cộng, 2 chữ số, 3 hàng."
 
 #: activities/vertical_addition/resource/6/Data.qml:12
 msgctxt "Data|"
 msgid "Solve addition, 3 digits, 2 lines."
-msgstr ""
+msgstr "Giải phép cộng, 3 chữ số, 2 hàng."
 
 #: activities/vertical_addition/resource/7/Data.qml:12
 msgctxt "Data|"
 msgid "Write and solve addition, 3 digits, 2 lines."
-msgstr ""
+msgstr "Viết rồi giải phép cộng, 3 chữ số, 2 hàng."
 
 #: activities/vertical_addition/resource/8/Data.qml:12
 msgctxt "Data|"
 msgid "Solve addition, 3 digits, 3 lines."
-msgstr ""
+msgstr "Giải phép cộng, 3 chữ số, 3 hàng."
 
 #: activities/vertical_addition/resource/9/Data.qml:12
 msgctxt "Data|"
