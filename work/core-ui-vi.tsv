@@ -1,0 +1,181 @@
+4096	Tuỳ chọn dòng lệnh mới để hiện/ẩn nút Trang chủ (--hide-home-button/--show-home-button)
+4097	Bổ sung bản dịch tiếng Phạn
+4098	Nhiều hình ảnh mới
+4099	Tự động áp dụng ngôn ngữ mới khi đổi trong menu (không cần khởi động lại GCompris)
+4100	Thêm màn hình chờ lúc khởi động
+4101	Tuỳ chọn dòng lệnh mới để đổi bộ kết xuất đồ hoạ (--renderer renderer)
+4102	Bổ sung bản dịch tiếng Latvia
+4103	Bổ sung bản dịch tiếng Bulgaria, Galicia và Swahili
+4104	Tuỳ chọn dòng lệnh mới để mở thẳng một hoạt động ở cấp độ chỉ định (--start-level level, dùng kèm --launch activity)
+4105	Bổ sung bản dịch tiếng Ả Rập và Quốc tế ngữ
+4106	Cập nhật nhiều bản dịch
+4107	Tuỳ chọn dòng lệnh mới (--difficulty {value|min-max}) để mở GCompris ở độ khó chỉ định
+4108	Sửa lỗi trong hoạt động So sánh
+4109	Thêm bản đồ Tây Ban Nha cho hoạt động địa lý
+4110	Bổ sung giọng đọc tiếng Ukraina
+4111	Tuỳ chọn dòng lệnh mới để liệt kê mọi hoạt động và mở thẳng một hoạt động
+4112	Giảm dung lượng gói cài trên mọi nền tảng và của bộ ảnh từ vựng ngoài
+4113	Nâng chất lượng hình ảnh trong nhiều hoạt động
+4114	Sửa vài hiệu ứng chuyển cảnh trong Năng lượng tái tạo và Vòng tuần hoàn nước trên một số nền tảng
+4115	Sửa lỗi bỏ qua phím chết trên Linux ở các hoạt động gõ phím
+4116	Sửa lỗi đặt lại cấp độ khi đổi cấp thủ công trong Liên hệ logic
+4117	Sửa các hoạt động Thứ tự bảng chữ cái, Số chẵn số lẻ và Sắp số theo thứ tự
+4118	Sửa một số lỗi
+4119	Cập nhật bản dịch tiếng Nga
+4120	Giọng đọc mới cho tiếng Na Uy Nynorsk
+4121	Bổ sung bản dịch tiếng Breton, Séc và Macedonia
+4122	Bổ sung bản dịch tiếng Azerbaijan
+4123	Bản đồ mới và cập nhật bản đồ cho các hoạt động địa lý
+4124	Bộ dữ liệu mới có phép lặp cho Mê cung lập trình, và ảnh hướng dẫn nay đã được dịch
+4125	Thêm một cấp độ dạy vòng nguồn điện áp trong hoạt động Mạch điện tương tự
+4126	Menu Cài đặt hoạt động mới, có phần chọn bộ dữ liệu
+4127	Các nhóm nhỏ mới để sắp xếp hoạt động
+4128	Bổ sung bản dịch tiếng Macedonia.
+4129	Hoạt động mới: Mê cung lập trình và Xếp hình Tangram đơn giản
+4130	Nhạc nền mới và thiết lập âm lượng.
+4131	Thiết lập tốc độ mới trong nhiều hoạt động.
+4132	Tuỳ chọn mới trong cờ vua để hiện quân đã bắt.
+4133	Hình ảnh mới trong Màu sắc, Màu nâng cao và Bắn bia.
+4134	Giọng đọc mới cho tiếng Anh Mỹ.
+4135	Nhiều sửa lỗi và cải tiến nhỏ.
+4136	Cập nhật bản dịch cho nhiều ngôn ngữ (Breton, Bồ Đào Nha Brazil, Phần Lan...).
+4137	Thêm bộ dữ liệu tiếng Nga cho hoạt động Nhấn vào chữ cái.
+4138	Hoạt động Từ vựng nay đã có tiếng Hà Lan.
+4139	Gộp hai hạt Nord-Trøndelag và Sør-Trøndelag của Na Uy thành Trøndelag trong hoạt động Bản đồ quốc gia.
+4140	Sửa lỗi trong các hoạt động chữ nổi: ô bắt đầu từ 1 chứ không phải 0.
+4141	Bổ sung bản dịch tiếng Basque, Hungary và Malayalam.
+4142	Mở và lưu bài làm (Soạn thảo cho bé, Hộp thăng bằng và Sáng tác dương cầm).
+4143	Bổ sung bản dịch tiếng Gael Scotland.
+4144	Thêm trang giấy phép trong phần cài đặt.
+4145	Nhiều thay đổi bố cục để dùng thuận tay hơn.
+4146	Hoạt động Từ vựng nay đã có tiếng Ba Lan, Thuỵ Điển và Ukraina.
+4147	Tính năng tìm kiếm.
+4148	Nhật ký thay đổi.
+4149	Nhiều sửa lỗi nhỏ.
+4150	Hoạt động Từ vựng nay đã có tiếng Pháp.
+4151	Thêm lớp phủ báo đang tải để người dùng biết có việc đang chạy (ví dụ đang mở một hoạt động) và có thể mất vài giây.
+4152	Bổ sung bản dịch: Catalan (Valencia), Trung phồn thể, Phần Lan (dịch 92%), Nga (dịch 98%), Slovakia (dịch 92%), Thổ Nhĩ Kỳ.
+4153	Bổ sung bản dịch: Slovenia, Đức, Galicia.
+4154	Phiên bản %1:
+4155	Thiếu tệp âm thanh!
+4156	Hoạt động này dùng tệp âm thanh theo ngôn ngữ, mà máy bạn chưa cài.
+4157	Để tải các tệp âm thanh cần thiết, hãy vào hộp thoại Cài đặt.
+4158	Đang tải về
+4159	Đang tải về.<br/>Nhấn 'Dừng' để thoát ngay.
+4160	Thoát nhé?
+4161	Bạn có thật sự muốn thoát GCompris không?
+4162	Có
+4163	Không
+4164	Giới thiệu GCompris
+4165	Giấy phép
+4166	Lê Ngọc Tuấn, ThingEdu
+4167	GCompris %1
+4168	Dựa trên Qt %1 và %2
+4169	Trang chủ GCompris: https://gcompris.net
+4170	Bạn có thể hỗ trợ tài chính cho việc phát triển <b>GCompris</b>, mời ghé <a href='https://gcompris.net/donate-en.html'>https://gcompris.net/donate-en.html</a>.
+4171	<b>GCompris</b> là phần mềm tự do, được phát triển trong cộng đồng KDE.
+4172	<b>KDE</b> là mạng lưới toàn cầu gồm các kỹ sư phần mềm, hoạ sĩ, người viết, người dịch và người điều phối, cùng gắn bó với việc phát triển <a href="%1">Phần mềm Tự do</a>. Cộng đồng này đã tạo ra hàng trăm ứng dụng phần mềm tự do, nằm trong bộ khung, môi trường làm việc và ứng dụng của KDE.<br /><br />KDE là một tổ chức hợp tác, trong đó không một cá nhân hay tổ chức nào nắm quyền chi phối công sức hay sản phẩm của KDE để loại trừ người khác. Ai cũng được chào đón tham gia và đóng góp cho KDE, kể cả bạn.<br /><br />Mời ghé <a href="%2">%2</a> để biết thêm về cộng đồng KDE và những phần mềm chúng tôi làm ra.
+4173	Phần mềm luôn có thể tốt hơn, và đội ngũ KDE sẵn sàng làm điều đó. Nhưng bạn - người dùng - phải cho chúng tôi biết khi có thứ gì chạy không như mong đợi hoặc có thể làm tốt hơn.<br /><br />KDE có hệ thống theo dõi lỗi. Mời ghé <a href="%1">%1</a> để báo lỗi.<br /><br />Nếu bạn có ý tưởng cải tiến, cứ dùng hệ thống theo dõi lỗi để gửi mong muốn của mình. Nhớ chọn mức độ ưu tiên là "Wishlist".
+4174	Bạn không cần là lập trình viên mới tham gia được đội ngũ KDE. Bạn có thể vào các nhóm ngôn ngữ chuyên dịch giao diện chương trình. Bạn có thể góp hình ảnh, giao diện, âm thanh và tài liệu tốt hơn. Bạn tự chọn!<br /><br />Mời ghé <a href="%1">%1</a> để biết một số dự án bạn có thể tham gia.<br /><br />Nếu bạn cần thêm thông tin hay tài liệu, hãy ghé <a href="%2">%2</a> để tìm thứ mình cần.
+4175	Để hỗ trợ việc phát triển, cộng đồng KDE đã lập ra KDE e.V., một tổ chức phi lợi nhuận đăng ký hợp pháp tại Đức. KDE e.V. đại diện cho cộng đồng KDE trong các vấn đề pháp lý và tài chính. Xem <a href="%1">%1</a> để biết về KDE e.V.<br /><br />KDE nhận được nhiều dạng đóng góp, trong đó có tài chính. Chúng tôi dùng quỹ để hoàn lại chi phí cho thành viên và những người khác khi họ đóng góp. Phần còn lại dùng cho hỗ trợ pháp lý và tổ chức hội nghị, gặp mặt. <br /> <br />Chúng tôi mong bạn ủng hộ công sức của chúng tôi bằng một khoản đóng góp, theo một trong các cách mô tả tại <a href="%2">%2</a>.<br /><br />Xin cảm ơn bạn trước rất nhiều.
+4176	<b>Xin cảm ơn đội ngũ phát triển:</b> %1
+4177	<b>Xin cảm ơn đội ngũ dịch thuật:</b> %1
+4178	Cài đặt %1
+4179	Cài đặt
+4180	Thiết lập %1
+4181	Bộ dữ liệu
+4182	Tuỳ chọn
+4183	Huỷ
+4184	Lưu
+4185	Lưu và bắt đầu
+4186	Tác giả:
+4187	Cần biết trước:
+4188	Mục tiêu:
+4189	Hướng dẫn:
+4190	Ghi công:
+4191	Nhóm:
+4192	Chấm tròn
+4193	Chữ số Ả Rập
+4194	Chữ số La Mã
+4195	Hình ảnh
+4196	Đang tải về...
+4197	Chạy nền
+4198	Dừng
+4199	Lỗi tải về (mã %1): %2
+4200	Tải về xong. Các tệp dữ liệu đã sẵn sàng.
+4201	Hãy mở lại hoạt động đang chơi.
+4202	Dữ liệu trên máy bạn đã là mới nhất.
+4203	Người dùng đã huỷ việc tải về
+4204	Không tạo được thư mục chứa dữ liệu
+4205	Không mở được tệp đích %1
+4206	Tệp Contents sai định dạng
+4207	Địa chỉ %1 không tồn tại.
+4208	Mã kiểm tra của tệp tải về không khớp: %1
+4209	Không tìm thấy giọng đọc cho %1.
+4210	Không tìm thấy dữ liệu cho %1.
+4211	Đã xoá tệp!
+4212	Đồng ý
+4213	Không xoá được tệp!
+4214	Đã có tệp trùng tên. Bạn có muốn thay thế không?
+4215	Có
+4216	Không
+4217	Bạn có thật sự muốn xoá tệp này không?
+4218	Đã lưu xong!
+4219	Nhập tên tệp
+4220	Tìm
+4221	Lưu
+4222	Mở
+4223	Xoá
+4224	Mở thư mục
+4225	Trước
+4226	Tiếp
+4227	Bỏ qua
+4228	Bắt đầu
+4229	Theo hệ thống
+4230	Ngôn ngữ của GCompris
+4231	Chạy GCompris với con trỏ chuột mặc định của hệ thống.
+4232	Chạy GCompris không có con trỏ chuột (chế độ màn hình cảm ứng).
+4233	Chạy GCompris ở chế độ toàn màn hình.
+4234	Chạy GCompris ở chế độ cửa sổ.
+4235	Chạy GCompris có bật âm thanh.
+4236	Chạy GCompris không có âm thanh.
+4237	Tắt chế độ kiosk (mặc định).
+4238	Bật chế độ kiosk.
+4239	Dùng bộ kết xuất phần mềm thay cho openGL (chậm hơn nhưng chạy được với mọi card đồ hoạ). Đã lỗi thời, hãy dùng --renderer=software.
+4240	Dùng bộ kết xuất openGL thay cho phần mềm (nhanh hơn nhưng có thể lỗi tuỳ card đồ hoạ). Đã lỗi thời, hãy dùng --renderer=opengl.
+4241	Chọn bộ kết xuất (opengl, software, Direct3D11, Direct3D12, Metal).
+4242	Chỉ định hoạt động khi mở GCompris.
+4243	In ra toàn bộ hoạt động hiện có.
+4244	Chỉ định khoảng độ khó của hoạt động cho phiên chơi. Một giá trị (2) hoặc một khoảng (3-6). Giá trị từ 1 tới 6.
+4245	Chỉ định cấp độ bắt đầu của hoạt động. Chỉ dùng kèm tuỳ chọn --launch.
+4246	Chạy chuỗi hoạt động ghi trong tệp json.
+4247	Chỉ định ngôn ngữ khi mở GCompris.
+4248	Ẩn nút Trang chủ trên thanh công cụ.
+4249	Hiện nút Trang chủ trên thanh công cụ (mặc định).
+4250	Bạn có muốn tự động tải về hoặc cập nhật các gói dữ liệu sau mỗi khi mở GCompris không?
+4251	Giọng đọc cho ngôn ngữ của bạn
+4252	Bộ ảnh từ vựng đầy đủ
+4253	Nhạc nền
+4254	Có
+4255	Không
+4256	Một số hoạt động đã có bộ dữ liệu mới. Bạn có muốn đặt lại phần chọn bộ dữ liệu của chúng không?
+4257	Áp dụng
+4258	Huỷ
+4259	Chào mừng bạn đến với GCompris!
+4260	Đây là lần đầu bạn chạy GCompris.
+4261	Bạn nên kiểm tra lại phần cài đặt, nhất là ngôn ngữ đã đúng chưa. Vào hộp thoại Cài đặt để làm việc này.
+4262	Chúc bạn chơi vui!
+4263	Ngôn ngữ hiện tại của bạn là %1 (%2).
+4264	GCompris vừa được cập nhật! Đây là những thay đổi mới:<br/>
+4265	Những hoạt động sau không còn bộ dữ liệu nào đang bật! Toàn bộ bộ dữ liệu của chúng sẽ được bật lại.
+4266	Bạn có muốn kết nối tới máy chủ %1 không?
+4267	Máy chủ %1 từ chối mật khẩu
+4268	Đồng ý
+4269	Chọn tên của bạn
+4270	Hãy chọn tên của bạn trong danh sách, hoặc bấm huỷ.
+4271	Nhập mật khẩu của bạn
+4272	Mình sẵn sàng
+4273	Trước
+4274	Tiếp
+4275	Bỏ qua
+4276	Bắt đầu
