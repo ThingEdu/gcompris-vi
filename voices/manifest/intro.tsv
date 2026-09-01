@@ -1,2 +1,114 @@
+advanced_colors	Bấm vào con bướm đúng màu được yêu cầu.
+algebra_by	Nhân hai số với nhau rồi gõ câu trả lời trước khi quả bóng rơi xuống nước.
+algebra_minus	Trừ hai số rồi gõ câu trả lời trước khi quả bóng rơi xuống nước.
+algebra_plus	Cộng hai số với nhau rồi gõ câu trả lời trước khi quả bóng rơi xuống nước.
+algorithm	Bấm vào những chỗ còn thiếu trên bàn, theo đúng quy luật ở hàng phía trên.
+align4	Bấm vào cột con muốn thả quân, cố xếp bốn quân thành hàng trước Tux nhé.
+align4_2players	Bấm vào cột con muốn thả quân, xếp được bốn quân thành hàng là thắng.
+baby_tangram	Di chuyển từng mảnh ghép để hoàn thành bức hình. Bấm vào mũi tên để xoay mảnh ghép.
+babymatch	Kéo thả các món đồ cho khớp với hình.
+babyshapes	Kéo thả các món đồ cho khớp với hình dạng.
+bargame	Chọn số bi con muốn thả vào lỗ rồi bấm nút Đồng ý. Ai không phải bỏ bi vào lỗ đỏ là người thắng.
+braille_alphabets	Bấm vào Tux để bắt đầu, rồi tạo lại các ô chữ nổi.
+braille_fun	Hãy tạo ô chữ nổi cho chữ cái này.
+canal_lock	Con phụ trách âu thuyền và phải giúp Tux đi qua. Bấm vào van để mực nước dâng lên hay hạ xuống, bấm vào cổng để mở hoặc đóng đường đi.
+chess_partyend	Bấm vào một quân cờ trắng, các ô xanh sẽ hiện ra chỉ những nước quân đó đi được. Hãy chiếu hết vua đen nhé.
+chronos	Kéo các bức tranh về đúng thứ tự để kể thành câu chuyện.
+click_on_letter	Nghe chữ cái rồi bấm vào đúng chữ đó.
+click_on_letter_up	Bấm vào chữ cái được yêu cầu. Bấm vào cái miệng để nghe lại.
+clickanddraw	Bấm vào các điểm được đánh dấu để vẽ.
+clickgame	Bắt hết cá trước khi chúng ra khỏi bể.
+clockgame	Kéo các kim đồng hồ để chỉ đúng giờ được yêu cầu.
+color_mix	Kéo thanh trượt trên các tuýp màu để pha ra đúng màu.
+color_mix_light	Kéo thanh trượt trên các đèn pin để pha ra đúng màu.
+colors	Bấm vào đúng màu.
+crane	Bấm lần lượt vào từng món đồ trong khung xanh rồi chuyển chúng đi sao cho giống hệt khung hồng.
+details	Kéo các bức hình về đúng chỗ của chúng.
+enumerate	Sắp các món đồ cho gọn rồi đếm, sau đó gõ câu trả lời trên bàn phím.
+erase	Dùng miếng bọt biển lau sạch cửa sổ để thấy bức tranh giấu bên dưới.
+erase_2clic	Chạm đúp hoặc bấm đúp vào các viên gạch để thấy bức tranh giấu bên dưới.
+erase_clic	Bấm hoặc chạm vào các viên gạch trong suốt để thấy bức tranh giấu bên dưới.
+explore_farm_animals	Tìm hiểu vật nuôi trong trang trại và tiếng kêu của chúng.
+explore_world_animals	Tìm hiểu động vật thế giới và tìm nơi chúng sống trên bản đồ.
+explore_world_music	Bấm vào các chiếc va li để tìm hiểu âm nhạc khắp thế giới.
+fifteen	Bấm hoặc kéo một ô nằm cạnh chỗ trống, ô đó sẽ dịch sang và để lại chỗ trống mới. Con phải xếp hết các ô về đúng thứ tự. Các con số trên ô sẽ giúp con.
+geo-country	Kéo thả các vùng để hoàn thành bản đồ quốc gia.
+geography	Kéo thả các mảnh để hoàn thành bản đồ.
+gletters	Gõ các chữ cái trên bàn phím trước khi chúng chạm đất.
+gnumch-equality	Dùng phím mũi tên dẫn Quái Ăn Số tới những số được yêu cầu rồi bấm phím cách để nuốt chúng.
+gnumch-factors	Dùng phím mũi tên dẫn Quái Ăn Số tới các ước của số đang hiện rồi bấm phím cách để nuốt chúng.
+gnumch-inequality	Dùng phím mũi tên dẫn Quái Ăn Số tới những số khác với số đang hiện rồi bấm phím cách để nuốt chúng.
+gnumch-multiples	Dùng phím mũi tên dẫn Quái Ăn Số tới các bội của số đang hiện rồi bấm phím cách để nuốt chúng.
+gnumch-primes	Dùng phím mũi tên dẫn Quái Ăn Số tới các số nguyên tố rồi bấm phím cách để nuốt chúng.
+guesscount	Dùng các số và phép tính gợi ý để ra kết quả yêu cầu ở phía trên.
+guessnumber	Tìm ra con số bằng cách gõ một số trong khoảng cho trước.
+hangman	Có một từ đang bị giấu, con phải tìm ra từng chữ cái của nó.
+hanoi	Xếp lại ở chỗ trống một cái tháp giống hệt cái con thấy bên phải.
+hanoi_real	Xếp lại tháp mẫu sang cọc bên phải. Cẩn thận nhé, không được đặt đĩa to lên trên đĩa nhỏ.
+hexagon	Bấm vào các ô lục giác để tìm vật giấu bên dưới, vùng màu đỏ nghĩa là con đang tới gần rồi đấy!
+imagename	Kéo thả từng món đồ lên trên tên của nó.
+instruments	Bấm vào đúng loại nhạc cụ.
+land_safe	Dùng phím mũi tên lái tàu vũ trụ hạ cánh an toàn xuống bãi đáp.
+lang	Chọn ngôn ngữ con muốn học rồi ôn lại các từ trước khi làm bài tập.
+leftright	Đoán xem hình là bàn tay trái hay bàn tay phải rồi bấm vào câu trả lời đúng.
+lightsoff	Bấm vào các bóng đèn để tắt hết chúng đi.
+louis-braille	Khám phá câu chuyện về Louis Braille.
+magic-hat-minus	Bấm vào chiếc mũ. Xem còn bao nhiêu ngôi sao đang trốn dưới mũ nào.
+magic-hat-plus	Đếm số ngôi sao giấu dưới mũ rồi bấm vào các ngôi sao để cho biết số đó.
+maze	Dùng phím mũi tên hoặc vuốt trên màn hình để giúp Tux tìm đường ra.
+mazeinvisible	Dùng phím mũi tên hoặc vuốt trên màn hình để dẫn Tux ra ngoài. Bấm biểu tượng mê cung hoặc phím cách để xem bản đồ.
+mazerelative	Giúp Tux tìm đường ra. Phím trái phải để quay, phím lên để đi tới.
+melody	Nghe chuỗi âm thanh rồi bấm vào các thanh đàn để chơi lại đúng như vậy.
+memory	Bấm vào một tấm thẻ rồi tìm tấm giống hệt nó.
+memory-enumerate	Ghép tấm thẻ ghi số với tấm thẻ có đúng bấy nhiêu con bướm.
+memory-math-add	Lật hai tấm thẻ để ghép phép cộng với kết quả của nó.
+memory-math-add-minus	Lật hai tấm thẻ để ghép phép cộng hoặc phép trừ với kết quả của nó.
+memory-math-add-minus-mult-div	Lật hai tấm thẻ để ghép phép tính với kết quả của nó.
+memory-math-add-minus-mult-div-tux	Lật hai tấm thẻ để ghép phép tính với kết quả của nó, đấu với Tux.
+memory-math-add-minus-tux	Lật hai tấm thẻ để ghép phép cộng hoặc phép trừ với kết quả của nó, đấu với Tux.
+memory-math-add-tux	Lật hai tấm thẻ để ghép phép cộng với kết quả của nó, đấu với Tux.
+memory-math-div	Lật hai tấm thẻ để ghép phép chia với kết quả của nó.
+memory-math-div-tux	Lật hai tấm thẻ để ghép phép chia với kết quả của nó, đấu với Tux.
+memory-math-minus	Lật hai tấm thẻ để ghép phép tính với kết quả của nó.
+memory-math-minus-tux	Lật hai tấm thẻ để ghép phép trừ với kết quả của nó, đấu với Tux.
+memory-math-mult	Lật hai tấm thẻ để ghép phép nhân với kết quả của nó.
+memory-math-mult-div	Lật hai tấm thẻ để ghép phép nhân hoặc phép chia với kết quả của nó.
+memory-math-mult-div-tux	Lật hai tấm thẻ để ghép phép nhân hoặc phép chia với kết quả của nó, đấu với Tux.
+memory-math-mult-tux	Lật hai tấm thẻ để ghép phép nhân với kết quả của nó, đấu với Tux.
+memory-sound	Bấm vào một tấm thẻ âm thanh rồi tìm tấm giống hệt nó.
+memory-sound-tux	Bấm vào một tấm thẻ âm thanh rồi tìm tấm giống hệt nó, đấu với Tux.
+memory-tux	Bấm vào một tấm thẻ rồi tìm tấm giống hệt nó, đấu với Tux.
+memory-wordnumber	Ghép chữ số với tên gọi của nó.
+mining	Nhìn vào vách đá, con sẽ thấy một chỗ lấp lánh. Đưa con trỏ chuột tới chỗ lấp lánh đó rồi lăn bánh xe chuột hoặc chụm ngón tay để phóng to.
+missing-letter	Tìm chữ cái còn thiếu và hoàn thành từ bằng cách bấm vào một trong các chữ cái bên cạnh.
+money	Bấm hoặc chạm vào tiền để trả.
+money_back	Bấm vào tiền ở cuối màn hình để thối lại cho Tux.
+money_back_cents	Bấm vào tiền ở cuối màn hình để thối lại cho Tux.
+money_cents	Bấm vào tiền để trả.
 mosaic	Đặt từng món đồ vào đúng chỗ như trong hình mẫu.
+note_names	Nhận ra nốt nhạc rồi bấm đúng phím đàn.
+number_sequence	Vẽ ra bức tranh bằng cách chạm vào các số theo thứ tự tăng dần.
+paintings	Bắt từng mảnh rồi thả vào đúng điểm.
+photo_hunter	Nhìn kỹ hai bức tranh rồi bấm vào chỗ con thấy khác nhau.
+piano_composition	Học cách soạn nhạc dương cầm bằng các quãng tám và những công cụ ở phía trên khuông nhạc.
+planegame	Dùng phím mũi tên lái trực thăng bắt các con số trong mây theo thứ tự tăng dần.
+play_piano	Bấm các phím đàn ứng với những nốt con nhìn thấy và nghe được.
+play_rhythm	Gõ vào trống để chơi lại đúng nhịp.
+railroad	Quan sát đoàn tàu rồi bấm vào các toa để xếp lại một đoàn tàu giống hệt.
 readingh	Đọc một danh sách từ rồi cho biết một từ có nằm trong đó không.
+readingv	Đọc danh sách từ theo hàng dọc rồi cho biết một từ có nằm trong đó không.
+redraw	Dùng công cụ vẽ để dựng lại một hình y hệt ở bên phải.
+redraw_symmetrical	Dùng công cụ vẽ để dựng lại hình bên phải theo phép đối xứng.
+renewable_energy	Bấm vào từng chặng làm nên nguồn điện.
+reversecount	Bấm vào quân đô-mi-nô rồi bấm nút Đồng ý để cho biết Tux phải đi qua bao nhiêu tảng băng mới ăn được cá.
+scalesboard	Kéo các quả cân lên cho cân thăng bằng.
+scalesboard_weight	Kéo các quả cân lên cho cân thăng bằng rồi tính khối lượng.
+smallnumbers	Đếm số chấm trên con xúc xắc rồi gõ số đó trên bàn phím trước khi nó chạm đất.
+submarine	Lái tàu ngầm tới mép phải màn hình mà không va vào thứ gì.
+sudoku	Chọn một số hoặc một ký hiệu rồi bấm vào ô cần điền. Mỗi ký hiệu chỉ được xuất hiện một lần trên mỗi hàng, mỗi cột và mỗi vùng nhỏ nếu có.
+superbrain	Tìm ra đúng tổ hợp màu. Chấm viền ô đen nghĩa là con đã đúng màu và đúng vị trí, còn chấm viền ô trắng nghĩa là đúng màu nhưng sai vị trí.
+tangram	Bấm vào từng mảnh để ghép ra đúng hình mẫu. Bấm vào mũi tên để xoay mảnh ghép.
+target	Bấm vào tấm bia để phóng phi tiêu, rồi tính tổng điểm của con!
+traffic	Đẩy các xe để chừa chỗ cho chiếc xe đỏ ra khỏi bãi.
+watercycle	Bấm vào từng bộ phận làm nên hệ thống cấp nước. Rồi bấm nút vòi sen cho Tux tắm.
+wordsgame	Gõ các từ trên bàn phím trước khi chúng chạm đất.

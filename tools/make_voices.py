@@ -49,6 +49,51 @@ def load_manifests(only):
     return jobs
 
 
+def trim_silence(audio, sr=SAMPLE_RATE, thresh=0.015, pad=0.06):
+    """Cắt bớt phần lặng hai đầu, chừa lại một chút cho đỡ cụt tiếng."""
+    import numpy as np
+
+    loud = np.abs(audio) > thresh
+    if not loud.any():
+        return audio
+    i, j = loud.argmax(), len(loud) - loud[::-1].argmax()
+    p = int(pad * sr)
+    return audio[max(0, i - p):min(len(audio), j + p)]
+
+
+def duration_band(text):
+    """Dải thời lượng hợp lý cho một câu tiếng Việt, tính theo số âm tiết.
+
+    VieNeu-TTS không tất định: với câu ngắn nó thỉnh thoảng cho ra tệp cụt
+    (0,1 giây) hoặc chạy loạn (hơn 10 giây). Dải này để phát hiện và sinh lại.
+    """
+    syl = max(len(text.split()), 1)
+    # Hiệu chuẩn trên 116 câu dài đã sinh: 0,19-0,32 giây mỗi âm tiết.
+    # Câu ngắn đọc chậm hơn tính theo âm tiết nên cận dưới nới ra.
+    return 0.15 * syl + 0.10, 0.55 * syl + 1.2
+
+
+def synthesize(tts, ref, text, tries=6):
+    """Sinh giọng, thử lại tới khi thời lượng nằm trong dải hợp lý."""
+    import numpy as np
+
+    lo, hi = duration_band(text)
+    best = None
+    for _ in range(tries):
+        audio = np.squeeze(np.asarray(tts.infer(text=text, voice=ref)))
+        if audio.dtype == np.int16:
+            audio = audio.astype(np.float32) / 32768.0
+        audio = trim_silence(audio)
+        d = len(audio) / SAMPLE_RATE
+        if lo <= d <= hi:
+            return audio, d, True
+        # giữ lại lần gần dải nhất để dùng nếu thử hết vẫn hỏng
+        miss = lo - d if d < lo else d - hi
+        if best is None or miss < best[1]:
+            best = (audio, miss, d)
+    return best[0], best[2], False
+
+
 def encode(wav_path, dst, fmt):
     os.makedirs(os.path.dirname(dst), exist_ok=True)
     if fmt == "ogg":
@@ -85,28 +130,33 @@ def main():
     if need_tts:
         if not os.path.exists(a.ref):
             sys.exit(f"Không thấy giọng mẫu {a.ref}")
-        import numpy as np
         import soundfile as sf
         from vieneu import Vieneu
 
         tts = Vieneu(mode="turbo")
         ref = tts.encode_reference(a.ref)
+        bad = []
         for i, (group, key, text) in enumerate(need_tts, 1):
-            audio = np.squeeze(np.asarray(tts.infer(text=text, voice=ref)))
-            if audio.dtype == np.int16:
-                audio = audio.astype(np.float32) / 32768.0
+            audio, dur, ok = synthesize(tts, ref, text)
+            if not ok:
+                bad.append((group, key, dur, text))
             dst = os.path.join(WAV_DIR, group, key + ".wav")
             os.makedirs(os.path.dirname(dst), exist_ok=True)
             sf.write(dst, audio, SAMPLE_RATE)
             if i % 50 == 0 or i == len(need_tts):
                 print(f"  giọng {i}/{len(need_tts)}")
+        if bad:
+            print(f"\n{len(bad)} tệp thử hết lượt vẫn lệch dải, cần nghe lại:")
+            for g, k, d, t in bad:
+                print(f"  {g}/{k}  {d:.2f}s  {t[:50]!r}")
 
     for fmt in formats:
         made = 0
         for group, key, _ in jobs:
             wav = os.path.join(WAV_DIR, group, key + ".wav")
             dst = os.path.join(out_dir(fmt), group, key + "." + EXT[fmt])
-            if a.force or not os.path.exists(dst):
+            stale = os.path.exists(dst) and os.path.getmtime(dst) < os.path.getmtime(wav)
+            if a.force or stale or not os.path.exists(dst):
                 encode(wav, dst, fmt)
                 made += 1
         print(f"  {fmt}: mã hoá thêm {made} tệp -> {out_dir(fmt)}")
