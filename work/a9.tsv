@@ -1,0 +1,200 @@
+207	Battery	I = %1A
+210	Bulb	I = %1A
+215	Resistor	I = %1A
+218	Rheostat	I = %1A
+625	board1_0	1
+626	board1_0	2
+627	board1_0	3
+628	board1_0	4
+635	board3_0	1
+636	board3_0	2
+637	board3_0	3
+638	board3_0	4
+640	board4_0	1
+641	board4_0	2
+642	board4_0	3
+643	board4_0	4
+918	AndGate	A AND B
+924	NandGate	NOT (A AND B)
+926	NorGate	NOT (A OR B)
+931	OrGate	A OR B
+937	XorGate	A XOR B
+1192	board5	Castillo de San Marcos
+2039	board2_0	United States of America
+2193	ActivityConfig	Uppercase only mode
+2202	ActivityInfo	Take care to avoid the Troggles.
+2203	ActivityInfo	Space: swallow the numbers
+2204	Data	Practice addition equality.
+2205	Data	Practice subtraction equality.
+2206	Data	Practice multiplication equality.
+2207	Data	Practice division equality.
+2208	TopPanel	Equal to %1
+2209	TopPanel	Not equal to %1
+2210	TopPanel	Factor of %1
+2211	TopPanel	Multiple of %1
+2212	TopPanel	Primes less than %1
+2213	Warning	You were eaten by a Troggle.
+2214	Warning	You ate a wrong number.
+2215	Warning	1 is not a prime number.
+2216	Warning	%1 is a non-prime number, its divisors are: %2
+2217	Warning	Multiples of %1 include %2 or %3 but %4 is not a multiple of %5.
+2218	Warning	Divisors of %1 are: %2
+2219	Warning	Press "Return" or click on me to continue.
+2220	WarnMonster	Be careful, a troggle!
+2228	Data	Practice addition inequality.
+2229	Data	Practice subtraction inequality.
+2230	Data	Practice multiplication inequality.
+2231	Data	Practice division inequality.
+2244	ActivityInfo	Digits: enter digits
+2245	ActivityInfo	Backspace: delete the last digit
+2246	ActivityInfo	Delete: reset your answer
+2247	ActivityInfo	Space, Return or Enter: validate your answer
+2248	graduated_line_read	(variable boundaries)
+2249	GraduatedLineRead	Find the requested number.
+2250	Data	Number to find between 1 and 5.
+2251	Data	Decimal number to find between 0 and 4.
+2252	Data	Number to find between 1 and 7.
+2253	Data	Number to find between 1 and 10.
+2254	Data	Number to find between 0 and 20.
+2255	Data	Number to find between 0 and 50.
+2256	Data	Number to find between 0 and 100.
+2257	Data	Number to find between 0 and 1 000.
+2258	Data	Number to find between 0 and 10 000.
+2259	Data	Number to find between 0 and 1 000 000.
+2264	ActivityInfo	Left and Right arrows: move the cursor
+2265	GraduatedLineUse	Place the given number on the graduated line.
+2266	Data	Graduation to find between 1 and 5.
+2267	Data	Graduation to find between 1 and 7.
+2268	Data	Graduation to find between 1 and 10.
+2269	Data	Graduation to find between 0 and 20.
+2270	Data	Graduation to find between 0 and 50.
+2271	Data	Graduation to find between 0 and 100.
+2272	Data	Graduation to find between 0 and 1 000.
+2273	Data	Graduation to find between 0 and 10 000.
+2274	Data	Graduation to find between 0 and 1 000 000.
+2279	ActivityInfo	Select a grammatical class from the list, then select the box under a word and assign it the class.
+2280	ActivityInfo	Leave the box blank if no class matches.
+2281	ActivityInfo	Up and down arrows or tabulation: switch between classes and words
+2282	ActivityInfo	Left and right arrows: select items in classes or words
+2283	ActivityInfo	Space: assign the selected class to the selected word and then select the next word
+2284	ActivityInfo	Backspace: select the previous word
+2285	grammar_analysis	Empty
+2286	GrammarAnalysis	Grammatical analysis
+2287	GrammarAnalysis	Learn to identify grammatical classes.
+2288	GrammarAnalysis	Find all the words corresponding to the requested grammatical classes.
+2289	GrammarAnalysis	Select a grammatical class from the list, then select the box under a word and assign it the class.
+2290	GrammarAnalysis	Leave the box blank if no class matches.
+2293	ActivityInfo	Select the grammatical class from the list, then select the box under a word and assign it the class.
+2294	ActivityInfo	Leave the box blank if the class doesn't match.
+2295	GrammarClasses	Grammatical classes
+2296	GrammarClasses	Learn to identify grammatical classes.
+2297	GrammarClasses	Find all the words corresponding to the requested grammatical class.
+2298	GrammarClasses	Select the grammatical class from the list, then select the box under a word and assign it the class.
+2299	GrammarClasses	Leave the box blank if the class doesn't match.
+2300	ActivityConfig	Colors
+2301	ActivityConfig	Shapes
+2307	ActivityInfo	Right and Left arrows: navigate
+2312	ActivityInfo	Left and Right arrows: move the spaceship
+2313	Gravity	Gravity is universal and Newton's law of universal gravitation extends gravity beyond earth. This force of gravitational attraction is directly dependent upon the mass of both objects and inversely proportional to the square of the distance between their centers.
+2314	Gravity	Since the gravitational force is directly proportional to the mass of both interacting objects, more massive objects will attract each other with a greater gravitational force.
+2315	Gravity	But as this force is inversely proportional to the square of the distance between the two interacting objects, more distance will result in weaker gravitational force.
+2316	Gravity	Your goal is to move the spaceship and avoid hitting the planets until you reach the space station. The arrow indicates the direction and the intensity of the gravity on your ship.
+2317	Gravity	Try to stay near the center of the screen, and anticipate by looking at the size and direction of the arrow.
+2323	ActivityInfo	Arrows: navigate inside numbers and operators
+2324	ActivityInfo	Space, Return or Enter: select or deselect current value or operator
+2325	ActivityInfo	Operator keys (+, -, *, /): select operator
+2326	ActivityInfo	Backspace or Delete: cancel last operation
+2327	ActivityInfo	Tabulation: switch between numbers and operators
+2328	Guess24	Use the four numbers with given operators to find 24.
+2329	Data	Solvable with + and -.
+2330	Data	Solvable with +, - and ×.
+2331	Data	Multiplication required.
+2332	Data	Solvable with all operators.
+2333	Data	Division required.
+2334	Data	All operators required.
+2335	ActivityConfig	Admin
+2336	ActivityConfig	BuiltIn
+2337	ActivityConfig	Selected
+2338	ActivityConfig	Not Selected
+2344	Admin	Level %1
+2345	guesscount	result is not positive integer
+2346	guesscount	result is not an integer
+2347	Guesscount	Guesscount: %1
+2348	OperandRow	Numbers
+2349	OperatorRow	Operators
+2350	Data	Practice algebraic calculations with a single operator.
+2351	Data	Practice algebraic calculations with two operators.
+2352	Data	Practice algebraic calculations with three operators.
+2353	Data	Practice algebraic calculations with four operators.
+2358	ActivityInfo	Digits: enter a number
+2359	ActivityInfo	Backspace: erase a number
+2360	guessnumber	Your number is too high.
+2361	guessnumber	Your number is too low.
+2362	guessnumber	You found the number!
+2363	Guessnumber	Guess a number between %1 and %2.
+2364	Data	Guess a number between %1 and %2.
+2365	ActivityConfig	Display the image to find as hint
+2366	ActivityConfig	Speak the words to find (if available) when three attempts are remaining
+2371	ActivityInfo	If the option 'Display the image to find as hint' is activated, on every wrong try a part of the image representing the word will be revealed.
+2372	ActivityInfo	If the option 'Speak the words to find...' is activated, and if the corresponding voice is available, you will hear the word to find when three attempts are remaining.
+2373	hangman	Attempted: %1
+2374	Hangman	We are sorry, we don't have yet a translation for your language.
+2375	Hangman	GCompris is developed by the KDE community, you can translate GCompris by joining a translation team on <a href="%2">%2</a>
+2376	Hangman	We switched to English for this activity but you can select another language in the configuration dialog.
+2381	ActivityInfo	Concept taken from EPI games.
+2385	ActivityInfo	The puzzle was invented by the French mathematician Edouard Lucas in 1883. There is a legend about a Hindu temple whose priests were constantly engaged in moving a set of 64 discs according to the rules of the Tower of Hanoi puzzle. According to the legend, the world would end when the priests finished their work. The puzzle is therefore also known as the Tower of Brahma puzzle. It is not clear whether Lucas invented this legend or was inspired by it. (source Wikipedia: https://en.wikipedia.org/wiki/Tower_of_hanoi)
+2386	HanoiReal	Move the entire stack to the right peg, one disc at a time.
+2387	HanoiReal	Build the same tower in the empty area as the one you see on the right-hand side
+2397	board1_0	Drag and Drop each item above its name
+2398	board1_0	mail box
+2399	board1_0	sailing boat
+2400	board1_0	lamp
+2401	board1_0	postcard
+2402	board1_0	fishing boat
+2403	board1_0	bulb
+2404	board2_0	bottle
+2405	board2_0	glass
+2406	board2_0	egg
+2407	board2_0	eggcup
+2408	board2_0	flower
+2409	board2_0	vase
+2410	board3_0	rocket
+2411	board3_0	star
+2412	board3_0	sofa
+2413	board3_0	house
+2414	board3_0	light house
+2415	board3_0	sailing boat
+2416	board4_0	apple
+2417	board4_0	tree
+2418	board4_0	bicycle
+2419	board4_0	car
+2420	board4_0	carrot
+2421	board4_0	grater
+2422	board5_0	pencil
+2423	board5_0	postcard
+2424	board5_0	tree
+2425	board5_0	star
+2426	board5_0	truck
+2427	board5_0	van
+2428	board6_0	castle
+2429	board6_0	crown
+2430	board6_0	sailing boat
+2431	board6_0	flag
+2432	board6_0	racket
+2433	board6_0	ball
+2434	board7_0	tree
+2435	board7_0	mail box
+2436	board7_0	sailing boat
+2437	board7_0	bulb
+2438	board7_0	bottle
+2439	board7_0	flower
+2444	ActivityInfo	Tab: repeat the instrument sound
+2445	instruments	Find the clarinet
+2446	instruments	Find the transverse flute
+2447	instruments	Find the guitar
+2448	instruments	Find the harp
+2449	instruments	Find the piano
+2450	instruments	Find the saxophone
+2451	instruments	Find the trombone
+2452	instruments	Find the trumpet
+2453	instruments	Find the violin

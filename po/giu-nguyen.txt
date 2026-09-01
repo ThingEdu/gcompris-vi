@@ -1,0 +1,573 @@
+# Những chuỗi cố ý để nguyên tiếng Anh: tên riêng nước ngoài mà tiếng Việt viết
+# y hệt. Để trống bản dịch thì GCompris hiện đúng nguyên văn, không cần dịch.
+# Mỗi dòng là nguyên văn tiếng Anh.
+New South Wales
+Andhra Pradesh
+Arunachal Pradesh
+Himachal Pradesh
+Madhya Pradesh
+Uttar Pradesh
+Tamil Nadu
+West Bengal
+North Dakota
+South Dakota
+North Carolina
+South Carolina
+New Mexico
+New Jersey
+New York
+New Hampshire
+Rhode Island
+West Virginia
+
+# Tên vùng, bang, tỉnh nước ngoài trong các hoạt động bản đồ — tiếng Việt
+# vẫn viết y như bản gốc, chỉ dịch phần tiêu đề của mỗi tấm bản đồ.
+Washington
+Oregon
+Idaho
+Montana
+Nebraska
+Kansas
+Colorado
+Arizona
+Texas
+Oklahoma
+Minnesota
+Iowa
+Missouri
+Arkansas
+Louisiana
+Mississippi
+Tennessee
+Kentucky
+Indiana
+Illinois
+Wisconsin
+Michigan
+Ohio
+Virginia
+Georgia
+Florida
+Alabama
+Maryland
+Delaware
+Pennsylvania
+Vermont
+Maine
+California
+Nevada
+Utah
+Wyoming
+Massachusetts
+Connecticut
+Punjab
+Uttarakhand
+Rajasthan
+Bihar
+Gujarat
+Haryana
+Jharkhand
+Maharashtra
+Chhattisgarh
+Goa
+Karnataka
+Telangana
+Kerala
+Sikkim
+Assam
+Nagaland
+Odisha
+Manipur
+Mizoram
+Tripura
+Meghalaya
+Delhi
+Chandigarh
+Ladakh
+Lakshadweep
+Puducherry
+Aberdeenshire
+Aberdeen
+Moray
+Na h-Eileanan Siar
+Orkney Islands
+Shetland Islands
+Highland
+Angus
+Dundee
+Perth and Kinross
+Stirling
+Argyll and Bute
+Fife
+Scottish Borders
+East Lothian
+Midlothian
+West Lothian
+Edinburgh
+Falkirk
+South Lanarkshire
+North Lanarkshire
+Dumfries and Galloway
+South Ayrshire
+East Ayrshire
+Glasgow
+East Dunbartonshire
+West Dunbartonshire
+East Renfrewshire
+Renfrewshire
+Inverclyde
+North Ayrshire
+Clackmannanshire
+Oltenia
+Muntenia
+Northern Dobruja
+Moldavia
+Bukovina
+Transylvania
+Maramureș
+Crișana
+Banat
+Aukštaitija
+Dzūkija
+Lithuania Minor
+Samogitia
+Suvalkija
+Andalusia
+Madrid
+Galicia
+Castile and León
+Castilla-La Mancha
+Catalonia
+Aragon
+Valencia
+Murcia
+Asturias
+Basque Country
+La Rioja
+Cantabria
+Navarre
+Extremadura
+Canary Islands
+Balearic Islands
+Ceuta
+Melilla
+Corsica
+Nouvelle-Aquitaine
+Occitanie
+Provence-Alpes-Côte d'Azur
+Auvergne-Rhône-Alpes
+Centre-Val de Loire
+Pays de la Loire
+Île-de-France
+Brittany
+Normandy
+Hauts de France
+Grand est
+Bourgogne-Franche-Comté
+Thuringia
+Schleswig-Holstein
+Saxony
+Saxony-Anhalt
+Saarland
+Rhineland-Palatinate
+North Rhine-Westphalia
+Lower Saxony
+Mecklenburg-Vorpommern
+Hesse
+Hamburg
+Bremen
+Brandenburg
+Berlin
+Bavaria
+Baden-Württemberg
+Tucumán
+Tierra del Fuego
+Santiago del Estero
+Santa Fe
+Santa Cruz
+San Luis
+San Juan
+Salta
+Río Negro
+Neuquén
+Misiones
+Mendoza
+La Pampa
+Jujuy
+Formosa
+Entre Rios
+Corrientes
+Córdoba
+Chubut
+Chaco
+Catamarca
+Buenos Aires
+Lower Silesian
+West Pomeranian
+Greater Poland
+Warmian-Masurian
+Holy Cross
+Silesian
+Pomeranian
+Podlaskie
+Subcarpathian
+Opole
+Masovian
+Lesser Poland
+Łódź
+Lubusz
+Lublin
+Kuyavian-Pomeranian
+Western Provinces of Turkey
+Zonguldak
+Yozgat
+Yalova
+Uşak
+Tekirdağ
+Sinop
+Samsun
+Sakarya
+Niğde
+Nevşehir
+Muğla
+Mersin
+Manisa
+Kütahya
+Konya
+Kocaeli
+Kirsehir
+Kırklareli
+Kırıkkale
+Kayseri
+Kastamonu
+Karaman
+Karabük
+İzmir
+İstanbul
+Isparta
+Eskişehir
+Edirne
+Düzce
+Denizli
+Çorum
+Çankırı
+Çanakkale
+Bursa
+Burdur
+Bolu
+Bilecik
+Bartın
+Balıkesir
+Aydın
+Antalya
+Ankara
+Amasya
+Aksaray
+Afyon
+Adana
+Eastern Provinces of Turkey
+Van
+Tunceli
+Trabzon
+Tokat
+Sivas
+Şırnak
+Siirt
+Şanlıurfa
+Rize
+Osmaniye
+Ordu
+Muş
+Mardin
+Malatya
+Kilis
+Kars
+Kahramanmaraş
+Iğdır
+Hatay
+Hakkari
+Gümüşhane
+Giresun
+Gaziantep
+Erzurum
+Erzincan
+Elazığ
+Diyarbakır
+Bitlis
+Bingöl
+Bayburt
+Batman
+Artvin
+Ardahan
+Ağrı
+Adıyaman
+Vestfold og Telemark
+Viken
+Nordland
+Troms og Finnmark
+Trøndelag
+Oslo
+Møre og Romsdal
+Agder
+Innlandet
+Vestland
+Rogaland
+Federative units of Brazil
+Amazonas
+Pará
+Mato Grosso
+Minas Gerais
+Bahia
+Mato Grosso do Sul
+Goiás
+Maranhão
+Rio Grande do Sul
+Tocantins
+Piauí
+São Paulo
+Rondônia
+Roraima
+Paraná
+Acre
+Ceará
+Amapá
+Pernambuco
+Santa Catarina
+Paraíba
+Rio Grande do Norte
+Espírito Santo
+Rio de Janeiro
+Alagoas
+Sergipe
+Distrito Federal
+Provinces and territories of Canada
+Yukon
+British Columbia
+Northwest Territories
+Nunavut
+Alberta
+Saskatchewan
+Manitoba
+Ontario
+Quebec
+Newfoundland and Labrador
+New Brunswick
+Nova Scotia
+Prince Edward Island
+Zacatecas
+Yucatán
+Veracruz
+Tlaxcala
+Tamaulipas
+Tabasco
+Sonora
+Sinaloa
+San Luis Potosí
+Quintana Roo
+Querétaro
+Puebla
+Oaxaca
+Nuevo León
+Nayarit
+Morelos
+Michoacán
+Jalisco
+Hidalgo
+Guerrero
+Guanajuato
+Estado de México
+Durango
+Districto Federal
+Coahuila
+Chiapas
+Chihuahua
+Campeche
+Baja California
+Baja California Sur
+Colima
+Aguascalientes
+Central Asia
+Kazakhstan
+Kyrgyzstan
+Tajikistan
+Turkmenistan
+Uzbekistan
+South Asia
+India
+Sri Lanka
+Pakistan
+Afghanistan
+Nepal
+Bangladesh
+Bhutan
+Maldives
+Southeast Asia
+Singapore
+Indonesia
+Myanmar
+Thailand
+Laos
+Vietnam
+Cambodia
+Malaysia
+Brunei
+East Timor
+Philippines
+East Asia
+Japan
+China
+Mongolia
+North Korea
+South Korea
+Taiwan
+Continents
+Europe
+Asia
+Antarctica
+America
+Africa
+North America
+Mexico
+Greenland
+Canada
+Central America
+Puerto Rico
+Panama
+Nicaragua
+Jamaica
+Honduras
+Haiti
+Guatemala
+El Salvador
+Dominican Republic
+Cuba
+Costa Rica
+Belize
+Bahamas
+South America
+Venezuela
+Uruguay
+Suriname
+Peru
+Paraguay
+Guyana
+French Guiana
+Ecuador
+Colombia
+Chile
+Brazil
+Bolivia
+Argentina
+Western Europe
+United Kingdom
+Switzerland
+Sweden
+Spain
+Portugal
+Norway
+The Netherlands
+Luxembourg
+Italy
+Ireland
+Iceland
+Germany
+France
+Finland
+Denmark
+Belgium
+Austria
+Eastern Europe
+Cyprus
+Greece
+Ukraine
+Turkey
+Slovenia
+Slovak Republic
+Montenegro
+Serbia
+Russia
+Romania
+Poland
+Moldova
+North Macedonia
+Lithuania
+Latvia
+Hungary
+Estonia
+Czechia
+Croatia
+Bulgaria
+Bosnia Herzegovina
+Belarus
+Albania
+Northern Africa
+Western Sahara
+Uganda
+Tunisia
+Togo
+Sudan
+South Sudan
+Somalia
+Sierra Leone
+Senegal
+Rwanda
+Niger
+Nigeria
+Morocco
+Mauritania
+Mali
+Libya
+Liberia
+Kenya
+Ivory Coast
+Guinea
+Guinea Bissau
+Ghana
+Gambia
+Gabon
+Eritrea
+Ethiopia
+Equatorial Guinea
+Egypt
+Djibouti
+Chad
+Central African Republic
+Cameroon
+Burkina Faso
+Benin
+Algeria
+Southern Africa
+Zimbabwe
+Zambia
+Tanzania
+Eswatini
+South Africa
+Republic of the Congo
+Namibia
+Mozambique
+Malawi
+Madagascar
+Lesotho
+Democratic Republic of the Congo
+Burundi
+Botswana
+Angola
+Western Asia
+Asia|Georgia
+Azerbaijan
+Armenia
+Iran
+Iraq
+Syria
+Jordan
+Israel
+Palestine
+Lebanon
+Saudi Arabia
+Kuwait
+Qatar
+United Arab Emirates
+Oman
+Yemen
+Bahrain
+Papua New Guinea

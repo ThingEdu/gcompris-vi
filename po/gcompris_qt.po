@@ -10258,89 +10258,89 @@ msgstr "Chọn 0,4 cái bánh."
 #: activities/fractions_create/resource/5/Data.qml:38
 msgctxt "Data|"
 msgid "Select 0.75 pie."
-msgstr ""
+msgstr "Chọn 0,75 cái bánh."
 
 #: activities/fractions_create/resource/5/Data.qml:44
 msgctxt "Data|"
 msgid "Select 0.8 pie."
-msgstr ""
+msgstr "Chọn 0,8 cái bánh."
 
 #: activities/fractions_create/resource/5/Data.qml:55
 msgctxt "Data|"
 msgid "Select 1.25 pies."
-msgstr ""
+msgstr "Chọn 1,25 cái bánh."
 
 #: activities/fractions_create/resource/5/Data.qml:61
 msgctxt "Data|"
 msgid "Select 1.4 pies."
-msgstr ""
+msgstr "Chọn 1,4 cái bánh."
 
 #: activities/fractions_create/resource/5/Data.qml:67
 #: activities/fractions_create/resource/5/Data.qml:73
 msgctxt "Data|"
 msgid "Select 1.5 pies."
-msgstr ""
+msgstr "Chọn 1,5 cái bánh."
 
 #: activities/fractions_create/resource/5/Data.qml:79
 msgctxt "Data|"
 msgid "Select 1.75 pies."
-msgstr ""
+msgstr "Chọn 1,75 cái bánh."
 
 #: activities/fractions_create/resource/6/Data.qml:9
 msgctxt "Data|"
 msgid "Decimal numbers with a square."
-msgstr ""
+msgstr "Số thập phân với hình vuông."
 
 #: activities/fractions_create/resource/6/Data.qml:20
 msgctxt "Data|"
 msgid "Select 0.5 square."
-msgstr ""
+msgstr "Chọn 0,5 hình vuông."
 
 #: activities/fractions_create/resource/6/Data.qml:26
 msgctxt "Data|"
 msgid "Select 0.25 square."
-msgstr ""
+msgstr "Chọn 0,25 hình vuông."
 
 #: activities/fractions_create/resource/6/Data.qml:32
 msgctxt "Data|"
 msgid "Select 0.4 square."
-msgstr ""
+msgstr "Chọn 0,4 hình vuông."
 
 #: activities/fractions_create/resource/6/Data.qml:38
 msgctxt "Data|"
 msgid "Select 0.75 square."
-msgstr ""
+msgstr "Chọn 0,75 hình vuông."
 
 #: activities/fractions_create/resource/6/Data.qml:44
 msgctxt "Data|"
 msgid "Select 0.8 square."
-msgstr ""
+msgstr "Chọn 0,8 hình vuông."
 
 #: activities/fractions_create/resource/6/Data.qml:55
 msgctxt "Data|"
 msgid "Select 1.25 squares."
-msgstr ""
+msgstr "Chọn 1,25 hình vuông."
 
 #: activities/fractions_create/resource/6/Data.qml:61
 msgctxt "Data|"
 msgid "Select 1.4 squares."
-msgstr ""
+msgstr "Chọn 1,4 hình vuông."
 
 #: activities/fractions_create/resource/6/Data.qml:67
 #: activities/fractions_create/resource/6/Data.qml:73
 msgctxt "Data|"
 msgid "Select 1.5 squares."
-msgstr ""
+msgstr "Chọn 1,5 hình vuông."
 
 #: activities/fractions_create/resource/6/Data.qml:79
 msgctxt "Data|"
 msgid "Select 1.75 squares."
-msgstr ""
+msgstr "Chọn 1,75 hình vuông."
 
 #: activities/fractions_create/resource/7/Data.qml:9
 msgctxt "Data|"
 msgid "Percentages with a pie."
-msgstr ""
+msgstr "Phần trăm với hình cái bánh."
 
 #. Select %1 percent of the pie.
 #: activities/fractions_create/resource/7/Data.qml:21
@@ -10354,12 +10354,12 @@ msgstr ""
 #, qt-format
 msgctxt "Data|"
 msgid "Select %1% of the pie."
-msgstr ""
+msgstr "Chọn %1% cái bánh."
 
 #: activities/fractions_create/resource/8/Data.qml:9
 msgctxt "Data|"
 msgid "Percentages with a square."
-msgstr ""
+msgstr "Phần trăm với hình vuông."
 
 #. Select %1 percent of the square.
 #: activities/fractions_create/resource/8/Data.qml:21
@@ -10371,19 +10371,19 @@ msgstr ""
 #, qt-format
 msgctxt "Data|"
 msgid "Select %1% of the square."
-msgstr ""
+msgstr "Chọn %1% hình vuông."
 
 #: activities/fractions_create/resource/9/Data.qml:9
 msgctxt "Data|"
 msgid "Specific questions with a pie."
-msgstr ""
+msgstr "Câu hỏi riêng với hình cái bánh."
 
 #: activities/fractions_create/resource/9/Data.qml:20
 #: activities/fractions_create/resource/9/Data.qml:26
 msgctxt "Data|"
 msgid ""
 "Select as many parts as you can without taking more than half of the pie."
-msgstr ""
+msgstr "Chọn càng nhiều phần càng tốt, nhưng không được quá một nửa cái bánh."
 
 #. Activity title
 #: activities/fractions_find/ActivityInfo.qml:14
@@ -10419,32 +10419,32 @@ msgstr ""
 #: activities/fractions_find/resource/1/Data.qml:19
 msgctxt "Data|"
 msgid "Find numerator (with a pie)."
-msgstr ""
+msgstr "Tìm tử số (với hình cái bánh)."
 
 #: activities/fractions_find/resource/2/Data.qml:19
 msgctxt "Data|"
 msgid "Find numerator (with a square)."
-msgstr ""
+msgstr "Tìm tử số (với hình vuông)."
 
 #: activities/fractions_find/resource/3/Data.qml:9
 msgctxt "Data|"
 msgid "Find denominator (with a pie)."
-msgstr ""
+msgstr "Tìm mẫu số (với hình cái bánh)."
 
 #: activities/fractions_find/resource/4/Data.qml:9
 msgctxt "Data|"
 msgid "Find denominator (with a square)."
-msgstr ""
+msgstr "Tìm mẫu số (với hình vuông)."
 
 #: activities/fractions_find/resource/5/Data.qml:9
 msgctxt "Data|"
 msgid "Find numerator and denominator (with a pie)."
-msgstr ""
+msgstr "Tìm tử số và mẫu số (với hình cái bánh)."
 
 #: activities/fractions_find/resource/6/Data.qml:9
 msgctxt "Data|"
 msgid "Find numerator and denominator (with a square)."
-msgstr ""
+msgstr "Tìm tử số và mẫu số (với hình vuông)."
 
 #. Activity title
 #: activities/frieze/ActivityInfo.qml:14
@@ -10475,37 +10475,37 @@ msgstr ""
 #: activities/frieze/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Left and right arrows: select a token"
-msgstr ""
+msgstr "Mũi tên trái và phải: chọn một mảnh"
 
 #: activities/frieze/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Space: add selected token to the frieze"
-msgstr ""
+msgstr "Phím cách: thêm mảnh đang chọn vào dải hoa văn"
 
 #: activities/frieze/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Backspace or Delete: remove last token from the frieze"
-msgstr ""
+msgstr "Phím xoá lùi hoặc Delete: bỏ mảnh cuối khỏi dải hoa văn"
 
 #: activities/frieze/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Enter: validate the answer"
-msgstr ""
+msgstr "Enter: xác nhận câu trả lời"
 
 #: activities/frieze/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Tab: switch between editing the frieze and viewing the model"
-msgstr ""
+msgstr "Tab: chuyển qua lại giữa vẽ dải hoa văn và xem hình mẫu"
 
 #: activities/frieze/Frieze.qml:294
 msgctxt "Frieze|"
 msgid "I am Ready"
-msgstr ""
+msgstr "Mình sẵn sàng"
 
 #: activities/frieze/resource/1/Data.qml:28
 msgctxt "Data|"
 msgid "Copy this frieze: 2 shapes with different colors/signs."
-msgstr ""
+msgstr "Chép lại dải hoa văn này: 2 hình khác màu hoặc khác dấu."
 
 #: activities/frieze/resource/1/Data.qml:31
 #: activities/frieze/resource/4/Data.qml:17
@@ -10513,14 +10513,14 @@ msgstr ""
 #: activities/frieze/resource/7/Data.qml:17
 msgctxt "Data|"
 msgid "Copy this frieze."
-msgstr ""
+msgstr "Chép lại dải hoa văn này."
 
 #: activities/frieze/resource/10/Data.qml:14
 msgctxt "Data|"
 msgid ""
 "Remember and copy this frieze: any combination of shapes, colors/signs and "
 "sizes."
-msgstr ""
+msgstr "Nhớ rồi chép lại dải hoa văn này: đủ kiểu hình, màu, dấu và cỡ."
 
 #: activities/frieze/resource/10/Data.qml:17
 #: activities/frieze/resource/12/Data.qml:16
@@ -10528,7 +10528,7 @@ msgstr ""
 #: activities/frieze/resource/3/Data.qml:17
 msgctxt "Data|"
 msgid "Remember and copy this frieze."
-msgstr ""
+msgstr "Nhớ rồi chép lại dải hoa văn này."
 
 #: activities/frieze/resource/11/Data.qml:13
 msgctxt "Data|"
@@ -10536,6 +10536,8 @@ msgid ""
 "Copy and complete this frieze: patterns between 4 and 7, any combination of "
 "shapes, colors/signs and sizes."
 msgstr ""
+"Chép và vẽ nốt dải hoa văn này: quy luật dài 4 tới 7, đủ kiểu hình, màu, dấu"
+" và cỡ."
 
 #: activities/frieze/resource/11/Data.qml:16
 #: activities/frieze/resource/13/Data.qml:16
@@ -10545,7 +10547,7 @@ msgstr ""
 #: activities/frieze/resource/9/Data.qml:17
 msgctxt "Data|"
 msgid "Copy and complete this frieze."
-msgstr ""
+msgstr "Chép và vẽ nốt dải hoa văn này."
 
 #: activities/frieze/resource/12/Data.qml:13
 msgctxt "Data|"
@@ -10553,6 +10555,8 @@ msgid ""
 "Remember and copy this frieze: patterns between 4 and 7, any combination of "
 "shapes, colors/signs and sizes."
 msgstr ""
+"Nhớ rồi chép lại dải hoa văn này: quy luật dài 4 tới 7, đủ kiểu hình, màu, "
+"dấu và cỡ."
 
 #: activities/frieze/resource/13/Data.qml:13
 msgctxt "Data|"
@@ -10560,6 +10564,8 @@ msgid ""
 "Copy and complete this frieze: patterns between 6 and 8, any combination of "
 "shapes, colors/signs and sizes."
 msgstr ""
+"Chép và vẽ nốt dải hoa văn này: quy luật dài 6 tới 8, đủ kiểu hình, màu, dấu"
+" và cỡ."
 
 #: activities/frieze/resource/14/Data.qml:13
 msgctxt "Data|"
@@ -10567,21 +10573,23 @@ msgid ""
 "Remember and copy this frieze: patterns between 6 and 8, any combination of "
 "shapes, colors/signs and sizes."
 msgstr ""
+"Nhớ rồi chép lại dải hoa văn này: quy luật dài 6 tới 8, đủ kiểu hình, màu, "
+"dấu và cỡ."
 
 #: activities/frieze/resource/2/Data.qml:14
 msgctxt "Data|"
 msgid "Copy and complete this frieze: 2 shapes with different colors/signs."
-msgstr ""
+msgstr "Chép và vẽ nốt dải hoa văn này: 2 hình khác màu hoặc khác dấu."
 
 #: activities/frieze/resource/3/Data.qml:14
 msgctxt "Data|"
 msgid "Remember and copy this frieze: 2 shapes with different colors/signs."
-msgstr ""
+msgstr "Nhớ rồi chép lại dải hoa văn này: 2 hình khác màu hoặc khác dấu."
 
 #: activities/frieze/resource/4/Data.qml:14
 msgctxt "Data|"
 msgid "Copy this frieze: 3 or 4 shapes with different colors/signs."
-msgstr ""
+msgstr "Chép lại dải hoa văn này: 3 hoặc 4 hình khác màu hoặc khác dấu."
 
 #: activities/frieze/resource/5/Data.qml:14
 msgctxt "Data|"
@@ -10589,6 +10597,8 @@ msgid ""
 "Copy this frieze: 3 or 4 shapes with 2 sizes and potentially same "
 "colors/signs."
 msgstr ""
+"Chép lại dải hoa văn này: 3 hoặc 4 hình với 2 cỡ, có thể trùng màu hoặc "
+"trùng dấu."
 
 #: activities/frieze/resource/6/Data.qml:14
 msgctxt "Data|"
@@ -10596,6 +10606,8 @@ msgid ""
 "Copy and complete this frieze: 3 or 4 shapes with 2 sizes and potentially "
 "same colors/signs."
 msgstr ""
+"Chép và vẽ nốt dải hoa văn này: 3 hoặc 4 hình với 2 cỡ, có thể trùng màu "
+"hoặc trùng dấu."
 
 #: activities/frieze/resource/7/Data.qml:14
 msgctxt "Data|"
@@ -10603,6 +10615,8 @@ msgid ""
 "Copy this frieze: patterns between 12 and 15, any combination of shapes, "
 "colors/signs and sizes."
 msgstr ""
+"Chép lại dải hoa văn này: quy luật dài 12 tới 15, đủ kiểu hình, màu, dấu và "
+"cỡ."
 
 #: activities/frieze/resource/8/Data.qml:14
 msgctxt "Data|"
@@ -10610,6 +10624,8 @@ msgid ""
 "Copy and complete this frieze: patterns between 10 and 12, any combination "
 "of shapes, colors/signs and sizes."
 msgstr ""
+"Chép và vẽ nốt dải hoa văn này: quy luật dài 10 tới 12, đủ kiểu hình, màu, "
+"dấu và cỡ."
 
 #: activities/frieze/resource/9/Data.qml:14
 msgctxt "Data|"
@@ -10617,6 +10633,8 @@ msgid ""
 "Copy and complete this frieze: patterns between 16 and 20, any combination "
 "of shapes, colors/signs and sizes."
 msgstr ""
+"Chép và vẽ nốt dải hoa văn này: quy luật dài 16 tới 20, đủ kiểu hình, màu, "
+"dấu và cỡ."
 
 #. Activity title
 #: activities/geo-country/ActivityInfo.qml:19
@@ -10646,27 +10664,27 @@ msgstr ""
 #: activities/geo-country/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "Countries of America."
-msgstr ""
+msgstr "Các nước châu Mỹ."
 
 #: activities/geo-country/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "Countries of Asia."
-msgstr ""
+msgstr "Các nước châu Á."
 
 #: activities/geo-country/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "Countries of Oceania."
-msgstr ""
+msgstr "Các nước châu Đại Dương."
 
 #: activities/geo-country/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "Countries of Europe."
-msgstr ""
+msgstr "Các nước châu Âu."
 
 #: activities/geo-country/resource/board/board10_0.qml:15
 msgctxt "board10_0|"
 msgid "United States of America"
-msgstr ""
+msgstr "Hoa Kỳ"
 
 #. State of America: Washington
 #: activities/geo-country/resource/board/board10_0.qml:24
@@ -10738,13 +10756,13 @@ msgstr ""
 #: activities/geo-country/resource/board/board10_0.qml:101
 msgctxt "board10_0|"
 msgid "Alaska"
-msgstr ""
+msgstr "Alaska"
 
 #. State of America: Hawaii
 #: activities/geo-country/resource/board/board10_0.qml:108
 msgctxt "board10_0|"
 msgid "Hawaii"
-msgstr ""
+msgstr "Hawaii"
 
 #. State of America: Texas
 #: activities/geo-country/resource/board/board10_0.qml:115
@@ -10971,132 +10989,132 @@ msgstr ""
 #: activities/geo-country/resource/board/board11_0.qml:15
 msgctxt "board11_0|"
 msgid "Regions of Italy"
-msgstr ""
+msgstr "Các vùng của nước Ý"
 
 #. Region of Italy: Liguria
 #: activities/geo-country/resource/board/board11_0.qml:24
 msgctxt "board11_0|"
 msgid "Liguria"
-msgstr ""
+msgstr "Liguria"
 
 #. Region of Italy: Piedmont
 #: activities/geo-country/resource/board/board11_0.qml:31
 msgctxt "board11_0|"
 msgid "Piedmont"
-msgstr ""
+msgstr "Piemonte"
 
 #. Region of Italy: Aosta Valley
 #: activities/geo-country/resource/board/board11_0.qml:38
 msgctxt "board11_0|"
 msgid "Aosta Valley"
-msgstr ""
+msgstr "Valle d'Aosta"
 
 #. Region of Italy: Lombardy
 #: activities/geo-country/resource/board/board11_0.qml:45
 msgctxt "board11_0|"
 msgid "Lombardy"
-msgstr ""
+msgstr "Lombardia"
 
 #. Region of Italy: Trentino-South Tyrol
 #: activities/geo-country/resource/board/board11_0.qml:52
 msgctxt "board11_0|"
 msgid "Trentino-South Tyrol"
-msgstr ""
+msgstr "Trentino-Alto Adige"
 
 #. Region of Italy: Veneto
 #: activities/geo-country/resource/board/board11_0.qml:59
 msgctxt "board11_0|"
 msgid "Veneto"
-msgstr ""
+msgstr "Veneto"
 
 #. Region of Italy: Friuli Venezia Giulia
 #: activities/geo-country/resource/board/board11_0.qml:66
 msgctxt "board11_0|"
 msgid "Friuli Venezia Giulia"
-msgstr ""
+msgstr "Friuli-Venezia Giulia"
 
 #. Region of Italy: Emilia-Romagna
 #: activities/geo-country/resource/board/board11_0.qml:73
 msgctxt "board11_0|"
 msgid "Emilia-Romagna"
-msgstr ""
+msgstr "Emilia-Romagna"
 
 #. Region of Italy: Tuscany
 #: activities/geo-country/resource/board/board11_0.qml:80
 msgctxt "board11_0|"
 msgid "Tuscany"
-msgstr ""
+msgstr "Toscana"
 
 #. Region of Italy: Umbria
 #: activities/geo-country/resource/board/board11_0.qml:87
 msgctxt "board11_0|"
 msgid "Umbria"
-msgstr ""
+msgstr "Umbria"
 
 #. Region of Italy: Marche
 #: activities/geo-country/resource/board/board11_0.qml:94
 msgctxt "board11_0|"
 msgid "Marche"
-msgstr ""
+msgstr "Marche"
 
 #. Region of Italy: Lazio
 #: activities/geo-country/resource/board/board11_0.qml:101
 msgctxt "board11_0|"
 msgid "Lazio"
-msgstr ""
+msgstr "Lazio"
 
 #. Region of Italy: Abruzzo
 #: activities/geo-country/resource/board/board11_0.qml:108
 msgctxt "board11_0|"
 msgid "Abruzzo"
-msgstr ""
+msgstr "Abruzzo"
 
 #. Region of Italy: Molise
 #: activities/geo-country/resource/board/board11_0.qml:115
 msgctxt "board11_0|"
 msgid "Molise"
-msgstr ""
+msgstr "Molise"
 
 #. Region of Italy: Campania
 #: activities/geo-country/resource/board/board11_0.qml:122
 msgctxt "board11_0|"
 msgid "Campania"
-msgstr ""
+msgstr "Campania"
 
 #. Region of Italy: Apulia
 #: activities/geo-country/resource/board/board11_0.qml:129
 msgctxt "board11_0|"
 msgid "Apulia"
-msgstr ""
+msgstr "Puglia"
 
 #. Region of Italy: Basilicata
 #: activities/geo-country/resource/board/board11_0.qml:136
 msgctxt "board11_0|"
 msgid "Basilicata"
-msgstr ""
+msgstr "Basilicata"
 
 #. Region of Italy: Calabria
 #: activities/geo-country/resource/board/board11_0.qml:143
 msgctxt "board11_0|"
 msgid "Calabria"
-msgstr ""
+msgstr "Calabria"
 
 #. Region of Italy: Sicily
 #: activities/geo-country/resource/board/board11_0.qml:150
 msgctxt "board11_0|"
 msgid "Sicily"
-msgstr ""
+msgstr "Sicilia"
 
 #. Region of Italy: Sardinia
 #: activities/geo-country/resource/board/board11_0.qml:157
 msgctxt "board11_0|"
 msgid "Sardinia"
-msgstr ""
+msgstr "Sardegna"
 
 #: activities/geo-country/resource/board/board12_0.qml:15
 msgctxt "board12_0|"
 msgid "States and Union Territories of India"
-msgstr ""
+msgstr "Các bang và lãnh thổ liên bang của Ấn Độ"
 
 #. State of India: Himachal Pradesh
 #: activities/geo-country/resource/board/board12_0.qml:24
@@ -11270,7 +11288,7 @@ msgstr ""
 #: activities/geo-country/resource/board/board12_0.qml:221
 msgctxt "board12_0|"
 msgid "Andaman and Nicobar Islands"
-msgstr ""
+msgstr "Quần đảo Andaman và Nicobar"
 
 #. Union Territory of India: Delhi
 #: activities/geo-country/resource/board/board12_0.qml:228
@@ -11288,7 +11306,7 @@ msgstr ""
 #: activities/geo-country/resource/board/board12_0.qml:243
 msgctxt "board12_0|"
 msgid "Dadra and Nagar Haveli and Daman and Diu"
-msgstr ""
+msgstr "Dadra và Nagar Haveli và Daman và Diu"
 
 #. Union Territory of India: Ladakh
 #: activities/geo-country/resource/board/board12_0.qml:251
@@ -11306,7 +11324,7 @@ msgstr ""
 #: activities/geo-country/resource/board/board12_0.qml:265
 msgctxt "board12_0|"
 msgid "Jammu and Kashmir"
-msgstr ""
+msgstr "Jammu và Kashmir"
 
 #. Union Territory of India: Puducherry
 #: activities/geo-country/resource/board/board12_0.qml:272
@@ -11317,31 +11335,31 @@ msgstr ""
 #: activities/geo-country/resource/board/board13_0.qml:15
 msgctxt "board13_0|"
 msgid "States and Territories of Australia"
-msgstr ""
+msgstr "Các bang và lãnh thổ của Úc"
 
 #. State of Australia: Western Australia
 #: activities/geo-country/resource/board/board13_0.qml:24
 msgctxt "board13_0|"
 msgid "Western Australia"
-msgstr ""
+msgstr "Tây Úc"
 
 #. Territory of Australia: Northern Territory
 #: activities/geo-country/resource/board/board13_0.qml:31
 msgctxt "board13_0|"
 msgid "Northern Territory"
-msgstr ""
+msgstr "Lãnh thổ Bắc Úc"
 
 #. State of Australia: South Australia
 #: activities/geo-country/resource/board/board13_0.qml:38
 msgctxt "board13_0|"
 msgid "South Australia"
-msgstr ""
+msgstr "Nam Úc"
 
 #. State of Australia: Queensland
 #: activities/geo-country/resource/board/board13_0.qml:45
 msgctxt "board13_0|"
 msgid "Queensland"
-msgstr ""
+msgstr "Queensland"
 
 #. State of Australia: New South Wales
 #: activities/geo-country/resource/board/board13_0.qml:52
@@ -11353,215 +11371,215 @@ msgstr ""
 #: activities/geo-country/resource/board/board13_0.qml:59
 msgctxt "board13_0|"
 msgid "Victoria"
-msgstr ""
+msgstr "Victoria"
 
 #. State of Australia: Tasmania
 #: activities/geo-country/resource/board/board13_0.qml:66
 msgctxt "board13_0|"
 msgid "Tasmania"
-msgstr ""
+msgstr "Tasmania"
 
 #. Territory of Australia: Australian Capital Territory
 #: activities/geo-country/resource/board/board13_0.qml:73
 msgctxt "board13_0|"
 msgid "Australian Capital Territory"
-msgstr ""
+msgstr "Lãnh thổ Thủ đô Úc"
 
 #: activities/geo-country/resource/board/board14_0.qml:15
 msgctxt "board14_0|"
 msgid "Provinces of China"
-msgstr ""
+msgstr "Các tỉnh của Trung Quốc"
 
 #. Province of China: Xinjiang
 #: activities/geo-country/resource/board/board14_0.qml:24
 msgctxt "board14_0|"
 msgid "Xinjiang"
-msgstr ""
+msgstr "Tân Cương"
 
 #. Province of China: Gansu
 #: activities/geo-country/resource/board/board14_0.qml:31
 msgctxt "board14_0|"
 msgid "Gansu"
-msgstr ""
+msgstr "Cam Túc"
 
 #. Province of China: Inner Mongolia
 #: activities/geo-country/resource/board/board14_0.qml:38
 msgctxt "board14_0|"
 msgid "Inner Mongolia"
-msgstr ""
+msgstr "Nội Mông"
 
 #. Province of China: Ningxia
 #: activities/geo-country/resource/board/board14_0.qml:45
 msgctxt "board14_0|"
 msgid "Ningxia"
-msgstr ""
+msgstr "Ninh Hạ"
 
 #. Province of China: Heilongjiang
 #: activities/geo-country/resource/board/board14_0.qml:52
 msgctxt "board14_0|"
 msgid "Heilongjiang"
-msgstr ""
+msgstr "Hắc Long Giang"
 
 #. Province of China: Jilin
 #: activities/geo-country/resource/board/board14_0.qml:59
 msgctxt "board14_0|"
 msgid "Jilin"
-msgstr ""
+msgstr "Cát Lâm"
 
 #. Province of China: Liaoning
 #: activities/geo-country/resource/board/board14_0.qml:66
 msgctxt "board14_0|"
 msgid "Liaoning"
-msgstr ""
+msgstr "Liêu Ninh"
 
 #. Province of China: Tianjin
 #: activities/geo-country/resource/board/board14_0.qml:73
 msgctxt "board14_0|"
 msgid "Tianjin"
-msgstr ""
+msgstr "Thiên Tân"
 
 #. Province of China: Beijing
 #: activities/geo-country/resource/board/board14_0.qml:80
 msgctxt "board14_0|"
 msgid "Beijing"
-msgstr ""
+msgstr "Bắc Kinh"
 
 #. Province of China: Shandong
 #: activities/geo-country/resource/board/board14_0.qml:87
 msgctxt "board14_0|"
 msgid "Shandong"
-msgstr ""
+msgstr "Sơn Đông"
 
 #. Province of China: Shanxi
 #: activities/geo-country/resource/board/board14_0.qml:94
 msgctxt "board14_0|"
 msgid "Shanxi"
-msgstr ""
+msgstr "Sơn Tây"
 
 #. Province of China: Shaanxi
 #: activities/geo-country/resource/board/board14_0.qml:101
 msgctxt "board14_0|"
 msgid "Shaanxi"
-msgstr ""
+msgstr "Thiểm Tây"
 
 #. Province of China: Qinghai
 #: activities/geo-country/resource/board/board14_0.qml:108
 msgctxt "board14_0|"
 msgid "Qinghai"
-msgstr ""
+msgstr "Thanh Hải"
 
 #. Province of China: Tibet
 #: activities/geo-country/resource/board/board14_0.qml:115
 msgctxt "board14_0|"
 msgid "Tibet"
-msgstr ""
+msgstr "Tây Tạng"
 
 #. Province of China: Sichuan
 #: activities/geo-country/resource/board/board14_0.qml:122
 msgctxt "board14_0|"
 msgid "Sichuan"
-msgstr ""
+msgstr "Tứ Xuyên"
 
 #. Province of China: Chongqing
 #: activities/geo-country/resource/board/board14_0.qml:129
 msgctxt "board14_0|"
 msgid "Chongqing"
-msgstr ""
+msgstr "Trùng Khánh"
 
 #. Province of China: Henan
 #: activities/geo-country/resource/board/board14_0.qml:136
 msgctxt "board14_0|"
 msgid "Henan"
-msgstr ""
+msgstr "Hà Nam"
 
 #. Province of China: Jiangsu
 #: activities/geo-country/resource/board/board14_0.qml:143
 msgctxt "board14_0|"
 msgid "Jiangsu"
-msgstr ""
+msgstr "Giang Tô"
 
 #. Province of China: Anhui
 #: activities/geo-country/resource/board/board14_0.qml:150
 msgctxt "board14_0|"
 msgid "Anhui"
-msgstr ""
+msgstr "An Huy"
 
 #. Province of China: Hubei
 #: activities/geo-country/resource/board/board14_0.qml:157
 msgctxt "board14_0|"
 msgid "Hubei"
-msgstr ""
+msgstr "Hồ Bắc"
 
 #. Province of China: Shanghai
 #: activities/geo-country/resource/board/board14_0.qml:164
 msgctxt "board14_0|"
 msgid "Shanghai"
-msgstr ""
+msgstr "Thượng Hải"
 
 #. Province of China: Zhejiang
 #: activities/geo-country/resource/board/board14_0.qml:171
 msgctxt "board14_0|"
 msgid "Zhejiang"
-msgstr ""
+msgstr "Chiết Giang"
 
 #. Province of China: Fujian
 #: activities/geo-country/resource/board/board14_0.qml:178
 msgctxt "board14_0|"
 msgid "Fujian"
-msgstr ""
+msgstr "Phúc Kiến"
 
 #. Province of China: Jiangxi
 #: activities/geo-country/resource/board/board14_0.qml:185
 msgctxt "board14_0|"
 msgid "Jiangxi"
-msgstr ""
+msgstr "Giang Tây"
 
 #. Province of China: Hunan
 #: activities/geo-country/resource/board/board14_0.qml:192
 msgctxt "board14_0|"
 msgid "Hunan"
-msgstr ""
+msgstr "Hồ Nam"
 
 #. Province of China: Guizhou
 #: activities/geo-country/resource/board/board14_0.qml:199
 msgctxt "board14_0|"
 msgid "Guizhou"
-msgstr ""
+msgstr "Quý Châu"
 
 #. Province of China: Yunnan
 #: activities/geo-country/resource/board/board14_0.qml:206
 msgctxt "board14_0|"
 msgid "Yunnan"
-msgstr ""
+msgstr "Vân Nam"
 
 #. Province of China: Guangxi
 #: activities/geo-country/resource/board/board14_0.qml:213
 msgctxt "board14_0|"
 msgid "Guangxi"
-msgstr ""
+msgstr "Quảng Tây"
 
 #. Province of China: Guangdong
 #: activities/geo-country/resource/board/board14_0.qml:220
 msgctxt "board14_0|"
 msgid "Guangdong"
-msgstr ""
+msgstr "Quảng Đông"
 
 #. Province of China: Hainan
 #: activities/geo-country/resource/board/board14_0.qml:227
 msgctxt "board14_0|"
 msgid "Hainan"
-msgstr ""
+msgstr "Hải Nam"
 
 #. Province of China: Hebei
 #: activities/geo-country/resource/board/board14_0.qml:234
 msgctxt "board14_0|"
 msgid "Hebei"
-msgstr ""
+msgstr "Hà Bắc"
 
 #: activities/geo-country/resource/board/board15_0.qml:16
 msgctxt "board15_0|"
 msgid "Council areas of Scotland (North)"
-msgstr ""
+msgstr "Các vùng hành chính Scotland (miền Bắc)"
 
 #. Council area of Scotland: Aberdeenshire
 #: activities/geo-country/resource/board/board15_0.qml:25
@@ -11608,7 +11626,7 @@ msgstr ""
 #: activities/geo-country/resource/board/board15_1.qml:15
 msgctxt "board15_1|"
 msgid "Council areas of Scotland (South)"
-msgstr ""
+msgstr "Các vùng hành chính Scotland (miền Nam)"
 
 #. Council area of Scotland: Angus
 #: activities/geo-country/resource/board/board15_1.qml:24
@@ -11763,7 +11781,7 @@ msgstr ""
 #: activities/geo-country/resource/board/board16_0.qml:15
 msgctxt "board16_0|"
 msgid "Historical regions of Romania"
-msgstr ""
+msgstr "Các vùng lịch sử của Romania"
 
 #. Historical Region of Romania: Oltenia
 #: activities/geo-country/resource/board/board16_0.qml:24
@@ -11822,7 +11840,7 @@ msgstr ""
 #: activities/geo-country/resource/board/board17_0.qml:15
 msgctxt "board17_0|"
 msgid "Cultural regions of Lithuania"
-msgstr ""
+msgstr "Các vùng văn hoá của Litva"
 
 #. Cultural region of Lithuania: Aukštaitija
 #: activities/geo-country/resource/board/board17_0.qml:24
@@ -11857,7 +11875,7 @@ msgstr ""
 #: activities/geo-country/resource/board/board18_0.qml:13
 msgctxt "board18_0|"
 msgid "Autonomous communities or cities of Spain"
-msgstr ""
+msgstr "Các cộng đồng và thành phố tự trị của Tây Ban Nha"
 
 #. Autonomous communities of Spain: Andalusia
 #: activities/geo-country/resource/board/board18_0.qml:22
@@ -11976,7 +11994,7 @@ msgstr ""
 #: activities/geo-country/resource/board/board1_0.qml:15
 msgctxt "board1_0|"
 msgid "Regions of France"
-msgstr ""
+msgstr "Các vùng của nước Pháp"
 
 #. Region of France: Corsica
 #: activities/geo-country/resource/board/board1_0.qml:27
@@ -12059,7 +12077,7 @@ msgstr ""
 #: activities/geo-country/resource/board/board2_0.qml:15
 msgctxt "board2_0|"
 msgid "States of Germany"
-msgstr ""
+msgstr "Các bang của nước Đức"
 
 #. State of Germany: Thuringia
 #: activities/geo-country/resource/board/board2_0.qml:24
@@ -12160,7 +12178,7 @@ msgstr ""
 #: activities/geo-country/resource/board/board3_0.qml:15
 msgctxt "board3_0|"
 msgid "Provinces of Argentina"
-msgstr ""
+msgstr "Các tỉnh của Argentina"
 
 #. Province of Argentina: Tucumán
 #: activities/geo-country/resource/board/board3_0.qml:24
@@ -12303,7 +12321,7 @@ msgstr ""
 #: activities/geo-country/resource/board/board4_0.qml:15
 msgctxt "board4_0|"
 msgid "Provinces of Poland"
-msgstr ""
+msgstr "Các tỉnh của Ba Lan"
 
 #. Province of Poland: Lower Silesian
 #: activities/geo-country/resource/board/board4_0.qml:24
@@ -12900,7 +12918,7 @@ msgstr ""
 #: activities/geo-country/resource/board/board6_0.qml:17
 msgctxt "board6_0|"
 msgid "Counties of Norway"
-msgstr ""
+msgstr "Các hạt của Na Uy"
 
 #. County of Norway: Vestfold og Telemark
 #: activities/geo-country/resource/board/board6_0.qml:26
@@ -13221,7 +13239,7 @@ msgstr ""
 #: activities/geo-country/resource/board/board9_0.qml:15
 msgctxt "board9_0|"
 msgid "States of Mexico"
-msgstr ""
+msgstr "Các bang của Mexico"
 
 #. State of Mexico: Zacatecas
 #: activities/geo-country/resource/board/board9_0.qml:24
@@ -13617,17 +13635,17 @@ msgstr ""
 #: activities/geography/resource/board/board14_0.qml:15
 msgctxt "board14_0|"
 msgid "Oceania"
-msgstr ""
+msgstr "Châu Đại Dương"
 
 #: activities/geography/resource/board/board14_0.qml:24
 msgctxt "board14_0|"
 msgid "Pitcairn Islands"
-msgstr ""
+msgstr "Quần đảo Pitcairn"
 
 #: activities/geography/resource/board/board14_0.qml:31
 msgctxt "board14_0|"
 msgid "French Polynesia"
-msgstr ""
+msgstr "Polynesia thuộc Pháp"
 
 #: activities/geography/resource/board/board14_0.qml:38
 msgctxt "board14_0|"
@@ -13637,97 +13655,97 @@ msgstr ""
 #: activities/geography/resource/board/board14_0.qml:45
 msgctxt "board14_0|"
 msgid "Palau"
-msgstr ""
+msgstr "Palau"
 
 #: activities/geography/resource/board/board14_0.qml:52
 msgctxt "board14_0|"
 msgid "Mariana Islands"
-msgstr ""
+msgstr "Quần đảo Mariana"
 
 #: activities/geography/resource/board/board14_0.qml:59
 msgctxt "board14_0|"
 msgid "Micronesia"
-msgstr ""
+msgstr "Micronesia"
 
 #: activities/geography/resource/board/board14_0.qml:66
 msgctxt "board14_0|"
 msgid "Nauru"
-msgstr ""
+msgstr "Nauru"
 
 #: activities/geography/resource/board/board14_0.qml:74
 msgctxt "board14_0|"
 msgid "Vanuatu"
-msgstr ""
+msgstr "Vanuatu"
 
 #: activities/geography/resource/board/board14_0.qml:81
 msgctxt "board14_0|"
 msgid "Tuvalu"
-msgstr ""
+msgstr "Tuvalu"
 
 #: activities/geography/resource/board/board14_0.qml:88
 msgctxt "board14_0|"
 msgid "Tonga"
-msgstr ""
+msgstr "Tonga"
 
 #: activities/geography/resource/board/board14_0.qml:95
 msgctxt "board14_0|"
 msgid "New Caledonia"
-msgstr ""
+msgstr "Nouvelle-Calédonie"
 
 #: activities/geography/resource/board/board14_0.qml:102
 msgctxt "board14_0|"
 msgid "Marshall Islands"
-msgstr ""
+msgstr "Quần đảo Marshall"
 
 #: activities/geography/resource/board/board14_0.qml:109
 msgctxt "board14_0|"
 msgid "Kiribati"
-msgstr ""
+msgstr "Kiribati"
 
 #: activities/geography/resource/board/board14_0.qml:116
 msgctxt "board14_0|"
 msgid "Fiji"
-msgstr ""
+msgstr "Fiji"
 
 #: activities/geography/resource/board/board14_0.qml:123
 msgctxt "board14_0|"
 msgid "Solomon Islands"
-msgstr ""
+msgstr "Quần đảo Solomon"
 
 #: activities/geography/resource/board/board14_0.qml:130
 msgctxt "board14_0|"
 msgid "New Zealand"
-msgstr ""
+msgstr "New Zealand"
 
 #: activities/geography/resource/board/board14_0.qml:137
 msgctxt "board14_0|"
 msgid "Cook Islands"
-msgstr ""
+msgstr "Quần đảo Cook"
 
 #: activities/geography/resource/board/board14_0.qml:144
 msgctxt "board14_0|"
 msgid "Samoan Islands"
-msgstr ""
+msgstr "Quần đảo Samoa"
 
 #: activities/geography/resource/board/board14_0.qml:151
 msgctxt "board14_0|"
 msgid "Australia"
-msgstr ""
+msgstr "Úc"
 
 #: activities/geography/resource/board/board14_0.qml:158
 msgctxt "board14_0|"
 msgid "United States Minor Outlying Islands"
-msgstr ""
+msgstr "Các tiểu đảo xa của Hoa Kỳ"
 
 #: activities/geography/resource/board/board14_0.qml:165
 msgctxt "board14_0|"
 msgid "Hawaii"
-msgstr ""
+msgstr "Hawaii"
 
 #: activities/geography/resource/board/board14_0.qml:172
 msgctxt "board14_0|"
 msgid "Wallis and Futuna"
-msgstr ""
+msgstr "Wallis và Futuna"
 
 #: activities/geography/resource/board/board1_0.qml:15
 msgctxt "board1_0|"
@@ -13737,7 +13755,7 @@ msgstr ""
 #: activities/geography/resource/board/board1_0.qml:24
 msgctxt "board1_0|"
 msgid "Oceania"
-msgstr ""
+msgstr "Châu Đại Dương"
 
 #: activities/geography/resource/board/board1_0.qml:31
 msgctxt "board1_0|"
@@ -13772,7 +13790,7 @@ msgstr ""
 #: activities/geography/resource/board/board2_0.qml:24
 msgctxt "board2_0|"
 msgid "United States of America"
-msgstr ""
+msgstr "Hoa Kỳ"
 
 #: activities/geography/resource/board/board2_0.qml:31
 msgctxt "board2_0|"
@@ -14544,7 +14562,7 @@ msgstr ""
 #: activities/wordsgame/ActivityConfig.qml:44
 msgctxt "ActivityConfig|"
 msgid "Uppercase only mode"
-msgstr ""
+msgstr "Chỉ dùng chữ hoa"
 
 #. Activity title
 #: activities/gletters/ActivityInfo.qml:15
@@ -14616,7 +14634,7 @@ msgstr ""
 #: activities/gnumch-primes/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Take care to avoid the Troggles."
-msgstr ""
+msgstr "Cẩn thận, tránh đám Troggle nhé."
 
 #: activities/gnumch-equality/ActivityInfo.qml:30
 #: activities/gnumch-factors/ActivityInfo.qml:30
@@ -14625,72 +14643,72 @@ msgstr ""
 #: activities/gnumch-primes/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
 msgid "Space: swallow the numbers"
-msgstr ""
+msgstr "Phím cách: nuốt con số"
 
 #: activities/gnumch-equality/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "Practice addition equality."
-msgstr ""
+msgstr "Luyện đẳng thức phép cộng."
 
 #: activities/gnumch-equality/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "Practice subtraction equality."
-msgstr ""
+msgstr "Luyện đẳng thức phép trừ."
 
 #: activities/gnumch-equality/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "Practice multiplication equality."
-msgstr ""
+msgstr "Luyện đẳng thức phép nhân."
 
 #: activities/gnumch-equality/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "Practice division equality."
-msgstr ""
+msgstr "Luyện đẳng thức phép chia."
 
 #: activities/gnumch-equality/TopPanel.qml:51
 #, qt-format
 msgctxt "TopPanel|"
 msgid "Equal to %1"
-msgstr ""
+msgstr "Bằng %1"
 
 #: activities/gnumch-equality/TopPanel.qml:53
 #, qt-format
 msgctxt "TopPanel|"
 msgid "Not equal to %1"
-msgstr ""
+msgstr "Khác %1"
 
 #: activities/gnumch-equality/TopPanel.qml:55
 #, qt-format
 msgctxt "TopPanel|"
 msgid "Factor of %1"
-msgstr ""
+msgstr "Ước của %1"
 
 #: activities/gnumch-equality/TopPanel.qml:57
 #, qt-format
 msgctxt "TopPanel|"
 msgid "Multiple of %1"
-msgstr ""
+msgstr "Bội của %1"
 
 #: activities/gnumch-equality/TopPanel.qml:59
 #, qt-format
 msgctxt "TopPanel|"
 msgid "Primes less than %1"
-msgstr ""
+msgstr "Số nguyên tố nhỏ hơn %1"
 
 #: activities/gnumch-equality/Warning.qml:29
 msgctxt "Warning|"
 msgid "You were eaten by a Troggle."
-msgstr ""
+msgstr "Con bị Troggle ăn mất rồi."
 
 #: activities/gnumch-equality/Warning.qml:33
 msgctxt "Warning|"
 msgid "You ate a wrong number."
-msgstr ""
+msgstr "Con ăn nhầm số rồi."
 
 #: activities/gnumch-equality/Warning.qml:48
 msgctxt "Warning|"
 msgid "1 is not a prime number."
-msgstr ""
+msgstr "1 không phải là số nguyên tố."
 
 #. the first argument corresponds to a number and the second argument
 #. corresponds to its divisors formatted as an unordered html format
@@ -14699,7 +14717,7 @@ msgstr ""
 #, qt-format
 msgctxt "Warning|"
 msgid "%1 is a non-prime number, its divisors are: %2"
-msgstr ""
+msgstr "%1 không phải số nguyên tố, các ước của nó là: %2"
 
 #. %1 is the number to find, %2 and %3 are two multiples of the number, %4 is
 #. a wrong number and %5 is the number to find.
@@ -14707,7 +14725,7 @@ msgstr ""
 #, qt-format
 msgctxt "Warning|"
 msgid "Multiples of %1 include %2 or %3 but %4 is not a multiple of %5."
-msgstr ""
+msgstr "Bội của %1 gồm %2 hay %3, còn %4 không phải bội của %5."
 
 #. the first argument corresponds to a number and the second argument
 #. corresponds to its divisors formatted as an unordered html format
@@ -14716,17 +14734,17 @@ msgstr ""
 #, qt-format
 msgctxt "Warning|"
 msgid "Divisors of %1 are: %2"
-msgstr ""
+msgstr "Các ước của %1 là: %2"
 
 #: activities/gnumch-equality/Warning.qml:101
 msgctxt "Warning|"
 msgid "Press \"Return\" or click on me to continue."
-msgstr ""
+msgstr "Bấm phím Enter hoặc bấm vào mình để chơi tiếp."
 
 #: activities/gnumch-equality/WarnMonster.qml:39
 msgctxt "WarnMonster|"
 msgid "Be careful, a troggle!"
-msgstr ""
+msgstr "Cẩn thận, có Troggle kìa!"
 
 #. Activity title
 #: activities/gnumch-factors/ActivityInfo.qml:15
@@ -14787,22 +14805,22 @@ msgstr "Luyện cộng, trừ, nhân và chia."
 #: activities/gnumch-inequality/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "Practice addition inequality."
-msgstr ""
+msgstr "Luyện bất đẳng thức phép cộng."
 
 #: activities/gnumch-inequality/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "Practice subtraction inequality."
-msgstr ""
+msgstr "Luyện bất đẳng thức phép trừ."
 
 #: activities/gnumch-inequality/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "Practice multiplication inequality."
-msgstr ""
+msgstr "Luyện bất đẳng thức phép nhân."
 
 #: activities/gnumch-inequality/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "Practice division inequality."
-msgstr ""
+msgstr "Luyện bất đẳng thức phép chia."
 
 #. Activity title
 #: activities/gnumch-multiples/ActivityInfo.qml:15
@@ -14903,84 +14921,84 @@ msgstr ""
 #: activities/graduated_line_read/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Digits: enter digits"
-msgstr ""
+msgstr "Phím số: nhập chữ số"
 
 #: activities/graduated_line_read/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Backspace: delete the last digit"
-msgstr ""
+msgstr "Phím xoá lùi: xoá chữ số cuối"
 
 #: activities/graduated_line_read/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Delete: reset your answer"
-msgstr ""
+msgstr "Delete: xoá hết câu trả lời"
 
 #: activities/graduated_line_read/ActivityInfo.qml:28
 #: activities/graduated_line_use/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Space, Return or Enter: validate your answer"
-msgstr ""
+msgstr "Phím cách hoặc Enter: xác nhận câu trả lời"
 
 #: activities/graduated_line_read/graduated_line_read.js:133
 msgctxt "graduated_line_read|"
 msgid "(variable boundaries)"
-msgstr ""
+msgstr "(hai đầu thay đổi)"
 
 #: activities/graduated_line_read/GraduatedLineRead.qml:17
 msgctxt "GraduatedLineRead|"
 msgid "Find the requested number."
-msgstr ""
+msgstr "Tìm số được yêu cầu."
 
 #: activities/graduated_line_read/resource/1/Data.qml:21
 msgctxt "Data|"
 msgid "Number to find between 1 and 5."
-msgstr ""
+msgstr "Tìm số từ 1 tới 5."
 
 #: activities/graduated_line_read/resource/10/Data.qml:9
 #: activities/graduated_line_use/resource/10/Data.qml:9
 msgctxt "Data|"
 msgid "Decimal number to find between 0 and 4."
-msgstr ""
+msgstr "Tìm số thập phân từ 0 tới 4."
 
 #: activities/graduated_line_read/resource/2/Data.qml:9
 msgctxt "Data|"
 msgid "Number to find between 1 and 7."
-msgstr ""
+msgstr "Tìm số từ 1 tới 7."
 
 #: activities/graduated_line_read/resource/3/Data.qml:9
 msgctxt "Data|"
 msgid "Number to find between 1 and 10."
-msgstr ""
+msgstr "Tìm số từ 1 tới 10."
 
 #: activities/graduated_line_read/resource/4/Data.qml:9
 msgctxt "Data|"
 msgid "Number to find between 0 and 20."
-msgstr ""
+msgstr "Tìm số từ 0 tới 20."
 
 #: activities/graduated_line_read/resource/5/Data.qml:9
 msgctxt "Data|"
 msgid "Number to find between 0 and 50."
-msgstr ""
+msgstr "Tìm số từ 0 tới 50."
 
 #: activities/graduated_line_read/resource/6/Data.qml:9
 msgctxt "Data|"
 msgid "Number to find between 0 and 100."
-msgstr ""
+msgstr "Tìm số từ 0 tới 100."
 
 #: activities/graduated_line_read/resource/7/Data.qml:9
 msgctxt "Data|"
 msgid "Number to find between 0 and 1 000."
-msgstr ""
+msgstr "Tìm số từ 0 tới 1 000."
 
 #: activities/graduated_line_read/resource/8/Data.qml:9
 msgctxt "Data|"
 msgid "Number to find between 0 and 10 000."
-msgstr ""
+msgstr "Tìm số từ 0 tới 10 000."
 
 #: activities/graduated_line_read/resource/9/Data.qml:9
 msgctxt "Data|"
 msgid "Number to find between 0 and 1 000 000."
-msgstr ""
+msgstr "Tìm số từ 0 tới 1 000 000."
 
 #. Activity title
 #: activities/graduated_line_use/ActivityInfo.qml:14
@@ -15011,57 +15029,57 @@ msgstr ""
 #: activities/graduated_line_use/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Left and Right arrows: move the cursor"
-msgstr ""
+msgstr "Mũi tên trái và phải: di con trỏ"
 
 #: activities/graduated_line_use/GraduatedLineUse.qml:10
 msgctxt "GraduatedLineUse|"
 msgid "Place the given number on the graduated line."
-msgstr ""
+msgstr "Đặt số đã cho lên trục số có vạch chia."
 
 #: activities/graduated_line_use/resource/1/Data.qml:21
 msgctxt "Data|"
 msgid "Graduation to find between 1 and 5."
-msgstr ""
+msgstr "Tìm vạch chia từ 1 tới 5."
 
 #: activities/graduated_line_use/resource/2/Data.qml:9
 msgctxt "Data|"
 msgid "Graduation to find between 1 and 7."
-msgstr ""
+msgstr "Tìm vạch chia từ 1 tới 7."
 
 #: activities/graduated_line_use/resource/3/Data.qml:9
 msgctxt "Data|"
 msgid "Graduation to find between 1 and 10."
-msgstr ""
+msgstr "Tìm vạch chia từ 1 tới 10."
 
 #: activities/graduated_line_use/resource/4/Data.qml:9
 msgctxt "Data|"
 msgid "Graduation to find between 0 and 20."
-msgstr ""
+msgstr "Tìm vạch chia từ 0 tới 20."
 
 #: activities/graduated_line_use/resource/5/Data.qml:9
 msgctxt "Data|"
 msgid "Graduation to find between 0 and 50."
-msgstr ""
+msgstr "Tìm vạch chia từ 0 tới 50."
 
 #: activities/graduated_line_use/resource/6/Data.qml:9
 msgctxt "Data|"
 msgid "Graduation to find between 0 and 100."
-msgstr ""
+msgstr "Tìm vạch chia từ 0 tới 100."
 
 #: activities/graduated_line_use/resource/7/Data.qml:9
 msgctxt "Data|"
 msgid "Graduation to find between 0 and 1 000."
-msgstr ""
+msgstr "Tìm vạch chia từ 0 tới 1 000."
 
 #: activities/graduated_line_use/resource/8/Data.qml:9
 msgctxt "Data|"
 msgid "Graduation to find between 0 and 10 000."
-msgstr ""
+msgstr "Tìm vạch chia từ 0 tới 10 000."
 
 #: activities/graduated_line_use/resource/9/Data.qml:9
 msgctxt "Data|"
 msgid "Graduation to find between 0 and 1 000 000."
-msgstr ""
+msgstr "Tìm vạch chia từ 0 tới 1 000 000."
 
 #. Activity title
 #: activities/grammar_analysis/ActivityInfo.qml:18
@@ -15095,23 +15113,26 @@ msgid ""
 "Select a grammatical class from the list, then select the box under a word "
 "and assign it the class."
 msgstr ""
+"Chọn một từ loại trong danh sách, rồi chọn ô dưới một từ để gán từ loại đó "
+"cho nó."
 
 #: activities/grammar_analysis/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Leave the box blank if no class matches."
-msgstr ""
+msgstr "Để trống ô nếu không có từ loại nào hợp."
 
 #: activities/grammar_analysis/ActivityInfo.qml:30
 #: activities/grammar_classes/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
 msgid "Up and down arrows or tabulation: switch between classes and words"
 msgstr ""
+"Mũi tên lên xuống hoặc Tab: chuyển qua lại giữa danh sách từ loại và các từ"
 
 #: activities/grammar_analysis/ActivityInfo.qml:31
 #: activities/grammar_classes/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
 msgid "Left and right arrows: select items in classes or words"
-msgstr ""
+msgstr "Mũi tên trái phải: chọn mục trong danh sách từ loại hoặc trong câu"
 
 #: activities/grammar_analysis/ActivityInfo.qml:32
 #: activities/grammar_classes/ActivityInfo.qml:32
@@ -15120,32 +15141,33 @@ msgid ""
 "Space: assign the selected class to the selected word and then select the "
 "next word"
 msgstr ""
+"Phím cách: gán từ loại đang chọn cho từ đang chọn rồi sang từ tiếp theo"
 
 #: activities/grammar_analysis/ActivityInfo.qml:33
 #: activities/grammar_classes/ActivityInfo.qml:33
 msgctxt "ActivityInfo|"
 msgid "Backspace: select the previous word"
-msgstr ""
+msgstr "Phím xoá lùi: quay lại từ trước"
 
 #: activities/grammar_analysis/grammar_analysis.js:400
 msgctxt "grammar_analysis|"
 msgid "Empty"
-msgstr ""
+msgstr "Để trống"
 
 #: activities/grammar_analysis/GrammarAnalysis.qml:26
 msgctxt "GrammarAnalysis|"
 msgid "Grammatical analysis"
-msgstr ""
+msgstr "Phân tích ngữ pháp"
 
 #: activities/grammar_analysis/GrammarAnalysis.qml:27
 msgctxt "GrammarAnalysis|"
 msgid "Learn to identify grammatical classes."
-msgstr ""
+msgstr "Học cách nhận ra các từ loại."
 
 #: activities/grammar_analysis/GrammarAnalysis.qml:28
 msgctxt "GrammarAnalysis|"
 msgid "Find all the words corresponding to the requested grammatical classes."
-msgstr ""
+msgstr "Tìm hết những từ thuộc các từ loại được yêu cầu."
 
 #: activities/grammar_analysis/GrammarAnalysis.qml:29
 msgctxt "GrammarAnalysis|"
@@ -15153,11 +15175,13 @@ msgid ""
 "Select a grammatical class from the list, then select the box under a word "
 "and assign it the class."
 msgstr ""
+"Chọn một từ loại trong danh sách, rồi chọn ô dưới một từ để gán từ loại đó "
+"cho nó."
 
 #: activities/grammar_analysis/GrammarAnalysis.qml:30
 msgctxt "GrammarAnalysis|"
 msgid "Leave the box blank if no class matches."
-msgstr ""
+msgstr "Để trống ô nếu không có từ loại nào hợp."
 
 #. Activity title
 #: activities/grammar_classes/ActivityInfo.qml:18
@@ -15177,26 +15201,28 @@ msgid ""
 "Select the grammatical class from the list, then select the box under a word"
 " and assign it the class."
 msgstr ""
+"Chọn từ loại trong danh sách, rồi chọn ô dưới một từ để gán từ loại đó cho "
+"nó."
 
 #: activities/grammar_classes/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Leave the box blank if the class doesn't match."
-msgstr ""
+msgstr "Để trống ô nếu từ loại không hợp."
 
 #: activities/grammar_classes/GrammarClasses.qml:15
 msgctxt "GrammarClasses|"
 msgid "Grammatical classes"
-msgstr ""
+msgstr "Từ loại"
 
 #: activities/grammar_classes/GrammarClasses.qml:16
 msgctxt "GrammarClasses|"
 msgid "Learn to identify grammatical classes."
-msgstr ""
+msgstr "Học cách nhận ra các từ loại."
 
 #: activities/grammar_classes/GrammarClasses.qml:17
 msgctxt "GrammarClasses|"
 msgid "Find all the words corresponding to the requested grammatical class."
-msgstr ""
+msgstr "Tìm hết những từ thuộc từ loại được yêu cầu."
 
 #: activities/grammar_classes/GrammarClasses.qml:18
 msgctxt "GrammarClasses|"
@@ -15204,24 +15230,26 @@ msgid ""
 "Select the grammatical class from the list, then select the box under a word"
 " and assign it the class."
 msgstr ""
+"Chọn từ loại trong danh sách, rồi chọn ô dưới một từ để gán từ loại đó cho "
+"nó."
 
 #: activities/grammar_classes/GrammarClasses.qml:19
 msgctxt "GrammarClasses|"
 msgid "Leave the box blank if the class doesn't match."
-msgstr ""
+msgstr "Để trống ô nếu từ loại không hợp."
 
 #: activities/graph-coloring/ActivityConfig.qml:22
 #: activities/superbrain/ActivityConfig.qml:22
 #: activities/traffic/ActivityConfig.qml:22
 msgctxt "ActivityConfig|"
 msgid "Colors"
-msgstr ""
+msgstr "Màu sắc"
 
 #: activities/graph-coloring/ActivityConfig.qml:23
 #: activities/superbrain/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
 msgid "Shapes"
-msgstr ""
+msgstr "Hình dạng"
 
 #. Activity title
 #: activities/graph-coloring/ActivityInfo.qml:15
@@ -15262,7 +15290,7 @@ msgstr ""
 #: activities/graph-coloring/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Right and Left arrows: navigate"
-msgstr ""
+msgstr "Mũi tên trái và phải: di chuyển"
 
 #. Activity title
 #: activities/gravity/ActivityInfo.qml:19
@@ -15297,7 +15325,7 @@ msgstr ""
 #: activities/gravity/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
 msgid "Left and Right arrows: move the spaceship"
-msgstr ""
+msgstr "Mũi tên trái và phải: lái tàu vũ trụ"
 
 #: activities/gravity/Gravity.qml:234
 msgctxt "Gravity|"
@@ -15307,6 +15335,9 @@ msgid ""
 "dependent upon the mass of both objects and inversely proportional to the "
 "square of the distance between their centers."
 msgstr ""
+"Trọng lực có ở khắp nơi, và định luật vạn vật hấp dẫn của Newton mở rộng "
+"trọng lực ra ngoài Trái Đất. Lực hút này phụ thuộc thẳng vào khối lượng của "
+"cả hai vật, và tỉ lệ nghịch với bình phương khoảng cách giữa tâm của chúng."
 
 #: activities/gravity/Gravity.qml:237
 msgctxt "Gravity|"
@@ -15315,6 +15346,8 @@ msgid ""
 "interacting objects, more massive objects will attract each other with a "
 "greater gravitational force."
 msgstr ""
+"Vì lực hấp dẫn tỉ lệ thuận với khối lượng của cả hai vật đang tương tác, nên"
+" vật càng nặng thì hút nhau càng mạnh."
 
 #: activities/gravity/Gravity.qml:240
 msgctxt "Gravity|"
@@ -15323,6 +15356,8 @@ msgid ""
 "between the two interacting objects, more distance will result in weaker "
 "gravitational force."
 msgstr ""
+"Nhưng vì lực này tỉ lệ nghịch với bình phương khoảng cách giữa hai vật, nên "
+"càng xa nhau thì lực hấp dẫn càng yếu."
 
 #: activities/gravity/Gravity.qml:243
 msgctxt "Gravity|"
@@ -15331,6 +15366,9 @@ msgid ""
 "reach the space station. The arrow indicates the direction and the intensity"
 " of the gravity on your ship."
 msgstr ""
+"Việc của con là lái tàu vũ trụ tránh đâm vào các hành tinh cho tới khi tới "
+"được trạm không gian. Mũi tên chỉ hướng và độ mạnh của trọng lực tác dụng "
+"lên tàu."
 
 #: activities/gravity/Gravity.qml:246
 msgctxt "Gravity|"
@@ -15338,6 +15376,8 @@ msgid ""
 "Try to stay near the center of the screen, and anticipate by looking at the "
 "size and direction of the arrow."
 msgstr ""
+"Cố giữ tàu gần giữa màn hình, và nhìn độ dài với hướng mũi tên để tính "
+"trước."
 
 #. Activity title
 #: activities/guess24/ActivityInfo.qml:14
@@ -15374,82 +15414,83 @@ msgstr ""
 #: activities/guess24/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Arrows: navigate inside numbers and operators"
-msgstr ""
+msgstr "Phím mũi tên: đi qua các con số và dấu phép tính"
 
 #: activities/guess24/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Space, Return or Enter: select or deselect current value or operator"
 msgstr ""
+"Phím cách hoặc Enter: chọn hoặc bỏ chọn số, dấu phép tính đang trỏ tới"
 
 #: activities/guess24/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Operator keys (+, -, *, /): select operator"
-msgstr ""
+msgstr "Phím dấu phép tính (+, -, *, /): chọn dấu phép tính"
 
 #: activities/guess24/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Backspace or Delete: cancel last operation"
-msgstr ""
+msgstr "Phím xoá lùi hoặc Delete: huỷ phép tính vừa rồi"
 
 #: activities/guess24/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
 msgid "Tabulation: switch between numbers and operators"
-msgstr ""
+msgstr "Tab: chuyển qua lại giữa các số và các dấu phép tính"
 
 #: activities/guess24/Guess24.qml:142
 msgctxt "Guess24|"
 msgid "Use the four numbers with given operators to find 24."
-msgstr ""
+msgstr "Dùng bốn con số với các dấu phép tính cho sẵn để ra 24."
 
 #: activities/guess24/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "Solvable with + and -."
-msgstr ""
+msgstr "Giải được bằng + và -."
 
 #: activities/guess24/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "Solvable with +, - and ×."
-msgstr ""
+msgstr "Giải được bằng +, - và ×."
 
 #: activities/guess24/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "Multiplication required."
-msgstr ""
+msgstr "Phải dùng phép nhân."
 
 #: activities/guess24/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "Solvable with all operators."
-msgstr ""
+msgstr "Giải được bằng đủ mọi phép tính."
 
 #: activities/guess24/resource/5/Data.qml:13
 msgctxt "Data|"
 msgid "Division required."
-msgstr ""
+msgstr "Phải dùng phép chia."
 
 #: activities/guess24/resource/6/Data.qml:13
 msgctxt "Data|"
 msgid "All operators required."
-msgstr ""
+msgstr "Phải dùng đủ mọi phép tính."
 
 #: activities/guesscount/ActivityConfig.qml:27
 msgctxt "ActivityConfig|"
 msgid "Admin"
-msgstr ""
+msgstr "Quản trị"
 
 #: activities/guesscount/ActivityConfig.qml:28
 msgctxt "ActivityConfig|"
 msgid "BuiltIn"
-msgstr ""
+msgstr "Có sẵn"
 
 #: activities/guesscount/ActivityConfig.qml:72
 msgctxt "ActivityConfig|"
 msgid "Selected"
-msgstr ""
+msgstr "Đang chọn"
 
 #: activities/guesscount/ActivityConfig.qml:72
 msgctxt "ActivityConfig|"
 msgid "Not Selected"
-msgstr ""
+msgstr "Chưa chọn"
 
 #. Activity title
 #: activities/guesscount/ActivityInfo.qml:19
@@ -15487,53 +15528,53 @@ msgstr ""
 #, qt-format
 msgctxt "Admin|"
 msgid "Level %1"
-msgstr ""
+msgstr "Cấp độ %1"
 
 #: activities/guesscount/guesscount.js:139
 msgctxt "guesscount|"
 msgid "result is not positive integer"
-msgstr ""
+msgstr "kết quả không phải số nguyên dương"
 
 #: activities/guesscount/guesscount.js:141
 msgctxt "guesscount|"
 msgid "result is not an integer"
-msgstr ""
+msgstr "kết quả không phải số nguyên"
 
 #: activities/guesscount/Guesscount.qml:158
 #, qt-format
 msgctxt "Guesscount|"
 msgid "Guesscount: %1"
-msgstr ""
+msgstr "Đoán phép tính: %1"
 
 #: activities/guesscount/OperandRow.qml:38
 msgctxt "OperandRow|"
 msgid "Numbers"
-msgstr ""
+msgstr "Các số"
 
 #: activities/guesscount/OperatorRow.qml:39
 msgctxt "OperatorRow|"
 msgid "Operators"
-msgstr ""
+msgstr "Dấu phép tính"
 
 #: activities/guesscount/resource/1/Data.qml:20
 msgctxt "Data|"
 msgid "Practice algebraic calculations with a single operator."
-msgstr ""
+msgstr "Luyện tính toán với một dấu phép tính."
 
 #: activities/guesscount/resource/2/Data.qml:14
 msgctxt "Data|"
 msgid "Practice algebraic calculations with two operators."
-msgstr ""
+msgstr "Luyện tính toán với hai dấu phép tính."
 
 #: activities/guesscount/resource/3/Data.qml:14
 msgctxt "Data|"
 msgid "Practice algebraic calculations with three operators."
-msgstr ""
+msgstr "Luyện tính toán với ba dấu phép tính."
 
 #: activities/guesscount/resource/4/Data.qml:14
 msgctxt "Data|"
 msgid "Practice algebraic calculations with four operators."
-msgstr ""
+msgstr "Luyện tính toán với bốn dấu phép tính."
 
 #. Activity title
 #: activities/guessnumber/ActivityInfo.qml:15
@@ -15570,33 +15611,33 @@ msgstr ""
 #: activities/guessnumber/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Digits: enter a number"
-msgstr ""
+msgstr "Phím số: nhập một con số"
 
 #: activities/guessnumber/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Backspace: erase a number"
-msgstr ""
+msgstr "Phím xoá lùi: xoá một chữ số"
 
 #: activities/guessnumber/guessnumber.js:61
 msgctxt "guessnumber|"
 msgid "Your number is too high."
-msgstr ""
+msgstr "Số của con lớn quá."
 
 #: activities/guessnumber/guessnumber.js:64
 msgctxt "guessnumber|"
 msgid "Your number is too low."
-msgstr ""
+msgstr "Số của con nhỏ quá."
 
 #: activities/guessnumber/guessnumber.js:69
 msgctxt "guessnumber|"
 msgid "You found the number!"
-msgstr ""
+msgstr "Con tìm ra rồi!"
 
 #: activities/guessnumber/Guessnumber.qml:116
 #, qt-format
 msgctxt "Guessnumber|"
 msgid "Guess a number between %1 and %2."
-msgstr ""
+msgstr "Đoán một số từ %1 tới %2."
 
 #: activities/guessnumber/resource/1/Data.qml:16
 #: activities/guessnumber/resource/2/Data.qml:14
@@ -15606,18 +15647,18 @@ msgstr ""
 #, qt-format
 msgctxt "Data|"
 msgid "Guess a number between %1 and %2."
-msgstr ""
+msgstr "Đoán một số từ %1 tới %2."
 
 #: activities/hangman/ActivityConfig.qml:42
 msgctxt "ActivityConfig|"
 msgid "Display the image to find as hint"
-msgstr ""
+msgstr "Hiện hình ảnh của từ cần tìm để gợi ý"
 
 #: activities/hangman/ActivityConfig.qml:50
 msgctxt "ActivityConfig|"
 msgid ""
 "Speak the words to find (if available) when three attempts are remaining"
-msgstr ""
+msgstr "Đọc từ cần tìm (nếu có giọng) khi chỉ còn ba lượt đoán"
 
 #. Activity title
 #: activities/hangman/ActivityInfo.qml:15
@@ -15651,6 +15692,8 @@ msgid ""
 "If the option 'Display the image to find as hint' is activated, on every "
 "wrong try a part of the image representing the word will be revealed."
 msgstr ""
+"Nếu bật mục 'Hiện hình ảnh của từ cần tìm để gợi ý' thì mỗi lần đoán sai sẽ "
+"lộ ra một phần bức hình của từ đó."
 
 #: activities/hangman/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
@@ -15659,17 +15702,19 @@ msgid ""
 "corresponding voice is available, you will hear the word to find when three "
 "attempts are remaining."
 msgstr ""
+"Nếu bật mục 'Đọc từ cần tìm...' và có sẵn giọng đọc, con sẽ nghe thấy từ cần"
+" tìm khi chỉ còn ba lượt đoán."
 
 #: activities/hangman/hangman.js:211
 #, qt-format
 msgctxt "hangman|"
 msgid "Attempted: %1"
-msgstr ""
+msgstr "Đã đoán: %1"
 
 #: activities/hangman/Hangman.qml:377
 msgctxt "Hangman|"
 msgid "We are sorry, we don't have yet a translation for your language."
-msgstr ""
+msgstr "Rất tiếc, hoạt động này chưa có bản dịch cho ngôn ngữ của bạn."
 
 #: activities/hangman/Hangman.qml:378
 #, qt-format
@@ -15678,6 +15723,8 @@ msgid ""
 "GCompris is developed by the KDE community, you can translate GCompris by "
 "joining a translation team on <a href=\"%2\">%2</a>"
 msgstr ""
+"GCompris do cộng đồng KDE phát triển, bạn có thể góp sức dịch GCompris bằng "
+"cách tham gia một nhóm dịch tại <a href=\"%2\">%2</a>"
 
 #: activities/hangman/Hangman.qml:380
 msgctxt "Hangman|"
@@ -15685,6 +15732,8 @@ msgid ""
 "We switched to English for this activity but you can select another language"
 " in the configuration dialog."
 msgstr ""
+"Chúng tôi tạm chuyển hoạt động này sang tiếng Anh, nhưng bạn chọn được ngôn "
+"ngữ khác trong hộp thoại cài đặt."
 
 #. Activity title
 #: activities/hanoi/ActivityInfo.qml:15
@@ -15716,7 +15765,7 @@ msgstr ""
 #: activities/hanoi/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Concept taken from EPI games."
-msgstr ""
+msgstr "Ý tưởng lấy từ trò chơi EPI."
 
 #. Activity title
 #: activities/hanoi_real/ActivityInfo.qml:15
@@ -15753,18 +15802,24 @@ msgid ""
 "inspired by it. (source Wikipedia: "
 "https://en.wikipedia.org/wiki/Tower_of_hanoi)"
 msgstr ""
+"Câu đố này do nhà toán học người Pháp Edouard Lucas nghĩ ra năm 1883. Có một"
+" truyền thuyết về ngôi đền Hindu nơi các thầy tu suốt ngày chuyển 64 chiếc "
+"đĩa theo đúng luật của Tháp Hà Nội. Theo truyền thuyết, khi các thầy tu làm "
+"xong thì thế giới sẽ tận. Vì vậy câu đố còn có tên là Tháp Brahma. Không rõ "
+"Lucas tự nghĩ ra truyền thuyết này hay lấy cảm hứng từ nó. (nguồn Wikipedia:"
+" https://en.wikipedia.org/wiki/Tower_of_hanoi)"
 
 #: activities/hanoi_real/HanoiReal.qml:82
 msgctxt "HanoiReal|"
 msgid "Move the entire stack to the right peg, one disc at a time."
-msgstr ""
+msgstr "Chuyển cả chồng đĩa sang cọc bên phải, mỗi lần một chiếc."
 
 #: activities/hanoi_real/HanoiReal.qml:83
 msgctxt "HanoiReal|"
 msgid ""
 "Build the same tower in the empty area as the one you see on the right-hand "
 "side"
-msgstr ""
+msgstr "Xếp ở chỗ trống một cái tháp giống hệt cái con thấy bên phải"
 
 #. Activity title
 #: activities/hexagon/ActivityInfo.qml:15
@@ -15833,217 +15888,217 @@ msgstr ""
 #: activities/imagename/resource/board/board1_0.qml:14
 msgctxt "board1_0|"
 msgid "Drag and Drop each item above its name"
-msgstr ""
+msgstr "Kéo thả từng món đồ lên trên tên của nó"
 
 #: activities/imagename/resource/board/board1_0.qml:59
 msgctxt "board1_0|"
 msgid "mail box"
-msgstr ""
+msgstr "hòm thư"
 
 #: activities/imagename/resource/board/board1_0.qml:67
 msgctxt "board1_0|"
 msgid "sailing boat"
-msgstr ""
+msgstr "thuyền buồm"
 
 #: activities/imagename/resource/board/board1_0.qml:75
 msgctxt "board1_0|"
 msgid "lamp"
-msgstr ""
+msgstr "đèn"
 
 #: activities/imagename/resource/board/board1_0.qml:83
 msgctxt "board1_0|"
 msgid "postcard"
-msgstr ""
+msgstr "bưu thiếp"
 
 #: activities/imagename/resource/board/board1_0.qml:91
 msgctxt "board1_0|"
 msgid "fishing boat"
-msgstr ""
+msgstr "thuyền câu"
 
 #: activities/imagename/resource/board/board1_0.qml:99
 msgctxt "board1_0|"
 msgid "bulb"
-msgstr ""
+msgstr "bóng đèn"
 
 #: activities/imagename/resource/board/board2_0.qml:58
 msgctxt "board2_0|"
 msgid "bottle"
-msgstr ""
+msgstr "cái chai"
 
 #: activities/imagename/resource/board/board2_0.qml:66
 msgctxt "board2_0|"
 msgid "glass"
-msgstr ""
+msgstr "cái ly"
 
 #: activities/imagename/resource/board/board2_0.qml:74
 msgctxt "board2_0|"
 msgid "egg"
-msgstr ""
+msgstr "quả trứng"
 
 #: activities/imagename/resource/board/board2_0.qml:82
 msgctxt "board2_0|"
 msgid "eggcup"
-msgstr ""
+msgstr "cốc đựng trứng"
 
 #: activities/imagename/resource/board/board2_0.qml:90
 msgctxt "board2_0|"
 msgid "flower"
-msgstr ""
+msgstr "bông hoa"
 
 #: activities/imagename/resource/board/board2_0.qml:98
 msgctxt "board2_0|"
 msgid "vase"
-msgstr ""
+msgstr "cái bình"
 
 #: activities/imagename/resource/board/board3_0.qml:58
 msgctxt "board3_0|"
 msgid "rocket"
-msgstr ""
+msgstr "tên lửa"
 
 #: activities/imagename/resource/board/board3_0.qml:66
 msgctxt "board3_0|"
 msgid "star"
-msgstr ""
+msgstr "ngôi sao"
 
 #: activities/imagename/resource/board/board3_0.qml:74
 msgctxt "board3_0|"
 msgid "sofa"
-msgstr ""
+msgstr "ghế sô pha"
 
 #: activities/imagename/resource/board/board3_0.qml:82
 msgctxt "board3_0|"
 msgid "house"
-msgstr ""
+msgstr "ngôi nhà"
 
 #: activities/imagename/resource/board/board3_0.qml:90
 msgctxt "board3_0|"
 msgid "light house"
-msgstr ""
+msgstr "ngọn hải đăng"
 
 #: activities/imagename/resource/board/board3_0.qml:98
 msgctxt "board3_0|"
 msgid "sailing boat"
-msgstr ""
+msgstr "thuyền buồm"
 
 #: activities/imagename/resource/board/board4_0.qml:58
 msgctxt "board4_0|"
 msgid "apple"
-msgstr ""
+msgstr "quả táo"
 
 #: activities/imagename/resource/board/board4_0.qml:66
 msgctxt "board4_0|"
 msgid "tree"
-msgstr ""
+msgstr "cái cây"
 
 #: activities/imagename/resource/board/board4_0.qml:74
 msgctxt "board4_0|"
 msgid "bicycle"
-msgstr ""
+msgstr "xe đạp"
 
 #: activities/imagename/resource/board/board4_0.qml:82
 msgctxt "board4_0|"
 msgid "car"
-msgstr ""
+msgstr "ô tô"
 
 #: activities/imagename/resource/board/board4_0.qml:90
 msgctxt "board4_0|"
 msgid "carrot"
-msgstr ""
+msgstr "củ cà rốt"
 
 #: activities/imagename/resource/board/board4_0.qml:98
 msgctxt "board4_0|"
 msgid "grater"
-msgstr ""
+msgstr "cái nạo"
 
 #: activities/imagename/resource/board/board5_0.qml:58
 msgctxt "board5_0|"
 msgid "pencil"
-msgstr ""
+msgstr "bút chì"
 
 #: activities/imagename/resource/board/board5_0.qml:66
 msgctxt "board5_0|"
 msgid "postcard"
-msgstr ""
+msgstr "bưu thiếp"
 
 #: activities/imagename/resource/board/board5_0.qml:74
 msgctxt "board5_0|"
 msgid "tree"
-msgstr ""
+msgstr "cái cây"
 
 #: activities/imagename/resource/board/board5_0.qml:82
 msgctxt "board5_0|"
 msgid "star"
-msgstr ""
+msgstr "ngôi sao"
 
 #: activities/imagename/resource/board/board5_0.qml:90
 msgctxt "board5_0|"
 msgid "truck"
-msgstr ""
+msgstr "xe tải"
 
 #: activities/imagename/resource/board/board5_0.qml:98
 msgctxt "board5_0|"
 msgid "van"
-msgstr ""
+msgstr "xe van"
 
 #: activities/imagename/resource/board/board6_0.qml:58
 msgctxt "board6_0|"
 msgid "castle"
-msgstr ""
+msgstr "lâu đài"
 
 #: activities/imagename/resource/board/board6_0.qml:66
 msgctxt "board6_0|"
 msgid "crown"
-msgstr ""
+msgstr "vương miện"
 
 #: activities/imagename/resource/board/board6_0.qml:74
 msgctxt "board6_0|"
 msgid "sailing boat"
-msgstr ""
+msgstr "thuyền buồm"
 
 #: activities/imagename/resource/board/board6_0.qml:82
 msgctxt "board6_0|"
 msgid "flag"
-msgstr ""
+msgstr "lá cờ"
 
 #: activities/imagename/resource/board/board6_0.qml:90
 msgctxt "board6_0|"
 msgid "racket"
-msgstr ""
+msgstr "cái vợt"
 
 #: activities/imagename/resource/board/board6_0.qml:98
 msgctxt "board6_0|"
 msgid "ball"
-msgstr ""
+msgstr "quả bóng"
 
 #: activities/imagename/resource/board/board7_0.qml:58
 msgctxt "board7_0|"
 msgid "tree"
-msgstr ""
+msgstr "cái cây"
 
 #: activities/imagename/resource/board/board7_0.qml:66
 msgctxt "board7_0|"
 msgid "mail box"
-msgstr ""
+msgstr "hòm thư"
 
 #: activities/imagename/resource/board/board7_0.qml:74
 msgctxt "board7_0|"
 msgid "sailing boat"
-msgstr ""
+msgstr "thuyền buồm"
 
 #: activities/imagename/resource/board/board7_0.qml:82
 msgctxt "board7_0|"
 msgid "bulb"
-msgstr ""
+msgstr "bóng đèn"
 
 #: activities/imagename/resource/board/board7_0.qml:90
 msgctxt "board7_0|"
 msgid "bottle"
-msgstr ""
+msgstr "cái chai"
 
 #: activities/imagename/resource/board/board7_0.qml:98
 msgctxt "board7_0|"
 msgid "flower"
-msgstr ""
+msgstr "bông hoa"
 
 #. Activity title
 #: activities/instruments/ActivityInfo.qml:15
@@ -16072,68 +16127,68 @@ msgstr ""
 #: activities/instruments/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Tab: repeat the instrument sound"
-msgstr ""
+msgstr "Tab: nghe lại tiếng nhạc cụ"
 
 #: activities/instruments/instruments.js:13
 #: activities/instruments/instruments.js:62
 msgctxt "instruments|"
 msgid "Find the clarinet"
-msgstr ""
+msgstr "Tìm cây kèn clarinet"
 
 #: activities/instruments/instruments.js:18
 #: activities/instruments/instruments.js:67
 #: activities/instruments/instruments.js:109
 msgctxt "instruments|"
 msgid "Find the transverse flute"
-msgstr ""
+msgstr "Tìm cây sáo ngang"
 
 #: activities/instruments/instruments.js:23
 #: activities/instruments/instruments.js:72
 #: activities/instruments/instruments.js:114
 msgctxt "instruments|"
 msgid "Find the guitar"
-msgstr ""
+msgstr "Tìm cây đàn ghi-ta"
 
 #: activities/instruments/instruments.js:28
 #: activities/instruments/instruments.js:77
 #: activities/instruments/instruments.js:119
 msgctxt "instruments|"
 msgid "Find the harp"
-msgstr ""
+msgstr "Tìm cây đàn hạc"
 
 #: activities/instruments/instruments.js:35
 #: activities/instruments/instruments.js:82
 #: activities/instruments/instruments.js:124
 msgctxt "instruments|"
 msgid "Find the piano"
-msgstr ""
+msgstr "Tìm cây đàn dương cầm"
 
 #: activities/instruments/instruments.js:40
 #: activities/instruments/instruments.js:87
 #: activities/instruments/instruments.js:129
 msgctxt "instruments|"
 msgid "Find the saxophone"
-msgstr ""
+msgstr "Tìm cây kèn saxophone"
 
 #: activities/instruments/instruments.js:45
 #: activities/instruments/instruments.js:92
 #: activities/instruments/instruments.js:134
 msgctxt "instruments|"
 msgid "Find the trombone"
-msgstr ""
+msgstr "Tìm cây kèn trombone"
 
 #: activities/instruments/instruments.js:50
 #: activities/instruments/instruments.js:97
 #: activities/instruments/instruments.js:139
 msgctxt "instruments|"
 msgid "Find the trumpet"
-msgstr ""
+msgstr "Tìm cây kèn trumpet"
 
 #: activities/instruments/instruments.js:55
 #: activities/instruments/instruments.js:104
 msgctxt "instruments|"
 msgid "Find the violin"
-msgstr ""
+msgstr "Tìm cây đàn vĩ cầm"
 
 #: activities/instruments/instruments.js:146
 #: activities/instruments/instruments.js:178

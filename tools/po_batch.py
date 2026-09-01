@@ -37,13 +37,32 @@ def group_of(entry):
     return "core-ui"
 
 
+SKIP_FILE = __file__.rsplit("/", 2)[0] + "/po/giu-nguyen.txt"
+
+
+def load_skip():
+    """Các chuỗi cố ý để nguyên tiếng Anh — tên riêng nước ngoài mà tiếng Việt
+    vẫn viết y như vậy. Ghi ra đây để không phải xét lại ở mọi đợt dịch."""
+    import os
+
+    if not os.path.exists(SKIP_FILE):
+        return set()
+    return {
+        line.strip() for line in open(SKIP_FILE, encoding="utf-8")
+        if line.strip() and not line.startswith("#")
+    }
+
+
 def cmd_export(args):
     po = polib.pofile(args.po)
+    skip = load_skip()
     out = []
     for i, e in enumerate(po):
         if e.translated() or (e.msgid_plural and any(e.msgstr_plural.values())):
             continue
         if args.group and group_of(e) != args.group:
+            continue
+        if e.msgid in skip:
             continue
         item = {
             "k": i,
