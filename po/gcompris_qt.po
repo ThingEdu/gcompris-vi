@@ -9183,25 +9183,27 @@ msgid ""
 "The polar bear is one of the world's largest predatory mammals. It weighs up"
 " to a ton and can be as long as 3 meters!"
 msgstr ""
+"Gấu Bắc Cực là một trong những loài thú săn mồi lớn nhất thế giới. Nó nặng "
+"tới một tấn và dài tới 3 mét!"
 
 #: activities/explore_world_animals/resource/board/board2.qml:41
 #: activities/explore_world_animals/resource/board/board2.qml:44
 msgctxt "board2|"
 msgid "Kangaroo"
-msgstr ""
+msgstr "Chuột túi"
 
 #: activities/explore_world_animals/resource/board/board2.qml:42
 msgctxt "board2|"
 msgid ""
 "The kangaroo lives in Australia and is well-known for the pouch on its belly"
 " used to cradle baby kangaroos."
-msgstr ""
+msgstr "Chuột túi sống ở Úc, nổi tiếng với cái túi trước bụng để ẵm con."
 
 #: activities/explore_world_animals/resource/board/board2.qml:52
 #: activities/explore_world_animals/resource/board/board2.qml:55
 msgctxt "board2|"
 msgid "Scarlet macaw"
-msgstr ""
+msgstr "Vẹt đuôi dài đỏ"
 
 #: activities/explore_world_animals/resource/board/board2.qml:53
 msgctxt "board2|"
@@ -9209,12 +9211,14 @@ msgid ""
 "The scarlet macaw lives in South America and is a big and bright colored "
 "parrot, able to learn up to 100 words!"
 msgstr ""
+"Vẹt đuôi dài đỏ sống ở Nam Mỹ, là loài vẹt to và sặc sỡ, học được tới 100 "
+"từ!"
 
 #: activities/explore_world_animals/resource/board/board2.qml:63
 #: activities/explore_world_animals/resource/board/board2.qml:66
 msgctxt "board2|"
 msgid "Moose"
-msgstr ""
+msgstr "Nai sừng tấm"
 
 #: activities/explore_world_animals/resource/board/board2.qml:64
 msgctxt "board2|"
@@ -9223,22 +9227,25 @@ msgid ""
 " However, it's not easy, so sometimes the moose has to stand on its hind "
 "legs to reach branches up to 4 meters!"
 msgstr ""
+"Là loài lớn nhất họ nhà hươu nai, nai sừng tấm ăn tới 25 kg mỗi ngày. Kiếm "
+"chừng ấy thức ăn không dễ, nên có lúc nó phải đứng bằng hai chân sau để với "
+"tới cành cây cao 4 mét!"
 
 #: activities/explore_world_animals/resource/board/board2.qml:76
 msgctxt "board2|"
 msgid "Explore wild animals from around the world."
-msgstr ""
+msgstr "Khám phá thú hoang khắp thế giới."
 
 #: activities/explore_world_animals/resource/board/board2.qml:79
 msgctxt "board2|"
 msgid "Click on the location where the given animal lives."
-msgstr ""
+msgstr "Bấm vào nơi sinh sống của con vật được nêu."
 
 #: activities/explore_world_animals/resource/board/board3.qml:19
 #: activities/explore_world_animals/resource/board/board3.qml:22
 msgctxt "board3|"
 msgid "Crocodile"
-msgstr ""
+msgstr "Cá sấu"
 
 #: activities/explore_world_animals/resource/board/board3.qml:20
 msgctxt "board3|"
@@ -9246,12 +9253,14 @@ msgid ""
 "The crocodile is a large amphibious reptile. It lives mostly in large "
 "tropical rivers, where it is an ambush predator."
 msgstr ""
+"Cá sấu là loài bò sát lớn sống được cả dưới nước lẫn trên cạn. Nó sống chủ "
+"yếu ở các con sông lớn vùng nhiệt đới, nơi nó rình mồi."
 
 #: activities/explore_world_animals/resource/board/board3.qml:30
 #: activities/explore_world_animals/resource/board/board3.qml:33
 msgctxt "board3|"
 msgid "Komodo dragon"
-msgstr ""
+msgstr "Rồng Komodo"
 
 #: activities/explore_world_animals/resource/board/board3.qml:31
 msgctxt "board3|"
@@ -9259,12 +9268,14 @@ msgid ""
 "The Komodo dragon is the largest living lizard (up to 3 meters). It lives in"
 " the Indonesian islands."
 msgstr ""
+"Rồng Komodo là loài thằn lằn lớn nhất còn sống, dài tới 3 mét. Nó sống trên "
+"các hòn đảo của Indonesia."
 
 #: activities/explore_world_animals/resource/board/board3.qml:41
 #: activities/explore_world_animals/resource/board/board3.qml:44
 msgctxt "board3|"
 msgid "Koala"
-msgstr ""
+msgstr "Gấu túi koala"
 
 #: activities/explore_world_animals/resource/board/board3.qml:42
 msgctxt "board3|"
@@ -9272,12 +9283,14 @@ msgid ""
 "Koalas are herbivore marsupials that live in the eucalyptus forests of "
 "eastern Australia."
 msgstr ""
+"Koala là loài thú có túi ăn cỏ, sống trong những cánh rừng bạch đàn ở miền "
+"đông nước Úc."
 
 #: activities/explore_world_animals/resource/board/board3.qml:52
 #: activities/explore_world_animals/resource/board/board3.qml:55
 msgctxt "board3|"
 msgid "Ring-tailed lemur"
-msgstr ""
+msgstr "Vượn cáo đuôi vòng"
 
 #: activities/explore_world_animals/resource/board/board3.qml:53
 msgctxt "board3|"
@@ -9285,12 +9298,14 @@ msgid ""
 "The ring-tailed lemur is a primate that lives in the dry regions of "
 "southwest Madagascar. Its striped tail makes it easy to recognize."
 msgstr ""
+"Vượn cáo đuôi vòng là loài linh trưởng sống ở vùng khô hạn tây nam đảo "
+"Madagascar. Cái đuôi vằn khiến nó rất dễ nhận ra."
 
 #: activities/explore_world_animals/resource/board/board3.qml:63
 #: activities/explore_world_animals/resource/board/board3.qml:66
 msgctxt "board3|"
 msgid "Panda"
-msgstr ""
+msgstr "Gấu trúc"
 
 #: activities/explore_world_animals/resource/board/board3.qml:64
 msgctxt "board3|"
@@ -9298,16 +9313,18 @@ msgid ""
 "The panda is a bear with black and white fur that lives in a few mountain "
 "ranges in central China. Pandas mostly eat bamboo."
 msgstr ""
+"Gấu trúc là loài gấu lông đen trắng, sống ở vài dãy núi miền trung Trung "
+"Quốc. Gấu trúc ăn chủ yếu là măng tre."
 
 #: activities/explore_world_animals/resource/board/board3.qml:76
 msgctxt "board3|"
 msgid "Explore wild animals from around the world."
-msgstr ""
+msgstr "Khám phá thú hoang khắp thế giới."
 
 #: activities/explore_world_animals/resource/board/board3.qml:79
 msgctxt "board3|"
 msgid "Click on the location where the given animal lives."
-msgstr ""
+msgstr "Bấm vào nơi sinh sống của con vật được nêu."
 
 #. Activity title
 #: activities/explore_world_music/ActivityInfo.qml:15
@@ -9341,6 +9358,9 @@ msgid ""
 "each suitcase to learn about the music from that area, and listen to a short"
 " sample. Study well, because you will be tested in level 2 and 3."
 msgstr ""
+"Ở cấp đầu, con tha hồ khám phá âm nhạc khắp thế giới. Bấm vào từng chiếc va "
+"li để tìm hiểu âm nhạc vùng đó và nghe một đoạn ngắn. Hãy nhớ kỹ, vì cấp 2 "
+"và cấp 3 sẽ hỏi lại đấy."
 
 #: activities/explore_world_music/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
@@ -9349,24 +9369,26 @@ msgid ""
 " location that corresponds to this music. Click on the play button if you'd "
 "like to hear the music again."
 msgstr ""
+"Ở cấp hai, con sẽ nghe một đoạn nhạc và phải chọn đúng vùng có loại nhạc đó."
+" Bấm nút phát nếu muốn nghe lại."
 
 #: activities/explore_world_music/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid ""
 "In the third level, you must select the location that matches the text "
 "description on the screen."
-msgstr ""
+msgstr "Ở cấp ba, con phải chọn vùng đúng với câu mô tả trên màn hình."
 
 #: activities/explore_world_music/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Images from https://commons.wikimedia.org/wiki, https://archive.org"
-msgstr ""
+msgstr "Ảnh lấy từ https://commons.wikimedia.org/wiki và https://archive.org"
 
 #: activities/explore_world_music/resource/board/board1.qml:20
 #: activities/explore_world_music/resource/board/board1.qml:24
 msgctxt "board1|"
 msgid "Australia"
-msgstr ""
+msgstr "Úc"
 
 #: activities/explore_world_music/resource/board/board1.qml:21
 msgctxt "board1|"
@@ -9375,12 +9397,14 @@ msgid ""
 "instruments, like the didgeridoo. It is made from a log and can be up to "
 "five meters long!"
 msgstr ""
+"Thổ dân là những người đầu tiên sống ở Úc. Họ hát và chơi nhạc cụ, chẳng hạn"
+" cây kèn didgeridoo. Kèn này làm từ một khúc gỗ và dài tới năm mét!"
 
 #: activities/explore_world_music/resource/board/board1.qml:32
 #: activities/explore_world_music/resource/board/board1.qml:36
 msgctxt "board1|"
 msgid "Africa"
-msgstr ""
+msgstr "Châu Phi"
 
 #: activities/explore_world_music/resource/board/board1.qml:33
 msgctxt "board1|"
@@ -9388,12 +9412,14 @@ msgid ""
 "Music is a part of everyday life in Africa. African music features a great "
 "variety of drums, and they believe it is a sacred and magical instrument."
 msgstr ""
+"Ở châu Phi, âm nhạc là một phần của đời sống hằng ngày. Nhạc châu Phi có rất"
+" nhiều loại trống, và người ta tin rằng trống là nhạc cụ thiêng có phép màu."
 
 #: activities/explore_world_music/resource/board/board1.qml:44
 #: activities/explore_world_music/resource/board/board1.qml:48
 msgctxt "board1|"
 msgid "Middle East"
-msgstr ""
+msgstr "Trung Đông"
 
 #: activities/explore_world_music/resource/board/board1.qml:45
 msgctxt "board1|"
@@ -9402,12 +9428,15 @@ msgid ""
 " played to call worshipers to prayer. The lute is an instrument invented "
 "thousands of years ago and still in use today."
 msgstr ""
+"Âm nhạc là phần rất quan trọng trong văn hoá Trung Đông. Có những bài riêng "
+"để gọi tín đồ tới giờ cầu nguyện. Cây đàn luýt được sáng chế cách đây hàng "
+"nghìn năm và tới nay vẫn còn dùng."
 
 #: activities/explore_world_music/resource/board/board1.qml:56
 #: activities/explore_world_music/resource/board/board1.qml:60
 msgctxt "board1|"
 msgid "Japan"
-msgstr ""
+msgstr "Nhật Bản"
 
 #: activities/explore_world_music/resource/board/board1.qml:57
 msgctxt "board1|"
@@ -9416,12 +9445,15 @@ msgid ""
 "to scare enemies in battle. It is very loud, and performances are very "
 "exciting with crowds cheering and performers yelling!"
 msgstr ""
+"Trống taiko đến từ Nhật Bản. Loại trống này ban đầu dùng để doạ quân địch "
+"trong trận đánh. Tiếng trống rất to, buổi diễn thì tưng bừng với đám đông "
+"reo hò và người đánh trống hét vang!"
 
 #: activities/explore_world_music/resource/board/board1.qml:68
 #: activities/explore_world_music/resource/board/board1.qml:72
 msgctxt "board1|"
 msgid "Scotland and Ireland"
-msgstr ""
+msgstr "Scotland và Ireland"
 
 #: activities/explore_world_music/resource/board/board1.qml:69
 msgctxt "board1|"
@@ -9430,12 +9462,15 @@ msgid ""
 "narrative poem or story. Typical instruments include bagpipes, fiddles, "
 "flutes, harps, and accordions."
 msgstr ""
+"Nhạc dân gian vùng này gọi là nhạc Celtic. Bài hát thường kể một câu chuyện "
+"hoặc bài thơ. Nhạc cụ tiêu biểu gồm kèn túi, vĩ cầm, sáo, đàn hạc và phong "
+"cầm."
 
 #: activities/explore_world_music/resource/board/board1.qml:80
 #: activities/explore_world_music/resource/board/board1.qml:84
 msgctxt "board1|"
 msgid "Italy"
-msgstr ""
+msgstr "Ý"
 
 #: activities/explore_world_music/resource/board/board1.qml:81
 msgctxt "board1|"
@@ -9444,12 +9479,15 @@ msgid ""
 "a story by acting and singing. Opera singers, both male and female, learn "
 "special techniques to sing operas."
 msgstr ""
+"Nước Ý nổi tiếng với nhạc kịch Opera. Opera là sân khấu ca nhạc, ở đó diễn "
+"viên vừa diễn vừa hát để kể một câu chuyện. Ca sĩ opera, cả nam lẫn nữ, đều "
+"phải học kỹ thuật hát riêng."
 
 #: activities/explore_world_music/resource/board/board1.qml:92
 #: activities/explore_world_music/resource/board/board1.qml:96
 msgctxt "board1|"
 msgid "European Classical Music"
-msgstr ""
+msgstr "Nhạc cổ điển châu Âu"
 
 #: activities/explore_world_music/resource/board/board1.qml:93
 msgctxt "board1|"
@@ -9457,12 +9495,14 @@ msgid ""
 "Europe is the home of classical music. Famous composers like Bach, "
 "Beethoven, and Mozart forever changed music history."
 msgstr ""
+"Châu Âu là cái nôi của nhạc cổ điển. Những nhà soạn nhạc lừng danh như Bach,"
+" Beethoven và Mozart đã làm thay đổi mãi mãi lịch sử âm nhạc."
 
 #: activities/explore_world_music/resource/board/board1.qml:104
 #: activities/explore_world_music/resource/board/board1.qml:108
 msgctxt "board1|"
 msgid "Mexico"
-msgstr ""
+msgstr "Mexico"
 
 #: activities/explore_world_music/resource/board/board1.qml:105
 msgctxt "board1|"
@@ -9471,12 +9511,14 @@ msgid ""
 "and violins. These bands play for many occasions, including weddings and "
 "parties."
 msgstr ""
+"Mariachi là dòng nhạc Mexico nổi tiếng, gồm ghi-ta, kèn trumpet và vĩ cầm. "
+"Các ban nhạc này chơi trong nhiều dịp, kể cả đám cưới và tiệc tùng."
 
 #: activities/explore_world_music/resource/board/board1.qml:116
 #: activities/explore_world_music/resource/board/board1.qml:120
 msgctxt "board1|"
 msgid "United States of America"
-msgstr ""
+msgstr "Hoa Kỳ"
 
 #: activities/explore_world_music/resource/board/board1.qml:117
 msgctxt "board1|"
@@ -9484,21 +9526,23 @@ msgid ""
 "USA also has a wide variety of musical genres, but perhaps it is most famous"
 " for rock n' roll music. This music features vocalists, guitars, and drums."
 msgstr ""
+"Hoa Kỳ cũng có rất nhiều dòng nhạc, nhưng có lẽ nổi tiếng nhất là nhạc rock "
+"and roll, với giọng hát chính, ghi-ta và trống."
 
 #: activities/explore_world_music/resource/board/board1.qml:130
 msgctxt "board1|"
 msgid "Explore world music. Click on the suitcases."
-msgstr ""
+msgstr "Khám phá âm nhạc thế giới. Hãy bấm vào các chiếc va li."
 
 #: activities/explore_world_music/resource/board/board1.qml:133
 msgctxt "board1|"
 msgid "Click on the location that matches the music you hear."
-msgstr ""
+msgstr "Bấm vào vùng có loại nhạc con vừa nghe."
 
 #: activities/explore_world_music/resource/board/board1.qml:136
 msgctxt "board1|"
 msgid "Click on the location that matches the text."
-msgstr ""
+msgstr "Bấm vào vùng đúng với câu mô tả."
 
 #. Activity title
 #: activities/family/ActivityInfo.qml:15
@@ -9541,24 +9585,24 @@ msgstr ""
 #: activities/family/Family.qml:258
 msgctxt "Family|"
 msgid "Me"
-msgstr ""
+msgstr "Mình"
 
 #: activities/family/Family.qml:283
 msgctxt "Family|"
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: activities/family/Family.qml:344
 #, qt-format
 msgctxt "Family|"
 msgid "Select one of the pairs corresponding to: %1"
-msgstr ""
+msgstr "Chọn một cặp ứng với: %1"
 
 #: activities/family/FamilyDataset.qml:95
 #: activities/family/FamilyDataset.qml:96
 msgctxt "FamilyDataset|"
 msgid "Father"
-msgstr ""
+msgstr "Bố"
 
 #: activities/family/FamilyDataset.qml:96
 #: activities/family/FamilyDataset.qml:191
@@ -9568,7 +9612,7 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:279
 msgctxt "FamilyDataset|"
 msgid "Grandfather"
-msgstr ""
+msgstr "Ông"
 
 #: activities/family/FamilyDataset.qml:96
 #: activities/family/FamilyDataset.qml:326
@@ -9578,13 +9622,13 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:400
 msgctxt "FamilyDataset|"
 msgid "Uncle"
-msgstr ""
+msgstr "Chú"
 
 #: activities/family/FamilyDataset.qml:114
 #: activities/family/FamilyDataset.qml:115
 msgctxt "FamilyDataset|"
 msgid "Mother"
-msgstr ""
+msgstr "Mẹ"
 
 #: activities/family/FamilyDataset.qml:115
 #: activities/family/FamilyDataset.qml:192
@@ -9594,7 +9638,7 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:279
 msgctxt "FamilyDataset|"
 msgid "Grandmother"
-msgstr ""
+msgstr "Bà"
 
 #: activities/family/FamilyDataset.qml:115
 #: activities/family/FamilyDataset.qml:327
@@ -9604,7 +9648,7 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:400
 msgctxt "FamilyDataset|"
 msgid "Aunt"
-msgstr ""
+msgstr "Cô"
 
 #: activities/family/FamilyDataset.qml:137
 #: activities/family/FamilyDataset.qml:138
@@ -9612,7 +9656,7 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:304
 msgctxt "FamilyDataset|"
 msgid "Brother"
-msgstr ""
+msgstr "Anh trai"
 
 #: activities/family/FamilyDataset.qml:138
 #: activities/family/FamilyDataset.qml:163
@@ -9620,7 +9664,7 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:304
 msgctxt "FamilyDataset|"
 msgid "Cousin"
-msgstr ""
+msgstr "Anh em họ"
 
 #: activities/family/FamilyDataset.qml:138
 #: activities/family/FamilyDataset.qml:162
@@ -9628,7 +9672,7 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:304
 msgctxt "FamilyDataset|"
 msgid "Sister"
-msgstr ""
+msgstr "Chị gái"
 
 #: activities/family/FamilyDataset.qml:192
 #: activities/family/FamilyDataset.qml:221
@@ -9637,7 +9681,7 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:279
 msgctxt "FamilyDataset|"
 msgid "Granddaughter"
-msgstr ""
+msgstr "Cháu nội gái"
 
 #: activities/family/FamilyDataset.qml:192
 #: activities/family/FamilyDataset.qml:221
@@ -9646,7 +9690,7 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:279
 msgctxt "FamilyDataset|"
 msgid "Grandson"
-msgstr ""
+msgstr "Cháu nội trai"
 
 #: activities/family/FamilyDataset.qml:327
 #: activities/family/FamilyDataset.qml:349
@@ -9655,7 +9699,7 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:400
 msgctxt "FamilyDataset|"
 msgid "Nephew"
-msgstr ""
+msgstr "Cháu trai"
 
 #: activities/family/FamilyDataset.qml:327
 #: activities/family/FamilyDataset.qml:350
@@ -9664,7 +9708,7 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:400
 msgctxt "FamilyDataset|"
 msgid "Niece"
-msgstr ""
+msgstr "Cháu gái"
 
 #: activities/family/FamilyDataset.qml:424
 #: activities/family/FamilyDataset.qml:425
@@ -9673,7 +9717,7 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:502
 msgctxt "FamilyDataset|"
 msgid "Father-in-law"
-msgstr ""
+msgstr "Bố chồng, bố vợ"
 
 #: activities/family/FamilyDataset.qml:425
 #: activities/family/FamilyDataset.qml:449
@@ -9683,7 +9727,7 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:527
 msgctxt "FamilyDataset|"
 msgid "Mother-in-law"
-msgstr ""
+msgstr "Mẹ chồng, mẹ vợ"
 
 #: activities/family/FamilyDataset.qml:425
 #: activities/family/FamilyDataset.qml:450
@@ -9693,7 +9737,7 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:527
 msgctxt "FamilyDataset|"
 msgid "Sister-in-law"
-msgstr ""
+msgstr "Chị dâu"
 
 #: activities/family/FamilyDataset.qml:425
 #: activities/family/FamilyDataset.qml:450
@@ -9703,7 +9747,7 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:527
 msgctxt "FamilyDataset|"
 msgid "Brother-in-law"
-msgstr ""
+msgstr "Anh rể"
 
 #: activities/family/FamilyDataset.qml:425
 #: activities/family/FamilyDataset.qml:450
@@ -9712,13 +9756,13 @@ msgstr ""
 #: activities/family/FamilyDataset.qml:527
 msgctxt "FamilyDataset|"
 msgid "Daughter-in-law"
-msgstr ""
+msgstr "Con dâu"
 
 #: activities/family/FamilyDataset.qml:526
 #: activities/family/FamilyDataset.qml:527
 msgctxt "FamilyDataset|"
 msgid "Son-in-law"
-msgstr ""
+msgstr "Con rể"
 
 #. Activity title
 #: activities/family_find_relative/ActivityInfo.qml:15
@@ -9778,7 +9822,7 @@ msgstr ""
 #: activities/fifteen/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Arrows: move a piece to the empty space."
-msgstr ""
+msgstr "Phím mũi tên: đẩy một ô vào chỗ trống."
 
 #. Activity title
 #: activities/find_the_day/ActivityInfo.qml:15
@@ -9816,132 +9860,132 @@ msgstr ""
 #: activities/find_the_day/find_the_day_dataset.js:34
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 13 days after May 3rd."
-msgstr ""
+msgstr "Tìm ngày sau ngày 3 tháng 5 đúng 13 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:38
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 7 days after October 1st."
-msgstr ""
+msgstr "Tìm ngày sau ngày 1 tháng 10 đúng 7 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:42
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 31 days after July 12th."
-msgstr ""
+msgstr "Tìm ngày sau ngày 12 tháng 7 đúng 31 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:46
 msgctxt "find_the_day_dataset|"
 msgid "Find the date two weeks after November 27th."
-msgstr ""
+msgstr "Tìm ngày sau ngày 27 tháng 11 đúng hai tuần."
 
 #: activities/find_the_day/find_the_day_dataset.js:50
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 19 days before September 1st."
-msgstr ""
+msgstr "Tìm ngày trước ngày 1 tháng 9 đúng 19 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:54
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 5 days before December 8th."
-msgstr ""
+msgstr "Tìm ngày trước ngày 8 tháng 12 đúng 5 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:74
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 3 days after December 5th."
-msgstr ""
+msgstr "Tìm thứ của ngày sau ngày 5 tháng 12 đúng 3 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:78
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 12 days before November 12th."
-msgstr ""
+msgstr "Tìm thứ của ngày trước ngày 12 tháng 11 đúng 12 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:82
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 32 days after January 5th."
-msgstr ""
+msgstr "Tìm thứ của ngày sau ngày 5 tháng 1 đúng 32 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:86
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 5 days after February 23rd."
-msgstr ""
+msgstr "Tìm thứ của ngày sau ngày 23 tháng 2 đúng 5 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:90
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 17 days before August 16th."
-msgstr ""
+msgstr "Tìm thứ của ngày trước ngày 16 tháng 8 đúng 17 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:111
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 2 weeks and 3 days after January 12th."
-msgstr ""
+msgstr "Tìm ngày sau ngày 12 tháng 1 đúng 2 tuần 3 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:115
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 3 weeks and 2 days after March 22nd."
-msgstr ""
+msgstr "Tìm ngày sau ngày 22 tháng 3 đúng 3 tuần 2 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:119
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 5 weeks and 6 days after October 5th."
-msgstr ""
+msgstr "Tìm ngày sau ngày 5 tháng 10 đúng 5 tuần 6 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:123
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 1 week and 1 day before August 8th."
-msgstr ""
+msgstr "Tìm ngày trước ngày 8 tháng 8 đúng 1 tuần 1 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:127
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 2 weeks and 5 days before July 2nd."
-msgstr ""
+msgstr "Tìm ngày trước ngày 2 tháng 7 đúng 2 tuần 5 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:147
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 5 months and 2 days after July 3rd."
-msgstr ""
+msgstr "Tìm thứ của ngày sau ngày 3 tháng 7 đúng 5 tháng 2 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:151
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 2 months and 4 days after October 8th."
-msgstr ""
+msgstr "Tìm thứ của ngày sau ngày 8 tháng 10 đúng 2 tháng 4 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:155
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 1 month and 3 days before December 28th."
-msgstr ""
+msgstr "Tìm thứ của ngày trước ngày 28 tháng 12 đúng 1 tháng 3 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:159
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 8 months and 7 days after February 28th."
-msgstr ""
+msgstr "Tìm thứ của ngày sau ngày 28 tháng 2 đúng 8 tháng 7 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:163
 msgctxt "find_the_day_dataset|"
 msgid "Find the day of the week 3 months and 3 days before September 15th."
-msgstr ""
+msgstr "Tìm thứ của ngày trước ngày 15 tháng 9 đúng 3 tháng 3 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:182
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 2 months, 1 week and 5 days after January 12th."
-msgstr ""
+msgstr "Tìm ngày sau ngày 12 tháng 1 đúng 2 tháng 1 tuần 5 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:186
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 3 months, 2 weeks and 1 day after August 23rd."
-msgstr ""
+msgstr "Tìm ngày sau ngày 23 tháng 8 đúng 3 tháng 2 tuần 1 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:190
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 5 months, 3 weeks and 2 days after March 20th."
-msgstr ""
+msgstr "Tìm ngày sau ngày 20 tháng 3 đúng 5 tháng 3 tuần 2 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:194
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 1 month 1 week and 1 day before September 10th."
-msgstr ""
+msgstr "Tìm ngày trước ngày 10 tháng 9 đúng 1 tháng 1 tuần 1 ngày."
 
 #: activities/find_the_day/find_the_day_dataset.js:198
 msgctxt "find_the_day_dataset|"
 msgid "Find the date 2 months, 1 week and 8 days before April 7th."
-msgstr ""
+msgstr "Tìm ngày trước ngày 7 tháng 4 đúng 2 tháng 1 tuần 8 ngày."
 
 #. Activity title
 #: activities/followline/ActivityInfo.qml:15
@@ -10028,12 +10072,12 @@ msgstr ""
 #: activities/fractions_create/fractions_create.js:79
 msgctxt "fractions_create|"
 msgid "Find the represented fraction."
-msgstr ""
+msgstr "Tìm phân số được vẽ."
 
 #: activities/fractions_create/resource/1/Data.qml:9
 msgctxt "Data|"
 msgid "Simplified fractions with a pie."
-msgstr ""
+msgstr "Phân số tối giản với hình cái bánh."
 
 #: activities/fractions_create/resource/1/Data.qml:20
 #: activities/fractions_create/resource/3/Data.qml:20
@@ -10041,63 +10085,63 @@ msgstr ""
 #: activities/fractions_create/resource/3/Data.qml:32
 msgctxt "Data|"
 msgid "Select one half of the pie."
-msgstr ""
+msgstr "Chọn một nửa cái bánh."
 
 #: activities/fractions_create/resource/1/Data.qml:26
 #: activities/fractions_create/resource/3/Data.qml:38
 #: activities/fractions_create/resource/3/Data.qml:55
 msgctxt "Data|"
 msgid "Select one-third of the pie."
-msgstr ""
+msgstr "Chọn một phần ba cái bánh."
 
 #: activities/fractions_create/resource/1/Data.qml:32
 #: activities/fractions_create/resource/3/Data.qml:44
 #: activities/fractions_create/resource/3/Data.qml:61
 msgctxt "Data|"
 msgid "Select two-thirds of the pie."
-msgstr ""
+msgstr "Chọn hai phần ba cái bánh."
 
 #: activities/fractions_create/resource/1/Data.qml:38
 #: activities/fractions_create/resource/3/Data.qml:67
 msgctxt "Data|"
 msgid "Select one-quarter of the pie."
-msgstr ""
+msgstr "Chọn một phần tư cái bánh."
 
 #: activities/fractions_create/resource/1/Data.qml:44
 #: activities/fractions_create/resource/3/Data.qml:73
 msgctxt "Data|"
 msgid "Select two-fifths of the pie."
-msgstr ""
+msgstr "Chọn hai phần năm cái bánh."
 
 #: activities/fractions_create/resource/1/Data.qml:55
 msgctxt "Data|"
 msgid "Select one pie and one-quarter of a pie."
-msgstr ""
+msgstr "Chọn một cái bánh và một phần tư cái bánh nữa."
 
 #: activities/fractions_create/resource/1/Data.qml:61
 msgctxt "Data|"
 msgid "Select one pie and two-fifths of a pie."
-msgstr ""
+msgstr "Chọn một cái bánh và hai phần năm cái bánh nữa."
 
 #: activities/fractions_create/resource/1/Data.qml:67
 msgctxt "Data|"
 msgid "Select one pie and one-third of a pie."
-msgstr ""
+msgstr "Chọn một cái bánh và một phần ba cái bánh nữa."
 
 #: activities/fractions_create/resource/1/Data.qml:73
 msgctxt "Data|"
 msgid "Select one pie and one half of a pie."
-msgstr ""
+msgstr "Chọn một cái bánh và một nửa cái bánh nữa."
 
 #: activities/fractions_create/resource/1/Data.qml:79
 msgctxt "Data|"
 msgid "Select one pie and three-quarters of a pie."
-msgstr ""
+msgstr "Chọn một cái bánh và ba phần tư cái bánh nữa."
 
 #: activities/fractions_create/resource/10/Data.qml:9
 msgctxt "Data|"
 msgid "Specific questions with a square."
-msgstr ""
+msgstr "Câu hỏi riêng với hình vuông."
 
 #: activities/fractions_create/resource/10/Data.qml:20
 #: activities/fractions_create/resource/10/Data.qml:26
@@ -10105,11 +10149,12 @@ msgctxt "Data|"
 msgid ""
 "Select as many parts as you can without taking more than half of the square."
 msgstr ""
+"Chọn càng nhiều phần càng tốt, nhưng không được quá một nửa hình vuông."
 
 #: activities/fractions_create/resource/2/Data.qml:9
 msgctxt "Data|"
 msgid "Simplified fractions with a square."
-msgstr ""
+msgstr "Phân số tối giản với hình vuông."
 
 #: activities/fractions_create/resource/2/Data.qml:20
 #: activities/fractions_create/resource/4/Data.qml:20
@@ -10117,98 +10162,98 @@ msgstr ""
 #: activities/fractions_create/resource/4/Data.qml:32
 msgctxt "Data|"
 msgid "Select one half of the square."
-msgstr ""
+msgstr "Chọn một nửa hình vuông."
 
 #: activities/fractions_create/resource/2/Data.qml:26
 #: activities/fractions_create/resource/4/Data.qml:38
 #: activities/fractions_create/resource/4/Data.qml:55
 msgctxt "Data|"
 msgid "Select one-third of the square."
-msgstr ""
+msgstr "Chọn một phần ba hình vuông."
 
 #: activities/fractions_create/resource/2/Data.qml:32
 #: activities/fractions_create/resource/4/Data.qml:44
 #: activities/fractions_create/resource/4/Data.qml:61
 msgctxt "Data|"
 msgid "Select two-thirds of the square."
-msgstr ""
+msgstr "Chọn hai phần ba hình vuông."
 
 #: activities/fractions_create/resource/2/Data.qml:38
 #: activities/fractions_create/resource/4/Data.qml:67
 msgctxt "Data|"
 msgid "Select one-quarter of the square."
-msgstr ""
+msgstr "Chọn một phần tư hình vuông."
 
 #: activities/fractions_create/resource/2/Data.qml:44
 #: activities/fractions_create/resource/4/Data.qml:73
 msgctxt "Data|"
 msgid "Select two-fifths of the square."
-msgstr ""
+msgstr "Chọn hai phần năm hình vuông."
 
 #: activities/fractions_create/resource/2/Data.qml:55
 msgctxt "Data|"
 msgid "Select one square and one-quarter of a square."
-msgstr ""
+msgstr "Chọn một hình vuông và một phần tư hình vuông nữa."
 
 #: activities/fractions_create/resource/2/Data.qml:61
 msgctxt "Data|"
 msgid "Select one square and two-fifths of a square."
-msgstr ""
+msgstr "Chọn một hình vuông và hai phần năm hình vuông nữa."
 
 #: activities/fractions_create/resource/2/Data.qml:67
 msgctxt "Data|"
 msgid "Select one square and one-third of a square."
-msgstr ""
+msgstr "Chọn một hình vuông và một phần ba hình vuông nữa."
 
 #: activities/fractions_create/resource/2/Data.qml:73
 msgctxt "Data|"
 msgid "Select one square and one half of a square."
-msgstr ""
+msgstr "Chọn một hình vuông và một nửa hình vuông nữa."
 
 #: activities/fractions_create/resource/2/Data.qml:79
 msgctxt "Data|"
 msgid "Select one square and three-quarters of a square."
-msgstr ""
+msgstr "Chọn một hình vuông và ba phần tư hình vuông nữa."
 
 #: activities/fractions_create/resource/3/Data.qml:9
 msgctxt "Data|"
 msgid "Non-simplified fractions with a pie."
-msgstr ""
+msgstr "Phân số chưa tối giản với hình cái bánh."
 
 #: activities/fractions_create/resource/3/Data.qml:79
 msgctxt "Data|"
 msgid "Select three-fifths of the pie."
-msgstr ""
+msgstr "Chọn ba phần năm cái bánh."
 
 #: activities/fractions_create/resource/4/Data.qml:9
 msgctxt "Data|"
 msgid "Non-simplified fractions with a square."
-msgstr ""
+msgstr "Phân số chưa tối giản với hình vuông."
 
 #: activities/fractions_create/resource/4/Data.qml:79
 msgctxt "Data|"
 msgid "Select three-fifths of the square."
-msgstr ""
+msgstr "Chọn ba phần năm hình vuông."
 
 #: activities/fractions_create/resource/5/Data.qml:9
 msgctxt "Data|"
 msgid "Decimal numbers with a pie."
-msgstr ""
+msgstr "Số thập phân với hình cái bánh."
 
 #: activities/fractions_create/resource/5/Data.qml:20
 msgctxt "Data|"
 msgid "Select 0.5 pie."
-msgstr ""
+msgstr "Chọn 0,5 cái bánh."
 
 #: activities/fractions_create/resource/5/Data.qml:26
 msgctxt "Data|"
 msgid "Select 0.25 pie."
-msgstr ""
+msgstr "Chọn 0,25 cái bánh."
 
 #: activities/fractions_create/resource/5/Data.qml:32
 msgctxt "Data|"
 msgid "Select 0.4 pie."
-msgstr ""
+msgstr "Chọn 0,4 cái bánh."
 
 #: activities/fractions_create/resource/5/Data.qml:38
 msgctxt "Data|"
