@@ -17,6 +17,25 @@ GCompris: gói Debian `gcompris-qt 3.1-2` (không phải bản 26.1 mà bản d�
 
 ![Hoạt động Vòng tuần hoàn nước](anh/neo-one-vong-tuan-hoan-nuoc.png)
 
+## Hai lỗi người dùng phát hiện, đã sửa
+
+**1. Nhiều tên hoạt động vẫn ra tiếng Anh.** Ảnh chụp màn hình cho thấy "Baby keyboard",
+"Baby mouse", "A baby word processor". Nguyên nhân: bản 3.1 dùng lời cũ, còn po dựng
+theo bản 26.1 đã đổi lời (thành "My first keyboard"…). Có **281 chuỗi** như vậy.
+Cách chữa: thêm catalog `po/gcompris_qt_doi-cu.po` chứa đúng những chuỗi đời cũ,
+`tools/build_qm.sh` gộp cả hai vào một tệp `.qm`. Sau khi sửa, độ phủ trên máy đi từ
+2.891 lên **3.100/3.790 chuỗi**; 690 chuỗi còn lại thì 676 nằm trong danh sách cố ý giữ
+nguyên và 14 là tên riêng, đơn vị — tiếng Việt viết y hệt.
+
+**2. "Vận hành âu thuyền" là dịch sai.** *Âu thuyền* là vũng kín để tàu thuyền tránh
+bão; công trình nâng hạ mực nước cho tàu qua như ở kênh Panama gọi là **âu tàu**.
+Đã sửa tên hoạt động thành **"Cho thuyền qua âu tàu"** và sửa cả 5 chuỗi liên quan
+cùng lời đọc trong kho giọng.
+
+![Mục Máy tính sau khi sửa](anh/neo-one-may-tinh-sau-sua.png)
+
+![Mục Thí nghiệm — Cho thuyền qua âu tàu](anh/neo-one-thi-nghiem-au-tau.png)
+
 ## Ba điều học được trên máy thật
 
 **1. Đường dẫn kho giọng đổi theo đời GCompris.** Bản 3.1 tìm ở

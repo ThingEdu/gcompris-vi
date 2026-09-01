@@ -3570,7 +3570,7 @@ msgstr ""
 #: activities/canal_lock/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Operate a canal lock"
-msgstr "Vận hành âu thuyền"
+msgstr "Cho thuyền qua âu tàu"
 
 #. Help title
 #: activities/canal_lock/ActivityInfo.qml:17
@@ -3579,14 +3579,14 @@ msgid ""
 "Tux is in trouble, and needs to take his boat through a lock. Help Tux and "
 "find out how a canal lock works."
 msgstr ""
-"Tux đang gặp khó, thuyền của bạn ấy phải qua âu thuyền. Giúp Tux và tìm hiểu"
-" âu thuyền hoạt động thế nào."
+"Tux đang gặp khó, thuyền của bạn ấy phải qua âu tàu. Giúp Tux và tìm hiểu âu"
+" tàu hoạt động thế nào."
 
 #. Help goal
 #: activities/canal_lock/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Understand how a canal lock works."
-msgstr "Hiểu âu thuyền hoạt động thế nào."
+msgstr "Hiểu âu tàu hoạt động thế nào."
 
 #. Help manual
 #: activities/canal_lock/ActivityInfo.qml:23
@@ -3595,8 +3595,8 @@ msgid ""
 "You are in charge of the canal lock. Open the gates and the locks in the "
 "right order, so that Tux can travel through the gates in both directions."
 msgstr ""
-"Con phụ trách âu thuyền. Hãy mở cổng và cửa nước theo đúng thứ tự để Tux đi "
-"qua được cả hai chiều."
+"Con phụ trách âu tàu. Hãy mở cổng và cửa nước theo đúng thứ tự để Tux đi qua"
+" được cả hai chiều."
 
 #: activities/canal_lock/CanalLock.qml:74
 msgctxt "CanalLock|"
@@ -3604,8 +3604,8 @@ msgid ""
 "Your goal is to lead Tux across the canal lock to get the wooden logs, using"
 " the different types of water locks available."
 msgstr ""
-"Việc của con là đưa Tux qua âu thuyền để lấy được mấy khúc gỗ, bằng cách "
-"dùng các cửa nước có sẵn."
+"Việc của con là đưa Tux qua âu tàu để lấy được mấy khúc gỗ, bằng cách dùng "
+"các cửa nước có sẵn."
 
 #: activities/canal_lock/CanalLock.qml:77
 msgctxt "CanalLock|"
