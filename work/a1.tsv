@@ -1,0 +1,250 @@
+0	ActivityConfig	Automatic
+1	ActivityConfig	OK button
+2	ActivityConfig	Validate answers
+7	Adjacent_numbers	Find the %n previous number(s).
+8	Adjacent_numbers	Find the %n next number(s).
+9	Adjacent_numbers	Find the %n in-between number(s)
+10	Adjacent_numbers	Find the %n missing numbers
+11	Data	Find numbers between 1 and 10.
+12	Data	Find numbers between 0 and 20.
+13	Data	Find numbers between 0 and 100.
+14	Data	Find numbers between -10 and -1.
+15	Data	Find numbers between -10 and 10.
+21	ActivityInfo	<b>Keyboard controls:</b>
+22	ActivityInfo	Arrows: navigate
+23	ActivityInfo	Space or Enter: select an item
+24	advanced_colors	Find the coral butterfly
+25	advanced_colors	Find the claret butterfly
+26	advanced_colors	Find the navy butterfly
+27	advanced_colors	Find the corn butterfly
+28	advanced_colors	Find the cobalt butterfly
+29	advanced_colors	Find the cyan butterfly
+30	advanced_colors	Find the chestnut butterfly
+31	advanced_colors	Find the almond butterfly
+32	advanced_colors	Find the sapphire butterfly
+33	advanced_colors	Find the ruby butterfly
+34	advanced_colors	Find the sienna butterfly
+35	advanced_colors	Find the sage butterfly
+36	advanced_colors	Find the salmon butterfly
+37	advanced_colors	Find the sepia butterfly
+38	advanced_colors	Find the sulfur butterfly
+39	advanced_colors	Find the tea butterfly
+40	advanced_colors	Find the lime butterfly
+41	advanced_colors	Find the turquoise butterfly
+42	advanced_colors	Find the absinthe butterfly
+43	advanced_colors	Find the mahogany butterfly
+44	advanced_colors	Find the aquamarine butterfly
+45	advanced_colors	Find the alabaster butterfly
+46	advanced_colors	Find the amber butterfly
+47	advanced_colors	Find the amethyst butterfly
+48	advanced_colors	Find the anise butterfly
+49	advanced_colors	Find the vermilion butterfly
+50	advanced_colors	Find the ceruse butterfly
+51	advanced_colors	Find the fawn butterfly
+52	advanced_colors	Find the chartreuse butterfly
+53	advanced_colors	Find the emerald butterfly
+54	advanced_colors	Find the aubergine butterfly
+55	advanced_colors	Find the fuchsia butterfly
+56	advanced_colors	Find the glaucous butterfly
+57	advanced_colors	Find the auburn butterfly
+58	advanced_colors	Find the azure butterfly
+59	advanced_colors	Find the grayish brown butterfly
+60	advanced_colors	Find the bistre butterfly
+61	advanced_colors	Find the crimson butterfly
+62	advanced_colors	Find the celadon butterfly
+63	advanced_colors	Find the cerulean butterfly
+64	advanced_colors	Find the dove butterfly
+65	advanced_colors	Find the garnet butterfly
+66	advanced_colors	Find the indigo butterfly
+67	advanced_colors	Find the ivory butterfly
+68	advanced_colors	Find the jade butterfly
+69	advanced_colors	Find the lavender butterfly
+70	advanced_colors	Find the lichen butterfly
+71	advanced_colors	Find the wine butterfly
+72	advanced_colors	Find the lilac butterfly
+73	advanced_colors	Find the magenta butterfly
+74	advanced_colors	Find the malachite butterfly
+75	advanced_colors	Find the larch butterfly
+76	advanced_colors	Find the mimosa butterfly
+77	advanced_colors	Find the ochre butterfly
+78	advanced_colors	Find the olive butterfly
+79	advanced_colors	Find the opaline butterfly
+80	advanced_colors	Find the ultramarine butterfly
+81	advanced_colors	Find the mauve butterfly
+82	advanced_colors	Find the grayish blue butterfly
+83	advanced_colors	Find the pistachio butterfly
+84	advanced_colors	Find the platinum butterfly
+85	advanced_colors	Find the purple butterfly
+86	advanced_colors	Find the plum butterfly
+87	advanced_colors	Find the prussian blue butterfly
+88	advanced_colors	Find the rust butterfly
+89	advanced_colors	Find the saffron butterfly
+90	advanced_colors	Find the vanilla butterfly
+91	advanced_colors	Find the veronese butterfly
+92	advanced_colors	Find the verdigris butterfly
+93	advanced_colors	Find the dark purple butterfly
+94	ActivityConfig	Speed
+100	ActivityInfo	Digits: type your answer
+101	ActivityInfo	Backspace: delete the last digit in your answer
+102	ActivityInfo	Enter: validate your answer
+103	Data	Learn multiplication table of 1.
+104	Data	Learn multiplication table of 10.
+105	Data	Practice multiplication tables from 1 to 10.
+106	Data	Learn multiplication table of 2.
+107	Data	Learn multiplication table of 3.
+108	Data	Learn multiplication table of 4.
+109	Data	Learn multiplication table of 5.
+110	Data	Learn multiplication table of 6.
+111	Data	Learn multiplication table of 7.
+112	Data	Learn multiplication table of 8.
+113	Data	Learn multiplication table of 9.
+119	Data	Learn division table of 1.
+120	Data	Learn division table of 10.
+121	Data	Practice division tables from 1 to 10.
+122	Data	Learn division table of 2.
+123	Data	Learn division table of 3.
+124	Data	Learn division table of 4.
+125	Data	Learn division table of 5.
+126	Data	Learn division table of 6.
+127	Data	Learn division table of 7.
+128	Data	Learn division table of 8.
+129	Data	Learn division table of 9.
+135	Data	Learn subtraction table of 1.
+136	Data	Learn subtraction table of 10.
+137	Data	Subtractions from number up to 10.
+138	Data	Subtractions from number up to 20.
+139	Data	Subtractions from number up to 100.
+140	Data	Learn subtraction table of 2.
+141	Data	Learn subtraction table of 3.
+142	Data	Learn subtraction table of 4.
+143	Data	Learn subtraction table of 5.
+144	Data	Learn subtraction table of 6.
+145	Data	Learn subtraction table of 7.
+146	Data	Learn subtraction table of 8.
+147	Data	Learn subtraction table of 9.
+153	Data	Learn addition table of 1.
+154	Data	Learn addition table of 10.
+155	Data	Additions with numbers up to 10.
+156	Data	Additions with numbers up to 15.
+157	Data	Additions with result up to 100.
+158	Data	Learn addition table of 2.
+159	Data	Learn addition table of 3.
+160	Data	Learn addition table of 4.
+161	Data	Learn addition table of 5.
+162	Data	Learn addition table of 6.
+163	Data	Learn addition table of 7.
+164	Data	Learn addition table of 8.
+165	Data	Learn addition table of 9.
+174	ActivityInfo	You can create a line of 4 tokens either horizontally (lying down), vertically (standing up), or diagonally.
+175	ActivityInfo	You can use the arrow buttons to manually select the difficulty level. Tux will play better when you increase the level.
+176	ActivityInfo	Left arrow: move the token to the left
+177	ActivityInfo	Right arrow: move the token to the right
+178	ActivityInfo	Space or Down arrow: drop the token
+186	ActivityInfo	Arrows: move the helicopter
+187	AlphabetSequence	a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z
+188	ActivityConfig	Tutorial Mode
+189	ActivityConfig	Free Mode
+190	ActivityConfig	Select your mode
+196	ActivityInfo	To delete a component or wire, select the deletion tool on top of the component selector, and select the component or wire.
+197	ActivityInfo	You can click on the component and then on the rotate buttons to rotate it or on the info button to get information about it.
+198	ActivityInfo	You can click on the switch to open and close it. Likewise, you can change the rheostat value by dragging its slider.
+199	ActivityInfo	To connect two terminals, click on the first terminal, then on the second terminal. To deselect a terminal, click on any empty area.
+200	ActivityInfo	For repairing a broken bulb or LED, click on it after disconnecting it from the circuit. The simulation is updated in real time by any user action.
+201	ActivityInfo	The electric simulation engine is from edX: 
+202	cktsim	Warning! Circuit has a voltage source loop or a source shorted by a wire, please remove the wire causing the short.
+203	cktsim	Warning! Simulator might produce meaningless results or no result with this circuit.
+204	Battery	Battery is used for powering up electrical devices. It can supply voltage in a closed circuit. Which means there should be a path for the current to flow from one terminal of the battery to the other.
+205	Battery	If the current in a circuit is too high then the battery can be damaged.
+206	Battery	V = %1V
+207	Battery	I = %1A
+208	Bulb	Bulb glows when it has enough power. Its intensity is proportional to the supplied voltage. It will be broken if there is a power greater than a certain limit.
+209	Bulb	V = %1V
+210	Bulb	I = %1A
+211	Connection	A simple connection point to connect several wires in an electrical circuit.
+212	RedLed	Red LED converts electrical energy into red light energy. It can glow only if the current flow is in the direction of the arrow. Electrical energy more than a certain limit can break it.
+213	Resistor	Resistors are used to reduce the current flow in an electrical circuit.
+214	Resistor	V = %1V
+215	Resistor	I = %1A
+216	Rheostat	Rheostat is used to vary resistance in an electrical circuit.
+217	Rheostat	V = %1V
+218	Rheostat	I = %1A
+219	Switch1	Switch can connect or disconnect the conducting path in an electrical circuit.
+220	Switch2	A three points switch can toggle a circuit between two connection points.
+221	TutorialDataset	Battery
+222	TutorialDataset	Bulb
+223	TutorialDataset	Switch
+224	TutorialDataset	3 points switch
+225	TutorialDataset	Simple connector
+226	TutorialDataset	Rheostat
+227	TutorialDataset	Resistor
+228	TutorialDataset	Red LED
+229	TutorialDataset	A bulb glows when current travels through it. If there is a gap in the path, the current cannot travel and the electrical devices will not work.
+230	TutorialDataset	The travelling path is called a circuit. Electrical devices can work only in a closed circuit. Wires can be used to connect devices and create the circuit.
+231	TutorialDataset	For a detailed description of battery and bulb, click on those and then click on the info button.
+232	TutorialDataset	Turn on the bulb using the provided battery. To connect two terminals, click on a terminal, then on a second terminal.
+233	TutorialDataset	When connecting two terminals which are not supposed to be connected, it creates a short circuit (also called short) in the electrical circuit.
+234	TutorialDataset	If both terminals of some batteries are directly connected together or they are shorted, then those batteries create a voltage source loop and they cannot act as a voltage source for the circuit.
+235	TutorialDataset	For example, if two terminals of one battery are directly connected together, it creates a voltage source loop.
+236	TutorialDataset	Or, if two batteries are forming a closed circuit together, it creates a voltage source loop.
+237	TutorialDataset	Create a voltage source loop with the provided batteries. Then click on the warning box to make it disappear and click on the OK button.
+238	TutorialDataset	Too much current in an electrical circuit can damage the connected devices.
+239	TutorialDataset	To repair a broken bulb in this activity, click on it after disconnecting it from the circuit. Don't forget to disable the delete button after removing the connected wires.
+240	TutorialDataset	Break the bulb by connecting it with the two batteries.
+241	TutorialDataset	A switch can connect or disconnect the current travelling path or a circuit.
+242	TutorialDataset	You can click on the switch to open and close it.
+243	TutorialDataset	Create a circuit using the provided components so that the bulb glows only when the switch is on.
+244	TutorialDataset	A simple connector can be used to connect several wires in an electrical circuit.
+245	TutorialDataset	Create a circuit so that one bulb should be always lit and the other should be lit only when the switch is on.
+246	TutorialDataset	Electric current intensity or simply current is a flow of electric charge. One can imagine like a flow of electrons.
+247	TutorialDataset	The conventional symbol for current is I. The unit of current is ampere under the International System of Units, which is denoted as A.
+248	TutorialDataset	Voltage or electric potential difference is what makes a current in a circuit. It is like a "push" or "pull" for electric charge.
+249	TutorialDataset	The conventional symbol for voltage is V. The unit of measure of voltage is volt under the International System of Units, which is denoted as V.
+250	TutorialDataset	Light the bulb and observe the displayed values.
+251	TutorialDataset	A resistor restricts the flow of current in an electrical circuit. The restriction of current is called resistance.
+252	TutorialDataset	The conventional symbol for resistance is R. The unit of measure of resistance is ohm under the International System of Units, which is denoted as Ω.
+253	TutorialDataset	Light the bulb so that the bulb glows with 5V using the provided components.
+254	TutorialDataset	A rheostat is used to vary resistance in an electrical circuit.
+255	TutorialDataset	You can change the rheostat value by dragging its slider.
+256	TutorialDataset	Connect the bulb to the appropriate terminals of the rheostat so that the light intensity of the bulb can be changed while dragging the slider.
+257	TutorialDataset	A rheostat can act as a simple resistor if the terminals of the extremities are connected in a circuit.
+258	TutorialDataset	Connect the bulb to the appropriate terminals of the rheostat so that the slider cannot change the light intensity of the bulb.
+259	TutorialDataset	Connect the bulb to the appropriate terminals of the rheostat and set the slider so that the voltage drop in the bulb should be 10V. Note that the bulb intensity should vary while dragging the slider.
+260	TutorialDataset	 A red LED converts electrical energy into red light energy under particular conditions.
+261	TutorialDataset	The first condition is current flow in it should be in the direction of the arrow. That means the positive terminal of the battery connected to the terminal at the tail of the arrow shown, and the negative terminal to the head side. This condition is called forward bias.
+262	TutorialDataset	Electrical energy more than a certain limit can break an LED. In this activity, you can click on the broken red LED after disconnecting from the circuit to repair it.
+263	TutorialDataset	Connect the provided red LED to the battery in forward bias. Don't worry about the broken LED for now.
+264	TutorialDataset	The battery is providing too much energy to the LED.
+265	TutorialDataset	One can limit the electrical energy by restricting the current flow in a circuit. That means using a resistor.
+266	TutorialDataset	Light the red LED using the provided components.
+267	TutorialDataset	Create a circuit so that the voltage drop in both bulbs are equal to the voltage source (battery).
+277	ActivityInfo	The leftmost column contains 4 ducks, clicking on one of them produces a sound and an animation.
+278	ActivityInfo	The central area contains a blue duck, moving the mouse cursor or doing a drag gesture on a touchscreen makes the blue duck move.
+279	ActivityInfo	The arrows area, clicking on one of them makes the blue duck move in the corresponding direction.
+280	ActivityInfo	Doing a simple click in the central area shows a marker at the click position.
+285	ActivityConfig	Play characters' sound when typed
+290	ActivityInfo	Arrows: navigate inside the text
+291	ActivityInfo	Shift + Arrows: select a part of the text
+292	ActivityInfo	Ctrl + A: select all the text
+293	ActivityInfo	Ctrl + C: copy selected text
+294	ActivityInfo	Ctrl + X: cut selected text
+295	ActivityInfo	Ctrl + V: paste copied or cut text
+296	ActivityInfo	Ctrl + D: delete selected text
+297	ActivityInfo	Ctrl + Z: undo
+298	ActivityInfo	Ctrl + Shift + Z: redo
+299	BabyWordprocessor	Title
+300	BabyWordprocessor	Subtitle
+301	BabyWordprocessor	Paragraph
+302	BabyWordprocessor	Load
+303	BabyWordprocessor	Save
+309	board1_0	Drag and drop the items to match them.
+314	ActivityInfo	The dog is provided by Andre Connes and released under the GPL
+315	board1_0	Drag and Drop the items to match them.
+316	board5_0	Hello! My name is Lock.
+317	board6_0	Lock with colored shapes.
+318	board7_0	Paul Gauguin, Arearea - 1892
+319	board7_1	Pieter Bruegel the Elder, The peasants wedding - 1568
+320	board7_2	The Lady and the Unicorn - XVe century
+321	board7_3	Vincent van Gogh, Bedroom in Arles - 1888
+322	board7_4	Ambrosius Bosschaert the Elder, Flower Still Life - 1614
+323	ActivityConfig	Built-in
+324	ActivityConfig	User
