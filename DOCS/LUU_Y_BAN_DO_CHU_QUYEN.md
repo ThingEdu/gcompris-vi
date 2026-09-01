@@ -157,8 +157,9 @@ Script tự kiểm khứ hồi tệp `.rcc` trước khi sửa; khứ hồi khô
 - **Bản đồ thế giới ở cấp 1 (Các châu lục) chưa vẽ.** Phép chiếu của bản đồ này không
   khớp mô hình tuyến tính (hồi quy cho sai lệch tới ±34 đơn vị), nên đặt đảo vào đó dễ
   sai vị trí — sai còn tệ hơn thiếu. Cần dựng lại phép chiếu bằng cách khác trước khi làm.
-- **Bản đồ hành chính Việt Nam** cho hoạt động *Tìm vùng trên bản đồ* vẫn chưa có
-  (cần bộ 34 tỉnh thành).
+- ~~**Bản đồ hành chính Việt Nam** cho hoạt động *Tìm vùng trên bản đồ* vẫn chưa có~~
+  **ĐÃ LÀM 02/09/2026** — bộ 34 tỉnh thành theo Nghị quyết 202/2025/QH15, có Hoàng Sa
+  và Trường Sa vẽ đúng toạ độ trên lớp nền. Xem [BAN_DO_34_TINH_THANH.md](BAN_DO_34_TINH_THANH.md).
 - **Gửi ngược lên KDE**: bản vá này nên đề nghị đưa vào GCompris gốc.
 - Toạ độ các đảo lấy theo danh mục địa danh hành chính huyện đảo Hoàng Sa (Đà Nẵng) và
   huyện đảo Trường Sa (Khánh Hòa) — nên để một người có chuyên môn bản đồ soát lại

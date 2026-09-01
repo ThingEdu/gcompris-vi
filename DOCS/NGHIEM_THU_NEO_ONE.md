@@ -67,3 +67,31 @@ cp voices-vi-*.rcc ~/.cache/KDE/gcompris-qt/data2/voices-ogg/voices-vi.rcc
 #   đặt locale=vi_VN.UTF-8 và enableAutomaticDownloads=false trong
 #   ~/.config/gcompris/gcompris-qt.conf
 ```
+
+## Đợt 2 — 02/09/2026: bản đồ hành chính 34 tỉnh thành
+
+Thêm bộ bản đồ 34 tỉnh thành Việt Nam vào hoạt động *Tìm vùng trên bản đồ*, xếp
+vào bộ "Các nước châu Á" (mức 9 trên tổng 19). Chi tiết ở
+[BAN_DO_34_TINH_THANH.md](BAN_DO_34_TINH_THANH.md).
+
+![Bản đồ 34 tỉnh thành trên NEO One](anh/neo-one-34-tinh-thanh.png)
+
+**Lỗi người dùng phát hiện trên máy thật.** Bản dựng đầu vẽ nền bằng cách hợp nhất
+34 tỉnh thành một khối trắng liền — trên màn hình chỉ còn hình chữ S trơn với mấy
+chấm đích, học sinh không có manh mối nào để biết mảnh nào vào đâu. Các bản đồ
+Argentina, Hoa Kỳ, Úc của GCompris đều vẽ riêng từng đơn vị để lộ đường ranh. Đã
+sửa: `ve_nen()` giờ vẽ 34 đường riêng thay vì một `unary_union`.
+
+**Hai điều học được về việc chụp màn hình từ xa.**
+
+1. `pkill -f gcompris-qt` qua ssh tự giết chính nó, vì dòng lệnh của `bash -c` cũng
+   chứa chuỗi đó. Phải viết `pkill -f '[g]compris-qt'`.
+2. Không kết nối được `DISPLAY=:0` do lightdm giữ cookie ở `/var/run/lightdm/root/:0`.
+   Mở bằng `sudo env DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 xhost +local:`.
+   Máy không có ImageMagick nhưng có `gnome-screenshot`, xuất thẳng PNG.
+
+**Chưa làm được:** kéo thả tự động bằng `xdotool` không vượt được ngưỡng kéo của Qt
+nên chưa dựng được ảnh "xếp xong" trên máy thật. Đã kiểm bằng cách khác: 34 chấm
+đích do chính GCompris vẽ ra từ toạ độ trong board đều rơi đúng vào ô tỉnh của nó,
+và bản dựng lại ngoại tuyến theo đúng công thức của `Babymatch.qml` cho ra bản đồ
+khít từng mảnh.

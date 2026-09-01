@@ -13,7 +13,8 @@ thống kê KDE ghi nhận 6.190 chuỗi, 0% đã dịch.
 |---|---|
 | Giao diện, tên và mô tả 203 hoạt động, hướng dẫn | **4.277/4.277 chuỗi đã xử lý** — 3.662 dịch, 615 cố ý giữ nguyên (tên riêng nước ngoài, ký hiệu) |
 | Kho giọng đọc tiếng Việt | 202/888 tệp — lời dẫn 114 hoạt động, bảng chữ cái, chữ số, lời khen, màu sắc |
-| Đường ống dựng lại từ đầu | `.qm`, `core.rcc` đã vá, `voices-vi.rcc` |
+| Bản đồ Việt Nam | Hoàng Sa + Trường Sa vá vào bản đồ châu Á; **bản đồ hành chính 34 tỉnh thành** mới, GCompris gốc không có |
+| Đường ống dựng lại từ đầu | `.qm`, `core.rcc` đã vá, `voices-vi.rcc`, `geography.rcc`, `geo-country.rcc` |
 
 Đã nghiệm thu trên GCompris thật: **382/382 hoạt động** hiện tên, mô tả và
 hướng dẫn bằng tiếng Việt.
@@ -75,6 +76,7 @@ nhiệt độ lấy mẫu khác, kèm cắt lặng và kiểm thời lượng th
 po/gcompris_qt.po        bản dịch
 po/giu-nguyen.txt        chuỗi cố ý để nguyên tiếng Anh
 voices/manifest/*.tsv    lời đọc cho từng tệp giọng
+maps/34-tinh/            bản đồ hành chính 34 tỉnh thành (1 nền + 34 mảnh + board)
 tools/                   dựng khung po, xuất/nhập đợt dịch, kiểm tra,
                          bung/đóng .rcc, sinh giọng, dựng .qm
 deploy/install_vi.sh     cài vào một bản GCompris đã có
@@ -82,7 +84,7 @@ tests/                   test cho bộ kiểm tra bản dịch
 ```
 
 ```bash
-./.venv/bin/python -m pytest tests/          # 15 test
+./.venv/bin/python -m pytest tests/          # 56 test
 ./.venv/bin/python tools/check_po.py po/gcompris_qt.po
 ./.venv/bin/python tools/po_batch.py stats po/gcompris_qt.po
 ```
