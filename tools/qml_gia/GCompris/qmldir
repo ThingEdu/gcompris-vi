@@ -1,2 +1,6 @@
 module GCompris
 ActivityInfo 1.0 ActivityInfo.qml
+File 1.0 File.qml
+singleton ApplicationInfo 1.0 ApplicationInfo.qml
+singleton ApplicationSettings 1.0 ApplicationSettings.qml
+singleton DownloadManager 1.0 DownloadManager.qml
