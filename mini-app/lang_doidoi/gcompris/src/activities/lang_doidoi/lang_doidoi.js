@@ -53,12 +53,20 @@ function bocucNgauNhien(items, soHinh) {
 }
 
 /* ---------------------------------------------------- trạng thái ván Luật làng
- * Chia bài: xáo cả bộ, thẻ đầu làm THẺ CHUNG — đặt giữa màn, KHÔNG đổi suốt
- * ván. Tiếp theo mỗi người một THẺ RIÊNG, bày thành hàng, ai cũng thấy thẻ
- * của mọi người. Số còn lại úp thành CHỒNG.
- * Gọi đúng: thẻ riêng của người đó được thay bằng thẻ mới rút từ chồng; thẻ
- * chung giữ nguyên suốt ván — chỉ bố cục/bo_cuc của thẻ chung được tính MỘT
- * LẦN lúc chia bài, không tính lại.
+ * và Luật ăn thua (mục 7b: dùng lại y nguyên bố cục, khác ba điều — xem
+ * DOCS/MINI_APP_DOI_DOI_LANG.md).
+ *
+ * Chia bài: xáo cả bộ, thẻ đầu làm THẺ CHUNG — đặt giữa màn. Tiếp theo mỗi
+ * người một THẺ RIÊNG, bày thành hàng, ai cũng thấy thẻ của mọi người. Số
+ * còn lại úp thành CHỒNG.
+ *
+ * Luật làng (an_thua=false): gọi đúng thì THẺ RIÊNG của người đó được thay
+ * bằng thẻ mới rút từ chồng; thẻ chung giữ nguyên suốt ván.
+ * Luật ăn thua (an_thua=true): NGƯỢC LẠI — gọi đúng thì THẺ CHUNG được thay
+ * bằng thẻ mới rút từ chồng; thẻ riêng của mọi người giữ nguyên. Đổi thẻ xong
+ * còn phải che lại đếm 3-2-1 rồi mới mở (dang_dem_nguoc/dem — xem
+ * batDauDemNguoc()/tickDemNguoc()), và điểm (dùng lại field luot có sẵn) hiện
+ * công khai suốt ván thay vì giấu tới cuối ván.
  */
 var van = null
 
@@ -66,6 +74,7 @@ function batDauVan(items) {
     var boBai = docJson(items.capKho ? "bo_bai_57.json" : "bo_bai_31.json")
     var the = tron(boBai.the.slice())
     var soHinh = items.capKho ? 8 : 6
+    var anThua = !!items.anThua
 
     van = {
         chong: the,
@@ -73,12 +82,16 @@ function batDauVan(items) {
         the_rieng: [],          // soNguoi phần tử, mỗi phần tử là một thẻ
         bo_cuc_chung: [], goc_chung: [],
         bo_cuc_rieng: [], goc_rieng: [],
-        luot: [],                // số lượt từng người, KHÔNG hiện trong ván
+        luot: [],                // số lượt/điểm từng người — Luật làng giấu
+                                  // trong ván, Luật ăn thua hiện công khai
         khoa_den: [],             // mốc thời gian hết khoá của từng người
         nguoi_dang_chon: -1,
         da_goi_y: [],             // theo TỪNG người, không phải một cờ chung
         bat_dau: Date.now(),
-        xong: false
+        xong: false,
+        an_thua: anThua,
+        dang_dem_nguoc: false,    // Luật ăn thua: đang che thẻ đếm 3-2-1
+        dem: -1                   // 3,2,1,0 = "Tìm đi!", -1 = không đếm
     }
 
     van.the_chung = van.chong.shift()
@@ -100,13 +113,21 @@ function batDauVan(items) {
     items.hinhNhayNguoi = -1
     items.goiYNguoi = -1
     items.hienGoiY = false
+
+    // Luật ăn thua: "cả bàn cùng bắt đầu nhìn một lúc" áp dụng cả lượt đầu
+    // tiên, không chỉ những lượt sau một lần gọi đúng.
+    if (anThua) {
+        van.dang_dem_nguoc = true
+        van.dem = 3
+    }
     capNhat(items)
     return van
 }
 
 /* Thay thẻ riêng của một người bằng thẻ mới rút từ chồng, kèm bố cục mới
  * riêng cho ô đó. Các thẻ riêng khác và thẻ chung giữ nguyên object bố cục
- * cũ — không tính lại — nên không có thẻ nào khác nháy/xoay lại vô cớ. */
+ * cũ — không tính lại — nên không có thẻ nào khác nháy/xoay lại vô cớ.
+ * Dùng cho Luật làng. */
 function rutTheMoi(items, nguoi) {
     var soHinh = items.capKho ? 8 : 6
     van.the_rieng[nguoi] = van.chong.shift()
@@ -114,6 +135,37 @@ function rutTheMoi(items, nguoi) {
     van.bo_cuc_rieng[nguoi] = b.boCuc
     van.goc_rieng[nguoi] = b.goc
     van.da_goi_y[nguoi] = false      // thẻ mới — Hoa tiêu lại được gợi ý một lần
+}
+
+/* Thay THẺ CHUNG bằng thẻ mới rút từ chồng — điều khác thứ hai của Luật ăn
+ * thua (mục 7b). Thẻ riêng của mọi người không đổi, nên da_goi_y của Hoa
+ * tiêu không cần đặt lại ở đây (khác rutTheMoi ở trên). */
+function rutTheChungMoi(items) {
+    var soHinh = items.capKho ? 8 : 6
+    van.the_chung = van.chong.shift()
+    var b = bocucNgauNhien(items, soHinh)
+    van.bo_cuc_chung = b.boCuc
+    van.goc_chung = b.goc
+}
+
+/* Bắt đầu đếm 3-2-1 trước một lượt của Luật ăn thua: che thẻ, khoá mọi thao
+ * tác (chonNguoi/chonHinh/goiY đều gác van.dang_dem_nguoc hoặc đọc
+ * nguoi_dang_chon === -1) cho tới khi tickDemNguoc() đếm hết. */
+function batDauDemNguoc(items) {
+    van.dang_dem_nguoc = true
+    van.dem = 3
+    capNhat(items)
+}
+
+/* Một nhịp của bộ đếm: 3 → 2 → 1 → 0 ("Tìm đi!") → mở thẻ (dang_dem_nguoc
+ * = false). Gọi từ Timer bên LuatLang.qml, mỗi lần đúng một bước. */
+function tickDemNguoc(items) {
+    if (van === null || !van.dang_dem_nguoc)
+        return
+    van.dem--
+    if (van.dem < 0)
+        van.dang_dem_nguoc = false
+    capNhat(items)
 }
 
 function hinhTrung(a, b) {
@@ -133,7 +185,9 @@ function biKhoa(nguoi) {
 }
 
 function chonNguoi(items, nguoi) {
-    if (van.xong || nguoi === items.hoaTieu || biKhoa(nguoi))
+    // Luật ăn thua: đang che thẻ đếm 3-2-1 thì chưa ai được tick — "cả bàn
+    // cùng bắt đầu nhìn một lúc", không ai bấm trước lúc thẻ còn úp.
+    if (van.xong || van.dang_dem_nguoc || nguoi === items.hoaTieu || biKhoa(nguoi))
         return
     // Xoá vòng nháy của lượt trước ngay khi bắt đầu tick người mới, để hình
     // nháy ở lượt vừa rồi có thời gian thật để thấy (không bị chính lượt đó
@@ -145,26 +199,37 @@ function chonNguoi(items, nguoi) {
 }
 
 function chonHinh(items, chiSoHinh) {
-    if (van.xong || van.nguoi_dang_chon < 0)
+    if (van.xong || van.dang_dem_nguoc || van.nguoi_dang_chon < 0)
         return
     var nguoi = van.nguoi_dang_chon
     var dung = hinhTrung(van.the_chung, van.the_rieng[nguoi])
     if (chiSoHinh === dung) {
+        // luot = số lượt (Luật làng, giấu trong ván) VÀ điểm (Luật ăn thua,
+        // hiện công khai dưới tên) — cùng một field, hai cách đọc.
         van.luot[nguoi]++
         items.hinhNhay = dung
         items.hinhNhayNguoi = nguoi     // chỉ thẻ chung + thẻ riêng của em này nháy
         items.audioEffects.play("qrc:/gcompris/src/core/resource/sounds/win.wav")
+        van.nguoi_dang_chon = -1
         if (van.chong.length === 0) {
             van.xong = true
             items.giay = Math.round((Date.now() - van.bat_dau) / 1000)
-            if (items.kyLuc < 0 || items.giay < items.kyLuc)
+            // Kỷ lục "thời gian phá hết chồng" là khái niệm riêng của Luật
+            // làng (mục 7 Kết ván) — Luật ăn thua không có kỷ lục, chỉ có
+            // điểm, và điểm không lưu ra đâu cả (Q9).
+            if (!van.an_thua && (items.kyLuc < 0 || items.giay < items.kyLuc))
                 items.kyLuc = items.giay
             items.bonus.good("flower")
+            capNhat(items)
+        } else if (van.an_thua) {
+            // Điều khác thứ hai: thẻ CHUNG đổi, thẻ riêng giữ nguyên — rồi
+            // che lại đếm 3-2-1 trước khi cho phép lượt tiếp theo.
+            rutTheChungMoi(items)
+            batDauDemNguoc(items)
         } else {
             rutTheMoi(items, nguoi)
+            capNhat(items)
         }
-        van.nguoi_dang_chon = -1
-        capNhat(items)
     } else {
         van.khoa_den[nguoi] = Date.now() + 3000
         van.nguoi_dang_chon = -1
@@ -204,6 +269,8 @@ function capNhat(items) {
     items.vanXong = van.xong
     items.luot = van.luot.slice()
     items.daGoiY = van.da_goi_y.slice()
+    items.dangDemNguoc = van.dang_dem_nguoc
+    items.dem = van.dem
 }
 
 /* ---------------------------------------------------- chế độ Học hình */

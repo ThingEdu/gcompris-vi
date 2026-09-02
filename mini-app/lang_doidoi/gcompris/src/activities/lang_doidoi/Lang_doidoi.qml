@@ -43,6 +43,7 @@ ActivityBase {
             property GCSfx audioEffects: activity.audioEffects
             property int soNguoi: 3
             property bool capKho: false      // false = 31 thẻ x 6 hình
+            property bool anThua: false      // false = Luật làng, true = Luật ăn thua
             property int hoaTieu: -1         // -1 = không ai làm Hoa tiêu
             // Giảm số người thì chỉ số Hoa tiêu cũ có thể trỏ vào người không
             // còn tồn tại. Để treo như vậy thì không ai bị đánh dấu Hoa tiêu
@@ -67,6 +68,13 @@ ActivityBase {
                 font.bold: true
                 color: "#FBF8F1"
                 text: qsTr("Đối Đôi Làng")
+            }
+
+            NutHang {
+                nhan: qsTr("Luật chơi")
+                lua: [qsTr("Luật làng"), qsTr("Luật ăn thua")]
+                dangChon: items.anThua ? 1 : 0
+                onChonMuc: items.anThua = (muc === 1)
             }
 
             NutHang {

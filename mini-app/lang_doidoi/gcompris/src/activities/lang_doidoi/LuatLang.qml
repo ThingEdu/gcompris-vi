@@ -1,19 +1,28 @@
-/* GCompris - Đối Đôi Làng · chế độ Luật làng
+/* GCompris - Đối Đôi Làng · chế độ Luật làng + Luật ăn thua
  *
  * SPDX-FileCopyrightText: 2026 ThingEdu <tuan@rogo.com.vn>
  *   SPDX-License-Identifier: GPL-3.0-or-later
  *
  * Bố cục ván: MỘT thẻ chung cố định giữa màn cộng thẻ riêng của từng người
  * bày thành hàng dưới, tất cả hiện cùng lúc (xem DOCS/MINI_APP_DOI_DOI_LANG.md
- * mục "Chia bài"/"Một lượt"/mục 8).
+ * mục "Chia bài"/"Một lượt"/mục 8). Cùng một tệp phục vụ HAI chế độ — cờ
+ * man.anThua rẽ nhánh ở vài chỗ thay vì chép nguyên tệp thành bản thứ hai (lý
+ * do chọn hướng này: xem task-11-report.md).
  *
- * Ba luật cưỡng chế bằng cơ chế, không bằng lời nhắc:
+ * Ba luật của LUẬT LÀNG (an_thua=false), cưỡng chế bằng cơ chế, không bằng
+ * lời nhắc:
  *   1. Trong ván KHÔNG hiện số lượt của ai — chỉ đồng hồ và số thẻ còn lại.
  *   2. Số lượt chỉ lộ ở màn kết ván, chỉ khi chênh lệch vượt quá một phần ba
  *      TỔNG SỐ THẺ CỦA CHỒNG (phụ thuộc cả số người: (capKho?56:30) - soNguoi).
  *   3. Người làm Hoa tiêu không có ô bấm được, nên không đường nào ghi lượt.
  *      Gợi ý của em chỉ bật được sau khi đã tick một người, và mỗi thẻ riêng
  *      chỉ dùng được một lần (thẻ mới rút lên lại được gợi ý một lần nữa).
+ *
+ * Ba điều khác của LUẬT ĂN THUA (an_thua=true, mục 7b của spec) — CHỈ áp
+ * dụng khi man.anThua === true, không đụng tới hành vi Luật làng ở trên:
+ *   1. Đếm 3-2-1 che thẻ trước mỗi lượt (man.dangDemNguoc/man.dem).
+ *   2. Thẻ CHUNG đổi sau mỗi lần đúng (ngược Luật làng), thẻ riêng giữ nguyên.
+ *   3. Điểm (dùng lại field luot) hiện công khai dưới tên, cộng ngay.
  */
 import QtQuick 2.12
 import GCompris 1.0
@@ -53,6 +62,11 @@ Item {
     property int goiYNguoi: -1       // người đang được Hoa tiêu gợi ý
     property bool hienGoiY: false
 
+    // ---- Luật ăn thua (mục 7b) ----
+    property bool anThua: false       // sao chép từ items.anThua lúc vào ván
+    property bool dangDemNguoc: false // đang che thẻ đếm 3-2-1
+    property int dem: -1              // 3,2,1,0 = "Tìm đi!", -1 = không đếm
+
     focus: true
     Keys.onSpacePressed: Activity.goiY(man)
 
@@ -65,6 +79,16 @@ Item {
         onTriggered: man.nhip++
     }
 
+    // Luật ăn thua: nhịp đếm 3-2-1-"Tìm đi!" — mỗi 700ms một bước, chỉ chạy
+    // khi đang che thẻ. Ba điều KHÔNG khác giữ nguyên: Timer này không tồn
+    // tại tác dụng gì ở Luật làng vì man.dangDemNguoc không bao giờ bật lên
+    // (tickDemNguoc() trong JS chỉ được gọi từ batDauDemNguoc(), mà hàm đó
+    // chỉ được gọi khi van.an_thua === true).
+    Timer {
+        interval: 700; running: man.anThua && man.dangDemNguoc; repeat: true
+        onTriggered: Activity.tickDemNguoc(man)
+    }
+
     // PHÁN QUYẾT F1: Lang_doidoi.qml dùng Loader { onLoaded: item.items = items },
     // và onLoaded chạy SAU Component.onCompleted của thành phần con. Lúc
     // Component.onCompleted chạy thì items còn undefined — phải đợi onItemsChanged.
@@ -75,6 +99,7 @@ Item {
         man.bonus = items.bonus
         man.soNguoi = items.soNguoi
         man.capKho = items.capKho
+        man.anThua = items.anThua
         man.hoaTieu = items.hoaTieu
         man.danhMucHinh = items.danhMucHinh
         man.boCuc = items.boCuc
@@ -116,8 +141,10 @@ Item {
             text: qsTr("Chồng còn %1 thẻ").arg(man.soConLai)
         }
         GCText {
+            // Kỷ lục "thời gian phá hết chồng" chỉ có nghĩa ở Luật làng
+            // (Luật ăn thua không có kỷ lục, chỉ có điểm — mục 7b, Q9).
             fontSize: mediumSize; color: "#E8A317"
-            visible: man.kyLuc >= 0
+            visible: !man.anThua && man.kyLuc >= 0
             text: qsTr("Kỷ lục %1 giây").arg(man.kyLuc)
         }
     }
@@ -220,16 +247,27 @@ Item {
                         // Ô tên: chỗ bấm để tick. Hoa tiêu = thẻ ghi chú xám, không
                         // nhận click — không có đường nào ghi lượt cho em (luật 3).
                         // Trên/dưới tên KHÔNG có con số nào (luật 1).
+                        // Luật ăn thua (điều khác thứ ba, mục 7b): "Điểm hiện rõ ngay
+                        // dưới tên mỗi người" — dùng lại field luot (số lượt gọi đúng),
+                        // vốn đã có sẵn cho Luật làng nhưng bị giấu trong ván ở đó.
+                        property bool coDiem: man.anThua && !laHoaTieu
+                        property int diemCuaToi: index < man.luot.length ? man.luot[index] : 0
+                        property bool dangDanDau: man.anThua && man.luot.length > 0 &&
+                                                   diemCuaToi > 0 &&
+                                                   diemCuaToi === Math.max.apply(null, man.luot)
+
                         Rectangle {
                             id: oTen
                             anchors.horizontalCenter: parent.horizontalCenter
-                            width: man.duongKinhRieng; height: 64; radius: 10
+                            width: man.duongKinhRieng
+                            height: oNguoi.coDiem ? 80 : 64
+                            radius: 10
                             color: laHoaTieu ? "#2A3A5C"
                                  : dangChonToi ? "#E8A317"
                                  : dangKhoa ? "#8A4B24" : "#FBF8F1"
                             border {
-                                color: laHoaTieu ? "#4A5A7C" : "#141414"
-                                width: laHoaTieu ? 1 : 3
+                                color: laHoaTieu ? "#4A5A7C" : oNguoi.dangDanDau ? "#E8A317" : "#141414"
+                                width: laHoaTieu ? 1 : (oNguoi.dangDanDau ? 4 : 3)
                             }
                             Column {
                                 anchors.centerIn: parent
@@ -249,6 +287,15 @@ Item {
                                     text: (index < man.daGoiY.length && man.daGoiY[index])
                                           ? qsTr("Hoa tiêu · đã gợi ý")
                                           : qsTr("Hoa tiêu · phím cách")
+                                }
+                                GCText {
+                                    // Luật làng: Hoa tiêu KHÔNG ghi điểm được (điều
+                                    // KHÔNG khác) nên oNguoi.coDiem đã loại laHoaTieu ra.
+                                    anchors.horizontalCenter: parent.horizontalCenter
+                                    visible: oNguoi.coDiem
+                                    fontSize: tinySize; font.bold: oNguoi.dangDanDau
+                                    color: oNguoi.dangDanDau ? "#8A4B24" : "#3A3A3A"
+                                    text: qsTr("%1 điểm").arg(oNguoi.diemCuaToi)
                                 }
                             }
                             MouseArea {
@@ -302,6 +349,28 @@ Item {
                 }
             }
         }
+
+        // Luật ăn thua điều khác thứ nhất (mục 7b): che thẻ + đếm 3-2-1
+        // trước mỗi lượt. Phủ đúng vùng thẻ chung+thẻ riêng (vungChoi), KHÔNG
+        // phủ thanh trên hay ô tên — vungChoi là anh em ruột thật của Item
+        // này trong cùng tệp (không qua Loader) nên anchors.fill: vungChoi
+        // hợp lệ, khác bẫy 4 trong brief (Bar mới là thứ ở ngoài Loader).
+        // MouseArea rỗng bên trong nuốt hết mọi click lọt qua lúc còn che,
+        // phòng khi ô tên/hình nào đó lỡ vẫn "enabled" (JS đã gác rồi, đây
+        // là lớp phòng thủ thứ hai, không phải nguồn sự thật duy nhất).
+        Rectangle {
+            id: mHDemNguoc
+            anchors.fill: vungChoi
+            color: "#16264A"
+            visible: man.anThua && man.dangDemNguoc
+            z: 10
+            MouseArea { anchors.fill: parent; onClicked: {} }
+            GCText {
+                anchors.centerIn: parent
+                fontSize: hugeSize; font.bold: true; color: "#E8A317"
+                text: man.dem > 0 ? String(man.dem) : qsTr("Tìm đi!")
+            }
+        }
     }
 
     // ------------------------------------------------------- màn kết ván
@@ -315,23 +384,57 @@ Item {
             GCText {
                 anchors.horizontalCenter: parent.horizontalCenter
                 fontSize: hugeSize; font.bold: true; color: "#E8A317"
-                text: qsTr("Cả bàn thắng!")
+                text: man.anThua ? qsTr("Hết ván!") : qsTr("Cả bàn thắng!")
             }
             GCText {
                 anchors.horizontalCenter: parent.horizontalCenter
                 fontSize: mediumSize; color: "#FBF8F1"
                 text: qsTr("Phá hết chồng thẻ trong %1 giây").arg(man.giay)
             }
+
+            // ---- Luật ăn thua: bảng điểm (mục 7b, "hiện bảng điểm") ----
+            Column {
+                anchors.horizontalCenter: parent.horizontalCenter
+                visible: man.anThua
+                spacing: 10
+                GCText {
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    fontSize: regularSize; font.bold: true; color: "#FBF8F1"
+                    text: qsTr("Bảng điểm")
+                }
+                Repeater {
+                    model: man.anThua ? man.soNguoi : 0
+                    delegate: GCText {
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        property int diem: index < man.luot.length ? man.luot[index] : 0
+                        // Ai nhiều nhất được đánh dấu — điểm 0 không tính là
+                        // "dẫn đầu" (không đánh dấu cả bàn lúc chưa ai ghi).
+                        property bool danDau: man.luot.length > 0 && diem > 0 &&
+                                               diem === Math.max.apply(null, man.luot)
+                        fontSize: regularSize
+                        font.bold: danDau
+                        color: danDau ? "#E8A317" : "#FBF8F1"
+                        // Hoa tiêu không ghi điểm được (điều KHÔNG khác) — ghi rõ
+                        // vai trò thay vì hiện "0 điểm" gây hiểu lầm em chơi kém.
+                        text: (index === man.hoaTieu)
+                              ? qsTr("Bạn %1 · Hoa tiêu").arg(index + 1)
+                              : qsTr("Bạn %1 — %2 điểm").arg(index + 1).arg(diem)
+                    }
+                }
+            }
+
             GCText {
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: man.width * 0.7
                 horizontalAlignment: Text.AlignHCenter
                 wrapMode: Text.WordWrap
                 fontSize: regularSize; color: "#FBF8F1"
-                // Luật 2: số lượt chỉ lộ ra ở đây, và chỉ khi lệch quá 1/3
-                // TỔNG SỐ THẺ CỦA CHỒNG — tổng này trừ cả soNguoi, không phải
-                // hằng số 30/56 như bản trước.
+                // Luật 2 của LUẬT LÀNG: số lượt chỉ lộ ra ở đây, và chỉ khi
+                // lệch quá 1/3 TỔNG SỐ THẺ CỦA CHỒNG. Luật ăn thua không có
+                // luật này — điểm đã hiện công khai suốt ván rồi (điều khác
+                // thứ ba), nên câu nhắc "nhường nhau" không áp dụng ở đây.
                 visible: {
+                    if (man.anThua) return false
                     if (man.luot.length === 0) return false
                     var lon = Math.max.apply(null, man.luot)
                     var nho = Math.min.apply(null, man.luot)
@@ -340,8 +443,33 @@ Item {
                 }
                 text: qsTr("Có bạn gọi được nhiều hơn hẳn các bạn khác. Ván sau nhường nhau một chút nhé — cả bàn cùng thắng mới là thắng.")
             }
+
+            // ---- Luật ăn thua: câu hỏi kịch bản + nút mời sang Luật làng ----
+            GCText {
+                anchors.horizontalCenter: parent.horizontalCenter
+                width: man.width * 0.7
+                horizontalAlignment: Text.AlignHCenter
+                wrapMode: Text.WordWrap
+                visible: man.anThua
+                fontSize: regularSize; color: "#FBF8F1"
+                text: qsTr("Trò này vui với một người hay vui với cả bàn?")
+            }
             NutTo {
                 anchors.horizontalCenter: parent.horizontalCenter
+                visible: man.anThua
+                chu: qsTr("Sang Luật làng")
+                onBam: {
+                    // Điểm không lưu ra đâu cả (Q9) — chỉ đổi cờ luật rồi chia
+                    // ván mới, không mang gì từ ván ăn thua vừa rồi sang.
+                    man.items.anThua = false
+                    man.anThua = false
+                    dongHo.giay = 0
+                    man.batDau()
+                }
+            }
+            NutTo {
+                anchors.horizontalCenter: parent.horizontalCenter
+                visible: !man.anThua
                 chu: qsTr("Chơi ván nữa")
                 onBam: { dongHo.giay = 0; man.batDau() }
             }
