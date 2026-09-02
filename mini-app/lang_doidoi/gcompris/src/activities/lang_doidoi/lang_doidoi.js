@@ -53,40 +53,67 @@ function bocucNgauNhien(items, soHinh) {
 }
 
 /* ---------------------------------------------------- trạng thái ván Luật làng
- * Chia bài: xáo cả bộ, thẻ đầu làm THẺ CHUNG, phần còn lại úp thành CHỒNG.
- * Gọi đúng: thẻ lật thành thẻ chung mới, rút thẻ kế từ chồng làm thẻ lật.
+ * Chia bài: xáo cả bộ, thẻ đầu làm THẺ CHUNG — đặt giữa màn, KHÔNG đổi suốt
+ * ván. Tiếp theo mỗi người một THẺ RIÊNG, bày thành hàng, ai cũng thấy thẻ
+ * của mọi người. Số còn lại úp thành CHỒNG.
+ * Gọi đúng: thẻ riêng của người đó được thay bằng thẻ mới rút từ chồng; thẻ
+ * chung giữ nguyên suốt ván — chỉ bố cục/bo_cuc của thẻ chung được tính MỘT
+ * LẦN lúc chia bài, không tính lại.
  */
 var van = null
 
 function batDauVan(items) {
     var boBai = docJson(items.capKho ? "bo_bai_57.json" : "bo_bai_31.json")
     var the = tron(boBai.the.slice())
+    var soHinh = items.capKho ? 8 : 6
+
     van = {
         chong: the,
-        the_chung: null,
-        the_lat: null,
-        luot: [],              // số lượt từng người, KHÔNG hiện trong ván
-        khoa_den: [],          // mốc thời gian hết khoá của từng người
+        the_chung: [],
+        the_rieng: [],          // soNguoi phần tử, mỗi phần tử là một thẻ
+        bo_cuc_chung: [], goc_chung: [],
+        bo_cuc_rieng: [], goc_rieng: [],
+        luot: [],                // số lượt từng người, KHÔNG hiện trong ván
+        khoa_den: [],             // mốc thời gian hết khoá của từng người
         nguoi_dang_chon: -1,
-        da_goi_y: false,
+        da_goi_y: [],             // theo TỪNG người, không phải một cờ chung
         bat_dau: Date.now(),
         xong: false
     }
+
+    van.the_chung = van.chong.shift()
+    var bcc = bocucNgauNhien(items, soHinh)
+    van.bo_cuc_chung = bcc.boCuc
+    van.goc_chung = bcc.goc
+
     for (var i = 0; i < items.soNguoi; i++) {
+        van.the_rieng.push(van.chong.shift())
+        var b = bocucNgauNhien(items, soHinh)
+        van.bo_cuc_rieng.push(b.boCuc)
+        van.goc_rieng.push(b.goc)
         van.luot.push(0)
         van.khoa_den.push(0)
+        van.da_goi_y.push(false)
     }
-    van.the_chung = van.chong.shift()
-    latTheKe(items)
+
+    items.hinhNhay = -1
+    items.hinhNhayNguoi = -1
+    items.goiYNguoi = -1
+    items.hienGoiY = false
+    capNhat(items)
     return van
 }
 
-function latTheKe(items) {
-    items.hinhNhay = -1              // F2: xoá vòng nháy của thẻ trước
-    van.the_lat = van.chong.shift()
-    van.da_goi_y = false
-    van.nguoi_dang_chon = -1
-    capNhat(items)
+/* Thay thẻ riêng của một người bằng thẻ mới rút từ chồng, kèm bố cục mới
+ * riêng cho ô đó. Các thẻ riêng khác và thẻ chung giữ nguyên object bố cục
+ * cũ — không tính lại — nên không có thẻ nào khác nháy/xoay lại vô cớ. */
+function rutTheMoi(items, nguoi) {
+    var soHinh = items.capKho ? 8 : 6
+    van.the_rieng[nguoi] = van.chong.shift()
+    var b = bocucNgauNhien(items, soHinh)
+    van.bo_cuc_rieng[nguoi] = b.boCuc
+    van.goc_rieng[nguoi] = b.goc
+    van.da_goi_y[nguoi] = false      // thẻ mới — Hoa tiêu lại được gợi ý một lần
 }
 
 function hinhTrung(a, b) {
@@ -108,6 +135,11 @@ function biKhoa(nguoi) {
 function chonNguoi(items, nguoi) {
     if (van.xong || nguoi === items.hoaTieu || biKhoa(nguoi))
         return
+    // Xoá vòng nháy của lượt trước ngay khi bắt đầu tick người mới, để hình
+    // nháy ở lượt vừa rồi có thời gian thật để thấy (không bị chính lượt đó
+    // xoá đi trong cùng một lần gọi hàm — xem chonHinh()).
+    items.hinhNhay = -1
+    items.hinhNhayNguoi = -1
     van.nguoi_dang_chon = nguoi
     capNhat(items)
 }
@@ -115,24 +147,26 @@ function chonNguoi(items, nguoi) {
 function chonHinh(items, chiSoHinh) {
     if (van.xong || van.nguoi_dang_chon < 0)
         return
-    var dung = hinhTrung(van.the_chung, van.the_lat)
+    var nguoi = van.nguoi_dang_chon
+    var dung = hinhTrung(van.the_chung, van.the_rieng[nguoi])
     if (chiSoHinh === dung) {
-        van.luot[van.nguoi_dang_chon]++
+        van.luot[nguoi]++
         items.hinhNhay = dung
+        items.hinhNhayNguoi = nguoi     // chỉ thẻ chung + thẻ riêng của em này nháy
         items.audioEffects.play("qrc:/gcompris/src/core/resource/sounds/win.wav")
         if (van.chong.length === 0) {
             van.xong = true
             items.giay = Math.round((Date.now() - van.bat_dau) / 1000)
             if (items.kyLuc < 0 || items.giay < items.kyLuc)
                 items.kyLuc = items.giay
-            capNhat(items)
             items.bonus.good("flower")
         } else {
-            van.the_chung = van.the_lat
-            latTheKe(items)
+            rutTheMoi(items, nguoi)
         }
+        van.nguoi_dang_chon = -1
+        capNhat(items)
     } else {
-        van.khoa_den[van.nguoi_dang_chon] = Date.now() + 3000
+        van.khoa_den[nguoi] = Date.now() + 3000
         van.nguoi_dang_chon = -1
         items.audioEffects.play("qrc:/gcompris/src/core/resource/sounds/brick.wav")
         capNhat(items)
@@ -140,14 +174,20 @@ function chonHinh(items, chiSoHinh) {
 }
 
 function goiY(items) {
-    if (van.xong || items.hoaTieu < 0 || van.da_goi_y)
+    // Chỉ gợi ý được SAU KHI đã tick một người — trước đó chưa biết chỉ vào
+    // thẻ của ai (luật 3).
+    if (van.xong || items.hoaTieu < 0 || van.nguoi_dang_chon < 0)
         return
-    van.da_goi_y = true
-    var dung = hinhTrung(van.the_chung, van.the_lat)
-    // Phần tư của THẺ LẬT có chứa hình trùng
-    var vt = van.the_lat.indexOf(dung)
-    var b = items.boCucLat[vt]
+    var nguoi = van.nguoi_dang_chon
+    if (van.da_goi_y[nguoi])
+        return
+    van.da_goi_y[nguoi] = true
+    var dung = hinhTrung(van.the_chung, van.the_rieng[nguoi])
+    // Phần tư của THẺ RIÊNG người đang được tick, chứa hình trùng
+    var vt = van.the_rieng[nguoi].indexOf(dung)
+    var b = van.bo_cuc_rieng[nguoi][vt]
     items.gocGoiY = Math.atan2(b[1], b[0])
+    items.goiYNguoi = nguoi
     items.hienGoiY = true
     capNhat(items)
 }
@@ -155,11 +195,15 @@ function goiY(items) {
 function capNhat(items) {
     items.soConLai = van.chong.length
     items.theChung = van.the_chung
-    items.theLat = van.the_lat
+    items.boCucChung = van.bo_cuc_chung
+    items.gocChung = van.goc_chung
+    items.theRieng = van.the_rieng.slice()
+    items.boCucRieng = van.bo_cuc_rieng.slice()
+    items.gocRieng = van.goc_rieng.slice()
     items.nguoiDangChon = van.nguoi_dang_chon
     items.vanXong = van.xong
     items.luot = van.luot.slice()
-    items.daGoiY = van.da_goi_y
+    items.daGoiY = van.da_goi_y.slice()
 }
 
 /* ---------------------------------------------------- chế độ Học hình */
