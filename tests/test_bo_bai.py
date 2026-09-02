@@ -3,6 +3,9 @@
 Bất biến của cả trò chơi: HAI THẺ BẤT KỲ TRÙNG ĐÚNG MỘT HÌNH. Hỏng bất biến
 này thì trò chơi vô nghĩa — có lượt không ai gọi được, hoặc có lượt gọi kiểu
 gì cũng đúng. Vì vậy kiểm ở đây, lúc dựng, chứ không kiểm lúc chạy trên máy.
+
+SPDX-FileCopyrightText: 2026 ThingEdu <tuan@rogo.com.vn>
+SPDX-License-Identifier: GPL-3.0-or-later
 """
 from collections import Counter
 from itertools import combinations
