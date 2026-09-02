@@ -225,8 +225,13 @@ Chờ đợi: PASS, 11 test.
 
 Phá hỏng có chủ đích, mỗi lần một chỗ, xác nhận test đỏ rồi hoàn nguyên:
 
-1. Đổi `((i * k + j) % q)` thành `((i * k + j + 1) % q)` →
+1. Đổi `((i * k + j) % q)` thành `((i * k * k + j) % q)` →
    `test_moi_cap_the_trung_dung_mot_hinh` phải đỏ.
+
+   *Đừng phá bằng `+ 1`*: cộng thêm hằng số chỉ hoán vị nhãn hình trong cùng
+   một lớp, cấu trúc xạ ảnh không đổi nên test vẫn xanh. Phải phá vào chỗ
+   `i · k` — chính tích này mới là thứ bảo đảm hai đường thẳng cắt nhau đúng
+   một điểm.
 2. Đổi thẻ đầu thành `list(range(q))` →
    `test_dung_so_the_va_so_hinh` phải đỏ.
 3. Đổi `[1 + i]` thành `[0]` ở vòng cuối →
