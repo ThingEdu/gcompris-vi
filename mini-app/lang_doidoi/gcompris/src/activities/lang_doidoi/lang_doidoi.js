@@ -161,3 +161,28 @@ function capNhat(items) {
     items.luot = van.luot.slice()
     items.daGoiY = van.da_goi_y
 }
+
+/* ---------------------------------------------------- chế độ Học hình */
+var NHOM_THEO_MUC = [["A"], ["B"], ["C"], ["D", "E"], ["A", "B", "C", "D", "E"]]
+var SO_CAU_MOI_MUC = 10
+
+function hinhTheoMuc(items, muc) {
+    var nhom = NHOM_THEO_MUC[muc]
+    var ds = []
+    for (var i = 0; i < items.danhMucHinh.length; i++)
+        if (nhom.indexOf(items.danhMucHinh[i].nhom) !== -1)
+            ds.push(i)
+    return ds
+}
+
+function sinhCauHoi(items, muc) {
+    var kho = hinhTheoMuc(items, muc)
+    var dung = kho[Math.floor(Math.random() * kho.length)]
+    var sai = []
+    var con = kho.slice()
+    con.splice(con.indexOf(dung), 1)
+    tron(con)
+    sai.push(con[0]); sai.push(con[1])
+    var lua = tron([dung, sai[0], sai[1]])
+    return { dung: dung, lua: lua }
+}
