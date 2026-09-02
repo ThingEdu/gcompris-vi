@@ -44,6 +44,10 @@ ActivityBase {
             property int soNguoi: 3
             property bool capKho: false      // false = 31 thẻ x 6 hình
             property int hoaTieu: -1         // -1 = không ai làm Hoa tiêu
+            // Giảm số người thì chỉ số Hoa tiêu cũ có thể trỏ vào người không
+            // còn tồn tại. Để treo như vậy thì không ai bị đánh dấu Hoa tiêu
+            // nhưng gợi ý vẫn bật được — mất hẳn sự đánh đổi của luật 3.
+            onSoNguoiChanged: if (hoaTieu >= soNguoi) hoaTieu = -1
             property string manHienTai: "vao_ban"
             property var danhMucHinh: []     // đọc từ hinh.json
             property var boCuc: ({})         // đọc từ bo_cuc.json
