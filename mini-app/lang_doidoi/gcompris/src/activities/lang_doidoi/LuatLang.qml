@@ -273,7 +273,17 @@ Item {
                             id: oTen
                             anchors.horizontalCenter: parent.horizontalCenter
                             width: man.duongKinhRieng
-                            height: oNguoi.coDiem ? 80 : 64
+                            // VÒNG SỬA 3: trên NEO One thật GCompris nhân cỡ chữ
+                            // theo màn hình (ApplicationInfo.ratio) — khung dựng
+                            // giả trên Mac cho ratio=1.0 cố định nên chữ nhỏ hơn,
+                            // và một chiều cao SỐ CỨNG (64/80) từng vừa trên Mac
+                            // lại cắt mất nửa dưới dòng "0 điểm" trên máy thật vì
+                            // chữ to hơn. Đổi sang co giãn theo NỘI DUNG thật
+                            // (cot.height, xem Column bên dưới) + lề cố định 16 —
+                            // đúng cho cả ba trường hợp: Luật làng một dòng, Luật
+                            // ăn thua hai dòng (tên+điểm), Hoa tiêu hai dòng
+                            // (tên+"phím cách"), bất kể cỡ chữ máy nào.
+                            height: cot.height + 16
                             radius: 10
                             color: laHoaTieu ? "#2A3A5C"
                                  : dangChonToi ? "#E8A317"
@@ -283,6 +293,7 @@ Item {
                                 width: laHoaTieu ? 1 : (oNguoi.dangDanDau ? 4 : 3)
                             }
                             Column {
+                                id: cot
                                 anchors.centerIn: parent
                                 spacing: 2
                                 GCText {
