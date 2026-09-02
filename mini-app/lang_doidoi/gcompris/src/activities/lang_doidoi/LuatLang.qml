@@ -11,17 +11,26 @@
  *
  * Ba luật của LUẬT LÀNG (an_thua=false), cưỡng chế bằng cơ chế, không bằng
  * lời nhắc:
- *   1. Trong ván KHÔNG hiện số lượt của ai — chỉ đồng hồ và số thẻ còn lại.
- *   2. Số lượt chỉ lộ ở màn kết ván, chỉ khi chênh lệch vượt quá một phần ba
- *      TỔNG SỐ THẺ CỦA CHỒNG (phụ thuộc cả số người: (capKho?56:30) - soNguoi).
+ *   1. Trong ván KHÔNG hiện số lượt CỦA AI — chỉ đồng hồ và "Lượt n / N"
+ *      (tổng của cả bàn, không phải của riêng ai, nên không lộ ai đang hơn).
+ *   2. Số lượt (riêng từng người) chỉ lộ ở màn kết ván, chỉ khi chênh lệch
+ *      vượt quá một phần ba TỔNG SỐ LƯỢT CỦA VÁN (Activity.SO_LUOT_VAN / 3 —
+ *      chốt 2026-09-02, đổi từ tính theo số thẻ sang tính theo số lượt).
  *   3. Người làm Hoa tiêu không có ô bấm được, nên không đường nào ghi lượt.
  *      Gợi ý của em chỉ bật được sau khi đã tick một người, và mỗi thẻ riêng
  *      chỉ dùng được một lần (thẻ mới rút lên lại được gợi ý một lần nữa).
  *
+ * MỘT ván dài đúng Activity.SO_LUOT_VAN lượt (chốt 2026-09-02, không còn
+ * chơi tới lúc hết chồng), và MỖI LẦN CÓ NGƯỜI GỌI ĐÚNG, thẻ riêng của CẢ BÀN
+ * đổi mới — không riêng người gọi đúng (chốt cùng ngày, tránh em chậm ngồi
+ * nhìn mãi một thẻ cũ). Áp dụng cho CẢ HAI chế độ; xem lang_doidoi.js
+ * doiTheRiengCaBan()/motLaTuChong() cho phần chia bài + xáo lại khi cạn.
+ *
  * Ba điều khác của LUẬT ĂN THUA (an_thua=true, mục 7b của spec) — CHỈ áp
  * dụng khi man.anThua === true, không đụng tới hành vi Luật làng ở trên:
  *   1. Đếm 3-2-1 che thẻ trước mỗi lượt (man.dangDemNguoc/man.dem).
- *   2. Thẻ CHUNG đổi sau mỗi lần đúng (ngược Luật làng), thẻ riêng giữ nguyên.
+ *   2. Thẻ CHUNG cũng đổi sau mỗi lần đúng (ngược Luật làng, nơi thẻ chung cố
+ *      định) — thẻ riêng của cả bàn vẫn đổi như trên, không phải điều khác.
  *   3. Điểm (dùng lại field luot) hiện công khai dưới tên, cộng ngay.
  */
 import QtQuick 2.12
@@ -34,7 +43,7 @@ Item {
     id: man
     property var items
 
-    property int soConLai: 0
+    property int luotHienTai: 0      // 0..Activity.SO_LUOT_VAN, cho "Lượt n / N"
 
     // Thẻ chung: cố định suốt ván, bố cục/goc tính một lần lúc chia bài.
     property var theChung: []
@@ -151,7 +160,13 @@ Item {
         }
         GCText {
             fontSize: mediumSize; color: "#FBF8F1"
-            text: qsTr("Chồng còn %1 thẻ").arg(man.soConLai)
+            // Tổng lượt của CẢ BÀN, không phải của riêng ai — không vi phạm
+            // luật 1 ("trong ván không hiện số lượt của ai"). man.luotHienTai
+            // là số lượt ĐÃ XONG (0 lúc mới vào ván) nên hiện lượt SẮP/ĐANG
+            // chơi là +1, chặn trần ở SO_LUOT_VAN cho chắc.
+            text: qsTr("Lượt %1 / %2")
+                  .arg(Math.min(man.luotHienTai + 1, Activity.SO_LUOT_VAN))
+                  .arg(Activity.SO_LUOT_VAN)
         }
         GCText {
             // Kỷ lục "thời gian phá hết chồng" chỉ có nghĩa ở Luật làng
@@ -208,16 +223,22 @@ Item {
             bottomMargin: 16 + ((man.items && man.items.bar) ? man.items.bar.height : 0)
         }
 
-        // Thẻ chung + hàng thẻ riêng gộp thành MỘT khối, canh giữa trong
-        // vùng chơi còn lại (giữa thanh trên và Bar). Trước đây thẻ chung
-        // neo topMargin cố định 34px còn hàng riêng neo đáy màn cố định —
-        // trên máy thật khoảng trống giữa hai khối hoá ra rất rộng vì phần
-        // dành cho Bar bị tính nhầm là "chỗ chơi". Gộp vào Column canh giữa
-        // thì khoảng trống thật (nếu có) chia đều hai đầu vùng chơi thay vì
-        // dồn hết vào giữa hai khối — không cần đoán chiều cao Bar thật.
+        // Thẻ chung + hàng thẻ riêng gộp thành MỘT khối. Trước đây (task-10)
+        // neo anchors.centerIn: parent để khoảng trống thật (nếu dư) chia
+        // đều hai đầu vùng chơi. VÒNG SỬA (máy thật, nhìn ảnh): với 6 người +
+        // cấp Khó, khối này CAO HƠN vùng chơi thật trên NEO One (Bar thật cao
+        // hơn ô giả 130px dùng lúc dựng) — centerIn để phần dư TRÀN ĐỀU cả
+        // hai phía, nên nửa trên đè lên "Lượt n / N" ở thanh trên. Đổi sang
+        // neo ĐỈNH vào đỉnh vùng chơi (ngay dưới thanh trên, có topMargin
+        // riêng) — mép trên thẻ chung không bao giờ vượt lên trên vùng chơi
+        // được nữa, dù khối có cao hơn chỗ trống thật đến đâu; phần tràn (nếu
+        // có) chỉ còn tràn xuống phía Bar, ít hại hơn tràn lên chữ.
         Column {
             id: khoiVanChoi
-            anchors.centerIn: parent
+            anchors {
+                top: parent.top; topMargin: 10
+                horizontalCenter: parent.horizontalCenter
+            }
             spacing: 40
 
             The {
@@ -413,7 +434,9 @@ Item {
             GCText {
                 anchors.horizontalCenter: parent.horizontalCenter
                 fontSize: mediumSize; color: "#FBF8F1"
-                text: qsTr("Phá hết chồng thẻ trong %1 giây").arg(man.giay)
+                // Ván nay dừng đúng SO_LUOT_VAN lượt, KHÔNG còn phải "phá hết
+                // chồng thẻ" (chốt 2026-09-02) — đổi câu chữ cho khớp.
+                text: qsTr("Xong %1 lượt trong %2 giây").arg(Activity.SO_LUOT_VAN).arg(man.giay)
             }
 
             // ---- Luật ăn thua: bảng điểm (mục 7b, "hiện bảng điểm") ----
@@ -454,16 +477,18 @@ Item {
                 wrapMode: Text.WordWrap
                 fontSize: regularSize; color: "#FBF8F1"
                 // Luật 2 của LUẬT LÀNG: số lượt chỉ lộ ra ở đây, và chỉ khi
-                // lệch quá 1/3 TỔNG SỐ THẺ CỦA CHỒNG. Luật ăn thua không có
-                // luật này — điểm đã hiện công khai suốt ván rồi (điều khác
-                // thứ ba), nên câu nhắc "nhường nhau" không áp dụng ở đây.
+                // lệch quá 1/3 TỔNG SỐ LƯỢT CỦA VÁN (chốt 2026-09-02 — đổi
+                // từ tính theo số thẻ của chồng sang tính theo số lượt, vì
+                // ván nay dừng theo số lượt chứ không theo chồng cạn). Luật
+                // ăn thua không có luật này — điểm đã hiện công khai suốt
+                // ván rồi (điều khác thứ ba), nên câu nhắc "nhường nhau"
+                // không áp dụng ở đây.
                 visible: {
                     if (man.anThua) return false
                     if (man.luot.length === 0) return false
                     var lon = Math.max.apply(null, man.luot)
                     var nho = Math.min.apply(null, man.luot)
-                    var tong = (man.capKho ? 56 : 30) - man.soNguoi
-                    return (lon - nho) > tong / 3
+                    return (lon - nho) > Activity.SO_LUOT_VAN / 3
                 }
                 text: qsTr("Có bạn gọi được nhiều hơn hẳn các bạn khác. Ván sau nhường nhau một chút nhé — cả bàn cùng thắng mới là thắng.")
             }

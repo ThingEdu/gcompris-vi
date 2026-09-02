@@ -60,14 +60,30 @@ function bocucNgauNhien(items, soHinh) {
  * người một THẺ RIÊNG, bày thành hàng, ai cũng thấy thẻ của mọi người. Số
  * còn lại úp thành CHỒNG.
  *
- * Luật làng (an_thua=false): gọi đúng thì THẺ RIÊNG của người đó được thay
- * bằng thẻ mới rút từ chồng; thẻ chung giữ nguyên suốt ván.
- * Luật ăn thua (an_thua=true): NGƯỢC LẠI — gọi đúng thì THẺ CHUNG được thay
- * bằng thẻ mới rút từ chồng; thẻ riêng của mọi người giữ nguyên. Đổi thẻ xong
- * còn phải che lại đếm 3-2-1 rồi mới mở (dang_dem_nguoc/dem — xem
- * batDauDemNguoc()/tickDemNguoc()), và điểm (dùng lại field luot có sẵn) hiện
- * công khai suốt ván thay vì giấu tới cuối ván.
+ * MỘT ván dài đúng SO_LUOT_VAN lượt (chốt 2026-09-02, chơi thử thấy ván tới
+ * lúc hết chồng quá dài) — không còn chơi tới lúc hết chồng. Mỗi lần có
+ * người gọi đúng, TOÀN BỘ thẻ riêng của cả bàn đổi mới (không riêng người
+ * gọi đúng — chốt cùng ngày, tránh em chậm ngồi nhìn mãi một thẻ cũ), áp
+ * dụng cho CẢ HAI chế độ. 12 lượt × 6 người = 72 thẻ, nhiều hơn cả bộ Khó
+ * (57), nên chồng cạn thì xáo lại từ đống thẻ đã dùng (van.da_dung) — xem
+ * motLaTuChong().
+ *
+ * Luật làng (an_thua=false): thẻ chung giữ nguyên suốt ván, chỉ thẻ riêng
+ * đổi (doiTheRiengCaBan()).
+ * Luật ăn thua (an_thua=true): thẻ chung CŨNG đổi sau mỗi lần đúng
+ * (doiTheChungCaBan(), gọi TRƯỚC doiTheRiengCaBan() — xem sauKhiNhayAnThua()).
+ * Đổi thẻ xong còn phải che lại đếm 3-2-1 rồi mới mở (dang_dem_nguoc/dem —
+ * xem batDauDemNguoc()/tickDemNguoc()), và điểm (dùng lại field luot có sẵn)
+ * hiện công khai suốt ván thay vì giấu tới cuối ván.
  */
+
+/* Độ dài MỘT ván, tính bằng số lượt (= số lần có người gọi đúng, KHÔNG phải
+ * số thẻ). Hằng số DUY NHẤT — dùng cho cả điều kiện kết ván (chonHinh()),
+ * hiện "Lượt n / SO_LUOT_VAN" (LuatLang.qml đọc qua Activity.SO_LUOT_VAN) và
+ * ngưỡng luật 2 "không ai bị bỏ lại" (SO_LUOT_VAN / 3 = 4). Đừng viết số 12
+ * rải rác ở nơi khác. */
+var SO_LUOT_VAN = 12
+
 var van = null
 
 function batDauVan(items) {
@@ -78,12 +94,19 @@ function batDauVan(items) {
 
     van = {
         chong: the,
+        da_dung: [],              // thẻ đã dùng — xáo lại thành chồng mới khi
+                                   // cạn (xem motLaTuChong()). KHÔNG BAO GIỜ
+                                   // chứa thẻ chung đang sống (bẫy "khi chia
+                                   // phải loại thẻ chung hiện tại ra").
         the_chung: [],
         the_rieng: [],          // soNguoi phần tử, mỗi phần tử là một thẻ
         bo_cuc_chung: [], goc_chung: [],
         bo_cuc_rieng: [], goc_rieng: [],
         luot: [],                // số lượt/điểm từng người — Luật làng giấu
                                   // trong ván, Luật ăn thua hiện công khai
+        so_luot: 0,               // TỔNG số lượt của cả ván (0..SO_LUOT_VAN) —
+                                   // khác luot[] (theo TỪNG người). Quyết định
+                                   // lúc nào ván kết thúc, hiện "Lượt n / N".
         khoa_den: [],             // mốc thời gian hết khoá của từng người
         nguoi_dang_chon: -1,
         da_goi_y: [],             // theo TỪNG người, không phải một cờ chung
@@ -128,25 +151,71 @@ function batDauVan(items) {
     return van
 }
 
-/* Thay thẻ riêng của một người bằng thẻ mới rút từ chồng, kèm bố cục mới
- * riêng cho ô đó. Các thẻ riêng khác và thẻ chung giữ nguyên object bố cục
- * cũ — không tính lại — nên không có thẻ nào khác nháy/xoay lại vô cớ.
- * Dùng cho Luật làng. */
-function rutTheMoi(items, nguoi) {
+/* Rút MỘT thẻ hợp lệ từ chồng, xáo lại từ đống thẻ đã dùng (van.da_dung) khi
+ * cạn. `cam` là một thẻ không được trùng — dùng để LOẠI THẺ CHUNG hiện tại ra
+ * khỏi lượt chia (bẫy phải chặn khi xáo lại, xem DOCS mục "Hết chồng thì xáo
+ * lại"/"Chia bài"): quên loại thì một em có thể nhận đúng thẻ giống hệt thẻ
+ * chung — hai thẻ đó trùng NHAU TẤT CẢ các hình thay vì đúng một hình, vỡ bất
+ * biến của cả trò chơi, và lượt đó gọi hình nào cũng đúng. Truyền `null` nếu
+ * không cần loại gì (rút thẻ chung MỚI cho Luật ăn thua: chính thẻ chung cũ
+ * đã bị đưa vào da_dung trước khi gọi hàm này, không còn gì phải loại).
+ *
+ * Chồng không bao giờ chứa hai thẻ giống nhau (bộ bài không có thẻ trùng),
+ * và mỗi thẻ chỉ bị `shift()` ra khỏi chồng đúng một lần trước khi được gán
+ * cho một người/thẻ chung — nên các thẻ rút liên tiếp trong CÙNG một lượt
+ * (gọi lặp lại hàm này) tự động khác nhau đôi một, không cần kiểm thêm. */
+function motLaTuChong(items, cam) {
+    while (true) {
+        if (van.chong.length === 0) {
+            // Lý thuyết không xảy ra: tổng số thẻ trong bộ luôn đủ cho một
+            // lượt (xem test mô phỏng). Gác lại để không lặp vô hạn.
+            if (van.da_dung.length === 0)
+                return null
+            van.chong = tron(van.da_dung.splice(0))
+        }
+        var la = van.chong.shift()
+        if (cam !== null && la === cam) {
+            // Gặp đúng thẻ cấm (thẻ chung hiện tại) trong chồng — không bao
+            // giờ chia thẻ này ra, đưa sang đống đã dùng để xáo lại rồi rút
+            // tiếp lá khác.
+            van.da_dung.push(la)
+            continue
+        }
+        return la
+    }
+}
+
+/* Thay thẻ riêng của TẤT CẢ mọi người bằng thẻ mới rút từ chồng, kèm bố cục
+ * mới riêng cho từng ô — mỗi lần có người gọi đúng thì toàn bộ thẻ riêng của
+ * cả bàn đổi mới, không riêng người gọi đúng (chốt 2026-09-02, tránh em chậm
+ * ngồi nhìn mãi một thẻ cũ). Áp dụng cho CẢ HAI chế độ. Thẻ chung giữ nguyên
+ * object bố cục cũ — không tính lại — nên không nháy/xoay lại vô cớ.
+ *
+ * Thẻ CŨ của từng người được đưa vào đống đã dùng (da_dung) TRƯỚC khi rút
+ * thẻ mới, để những thẻ vừa thay có thể quay lại chồng ngay trong lượt xáo
+ * lại kế tiếp — không mất đi. */
+function doiTheRiengCaBan(items) {
     var soHinh = items.capKho ? 8 : 6
-    van.the_rieng[nguoi] = van.chong.shift()
-    var b = bocucNgauNhien(items, soHinh)
-    van.bo_cuc_rieng[nguoi] = b.boCuc
-    van.goc_rieng[nguoi] = b.goc
-    van.da_goi_y[nguoi] = false      // thẻ mới — Hoa tiêu lại được gợi ý một lần
+    for (var i = 0; i < van.the_rieng.length; i++)
+        van.da_dung.push(van.the_rieng[i])
+    for (var i = 0; i < van.the_rieng.length; i++) {
+        van.the_rieng[i] = motLaTuChong(items, van.the_chung)
+        var b = bocucNgauNhien(items, soHinh)
+        van.bo_cuc_rieng[i] = b.boCuc
+        van.goc_rieng[i] = b.goc
+        van.da_goi_y[i] = false      // thẻ mới — Hoa tiêu lại được gợi ý một lần
+    }
 }
 
 /* Thay THẺ CHUNG bằng thẻ mới rút từ chồng — điều khác thứ hai của Luật ăn
- * thua (mục 7b). Thẻ riêng của mọi người không đổi, nên da_goi_y của Hoa
- * tiêu không cần đặt lại ở đây (khác rutTheMoi ở trên). */
-function rutTheChungMoi(items) {
+ * thua (mục 7b). PHẢI gọi hàm này TRƯỚC doiTheRiengCaBan() trong cùng một
+ * lượt (xem sauKhiNhayAnThua()): thẻ chung mới phải có mặt lúc rút thẻ riêng
+ * để hàm kia loại nó ra (bẫy xáo lại) — gọi ngược thứ tự thì thẻ riêng mới sẽ
+ * loại nhầm thẻ chung CŨ, và thẻ chung MỚI có thể trùng một thẻ riêng nào đó. */
+function doiTheChungCaBan(items) {
     var soHinh = items.capKho ? 8 : 6
-    van.the_chung = van.chong.shift()
+    van.da_dung.push(van.the_chung)
+    van.the_chung = motLaTuChong(items, null)
     var b = bocucNgauNhien(items, soHinh)
     van.bo_cuc_chung = b.boCuc
     van.goc_chung = b.goc
@@ -173,7 +242,10 @@ function sauKhiNhayAnThua(items) {
     // Timer 900ms còn đang chạy — không còn gì để đổi/che nữa.
     if (van === null || van.xong || !van.an_thua)
         return
-    rutTheChungMoi(items)
+    // Thứ tự bắt buộc: thẻ chung TRƯỚC (để doiTheRiengCaBan() loại đúng thẻ
+    // chung MỚI ra khỏi lượt chia thẻ riêng) — xem docstring hai hàm này.
+    doiTheChungCaBan(items)
+    doiTheRiengCaBan(items)
     batDauDemNguoc(items)
 }
 
@@ -229,34 +301,41 @@ function chonHinh(items, chiSoHinh) {
     var nguoi = van.nguoi_dang_chon
     var dung = hinhTrung(van.the_chung, van.the_rieng[nguoi])
     if (chiSoHinh === dung) {
-        // luot = số lượt (Luật làng, giấu trong ván) VÀ điểm (Luật ăn thua,
-        // hiện công khai dưới tên) — cùng một field, hai cách đọc.
+        // luot[nguoi] = số lượt CỦA RIÊNG người đó (Luật làng, giấu trong
+        // ván, chỉ dùng cho ngưỡng luật 2) VÀ điểm (Luật ăn thua, hiện công
+        // khai dưới tên) — cùng một field, hai cách đọc.
+        // so_luot = TỔNG số lượt của CẢ VÁN (bất kể ai gọi đúng) — quyết
+        // định lúc nào ván kết thúc và hiện "Lượt n / SO_LUOT_VAN".
         van.luot[nguoi]++
+        van.so_luot++
         items.hinhNhay = dung
         items.hinhNhayNguoi = nguoi     // chỉ thẻ chung + thẻ riêng của em này nháy
         items.audioEffects.play("qrc:/gcompris/src/core/resource/sounds/win.wav")
         van.nguoi_dang_chon = -1
-        if (van.chong.length === 0) {
+        if (van.so_luot >= SO_LUOT_VAN) {
+            // Ván dừng đúng SO_LUOT_VAN lượt, KHÔNG phải lúc hết chồng (chốt
+            // 2026-09-02) — không đổi thẻ nữa, ván đã xong.
             van.xong = true
             items.giay = Math.round((Date.now() - van.bat_dau) / 1000)
-            // Kỷ lục "thời gian phá hết chồng" là khái niệm riêng của Luật
-            // làng (mục 7 Kết ván) — Luật ăn thua không có kỷ lục, chỉ có
-            // điểm, và điểm không lưu ra đâu cả (Q9).
+            // Kỷ lục "thời gian xong ván" là khái niệm riêng của Luật làng
+            // (mục 7 Kết ván) — Luật ăn thua không có kỷ lục, chỉ có điểm,
+            // và điểm không lưu ra đâu cả (Q9).
             if (!van.an_thua && (items.kyLuc < 0 || items.giay < items.kyLuc))
                 items.kyLuc = items.giay
             items.bonus.good("flower")
             capNhat(items)
             return false
         } else if (van.an_thua) {
-            // Điều khác thứ hai: thẻ CHUNG đổi, thẻ riêng giữ nguyên — nhưng
-            // CHƯA đổi ngay ở đây. khoa_tam khoá thao tác trong lúc thẻ vẫn
-            // còn mở để vòng nháy chạy trọn vẹn; QML mới là nơi thật sự chờ
-            // đủ ~900ms rồi gọi sauKhiNhayAnThua() để đổi thẻ + che đếm.
+            // Điều khác thứ hai: thẻ CHUNG đổi VÀ thẻ riêng của cả bàn cũng
+            // đổi — nhưng CHƯA đổi ngay ở đây. khoa_tam khoá thao tác trong
+            // lúc thẻ vẫn còn mở để vòng nháy chạy trọn vẹn; QML mới là nơi
+            // thật sự chờ đủ ~900ms rồi gọi sauKhiNhayAnThua() để đổi thẻ +
+            // che đếm.
             van.khoa_tam = true
             capNhat(items)
             return true
         } else {
-            rutTheMoi(items, nguoi)
+            doiTheRiengCaBan(items)
             capNhat(items)
             return false
         }
@@ -289,7 +368,7 @@ function goiY(items) {
 }
 
 function capNhat(items) {
-    items.soConLai = van.chong.length
+    items.luotHienTai = van.so_luot     // 0..SO_LUOT_VAN, cho "Lượt n / N"
     items.theChung = van.the_chung
     items.boCucChung = van.bo_cuc_chung
     items.gocChung = van.goc_chung
