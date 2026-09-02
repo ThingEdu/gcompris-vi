@@ -85,7 +85,18 @@ Item {
         boCucLat = b.boCuc;   gocLat = b.goc
     }
 
-    onTheLatChanged: moiBoCuc()
+    // `property var theLat: []` bắn onTheLatChanged NGAY LÚC DỰNG (đã đo bằng
+    // log tự bơm — xem task-7-report.md, vòng sửa 2): Qt coi giá trị mặc định
+    // dạng mảng là một lần "đổi", nên onTheLatChanged chạy trước cả khi Loader
+    // gán items (F1). Lúc đó man.boCuc còn là ({}) mặc định — chưa được
+    // onItemsChanged chép từ items.boCuc — nên moiBoCuc()/bocucNgauNhien đọc
+    // man.boCuc[String(soHinh)] ra undefined và vỡ. Gác cùng điều kiện với
+    // onItemsChanged: trước khi items có thật, man chưa có gì đáng để vẽ lại.
+    onTheLatChanged: {
+        if (!items)
+            return
+        moiBoCuc()
+    }
 
     Rectangle { anchors.fill: parent; color: "#16264A" }
 
