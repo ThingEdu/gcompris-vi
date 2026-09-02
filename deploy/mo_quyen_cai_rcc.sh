@@ -1,4 +1,7 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: 2026 ThingEdu <tuan@rogo.com.vn>
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
 # Mở quyền cài tệp .rcc vào GCompris trên NEO One mà không phải gõ mật khẩu mỗi lần.
 #
 # CHẠY MỘT LẦN DUY NHẤT, TRÊN CHÍNH MÁY NEO ONE (hoặc qua ssh có bàn phím để

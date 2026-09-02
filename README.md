@@ -93,7 +93,7 @@ tests/                   test cho bộ kiểm tra bản dịch
 ```
 
 ```bash
-./.venv/bin/python -m pytest tests/          # 124 test
+./.venv/bin/python -m pytest tests/          # 127 test
 ./.venv/bin/python tools/check_po.py po/gcompris_qt.po
 ./.venv/bin/python tools/po_batch.py stats po/gcompris_qt.po
 ```
@@ -103,3 +103,12 @@ tests/                   test cho bộ kiểm tra bản dịch
 GCompris phát hành theo **AGPL v3**, nên bản việt hóa này cũng vậy — xem
 [LICENSE](LICENSE). Mã nguồn gốc: https://invent.kde.org/education/gcompris
 (khảo sát trên commit `8b49e97f`, bản 26.1.0).
+
+Giấy phép của **mã** (AGPL/GPL, tuỳ tệp) tách riêng với giấy phép của **hình
+ảnh** trong các mini app `lang_*`. Bộ 57 hình của `lang_doidoi` (Đối Đôi
+Làng) là tác phẩm của Làng Maker Việt / ThingEdu, phát hành **CC BY-SA**
+— làng giữ quyền tác giả trên hình, không phải AGPL/GPL của kho. Linh vật
+**Tux** trong bộ là bản vẽ lại; linh vật Linux gốc của **Larry Ewing**. Xem
+`DOCS/MINI_APP_DOI_DOI_LANG.md` mục 13 để biết đầy đủ, và trường `credit:`
+trong `ActivityInfo.qml` của từng hoạt động để xem ghi công hiện cho người
+dùng.

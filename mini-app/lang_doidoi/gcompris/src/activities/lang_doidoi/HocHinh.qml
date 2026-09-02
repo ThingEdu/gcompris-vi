@@ -49,6 +49,13 @@ Item {
     function chon(chiSo) {
         if (!cauHoi)
             return
+        // Trả lời đúng chỉ đổi cauHoi sau 1400ms (hetGio), nhưng MouseArea
+        // vẫn bật suốt thời gian chờ đó — bấm nhanh liên tiếp vào hình đúng
+        // sẽ cộng daLam nhiều lần cho CÙNG một câu, đủ nhảy qua một mức.
+        // hienNghia >= 0 là cờ "đã trả lời đúng câu hiện tại, đang chờ câu
+        // mới" — chặn thêm để một câu chỉ tính một lần.
+        if (hienNghia >= 0)
+            return
         if (chiSo === cauHoi.dung) {
             hienNghia = chiSo
             items.audioEffects.play("qrc:/gcompris/src/core/resource/sounds/win.wav")

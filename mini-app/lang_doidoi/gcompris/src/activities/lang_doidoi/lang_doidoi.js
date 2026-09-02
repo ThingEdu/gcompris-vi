@@ -369,12 +369,18 @@ function goiY(items) {
 
 function capNhat(items) {
     items.luotHienTai = van.so_luot     // 0..SO_LUOT_VAN, cho "Lượt n / N"
-    items.theChung = van.the_chung
+    // boCuc*/goc* PHẢI gán trước the*: "hinh:" và "boCuc:" trong LuatLang.qml
+    // đều ràng buộc QML vào items.theChung/items.boCucChung (tương tự với
+    // Rieng); gán theChung trước sẽ làm Repeater trong The.qml dựng delegate
+    // ngay với hinh mới nhưng boCuc còn giá trị cũ ([] lúc khởi tạo) — mỗi
+    // delegate đọc boCuc[index] undefined ném TypeError. Đảo thứ tự để boCuc
+    // (và goc) đã sẵn sàng trước khi hinh đổi.
     items.boCucChung = van.bo_cuc_chung
     items.gocChung = van.goc_chung
-    items.theRieng = van.the_rieng.slice()
+    items.theChung = van.the_chung
     items.boCucRieng = van.bo_cuc_rieng.slice()
     items.gocRieng = van.goc_rieng.slice()
+    items.theRieng = van.the_rieng.slice()
     items.nguoiDangChon = van.nguoi_dang_chon
     items.vanXong = van.xong
     items.luot = van.luot.slice()

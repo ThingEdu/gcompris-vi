@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Nạp thử QML của một mini app vào LÕI GCOMPRIS THẬT, bằng bộ máy Qt5.
 
+SPDX-FileCopyrightText: 2026 ThingEdu <tuan@rogo.com.vn>
+SPDX-License-Identifier: GPL-3.0-or-later
+
     kiem_qml.py <tên_mini_app> [--core <đường/dẫn/core.rcc>]
 
     ví dụ:  kiem_qml.py lang_doidoi

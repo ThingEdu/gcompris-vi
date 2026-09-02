@@ -496,7 +496,20 @@ theo đường dẫn **tương đối với chỗ đặt chương trình**, nên
   (`neo-one-doidoi-an-thua-cham-diem.png`).
 - Bố cục: tên nằm trên thẻ, thanh nút GCompris không che gì
   (`neo-one-doidoi-bo-cuc-sua.png`).
-- Log trên máy: **0 `TypeError`**.
+- Log trên máy — **sửa 2026-09-02: câu "0 `TypeError`" ở đây trước đó là SAI**,
+  do người điều phối viết dựa trên một lượt `grep` trên log không bắt được
+  hết. Đo lại đúng bằng cách vào ván 6 người cấp Khó = **168 `TypeError`**;
+  đổi Dễ→Khó rồi vào ván = **42**. Hình vẫn hiện đúng (đây là rác log, không
+  ai thấy trên màn hình) nhưng che mất lỗi thật khác nếu có. Nguyên nhân:
+  `lang_doidoi.js` hàm `capNhat()` gán `theChung`/`theRieng` TRƯỚC
+  `boCucChung`/`boCucRieng` — lần `capNhat()` đầu, `boCuc*` còn `[]`, nên
+  `Repeater` trong `The.qml` dựng delegate với `boCuc` rỗng trong khi `hinh`
+  đã có giá trị mới, mỗi delegate đọc `boCuc[index][…]` ném `TypeError`. Đã
+  đảo thứ tự gán trong `capNhat()` (`boCuc*`/`goc*` trước `the*`) và đo lại
+  bằng Qt5 thật (`core.rcc` + `.rcc` đóng gói, nạp thẳng `LuatLang.qml`, gán
+  `items` giống `Loader.onLoaded`, chơi trọn ván qua `chonNguoi`/`chonHinh`
+  thật, đếm `TypeError` qua `qInstallMessageHandler`): còn **0** trên cả
+  2-6 người × Dễ/Khó và kịch bản đổi Dễ→Khó giữa chừng.
 - Cả 57 hình Qt5 dựng đúng, **0 hình trắng** (`qt5-dung-57-hinh.png`).
 
 ### Âm thanh — đã gỡ, không phải lỗi mã
@@ -543,7 +556,7 @@ sửa thêm.
 | # | Tiêu chí | Kết luận | Bằng chứng |
 |---|---|---|---|
 | 1 | Khởi động nguội → vào được ván đầu dưới 60 giây, không cần người hướng dẫn | **CHƯA KIỂM** | Đã vào được ván đầu trên máy thật (ảnh `neo-one-doidoi-van-choi.png` và `neo-one-doidoi-12-luot.png`), nhưng chưa ai bấm giờ từ lúc khởi động nguội — thiếu số giây đo thật |
-| 2 | Kiểm toán bộ bài chạy trong `pytest`, hỏng thì test đỏ | **ĐẠT** | `tests/test_bo_bai.py` nằm trong bộ 124 test xanh (`.venv/bin/pytest -q` → `124 passed`) |
+| 2 | Kiểm toán bộ bài chạy trong `pytest`, hỏng thì test đỏ | **ĐẠT** | `tests/test_bo_bai.py` nằm trong bộ 127 test xanh (`.venv/bin/pytest -q` → `127 passed`) |
 | 3 | Sáu người chơi, ô tên hiện đủ sáu, click ghi đúng lượt cho đúng người | **ĐẠT** | Ảnh `neo-one-doidoi-12-luot.png`: sáu người, `Lượt 1/12` → `Lượt 2/12` đúng nhịp, vòng nháy vàng khoanh đúng hình trùng |
 | 4 | Hoa tiêu không thể ghi lượt trong mọi trường hợp, kể cả bấm nhanh liên tiếp hay bấm đúng lúc đang chấm thẻ; trong ván không có con số nào dưới ô tên | **CHƯA KIỂM** | Ảnh `neo-one-doidoi-12-luot.png` xác nhận không hiện con số dưới ô tên, nhưng không có bằng chứng đã thử bấm nhanh liên tiếp/bấm đúng lúc đang chấm thẻ trên thẻ Hoa tiêu ở máy thật |
 | 5 | Gợi ý của Hoa tiêu chỉ dùng được một lần cho mỗi thẻ, bấm `Space` lần hai không có tác dụng | **CHƯA KIỂM** | Không có ảnh hay log nào trong bằng chứng đã kiểm nhắc tới việc thử nút `Space` trên máy thật |
@@ -571,13 +584,21 @@ Còn lại (2, 3, 7, 8) có bằng chứng trực tiếp, ghi ĐẠT.
 ## 13 · Giấy phép
 
 Bộ 57 hình phát hành **CC BY-SA**, làng giữ quyền. Mã hoạt động theo
-**GPL-3.0-or-later** như `lang_maker` và như GCompris. CC BY-SA 4.0 có điều
-khoản tương thích một chiều sang GPLv3 nên trộn được, miễn tác phẩm hợp thành
-phát hành theo GPLv3 — **cần bước rà pháp lý xác nhận trước khi phát hành công
-khai**, đánh dấu chờ, không chặn việc code.
+**GPL-3.0-or-later** như `lang_maker`, nhưng bản thân kho `gcompris-vi` — và
+GCompris gốc — là **AGPL-3.0-or-later** (xem `LICENSE`), KHÔNG phải GPL (sửa
+2026-09-02: bản trước của mục này viết nhầm "như GCompris" thành GPL). CC
+BY-SA 4.0 có điều khoản tương thích một chiều sang GPLv3, và trộn mã
+GPLv3 vào một tác phẩm hợp thành phát hành AGPLv3 vẫn hợp lệ (AGPLv3 chỉ
+CỘNG THÊM điều khoản mạng lên trên GPLv3, không thu hẹp quyền tương thích của
+GPLv3) — **cần bước rà pháp lý xác nhận trước khi phát hành công khai**, đánh
+dấu chờ, không chặn việc code.
 
-Hình **Tux** trong bộ là bản vẽ lại; ghi công linh vật Linux của Larry Ewing ở
-`ActivityInfo.qml`.
+Hình **Tux** trong bộ là bản vẽ lại; ghi công linh vật Linux của Larry Ewing.
+Đợt sửa 2026-09-02 đưa lời ghi công bộ 57 hình + Tux vào `ActivityInfo.qml` (trường `credit:`, ô
+GCompris hiện thẳng cho người dùng) và ở `README.md` (mục Giấy phép) — trước
+đợt sửa 2026-09-02, `credit:` để trống, ghi công của Tux chỉ nằm trong chú
+thích mã (`SPDX-FileCopyrightText` ở đầu `ActivityInfo.qml`) mà người dùng
+không thấy.
 
 Kho `gcompris-vi` là kho công khai AGPL nên mọi hình đưa vào phải sạch thương
 hiệu bên thứ ba — bài học từ `lang_maker` (xem `MINI_APP_LANG_MAKER.md`, mục

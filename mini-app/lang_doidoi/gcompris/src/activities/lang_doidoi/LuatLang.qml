@@ -497,8 +497,18 @@ Item {
                 visible: {
                     if (man.anThua) return false
                     if (man.luot.length === 0) return false
-                    var lon = Math.max.apply(null, man.luot)
-                    var nho = Math.min.apply(null, man.luot)
+                    // Loại chỉ số Hoa tiêu khỏi phép min/max: Hoa tiêu bị cấm
+                    // ghi lượt nên man.luot[hoaTieu] luôn = 0 (xem
+                    // lang_doidoi.js, van.luot.push(0) cho MỌI chỉ số kể cả
+                    // Hoa tiêu). Tính min/max trên cả mảng khiến bàn có Hoa
+                    // tiêu luôn có "nho" = 0 nên luôn bắn cảnh báo, kể cả khi
+                    // những người chơi thật chia lượt đều nhau.
+                    var luotNguoiChoi = []
+                    for (var i = 0; i < man.luot.length; i++)
+                        if (i !== man.hoaTieu) luotNguoiChoi.push(man.luot[i])
+                    if (luotNguoiChoi.length === 0) return false
+                    var lon = Math.max.apply(null, luotNguoiChoi)
+                    var nho = Math.min.apply(null, luotNguoiChoi)
                     return (lon - nho) > Activity.SO_LUOT_VAN / 3
                 }
                 text: qsTr("Có bạn gọi được nhiều hơn hẳn các bạn khác. Ván sau nhường nhau một chút nhé — cả bàn cùng thắng mới là thắng.")
