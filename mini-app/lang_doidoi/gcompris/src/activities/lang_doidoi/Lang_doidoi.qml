@@ -1,0 +1,162 @@
+/* GCompris - Đối Đôi Làng
+ *
+ * SPDX-FileCopyrightText: 2026 ThingEdu <tuan@rogo.com.vn>
+ *   SPDX-License-Identifier: GPL-3.0-or-later
+ */
+import QtQuick 2.12
+import GCompris 1.0
+
+import "../../core"
+import "lang_doidoi.js" as Activity
+
+ActivityBase {
+    id: activity
+
+    onStart: focus = true
+    onStop: {}
+
+    pageComponent: Rectangle {
+        id: background
+        anchors.fill: parent
+        color: "#16264A"                     // chàm đậm, nền nhận diện của làng
+        focus: true
+
+        signal start
+        signal stop
+
+        Component.onCompleted: {
+            activity.start.connect(start)
+            activity.stop.connect(stop)
+        }
+
+        onStart: Activity.start(items)
+        onStop: Activity.stop()
+
+        // items là "hộp thư chung" cho toàn bộ hoạt động: màn vào bàn ghi vào
+        // đây, HocHinh.qml và LuatLang.qml (nhiệm vụ sau) đọc lại qua Loader.
+        QtObject {
+            id: items
+            property Item main: activity.main
+            property alias background: background
+            property alias bar: bar
+            property alias bonus: bonus
+            property GCSfx audioEffects: activity.audioEffects
+            property int soNguoi: 3
+            property bool capKho: false      // false = 31 thẻ x 6 hình
+            property bool anThua: false      // false = Luật làng, true = Luật ăn thua
+            property int hoaTieu: -1         // -1 = không ai làm Hoa tiêu
+            // Giảm số người thì chỉ số Hoa tiêu cũ có thể trỏ vào người không
+            // còn tồn tại. Để treo như vậy thì không ai bị đánh dấu Hoa tiêu
+            // nhưng gợi ý vẫn bật được — mất hẳn sự đánh đổi của luật 3.
+            onSoNguoiChanged: if (hoaTieu >= soNguoi) hoaTieu = -1
+            property string manHienTai: "vao_ban"
+            property var danhMucHinh: []     // đọc từ hinh.json
+            property var boCuc: ({})         // đọc từ bo_cuc.json
+        }
+
+        // ---------------------------------------------------- màn vào bàn
+        Column {
+            id: manVaoBan
+            visible: items.manHienTai === "vao_ban"
+            anchors.centerIn: parent
+            width: parent.width * 0.8
+            spacing: background.height * 0.035
+
+            GCText {
+                anchors.horizontalCenter: parent.horizontalCenter
+                fontSize: hugeSize
+                font.bold: true
+                color: "#FBF8F1"
+                text: qsTr("Đối Đôi Làng")
+            }
+
+            NutHang {
+                nhan: qsTr("Luật chơi")
+                lua: [qsTr("Luật làng"), qsTr("Luật ăn thua")]
+                dangChon: items.anThua ? 1 : 0
+                onChonMuc: items.anThua = (muc === 1)
+            }
+
+            NutHang {
+                nhan: qsTr("Mấy người chơi?")
+                lua: ["2", "3", "4", "5", "6"]
+                dangChon: items.soNguoi - 2
+                onChonMuc: items.soNguoi = muc + 2
+            }
+
+            NutHang {
+                nhan: qsTr("Bộ bài")
+                lua: [qsTr("Dễ · 31 thẻ, 6 hình"), qsTr("Khó · 57 thẻ, 8 hình")]
+                dangChon: items.capKho ? 1 : 0
+                onChonMuc: items.capKho = (muc === 1)
+            }
+
+            NutHang {
+                nhan: qsTr("Ai làm Hoa tiêu?")
+                // "Không ai" đứng đầu, nên chỉ số muc 0 -> hoaTieu = -1
+                lua: {
+                    var d = [qsTr("Không ai")]
+                    for (var i = 0; i < items.soNguoi; i++)
+                        d.push(qsTr("Bạn %1").arg(i + 1))
+                    return d
+                }
+                dangChon: items.hoaTieu + 1
+                onChonMuc: items.hoaTieu = muc - 1
+            }
+
+            Row {
+                anchors.horizontalCenter: parent.horizontalCenter
+                spacing: 40
+                NutTo {
+                    chu: qsTr("Vào bàn")
+                    onBam: items.manHienTai = "luat_lang"
+                }
+                NutTo {
+                    chu: qsTr("Học hình một mình")
+                    onBam: items.manHienTai = "hoc_hinh"
+                }
+            }
+        }
+
+        // Loader nạp LuatLang.qml (đấu cả bàn) hoặc HocHinh.qml (học một mình)
+        // — hai tệp này do nhiệm vụ 7 và 8 viết. items được gán SAU khi thành
+        // phần con đã Component.onCompleted xong (thứ tự thật của Qt Loader),
+        // nên HocHinh.qml/LuatLang.qml phải đọc items qua onItemsChanged chứ
+        // không phải Component.onCompleted — xem PHÁN QUYẾT F1 trong brief.
+        Loader {
+            anchors.fill: parent
+            active: items.manHienTai !== "vao_ban"
+            source: items.manHienTai === "luat_lang" ? "LuatLang.qml" : "HocHinh.qml"
+            // Vòng sửa (máy thật, phím cách của Hoa tiêu không có tác dụng):
+            // "focus: true" khai trong LuatLang.qml chỉ THẮNG được nếu có ai
+            // đó THẬT SỰ gọi forceActiveFocus() cho nó — "focus: true" một
+            // mình chỉ là ỨNG CỬ, không tự xin tiêu điểm bàn phím. Chuỗi
+            // ActivityBase (onStart: focus = true) -> background (focus:
+            // true) dừng đúng tại Loader: Loader không tự chuyển tiêu điểm
+            // cho item nó nạp — đã xác nhận bằng cách bung core.rcc thật,
+            // ActivityBase.qml không có bước này. Gọi thẳng
+            // forceActiveFocus() ở đây, cùng chỗ gán items, không phụ thuộc
+            // "focus: true" của ai thắng ai.
+            onLoaded: { item.items = items; item.forceActiveFocus() }
+        }
+
+        DialogHelp {
+            id: dialogHelp
+            onClose: home()
+        }
+
+        Bar {
+            id: bar
+            content: BarEnumContent { value: help | home }
+            onHelpClicked: displayDialog(dialogHelp)
+            onHomeClicked: {
+                if (items.manHienTai === "vao_ban")
+                    activity.home()
+                else
+                    items.manHienTai = "vao_ban"
+            }
+        }
+
+        Bonus { id: bonus }
+    }
+}

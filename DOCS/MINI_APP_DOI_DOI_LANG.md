@@ -40,12 +40,13 @@ Chủ dự án chốt ngày 2026-09-02. Những điều dưới đây **không �
 |---|---|---|
 | Q1 | Số người chơi: **2–6** | Có — gốc ghi 2–4 |
 | Q2 | **Máy là người chia bài, trọng tài và đồng hồ.** Trẻ vẫn reo lên bằng miệng như chơi bài giấy; ai gọi được cặp hình thì dùng chuột chọn để máy xác nhận | Có — gốc dựa trên chạm đồng thời |
-| Q3 | Bỏ chế độ **Luật ăn thua** | Có — một con chuột thì không có gì để giành |
-| Q4 | Làm hai chế độ: **Học hình** (1 người) và **Luật làng** (2–6 người) | Cắt bớt |
+| Q3 | ~~Bỏ chế độ Luật ăn thua~~ → **LẬT LẠI 2026-09-02 chiều: giữ Luật ăn thua** thành chế độ thứ ba, xem Q9 | Quay về như gốc |
+| Q4 | Làm **ba** chế độ: **Học hình** (1 người), **Luật làng** và **Luật ăn thua** (2–6 người) | Như gốc |
 | Q5 | Hai cấp bộ bài, chọn ngay ở màn vào bàn: **Dễ = 31 thẻ × 6 hình**, **Khó = 57 thẻ × 8 hình** | Có — gốc giấu bộ 57 trong cài đặt facilitator |
 | Q6 | Vai **Hoa tiêu** giữ lại: bị bỏ khỏi danh sách ghi lượt, gợi ý bằng phím `Space` | Đổi cách thao tác |
 | Q7 | **Không có giọng đọc. Học trò cần đọc được tiếng Việt** — đây là điều kiện tiên quyết của hoạt động | Có — bỏ tiêu chí "trẻ 6 tuổi không cần biết chữ" |
-| Q8 | v1 **không** có: log, CSV, PIN facilitator, attract mode, bảng xếp hạng | Cắt bớt |
+| Q8 | v1 **không** có: log, CSV, PIN facilitator, attract mode, bảng xếp hạng lưu lâu dài | Cắt bớt |
+| Q9 | **Luật ăn thua** (chốt chiều 2026-09-02): đếm 3-2-1 trước mỗi lượt · đổi thẻ chung sau mỗi lần đúng · **cộng điểm hiện rõ cho từng người**. Điểm chỉ sống trong ván, không lưu, không so giữa các bàn hay các buổi | Như gốc |
 
 Riêng Q8 kế thừa một ràng buộc **cửa một chiều** của tài liệu gốc (Điều 6 Giao
 ước làng): app không thu, không hỏi, không lưu tên, tuổi, ảnh, giọng nói của
@@ -56,7 +57,7 @@ cả**.
 
 ## 3 · Phạm vi phiên bản 1
 
-**Có:** hai chế độ Học hình và Luật làng · hai cấp bộ bài 31/57 · 2–6 người ·
+**Có:** ba chế độ Học hình, Luật làng và Luật ăn thua · hai cấp bộ bài 31/57 · 2–6 người ·
 vai Hoa tiêu · đồng hồ chung · kỷ lục của bàn trong phiên chạy · tiếng Việt ·
 offline hoàn toàn.
 
@@ -210,46 +211,75 @@ không ai). Ba lựa chọn trên một màn, không có màn con.
 
 ### Chia bài
 
-Cả bộ (31 hoặc 57 thẻ) xáo ngẫu nhiên. Thẻ đầu tiên đặt làm **thẻ chung**; phần
-còn lại úp thành **chồng**. Máy lật thẻ trên cùng của chồng làm **thẻ lật**.
+Cả bộ (31 hoặc 57 thẻ) xáo ngẫu nhiên. Thẻ đầu đặt giữa màn làm **thẻ chung**;
+tiếp theo chia mỗi người **một thẻ riêng**; phần còn lại úp thành **chồng**.
 
-Không chia thẻ riêng cho từng người — cả bàn nhìn chung hai thẻ, ai gọi được thì
-gọi. Đây là chỗ khác bài giấy, và là chỗ máy làm được việc mà bài giấy không
-làm được: mọi người thấy đúng cùng một thứ, không ai bị che tay.
+Vì hai thẻ bất kỳ trong bộ luôn trùng đúng một hình, nên thẻ riêng của bất kỳ
+ai cũng luôn có đúng một hình chung với thẻ giữa. Không bao giờ có lượt bí,
+không bao giờ có lượt gọi kiểu gì cũng đúng.
+
+### Một ván dài 12 lượt
+
+Chốt chiều 2026-09-02, sau khi chủ dự án chơi thử: **ván dừng sau 12 lượt**, chứ
+không chơi tới lúc hết chồng. Chơi hết cả bộ mất quá lâu so với phiên sinh hoạt
+3–10 phút.
+
+### Mỗi lượt đổi thẻ của TẤT CẢ mọi người
+
+Cũng chốt cùng lúc đó. Trước đây chỉ thẻ của người gọi đúng mới được thay, nên
+em nào chậm ngồi nhìn mãi một thẻ cũ trong khi các bạn liên tục có thẻ mới —
+vừa chán vừa đi ngược luật "không ai bị bỏ lại". Nay **mỗi lần có người gọi
+đúng, toàn bộ thẻ riêng của cả bàn đổi mới**.
+
+### Hết chồng thì xáo lại
+
+12 lượt × 6 người = 72 thẻ, nhiều hơn cả bộ Khó (57). Nên khi chồng không đủ
+chia, **gom thẻ đã dùng xáo lại thành chồng mới**.
+
+**Bẫy phải chặn khi xáo lại:** loại **thẻ chung hiện tại** ra khỏi chồng trước
+khi chia. Nếu một em nhận đúng thẻ giống thẻ chung thì hai thẻ trùng nhau **tất
+cả** các hình — bất biến vỡ, lượt đó gọi hình nào cũng đúng. Cũng phải bảo đảm
+thẻ riêng của các em trong cùng một lượt **khác nhau đôi một**.
 
 ### Một lượt
 
-1. Máy lật thẻ trên cùng của chồng lên vị trí *thẻ lật*. Đồng hồ chung chạy.
-2. Có em reo lên tên hình trùng giữa hai thẻ.
-3. Người cầm chuột **click ô tên em đó** — ô sáng lên — rồi **click hình** trên
-   một trong hai thẻ.
-4. **Đúng:** hình nhấp nháy trên cả hai thẻ; **thẻ lật trở thành thẻ chung mới**,
-   máy rút thẻ kế từ chồng làm thẻ lật; ghi một lượt cho em.
-   **Sai:** viền đỏ, ô của em đó khoá 3 giây, hai thẻ giữ nguyên.
-5. Hết chồng thẻ → cả bàn thắng.
+1. Mọi thẻ bày sẵn. Đồng hồ chung chạy.
+2. Ai thấy hình trùng giữa **thẻ chung** và **thẻ riêng của mình** thì reo to.
+3. Quản trò click **ô tên** em đó (ô sáng lên), rồi click **hình** — chấp nhận
+   click trên thẻ chung **hoặc** trên thẻ riêng của chính em đó.
+4. **Đúng:** hình nháy trên cả hai thẻ; **thẻ riêng của cả bàn đổi mới**; ghi
+   một lượt cho em. Thẻ chung giữ nguyên ở Luật làng, đổi mới ở Luật ăn thua.
+   **Sai:** viền đỏ, ô của em đó khoá 3 giây, mọi thẻ giữ nguyên.
+5. Đủ **12 lượt** → hết ván.
 
-Một ván cấp Dễ đi hết 30 thẻ, cấp Khó 56 thẻ. Với nhịp khoảng 5 giây một thẻ thì
-ván Dễ khoảng 2 phút rưỡi, ván Khó khoảng 5 phút — vừa khung phiên chơi 3–10
-phút của buổi sinh hoạt.
+Click tên người trước rồi mới click hình: lúc reo lên thì biết ngay ai, và như
+thế không ai nhận vơ được lượt của bạn. Quản trò chỉ tick **sau khi em đó đã
+nói xong ngoài đời**, đúng nhịp chơi bài giấy.
 
-Click người trước rồi mới click hình: lúc reo lên thì biết ngay ai, và như thế
-không ai nhận vơ được lượt của bạn. Đây cũng là chỗ duy nhất máy biết ai làm
-gì — không có nó thì không ghi được lượt nào.
+Thanh trên hiện **"Lượt 5 / 12"** thay cho số thẻ còn trong chồng — người chơi
+cần biết còn bao lâu nữa hết ván, không cần biết chồng dày mỏng.
+
+**Vì sao thẻ chung không đổi ở Luật làng:** mỗi em chỉ phải so thẻ của mình với
+một thẻ duy nhất, nên sau vài lượt là thuộc mặt tám hình ở giữa và tìm nhanh
+hẳn lên. Đó chính là cái trò chơi muốn dạy.
 
 ### Ba luật của làng, máy cưỡng chế bằng cơ chế
 
-1. **Đồng hồ chung.** Cả bàn phá hết chồng thẻ → cả bàn thắng. **Trong ván tuyệt
-   đối không hiện số lượt của ai** — màn hình chỉ có đồng hồ và số thẻ còn lại.
+1. **Đồng hồ chung.** Cả bàn đi hết 12 lượt → cả bàn thắng, và điều đáng đua là
+   **thời gian của cả bàn**, không phải điểm của ai. **Trong ván tuyệt đối không
+   hiện số lượt của ai** — màn hình chỉ có đồng hồ và `Lượt n / 12`.
    Máy vẫn đếm ngầm, nhưng chỉ để dùng ở luật 2.
 2. **Không ai bị bỏ lại.** Số lượt chỉ lộ ra ở **màn kết ván**, và chỉ khi chênh
-   lệch giữa người nhiều nhất và ít nhất vượt quá một phần ba tổng số thẻ. Lúc
-   đó máy hiện dòng mời bàn chơi lại và nhường nhau. Máy nhắc, không phạt, không
-   xếp hạng.
+   lệch giữa người nhiều nhất và ít nhất vượt quá **một phần ba tổng số lượt của
+   ván** (12 / 3 = 4). Lúc đó máy hiện dòng mời bàn chơi lại và nhường nhau. Máy
+   nhắc, không phạt, không xếp hạng.
 3. **Hoa tiêu im lặng.** Em nhận vai Hoa tiêu hiện trong dải người chơi như một
    **thẻ ghi chú không bấm được** (khác hẳn ô tên: xám, không viền, không nhận
    click), nên không có đường nào ghi lượt. Bù lại em bấm `Space` để bật một vòng
-   nhấp nháy quanh **một phần tư của thẻ lật** — phần tư có chứa hình trùng. Mỗi
-   thẻ lật chỉ gợi ý được một lần. Gợi ý mà không nói, đúng nghĩa đen.
+   nhấp nháy quanh **một phần tư thẻ riêng của người vừa được tick** — phần tư
+   có chứa hình trùng với thẻ chung. Mỗi thẻ riêng chỉ gợi ý được một lần, và
+   chỉ gợi ý được **sau khi quản trò đã tick một người** — trước đó chưa biết
+   phải chỉ vào thẻ của ai. Gợi ý mà không nói, đúng nghĩa đen.
 
 ### Kết ván
 
@@ -262,40 +292,103 @@ dùng âm mừng sẵn có của GCompris (`core/resource/sounds/`); thu trống
 việc của bản sau.
 
 
+## 7b · Chế độ LUẬT ĂN THUA (2–6 người)
+
+Chốt chiều 2026-09-02, sau khi chủ dự án chơi thử Luật làng trên máy thật.
+Dùng lại y nguyên bố cục thẻ chung + thẻ riêng của mục 7, chỉ khác ba điều.
+
+**Chế độ này tồn tại để bị vượt qua** — đúng chữ trong tài liệu gốc. Trẻ vào
+làng thường quen đua nhau; cho các em chơi thứ quen thuộc trước, rồi mới mời
+sang Luật làng, thì lời mời mới có sức nặng.
+
+### Ba điều khác Luật làng
+
+1. **Đếm 3-2-1 trước mỗi lượt.** Sau mỗi lần gọi đúng, màn hình che thẻ lại và
+   đếm ngược *3 · 2 · 1 · Tìm đi!* rồi mới mở. Cả bàn cùng bắt đầu nhìn một
+   lúc, không ai thiệt vì chưa kịp ngước lên. Đây cũng là chỗ tạo nhịp cho quản
+   trò kịp thở.
+2. **Thẻ chung đổi sau mỗi lần đúng.** Rút thẻ mới từ chồng làm thẻ chung.
+   Thẻ riêng của cả bàn cũng đổi mới như ở Luật làng, nên mỗi lượt là một bài
+   toán hoàn toàn mới. Ngược hẳn Luật làng ở chỗ: bên kia giữ thẻ chung cố định
+   để trẻ thuộc dần, bên này đổi tất để không ai kịp thuộc.
+3. **Điểm hiện rõ, cộng ngay.** Mỗi người có số điểm ngay dưới tên, tăng khi
+   gọi đúng. Ai nhiều điểm nhất được đánh dấu.
+
+### Ba điều KHÔNG khác
+
+- Quản trò vẫn tick tên người rồi mới chọn hình — máy không tự biết ai reo.
+- Bấm sai vẫn khoá 3 giây.
+- Vai Hoa tiêu vẫn còn nếu bàn muốn, vẫn không ghi điểm được.
+
+### Kết ván
+
+Sau đủ 12 lượt. Hiện bảng điểm của ván, rồi **hiện đúng câu hỏi trong kịch bản buổi chơi**:
+
+> *"Trò này vui với một người hay vui với cả bàn?"*
+
+kèm một nút mời sang Luật làng. Điểm **không lưu ra đâu cả** — tắt màn kết ván
+là mất. Không có bảng xếp hạng giữa các bàn, cũng không có giữa các buổi. Đây
+là ràng buộc cửa một chiều: các bản sau chỉ được siết thêm, không được nới.
+
+### Chọn luật ở đâu
+
+Màn vào bàn thêm một hàng nút: **Luật làng** (mặc định) hoặc **Luật ăn thua**.
+Ba hàng cũ giữ nguyên — số người, bộ bài, Hoa tiêu.
+
+
 ## 8 · Màn hình
 
 Màn 1920×1080 nằm ngang, mọi người ngồi cùng phía (không phải giao diện mặt bàn
-— không có cảm ứng thì không ai với tới màn hình cả).
+— không có cảm ứng thì không ai với tới màn hình cả). Quản trò cầm chuột.
 
 ```
-┌────────────────────────────────────────────────────────────┐
-│  ⏱ 01:24          Chồng còn 18 thẻ          Kỷ lục 02:07   │
-│                                                            │
-│        ╭─────────────╮        ╭─────────────╮              │
-│        │  THẺ CHUNG  │        │   THẺ LẬT   │              │
-│        │   ◕ ✿ ⚙ ▲   │        │   ⚙ ☂ ✚ ◆   │              │
-│        │   ✎ ⌾ ◈ ✦   │        │   ✺ ◑ ✧ ✜   │              │
-│        ╰─────────────╯        ╰─────────────╯              │
-│                                                            │
-│   [ P1 ]  [ P2 ]  [ P3 ]  [ P4 ]  [ P5 ]      ⚑ P6         │
-│                                              Hoa tiêu      │
-└────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│  ⏱ 01:24          Chồng còn 18 thẻ          Kỷ lục 02:07     │
+│                                                              │
+│                    ╭──────────────╮                          │
+│                    │  THẺ CHUNG   │   cả bàn nhìn chung      │
+│                    │  ◕ ✿ ⚙ ▲     │   KHÔNG đổi suốt ván     │
+│                    │  ✎ ⌾ ◈ ✦     │                          │
+│                    ╰──────────────╯                          │
+│                                                              │
+│   ◍      ◍      ◍      ◍      ◍         ⚑                    │
+│ Bạn 1  Bạn 2  Bạn 3  Bạn 4  Bạn 5     Bạn 6                  │
+│                                      Hoa tiêu                │
+│  ↑ thẻ riêng của từng người, gọi đúng thì thẻ đó được thay   │
+└──────────────────────────────────────────────────────────────┘
 ```
 
-Năm ô tên bấm được (viền, nền kem); ô Hoa tiêu xám và không nhận click. **Dưới
-ô tên không có con số nào** — luật 1 cấm hiện điểm cá nhân trong ván.
+**Thẻ chung** ở giữa, đường kính **420 px** — to nhất vì cả bàn nhìn nó suốt ván.
 
-Kích thước tính từ 1080 px chiều cao: thanh trên 120 · vùng thẻ 800 · dải người
-chơi 160. Thẻ hình tròn đường kính **700 px**, hai thẻ cạnh nhau vừa trong 1920.
-Ở cấp Khó, tám hình trên một thẻ 700 px → mỗi hình khoảng **180 px**, đủ to trên
-màn 15,6".
+**Thẻ riêng** xếp thành một hàng dưới, mỗi người một thẻ, kèm tên ngay dưới thẻ.
+Đường kính co theo số người để luôn vừa bề ngang:
+
+| Số người | Đường kính thẻ riêng | Cỡ một hình ở cấp Khó |
+|---|---|---|
+| 2 | 380 px | ~82 px |
+| 3 | 380 px | ~82 px |
+| 4 | 380 px | ~82 px |
+| 5 | 352 px | ~76 px |
+| 6 | 290 px | ~62 px |
+
+Công thức: `min(380, (1840 − 20 × (số người − 1)) / số người)`. Ở sáu người vẫn
+còn 62 px một hình — nhỏ nhưng đây là thẻ của chính em đó, em ngồi gần và chỉ
+phải soi thẻ của mình.
+
+**Bấm được cả hai chỗ:** click hình trên thẻ chung, hoặc trên thẻ riêng của
+người vừa được tick — máy nhận cả hai, vì hình trùng nằm trên cả hai thẻ.
+
+Thẻ riêng của Hoa tiêu vẫn bày ra cho em nhìn, nhưng **tên em là thẻ ghi chú
+xám không nhận click**, nên không có đường nào ghi lượt cho em.
+
+**Dưới tên không có con số nào** — luật 1 cấm hiện điểm cá nhân trong ván.
 
 Hình trên thẻ **xoay ngẫu nhiên**, cỡ lệch nhau ±15%, xếp không đè nhau — giống
-thẻ giấy. Vị trí sinh bằng vòng tròn đồng tâm rồi nhiễu nhẹ, kiểm không chồng
-lấn trước khi vẽ.
+thẻ giấy. Bố cục sinh sẵn lúc dựng và đã kiểm không chồng lấn (xem nhiệm vụ 3
+trong kế hoạch).
 
 **Không có chữ trên thẻ chơi** — quy tắc không đổi từ bản giấy. Chữ chỉ xuất
-hiện ở chế độ Học hình và các nhãn giao diện.
+hiện ở tên người chơi, chế độ Học hình và các nhãn giao diện.
 
 
 ## 9 · Cấu trúc tệp
@@ -374,6 +467,111 @@ Tiêu chí "trẻ 6 tuổi chơi được mà không cần biết chữ" của t
 theo quyết định Q7 — học trò cần đọc được tiếng Việt.
 
 
+## 11a · Nghiệm thu trên NEO One
+
+Đã cài, chạy và chụp ảnh thật trên `192.168.1.28` ngày 2026-09-02.
+
+### Cách cài — không cần quyền root
+
+Dựng một bản GCompris riêng trong thư mục nhà thay vì đụng `/usr/share`: chép
+`/usr/games/gcompris-qt` và `/usr/share/gcompris-qt` (79 MB) sang
+`~/gcthu/{games,share}`, rồi cài `.rcc` vào bản sao đó. GCompris tìm dữ liệu
+theo đường dẫn **tương đối với chỗ đặt chương trình**, nên chạy bản sao trong
+`~/gcthu` là tự nó đọc đúng `~/gcthu/share` chứ không đọc `/usr/share`.
+
+Đường `~/.local/share/GCompris/rcc/` đã thử và **không dùng được** — ghi vào
+đó không có tác dụng, GCompris vẫn đọc gói gốc ở `/usr/share`.
+
+### Đã kiểm thật, có ảnh trong `DOCS/anh/`
+
+- Hoạt động hiện đúng trong mục NEO Tre cạnh "Làng Maker", icon là hình 01 Neo
+  Tre (`neo-one-doidoi-van-choi.png`).
+- Màn vào bàn hiện đủ bốn hàng chọn (luật · số người · bộ bài · Hoa tiêu), chữ
+  tiếng Việt có dấu hiện đúng font.
+- Luật làng, 6 người, cấp Khó: `Lượt 1/12` chuyển đúng sang `Lượt 2/12`, vòng
+  nháy vàng khoanh đúng hình trùng, thẻ chung giữ nguyên, cả sáu thẻ riêng đổi
+  mới, không hiện con số điểm nào (`neo-one-doidoi-12-luot.png`).
+- Luật ăn thua: chấm điểm đúng người, viền vàng đánh dấu người đang dẫn đầu,
+  bấm sai thì ô khoá đổi màu, thẻ chung đổi
+  (`neo-one-doidoi-an-thua-cham-diem.png`).
+- Bố cục: tên nằm trên thẻ, thanh nút GCompris không che gì
+  (`neo-one-doidoi-bo-cuc-sua.png`).
+- Log trên máy — **sửa 2026-09-02: câu "0 `TypeError`" ở đây trước đó là SAI**,
+  do người điều phối viết dựa trên một lượt `grep` trên log không bắt được
+  hết. Đo lại đúng bằng cách vào ván 6 người cấp Khó = **168 `TypeError`**;
+  đổi Dễ→Khó rồi vào ván = **42**. Hình vẫn hiện đúng (đây là rác log, không
+  ai thấy trên màn hình) nhưng che mất lỗi thật khác nếu có. Nguyên nhân:
+  `lang_doidoi.js` hàm `capNhat()` gán `theChung`/`theRieng` TRƯỚC
+  `boCucChung`/`boCucRieng` — lần `capNhat()` đầu, `boCuc*` còn `[]`, nên
+  `Repeater` trong `The.qml` dựng delegate với `boCuc` rỗng trong khi `hinh`
+  đã có giá trị mới, mỗi delegate đọc `boCuc[index][…]` ném `TypeError`. Đã
+  đảo thứ tự gán trong `capNhat()` (`boCuc*`/`goc*` trước `the*`) và đo lại
+  bằng Qt5 thật (`core.rcc` + `.rcc` đóng gói, nạp thẳng `LuatLang.qml`, gán
+  `items` giống `Loader.onLoaded`, chơi trọn ván qua `chonNguoi`/`chonHinh`
+  thật, đếm `TypeError` qua `qInstallMessageHandler`): còn **0** trên cả
+  2-6 người × Dễ/Khó và kịch bản đổi Dễ→Khó giữa chừng.
+- Cả 57 hình Qt5 dựng đúng, **0 hình trắng** (`qt5-dung-57-hinh.png`).
+
+### Âm thanh — đã gỡ, không phải lỗi mã
+
+Máy có hai đầu ra: jack 3.5mm và HDMI. Mặc định của hệ là HDMI, mà màn hình
+gắn ở đó không có loa — nên app phát tiếng suốt mà không ai nghe được. Đây
+**không phải lỗi mã nguồn của app**. Đã đặt lại đầu ra mặc định sang jack và
+ghi vào `~/.config/pulse/default.pa` để giữ nguyên sau khi khởi động lại. Chủ
+dự án đã xác nhận nghe được tiếng qua jack.
+
+### Ba lỗi chỉ máy thật mới lộ ra
+
+Đáng ghi lại để người sau biết vì sao phần này bắt buộc phải nghiệm thu trên
+máy, không thể chỉ tin bản dựng trên máy phát triển:
+
+1. **Thanh nút của GCompris che nhãn tên người chơi.** Bản dựng trên máy phát
+   triển không thấy lỗi này, vì `Bar` nằm ở `Lang_doidoi.qml` chứ không nằm ở
+   `LuatLang.qml` — nơi đặt bố cục ô tên.
+2. **Chữ trên máy thật to hơn hẳn bản dựng trên Mac.** GCompris nhân cỡ chữ
+   theo kích thước màn hình thật; khung giả dùng để dựng thử trên máy phát
+   triển trả cứng hệ số `1.0`, nên trên máy thật ô tên bị cắt mất dòng điểm.
+3. **`TypeError` do `property var x: []` bắn `onXChanged` ngay lúc dựng**,
+   trước khi `Loader` kịp gán `items` — chỉ lộ ra khi chạy đúng đường nạp thật
+   của GCompris (`QResource` + `Loader`), không lộ khi test riêng từng tệp
+   QML.
+
+### Bẫy vận hành trên máy này
+
+`pkill -f '[g]compris-qt'` vẫn tự giết luôn phiên ssh đang thao tác, vì dòng
+lệnh của chính lệnh `pkill` đó chứa đường dẫn thật khớp lại mẫu tìm. Phải dùng
+`pkill -x gcompris-qt` — khớp theo đúng tên tiến trình, không khớp theo dòng
+lệnh.
+
+
+## 11b · Đối chiếu 8 tiêu chí nghiệm thu (mục 11)
+
+Không tiêu chí nào trong mục 11 còn nhắc "chồng thẻ" theo luật cũ — mục
+"Ba luật của làng" (mục 7, luật 1) và cả tám tiêu chí dưới đây đã đổi sang lời
+"12 lượt" từ commit `30b9dbd` (*Đồng bộ luật 1 với quy tắc ván 12 lượt*) và
+`97bb9b0` (*Nghiệm thu luật mới trên NEO One: 12 lượt và đổi hết thẻ mỗi
+lượt*), trước khi tài liệu này được cập nhật lần này. Không có câu chữ nào cần
+sửa thêm.
+
+| # | Tiêu chí | Kết luận | Bằng chứng |
+|---|---|---|---|
+| 1 | Khởi động nguội → vào được ván đầu dưới 60 giây, không cần người hướng dẫn | **CHƯA KIỂM** | Đã vào được ván đầu trên máy thật (ảnh `neo-one-doidoi-van-choi.png` và `neo-one-doidoi-12-luot.png`), nhưng chưa ai bấm giờ từ lúc khởi động nguội — thiếu số giây đo thật |
+| 2 | Kiểm toán bộ bài chạy trong `pytest`, hỏng thì test đỏ | **ĐẠT** | `tests/test_bo_bai.py` nằm trong bộ 127 test xanh (`.venv/bin/pytest -q` → `127 passed`) |
+| 3 | Sáu người chơi, ô tên hiện đủ sáu, click ghi đúng lượt cho đúng người | **ĐẠT** | Ảnh `neo-one-doidoi-12-luot.png`: sáu người, `Lượt 1/12` → `Lượt 2/12` đúng nhịp, vòng nháy vàng khoanh đúng hình trùng |
+| 4 | Hoa tiêu không thể ghi lượt trong mọi trường hợp, kể cả bấm nhanh liên tiếp hay bấm đúng lúc đang chấm thẻ; trong ván không có con số nào dưới ô tên | **CHƯA KIỂM** | Ảnh `neo-one-doidoi-12-luot.png` xác nhận không hiện con số dưới ô tên, nhưng không có bằng chứng đã thử bấm nhanh liên tiếp/bấm đúng lúc đang chấm thẻ trên thẻ Hoa tiêu ở máy thật |
+| 5 | Gợi ý của Hoa tiêu chỉ dùng được một lần cho mỗi thẻ, bấm `Space` lần hai không có tác dụng | **CHƯA KIỂM** | Không có ảnh hay log nào trong bằng chứng đã kiểm nhắc tới việc thử nút `Space` trên máy thật |
+| 6 | Chọn sai thì ô người đó khoá đủ 3 giây, click trong lúc khoá không ghi gì | **CHƯA KIỂM** | Ảnh `neo-one-doidoi-an-thua-cham-diem.png` xác nhận ô khoá **đổi màu** khi bấm sai, nhưng không có phép đo xác nhận đúng 3 giây, và không có bằng chứng đã thử click trong lúc đang khoá |
+| 7 | Cả 57 hình dựng ra hình đúng trên NEO One, không hình nào trắng hoặc méo | **ĐẠT** | Ảnh `qt5-dung-57-hinh.png`: 57/57 hình dựng đúng, 0 hình trắng |
+| 8 | Toàn bộ app không có ô nhập tên/thông tin cá nhân nào, không ghi ra tệp nào ngoài thư mục cấu hình sẵn có của GCompris | **ĐẠT** | Không có `TextInput`/`TextField`/`TextArea` nào trong `mini-app/lang_doidoi/`; `lang_doidoi.js` chỉ đọc JSON đóng gói sẵn qua `qrc:` (đồng bộ, không mạng), không có lệnh ghi tệp nào trong toàn bộ mini app |
+
+Ba tiêu chí còn CHƯA KIỂM (4, 5, 6 — một phần) đều là hành vi cần bấm thử trực
+tiếp trên máy thật theo đúng kịch bản ("bấm nhanh liên tiếp", "bấm `Space` lần
+hai", "đo đúng 3 giây") mà buổi nghiệm thu 2026-09-02 chưa đi hết; ảnh chụp có
+sẵn xác nhận đúng hình dạng giao diện (không số điểm, ô khoá đổi màu) nhưng
+không xác nhận đúng hành vi cạnh biên. Tiêu chí 1 thiếu một con số đo cụ thể.
+Còn lại (2, 3, 7, 8) có bằng chứng trực tiếp, ghi ĐẠT.
+
+
 ## 12 · Rủi ro
 
 | Rủi ro | Mức | Đường lui |
@@ -385,14 +583,23 @@ theo quyết định Q7 — học trò cần đọc được tiếng Việt.
 
 ## 13 · Giấy phép
 
-Bộ 57 hình phát hành **CC BY-SA**, làng giữ quyền. Mã hoạt động theo
-**GPL-3.0-or-later** như `lang_maker` và như GCompris. CC BY-SA 4.0 có điều
-khoản tương thích một chiều sang GPLv3 nên trộn được, miễn tác phẩm hợp thành
-phát hành theo GPLv3 — **cần bước rà pháp lý xác nhận trước khi phát hành công
-khai**, đánh dấu chờ, không chặn việc code.
+Bộ 57 hình phát hành **CC BY-SA 4.0**, chủ sở hữu **ThingEdu**. Mã hoạt động theo
+**GPL-3.0-or-later** như `lang_maker`, nhưng bản thân kho `gcompris-vi` — và
+GCompris gốc — là **AGPL-3.0-or-later** (xem `LICENSE`), KHÔNG phải GPL (sửa
+2026-09-02: bản trước của mục này viết nhầm "như GCompris" thành GPL). CC
+BY-SA 4.0 có điều khoản tương thích một chiều sang GPLv3, và trộn mã
+GPLv3 vào một tác phẩm hợp thành phát hành AGPLv3 vẫn hợp lệ (AGPLv3 chỉ
+CỘNG THÊM điều khoản mạng lên trên GPLv3, không thu hẹp quyền tương thích của
+GPLv3) — rà soát pháp lý **ĐÃ XONG** 2026-09-02, xem `RA_SOAT_PHAP_LY.md`.
+Chủ dự án chốt 2026-09-03: bộ 57 hình phát hành **CC BY-SA 4.0**, chủ sở hữu
+**ThingEdu**. Cửa này đã đóng.
 
-Hình **Tux** trong bộ là bản vẽ lại; ghi công linh vật Linux của Larry Ewing ở
-`ActivityInfo.qml`.
+Hình **Tux** trong bộ là bản vẽ lại; ghi công linh vật Linux của Larry Ewing.
+Đợt sửa 2026-09-02 đưa lời ghi công bộ 57 hình + Tux vào `ActivityInfo.qml` (trường `credit:`, ô
+GCompris hiện thẳng cho người dùng) và ở `README.md` (mục Giấy phép) — trước
+đợt sửa 2026-09-02, `credit:` để trống, ghi công của Tux chỉ nằm trong chú
+thích mã (`SPDX-FileCopyrightText` ở đầu `ActivityInfo.qml`) mà người dùng
+không thấy.
 
 Kho `gcompris-vi` là kho công khai AGPL nên mọi hình đưa vào phải sạch thương
 hiệu bên thứ ba — bài học từ `lang_maker` (xem `MINI_APP_LANG_MAKER.md`, mục

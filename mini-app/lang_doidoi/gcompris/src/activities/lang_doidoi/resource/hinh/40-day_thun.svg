@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14 20c14-14 22 6 36 0M14 44c14 14 22-6 36 0" stroke="#6B3FA0" stroke-width="5"/>
+        <ellipse cx="14" cy="32" rx="6" ry="12" stroke="#6B3FA0" stroke-width="5"/>
+        <ellipse cx="50" cy="32" rx="6" ry="12" stroke="#6B3FA0" stroke-width="5"/>
+      </svg>

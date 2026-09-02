@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 20c-6-4-12-4-14 2 4 4 9 5 13 4M44 20c6-4 12-4 14 2-4 4-9 5-13 4"/>
+        <path d="M20 18c0-4 5-7 12-7s12 3 12 7c0 6 2 10 2 16 0 9-6 15-14 15s-14-6-14-15c0-6 2-10 2-16z" fill="#8A4B24"/>
+        <circle cx="26" cy="28" r="2" fill="#141414" stroke="none"/>
+        <circle cx="38" cy="28" r="2" fill="#141414" stroke="none"/>
+        <circle cx="32" cy="42" r="5" fill="#FBF8F1"/>
+      </svg>

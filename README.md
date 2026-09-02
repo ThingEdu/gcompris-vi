@@ -15,6 +15,7 @@ thống kê KDE ghi nhận 6.190 chuỗi, 0% đã dịch.
 | Kho giọng đọc tiếng Việt | 202/888 tệp — lời dẫn 114 hoạt động, bảng chữ cái, chữ số, lời khen, màu sắc |
 | Bản đồ Việt Nam | Hoàng Sa + Trường Sa vá vào bản đồ châu Á; **bản đồ hành chính 34 tỉnh thành** mới, GCompris gốc không có |
 | Mini app của Làng Maker | Thêm hoạt động mới **không cần biên dịch lại** — xem [DOCS/MINI_APP_LANG_MAKER.md](DOCS/MINI_APP_LANG_MAKER.md) |
+| Mini app thứ hai — Đối Đôi Làng | Bộ bài 57 hình kiểu Dobble (`lang_doidoi`), ba chế độ **Học hình** (1 người) · **Luật làng** (2–6 người, hợp tác) · **Luật ăn thua** (2–6 người, có điểm) — đã nghiệm thu trên NEO One thật, xem [DOCS/MINI_APP_DOI_DOI_LANG.md](DOCS/MINI_APP_DOI_DOI_LANG.md) |
 | Đường ống dựng lại từ đầu | `.qm`, `core.rcc` đã vá, `voices-vi.rcc`, `geography.rcc`, `geo-country.rcc` |
 
 Đã nghiệm thu trên GCompris thật: **382/382 hoạt động** hiện tên, mô tả và
@@ -80,14 +81,19 @@ voices/manifest/*.tsv    lời đọc cho từng tệp giọng
 maps/34-tinh/            bản đồ hành chính 34 tỉnh thành (1 nền + 34 mảnh + board)
 mini-app/chung/          nhân vật NEO Tre dùng chung cho mọi mini app
 mini-app/lang_*/         mini app do ThingEdu thêm vào (tiền tố lang_ để không đụng bản gốc)
+mini-app/nguon/          tệp nguồn để dựng lại tài sản mini app (vd. HTML gốc của bộ
+                         57 hình Đối Đôi Làng) — đặt NGOÀI thư mục app vì
+                         `tools/dong_goi_mini_app.py` chép nguyên thư mục app vào `.rcc`
 tools/                   dựng khung po, xuất/nhập đợt dịch, kiểm tra,
-                         bung/đóng .rcc, sinh giọng, dựng .qm
+                         bung/đóng .rcc, sinh giọng, dựng .qm, `kiem_qml.py` nạp
+                         `core.rcc` thật của máy đích vào Qt5 để bắt lỗi QML mini app
+                         ngay trên máy phát triển
 deploy/install_vi.sh     cài vào một bản GCompris đã có
 tests/                   test cho bộ kiểm tra bản dịch
 ```
 
 ```bash
-./.venv/bin/python -m pytest tests/          # 93 test
+./.venv/bin/python -m pytest tests/          # 127 test
 ./.venv/bin/python tools/check_po.py po/gcompris_qt.po
 ./.venv/bin/python tools/po_batch.py stats po/gcompris_qt.po
 ```
@@ -97,3 +103,26 @@ tests/                   test cho bộ kiểm tra bản dịch
 GCompris phát hành theo **AGPL v3**, nên bản việt hóa này cũng vậy — xem
 [LICENSE](LICENSE). Mã nguồn gốc: https://invent.kde.org/education/gcompris
 (khảo sát trên commit `8b49e97f`, bản 26.1.0).
+
+Giấy phép của **mã** (AGPL/GPL, tuỳ tệp) tách riêng với giấy phép của **hình
+ảnh**.
+
+**Bộ 57 hình Làng Maker** dùng trong `lang_doidoi` (Đối Đôi Làng):
+© **ThingEdu**, phát hành theo **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.vi)**.
+Trường nào dùng lại hoặc vẽ thêm dựa trên bộ này **phải giữ nguyên CC BY-SA 4.0
+và ghi công ThingEdu** — điều khoản ShareAlike đi theo hình mãi mãi, không lấy
+về đóng lại được.
+
+Chọn 4.0 vì đó là phiên bản GCompris dùng cho tài sản của họ, và là bản duy
+nhất Creative Commons tuyên bố tương thích một chiều sang GPLv3.
+
+Linh vật **Tux** trong bộ là bản vẽ lại; linh vật Linux gốc của **Larry
+Ewing**. **Trâu Mở** là hình thay thế bản địa cho linh vật GNU, không dùng
+hình gốc.
+
+Ảnh chụp màn hình trong `DOCS/anh/` có chứa giao diện GCompris (hàng biểu
+tượng mục, thanh nút, hình nền) — những phần đó thuộc bản quyền dự án
+GCompris, dùng theo giấy phép của họ.
+
+Rà soát pháp lý đầy đủ: `DOCS/RA_SOAT_PHAP_LY.md`. Ghi công hiện cho người
+dùng nằm ở trường `credit:` trong `ActivityInfo.qml` của từng hoạt động.

@@ -1,0 +1,458 @@
+[
+ {
+  "so": 1,
+  "ma": "neo_tre",
+  "ten": "Neo Tre",
+  "nhom": "A",
+  "mau": "#1F7A52",
+  "nghia": "Măng tre — linh vật làng"
+ },
+ {
+  "so": 2,
+  "ma": "tux",
+  "ten": "Tux",
+  "nhom": "A",
+  "mau": "#3A3A3A",
+  "nghia": "Chim cánh cụt — mã nguồn mở"
+ },
+ {
+  "so": 3,
+  "ma": "trau_mo",
+  "ten": "Trâu Mở",
+  "nhom": "A",
+  "mau": "#8A4B24",
+  "nghia": "Tự do, cần cù"
+ },
+ {
+  "so": 4,
+  "ma": "rua_logo",
+  "ten": "Rùa Logo",
+  "nhom": "A",
+  "mau": "#1F7A52",
+  "nghia": "Con rùa của Papert"
+ },
+ {
+  "so": 5,
+  "ma": "con_bo",
+  "ten": "Con Bọ",
+  "nhom": "A",
+  "mau": "#C4231F",
+  "nghia": "Lỗi là bạn"
+ },
+ {
+  "so": 6,
+  "ma": "ong_tho",
+  "ten": "Ong Thợ",
+  "nhom": "A",
+  "mau": "#E8A317",
+  "nghia": "Guild / phường hội"
+ },
+ {
+  "so": 7,
+  "ma": "kien_tha_moi",
+  "ten": "Kiến Tha Mồi",
+  "nhom": "A",
+  "mau": "#8A4B24",
+  "nghia": "Tích luỹ từng mảnh"
+ },
+ {
+  "so": 8,
+  "ma": "cu_do_binh_dan",
+  "ten": "Cụ Đồ Bình Dân",
+  "nhom": "A",
+  "mau": "#C4231F",
+  "nghia": "Bình dân học vụ 1945"
+ },
+ {
+  "so": 9,
+  "ma": "anh_chi_ao_xanh",
+  "ten": "Anh Chị Áo Xanh",
+  "nhom": "A",
+  "mau": "#2B57A6",
+  "nghia": "Facilitator gần tuổi"
+ },
+ {
+  "so": 10,
+  "ma": "be_che",
+  "ten": "Bé Chế",
+  "nhom": "A",
+  "mau": "#12958E",
+  "nghia": "Học viên mới"
+ },
+ {
+  "so": 11,
+  "ma": "mo_han",
+  "ten": "Mỏ hàn",
+  "nhom": "B",
+  "mau": "#C4231F",
+  "nghia": "Có khói — luôn đi kèm kính"
+ },
+ {
+  "so": 12,
+  "ma": "kim_cat",
+  "ten": "Kìm cắt",
+  "nhom": "B",
+  "mau": "#2B57A6",
+  "nghia": ""
+ },
+ {
+  "so": 13,
+  "ma": "tua_vit",
+  "ten": "Tua vít",
+  "nhom": "B",
+  "mau": "#E8A317",
+  "nghia": "Đầu 4 cạnh"
+ },
+ {
+  "so": 14,
+  "ma": "keo",
+  "ten": "Kéo",
+  "nhom": "B",
+  "mau": "#6B3FA0",
+  "nghia": ""
+ },
+ {
+  "so": 15,
+  "ma": "sung_ban_keo",
+  "ten": "Súng bắn keo",
+  "nhom": "B",
+  "mau": "#12958E",
+  "nghia": ""
+ },
+ {
+  "so": 16,
+  "ma": "thuoc_cuon",
+  "ten": "Thước cuộn",
+  "nhom": "B",
+  "mau": "#E8A317",
+  "nghia": "Đo hai lần, cắt một lần"
+ },
+ {
+  "so": 17,
+  "ma": "dao_roc_giay",
+  "ten": "Dao rọc giấy",
+  "nhom": "B",
+  "mau": "#C4231F",
+  "nghia": "Chỉ dùng khi có người lớn"
+ },
+ {
+  "so": 18,
+  "ma": "but_chi_gach_dau",
+  "ten": "Bút chì gạch dấu",
+  "nhom": "B",
+  "mau": "#8A4B24",
+  "nghia": ""
+ },
+ {
+  "so": 19,
+  "ma": "bang_dinh_dien",
+  "ten": "Băng dính điện",
+  "nhom": "B",
+  "mau": "#3A3A3A",
+  "nghia": ""
+ },
+ {
+  "so": 20,
+  "ma": "kinh_bao_ho",
+  "ten": "Kính bảo hộ",
+  "nhom": "B",
+  "mau": "#2B57A6",
+  "nghia": "Không kính, không hàn"
+ },
+ {
+  "so": 21,
+  "ma": "khoan_mini",
+  "ten": "Khoan mini",
+  "nhom": "B",
+  "mau": "#6B3FA0",
+  "nghia": ""
+ },
+ {
+  "so": 22,
+  "ma": "kep_e_to",
+  "ten": "Kẹp / ê tô",
+  "nhom": "B",
+  "mau": "#3A3A3A",
+  "nghia": "Giữ chặt trước khi cắt"
+ },
+ {
+  "so": 23,
+  "ma": "bo_mach_dieu_khien",
+  "ten": "Bo mạch điều khiển",
+  "nhom": "C",
+  "mau": "#1F7A52",
+  "nghia": ""
+ },
+ {
+  "so": 24,
+  "ma": "den_led",
+  "ten": "Đèn LED",
+  "nhom": "C",
+  "mau": "#C4231F",
+  "nghia": "Chân dài là cực dương"
+ },
+ {
+  "so": 25,
+  "ma": "dien_tro",
+  "ten": "Điện trở",
+  "nhom": "C",
+  "mau": "#8A4B24",
+  "nghia": "Đọc màu để biết giá trị"
+ },
+ {
+  "so": 26,
+  "ma": "day_jumper",
+  "ten": "Dây jumper",
+  "nhom": "C",
+  "mau": "#6B3FA0",
+  "nghia": ""
+ },
+ {
+  "so": 27,
+  "ma": "cuc_pin",
+  "ten": "Cục pin",
+  "nhom": "C",
+  "mau": "#E8A317",
+  "nghia": ""
+ },
+ {
+  "so": 28,
+  "ma": "dong_co_servo",
+  "ten": "Động cơ servo",
+  "nhom": "C",
+  "mau": "#2B57A6",
+  "nghia": ""
+ },
+ {
+  "so": 29,
+  "ma": "nut_nhan",
+  "ten": "Nút nhấn",
+  "nhom": "C",
+  "mau": "#C4231F",
+  "nghia": ""
+ },
+ {
+  "so": 30,
+  "ma": "coi_buzzer",
+  "ten": "Còi buzzer",
+  "nhom": "C",
+  "mau": "#3A3A3A",
+  "nghia": ""
+ },
+ {
+  "so": 31,
+  "ma": "cam_bien_sieu_am",
+  "ten": "Cảm biến siêu âm",
+  "nhom": "C",
+  "mau": "#12958E",
+  "nghia": "Đôi mắt của robot"
+ },
+ {
+  "so": 32,
+  "ma": "breadboard",
+  "ten": "Breadboard",
+  "nhom": "C",
+  "mau": "#1F7A52",
+  "nghia": "Nối thử, chưa hàn"
+ },
+ {
+  "so": 33,
+  "ma": "cong_tac_gat",
+  "ten": "Công tắc gạt",
+  "nhom": "C",
+  "mau": "#E8A317",
+  "nghia": ""
+ },
+ {
+  "so": 34,
+  "ma": "banh_rang",
+  "ten": "Bánh răng",
+  "nhom": "C",
+  "mau": "#3A3A3A",
+  "nghia": ""
+ },
+ {
+  "so": 35,
+  "ma": "ong_tre",
+  "ten": "Ống tre",
+  "nhom": "D",
+  "mau": "#1F7A52",
+  "nghia": "Vật liệu khung chính"
+ },
+ {
+  "so": 36,
+  "ma": "bia_carton",
+  "ten": "Bìa carton",
+  "nhom": "D",
+  "mau": "#8A4B24",
+  "nghia": "Sóng nằm ngang mới cứng"
+ },
+ {
+  "so": 37,
+  "ma": "chai_nhua",
+  "ten": "Chai nhựa",
+  "nhom": "D",
+  "mau": "#12958E",
+  "nghia": ""
+ },
+ {
+  "so": 38,
+  "ma": "nap_chai",
+  "ten": "Nắp chai",
+  "nhom": "D",
+  "mau": "#C4231F",
+  "nghia": "Bánh xe rẻ nhất"
+ },
+ {
+  "so": 39,
+  "ma": "que_kem_go",
+  "ten": "Que kem gỗ",
+  "nhom": "D",
+  "mau": "#E8A317",
+  "nghia": ""
+ },
+ {
+  "so": 40,
+  "ma": "day_thun",
+  "ten": "Dây thun",
+  "nhom": "D",
+  "mau": "#6B3FA0",
+  "nghia": "Truyền động đơn giản nhất"
+ },
+ {
+  "so": 41,
+  "ma": "lon_nuoc_ngot",
+  "ten": "Lon nước ngọt",
+  "nhom": "D",
+  "mau": "#2B57A6",
+  "nghia": ""
+ },
+ {
+  "so": 42,
+  "ma": "giay_gap",
+  "ten": "Giấy gấp",
+  "nhom": "D",
+  "mau": "#C4231F",
+  "nghia": "Paper Play"
+ },
+ {
+  "so": 43,
+  "ma": "vai_vun",
+  "ten": "Vải vụn",
+  "nhom": "D",
+  "mau": "#6B3FA0",
+  "nghia": ""
+ },
+ {
+  "so": 44,
+  "ma": "dat_nan",
+  "ten": "Đất nặn",
+  "nhom": "D",
+  "mau": "#8A4B24",
+  "nghia": ""
+ },
+ {
+  "so": 45,
+  "ma": "ong_hut_giay",
+  "ten": "Ống hút giấy",
+  "nhom": "D",
+  "mau": "#12958E",
+  "nghia": ""
+ },
+ {
+  "so": 46,
+  "ma": "cong_lang",
+  "ten": "Cổng làng",
+  "nhom": "E",
+  "mau": "#C4231F",
+  "nghia": ""
+ },
+ {
+  "so": 47,
+  "ma": "cay_da",
+  "ten": "Cây đa",
+  "nhom": "E",
+  "mau": "#1F7A52",
+  "nghia": "Nơi tụ họp"
+ },
+ {
+  "so": 48,
+  "ma": "trong_lang",
+  "ten": "Trống làng",
+  "nhom": "E",
+  "mau": "#C4231F",
+  "nghia": "Mở và đóng buổi"
+ },
+ {
+  "so": 49,
+  "ma": "giao_uoc",
+  "ten": "Giao ước",
+  "nhom": "E",
+  "mau": "#E8A317",
+  "nghia": "Ký bằng vân tay"
+ },
+ {
+  "so": 50,
+  "ma": "thing_notebook",
+  "ten": "Thing Notebook",
+  "nhom": "E",
+  "mau": "#2B57A6",
+  "nghia": "Sổ của học viên"
+ },
+ {
+  "so": 51,
+  "ma": "huy_hieu_rank",
+  "ten": "Huy hiệu rank",
+  "nhom": "E",
+  "mau": "#E8A317",
+  "nghia": "Thang bậc của làng"
+ },
+ {
+  "so": 52,
+  "ma": "hai_ban_tay",
+  "ten": "Hai bàn tay",
+  "nhom": "E",
+  "mau": "#8A4B24",
+  "nghia": "Không ai bị bỏ lại"
+ },
+ {
+  "so": 53,
+  "ma": "ngon_den",
+  "ten": "Ngọn đèn",
+  "nhom": "E",
+  "mau": "#C4231F",
+  "nghia": "Truyền tay, không giữ riêng"
+ },
+ {
+  "so": 54,
+  "ma": "bang_den_phan",
+  "ten": "Bảng đen & phấn",
+  "nhom": "E",
+  "mau": "#1F7A52",
+  "nghia": ""
+ },
+ {
+  "so": 55,
+  "ma": "san_khau_showcase",
+  "ten": "Sân khấu Showcase",
+  "nhom": "E",
+  "mau": "#6B3FA0",
+  "nghia": "Buổi thứ 8"
+ },
+ {
+  "so": 56,
+  "ma": "co_guild",
+  "ten": "Cờ guild",
+  "nhom": "E",
+  "mau": "#12958E",
+  "nghia": "Mỗi nhóm một cờ"
+ },
+ {
+  "so": 57,
+  "ma": "hom_dung_cu_chung",
+  "ten": "Hòm dụng cụ chung",
+  "nhom": "E",
+  "mau": "#3A3A3A",
+  "nghia": "Của làng, không của ai"
+ }
+]

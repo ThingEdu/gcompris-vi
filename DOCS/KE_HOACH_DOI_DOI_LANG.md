@@ -225,8 +225,13 @@ Chờ đợi: PASS, 11 test.
 
 Phá hỏng có chủ đích, mỗi lần một chỗ, xác nhận test đỏ rồi hoàn nguyên:
 
-1. Đổi `((i * k + j) % q)` thành `((i * k + j + 1) % q)` →
+1. Đổi `((i * k + j) % q)` thành `((i * k * k + j) % q)` →
    `test_moi_cap_the_trung_dung_mot_hinh` phải đỏ.
+
+   *Đừng phá bằng `+ 1`*: cộng thêm hằng số chỉ hoán vị nhãn hình trong cùng
+   một lớp, cấu trúc xạ ảnh không đổi nên test vẫn xanh. Phải phá vào chỗ
+   `i · k` — chính tích này mới là thứ bảo đảm hai đường thẳng cắt nhau đúng
+   một điểm.
 2. Đổi thẻ đầu thành `list(range(q))` →
    `test_dung_so_the_va_so_hinh` phải đỏ.
 3. Đổi `[1 + i]` thành `[0]` ở vòng cuối →
@@ -525,8 +530,16 @@ bảng màu** — mở tệp HTML nguồn xem hình nào dùng màu ngoài bản
 
 - [ ] **Bước 6: Chứng minh test biết fail**
 
+**Đọc trước khi làm.** Test ở đây là **test đọc tệp đã sinh ra** — chúng mở
+`resource/hinh/*.svg` và `resource/hinh.json` rồi phán. Phá vào
+`tools/tach_57_hinh.py` **không chứng minh được chúng**, vì vệ binh trong
+`tach()` chặn trước nên chẳng có tệp nào để đọc, và test đỏ vì thiếu tệp chứ
+không phải vì nó bắt được lỗi.
+
+Vậy làm hai đợt. Đợt một phá bộ sinh — đợt này chứng minh **vệ binh** hoạt động:
+
 1. Bỏ dòng `svg = svg.replace("currentColor", mau_than)` →
-   `test_khong_con_bien_css_hay_currentcolor` phải đỏ.
+   `tach()` phải dừng với "còn sót màu chưa thay".
 2. Bỏ hàm `thay` (trả nguyên `svg` trong `sua_mau`) → cũng test đó phải đỏ.
 3. Đổi một mã trong `MAU` thành `#123456` →
    `test_moi_ma_mau_nam_trong_bang_da_biet` phải đỏ.
@@ -536,6 +549,19 @@ bảng màu** — mở tệp HTML nguồn xem hình nào dùng màu ngoài bản
    `test_ma_khong_dau_va_khong_khoang_trang` phải đỏ.
 6. Xoá một `<div class="card …>` khỏi bản sao tệp HTML →
    `tach()` phải dừng với "chỉ tách được 56 hình".
+
+Đợt hai làm bẩn thẳng **tệp đã sinh**, rồi `git checkout -- <đường dẫn>` hoàn
+nguyên. Đợt này mới chứng minh được các test đọc-tệp, và mỗi phép phải làm đúng
+một test đỏ:
+
+7. Trong một tệp `resource/hinh/*.svg`, thay một mã hex bằng `currentColor` →
+   `test_khong_con_bien_css_hay_currentcolor` đỏ.
+8. Trong một tệp SVG khác, thay một mã hex bằng `#123456` →
+   `test_moi_ma_mau_nam_trong_bang_da_biet` đỏ.
+9. Trong `resource/hinh.json`, đổi `nhom` của một mục từ `"C"` thành `"B"` →
+   `test_dung_so_luong_tung_nhom` đỏ.
+10. Trong `resource/hinh.json`, đổi `ma` của một mục thành `"Bảng Đen"` →
+    `test_ma_khong_dau_va_khong_khoang_trang` đỏ.
 
 - [ ] **Bước 7: Commit**
 
@@ -759,8 +785,12 @@ Chờ đợi: in `6 hình: 24 bố cục` và `8 hình: 24 bố cục`, rồi 8 
 
 1. Đổi `KHE` trong `sinh_bo_cuc.py` thành `-0.20` (cho phép đè) →
    `test_khong_hai_hinh_nao_de_nhau` phải đỏ.
-2. Đổi `bk = (1 - r) * …` thành `bk = 1.0 * …` →
-   `test_moi_hinh_nam_tron_trong_the` phải đỏ.
+2. Đổi `bk = (1 - r) * …` thành `bk = 1.0 * …` **và** bỏ `and not tran` khỏi
+   điều kiện chấp nhận → `test_moi_hinh_nam_tron_trong_the` phải đỏ.
+
+   *Phải phá cả hai chỗ.* Chỉ đổi `bk` thôi thì vệ binh `tran` loại sạch mọi bố
+   cục, bộ sinh dừng bằng `SystemExit` và **không ghi tệp mới** — chạy test sau
+   đó sẽ đọc `bo_cuc.json` cũ còn tốt rồi xanh giả.
 3. Bỏ nhiễu cỡ (`r = r_goc`) → `test_co_lech_co_giua_cac_hinh` phải đỏ.
 4. Đổi `rng.uniform(0.85, 1.15)` thành `rng.uniform(0.5, 1.5)` →
    `test_lech_co_khong_qua_15_phan_tram` phải đỏ.
