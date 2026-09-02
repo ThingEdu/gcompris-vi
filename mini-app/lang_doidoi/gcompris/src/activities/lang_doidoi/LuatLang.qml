@@ -204,42 +204,53 @@ Item {
     // dựng thử) — QML cấm neo (anchor) xuyên qua ranh giới Loader kiểu này,
     // dù đọc property THƯỜNG (không phải anchor) thì lại được.
     //
-    // Nên né Bar bằng SỐ, không bằng AnchorLine: cộng thêm chiều cao thật
-    // của Bar (items.bar.height — đọc property thường, không giới hạn cha/con)
-    // vào bottomMargin của vungChoi, đáy vungChoi vẫn neo vào parent.bottom
-    // của chính "man" (== đáy màn, vì Loader tự giãn "man" khớp đúng
-    // background). man.height và bar.height cùng một hệ toạ độ (man được
-    // Loader giãn khớp "background", bar cũng là con của "background"), nên
-    // phép cộng số học này ra đúng vị trí, bất kể Bar thật cao bao nhiêu.
-    // items.bar chỉ có sau khi Loader gán items (PHÁN QUYẾT F1) — items có
-    // thể còn null/chưa có "bar" lúc ràng buộc này chạy lần đầu, gác bằng
-    // toán tử bậc ba, coi như Bar cao 0 cho tới khi items.bar có thật.
+    // VÒNG SỬA 2 (máy thật, nghiệm thu sau vòng trên): "né Bar bằng SỐ" ở
+    // trên (items.bar.height) KHÔNG ĐỦ — chủ dự án đo trên NEO One thật thấy
+    // hai nút TRÒN (trợ giúp/về nhà) của GCompris nhô lên cao hơn hẳn
+    // "height" mà Bar khai báo, chiếm khoảng x 190–520, y 930–1050 trong hệ
+    // 1920×1080, đè lên phần dưới thẻ Bạn 1/Bạn 2. items.bar.height chỉ là
+    // chiều cao logic của thanh, không phải chiều cao thị giác thật của các
+    // nút tròn nhô lên trên thanh đó.
+    //
+    // Đổi sang một dải CỐ ĐỊNH 160px (y=920..1080 trong hệ 1920×1080) —
+    // không còn dựa vào items.bar.height/man.items nữa. 160px là số đo trực
+    // tiếp trên máy thật (đường y=920, chừa dư so với đỉnh vùng nút y≈930),
+    // không phải suy luận.
     Item {
         id: vungChoi
         anchors {
             top: thanhTren.bottom; topMargin: 8
             left: parent.left; right: parent.right
             bottom: parent.bottom
-            bottomMargin: 16 + ((man.items && man.items.bar) ? man.items.bar.height : 0)
+            bottomMargin: 160
         }
 
-        // Thẻ chung + hàng thẻ riêng gộp thành MỘT khối. Trước đây (task-10)
-        // neo anchors.centerIn: parent để khoảng trống thật (nếu dư) chia
-        // đều hai đầu vùng chơi. VÒNG SỬA (máy thật, nhìn ảnh): với 6 người +
-        // cấp Khó, khối này CAO HƠN vùng chơi thật trên NEO One (Bar thật cao
-        // hơn ô giả 130px dùng lúc dựng) — centerIn để phần dư TRÀN ĐỀU cả
-        // hai phía, nên nửa trên đè lên "Lượt n / N" ở thanh trên. Đổi sang
-        // neo ĐỈNH vào đỉnh vùng chơi (ngay dưới thanh trên, có topMargin
-        // riêng) — mép trên thẻ chung không bao giờ vượt lên trên vùng chơi
-        // được nữa, dù khối có cao hơn chỗ trống thật đến đâu; phần tràn (nếu
-        // có) chỉ còn tràn xuống phía Bar, ít hại hơn tràn lên chữ.
+        // Thẻ chung + hàng thẻ riêng gộp thành MỘT khối, neo ĐỈNH vào đỉnh
+        // vùng chơi (vòng sửa trước — mép trên thẻ chung không bao giờ vượt
+        // lên thanh trên).
+        //
+        // VÒNG SỬA 2: chiều cao THẬT của khối (đặc biệt chiều cao ô tên —
+        // co theo NỘI DUNG, tức co theo CỠ CHỮ THẬT của máy đích, xem VÒNG
+        // SỬA 3 phía dưới) không đo được từ máy phát triển — Mac không có
+        // ApplicationInfo.ratio giống NEO One. Thay vì ĐOÁN một cỡ thẻ tĩnh
+        // rồi hy vọng vừa dải 160px vừa chừa, đặt một LƯỚI AN TOÀN tính
+        // ĐÚNG lúc chạy: co (scale) toàn khối quanh MÉP TRÊN sao cho chiều
+        // cao đã co không bao giờ vượt quá phần còn lại của vungChoi — bảo
+        // đảm mép DƯỚI của khối (hàng thẻ riêng + nhãn tên) LUÔN nằm trong
+        // dải 920px chừa sẵn, bất kể cỡ chữ thật của máy đích lớn tới đâu.
+        // Trường hợp bình thường (khối vừa đủ chỗ) thì scale=1, không co gì
+        // cả — chỉ co khi thật sự cần.
         Column {
             id: khoiVanChoi
             anchors {
-                top: parent.top; topMargin: 10
+                top: parent.top; topMargin: 6
                 horizontalCenter: parent.horizontalCenter
             }
-            spacing: 40
+            spacing: 24
+            // transformOrigin Top: mép TRÊN đã neo cố định, chỉ mép DƯỚI
+            // được phép "co lên" khi khối tự nhiên cao hơn chỗ trống thật.
+            transformOrigin: Item.Top
+            scale: Math.min(1, (vungChoi.height - 6) / Math.max(1, height))
 
             The {
                 id: theChungHien

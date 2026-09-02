@@ -127,7 +127,17 @@ ActivityBase {
             anchors.fill: parent
             active: items.manHienTai !== "vao_ban"
             source: items.manHienTai === "luat_lang" ? "LuatLang.qml" : "HocHinh.qml"
-            onLoaded: item.items = items
+            // Vòng sửa (máy thật, phím cách của Hoa tiêu không có tác dụng):
+            // "focus: true" khai trong LuatLang.qml chỉ THẮNG được nếu có ai
+            // đó THẬT SỰ gọi forceActiveFocus() cho nó — "focus: true" một
+            // mình chỉ là ỨNG CỬ, không tự xin tiêu điểm bàn phím. Chuỗi
+            // ActivityBase (onStart: focus = true) -> background (focus:
+            // true) dừng đúng tại Loader: Loader không tự chuyển tiêu điểm
+            // cho item nó nạp — đã xác nhận bằng cách bung core.rcc thật,
+            // ActivityBase.qml không có bước này. Gọi thẳng
+            // forceActiveFocus() ở đây, cùng chỗ gán items, không phụ thuộc
+            // "focus: true" của ai thắng ai.
+            onLoaded: { item.items = items; item.forceActiveFocus() }
         }
 
         DialogHelp {
