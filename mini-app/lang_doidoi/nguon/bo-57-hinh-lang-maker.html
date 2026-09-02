@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bộ 57 hình — Làng Maker Việt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cham:#16264A;
+    --cham-2:#1E3357;
+    --giay:#FBF8F1;
+    --muc:#141414;
+
+    --son:#C4231F;
+    --vang:#E8A317;
+    --luc:#1F7A52;
+    --lam:#2B57A6;
+    --tim:#6B3FA0;
+    --gian:#8A4B24;
+    --ngoc:#12958E;
+    --then:#3A3A3A;
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+
+  body{
+    background:var(--cham);
+    color:var(--giay);
+    font-family:'Be Vietnam Pro',system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    padding:0 0 80px;
+  }
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+
+  /* ---------- Hero ---------- */
+  header{padding:72px 0 48px;border-bottom:2px solid rgba(251,248,241,.16)}
+  .eyebrow{
+    font-size:12px;letter-spacing:.22em;text-transform:uppercase;
+    font-weight:700;color:var(--vang);margin-bottom:20px;
+  }
+  h1{
+    font-family:'Bricolage Grotesque',sans-serif;
+    font-weight:800;font-size:clamp(34px,6.2vw,68px);
+    line-height:.98;letter-spacing:-.02em;max-width:15ch;
+  }
+  h1 em{font-style:normal;color:var(--vang)}
+  .thesis{
+    margin-top:26px;max-width:52ch;font-size:17px;line-height:1.6;
+    color:rgba(251,248,241,.78);
+  }
+  .meta{
+    margin-top:34px;display:flex;flex-wrap:wrap;gap:10px 28px;
+    font-size:13px;color:rgba(251,248,241,.55);
+  }
+  .meta b{color:var(--giay);font-weight:700}
+
+  /* ---------- Bảng màu ---------- */
+  .legend{padding:34px 0 10px}
+  .legend h2{
+    font-family:'Bricolage Grotesque',sans-serif;font-size:14px;
+    letter-spacing:.14em;text-transform:uppercase;font-weight:600;
+    color:rgba(251,248,241,.5);margin-bottom:16px;
+  }
+  .swatches{display:flex;flex-wrap:wrap;gap:8px}
+  .sw{
+    display:flex;align-items:center;gap:9px;
+    background:rgba(251,248,241,.06);border-radius:999px;
+    padding:7px 15px 7px 8px;font-size:13px;
+  }
+  .sw i{width:16px;height:16px;border-radius:50%;display:block}
+
+  /* ---------- Nhóm ---------- */
+  section{padding-top:52px}
+  .shead{display:flex;align-items:baseline;gap:14px;margin-bottom:22px;flex-wrap:wrap}
+  .letter{
+    font-family:'Bricolage Grotesque',sans-serif;font-weight:800;
+    font-size:44px;line-height:1;color:var(--vang);
+  }
+  .shead h2{
+    font-family:'Bricolage Grotesque',sans-serif;
+    font-size:24px;font-weight:600;letter-spacing:-.01em;
+  }
+  .count{
+    font-size:12px;color:rgba(251,248,241,.5);
+    border:1px solid rgba(251,248,241,.25);border-radius:999px;padding:3px 10px;
+  }
+  .snote{font-size:14px;color:rgba(251,248,241,.6);margin:-10px 0 22px;max-width:60ch}
+
+  /* ---------- Thẻ ---------- */
+  .grid{
+    display:grid;gap:16px;
+    grid-template-columns:repeat(auto-fill,minmax(132px,1fr));
+  }
+  .card{
+    background:var(--giay);border-radius:14px;
+    padding:14px 10px 12px;text-align:center;
+    position:relative;color:var(--then);
+    box-shadow:0 10px 22px rgba(0,0,0,.3);
+    transition:transform .25s ease, box-shadow .25s ease;
+  }
+  .card:nth-child(4n+1){transform:rotate(-1.6deg)}
+  .card:nth-child(4n+2){transform:rotate(1.1deg)}
+  .card:nth-child(4n+3){transform:rotate(-.5deg)}
+  .card:nth-child(4n+4){transform:rotate(2deg)}
+  .card:hover{transform:rotate(0deg) translateY(-6px);box-shadow:0 18px 34px rgba(0,0,0,.42)}
+
+  .num{
+    position:absolute;top:8px;left:10px;
+    font-size:10px;font-weight:700;color:rgba(20,20,20,.3);
+    font-variant-numeric:tabular-nums;
+  }
+  .card svg{width:74px;height:74px;display:block;margin:6px auto 8px}
+  .nm{font-size:12.5px;font-weight:500;line-height:1.3;color:#141414}
+  .vi{font-size:10.5px;color:rgba(20,20,20,.45);margin-top:3px;line-height:1.3}
+
+  /* màu chủ đạo từng hình */
+  .c-son{color:var(--son)} .c-vang{color:var(--vang)} .c-luc{color:var(--luc)}
+  .c-lam{color:var(--lam)} .c-tim{color:var(--tim)} .c-gian{color:var(--gian)}
+  .c-ngoc{color:var(--ngoc)} .c-then{color:var(--then)}
+
+  footer{
+    margin-top:64px;padding-top:28px;border-top:2px solid rgba(251,248,241,.16);
+    font-size:13px;line-height:1.7;color:rgba(251,248,241,.6);max-width:64ch;
+  }
+  footer b{color:var(--giay)}
+
+  @media print{
+    body{background:#fff;color:#000;padding:0}
+    header,section{page-break-inside:avoid}
+    .card{transform:none!important;box-shadow:none;border:1px solid #ddd}
+    .eyebrow,.letter{color:#8A4B24}
+    h1,.thesis,.meta,.snote,.shead h2,.legend h2,footer{color:#000}
+    body{--giay:#fff}
+  }
+  @media (prefers-reduced-motion:reduce){.card{transition:none}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">Làng Maker Việt · Bộ bài Chơi → Chế → Hiểu</div>
+  <h1>57 hình. 57 thẻ.<br>Hai thẻ bất kỳ luôn có <em>đúng một</em> điểm chung.</h1>
+  <p class="thesis">Đây là kho hình gốc để học viên tự vẽ lại và tự cắt bộ bài của guild mình. Mỗi hình có bóng riêng biệt, không dùng chữ, và chỉ dùng một trong tám màu bên dưới — để nhận ra được ở khoảng cách một sải tay, trên bìa carton, dưới ánh đèn lớp học.</p>
+  <div class="meta">
+    <span><b>Nét:</b> viền đen, bản dày, không đổ bóng</span>
+    <span><b>Xoay:</b> hình phải đọc được ở mọi góc</span>
+    <span><b>Tần suất:</b> mỗi hình xuất hiện đúng 8 lần</span>
+    <span><b>Giấy:</b> bìa 300gsm hoặc carton tái chế</span>
+  </div>
+</header>
+
+<div class="legend">
+  <h2>Tám màu — bảng màu sơn mài</h2>
+  <div class="swatches">
+    <span class="sw"><i style="background:var(--son)"></i>Son đỏ</span>
+    <span class="sw"><i style="background:var(--vang)"></i>Vàng thếp</span>
+    <span class="sw"><i style="background:var(--luc)"></i>Lục tre</span>
+    <span class="sw"><i style="background:var(--lam)"></i>Chàm</span>
+    <span class="sw"><i style="background:var(--tim)"></i>Tím</span>
+    <span class="sw"><i style="background:var(--gian)"></i>Cánh gián</span>
+    <span class="sw"><i style="background:var(--ngoc)"></i>Lam ngọc</span>
+    <span class="sw"><i style="background:var(--then)"></i>Đen then</span>
+  </div>
+</div>
+
+<!-- ========== NHÓM A ========== -->
+<section>
+  <div class="shead"><span class="letter">A</span><h2>Nhân vật &amp; linh vật</h2><span class="count">10 hình</span></div>
+  <p class="snote">Nhóm mang bản sắc. Đây là những hình học viên nhớ đầu tiên và cũng là hình được dùng làm mặt sau thẻ.</p>
+  <div class="grid">
+
+    <div class="card c-luc"><span class="num">01</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M32 56c-9 0-14-6-14-14 0-12 6-24 14-34 8 10 14 22 14 34 0 8-5 14-14 14z" fill="currentColor"/>
+        <path d="M24 40c4-3 12-3 16 0M26 28c3-2 9-2 12 0M28 17c2-1 6-1 8 0"/>
+        <path d="M32 56v-8"/>
+      </svg>
+      <div class="nm">Neo Tre</div><div class="vi">Măng tre — linh vật làng</div>
+    </div>
+
+    <div class="card c-then"><span class="num">02</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M32 6c-10 0-16 8-16 20 0 6-3 10-3 16 0 8 8 14 19 14s19-6 19-14c0-6-3-10-3-16 0-12-6-20-16-20z" fill="currentColor"/>
+        <path d="M32 20c-6 0-9 6-9 14 0 9 4 16 9 16s9-7 9-16c0-8-3-14-9-14z" fill="#FBF8F1"/>
+        <path d="M28 18l4 4 4-4c-1-2-2-3-4-3s-3 1-4 3z" fill="var(--vang)"/>
+        <circle cx="26" cy="14" r="1.6" fill="#141414" stroke="none"/>
+        <circle cx="38" cy="14" r="1.6" fill="#141414" stroke="none"/>
+        <path d="M24 55l-4 4M40 55l4 4" stroke="var(--vang)" stroke-width="4"/>
+      </svg>
+      <div class="nm">Tux</div><div class="vi">Chim cánh cụt — mã nguồn mở</div>
+    </div>
+
+    <div class="card c-gian"><span class="num">03</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 20c-6-4-12-4-14 2 4 4 9 5 13 4M44 20c6-4 12-4 14 2-4 4-9 5-13 4"/>
+        <path d="M20 18c0-4 5-7 12-7s12 3 12 7c0 6 2 10 2 16 0 9-6 15-14 15s-14-6-14-15c0-6 2-10 2-16z" fill="currentColor"/>
+        <circle cx="26" cy="28" r="2" fill="#141414" stroke="none"/>
+        <circle cx="38" cy="28" r="2" fill="#141414" stroke="none"/>
+        <circle cx="32" cy="42" r="5" fill="#FBF8F1"/>
+      </svg>
+      <div class="nm">Trâu Mở</div><div class="vi">Tự do, cần cù</div>
+    </div>
+
+    <div class="card c-luc"><span class="num">04</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14 36c0-11 8-18 18-18s18 7 18 18z" fill="currentColor"/>
+        <path d="M26 19l1 17M38 19l-1 17M15 30h34"/>
+        <path d="M50 30c4 0 6 2 6 5s-2 5-6 4" fill="currentColor"/>
+        <circle cx="55" cy="33" r="1.4" fill="#141414" stroke="none"/>
+        <path d="M18 37v7M28 37v8M36 37v8M46 37v7"/>
+      </svg>
+      <div class="nm">Rùa Logo</div><div class="vi">Con rùa của Papert</div>
+    </div>
+
+    <div class="card c-son"><span class="num">05</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 12c2-3 6-4 10-4s8 1 10 4"/>
+        <path d="M20 10l-6-5M44 10l6-5"/>
+        <circle cx="32" cy="36" r="20" fill="currentColor"/>
+        <path d="M32 16v40"/>
+        <circle cx="22" cy="28" r="3" fill="#141414" stroke="none"/>
+        <circle cx="42" cy="28" r="3" fill="#141414" stroke="none"/>
+        <circle cx="23" cy="44" r="3" fill="#141414" stroke="none"/>
+        <circle cx="41" cy="44" r="3" fill="#141414" stroke="none"/>
+      </svg>
+      <div class="nm">Con Bọ</div><div class="vi">Lỗi là bạn</div>
+    </div>
+
+    <div class="card c-vang"><span class="num">06</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <ellipse cx="32" cy="40" rx="14" ry="17" fill="currentColor"/>
+        <path d="M19 34h26M19.5 44h25M23 52h18"/>
+        <circle cx="32" cy="16" r="7" fill="currentColor"/>
+        <path d="M28 10l-3-6M36 10l3-6"/>
+        <path d="M18 30C8 24 6 34 14 38M46 30c10-6 12 4 4 8" fill="#FBF8F1"/>
+      </svg>
+      <div class="nm">Ong Thợ</div><div class="vi">Guild / phường hội</div>
+    </div>
+
+    <div class="card c-gian"><span class="num">07</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="16" cy="34" r="7" fill="currentColor"/>
+        <circle cx="32" cy="34" r="8" fill="currentColor"/>
+        <ellipse cx="50" cy="34" rx="10" ry="8" fill="currentColor"/>
+        <path d="M12 29l-4-7M18 28l1-8"/>
+        <path d="M28 27L22 16M32 27v-9M36 27l6-11"/>
+        <path d="M28 41l-6 10M34 42l4 10M44 42l-4 10"/>
+      </svg>
+      <div class="nm">Kiến Tha Mồi</div><div class="vi">Tích luỹ từng mảnh</div>
+    </div>
+
+    <div class="card c-son"><span class="num">08</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 24h40L32 4z" fill="currentColor"/>
+        <path d="M12 24h40"/>
+        <circle cx="32" cy="36" r="10" fill="#FBF8F1"/>
+        <circle cx="28" cy="34" r="1.6" fill="#141414" stroke="none"/>
+        <circle cx="36" cy="34" r="1.6" fill="#141414" stroke="none"/>
+        <path d="M26 44c2 8 10 8 12 0" fill="#FBF8F1"/>
+        <path d="M22 56h20" stroke-width="3"/>
+      </svg>
+      <div class="nm">Cụ Đồ Bình Dân</div><div class="vi">Bình dân học vụ 1945</div>
+    </div>
+
+    <div class="card c-lam"><span class="num">09</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="30" cy="14" r="8" fill="#FBF8F1"/>
+        <path d="M14 58c0-13 7-22 16-22s16 9 16 22z" fill="currentColor"/>
+        <path d="M44 40l10-16" stroke-width="3.4"/>
+        <circle cx="55" cy="20" r="4" fill="currentColor"/>
+        <path d="M24 44v14M36 44v14"/>
+      </svg>
+      <div class="nm">Anh Chị Áo Xanh</div><div class="vi">Facilitator gần tuổi</div>
+    </div>
+
+    <div class="card c-ngoc"><span class="num">10</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="26" cy="18" r="10" fill="#FBF8F1"/>
+        <path d="M16 12c4-6 16-6 20 0" stroke-width="3.4"/>
+        <path d="M12 58c0-12 6-20 14-20s14 8 14 20z" fill="currentColor"/>
+        <path d="M38 44l12-10" stroke-width="3"/>
+        <path d="M48 36l8-8" stroke-width="6" stroke="currentColor"/>
+        <path d="M55 27l4 4"/>
+      </svg>
+      <div class="nm">Bé Chế</div><div class="vi">Học viên mới</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========== NHÓM B ========== -->
+<section>
+  <div class="shead"><span class="letter">B</span><h2>Công cụ tay</h2><span class="count">12 hình</span></div>
+  <p class="snote">Mở khoá ở Bậc 2. Thẻ dùng làm bài kiểm tra nhận diện dụng cụ trước khi học viên được cầm mỏ hàn.</p>
+  <div class="grid">
+
+    <div class="card c-son"><span class="num">11</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M46 8L20 34l-6 16 16-6L56 18z" fill="currentColor"/>
+        <path d="M20 34l10 10"/>
+        <path d="M50 12l6-4" stroke-width="3.4"/>
+        <path d="M12 22c-6-4 0-10 4-6s-2 10-8 6" stroke-width="2.2"/>
+      </svg>
+      <div class="nm">Mỏ hàn</div><div class="vi">Có khói — luôn đi kèm kính</div>
+    </div>
+
+    <div class="card c-lam"><span class="num">12</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 6l10 22 10-22" stroke-width="3.4"/>
+        <circle cx="32" cy="32" r="4" fill="#FBF8F1"/>
+        <path d="M28 36L18 58h8l8-16" fill="currentColor"/>
+        <path d="M36 36l10 22h-8l-8-16" fill="currentColor"/>
+      </svg>
+      <div class="nm">Kìm cắt</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-vang"><span class="num">13</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="24" y="6" width="16" height="24" rx="6" fill="currentColor"/>
+        <path d="M27 12h10M27 18h10M27 24h10"/>
+        <rect x="29" y="30" width="6" height="18" fill="#FBF8F1"/>
+        <path d="M28 48h8l-4 10z" fill="#FBF8F1"/>
+        <path d="M32 48v10"/>
+      </svg>
+      <div class="nm">Tua vít</div><div class="vi">Đầu 4 cạnh</div>
+    </div>
+
+    <div class="card c-tim"><span class="num">14</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 8l26 32M46 8L20 40" stroke-width="3"/>
+        <circle cx="18" cy="48" r="8" fill="currentColor"/>
+        <circle cx="46" cy="48" r="8" fill="currentColor"/>
+        <circle cx="32" cy="28" r="2.4" fill="#141414" stroke="none"/>
+      </svg>
+      <div class="nm">Kéo</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-ngoc"><span class="num">15</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10 14h30v14H24l-4 8h-6z" fill="currentColor"/>
+        <path d="M40 18h12l6 4-6 4H40z" fill="#FBF8F1"/>
+        <path d="M20 36l-4 20h10l2-20z" fill="currentColor"/>
+        <path d="M56 30c0 5-4 6-4 10a4 4 0 008 0c0-4-4-5-4-10z" fill="#FBF8F1"/>
+      </svg>
+      <div class="nm">Súng bắn keo</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-vang"><span class="num">16</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="8" y="18" width="34" height="28" rx="8" fill="currentColor"/>
+        <circle cx="25" cy="32" r="7" fill="#FBF8F1"/>
+        <circle cx="25" cy="32" r="2" fill="#141414" stroke="none"/>
+        <path d="M42 30h14v10H42z" fill="#FBF8F1"/>
+        <path d="M46 34v4M50 34v4M54 34v4"/>
+      </svg>
+      <div class="nm">Thước cuộn</div><div class="vi">Đo hai lần, cắt một lần</div>
+    </div>
+
+    <div class="card c-son"><span class="num">17</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14 46l30-30 8 8-30 30z" fill="currentColor"/>
+        <path d="M22 38l8 8"/>
+        <path d="M44 16l6-10 10 10-8 8z" fill="#FBF8F1"/>
+        <path d="M14 46l-6 10 12-4z" fill="#FBF8F1"/>
+      </svg>
+      <div class="nm">Dao rọc giấy</div><div class="vi">Chỉ dùng khi có người lớn</div>
+    </div>
+
+    <div class="card c-gian"><span class="num">18</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 6h20v34H18z" fill="currentColor"/>
+        <path d="M28 6v34"/>
+        <path d="M18 40h20L28 58z" fill="#FBF8F1"/>
+        <path d="M23 49h10"/>
+        <path d="M28 52l-2 6h4z" fill="#141414" stroke="none"/>
+      </svg>
+      <div class="nm">Bút chì gạch dấu</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-then"><span class="num">19</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="28" cy="34" r="20" fill="currentColor"/>
+        <circle cx="28" cy="34" r="8" fill="#FBF8F1"/>
+        <path d="M46 24c6-4 12-6 16-4l-2 8c-4-2-9 0-12 2z" fill="currentColor"/>
+        <path d="M48 20l-2 8"/>
+      </svg>
+      <div class="nm">Băng dính điện</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-lam"><span class="num">20</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10 26h44v12a8 8 0 01-8 8H18a8 8 0 01-8-8z" fill="currentColor"/>
+        <path d="M32 26v20"/>
+        <path d="M10 26c0-6 6-10 22-10s22 4 22 10"/>
+        <path d="M10 32H4M54 32h6" stroke-width="3.4"/>
+      </svg>
+      <div class="nm">Kính bảo hộ</div><div class="vi">Không kính, không hàn</div>
+    </div>
+
+    <div class="card c-tim"><span class="num">21</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 16h26v18H8z" fill="currentColor"/>
+        <path d="M14 34l-3 22h10l1-22z" fill="currentColor"/>
+        <path d="M34 20h8v10h-8z" fill="#FBF8F1"/>
+        <path d="M42 23h16" stroke-width="4"/>
+        <path d="M52 20v6M46 20v6"/>
+      </svg>
+      <div class="nm">Khoan mini</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-then"><span class="num">22</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M40 8H16a8 8 0 00-8 8v32a8 8 0 008 8h24V44H22V20h18z" fill="currentColor"/>
+        <path d="M40 30h18" stroke-width="4"/>
+        <rect x="38" y="24" width="8" height="12" rx="2" fill="#FBF8F1"/>
+        <circle cx="58" cy="30" r="5" fill="#FBF8F1"/>
+      </svg>
+      <div class="nm">Kẹp / ê tô</div><div class="vi">Giữ chặt trước khi cắt</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========== NHÓM C ========== -->
+<section>
+  <div class="shead"><span class="letter">C</span><h2>Điện tử &amp; linh kiện</h2><span class="count">12 hình</span></div>
+  <p class="snote">Bậc 2. Vẽ đúng số chân và đúng tỉ lệ — học viên sẽ dùng chính thẻ này để tìm linh kiện trong hộp.</p>
+  <div class="grid">
+
+    <div class="card c-luc"><span class="num">23</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="8" y="14" width="48" height="36" rx="4" fill="currentColor"/>
+        <rect x="22" y="26" width="20" height="14" rx="2" fill="#FBF8F1"/>
+        <path d="M14 14v-6M22 14v-6M30 14v-6M38 14v-6M46 14v-6" stroke-width="3"/>
+        <path d="M18 50v6M28 50v6M38 50v6M48 50v6" stroke-width="3"/>
+        <circle cx="14" cy="44" r="2" fill="#FBF8F1"/>
+      </svg>
+      <div class="nm">Bo mạch điều khiển</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-son"><span class="num">24</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 30a12 12 0 0124 0v10H20z" fill="currentColor"/>
+        <path d="M20 40h24"/>
+        <path d="M26 44v14M38 44v10" stroke-width="3"/>
+        <path d="M12 18l-6-4M52 18l6-4M32 8V2" stroke-width="2.2"/>
+      </svg>
+      <div class="nm">Đèn LED</div><div class="vi">Chân dài là cực dương</div>
+    </div>
+
+    <div class="card c-gian"><span class="num">25</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="16" y="22" width="32" height="20" rx="8" fill="currentColor"/>
+        <path d="M24 22v20M31 22v20M38 22v20" stroke-width="3.4"/>
+        <path d="M16 32H2M48 32h14" stroke-width="3"/>
+      </svg>
+      <div class="nm">Điện trở</div><div class="vi">Đọc màu để biết giá trị</div>
+    </div>
+
+    <div class="card c-tim"><span class="num">26</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 20c14 0 8 26 22 26s8-26 22-26" stroke="currentColor" stroke-width="4"/>
+        <rect x="4" y="14" width="10" height="12" rx="2" fill="currentColor"/>
+        <rect x="50" y="14" width="10" height="12" rx="2" fill="currentColor"/>
+        <path d="M9 26v6M55 26v6" stroke-width="3"/>
+      </svg>
+      <div class="nm">Dây jumper</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-vang"><span class="num">27</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="10" y="16" width="40" height="32" rx="4" fill="currentColor"/>
+        <path d="M50 26h6v12h-6z" fill="currentColor"/>
+        <path d="M32 20l-8 12h8l-4 12 12-16h-8z" fill="#FBF8F1"/>
+      </svg>
+      <div class="nm">Cục pin</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-lam"><span class="num">28</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="14" y="22" width="30" height="30" rx="3" fill="currentColor"/>
+        <path d="M8 28h6v6H8zM8 40h6v6H8z" fill="currentColor"/>
+        <circle cx="29" cy="18" r="6" fill="#FBF8F1"/>
+        <path d="M29 18h20" stroke-width="4"/>
+        <circle cx="49" cy="18" r="2.4" fill="#FBF8F1"/>
+        <path d="M44 34h6M44 42h6" stroke-width="3"/>
+      </svg>
+      <div class="nm">Động cơ servo</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-son"><span class="num">29</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="12" y="28" width="40" height="20" rx="3" fill="#FBF8F1"/>
+        <path d="M32 10a14 14 0 0114 18H18A14 14 0 0132 10z" fill="currentColor"/>
+        <path d="M18 48v8M46 48v8" stroke-width="3"/>
+        <path d="M24 22h16"/>
+      </svg>
+      <div class="nm">Nút nhấn</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-then"><span class="num">30</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="10" y="18" width="30" height="28" rx="4" fill="currentColor"/>
+        <circle cx="25" cy="32" r="5" fill="#FBF8F1"/>
+        <path d="M16 46v8M34 46v8" stroke-width="3"/>
+        <path d="M46 24c5 5 5 11 0 16M54 18c9 9 9 19 0 28" stroke-width="2.4"/>
+      </svg>
+      <div class="nm">Còi buzzer</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-ngoc"><span class="num">31</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="6" y="18" width="52" height="26" rx="4" fill="currentColor"/>
+        <circle cx="20" cy="31" r="8" fill="#FBF8F1"/>
+        <circle cx="44" cy="31" r="8" fill="#FBF8F1"/>
+        <circle cx="20" cy="31" r="2.4" fill="#141414" stroke="none"/>
+        <circle cx="44" cy="31" r="2.4" fill="#141414" stroke="none"/>
+        <path d="M14 44v8M26 44v8M38 44v8M50 44v8" stroke-width="3"/>
+      </svg>
+      <div class="nm">Cảm biến siêu âm</div><div class="vi">Đôi mắt của robot</div>
+    </div>
+
+    <div class="card c-luc"><span class="num">32</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="6" y="12" width="52" height="40" rx="4" fill="currentColor"/>
+        <path d="M6 30h52M6 34h52" stroke="#FBF8F1" stroke-width="4"/>
+        <g fill="#FBF8F1" stroke="none">
+          <circle cx="15" cy="20" r="2"/><circle cx="25" cy="20" r="2"/><circle cx="35" cy="20" r="2"/><circle cx="45" cy="20" r="2"/>
+          <circle cx="15" cy="44" r="2"/><circle cx="25" cy="44" r="2"/><circle cx="35" cy="44" r="2"/><circle cx="45" cy="44" r="2"/>
+        </g>
+      </svg>
+      <div class="nm">Breadboard</div><div class="vi">Nối thử, chưa hàn</div>
+    </div>
+
+    <div class="card c-vang"><span class="num">33</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="10" y="28" width="44" height="20" rx="4" fill="currentColor"/>
+        <path d="M40 38l6-22h8l-6 22z" fill="#FBF8F1"/>
+        <circle cx="40" cy="38" r="3" fill="#141414" stroke="none"/>
+        <path d="M18 48v8M32 48v8M46 48v8" stroke-width="3"/>
+      </svg>
+      <div class="nm">Công tắc gạt</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-then"><span class="num">34</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M32 4l6 5 7-2 3 7 7 3-2 7 5 6-5 6 2 7-7 3-3 7-7-2-6 5-6-5-7 2-3-7-7-3 2-7-5-6 5-6-2-7 7-3 3-7 7 2z" fill="currentColor"/>
+        <circle cx="32" cy="32" r="9" fill="#FBF8F1"/>
+      </svg>
+      <div class="nm">Bánh răng</div><div class="vi"></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========== NHÓM D ========== -->
+<section>
+  <div class="shead"><span class="letter">D</span><h2>Vật liệu — tái chế &amp; bản địa</h2><span class="count">11 hình</span></div>
+  <p class="snote">Bậc 1. Toàn bộ nhóm này nhặt được quanh nhà, quanh trường. Đây là nhóm nói đúng nghịch lý của làng: phế liệu thành robot.</p>
+  <div class="grid">
+
+    <div class="card c-luc"><span class="num">35</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 4h16v56H22z" fill="currentColor"/>
+        <path d="M22 20h16M22 36h16M22 50h16" stroke-width="3.4"/>
+        <path d="M38 26c10-4 16 0 18 4-8 4-14 2-18-4z" fill="currentColor"/>
+        <path d="M22 12C12 8 8 12 6 16c8 4 14 2 16-4z" fill="currentColor"/>
+      </svg>
+      <div class="nm">Ống tre</div><div class="vi">Vật liệu khung chính</div>
+    </div>
+
+    <div class="card c-gian"><span class="num">36</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 22h52v28H6z" fill="currentColor"/>
+        <path d="M6 22c4-6 8-6 12 0s8 6 12 0 8-6 12 0 8 6 12 0" fill="#FBF8F1"/>
+        <path d="M6 36h52"/>
+      </svg>
+      <div class="nm">Bìa carton</div><div class="vi">Sóng nằm ngang mới cứng</div>
+    </div>
+
+    <div class="card c-ngoc"><span class="num">37</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="25" y="4" width="14" height="8" rx="2" fill="currentColor"/>
+        <path d="M27 12v8c-6 4-9 10-9 18v16a4 4 0 004 4h20a4 4 0 004-4V38c0-8-3-14-9-18v-8z" fill="currentColor"/>
+        <path d="M18 34h28"/>
+      </svg>
+      <div class="nm">Chai nhựa</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-son"><span class="num">38</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M32 6l6 4 7-1 1 7 6 4-3 6 3 6-6 4-1 7-7-1-6 4-6-4-7 1-1-7-6-4 3-6-3-6 6-4 1-7 7 1z" fill="currentColor"/>
+        <circle cx="32" cy="32" r="12" fill="#FBF8F1"/>
+      </svg>
+      <div class="nm">Nắp chai</div><div class="vi">Bánh xe rẻ nhất</div>
+    </div>
+
+    <div class="card c-vang"><span class="num">39</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="4" y="26" width="56" height="12" rx="6" fill="currentColor" transform="rotate(-20 32 32)"/>
+        <rect x="4" y="26" width="56" height="12" rx="6" fill="currentColor" transform="rotate(25 32 32)"/>
+      </svg>
+      <div class="nm">Que kem gỗ</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-tim"><span class="num">40</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14 20c14-14 22 6 36 0M14 44c14 14 22-6 36 0" stroke="currentColor" stroke-width="5"/>
+        <ellipse cx="14" cy="32" rx="6" ry="12" stroke="currentColor" stroke-width="5"/>
+        <ellipse cx="50" cy="32" rx="6" ry="12" stroke="currentColor" stroke-width="5"/>
+      </svg>
+      <div class="nm">Dây thun</div><div class="vi">Truyền động đơn giản nhất</div>
+    </div>
+
+    <div class="card c-lam"><span class="num">41</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 12h28v40a6 6 0 01-6 6H24a6 6 0 01-6-6z" fill="currentColor"/>
+        <ellipse cx="32" cy="12" rx="14" ry="5" fill="#FBF8F1"/>
+        <ellipse cx="30" cy="12" rx="4" ry="2" fill="#141414" stroke="none"/>
+        <path d="M18 26h28M18 44h28"/>
+      </svg>
+      <div class="nm">Lon nước ngọt</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-son"><span class="num">42</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M32 6L6 40h20z" fill="currentColor"/>
+        <path d="M32 6l26 34H38z" fill="#FBF8F1"/>
+        <path d="M26 40h12l-6 18z" fill="currentColor"/>
+        <path d="M32 6v34"/>
+      </svg>
+      <div class="nm">Giấy gấp</div><div class="vi">Paper Play</div>
+    </div>
+
+    <div class="card c-tim"><span class="num">43</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 16c8-6 16 4 24 0s16-6 24 0v32c-8-6-16 4-24 0s-16-6-24 0z" fill="currentColor"/>
+        <path d="M8 30c8-6 16 4 24 0s16-6 24 0" stroke-dasharray="4 4"/>
+      </svg>
+      <div class="nm">Vải vụn</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-gian"><span class="num">44</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10 44c0-12 8-20 20-20s22 8 22 20c0 6-6 10-21 10s-21-4-21-10z" fill="currentColor"/>
+        <circle cx="46" cy="16" r="10" fill="currentColor"/>
+        <path d="M42 12a4 4 0 014-3" stroke="#FBF8F1" stroke-width="2.2"/>
+      </svg>
+      <div class="nm">Đất nặn</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-ngoc"><span class="num">45</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M24 6h12v22l16 14v16H40V44L24 30z" fill="currentColor"/>
+        <path d="M24 14h12M24 22h12M45 40l6-4M47 50h6M47 56h6" stroke-width="2.4"/>
+      </svg>
+      <div class="nm">Ống hút giấy</div><div class="vi"></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========== NHÓM E ========== -->
+<section>
+  <div class="shead"><span class="letter">E</span><h2>Làng &amp; nghi lễ</h2><span class="count">12 hình</span></div>
+  <p class="snote">Nhóm này không mô tả dụng cụ, nó mô tả luật chơi của làng. Hình 49, 51, 52 nên xuất hiện trong buổi lập làng.</p>
+  <div class="grid">
+
+    <div class="card c-son"><span class="num">46</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 22L32 8l28 14z" fill="currentColor"/>
+        <path d="M8 22h48v6H8z" fill="currentColor"/>
+        <path d="M12 28h10v30H12zM42 28h10v30H42z" fill="currentColor"/>
+        <path d="M24 58V42a8 8 0 0116 0v16z" fill="#FBF8F1"/>
+        <path d="M2 58h60" stroke-width="3.4"/>
+      </svg>
+      <div class="nm">Cổng làng</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-luc"><span class="num">47</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M32 4c14 0 24 8 24 16 0 7-5 11-11 12H19C13 31 8 27 8 20 8 12 18 4 32 4z" fill="currentColor"/>
+        <path d="M26 32v26h12V32" />
+        <path d="M18 34v14M46 34v18M38 36v10" stroke-width="2.2"/>
+        <path d="M4 58h56" stroke-width="3.4"/>
+      </svg>
+      <div class="nm">Cây đa</div><div class="vi">Nơi tụ họp</div>
+    </div>
+
+    <div class="card c-son"><span class="num">48</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14 22c0-5 8-8 18-8s18 3 18 8v20c0 5-8 8-18 8s-18-3-18-8z" fill="currentColor"/>
+        <ellipse cx="32" cy="22" rx="18" ry="8" fill="#FBF8F1"/>
+        <g fill="#FBF8F1" stroke="none"><circle cx="18" cy="32" r="2"/><circle cx="32" cy="35" r="2"/><circle cx="46" cy="32" r="2"/></g>
+        <path d="M8 56l8-12M56 56l-8-12" stroke-width="3.4"/>
+      </svg>
+      <div class="nm">Trống làng</div><div class="vi">Mở và đóng buổi</div>
+    </div>
+
+    <div class="card c-vang"><span class="num">49</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 12h40v40H12z" fill="currentColor"/>
+        <path d="M12 12c-5 0-6 3-6 6s1 6 6 6M52 52c5 0 6-3 6-6s-1-6-6-6"/>
+        <circle cx="32" cy="32" r="11" fill="#FBF8F1"/>
+        <path d="M26 32a6 6 0 0112 0M29 32a3 3 0 016 0M23 32a9 9 0 0118 0" stroke-width="1.8"/>
+      </svg>
+      <div class="nm">Giao ước</div><div class="vi">Ký bằng vân tay</div>
+    </div>
+
+    <div class="card c-lam"><span class="num">50</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M16 6h34a4 4 0 014 4v44a4 4 0 01-4 4H16z" fill="currentColor"/>
+        <path d="M10 12h6M10 22h6M10 32h6M10 42h6M10 52h6" stroke-width="3.4"/>
+        <path d="M34 6v22l6-5 6 5V6" fill="#FBF8F1"/>
+      </svg>
+      <div class="nm">Thing Notebook</div><div class="vi">Sổ của học viên</div>
+    </div>
+
+    <div class="card c-vang"><span class="num">51</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M32 4l6 12 14 2-10 10 3 14-13-7-13 7 3-14L12 18l14-2z" fill="currentColor"/>
+        <path d="M22 42l-4 18 14-8 14 8-4-18" fill="#FBF8F1"/>
+      </svg>
+      <div class="nm">Huy hiệu rank</div><div class="vi">Thang bậc của làng</div>
+    </div>
+
+    <div class="card c-gian"><span class="num">52</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 42V24c0-3 4-4 6-1l6 9V12c0-4 6-4 6 0v14h4V22c0-4 6-4 6 0v14c0 8-6 14-14 14-8 0-14-3-14-8z" fill="currentColor"/>
+        <path d="M60 22v18c0 3-4 4-6 1l-6-9v20c0 4-6 4-6 0V38h-4v4c0 4-6 4-6 0V28c0-8 6-14 14-14 8 0 14 3 14 8z" fill="#FBF8F1"/>
+      </svg>
+      <div class="nm">Hai bàn tay</div><div class="vi">Không ai bị bỏ lại</div>
+    </div>
+
+    <div class="card c-son"><span class="num">53</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M32 4c-2 8-10 10-10 18a10 10 0 0020 0c0-8-8-10-10-18z" fill="currentColor"/>
+        <path d="M18 34h28l-4 8H22z" fill="#FBF8F1"/>
+        <path d="M14 44h36a4 4 0 014 4v4a6 6 0 01-6 6H16a6 6 0 01-6-6v-4a4 4 0 014-4z" fill="currentColor"/>
+        <path d="M50 48h8" stroke-width="3"/>
+      </svg>
+      <div class="nm">Ngọn đèn</div><div class="vi">Truyền tay, không giữ riêng</div>
+    </div>
+
+    <div class="card c-luc"><span class="num">54</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="6" y="10" width="52" height="34" rx="3" fill="currentColor"/>
+        <path d="M14 22c6-6 12 6 18 0s10 6 16 0" stroke="#FBF8F1" stroke-width="3"/>
+        <path d="M16 34h16" stroke="#FBF8F1" stroke-width="3"/>
+        <path d="M20 44v10M44 44v10" stroke-width="3"/>
+        <rect x="42" y="48" width="14" height="6" rx="3" fill="#FBF8F1" transform="rotate(-15 49 51)"/>
+      </svg>
+      <div class="nm">Bảng đen &amp; phấn</div><div class="vi"></div>
+    </div>
+
+    <div class="card c-tim"><span class="num">55</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 6h20L14 30H6z" fill="currentColor"/>
+        <path d="M58 6H38l12 24h8z" fill="currentColor"/>
+        <path d="M26 6h12v8c0 4-12 4-12 0z" fill="#FBF8F1"/>
+        <rect x="8" y="38" width="48" height="8" rx="2" fill="currentColor"/>
+        <path d="M14 46v10M50 46v10" stroke-width="3"/>
+        <circle cx="32" cy="26" r="6" fill="#FBF8F1"/>
+      </svg>
+      <div class="nm">Sân khấu Showcase</div><div class="vi">Buổi thứ 8</div>
+    </div>
+
+    <div class="card c-ngoc"><span class="num">56</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M16 4v56" stroke-width="4"/>
+        <path d="M16 8h38l-9 12 9 12H16z" fill="currentColor"/>
+        <circle cx="16" cy="4" r="3" fill="currentColor"/>
+        <path d="M8 60h20" stroke-width="3.4"/>
+      </svg>
+      <div class="nm">Cờ guild</div><div class="vi">Mỗi nhóm một cờ</div>
+    </div>
+
+    <div class="card c-then"><span class="num">57</span>
+      <svg viewBox="0 0 64 64" fill="none" stroke="#141414" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M24 18v-4a6 6 0 0116 0v4" stroke-width="3"/>
+        <path d="M6 20h52l-4 32H10z" fill="currentColor"/>
+        <path d="M6 32h52" stroke-width="3"/>
+        <rect x="26" y="27" width="12" height="10" rx="2" fill="#FBF8F1"/>
+      </svg>
+      <div class="nm">Hòm dụng cụ chung</div><div class="vi">Của làng, không của ai</div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <b>Bản quyền.</b> Toàn bộ 57 hình trên là hình vẽ gốc cho Làng Maker Việt, không sao chép nhãn hiệu của bên nào. Tux là linh vật Linux — bản vẽ gốc thuộc về Larry Ewing và cần ghi công khi dùng bản của ông; hình trong bộ này là bản vẽ lại theo tinh thần. Trâu Mở là hình thay thế bản địa cho linh vật GNU, không dùng hình gốc.<br><br>
+  <b>Đề xuất phát hành.</b> Giấy phép CC BY-SA cho cộng đồng, do làng giữ quyền — để trường khác dùng lại được nhưng phải giữ nguyên tinh thần mở.
+</footer>
+
+</div>
+</body>
+</html>
