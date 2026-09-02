@@ -129,115 +129,175 @@ Item {
         onTriggered: giay++
     }
 
-    // ------------------------------------------------------- thẻ chung
-    The {
-        id: theChungHien
-        items: man
-        anchors { top: thanhTren.bottom; topMargin: 34; horizontalCenter: parent.horizontalCenter }
-        width: 420; height: 420
-        hinh: man.theChung
-        boCuc: man.boCucChung
-        goc: man.gocChung
-        nhayHinh: man.hinhNhay
-        chonDuoc: man.nguoiDangChon >= 0 && !man.vanXong
-        onBamHinh: Activity.chonHinh(man, chiSoHinh)
-    }
-
     // Đường kính thẻ riêng co theo số người, luôn vừa bề ngang 1840px hữu
     // dụng (1920 trừ lề hai bên) — công thức đúng nguyên văn spec mục 8.
     property real duongKinhRieng: Math.min(380, (1840 - 20 * (man.soNguoi - 1)) / Math.max(1, man.soNguoi))
 
-    // ------------------------------------------------------- dải thẻ riêng + tên
-    Row {
-        id: hangRieng
-        anchors { bottom: parent.bottom; bottomMargin: 22; horizontalCenter: parent.horizontalCenter }
-        spacing: 20
-        Repeater {
-            model: man.soNguoi
-            delegate: Column {
-                id: oNguoi
-                spacing: 8
-                property bool laHoaTieu: index === man.hoaTieu
-                property bool dangChonToi: index === man.nguoiDangChon
-                // man.nhip đứng đây để QML tính lại khi đồng hồ nhịp chạy —
-                // bỏ nó ra là ô khoá không bao giờ tự sáng lại.
-                property bool dangKhoa: man.nhip >= 0 && Activity.biKhoa(index)
+    // ------------------------------------------------------- vùng chơi
+    // VÒNG SỬA 1: trên NEO One thật, GCompris tự vẽ thanh nút (Bar) ở góc
+    // dưới màn — bản dựng trên Mac không có Bar (chỉ LuatLang.qml, không đi
+    // qua Lang_doidoi.qml) nên không lộ ra Bar che mất "Bạn 1"/"Bạn 2" khi
+    // hàng thẻ riêng neo thẳng vào parent.bottom.
+    //
+    // lang_maker (mini-app/lang_maker/.../Lang_maker.qml:78-81) né Bar bằng
+    // `anchors.bottom: bar.top` — làm được vì ở đó vùng tranh và Bar là HAI
+    // ANH EM ruột cùng một tệp. Ở đây thì KHÔNG: LuatLang.qml được Lang_doidoi.qml
+    // nạp qua Loader, nên "man" (và mọi thứ bên trong nó, kể cả vungChoi) nằm
+    // sâu hơn Bar một cấp — không phải cha/con/anh em của Bar theo đúng nghĩa
+    // QML. Thử `anchors.bottom: items.bar.top` bắn lỗi runtime thật
+    // "Cannot anchor to an item that isn't a parent or sibling" (đã thấy khi
+    // dựng thử) — QML cấm neo (anchor) xuyên qua ranh giới Loader kiểu này,
+    // dù đọc property THƯỜNG (không phải anchor) thì lại được.
+    //
+    // Nên né Bar bằng SỐ, không bằng AnchorLine: cộng thêm chiều cao thật
+    // của Bar (items.bar.height — đọc property thường, không giới hạn cha/con)
+    // vào bottomMargin của vungChoi, đáy vungChoi vẫn neo vào parent.bottom
+    // của chính "man" (== đáy màn, vì Loader tự giãn "man" khớp đúng
+    // background). man.height và bar.height cùng một hệ toạ độ (man được
+    // Loader giãn khớp "background", bar cũng là con của "background"), nên
+    // phép cộng số học này ra đúng vị trí, bất kể Bar thật cao bao nhiêu.
+    // items.bar chỉ có sau khi Loader gán items (PHÁN QUYẾT F1) — items có
+    // thể còn null/chưa có "bar" lúc ràng buộc này chạy lần đầu, gác bằng
+    // toán tử bậc ba, coi như Bar cao 0 cho tới khi items.bar có thật.
+    Item {
+        id: vungChoi
+        anchors {
+            top: thanhTren.bottom; topMargin: 8
+            left: parent.left; right: parent.right
+            bottom: parent.bottom
+            bottomMargin: 16 + ((man.items && man.items.bar) ? man.items.bar.height : 0)
+        }
 
-                The {
-                    id: theRiengHien
-                    items: man
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    width: man.duongKinhRieng; height: width
-                    // index luôn nằm trong [0, soNguoi), nhưng mảng theRieng
-                    // có thể còn rỗng nếu ràng buộc này chạy trước khi
-                    // Activity.batDauVan() kịp đổ dữ liệu vào — ra [] thay vì
-                    // undefined để The.qml không vỡ ở the.hinh.length.
-                    hinh: index < man.theRieng.length ? man.theRieng[index] : []
-                    boCuc: index < man.boCucRieng.length ? man.boCucRieng[index] : []
-                    goc: index < man.gocRieng.length ? man.gocRieng[index] : []
-                    // Chỉ thẻ riêng của người vừa được ghi lượt mới nháy cùng
-                    // thẻ chung — hình trùng số có thể tình cờ xuất hiện trên
-                    // thẻ của người khác, không được nháy lây.
-                    nhayHinh: index === man.hinhNhayNguoi ? man.hinhNhay : -1
-                    chonDuoc: oNguoi.dangChonToi && !man.vanXong
-                    onBamHinh: Activity.chonHinh(man, chiSoHinh)
+        // Thẻ chung + hàng thẻ riêng gộp thành MỘT khối, canh giữa trong
+        // vùng chơi còn lại (giữa thanh trên và Bar). Trước đây thẻ chung
+        // neo topMargin cố định 34px còn hàng riêng neo đáy màn cố định —
+        // trên máy thật khoảng trống giữa hai khối hoá ra rất rộng vì phần
+        // dành cho Bar bị tính nhầm là "chỗ chơi". Gộp vào Column canh giữa
+        // thì khoảng trống thật (nếu có) chia đều hai đầu vùng chơi thay vì
+        // dồn hết vào giữa hai khối — không cần đoán chiều cao Bar thật.
+        Column {
+            id: khoiVanChoi
+            anchors.centerIn: parent
+            spacing: 40
 
-                    // vòng gợi ý của Hoa tiêu: một phần tư thẻ riêng của
-                    // người đang được tick — phần tư chứa hình trùng thẻ chung.
-                    Rectangle {
-                        visible: man.hienGoiY && index === man.goiYNguoi
-                        width: parent.width * 0.5
-                        height: width
-                        radius: width / 2
-                        color: "#33E8A317"
-                        border { color: "#E8A317"; width: 4 }
-                        x: parent.width / 2 + Math.cos(man.gocGoiY) * parent.width * 0.28 - width / 2
-                        y: parent.height / 2 + Math.sin(man.gocGoiY) * parent.height * 0.28 - height / 2
-                        SequentialAnimation on opacity {
-                            running: man.hienGoiY && index === man.goiYNguoi
-                            loops: 6
-                            NumberAnimation { to: 0.2; duration: 320 }
-                            NumberAnimation { to: 1.0; duration: 320 }
-                            onFinished: man.hienGoiY = false
-                        }
-                    }
-                }
+            The {
+                id: theChungHien
+                items: man
+                anchors.horizontalCenter: parent.horizontalCenter
+                // 420px đúng số spec mục 8 — KHÔNG tăng lên dù còn dư chỗ:
+                // chưa biết chính xác Bar thật trên NEO One cao bao nhiêu
+                // (chỉ có ô giả 560×130 để kiểm bằng mắt trên Mac), tăng theo
+                // số đo giả có thể sai trên máy thật. Xem task-10-report.md.
+                width: 420; height: 420
+                hinh: man.theChung
+                boCuc: man.boCucChung
+                goc: man.gocChung
+                nhayHinh: man.hinhNhay
+                chonDuoc: man.nguoiDangChon >= 0 && !man.vanXong
+                onBamHinh: Activity.chonHinh(man, chiSoHinh)
+            }
 
-                // Ô tên: chỗ bấm để tick. Hoa tiêu = thẻ ghi chú xám, không
-                // nhận click — không có đường nào ghi lượt cho em (luật 3).
-                // Dưới tên KHÔNG có con số nào (luật 1).
-                Rectangle {
-                    id: oTen
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    width: man.duongKinhRieng; height: 64; radius: 10
-                    color: laHoaTieu ? "#2A3A5C"
-                         : dangChonToi ? "#E8A317"
-                         : dangKhoa ? "#8A4B24" : "#FBF8F1"
-                    border {
-                        color: laHoaTieu ? "#4A5A7C" : "#141414"
-                        width: laHoaTieu ? 1 : 3
-                    }
-                    Column {
-                        anchors.centerIn: parent
-                        spacing: 2
-                        GCText {
+            // ------------------------------------------- dải thẻ riêng + tên
+            Row {
+                id: hangRieng
+                anchors.horizontalCenter: parent.horizontalCenter
+                spacing: 20
+                Repeater {
+                    model: man.soNguoi
+                    // VÒNG SỬA 2: chủ dự án gợi ý đặt Ô TÊN LÊN TRÊN thẻ riêng
+                    // (trước ở dưới) — thanh Bar nằm ở góc dưới TRÁI màn hình,
+                    // đặt tên lên trên đẩy cả khối lên cao, chừa hẳn phần đáy
+                    // trống cho Bar, không phải thu nhỏ thẻ để né.
+                    delegate: Column {
+                        id: oNguoi
+                        spacing: 8
+                        property bool laHoaTieu: index === man.hoaTieu
+                        property bool dangChonToi: index === man.nguoiDangChon
+                        // man.nhip đứng đây để QML tính lại khi đồng hồ nhịp chạy —
+                        // bỏ nó ra là ô khoá không bao giờ tự sáng lại.
+                        property bool dangKhoa: man.nhip >= 0 && Activity.biKhoa(index)
+
+                        // Ô tên: chỗ bấm để tick. Hoa tiêu = thẻ ghi chú xám, không
+                        // nhận click — không có đường nào ghi lượt cho em (luật 3).
+                        // Trên/dưới tên KHÔNG có con số nào (luật 1).
+                        Rectangle {
+                            id: oTen
                             anchors.horizontalCenter: parent.horizontalCenter
-                            fontSize: smallSize; font.bold: !laHoaTieu
-                            color: laHoaTieu ? "#8A96AC" : "#141414"
-                            text: qsTr("Bạn %1").arg(index + 1)
+                            width: man.duongKinhRieng; height: 64; radius: 10
+                            color: laHoaTieu ? "#2A3A5C"
+                                 : dangChonToi ? "#E8A317"
+                                 : dangKhoa ? "#8A4B24" : "#FBF8F1"
+                            border {
+                                color: laHoaTieu ? "#4A5A7C" : "#141414"
+                                width: laHoaTieu ? 1 : 3
+                            }
+                            Column {
+                                anchors.centerIn: parent
+                                spacing: 2
+                                GCText {
+                                    anchors.horizontalCenter: parent.horizontalCenter
+                                    fontSize: smallSize; font.bold: !laHoaTieu
+                                    color: laHoaTieu ? "#8A96AC" : "#141414"
+                                    text: qsTr("Bạn %1").arg(index + 1)
+                                }
+                                GCText {
+                                    anchors.horizontalCenter: parent.horizontalCenter
+                                    visible: laHoaTieu
+                                    fontSize: tinySize; color: "#8A96AC"
+                                    // "đã gợi ý" theo TỪNG thẻ (man.daGoiY[index]) — thẻ
+                                    // mới rút lên lại đặt lại false, lại hiện "phím cách".
+                                    text: (index < man.daGoiY.length && man.daGoiY[index])
+                                          ? qsTr("Hoa tiêu · đã gợi ý")
+                                          : qsTr("Hoa tiêu · phím cách")
+                                }
+                            }
+                            MouseArea {
+                                anchors.fill: parent
+                                // Hoa tiêu KHÔNG có đường nào ghi lượt: chuột không bật ở đây.
+                                enabled: !laHoaTieu && !man.vanXong
+                                onClicked: Activity.chonNguoi(man, index)
+                            }
                         }
-                        GCText {
+
+                        The {
+                            id: theRiengHien
+                            items: man
                             anchors.horizontalCenter: parent.horizontalCenter
-                            visible: laHoaTieu
-                            fontSize: tinySize; color: "#8A96AC"
-                            text: qsTr("Hoa tiêu")
+                            width: man.duongKinhRieng; height: width
+                            // index luôn nằm trong [0, soNguoi), nhưng mảng theRieng
+                            // có thể còn rỗng nếu ràng buộc này chạy trước khi
+                            // Activity.batDauVan() kịp đổ dữ liệu vào — ra [] thay vì
+                            // undefined để The.qml không vỡ ở the.hinh.length.
+                            hinh: index < man.theRieng.length ? man.theRieng[index] : []
+                            boCuc: index < man.boCucRieng.length ? man.boCucRieng[index] : []
+                            goc: index < man.gocRieng.length ? man.gocRieng[index] : []
+                            // Chỉ thẻ riêng của người vừa được ghi lượt mới nháy cùng
+                            // thẻ chung — hình trùng số có thể tình cờ xuất hiện trên
+                            // thẻ của người khác, không được nháy lây.
+                            nhayHinh: index === man.hinhNhayNguoi ? man.hinhNhay : -1
+                            chonDuoc: oNguoi.dangChonToi && !man.vanXong
+                            onBamHinh: Activity.chonHinh(man, chiSoHinh)
+
+                            // vòng gợi ý của Hoa tiêu: một phần tư thẻ riêng của
+                            // người đang được tick — phần tư chứa hình trùng thẻ chung.
+                            Rectangle {
+                                visible: man.hienGoiY && index === man.goiYNguoi
+                                width: parent.width * 0.5
+                                height: width
+                                radius: width / 2
+                                color: "#33E8A317"
+                                border { color: "#E8A317"; width: 4 }
+                                x: parent.width / 2 + Math.cos(man.gocGoiY) * parent.width * 0.28 - width / 2
+                                y: parent.height / 2 + Math.sin(man.gocGoiY) * parent.height * 0.28 - height / 2
+                                SequentialAnimation on opacity {
+                                    running: man.hienGoiY && index === man.goiYNguoi
+                                    loops: 6
+                                    NumberAnimation { to: 0.2; duration: 320 }
+                                    NumberAnimation { to: 1.0; duration: 320 }
+                                    onFinished: man.hienGoiY = false
+                                }
+                            }
                         }
-                    }
-                    MouseArea {
-                        anchors.fill: parent
-                        // Hoa tiêu KHÔNG có đường nào ghi lượt: chuột không bật ở đây.
-                        enabled: !laHoaTieu && !man.vanXong
-                        onClicked: Activity.chonNguoi(man, index)
                     }
                 }
             }
