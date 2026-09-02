@@ -40,12 +40,13 @@ Chủ dự án chốt ngày 2026-09-02. Những điều dưới đây **không �
 |---|---|---|
 | Q1 | Số người chơi: **2–6** | Có — gốc ghi 2–4 |
 | Q2 | **Máy là người chia bài, trọng tài và đồng hồ.** Trẻ vẫn reo lên bằng miệng như chơi bài giấy; ai gọi được cặp hình thì dùng chuột chọn để máy xác nhận | Có — gốc dựa trên chạm đồng thời |
-| Q3 | Bỏ chế độ **Luật ăn thua** | Có — một con chuột thì không có gì để giành |
-| Q4 | Làm hai chế độ: **Học hình** (1 người) và **Luật làng** (2–6 người) | Cắt bớt |
+| Q3 | ~~Bỏ chế độ Luật ăn thua~~ → **LẬT LẠI 2026-09-02 chiều: giữ Luật ăn thua** thành chế độ thứ ba, xem Q9 | Quay về như gốc |
+| Q4 | Làm **ba** chế độ: **Học hình** (1 người), **Luật làng** và **Luật ăn thua** (2–6 người) | Như gốc |
 | Q5 | Hai cấp bộ bài, chọn ngay ở màn vào bàn: **Dễ = 31 thẻ × 6 hình**, **Khó = 57 thẻ × 8 hình** | Có — gốc giấu bộ 57 trong cài đặt facilitator |
 | Q6 | Vai **Hoa tiêu** giữ lại: bị bỏ khỏi danh sách ghi lượt, gợi ý bằng phím `Space` | Đổi cách thao tác |
 | Q7 | **Không có giọng đọc. Học trò cần đọc được tiếng Việt** — đây là điều kiện tiên quyết của hoạt động | Có — bỏ tiêu chí "trẻ 6 tuổi không cần biết chữ" |
-| Q8 | v1 **không** có: log, CSV, PIN facilitator, attract mode, bảng xếp hạng | Cắt bớt |
+| Q8 | v1 **không** có: log, CSV, PIN facilitator, attract mode, bảng xếp hạng lưu lâu dài | Cắt bớt |
+| Q9 | **Luật ăn thua** (chốt chiều 2026-09-02): đếm 3-2-1 trước mỗi lượt · đổi thẻ chung sau mỗi lần đúng · **cộng điểm hiện rõ cho từng người**. Điểm chỉ sống trong ván, không lưu, không so giữa các bàn hay các buổi | Như gốc |
 
 Riêng Q8 kế thừa một ràng buộc **cửa một chiều** của tài liệu gốc (Điều 6 Giao
 ước làng): app không thu, không hỏi, không lưu tên, tuổi, ảnh, giọng nói của
@@ -56,7 +57,7 @@ cả**.
 
 ## 3 · Phạm vi phiên bản 1
 
-**Có:** hai chế độ Học hình và Luật làng · hai cấp bộ bài 31/57 · 2–6 người ·
+**Có:** ba chế độ Học hình, Luật làng và Luật ăn thua · hai cấp bộ bài 31/57 · 2–6 người ·
 vai Hoa tiêu · đồng hồ chung · kỷ lục của bàn trong phiên chạy · tiếng Việt ·
 offline hoàn toàn.
 
@@ -271,6 +272,49 @@ chủ ý, không phải thiếu sót.
 Phá kỷ lục thì đánh **ba tiếng trống**. v1 chưa có tiếng trống thu riêng nên
 dùng âm mừng sẵn có của GCompris (`core/resource/sounds/`); thu trống thật là
 việc của bản sau.
+
+
+## 7b · Chế độ LUẬT ĂN THUA (2–6 người)
+
+Chốt chiều 2026-09-02, sau khi chủ dự án chơi thử Luật làng trên máy thật.
+Dùng lại y nguyên bố cục thẻ chung + thẻ riêng của mục 7, chỉ khác ba điều.
+
+**Chế độ này tồn tại để bị vượt qua** — đúng chữ trong tài liệu gốc. Trẻ vào
+làng thường quen đua nhau; cho các em chơi thứ quen thuộc trước, rồi mới mời
+sang Luật làng, thì lời mời mới có sức nặng.
+
+### Ba điều khác Luật làng
+
+1. **Đếm 3-2-1 trước mỗi lượt.** Sau mỗi lần gọi đúng, màn hình che thẻ lại và
+   đếm ngược *3 · 2 · 1 · Tìm đi!* rồi mới mở. Cả bàn cùng bắt đầu nhìn một
+   lúc, không ai thiệt vì chưa kịp ngước lên. Đây cũng là chỗ tạo nhịp cho quản
+   trò kịp thở.
+2. **Thẻ chung đổi sau mỗi lần đúng.** Rút thẻ mới từ chồng làm thẻ chung; thẻ
+   riêng của mọi người giữ nguyên. Ngược hẳn Luật làng — ở đây cái khó là phần
+   thưởng, không phải cái dễ.
+3. **Điểm hiện rõ, cộng ngay.** Mỗi người có số điểm ngay dưới tên, tăng khi
+   gọi đúng. Ai nhiều điểm nhất được đánh dấu.
+
+### Ba điều KHÔNG khác
+
+- Quản trò vẫn tick tên người rồi mới chọn hình — máy không tự biết ai reo.
+- Bấm sai vẫn khoá 3 giây.
+- Vai Hoa tiêu vẫn còn nếu bàn muốn, vẫn không ghi điểm được.
+
+### Kết ván
+
+Hiện bảng điểm của ván, rồi **hiện đúng câu hỏi trong kịch bản buổi chơi**:
+
+> *"Trò này vui với một người hay vui với cả bàn?"*
+
+kèm một nút mời sang Luật làng. Điểm **không lưu ra đâu cả** — tắt màn kết ván
+là mất. Không có bảng xếp hạng giữa các bàn, cũng không có giữa các buổi. Đây
+là ràng buộc cửa một chiều: các bản sau chỉ được siết thêm, không được nới.
+
+### Chọn luật ở đâu
+
+Màn vào bàn thêm một hàng nút: **Luật làng** (mặc định) hoặc **Luật ăn thua**.
+Ba hàng cũ giữ nguyên — số người, bộ bài, Hoa tiêu.
 
 
 ## 8 · Màn hình
