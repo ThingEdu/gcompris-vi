@@ -265,8 +265,9 @@ hẳn lên. Đó chính là cái trò chơi muốn dạy.
 
 ### Ba luật của làng, máy cưỡng chế bằng cơ chế
 
-1. **Đồng hồ chung.** Cả bàn phá hết chồng thẻ → cả bàn thắng. **Trong ván tuyệt
-   đối không hiện số lượt của ai** — màn hình chỉ có đồng hồ và số thẻ còn lại.
+1. **Đồng hồ chung.** Cả bàn đi hết 12 lượt → cả bàn thắng, và điều đáng đua là
+   **thời gian của cả bàn**, không phải điểm của ai. **Trong ván tuyệt đối không
+   hiện số lượt của ai** — màn hình chỉ có đồng hồ và `Lượt n / 12`.
    Máy vẫn đếm ngầm, nhưng chỉ để dùng ở luật 2.
 2. **Không ai bị bỏ lại.** Số lượt chỉ lộ ra ở **màn kết ván**, và chỉ khi chênh
    lệch giữa người nhiều nhất và ít nhất vượt quá **một phần ba tổng số lượt của
