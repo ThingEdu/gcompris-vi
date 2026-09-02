@@ -211,40 +211,57 @@ không ai). Ba lựa chọn trên một màn, không có màn con.
 
 ### Chia bài
 
-Cả bộ (31 hoặc 57 thẻ) xáo ngẫu nhiên. Thẻ đầu tiên đặt giữa màn làm **thẻ
-chung** — cả bàn cùng nhìn nó suốt ván, nó **không đổi**. Tiếp theo chia cho mỗi
-người **một thẻ riêng**, bày thành hàng phía dưới, ai cũng thấy thẻ của mọi
-người. Số thẻ còn lại úp thành **chồng**.
+Cả bộ (31 hoặc 57 thẻ) xáo ngẫu nhiên. Thẻ đầu đặt giữa màn làm **thẻ chung**;
+tiếp theo chia mỗi người **một thẻ riêng**; phần còn lại úp thành **chồng**.
 
-Vì hai thẻ bất kỳ trong bộ luôn trùng đúng một hình, nên **thẻ riêng của bất kỳ
-ai cũng luôn có đúng một hình chung với thẻ giữa**. Không bao giờ có lượt bí, và
+Vì hai thẻ bất kỳ trong bộ luôn trùng đúng một hình, nên thẻ riêng của bất kỳ
+ai cũng luôn có đúng một hình chung với thẻ giữa. Không bao giờ có lượt bí,
 không bao giờ có lượt gọi kiểu gì cũng đúng.
+
+### Một ván dài 12 lượt
+
+Chốt chiều 2026-09-02, sau khi chủ dự án chơi thử: **ván dừng sau 12 lượt**, chứ
+không chơi tới lúc hết chồng. Chơi hết cả bộ mất quá lâu so với phiên sinh hoạt
+3–10 phút.
+
+### Mỗi lượt đổi thẻ của TẤT CẢ mọi người
+
+Cũng chốt cùng lúc đó. Trước đây chỉ thẻ của người gọi đúng mới được thay, nên
+em nào chậm ngồi nhìn mãi một thẻ cũ trong khi các bạn liên tục có thẻ mới —
+vừa chán vừa đi ngược luật "không ai bị bỏ lại". Nay **mỗi lần có người gọi
+đúng, toàn bộ thẻ riêng của cả bàn đổi mới**.
+
+### Hết chồng thì xáo lại
+
+12 lượt × 6 người = 72 thẻ, nhiều hơn cả bộ Khó (57). Nên khi chồng không đủ
+chia, **gom thẻ đã dùng xáo lại thành chồng mới**.
+
+**Bẫy phải chặn khi xáo lại:** loại **thẻ chung hiện tại** ra khỏi chồng trước
+khi chia. Nếu một em nhận đúng thẻ giống thẻ chung thì hai thẻ trùng nhau **tất
+cả** các hình — bất biến vỡ, lượt đó gọi hình nào cũng đúng. Cũng phải bảo đảm
+thẻ riêng của các em trong cùng một lượt **khác nhau đôi một**.
 
 ### Một lượt
 
-1. Tất cả thẻ bày sẵn: thẻ chung ở giữa, thẻ riêng của từng người ở dưới. Đồng
-   hồ chung chạy.
-2. Các em cùng tìm. Ai thấy hình trùng giữa **thẻ chung** và **thẻ riêng của
-   mình** thì reo to lên.
-3. Quản trò — người cầm chuột — **click ô tên em vừa reo** (ô sáng lên), rồi
-   **click hình** trên thẻ chung hoặc trên thẻ riêng của em đó.
-4. **Đúng:** hình nhấp nháy trên cả hai thẻ; **thẻ riêng của em đó được thay
-   bằng thẻ mới rút từ chồng**; thẻ chung giữ nguyên; ghi một lượt cho em.
+1. Mọi thẻ bày sẵn. Đồng hồ chung chạy.
+2. Ai thấy hình trùng giữa **thẻ chung** và **thẻ riêng của mình** thì reo to.
+3. Quản trò click **ô tên** em đó (ô sáng lên), rồi click **hình** — chấp nhận
+   click trên thẻ chung **hoặc** trên thẻ riêng của chính em đó.
+4. **Đúng:** hình nháy trên cả hai thẻ; **thẻ riêng của cả bàn đổi mới**; ghi
+   một lượt cho em. Thẻ chung giữ nguyên ở Luật làng, đổi mới ở Luật ăn thua.
    **Sai:** viền đỏ, ô của em đó khoá 3 giây, mọi thẻ giữ nguyên.
-5. Hết chồng thẻ → cả bàn thắng.
+5. Đủ **12 lượt** → hết ván.
 
 Click tên người trước rồi mới click hình: lúc reo lên thì biết ngay ai, và như
-thế không ai nhận vơ được lượt của bạn. Đây cũng là chỗ duy nhất máy biết ai làm
-gì — không có nó thì không ghi được lượt nào. Quản trò chỉ tick **sau khi em đó
-đã nói xong ngoài đời**, đúng nhịp chơi bài giấy.
+thế không ai nhận vơ được lượt của bạn. Quản trò chỉ tick **sau khi em đó đã
+nói xong ngoài đời**, đúng nhịp chơi bài giấy.
 
-Một ván cấp Dễ đi hết `30 − số người` thẻ, cấp Khó `56 − số người`. Với nhịp
-khoảng 5 giây một thẻ thì ván Dễ khoảng 2 phút, ván Khó khoảng 4 phút rưỡi.
+Thanh trên hiện **"Lượt 5 / 12"** thay cho số thẻ còn trong chồng — người chơi
+cần biết còn bao lâu nữa hết ván, không cần biết chồng dày mỏng.
 
-**Vì sao thẻ chung không đổi:** mỗi em chỉ phải so thẻ của mình với một thẻ duy
-nhất, nên sau vài lượt là thuộc mặt tám hình ở giữa và tìm nhanh hẳn lên. Đó
-chính là cái trò chơi muốn dạy. Đổi thẻ chung liên tục thì em nào cũng phải học
-lại từ đầu mỗi lượt.
+**Vì sao thẻ chung không đổi ở Luật làng:** mỗi em chỉ phải so thẻ của mình với
+một thẻ duy nhất, nên sau vài lượt là thuộc mặt tám hình ở giữa và tìm nhanh
+hẳn lên. Đó chính là cái trò chơi muốn dạy.
 
 ### Ba luật của làng, máy cưỡng chế bằng cơ chế
 
@@ -252,9 +269,9 @@ lại từ đầu mỗi lượt.
    đối không hiện số lượt của ai** — màn hình chỉ có đồng hồ và số thẻ còn lại.
    Máy vẫn đếm ngầm, nhưng chỉ để dùng ở luật 2.
 2. **Không ai bị bỏ lại.** Số lượt chỉ lộ ra ở **màn kết ván**, và chỉ khi chênh
-   lệch giữa người nhiều nhất và ít nhất vượt quá một phần ba tổng số thẻ. Lúc
-   đó máy hiện dòng mời bàn chơi lại và nhường nhau. Máy nhắc, không phạt, không
-   xếp hạng.
+   lệch giữa người nhiều nhất và ít nhất vượt quá **một phần ba tổng số lượt của
+   ván** (12 / 3 = 4). Lúc đó máy hiện dòng mời bàn chơi lại và nhường nhau. Máy
+   nhắc, không phạt, không xếp hạng.
 3. **Hoa tiêu im lặng.** Em nhận vai Hoa tiêu hiện trong dải người chơi như một
    **thẻ ghi chú không bấm được** (khác hẳn ô tên: xám, không viền, không nhận
    click), nên không có đường nào ghi lượt. Bù lại em bấm `Space` để bật một vòng
@@ -289,9 +306,10 @@ sang Luật làng, thì lời mời mới có sức nặng.
    đếm ngược *3 · 2 · 1 · Tìm đi!* rồi mới mở. Cả bàn cùng bắt đầu nhìn một
    lúc, không ai thiệt vì chưa kịp ngước lên. Đây cũng là chỗ tạo nhịp cho quản
    trò kịp thở.
-2. **Thẻ chung đổi sau mỗi lần đúng.** Rút thẻ mới từ chồng làm thẻ chung; thẻ
-   riêng của mọi người giữ nguyên. Ngược hẳn Luật làng — ở đây cái khó là phần
-   thưởng, không phải cái dễ.
+2. **Thẻ chung đổi sau mỗi lần đúng.** Rút thẻ mới từ chồng làm thẻ chung.
+   Thẻ riêng của cả bàn cũng đổi mới như ở Luật làng, nên mỗi lượt là một bài
+   toán hoàn toàn mới. Ngược hẳn Luật làng ở chỗ: bên kia giữ thẻ chung cố định
+   để trẻ thuộc dần, bên này đổi tất để không ai kịp thuộc.
 3. **Điểm hiện rõ, cộng ngay.** Mỗi người có số điểm ngay dưới tên, tăng khi
    gọi đúng. Ai nhiều điểm nhất được đánh dấu.
 
@@ -303,7 +321,7 @@ sang Luật làng, thì lời mời mới có sức nặng.
 
 ### Kết ván
 
-Hiện bảng điểm của ván, rồi **hiện đúng câu hỏi trong kịch bản buổi chơi**:
+Sau đủ 12 lượt. Hiện bảng điểm của ván, rồi **hiện đúng câu hỏi trong kịch bản buổi chơi**:
 
 > *"Trò này vui với một người hay vui với cả bàn?"*
 
