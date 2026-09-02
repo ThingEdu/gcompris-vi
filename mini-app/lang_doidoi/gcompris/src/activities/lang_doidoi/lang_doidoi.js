@@ -97,6 +97,11 @@ function hinhTrung(a, b) {
 }
 
 function biKhoa(nguoi) {
+    // Delegate của Repeater dựng TRƯỚC khi batDauVan() gán van, nên ràng buộc
+    // dangKhoa gọi vào đây lúc van còn null. Không chặn thì log đầy lỗi mỗi
+    // nhịp 250ms và dangKhoa trả undefined thay vì false.
+    if (van === null)
+        return false
     return Date.now() < van.khoa_den[nguoi]
 }
 
