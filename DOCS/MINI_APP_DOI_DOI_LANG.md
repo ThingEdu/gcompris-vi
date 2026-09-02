@@ -304,8 +304,8 @@ Màn 1920×1080 nằm ngang, mọi người ngồi cùng phía (không phải gi
 |---|---|---|
 | 2 | 380 px | ~82 px |
 | 3 | 380 px | ~82 px |
-| 4 | 360 px | ~77 px |
-| 5 | 330 px | ~71 px |
+| 4 | 380 px | ~82 px |
+| 5 | 352 px | ~76 px |
 | 6 | 290 px | ~62 px |
 
 Công thức: `min(380, (1840 − 20 × (số người − 1)) / số người)`. Ở sáu người vẫn
