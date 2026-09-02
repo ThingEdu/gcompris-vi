@@ -18,6 +18,6 @@ ActivityInfo {
           qsTr("Cấp 2: bạn Cáo gọi tên một nơi, con tìm và chạm vào đúng nơi đó.") + "<br><br>" +
           qsTr("Cấp 3: bạn Cáo chỉ tả việc làm ở đó, không nói tên. Con đoán xem là nơi nào.")
   credit: ""
-  section: "discovery"
+  section: "langmaker discovery"
   createdInVersion: 0
 }

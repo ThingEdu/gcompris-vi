@@ -87,7 +87,7 @@ tests/                   test cho bộ kiểm tra bản dịch
 ```
 
 ```bash
-./.venv/bin/python -m pytest tests/          # 87 test
+./.venv/bin/python -m pytest tests/          # 93 test
 ./.venv/bin/python tools/check_po.py po/gcompris_qt.po
 ./.venv/bin/python tools/po_batch.py stats po/gcompris_qt.po
 ```

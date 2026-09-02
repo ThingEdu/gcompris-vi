@@ -46,7 +46,30 @@ khác chỉ là thêm tệp `.rcc` mới. Nâng đời gói Debian xong, chạy 
 `deploy/gan_mini_app.sh` một lần là các mini app trở lại — script chạy lại được
 nhiều lần, không nhân đôi dòng.
 
-**3. Nhân vật NEO Tre là tài sản riêng, không vá đè lên Tux.**
+**3. Mục riêng "Làng Maker" trên hàng biểu tượng đầu màn hình.**
+
+![Mục Làng Maker, biểu tượng thứ hai](anh/neo-one-muc-lang-maker.png)
+
+Hàng mục đó là một mảng JS thuần trong `Menu.qml`, mà `menu.rcc` cũng là tệp
+ngoài — nên thêm mục mới chỉ là chèn một phần tử. GCompris lọc hoạt động bằng
+`activity->section().indexOf(tag)` (`ActivityInfoTree::filterByTag`), tức là tìm
+chuỗi con, nên hoạt động ghi `section: "langmaker discovery"` hiện ở **cả** mục
+Làng Maker lẫn mục Khám phá. Không mục nào của bản gốc chứa chuỗi `langmaker`.
+
+**Không dùng được mục mặt trời (Yêu thích) làm chỗ mặc định.** `ActivityInfo`
+đọc lại cờ yêu thích từ thiết lập của người dùng ngay sau khi dựng
+(`ActivityInfo.cpp:48`), nên giá trị khai trong `ActivityInfo.qml` bị ghi đè
+mất. Mục Yêu thích là của người dùng tự bấm sao, không đặt sẵn được.
+
+Thêm mục thứ 11 thì hàng biểu tượng tràn, mục cuối (Tìm kiếm) bị đẩy khỏi màn
+hình: bản gốc lấy bề rộng biểu tượng bằng `main.width / (số mục + 1)` rồi nhân
+1,1 thành bề rộng ô — vừa khít đúng 10 mục. Đã đổi thành `số mục × 1,15` để
+tổng luôn bằng 96% màn hình. Công thức này nằm ở **bốn** chỗ: một chỗ khai mặc
+định và ba chỗ trong các `state` ghi đè lại — sửa mỗi chỗ đầu thì state ghi đè
+lên, mục thứ 11 vẫn bị cắt. Có một chỗ thứ năm trông giống nhưng là tính chiều
+cao, phải chừa.
+
+**4. Nhân vật NEO Tre là tài sản riêng, không vá đè lên Tux.**
 
 ![NEO Tre](anh/neo-tre.png)
 
@@ -109,36 +132,50 @@ tranh to hết cỡ màn hình.
 ### Cách cài
 
 ```bash
-scp neo@<ip>:/usr/share/gcompris-qt/rcc/activities.rcc /tmp/
-./deploy/gan_mini_app.sh /tmp/activities.rcc
-scp /tmp/activities-vi.rcc /tmp/lang_*.rcc neo@<ip>:/tmp/
+scp neo@<ip>:/usr/share/gcompris-qt/rcc/{activities,menu}.rcc /tmp/
+./deploy/gan_mini_app.sh /tmp/activities.rcc     # đóng gói app + thêm vào danh sách
+./deploy/va_muc_lang.sh /tmp/menu.rcc            # thêm mục Làng Maker vào hàng biểu tượng
+scp /tmp/activities-vi.rcc /tmp/menu-vi.rcc /tmp/lang_*.rcc neo@<ip>:/tmp/
 ssh neo@<ip> 'sudo cp -n /usr/share/gcompris-qt/rcc/activities.rcc{,.orig}; \
+              sudo cp -n /usr/share/gcompris-qt/rcc/menu.rcc{,.orig}; \
               sudo cp /tmp/lang_*.rcc /usr/share/gcompris-qt/rcc/; \
-              sudo cp /tmp/activities-vi.rcc /usr/share/gcompris-qt/rcc/activities.rcc'
+              sudo cp /tmp/activities-vi.rcc /usr/share/gcompris-qt/rcc/activities.rcc; \
+              sudo cp /tmp/menu-vi.rcc /usr/share/gcompris-qt/rcc/menu.rcc'
 ```
 
 Script kiểm khứ hồi `.rcc` trước khi sửa, không khớp từng byte thì dừng.
 
 ### Kiểm tự động
 
-`tests/test_mini_app_lang.py` — 31 test. Chín quy tắc đều đã chứng minh biết
-fail bằng cách phá hỏng có chủ đích: xoá điểm, trùng mã, trùng tên, đẩy điểm
-tràn mép, cắt cụt lời mô tả, dời cho hai điểm chồng nhau, thu bán kính quá nhỏ,
-xoá tệp ảnh, thêm chữ vào hình nhân vật dùng chung.
+`tests/test_mini_app_lang.py` — 31 test cho dữ liệu điểm chạm. Chín quy tắc đều
+đã chứng minh biết fail bằng cách phá hỏng có chủ đích: xoá điểm, trùng mã,
+trùng tên, đẩy điểm tràn mép, cắt cụt lời mô tả, dời cho hai điểm chồng nhau,
+thu bán kính quá nhỏ, xoá tệp ảnh, thêm chữ vào hình nhân vật dùng chung.
 
-## Hai việc phải xử lý trước khi phát hành công khai
+`tests/test_va_muc_lang.py` — 6 test cho bộ vá menu, cũng đã chứng minh biết
+fail: không nới bề rộng, vá lấn sang dòng tính chiều cao, đặt sai chỗ trong
+mảng, chạy lại bị nhân đôi, không dừng khi số chỗ công thức đổi, không dừng khi
+không nhận ra mảng mục.
 
-**1. Bản quyền ảnh nền.** Bức tranh có logo **FPT Telecom** và nhân vật cáo cam
-— đó là nhận diện của FPT, không phải của ThingEdu. Kho `gcompris-vi` là kho
-công khai theo giấy phép AGPL v3, đẩy ảnh lên đó nghĩa là cấp phép lại cả logo
-của đối tác. **Chưa đẩy lên GitHub, đang chờ chốt.** Ba hướng:
-   - có văn bản cho phép của FPT thì đẩy nguyên;
-   - hoặc thay hai lá cờ bằng cờ trắng, giữ nguyên phần còn lại, rồi đẩy;
-   - hoặc giữ bản có logo cho bản cài nội bộ và sự kiện, kho công khai dùng bản
-     không logo.
+## Bản quyền ảnh nền
 
-**2. Ảnh nền chỉ 512×286.** Trên màn hình 1920 phải phóng lên gần ba lần nên
-hơi mờ. Cần bản gốc rộng ít nhất 1600 px.
+Bức tranh gốc có logo **FPT Telecom** trên lá cờ bên trái. Kho `gcompris-vi` là
+kho công khai theo AGPL v3 nên đã **gỡ logo đó ra**, giữ nguyên lá cờ trắng và
+giữ nguyên logo **Làng Maker** bên phải.
+
+Cách gỡ: loang trên vùng vải trắng của lá cờ (rào chắn là nét viền tối) để lấy
+đúng lòng cờ, rồi tô trắng mọi điểm ảnh trong đó còn ám màu hoặc còn xám. Chỉ
+tô lại 730 điểm ảnh, nét viền và hình dáng lá cờ giữ nguyên. Lần tô đầu chỉ bỏ
+những điểm tối hơn ngưỡng nên còn sót viền khử răng cưa nhạt của chữ FPT — phải
+bắt theo cả độ ám màu mới sạch.
+
+Trên áo bạn Cáo còn một phù hiệu nhỏ ở ngực, ở độ phân giải 512 px thì chỉ là
+một vệt sáng không đọc ra chữ gì. Nếu có bản gốc lớn hơn thì cần soát lại chỗ đó.
+
+## Còn một việc về ảnh
+
+Ảnh nền chỉ **512×286**. Trên màn hình 1920 phải phóng lên gần ba lần nên hơi
+mờ. Cần bản gốc rộng ít nhất 1600 px.
 
 ## Còn lại
 
@@ -148,3 +185,4 @@ hơi mờ. Cần bản gốc rộng ít nhất 1600 px.
 - Bấm nút trên thanh dưới bằng `xdotool` cho toạ độ lệch nên chưa tự động hoá
   được việc đổi cấp khi chụp ảnh; cấp 2 và 3 đã kiểm bằng bản dựng tạm khởi
   động thẳng vào cấp đó.
+- Ảnh nền độ phân giải cao hơn.
