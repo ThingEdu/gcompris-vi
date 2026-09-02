@@ -169,17 +169,22 @@ tô lại 730 điểm ảnh, nét viền và hình dáng lá cờ giữ nguyên.
 những điểm tối hơn ngưỡng nên còn sót viền khử răng cưa nhạt của chữ FPT — phải
 bắt theo cả độ ám màu mới sạch.
 
-Trên áo bạn Cáo còn một phù hiệu nhỏ ở ngực, ở độ phân giải 512 px thì chỉ là
-một vệt sáng không đọc ra chữ gì. Nếu có bản gốc lớn hơn thì cần soát lại chỗ đó.
+Nhân vật **bạn Cáo giữ nguyên** — chủ dự án đã chốt, không gỡ và không thay.
+Trên áo Cáo còn một phù hiệu nhỏ ở ngực, ở độ phân giải 512 px thì chỉ là một vệt
+sáng không đọc ra chữ gì.
 
 ## Còn một việc về ảnh
 
 Ảnh nền chỉ **512×286**. Trên màn hình 1920 phải phóng lên gần ba lần nên hơi
 mờ. Cần bản gốc rộng ít nhất 1600 px.
 
+## Đã chốt
+
+Trò này **chỉ dùng chữ, không có lời đọc**. Cấp 2 và cấp 3 hiện lời của Cáo bằng
+chữ trên bảng nhắc; không sinh giọng VieNeu cho mười hai nơi.
+
 ## Còn lại
 
-- Lời đọc tiếng Việt cho mười hai nơi (dùng lại đường ống VieNeu-TTS đã có).
 - Mini app thứ hai: lập trình đường đi cho NEO Tre trong làng, theo lối
   `programmingMaze` nhưng bối cảnh Làng Maker.
 - Bấm nút trên thanh dưới bằng `xdotool` cho toạ độ lệch nên chưa tự động hoá
