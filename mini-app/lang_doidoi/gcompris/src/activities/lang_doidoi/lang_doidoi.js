@@ -25,3 +25,29 @@ function start(items_) {
 }
 
 function stop() {}
+
+/* Chỉ số hình 0-based -> đường dẫn tệp SVG.
+ * danhMucHinh xếp theo số 1..57 nên chỉ số i ứng với mục i. */
+function duongDanHinh(items, chiSo) {
+    var h = items.danhMucHinh[chiSo]
+    return url + "hinh/" + (h.so < 10 ? "0" : "") + h.so + "-" + h.ma + ".svg"
+}
+
+/* Trộn mảng tại chỗ, thuật toán Fisher-Yates. */
+function tron(ds) {
+    for (var i = ds.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1))
+        var t = ds[i]; ds[i] = ds[j]; ds[j] = t
+    }
+    return ds
+}
+
+/* Một bố cục ngẫu nhiên đã kiểm sẵn, kèm góc xoay ngẫu nhiên cho từng hình. */
+function bocucNgauNhien(items, soHinh) {
+    var ds = items.boCuc[String(soHinh)]
+    var b = ds[Math.floor(Math.random() * ds.length)]
+    var g = []
+    for (var i = 0; i < soHinh; i++)
+        g.push(Math.random() * 360)
+    return { boCuc: b, goc: g }
+}
