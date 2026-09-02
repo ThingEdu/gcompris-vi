@@ -467,6 +467,98 @@ Tiêu chí "trẻ 6 tuổi chơi được mà không cần biết chữ" của t
 theo quyết định Q7 — học trò cần đọc được tiếng Việt.
 
 
+## 11a · Nghiệm thu trên NEO One
+
+Đã cài, chạy và chụp ảnh thật trên `192.168.1.28` ngày 2026-09-02.
+
+### Cách cài — không cần quyền root
+
+Dựng một bản GCompris riêng trong thư mục nhà thay vì đụng `/usr/share`: chép
+`/usr/games/gcompris-qt` và `/usr/share/gcompris-qt` (79 MB) sang
+`~/gcthu/{games,share}`, rồi cài `.rcc` vào bản sao đó. GCompris tìm dữ liệu
+theo đường dẫn **tương đối với chỗ đặt chương trình**, nên chạy bản sao trong
+`~/gcthu` là tự nó đọc đúng `~/gcthu/share` chứ không đọc `/usr/share`.
+
+Đường `~/.local/share/GCompris/rcc/` đã thử và **không dùng được** — ghi vào
+đó không có tác dụng, GCompris vẫn đọc gói gốc ở `/usr/share`.
+
+### Đã kiểm thật, có ảnh trong `DOCS/anh/`
+
+- Hoạt động hiện đúng trong mục NEO Tre cạnh "Làng Maker", icon là hình 01 Neo
+  Tre (`neo-one-doidoi-van-choi.png`).
+- Màn vào bàn hiện đủ bốn hàng chọn (luật · số người · bộ bài · Hoa tiêu), chữ
+  tiếng Việt có dấu hiện đúng font.
+- Luật làng, 6 người, cấp Khó: `Lượt 1/12` chuyển đúng sang `Lượt 2/12`, vòng
+  nháy vàng khoanh đúng hình trùng, thẻ chung giữ nguyên, cả sáu thẻ riêng đổi
+  mới, không hiện con số điểm nào (`neo-one-doidoi-12-luot.png`).
+- Luật ăn thua: chấm điểm đúng người, viền vàng đánh dấu người đang dẫn đầu,
+  bấm sai thì ô khoá đổi màu, thẻ chung đổi
+  (`neo-one-doidoi-an-thua-cham-diem.png`).
+- Bố cục: tên nằm trên thẻ, thanh nút GCompris không che gì
+  (`neo-one-doidoi-bo-cuc-sua.png`).
+- Log trên máy: **0 `TypeError`**.
+- Cả 57 hình Qt5 dựng đúng, **0 hình trắng** (`qt5-dung-57-hinh.png`).
+
+### Âm thanh — đã gỡ, không phải lỗi mã
+
+Máy có hai đầu ra: jack 3.5mm và HDMI. Mặc định của hệ là HDMI, mà màn hình
+gắn ở đó không có loa — nên app phát tiếng suốt mà không ai nghe được. Đây
+**không phải lỗi mã nguồn của app**. Đã đặt lại đầu ra mặc định sang jack và
+ghi vào `~/.config/pulse/default.pa` để giữ nguyên sau khi khởi động lại. Chủ
+dự án đã xác nhận nghe được tiếng qua jack.
+
+### Ba lỗi chỉ máy thật mới lộ ra
+
+Đáng ghi lại để người sau biết vì sao phần này bắt buộc phải nghiệm thu trên
+máy, không thể chỉ tin bản dựng trên máy phát triển:
+
+1. **Thanh nút của GCompris che nhãn tên người chơi.** Bản dựng trên máy phát
+   triển không thấy lỗi này, vì `Bar` nằm ở `Lang_doidoi.qml` chứ không nằm ở
+   `LuatLang.qml` — nơi đặt bố cục ô tên.
+2. **Chữ trên máy thật to hơn hẳn bản dựng trên Mac.** GCompris nhân cỡ chữ
+   theo kích thước màn hình thật; khung giả dùng để dựng thử trên máy phát
+   triển trả cứng hệ số `1.0`, nên trên máy thật ô tên bị cắt mất dòng điểm.
+3. **`TypeError` do `property var x: []` bắn `onXChanged` ngay lúc dựng**,
+   trước khi `Loader` kịp gán `items` — chỉ lộ ra khi chạy đúng đường nạp thật
+   của GCompris (`QResource` + `Loader`), không lộ khi test riêng từng tệp
+   QML.
+
+### Bẫy vận hành trên máy này
+
+`pkill -f '[g]compris-qt'` vẫn tự giết luôn phiên ssh đang thao tác, vì dòng
+lệnh của chính lệnh `pkill` đó chứa đường dẫn thật khớp lại mẫu tìm. Phải dùng
+`pkill -x gcompris-qt` — khớp theo đúng tên tiến trình, không khớp theo dòng
+lệnh.
+
+
+## 11b · Đối chiếu 8 tiêu chí nghiệm thu (mục 11)
+
+Không tiêu chí nào trong mục 11 còn nhắc "chồng thẻ" theo luật cũ — mục
+"Ba luật của làng" (mục 7, luật 1) và cả tám tiêu chí dưới đây đã đổi sang lời
+"12 lượt" từ commit `30b9dbd` (*Đồng bộ luật 1 với quy tắc ván 12 lượt*) và
+`97bb9b0` (*Nghiệm thu luật mới trên NEO One: 12 lượt và đổi hết thẻ mỗi
+lượt*), trước khi tài liệu này được cập nhật lần này. Không có câu chữ nào cần
+sửa thêm.
+
+| # | Tiêu chí | Kết luận | Bằng chứng |
+|---|---|---|---|
+| 1 | Khởi động nguội → vào được ván đầu dưới 60 giây, không cần người hướng dẫn | **CHƯA KIỂM** | Đã vào được ván đầu trên máy thật (ảnh `neo-one-doidoi-van-choi.png` và `neo-one-doidoi-12-luot.png`), nhưng chưa ai bấm giờ từ lúc khởi động nguội — thiếu số giây đo thật |
+| 2 | Kiểm toán bộ bài chạy trong `pytest`, hỏng thì test đỏ | **ĐẠT** | `tests/test_bo_bai.py` nằm trong bộ 124 test xanh (`.venv/bin/pytest -q` → `124 passed`) |
+| 3 | Sáu người chơi, ô tên hiện đủ sáu, click ghi đúng lượt cho đúng người | **ĐẠT** | Ảnh `neo-one-doidoi-12-luot.png`: sáu người, `Lượt 1/12` → `Lượt 2/12` đúng nhịp, vòng nháy vàng khoanh đúng hình trùng |
+| 4 | Hoa tiêu không thể ghi lượt trong mọi trường hợp, kể cả bấm nhanh liên tiếp hay bấm đúng lúc đang chấm thẻ; trong ván không có con số nào dưới ô tên | **CHƯA KIỂM** | Ảnh `neo-one-doidoi-12-luot.png` xác nhận không hiện con số dưới ô tên, nhưng không có bằng chứng đã thử bấm nhanh liên tiếp/bấm đúng lúc đang chấm thẻ trên thẻ Hoa tiêu ở máy thật |
+| 5 | Gợi ý của Hoa tiêu chỉ dùng được một lần cho mỗi thẻ, bấm `Space` lần hai không có tác dụng | **CHƯA KIỂM** | Không có ảnh hay log nào trong bằng chứng đã kiểm nhắc tới việc thử nút `Space` trên máy thật |
+| 6 | Chọn sai thì ô người đó khoá đủ 3 giây, click trong lúc khoá không ghi gì | **CHƯA KIỂM** | Ảnh `neo-one-doidoi-an-thua-cham-diem.png` xác nhận ô khoá **đổi màu** khi bấm sai, nhưng không có phép đo xác nhận đúng 3 giây, và không có bằng chứng đã thử click trong lúc đang khoá |
+| 7 | Cả 57 hình dựng ra hình đúng trên NEO One, không hình nào trắng hoặc méo | **ĐẠT** | Ảnh `qt5-dung-57-hinh.png`: 57/57 hình dựng đúng, 0 hình trắng |
+| 8 | Toàn bộ app không có ô nhập tên/thông tin cá nhân nào, không ghi ra tệp nào ngoài thư mục cấu hình sẵn có của GCompris | **ĐẠT** | Không có `TextInput`/`TextField`/`TextArea` nào trong `mini-app/lang_doidoi/`; `lang_doidoi.js` chỉ đọc JSON đóng gói sẵn qua `qrc:` (đồng bộ, không mạng), không có lệnh ghi tệp nào trong toàn bộ mini app |
+
+Ba tiêu chí còn CHƯA KIỂM (4, 5, 6 — một phần) đều là hành vi cần bấm thử trực
+tiếp trên máy thật theo đúng kịch bản ("bấm nhanh liên tiếp", "bấm `Space` lần
+hai", "đo đúng 3 giây") mà buổi nghiệm thu 2026-09-02 chưa đi hết; ảnh chụp có
+sẵn xác nhận đúng hình dạng giao diện (không số điểm, ô khoá đổi màu) nhưng
+không xác nhận đúng hành vi cạnh biên. Tiêu chí 1 thiếu một con số đo cụ thể.
+Còn lại (2, 3, 7, 8) có bằng chứng trực tiếp, ghi ĐẠT.
+
+
 ## 12 · Rủi ro
 
 | Rủi ro | Mức | Đường lui |
