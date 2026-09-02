@@ -20,7 +20,7 @@ ActivityInfo {
           qsTr("Luật làng: 2 đến 6 người quanh một máy. Máy chia bài; các con nhìn chung hai thẻ rồi REO TO tên hình giống nhau. Ai gọi được thì bấm vào ô tên mình, rồi bấm vào hình đó — cả bàn đổi thẻ mới ngay. Ván chơi đúng 12 lượt. Trong ván không ai thấy điểm của ai; chỉ tới cuối ván mới nhắc nhẹ nếu có bạn gọi được nhiều hơn hẳn.") + "<br><br>" +
           qsTr("Luật ăn thua: cũng 2 đến 6 người và 12 lượt, nhưng mỗi lượt máy che thẻ đếm 3-2-1 trước khi cho nhìn; gọi đúng thì ghi điểm ngay, điểm hiện công khai dưới tên suốt ván, cả thẻ chung lẫn thẻ riêng đều đổi mới.") + "<br><br>" +
           qsTr("Cả bàn thắng cùng nhau, không ai thắng một mình. Bạn làm Hoa tiêu không được ghi lượt, nhưng bấm phím cách để nháy gợi ý cho cả bàn.")
-  credit: qsTr("Bộ 57 hình: Làng Maker Việt / ThingEdu, phát hành CC BY-SA. Linh vật Tux là bản vẽ lại; linh vật Linux gốc của Larry Ewing.")
+  credit: qsTr("Bộ 57 hình Làng Maker: © ThingEdu, giấy phép CC BY-SA 4.0. Linh vật Tux là bản vẽ lại; linh vật Linux gốc của Larry Ewing.")
   section: "langmaker discovery"
   createdInVersion: 0
 }

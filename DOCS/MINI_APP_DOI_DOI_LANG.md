@@ -583,15 +583,16 @@ Còn lại (2, 3, 7, 8) có bằng chứng trực tiếp, ghi ĐẠT.
 
 ## 13 · Giấy phép
 
-Bộ 57 hình phát hành **CC BY-SA**, làng giữ quyền. Mã hoạt động theo
+Bộ 57 hình phát hành **CC BY-SA 4.0**, chủ sở hữu **ThingEdu**. Mã hoạt động theo
 **GPL-3.0-or-later** như `lang_maker`, nhưng bản thân kho `gcompris-vi` — và
 GCompris gốc — là **AGPL-3.0-or-later** (xem `LICENSE`), KHÔNG phải GPL (sửa
 2026-09-02: bản trước của mục này viết nhầm "như GCompris" thành GPL). CC
 BY-SA 4.0 có điều khoản tương thích một chiều sang GPLv3, và trộn mã
 GPLv3 vào một tác phẩm hợp thành phát hành AGPLv3 vẫn hợp lệ (AGPLv3 chỉ
 CỘNG THÊM điều khoản mạng lên trên GPLv3, không thu hẹp quyền tương thích của
-GPLv3) — **cần bước rà pháp lý xác nhận trước khi phát hành công khai**, đánh
-dấu chờ, không chặn việc code.
+GPLv3) — rà soát pháp lý **ĐÃ XONG** 2026-09-02, xem `RA_SOAT_PHAP_LY.md`.
+Chủ dự án chốt 2026-09-03: bộ 57 hình phát hành **CC BY-SA 4.0**, chủ sở hữu
+**ThingEdu**. Cửa này đã đóng.
 
 Hình **Tux** trong bộ là bản vẽ lại; ghi công linh vật Linux của Larry Ewing.
 Đợt sửa 2026-09-02 đưa lời ghi công bộ 57 hình + Tux vào `ActivityInfo.qml` (trường `credit:`, ô

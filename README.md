@@ -105,10 +105,24 @@ GCompris phát hành theo **AGPL v3**, nên bản việt hóa này cũng vậy �
 (khảo sát trên commit `8b49e97f`, bản 26.1.0).
 
 Giấy phép của **mã** (AGPL/GPL, tuỳ tệp) tách riêng với giấy phép của **hình
-ảnh** trong các mini app `lang_*`. Bộ 57 hình của `lang_doidoi` (Đối Đôi
-Làng) là tác phẩm của Làng Maker Việt / ThingEdu, phát hành **CC BY-SA**
-— làng giữ quyền tác giả trên hình, không phải AGPL/GPL của kho. Linh vật
-**Tux** trong bộ là bản vẽ lại; linh vật Linux gốc của **Larry Ewing**. Xem
-`DOCS/MINI_APP_DOI_DOI_LANG.md` mục 13 để biết đầy đủ, và trường `credit:`
-trong `ActivityInfo.qml` của từng hoạt động để xem ghi công hiện cho người
-dùng.
+ảnh**.
+
+**Bộ 57 hình Làng Maker** dùng trong `lang_doidoi` (Đối Đôi Làng):
+© **ThingEdu**, phát hành theo **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.vi)**.
+Trường nào dùng lại hoặc vẽ thêm dựa trên bộ này **phải giữ nguyên CC BY-SA 4.0
+và ghi công ThingEdu** — điều khoản ShareAlike đi theo hình mãi mãi, không lấy
+về đóng lại được.
+
+Chọn 4.0 vì đó là phiên bản GCompris dùng cho tài sản của họ, và là bản duy
+nhất Creative Commons tuyên bố tương thích một chiều sang GPLv3.
+
+Linh vật **Tux** trong bộ là bản vẽ lại; linh vật Linux gốc của **Larry
+Ewing**. **Trâu Mở** là hình thay thế bản địa cho linh vật GNU, không dùng
+hình gốc.
+
+Ảnh chụp màn hình trong `DOCS/anh/` có chứa giao diện GCompris (hàng biểu
+tượng mục, thanh nút, hình nền) — những phần đó thuộc bản quyền dự án
+GCompris, dùng theo giấy phép của họ.
+
+Rà soát pháp lý đầy đủ: `DOCS/RA_SOAT_PHAP_LY.md`. Ghi công hiện cho người
+dùng nằm ở trường `credit:` trong `ActivityInfo.qml` của từng hoạt động.

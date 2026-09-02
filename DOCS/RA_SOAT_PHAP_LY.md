@@ -126,7 +126,21 @@ thứ ba trước khi commit, vì lịch sử git không xoá được bằng m�
 
 ---
 
-## 5 · Ba việc cần chủ dự án chốt
+## 5 · Ba việc chủ dự án ĐÃ CHỐT (2026-09-03)
+
+| Việc | Quyết định |
+|---|---|
+| Phiên bản giấy phép hình | **CC BY-SA 4.0** |
+| Chủ sở hữu ghi trên giấy phép | **ThingEdu** |
+| Trạng thái | **Quyết định**, không còn là đề xuất |
+
+Đã điền vào bốn chỗ: `ActivityInfo.qml` trường `credit:` (ô GCompris hiện cho
+người dùng), `README.md` mục Giấy phép, `mini-app/nguon/bo-57-hinh-lang-maker.html`
+(thay dòng "Đề xuất phát hành"), và `MINI_APP_DOI_DOI_LANG.md` §13.
+
+**Cửa pháp lý ở §13 đã đóng.** Phần dưới giữ lại làm hồ sơ của việc rà soát.
+
+### (hồ sơ) Ba việc khi rà soát còn để ngỏ
 
 Rà soát kỹ thuật đã xong, ba chỗ dưới đây cần người có thẩm quyền quyết:
 
