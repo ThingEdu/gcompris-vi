@@ -210,31 +210,40 @@ không ai). Ba lựa chọn trên một màn, không có màn con.
 
 ### Chia bài
 
-Cả bộ (31 hoặc 57 thẻ) xáo ngẫu nhiên. Thẻ đầu tiên đặt làm **thẻ chung**; phần
-còn lại úp thành **chồng**. Máy lật thẻ trên cùng của chồng làm **thẻ lật**.
+Cả bộ (31 hoặc 57 thẻ) xáo ngẫu nhiên. Thẻ đầu tiên đặt giữa màn làm **thẻ
+chung** — cả bàn cùng nhìn nó suốt ván, nó **không đổi**. Tiếp theo chia cho mỗi
+người **một thẻ riêng**, bày thành hàng phía dưới, ai cũng thấy thẻ của mọi
+người. Số thẻ còn lại úp thành **chồng**.
 
-Không chia thẻ riêng cho từng người — cả bàn nhìn chung hai thẻ, ai gọi được thì
-gọi. Đây là chỗ khác bài giấy, và là chỗ máy làm được việc mà bài giấy không
-làm được: mọi người thấy đúng cùng một thứ, không ai bị che tay.
+Vì hai thẻ bất kỳ trong bộ luôn trùng đúng một hình, nên **thẻ riêng của bất kỳ
+ai cũng luôn có đúng một hình chung với thẻ giữa**. Không bao giờ có lượt bí, và
+không bao giờ có lượt gọi kiểu gì cũng đúng.
 
 ### Một lượt
 
-1. Máy lật thẻ trên cùng của chồng lên vị trí *thẻ lật*. Đồng hồ chung chạy.
-2. Có em reo lên tên hình trùng giữa hai thẻ.
-3. Người cầm chuột **click ô tên em đó** — ô sáng lên — rồi **click hình** trên
-   một trong hai thẻ.
-4. **Đúng:** hình nhấp nháy trên cả hai thẻ; **thẻ lật trở thành thẻ chung mới**,
-   máy rút thẻ kế từ chồng làm thẻ lật; ghi một lượt cho em.
-   **Sai:** viền đỏ, ô của em đó khoá 3 giây, hai thẻ giữ nguyên.
+1. Tất cả thẻ bày sẵn: thẻ chung ở giữa, thẻ riêng của từng người ở dưới. Đồng
+   hồ chung chạy.
+2. Các em cùng tìm. Ai thấy hình trùng giữa **thẻ chung** và **thẻ riêng của
+   mình** thì reo to lên.
+3. Quản trò — người cầm chuột — **click ô tên em vừa reo** (ô sáng lên), rồi
+   **click hình** trên thẻ chung hoặc trên thẻ riêng của em đó.
+4. **Đúng:** hình nhấp nháy trên cả hai thẻ; **thẻ riêng của em đó được thay
+   bằng thẻ mới rút từ chồng**; thẻ chung giữ nguyên; ghi một lượt cho em.
+   **Sai:** viền đỏ, ô của em đó khoá 3 giây, mọi thẻ giữ nguyên.
 5. Hết chồng thẻ → cả bàn thắng.
 
-Một ván cấp Dễ đi hết 30 thẻ, cấp Khó 56 thẻ. Với nhịp khoảng 5 giây một thẻ thì
-ván Dễ khoảng 2 phút rưỡi, ván Khó khoảng 5 phút — vừa khung phiên chơi 3–10
-phút của buổi sinh hoạt.
+Click tên người trước rồi mới click hình: lúc reo lên thì biết ngay ai, và như
+thế không ai nhận vơ được lượt của bạn. Đây cũng là chỗ duy nhất máy biết ai làm
+gì — không có nó thì không ghi được lượt nào. Quản trò chỉ tick **sau khi em đó
+đã nói xong ngoài đời**, đúng nhịp chơi bài giấy.
 
-Click người trước rồi mới click hình: lúc reo lên thì biết ngay ai, và như thế
-không ai nhận vơ được lượt của bạn. Đây cũng là chỗ duy nhất máy biết ai làm
-gì — không có nó thì không ghi được lượt nào.
+Một ván cấp Dễ đi hết `30 − số người` thẻ, cấp Khó `56 − số người`. Với nhịp
+khoảng 5 giây một thẻ thì ván Dễ khoảng 2 phút, ván Khó khoảng 4 phút rưỡi.
+
+**Vì sao thẻ chung không đổi:** mỗi em chỉ phải so thẻ của mình với một thẻ duy
+nhất, nên sau vài lượt là thuộc mặt tám hình ở giữa và tìm nhanh hẳn lên. Đó
+chính là cái trò chơi muốn dạy. Đổi thẻ chung liên tục thì em nào cũng phải học
+lại từ đầu mỗi lượt.
 
 ### Ba luật của làng, máy cưỡng chế bằng cơ chế
 
@@ -248,8 +257,10 @@ gì — không có nó thì không ghi được lượt nào.
 3. **Hoa tiêu im lặng.** Em nhận vai Hoa tiêu hiện trong dải người chơi như một
    **thẻ ghi chú không bấm được** (khác hẳn ô tên: xám, không viền, không nhận
    click), nên không có đường nào ghi lượt. Bù lại em bấm `Space` để bật một vòng
-   nhấp nháy quanh **một phần tư của thẻ lật** — phần tư có chứa hình trùng. Mỗi
-   thẻ lật chỉ gợi ý được một lần. Gợi ý mà không nói, đúng nghĩa đen.
+   nhấp nháy quanh **một phần tư thẻ riêng của người vừa được tick** — phần tư
+   có chứa hình trùng với thẻ chung. Mỗi thẻ riêng chỉ gợi ý được một lần, và
+   chỉ gợi ý được **sau khi quản trò đã tick một người** — trước đó chưa biết
+   phải chỉ vào thẻ của ai. Gợi ý mà không nói, đúng nghĩa đen.
 
 ### Kết ván
 
@@ -265,37 +276,56 @@ việc của bản sau.
 ## 8 · Màn hình
 
 Màn 1920×1080 nằm ngang, mọi người ngồi cùng phía (không phải giao diện mặt bàn
-— không có cảm ứng thì không ai với tới màn hình cả).
+— không có cảm ứng thì không ai với tới màn hình cả). Quản trò cầm chuột.
 
 ```
-┌────────────────────────────────────────────────────────────┐
-│  ⏱ 01:24          Chồng còn 18 thẻ          Kỷ lục 02:07   │
-│                                                            │
-│        ╭─────────────╮        ╭─────────────╮              │
-│        │  THẺ CHUNG  │        │   THẺ LẬT   │              │
-│        │   ◕ ✿ ⚙ ▲   │        │   ⚙ ☂ ✚ ◆   │              │
-│        │   ✎ ⌾ ◈ ✦   │        │   ✺ ◑ ✧ ✜   │              │
-│        ╰─────────────╯        ╰─────────────╯              │
-│                                                            │
-│   [ P1 ]  [ P2 ]  [ P3 ]  [ P4 ]  [ P5 ]      ⚑ P6         │
-│                                              Hoa tiêu      │
-└────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│  ⏱ 01:24          Chồng còn 18 thẻ          Kỷ lục 02:07     │
+│                                                              │
+│                    ╭──────────────╮                          │
+│                    │  THẺ CHUNG   │   cả bàn nhìn chung      │
+│                    │  ◕ ✿ ⚙ ▲     │   KHÔNG đổi suốt ván     │
+│                    │  ✎ ⌾ ◈ ✦     │                          │
+│                    ╰──────────────╯                          │
+│                                                              │
+│   ◍      ◍      ◍      ◍      ◍         ⚑                    │
+│ Bạn 1  Bạn 2  Bạn 3  Bạn 4  Bạn 5     Bạn 6                  │
+│                                      Hoa tiêu                │
+│  ↑ thẻ riêng của từng người, gọi đúng thì thẻ đó được thay   │
+└──────────────────────────────────────────────────────────────┘
 ```
 
-Năm ô tên bấm được (viền, nền kem); ô Hoa tiêu xám và không nhận click. **Dưới
-ô tên không có con số nào** — luật 1 cấm hiện điểm cá nhân trong ván.
+**Thẻ chung** ở giữa, đường kính **420 px** — to nhất vì cả bàn nhìn nó suốt ván.
 
-Kích thước tính từ 1080 px chiều cao: thanh trên 120 · vùng thẻ 800 · dải người
-chơi 160. Thẻ hình tròn đường kính **700 px**, hai thẻ cạnh nhau vừa trong 1920.
-Ở cấp Khó, tám hình trên một thẻ 700 px → mỗi hình khoảng **180 px**, đủ to trên
-màn 15,6".
+**Thẻ riêng** xếp thành một hàng dưới, mỗi người một thẻ, kèm tên ngay dưới thẻ.
+Đường kính co theo số người để luôn vừa bề ngang:
+
+| Số người | Đường kính thẻ riêng | Cỡ một hình ở cấp Khó |
+|---|---|---|
+| 2 | 380 px | ~82 px |
+| 3 | 380 px | ~82 px |
+| 4 | 360 px | ~77 px |
+| 5 | 330 px | ~71 px |
+| 6 | 290 px | ~62 px |
+
+Công thức: `min(380, (1840 − 20 × (số người − 1)) / số người)`. Ở sáu người vẫn
+còn 62 px một hình — nhỏ nhưng đây là thẻ của chính em đó, em ngồi gần và chỉ
+phải soi thẻ của mình.
+
+**Bấm được cả hai chỗ:** click hình trên thẻ chung, hoặc trên thẻ riêng của
+người vừa được tick — máy nhận cả hai, vì hình trùng nằm trên cả hai thẻ.
+
+Thẻ riêng của Hoa tiêu vẫn bày ra cho em nhìn, nhưng **tên em là thẻ ghi chú
+xám không nhận click**, nên không có đường nào ghi lượt cho em.
+
+**Dưới tên không có con số nào** — luật 1 cấm hiện điểm cá nhân trong ván.
 
 Hình trên thẻ **xoay ngẫu nhiên**, cỡ lệch nhau ±15%, xếp không đè nhau — giống
-thẻ giấy. Vị trí sinh bằng vòng tròn đồng tâm rồi nhiễu nhẹ, kiểm không chồng
-lấn trước khi vẽ.
+thẻ giấy. Bố cục sinh sẵn lúc dựng và đã kiểm không chồng lấn (xem nhiệm vụ 3
+trong kế hoạch).
 
 **Không có chữ trên thẻ chơi** — quy tắc không đổi từ bản giấy. Chữ chỉ xuất
-hiện ở chế độ Học hình và các nhãn giao diện.
+hiện ở tên người chơi, chế độ Học hình và các nhãn giao diện.
 
 
 ## 9 · Cấu trúc tệp
