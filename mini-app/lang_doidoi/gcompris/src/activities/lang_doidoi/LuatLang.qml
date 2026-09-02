@@ -89,6 +89,19 @@ Item {
         onTriggered: Activity.tickDemNguoc(man)
     }
 
+    // Luật ăn thua: SAU một lần gọi đúng, để vòng nháy (điều KHÔNG khác —
+    // "hình nhấp nháy trên cả hai thẻ" vẫn còn) chạy trọn ~900ms (đủ vài
+    // nhịp animate 300ms/pha trong The.qml) rồi mới thật sự đổi thẻ chung +
+    // bắt đầu che/đếm — nếu đổi/che ngay thì cả bàn không kịp thấy hình nào
+    // vừa trùng, mất hẳn phần dạy học của trò chơi. Bấm chạy (restart) từ
+    // hai onBamHinh bên dưới, chỉ khi Activity.chonHinh() trả về true (đúng
+    // NGHĨA LÀ: vừa ghi một lượt đúng ở Luật ăn thua, ván còn tiếp tục).
+    Timer {
+        id: doiNhayAnThua
+        interval: 900; repeat: false; running: false
+        onTriggered: Activity.sauKhiNhayAnThua(man)
+    }
+
     // PHÁN QUYẾT F1: Lang_doidoi.qml dùng Loader { onLoaded: item.items = items },
     // và onLoaded chạy SAU Component.onCompleted của thành phần con. Lúc
     // Component.onCompleted chạy thì items còn undefined — phải đợi onItemsChanged.
@@ -221,7 +234,7 @@ Item {
                 goc: man.gocChung
                 nhayHinh: man.hinhNhay
                 chonDuoc: man.nguoiDangChon >= 0 && !man.vanXong
-                onBamHinh: Activity.chonHinh(man, chiSoHinh)
+                onBamHinh: { if (Activity.chonHinh(man, chiSoHinh)) doiNhayAnThua.restart() }
             }
 
             // ------------------------------------------- dải thẻ riêng + tên
@@ -323,7 +336,7 @@ Item {
                             // thẻ của người khác, không được nháy lây.
                             nhayHinh: index === man.hinhNhayNguoi ? man.hinhNhay : -1
                             chonDuoc: oNguoi.dangChonToi && !man.vanXong
-                            onBamHinh: Activity.chonHinh(man, chiSoHinh)
+                            onBamHinh: { if (Activity.chonHinh(man, chiSoHinh)) doiNhayAnThua.restart() }
 
                             // vòng gợi ý của Hoa tiêu: một phần tư thẻ riêng của
                             // người đang được tick — phần tư chứa hình trùng thẻ chung.
@@ -454,17 +467,30 @@ Item {
                 fontSize: regularSize; color: "#FBF8F1"
                 text: qsTr("Trò này vui với một người hay vui với cả bàn?")
             }
-            NutTo {
+            // Spec ghi rõ đây là một LỜI MỜI, không phải bắt buộc — để một
+            // lối ra duy nhất là ép, ngược tinh thần Luật làng đang muốn dạy.
+            // "Sang Luật làng" đứng trước, nổi hơn (NutTo mặc định); "Chơi
+            // ván nữa" đứng sau, mờ hơn (nhat: true) — bàn nào muốn đua tiếp
+            // cứ để họ đua tiếp.
+            Row {
                 anchors.horizontalCenter: parent.horizontalCenter
                 visible: man.anThua
-                chu: qsTr("Sang Luật làng")
-                onBam: {
-                    // Điểm không lưu ra đâu cả (Q9) — chỉ đổi cờ luật rồi chia
-                    // ván mới, không mang gì từ ván ăn thua vừa rồi sang.
-                    man.items.anThua = false
-                    man.anThua = false
-                    dongHo.giay = 0
-                    man.batDau()
+                spacing: 30
+                NutTo {
+                    chu: qsTr("Sang Luật làng")
+                    onBam: {
+                        // Điểm không lưu ra đâu cả (Q9) — chỉ đổi cờ luật rồi
+                        // chia ván mới, không mang gì từ ván ăn thua sang.
+                        man.items.anThua = false
+                        man.anThua = false
+                        dongHo.giay = 0
+                        man.batDau()
+                    }
+                }
+                NutTo {
+                    nhat: true
+                    chu: qsTr("Chơi ván nữa")
+                    onBam: { dongHo.giay = 0; man.batDau() }
                 }
             }
             NutTo {

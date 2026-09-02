@@ -11,26 +11,30 @@ import "../../core"
 Rectangle {
     id: nut
     property string chu: ""
+    // Kiểu mờ hơn — dùng cho lựa chọn PHỤ đứng cạnh một lựa chọn chính (ví
+    // dụ màn kết ván Luật ăn thua: "Sang Luật làng" nổi, "Chơi ván nữa" mờ).
+    // Mặc định false nên mọi chỗ dùng NutTo trước đây không đổi giao diện.
+    property bool nhat: false
     signal bam()
 
     width: Math.max(260, nhan.width + 60)
     height: 78
     radius: 12
-    color: "#1F7A52"
-    border { color: "#FBF8F1"; width: 3 }
+    color: nut.nhat ? "#1E3357" : "#1F7A52"
+    border { color: nut.nhat ? "#4A5A7C" : "#FBF8F1"; width: nut.nhat ? 2 : 3 }
 
     GCText {
         id: nhan
         anchors.centerIn: parent
         fontSize: mediumSize
-        font.bold: true
-        color: "#FBF8F1"
+        font.bold: !nut.nhat
+        color: nut.nhat ? "#C9D3E6" : "#FBF8F1"
         text: nut.chu
     }
     MouseArea {
         anchors.fill: parent
         onClicked: nut.bam()
-        onPressed: nut.color = "#12958E"
-        onReleased: nut.color = "#1F7A52"
+        onPressed: nut.color = nut.nhat ? "#28406A" : "#12958E"
+        onReleased: nut.color = nut.nhat ? "#1E3357" : "#1F7A52"
     }
 }

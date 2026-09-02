@@ -91,7 +91,11 @@ function batDauVan(items) {
         xong: false,
         an_thua: anThua,
         dang_dem_nguoc: false,    // Luật ăn thua: đang che thẻ đếm 3-2-1
-        dem: -1                   // 3,2,1,0 = "Tìm đi!", -1 = không đếm
+        dem: -1,                  // 3,2,1,0 = "Tìm đi!", -1 = không đếm
+        khoa_tam: false           // Luật ăn thua: giữa lúc vòng nháy đang chạy
+                                   // và lúc che+đếm bắt đầu — chưa tick/chọn
+                                   // hình được, nhưng CHƯA che thẻ (khác
+                                   // dang_dem_nguoc). Xem sauKhiNhayAnThua().
     }
 
     van.the_chung = van.chong.shift()
@@ -152,9 +156,25 @@ function rutTheChungMoi(items) {
  * tác (chonNguoi/chonHinh/goiY đều gác van.dang_dem_nguoc hoặc đọc
  * nguoi_dang_chon === -1) cho tới khi tickDemNguoc() đếm hết. */
 function batDauDemNguoc(items) {
+    van.khoa_tam = false     // hết giai đoạn "chờ nháy", chuyển sang che hẳn
     van.dang_dem_nguoc = true
     van.dem = 3
     capNhat(items)
+}
+
+/* Gọi từ LuatLang.qml SAU KHI vòng nháy đúng đã chạy đủ lâu để cả bàn thấy
+ * (Timer doiNhayAnThua, ~900ms — xem chonHinh()). Đây là lúc thật sự đổi
+ * THẺ CHUNG rồi che lại đếm 3-2-1 — tách khỏi chonHinh() để hình nhấp nháy
+ * (điều KHÔNG khác so với Luật làng: "hình nhấp nháy trên cả hai thẻ") có
+ * thời gian thật hiện ra trên thẻ chung CŨ trước khi nó bị thay/che, thay vì
+ * bị đổi thẻ ngay lập tức làm vòng nháy mất chỗ bám. */
+function sauKhiNhayAnThua(items) {
+    // Ván có thể đã kết thúc hoặc bị dựng lại (batDau() gọi lại) trong lúc
+    // Timer 900ms còn đang chạy — không còn gì để đổi/che nữa.
+    if (van === null || van.xong || !van.an_thua)
+        return
+    rutTheChungMoi(items)
+    batDauDemNguoc(items)
 }
 
 /* Một nhịp của bộ đếm: 3 → 2 → 1 → 0 ("Tìm đi!") → mở thẻ (dang_dem_nguoc
@@ -186,8 +206,9 @@ function biKhoa(nguoi) {
 
 function chonNguoi(items, nguoi) {
     // Luật ăn thua: đang che thẻ đếm 3-2-1 thì chưa ai được tick — "cả bàn
-    // cùng bắt đầu nhìn một lúc", không ai bấm trước lúc thẻ còn úp.
-    if (van.xong || van.dang_dem_nguoc || nguoi === items.hoaTieu || biKhoa(nguoi))
+    // cùng bắt đầu nhìn một lúc", không ai bấm trước lúc thẻ còn úp. khoa_tam
+    // chặn thêm khoảng chờ vòng nháy (thẻ vẫn mở, nhưng chưa tới lượt mới).
+    if (van.xong || van.dang_dem_nguoc || van.khoa_tam || nguoi === items.hoaTieu || biKhoa(nguoi))
         return
     // Xoá vòng nháy của lượt trước ngay khi bắt đầu tick người mới, để hình
     // nháy ở lượt vừa rồi có thời gian thật để thấy (không bị chính lượt đó
@@ -198,9 +219,13 @@ function chonNguoi(items, nguoi) {
     capNhat(items)
 }
 
+/* Trả về true CHỈ khi vừa ghi một lượt đúng ở Luật ăn thua và ván còn tiếp
+ * tục — đó là dấu hiệu để LuatLang.qml khởi động Timer doiNhayAnThua (~900ms)
+ * rồi mới gọi sauKhiNhayAnThua() để đổi thẻ chung + che đếm. Mọi trường hợp
+ * khác trả về false (không cần chờ gì thêm). */
 function chonHinh(items, chiSoHinh) {
-    if (van.xong || van.dang_dem_nguoc || van.nguoi_dang_chon < 0)
-        return
+    if (van.xong || van.dang_dem_nguoc || van.khoa_tam || van.nguoi_dang_chon < 0)
+        return false
     var nguoi = van.nguoi_dang_chon
     var dung = hinhTrung(van.the_chung, van.the_rieng[nguoi])
     if (chiSoHinh === dung) {
@@ -221,20 +246,26 @@ function chonHinh(items, chiSoHinh) {
                 items.kyLuc = items.giay
             items.bonus.good("flower")
             capNhat(items)
+            return false
         } else if (van.an_thua) {
-            // Điều khác thứ hai: thẻ CHUNG đổi, thẻ riêng giữ nguyên — rồi
-            // che lại đếm 3-2-1 trước khi cho phép lượt tiếp theo.
-            rutTheChungMoi(items)
-            batDauDemNguoc(items)
+            // Điều khác thứ hai: thẻ CHUNG đổi, thẻ riêng giữ nguyên — nhưng
+            // CHƯA đổi ngay ở đây. khoa_tam khoá thao tác trong lúc thẻ vẫn
+            // còn mở để vòng nháy chạy trọn vẹn; QML mới là nơi thật sự chờ
+            // đủ ~900ms rồi gọi sauKhiNhayAnThua() để đổi thẻ + che đếm.
+            van.khoa_tam = true
+            capNhat(items)
+            return true
         } else {
             rutTheMoi(items, nguoi)
             capNhat(items)
+            return false
         }
     } else {
         van.khoa_den[nguoi] = Date.now() + 3000
         van.nguoi_dang_chon = -1
         items.audioEffects.play("qrc:/gcompris/src/core/resource/sounds/brick.wav")
         capNhat(items)
+        return false
     }
 }
 
