@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: gcompris-vi
 Source: https://github.com/ThingEdu/gcompris-vi
-Comment: Rà soát pháp lý đầy đủ nằm ở DOCS/RA_SOAT_PHAP_LY.md trong kho nguồn.
+Comment: Rà soát pháp lý đầy đủ nằm ở docs/RA_SOAT_PHAP_LY.md trong kho nguồn.
  Giấy phép của MÃ tách riêng với giấy phép của HÌNH ẢNH.
 
 Files: *

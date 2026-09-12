@@ -45,7 +45,7 @@ này cài qua `apt` và phụ thuộc `gcompris-qt-data`.
 - **Kho giọng đọc** — mới xong 202/888 tệp, chưa đóng vào gói. Tạm dùng
   `deploy/install_vi.sh`.
 - **Xưng hô gia đình** vẫn chưa dùng được cho lớp học — xem
-  [DOCS/NOI_DUNG_CAN_THIET_KE_LAI.md](DOCS/NOI_DUNG_CAN_THIET_KE_LAI.md).
+  [docs/NOI_DUNG_CAN_THIET_KE_LAI.md](docs/NOI_DUNG_CAN_THIET_KE_LAI.md).
 
 ## [0.1.0] — 2026-09-01
 

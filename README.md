@@ -14,8 +14,8 @@ thống kê KDE ghi nhận 6.190 chuỗi, 0% đã dịch.
 | Giao diện, tên và mô tả 203 hoạt động, hướng dẫn | **4.277/4.277 chuỗi đã xử lý** — 3.662 dịch, 615 cố ý giữ nguyên (tên riêng nước ngoài, ký hiệu) |
 | Kho giọng đọc tiếng Việt | 202/888 tệp — lời dẫn 114 hoạt động, bảng chữ cái, chữ số, lời khen, màu sắc |
 | Bản đồ Việt Nam | Hoàng Sa + Trường Sa vá vào bản đồ châu Á; **bản đồ hành chính 34 tỉnh thành** mới, GCompris gốc không có |
-| Mini app của Làng Maker | Thêm hoạt động mới **không cần biên dịch lại** — xem [DOCS/MINI_APP_LANG_MAKER.md](DOCS/MINI_APP_LANG_MAKER.md) |
-| Mini app thứ hai — Đối Đôi Làng | Bộ bài 57 hình kiểu Dobble (`lang_doidoi`), ba chế độ **Học hình** (1 người) · **Luật làng** (2–6 người, hợp tác) · **Luật ăn thua** (2–6 người, có điểm) — đã nghiệm thu trên NEO One thật, xem [DOCS/MINI_APP_DOI_DOI_LANG.md](DOCS/MINI_APP_DOI_DOI_LANG.md) |
+| Mini app của Làng Maker | Thêm hoạt động mới **không cần biên dịch lại** — xem [docs/MINI_APP_LANG_MAKER.md](docs/MINI_APP_LANG_MAKER.md) |
+| Mini app thứ hai — Đối Đôi Làng | Bộ bài 57 hình kiểu Dobble (`lang_doidoi`), ba chế độ **Học hình** (1 người) · **Luật làng** (2–6 người, hợp tác) · **Luật ăn thua** (2–6 người, có điểm) — đã nghiệm thu trên NEO One thật, xem [docs/MINI_APP_DOI_DOI_LANG.md](docs/MINI_APP_DOI_DOI_LANG.md) |
 | Đường ống dựng lại từ đầu | `.qm`, `core.rcc` đã vá, `voices-vi.rcc`, `geography.rcc`, `geo-country.rcc` |
 
 Đã nghiệm thu trên GCompris thật: **382/382 hoạt động** hiện tên, mô tả và
@@ -76,7 +76,7 @@ nhiệt độ lấy mẫu khác, kèm cắt lặng và kiểm thời lượng th
 - 564 từ vựng và 129 tên nước cho kho giọng
 - Bộ từ theo cấp độ âm tiết cho `gletters` và `wordsgame`
 - Bốn chỗ nội dung phải thiết kế lại chứ không dịch được — xem
-  [`DOCS/NOI_DUNG_CAN_THIET_KE_LAI.md`](DOCS/NOI_DUNG_CAN_THIET_KE_LAI.md).
+  [`docs/NOI_DUNG_CAN_THIET_KE_LAI.md`](docs/NOI_DUNG_CAN_THIET_KE_LAI.md).
   Đáng chú ý nhất là **xưng hô gia đình**: cây gia đình gốc có đúng một ô "Uncle"
   và một ô "Aunt", trong khi tiếng Việt tách thành chú, bác, cậu, cô, dì, thím, mợ
   theo bên nội/ngoại và thứ bậc tuổi. Bản dịch hiện tại theo bên nội và **không
@@ -135,9 +135,9 @@ Linh vật **Tux** trong bộ là bản vẽ lại; linh vật Linux gốc của
 Ewing**. **Trâu Mở** là hình thay thế bản địa cho linh vật GNU, không dùng
 hình gốc.
 
-Ảnh chụp màn hình trong `DOCS/anh/` có chứa giao diện GCompris (hàng biểu
+Ảnh chụp màn hình trong `docs/anh/` có chứa giao diện GCompris (hàng biểu
 tượng mục, thanh nút, hình nền) — những phần đó thuộc bản quyền dự án
 GCompris, dùng theo giấy phép của họ.
 
-Rà soát pháp lý đầy đủ: `DOCS/RA_SOAT_PHAP_LY.md`. Ghi công hiện cho người
+Rà soát pháp lý đầy đủ: `docs/RA_SOAT_PHAP_LY.md`. Ghi công hiện cho người
 dùng nằm ở trường `credit:` trong `ActivityInfo.qml` của từng hoạt động.
