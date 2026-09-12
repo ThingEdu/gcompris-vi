@@ -3,8 +3,7 @@
 #
 #   va_ban_do_chu_quyen.sh <đường/dẫn/geography.rcc>
 #
-# Chạy trên máy CÓ Qt (để dùng lệnh rcc). Với NEO One thì lấy tệp về máy này,
-# vá, rồi chép ngược sang.
+# Chỉ cần python3. Với NEO One thì lấy tệp về máy này, vá, rồi chép ngược sang.
 #
 #   scp neo@<ip>:/usr/share/gcompris-qt/rcc/geography.rcc /tmp/
 #   ./deploy/va_ban_do_chu_quyen.sh /tmp/geography.rcc

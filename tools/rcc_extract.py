@@ -2,7 +2,7 @@
 """Bung một file .rcc của Qt ra thư mục.
 
 Dùng để vá LanguageList.qml trong core.rcc mà không cần biên dịch lại
-GCompris: bung ra, sửa, rồi đóng gói lại bằng lệnh rcc của Qt.
+GCompris: bung ra, sửa, rồi đóng gói lại bằng rcc_repack.py.
 
 Usage: rcc_extract.py <file.rcc> <thư_mục_đích>
 """
