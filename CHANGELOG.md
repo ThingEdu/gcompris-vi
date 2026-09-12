@@ -1,60 +1,63 @@
-# Nhật ký thay đổi
+# Changelog
 
-Theo [Keep a Changelog](https://keepachangelog.com/vi/1.1.0/) và
-[Semantic Versioning](https://semver.org/lang/vi/).
+Follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
+[Semantic Versioning](https://semver.org/).
 
 ## [0.2.0] — 2026-09-12
 
-Gói `.deb` đầu tiên. v0.1.0 phát hành bản dịch và kho giọng dạng tệp rời; từ bản
-này cài qua `apt` và phụ thuộc `gcompris-qt-data`.
+First `.deb` package. v0.1.0 shipped the translation and voices as loose files;
+from this release it installs through `apt` and depends on `gcompris-qt-data`.
 
-### Thêm
+### Added
 
-- **Gói Debian `gcompris-vi`** (`Architecture: all`) — dựng ở đâu cũng được, cài
-  được lên NEO One (ARM64). Không kèm mã biên dịch.
-- **Bản đồ Việt Nam có quần đảo Hoàng Sa và Trường Sa**, vá vào hoạt động *Tìm
-  quốc gia trên bản đồ* (Nghị định 18/2020/NĐ-CP, Điều 11 khoản 2).
-- **Bản đồ hành chính 34 tỉnh thành** cho hoạt động *Tìm vùng trên bản đồ* —
-  GCompris gốc không có.
-- **Hai mini app của Làng Maker**: *Làng Maker* (`lang_maker`) và *Đối Đôi Làng*
-  (`lang_doidoi`, bộ bài 57 hình kiểu Dobble, ba chế độ chơi).
-- **`scripts/install_on_neo.sh`** — cài một dòng theo chuẩn NEO Installation
-  Script Convention v2, kèm dọn dẹp bản cài tay cũ của `deploy/install_vi.sh`.
-- **`tools/them_tieng_viet.py`** — tách bộ vá `LanguageList.qml` ra thành công
-  cụ riêng, dùng chung cho `install_vi.sh` và postinst của gói.
+- **Debian package `gcompris-vi`** (`Architecture: all`) — builds anywhere,
+  installs on NEO One (ARM64). Contains no compiled code.
+- **Vietnam map with the Hoàng Sa and Trường Sa archipelagos**, patched into the
+  *Find the country on the map* activity (Decree 18/2020/NĐ-CP, Article 11(2)).
+- **34-province administrative map** for *Find the region on the map* — GCompris
+  upstream has none.
+- **Two Làng Maker mini apps**: *Làng Maker* (`lang_maker`) and *Đối Đôi Làng*
+  (`lang_doidoi`, a 57-image Dobble-style deck with three game modes).
+- **`scripts/install_on_neo.sh`** — one-line install per NEO Installation Script
+  Convention v2, including cleanup of the older `deploy/install_vi.sh` layout.
+- **`tools/them_tieng_viet.py`** — the `LanguageList.qml` patch split out into
+  its own tool, shared by `install_vi.sh` and the package's postinst.
 
-### Thay đổi
+### Changed
 
-- **`tools/rcc_repack.py` viết định dạng `.rcc` bằng Python thuần**, không còn
-  gọi lệnh `rcc` của Qt. Nhờ vậy postinst vá `.rcc` ngay trên NEO One mà chỉ cần
-  `python3`.
-- **Nâng đời GCompris không làm mất bản việt hóa.** Năm tệp `.rcc` của
-  `gcompris-qt-data` được vá qua `dpkg-divert`; một trigger dpkg vá lại tự động
-  mỗi khi gói gốc nâng đời. Gỡ gói thì mọi thứ trở lại nguyên bản.
+- **`tools/rcc_repack.py` writes the `.rcc` format in pure Python**, no longer
+  shelling out to Qt's `rcc`. This is what lets postinst patch `.rcc` files on
+  the NEO One itself with nothing but `python3`.
+- **Upgrading GCompris no longer drops the Vietnamese localisation.** The five
+  `.rcc` files owned by `gcompris-qt-data` are patched through `dpkg-divert`,
+  and a dpkg trigger re-applies the patch whenever the upstream package is
+  upgraded. Removing the package restores everything to stock.
 
-### Kiểm thử
+### Testing
 
-- 148 test chạy trong lúc dựng gói; `lintian` không báo lỗi nào.
-- Nghiệm thu trên `gcompris-qt-data 3.1-2` thật: cài, 5 chuyển hướng, nội dung 5
-  tệp `.rcc` đã vá đúng, trigger vá lại sau khi nâng đời, gỡ gói trả `core.rcc`
-  về đúng md5 gốc.
-- Đã chạy thử trên máy NEO One thật.
+- 148 tests run during the package build; `lintian` reports nothing.
+- Verified against real `gcompris-qt-data 3.1-2`: install, five diversions,
+  correct patched content in all five `.rcc` files, re-patch after an upstream
+  upgrade, and removal restoring `core.rcc` to its original md5.
+- Tested on real NEO One hardware.
 
-### Chưa có
+### Not included yet
 
-- **Kho giọng đọc** — mới xong 202/888 tệp, chưa đóng vào gói. Tạm dùng
-  `deploy/install_vi.sh`.
-- **Xưng hô gia đình** vẫn chưa dùng được cho lớp học — xem
+- **Voice pack** — 202/888 files done, not in the package. Use
+  `deploy/install_vi.sh` meanwhile.
+- **Family kinship terms** are still not classroom-ready — see
   [docs/NOI_DUNG_CAN_THIET_KE_LAI.md](docs/NOI_DUNG_CAN_THIET_KE_LAI.md).
 
 ## [0.1.0] — 2026-09-01
 
-### Thêm
+### Added
 
-- Bản dịch 4.277/4.277 chuỗi — 3.662 dịch, 615 cố ý giữ nguyên. Nghiệm thu trên
-  GCompris thật: 382/382 hoạt động hiện tiếng Việt.
-- Kho giọng 202 tệp (8,2 phút) sinh bằng VieNeu-TTS, giọng Bình (nam miền Bắc).
-- `deploy/install_vi.sh` — cài tay bản dịch, vá `core.rcc`, cài kho giọng.
+- Translation of 4,277/4,277 strings — 3,662 translated, 615 deliberately left
+  in English. Verified on real GCompris: 382/382 activities display Vietnamese.
+- Voice pack of 202 files (8.2 minutes) generated with VieNeu-TTS, voice Bình
+  (northern male).
+- `deploy/install_vi.sh` — manual install of the translation, `core.rcc` patch
+  and voice pack.
 
 [0.2.0]: https://github.com/ThingEdu/gcompris-vi/releases/tag/v0.2.0
 [0.1.0]: https://github.com/ThingEdu/gcompris-vi/releases/tag/v0.1.0
