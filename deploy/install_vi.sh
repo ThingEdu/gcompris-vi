@@ -60,23 +60,7 @@ fi
 WORK=$(mktemp -d); trap 'rm -rf "$WORK"' EXIT
 [ -f "$CORE.orig" ] || cp "$CORE" "$CORE.orig"
 "$PY" "$HERE/tools/rcc_extract.py" "$CORE.orig" "$WORK/x" >/dev/null
-LL=$(find "$WORK/x" -name LanguageList.qml | head -1)
-[ -n "$LL" ] || { echo "Không tìm thấy LanguageList.qml trong core.rcc"; exit 1; }
-if grep -q 'vi_VN.UTF-8' "$LL"; then
-    echo "→ LanguageList.qml đã có tiếng Việt, giữ nguyên"
-else
-    "$PY" - "$LL" <<'PYEOF'
-import re, sys
-p = sys.argv[1]
-s = open(p, encoding="utf-8").read()
-line = '            { "text": "Tiếng Việt", "locale": "vi_VN.UTF-8" },\n'
-m = re.search(r'^.*"locale":\s*"system"\s*\},\n', s, re.M)
-if not m:
-    sys.exit("không tìm thấy mục 'system' trong LanguageList.qml")
-open(p, "w", encoding="utf-8").write(s[:m.end()] + line + s[m.end():])
-PYEOF
-    echo "→ đã thêm 'Tiếng Việt' vào LanguageList.qml"
-fi
+"$PY" "$HERE/tools/them_tieng_viet.py" "$WORK/x"
 VER=$("$PY" - "$CORE.orig" <<'PYEOF'
 import struct, sys
 print(struct.unpack_from(">I", open(sys.argv[1], "rb").read(), 4)[0])
