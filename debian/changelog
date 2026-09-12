@@ -1,9 +1,12 @@
-gcompris-vi (0.1.0) unstable; urgency=medium
+gcompris-vi (0.2.0) unstable; urgency=medium
 
-  * Gói đầu tiên: bản dịch, bản đồ chủ quyền, bản đồ 34 tỉnh thành và hai
-    mini app của Làng Maker.
-  * Vá .rcc của gcompris-qt-data bằng dpkg-divert kèm trigger, nên nâng đời
-    GCompris không làm mất bản việt hóa.
-  * Chưa kèm kho giọng đọc: mới xong 202/888 tệp và không nằm trong kho git.
+  * First .deb package. v0.1.0 shipped the translation and voices as loose
+    files; this installs through apt and depends on gcompris-qt-data.
+  * Since v0.1.0: Vietnam map with the Hoàng Sa and Trường Sa archipelagos,
+    34-province administrative map, and two Làng Maker mini apps
+    (lang_maker, lang_doidoi).
+  * Patches gcompris-qt-data's .rcc files through dpkg-divert with a trigger,
+    so upgrading GCompris no longer drops the Vietnamese localisation.
+  * Voices not included yet: 202/888 files done, not tracked in git.
 
- -- ThingEdu <tuan@rogo.com.vn>  Sat, 12 Sep 2026 18:36:03 +0700
+ -- ThingEdu <tuan@rogo.com.vn>  Sat, 12 Sep 2026 22:12:08 +0700
