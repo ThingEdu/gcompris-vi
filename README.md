@@ -21,7 +21,19 @@ thống kê KDE ghi nhận 6.190 chuỗi, 0% đã dịch.
 Đã nghiệm thu trên GCompris thật: **382/382 hoạt động** hiện tên, mô tả và
 hướng dẫn bằng tiếng Việt.
 
-## Cài lên máy đã có GCompris
+## Cài bằng gói .deb (cách nên dùng)
+
+```bash
+sudo apt install build-essential debhelper gettext qttools5-dev-tools python3-pytest nodejs
+dpkg-buildpackage -us -uc -b
+sudo apt install ../gcompris-vi_*.deb
+```
+
+Gói phụ thuộc `gcompris-qt-data`, vá năm tệp `.rcc` của gói đó qua `dpkg-divert`
+và cài một trigger vá lại tự động mỗi khi GCompris nâng đời — xem
+[debian/README.Debian](debian/README.Debian). Chưa kèm kho giọng.
+
+## Cài tay lên máy đã có GCompris
 
 ```bash
 git clone https://github.com/ThingEdu/gcompris-vi.git
@@ -88,12 +100,15 @@ tools/                   dựng khung po, xuất/nhập đợt dịch, kiểm tr
                          bung/đóng .rcc, sinh giọng, dựng .qm, `kiem_qml.py` nạp
                          `core.rcc` thật của máy đích vào Qt5 để bắt lỗi QML mini app
                          ngay trên máy phát triển
-deploy/install_vi.sh     cài vào một bản GCompris đã có
+deploy/install_vi.sh     cài tay vào một bản GCompris đã có
+deploy/va_lai.sh         vá lại 5 tệp .rcc từ bản gốc; postinst và trigger
+                         của gói .deb đều gọi script này
+debian/                  đóng gói .deb — xem debian/README.Debian
 tests/                   test cho bộ kiểm tra bản dịch
 ```
 
 ```bash
-./.venv/bin/python -m pytest tests/          # 127 test
+./.venv/bin/python -m pytest tests/          # 148 test
 ./.venv/bin/python tools/check_po.py po/gcompris_qt.po
 ./.venv/bin/python tools/po_batch.py stats po/gcompris_qt.po
 ```

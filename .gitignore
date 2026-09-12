@@ -4,3 +4,10 @@ tmp/
 __pycache__/
 work/
 .superpowers/
+
+debian/gcompris-vi/
+debian/.debhelper/
+debian/files
+debian/*.substvars
+debian/*.debhelper.log
+dist/

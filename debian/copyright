@@ -1,0 +1,57 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: gcompris-vi
+Source: https://github.com/ThingEdu/gcompris-vi
+Comment: Rà soát pháp lý đầy đủ nằm ở DOCS/RA_SOAT_PHAP_LY.md trong kho nguồn.
+ Giấy phép của MÃ tách riêng với giấy phép của HÌNH ẢNH.
+
+Files: *
+Copyright: 2026 ThingEdu <tuan@rogo.com.vn>
+License: AGPL-3.0-or-later
+
+Files: po/*
+Copyright: 2026 ThingEdu <tuan@rogo.com.vn>
+License: AGPL-3.0-or-later
+Comment: Chuỗi gốc tiếng Anh thuộc dự án GCompris (https://invent.kde.org/education/gcompris),
+ khảo sát trên commit 8b49e97f, bản 26.1.0.
+
+Files: mini-app/chung/*
+       mini-app/lang_doidoi/gcompris/src/activities/lang_doidoi/resource/hinh/*
+       mini-app/nguon/bo-57-hinh-lang-maker.html
+Copyright: 2026 ThingEdu
+License: CC-BY-SA-4.0
+Comment: Bộ 57 hình Làng Maker. Điều khoản ShareAlike đi theo hình mãi mãi:
+ trường nào vẽ thêm dựa trên bộ này phải giữ nguyên CC BY-SA 4.0 và ghi công
+ ThingEdu. Chọn 4.0 vì đó là phiên bản GCompris dùng cho tài sản của họ, và là
+ bản duy nhất Creative Commons tuyên bố tương thích một chiều sang GPLv3.
+ .
+ Linh vật Tux trong bộ là bản VẼ LẠI; linh vật Linux gốc của Larry Ewing.
+ Trâu Mở là hình thay thế bản địa cho linh vật GNU, không dùng hình gốc.
+
+Files: maps/*
+Copyright: 2026 ThingEdu <tuan@rogo.com.vn>
+License: CC-BY-SA-4.0
+
+License: AGPL-3.0-or-later
+ This program is free software: you can redistribute it and/or modify it under
+ the terms of the GNU Affero General Public License as published by the Free
+ Software Foundation, either version 3 of the License, or (at your option) any
+ later version.
+ .
+ This program is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more
+ details.
+ .
+ On Debian systems, the complete text of the GNU Affero General Public License
+ version 3 can be found in "/usr/share/common-licenses/AGPL-3".
+
+License: CC-BY-SA-4.0
+ Creative Commons Attribution-ShareAlike 4.0 International.
+ .
+ You are free to share and adapt the material for any purpose, even
+ commercially, provided you give appropriate credit, provide a link to the
+ license, indicate if changes were made, and distribute your contributions
+ under the same license as the original.
+ .
+ The full text of the license is available at
+ https://creativecommons.org/licenses/by-sa/4.0/legalcode

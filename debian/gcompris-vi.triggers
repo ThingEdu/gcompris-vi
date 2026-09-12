@@ -1,0 +1,3 @@
+# gcompris-qt-data nâng đời sẽ ghi bản gốc mới vào các tệp .orig trong thư mục
+# này; postinst bắt được trigger và vá lại.
+interest-noawait /usr/share/gcompris-qt/rcc

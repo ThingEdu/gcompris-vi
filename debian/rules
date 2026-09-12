@@ -1,0 +1,42 @@
+#!/usr/bin/make -f
+# SPDX-FileCopyrightText: 2026 ThingEdu <tuan@rogo.com.vn>
+# SPDX-License-Identifier: GPL-3.0-or-later
+export LC_ALL = C.UTF-8
+
+DEST = debian/gcompris-vi
+VI   = $(DEST)/usr/share/gcompris-vi
+GC   = $(DEST)/usr/share/gcompris-qt
+
+# Công cụ postinst cần để vá .rcc ngay trên máy đích. rcc_repack.py viết định
+# dạng bằng Python thuần nên ở đây KHÔNG kéo theo bộ công cụ Qt.
+CONG_CU = rcc_extract rcc_repack them_tieng_viet va_muc_lang \
+          them_hoang_sa_truong_sa gan_ban_do_34_tinh
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	./tools/build_qm.sh po/gcompris_qt.po build/gcompris_qt_vi.qm
+	python3 tools/dong_goi_mini_app.py build/rcc
+
+override_dh_auto_test:
+ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
+	python3 -m pytest tests/ -q
+endif
+
+override_dh_auto_install:
+	install -D -m 644 build/gcompris_qt_vi.qm \
+		$(GC)/translations/gcompris_vi.qm
+	for r in build/rcc/lang_*.rcc; do \
+		install -D -m 644 "$$r" "$(GC)/rcc/$$(basename $$r)"; \
+	done
+	install -D -m 755 deploy/va_lai.sh $(VI)/va_lai.sh
+	for t in $(CONG_CU); do \
+		install -D -m 755 "tools/$$t.py" "$(VI)/tools/$$t.py"; \
+	done
+	mkdir -p $(VI)/maps
+	cp -a maps/34-tinh $(VI)/maps/
+
+override_dh_auto_clean:
+	rm -rf build tmp
+	dh_auto_clean

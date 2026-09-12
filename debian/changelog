@@ -1,0 +1,9 @@
+gcompris-vi (0.1.0) unstable; urgency=medium
+
+  * Gói đầu tiên: bản dịch, bản đồ chủ quyền, bản đồ 34 tỉnh thành và hai
+    mini app của Làng Maker.
+  * Vá .rcc của gcompris-qt-data bằng dpkg-divert kèm trigger, nên nâng đời
+    GCompris không làm mất bản việt hóa.
+  * Chưa kèm kho giọng đọc: mới xong 202/888 tệp và không nằm trong kho git.
+
+ -- ThingEdu <tuan@rogo.com.vn>  Sat, 12 Sep 2026 18:36:03 +0700

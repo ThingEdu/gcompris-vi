@@ -1,0 +1,24 @@
+#!/bin/sh
+# SPDX-FileCopyrightText: 2026 ThingEdu <tuan@rogo.com.vn>
+# SPDX-License-Identifier: GPL-3.0-or-later
+set -e
+
+RCC=/usr/share/gcompris-qt/rcc
+TEP="core.rcc activities.rcc menu.rcc geography.rcc geo-country.rcc"
+
+case "$1" in
+    remove)
+        for t in $TEP; do
+            f="$RCC/$t"
+            [ "$(dpkg-divert --listpackage "$f")" = "gcompris-vi" ] || continue
+            # Bản đã vá không thuộc gói nào nên dpkg không xoá hộ; phải dọn
+            # trước, vì --remove --rename đòi chỗ cũ đang trống.
+            rm -f "$f"
+            dpkg-divert --remove --rename --divert "$f.orig" \
+                --package gcompris-vi "$f"
+        done
+        ;;
+esac
+
+#DEBHELPER#
+exit 0

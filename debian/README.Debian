@@ -1,0 +1,56 @@
+gcompris-vi — cách gói này chen vào GCompris
+============================================
+
+Phần lớn nội dung chỉ là tệp mới, không đụng gói nào:
+
+    /usr/share/gcompris-qt/translations/gcompris_vi.qm
+    /usr/share/gcompris-qt/rcc/lang_maker.rcc
+    /usr/share/gcompris-qt/rcc/lang_doidoi.rcc
+
+Nhưng năm tệp .rcc sau THUỘC gói gcompris-qt-data mà vẫn phải sửa:
+
+    core.rcc         thêm "Tiếng Việt" vào LanguageList.qml — thiếu bước này thì
+                     GCompris từ chối locale vi_VN và quay về ngôn ngữ hệ thống,
+                     kể cả khi gọi bằng tham số --locale
+    activities.rcc   thêm tên mini app vào activities_out.txt
+    menu.rcc         thêm mục "Làng Maker" vào hàng biểu tượng
+    geography.rcc    thêm quần đảo Hoàng Sa và Trường Sa vào bản đồ Việt Nam
+    geo-country.rcc  thêm bản đồ hành chính 34 tỉnh thành
+
+Không đóng bản đã vá vào .deb được: dpkg từ chối hai gói cùng giữ một đường dẫn.
+Nên gói này dùng dpkg-divert. postinst đẩy bản gốc sang <tệp>.orig rồi ghi bản
+vá vào chỗ cũ. Bản vá KHÔNG thuộc gói nào — dpkg không quản, không xoá hộ.
+
+Nâng đời gcompris-qt-data thì dpkg ghi bản gốc MỚI vào .orig. Trigger
+`interest-noawait /usr/share/gcompris-qt/rcc` gọi lại postinst, postinst chạy
+/usr/share/gcompris-vi/va_lai.sh, vá lại từ bản gốc mới. Bản việt hóa không mất.
+
+Mỗi lần vá đều bung .rcc ra, đóng lại y nguyên, bung lần nữa rồi so từng byte
+trước khi sửa bất cứ thứ gì. Không khớp là dừng, không ghi đè.
+
+Máy đã cài tay bằng deploy/install_vi.sh
+---------------------------------------
+Lúc đó <tệp>.orig đã có sẵn và mới là bản gốc, còn <tệp> đã bị sửa. postinst
+nhận ra và trả .orig về chỗ cũ trước khi đặt chuyển hướng, nếu không dpkg-divert
+sẽ cất nhầm bản đã vá đi làm bản gốc.
+
+Gỡ gói
+------
+postrm xoá bản vá rồi `dpkg-divert --remove --rename` trả bản gốc về. Máy trở
+lại GCompris nguyên bản.
+
+Chưa có trong gói
+-----------------
+Kho giọng đọc. Mới xong 202/888 tệp và không nằm trong kho git (thư mục build/).
+Khi nào đủ thì đóng thành gói riêng gcompris-vi-voices và cài vào
+/usr/share/gcompris-qt/rcc/data2/voices-ogg/ (GCompris 3.1) và data3 (4.x, 26.x)
+— DownloadManager::getSystemResourcePaths() tra thư mục hệ thống TRƯỚC bộ nhớ
+đệm của người dùng, nên bản trong /usr/share luôn thắng và CDN không ghi đè được.
+Tạm thời vẫn dùng deploy/install_vi.sh cho kho giọng.
+
+Đặt ngôn ngữ
+------------
+Gói không đụng vào cấu hình của người dùng (~/.config/gcompris/gcompris-qt.conf)
+vì .deb cài cho cả máy còn tệp đó của từng người. Đặt locale hệ thống thành
+vi_VN.UTF-8 trong /etc/default/locale là đủ: GCompris để locale ở "system" sẽ
+lấy theo QLocale::system() và bỏ qua luôn cửa ải LanguageList.
